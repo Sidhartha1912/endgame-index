@@ -140,6 +140,7 @@
         <h2 class="m-only">${esc(H.headlines[li] || "")}</h2>
         <div class="links m-only"><a href="#/summary/${H.end}">Today’s story ›</a><a href="#/scoring">How it’s scored ›</a></div>
       </section>
+      <a class="hero-byline d-only-block" href="https://www.linkedin.com/in/sidhartha-rajput/" target="_blank" rel="noopener noreferrer">By Sidhartha Rajput</a>
       <div class="ticker" id="ticker">
         <span class="ticker-label">Latest</span>
         <div class="ticker-viewport"><div class="ticker-track" style="--dur:${Math.max(40, tick.length * 7)}s">${tickHTML}<span class="ticker-dup" aria-hidden="true">${tickHTML.replace(/<a /g, '<a tabindex="-1" ')}</span></div></div>
