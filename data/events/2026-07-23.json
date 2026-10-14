@@ -1,0 +1,25 @@
+[
+ {
+  "id": "2026-07-23-01",
+  "title": "Telefonica Germany confirms 1,100 job cuts as it intensifies AI use",
+  "summary": "O2 Germany will cut more than 1,100 jobs by end-2026, citing greater use of AI in key processes, and close 60 shops.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "EU",
+  "reason": "AI-cited layoffs at a major European telecom.",
+  "sources": [
+   "https://www.datacenterdynamics.com/en/news/telef%C3%B3nica-germany-confirms-plans-to-cut-1100-jobs-as-ai-processes-take-shape/"
+  ]
+ }
+]

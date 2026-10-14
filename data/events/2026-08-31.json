@@ -1,0 +1,214 @@
+[
+ {
+  "id": "2026-08-31-01",
+  "title": "EU designates ChatGPT a Very Large Online Search Engine under the DSA",
+  "summary": "The European Commission placed ChatGPT (with Reddit and Roblox) under the DSA's strictest tier, requiring systemic-risk assessments, mitigation and researcher data access within four months.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   },
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "EU",
+  "reason": "First binding EU systemic-risk regime applied to a frontier chatbot.",
+  "sources": [
+   "https://digital-strategy.ec.europa.eu/en/news/commission-designates-chatgpt-reddit-roblox-under-digital-services-act",
+   "https://www.euronews.com/next/2026/08/31/eu-places-chatgpt-reddit-and-roblox-under-strictest-digital-safety-rules"
+  ]
+ },
+ {
+  "id": "2026-08-31-02",
+  "title": "Data-center backlash: Trump warns holdouts as ~$130B of projects face protests",
+  "summary": "Trump warned communities rejecting data centres would fall behind China, while Sam Altman acknowledged 'people hate data centers' with about $130B of projects facing protests, delays or cancellations.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "signal",
+  "region": "US",
+  "reason": "Evidence of widespread local opposition; from newsletter digest.",
+  "sources": [
+   "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-august-31-2026/"
+  ]
+ },
+ {
+  "id": "2026-08-31-03",
+  "title": "Meta to pay up to $18B to settle multistate child-safety suits",
+  "summary": "Meta agreed to pay up to $18 billion over a decade to settle state child-safety lawsuits and add default teen usage limits.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Major tech accountability outcome; mostly social media, so T1. Source is a digest.",
+  "sources": [
+   "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-august-31-2026/"
+  ]
+ },
+ {
+  "id": "2026-08-31-04",
+  "title": "SB Energy plans 10GW Ohio AI campus, gives OpenAI $5.5B in warrants",
+  "summary": "SoftBank-owned SB Energy granted OpenAI warrants worth about $5.5B with a 20-year lease for a planned 10GW Ohio campus powered mostly by new gas.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Further compute scale-up for one lab.",
+  "sources": [
+   "https://aiweekly.co/ai-news-today/edition/2026-08-31"
+  ]
+ },
+ {
+  "id": "2026-08-31-05",
+  "title": "Bank of England's Bailey warns G20 frontier AI is changing cyber risk",
+  "summary": "Bank of England Governor Andrew Bailey told G20 finance ministers that frontier AI could change financial-sector cyber risk.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "UK",
+  "reason": "Official warning; words only.",
+  "sources": [
+   "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-august-31-2026/"
+  ]
+ },
+ {
+  "id": "2026-08-31-06",
+  "title": "UK opens first competitions in £100M sovereign AI procurement scheme",
+  "summary": "The UK launched the first competitions under a £100M programme to buy AI from domestic firms.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "UK",
+  "reason": "Small sovereign-capacity push.",
+  "sources": [
+   "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-august-31-2026/"
+  ]
+ },
+ {
+  "id": "2026-08-31-07",
+  "title": "China state-media-linked account rebukes Anthropic before US-China AI talks",
+  "summary": "A CCTV-linked account criticised Anthropic ahead of planned US-China AI talks.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "China",
+  "reason": "Hostile rhetoric before bilateral talks; minor.",
+  "sources": [
+   "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-august-31-2026/"
+  ]
+ },
+ {
+  "id": "2026-08-31-08",
+  "title": "NHS watchdog: AI scribes get drug names and diagnoses wrong",
+  "summary": "Healthwatch England reported errors in AI-generated medical records, including a confused drug name and a misreported diagnosis.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "UK",
+  "reason": "Public-sector warning on AI reliability in health.",
+  "sources": [
+   "https://www.theguardian.com/society/2026/aug/31/doctors-ai-scribes-get-names-of-drugs-and-diagnoses-wrong-nhs-watchdog-warns"
+  ]
+ },
+ {
+  "id": "2026-08-31-09",
+  "title": "Thailand's TH-AI Passport national AI-skills platform goes live",
+  "summary": "Thailand launched a national platform giving citizens 15+ access to 33 AI models and 96+ training courses, with free introductory access.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "Other",
+  "reason": "Public AI access and reskilling programme; single blog source.",
+  "sources": [
+   "https://www.grandlinux.com/en/blogs/ai-august-2569-roundup.html"
+  ]
+ }
+]

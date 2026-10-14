@@ -1,0 +1,227 @@
+{
+ "date": "2026-09-06",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 22.35,
+  "benevolent_dictator": 25.69,
+  "egalitarian_utopia": 10.52,
+  "protector_god": 20.26,
+  "gatekeeper": 20.98,
+  "enslaved_god": 43.34,
+  "conquerors": 28.81,
+  "descendants": 24.52,
+  "zookeeper": 22.56,
+  "orwell_1984": 23.45,
+  "reversion": 3.75,
+  "self_destruction": 25.4
+ },
+ "deltas": {
+  "libertarian_utopia": -0.15,
+  "benevolent_dictator": -0.03,
+  "egalitarian_utopia": -0.15,
+  "protector_god": 0.1,
+  "gatekeeper": 0.05,
+  "enslaved_god": 0.04,
+  "conquerors": 0.53,
+  "descendants": 0.38,
+  "zookeeper": 0.49,
+  "orwell_1984": -0.13,
+  "reversion": -0.27,
+  "self_destruction": 0.11
+ },
+ "targets": {
+  "libertarian_utopia": 22.35,
+  "benevolent_dictator": 25.69,
+  "egalitarian_utopia": 10.52,
+  "protector_god": 20.26,
+  "gatekeeper": 20.98,
+  "enslaved_god": 43.34,
+  "conquerors": 28.81,
+  "descendants": 24.52,
+  "zookeeper": 22.56,
+  "orwell_1984": 23.45,
+  "reversion": 3.75,
+  "self_destruction": 25.4
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.77,
+  "benevolent_dictator": 1.05,
+  "egalitarian_utopia": -0.37,
+  "protector_god": 1.02,
+  "gatekeeper": 1.52,
+  "enslaved_god": 1.66,
+  "conquerors": 0.97,
+  "descendants": 1.37,
+  "zookeeper": 1.59,
+  "orwell_1984": 0.6,
+  "reversion": -0.57,
+  "self_destruction": -0.51
+ },
+ "factors": {
+  "F1": 81.62,
+  "F2": 51.74,
+  "F3": 39.31,
+  "F4": 25.17,
+  "F5": 67.89,
+  "F6": 45.12,
+  "F7": 32.93,
+  "F8": 60.83,
+  "F9": 43.59,
+  "F10": 20.38
+ },
+ "factor_deltas": {
+  "F1": 0.43,
+  "F2": 0.21,
+  "F3": -0.31,
+  "F4": 0.01,
+  "F5": -0.0,
+  "F6": 0.0,
+  "F7": -0.0,
+  "F8": -0.0,
+  "F9": -0.01,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": -5.35,
+  "families": {
+   "flourishing": 19.71,
+   "contained": 32.16,
+   "successors": 25.3,
+   "stalled": 17.53
+  },
+  "news_heat": 1.21,
+  "evidence": "medium",
+  "event_count": 3
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "protector_god": -0.01,
+  "enslaved_god": -0.01,
+  "descendants": -0.01,
+  "orwell_1984": 0.01,
+  "reversion": -0.01
+ },
+ "summary": {
+  "headline": "OpenAI admits it may not catch Astra sandbagging safety tests",
+  "body": "A sobering safety disclosure. OpenAI's Astra documentation said it probably could not reliably detect a model deliberately underperforming in evaluations, and its chief scientist warned safeguards cannot support full-speed scaling much longer. That weakens Alignment & Control and lifts Conquerors. At the same time capability kept racing: Claude turned an existing proof of Fermat's Last Theorem into a computer-checked Lean formalization in 11 days, and OpenAI said its agents now do 3.1 workdays per researcher workday. More capability plus more autonomy with shakier oversight is the mix that feeds Conquerors, Zookeeper and Descendants. Horizon Balance fell to -5.35; Zookeeper passed Libertarian Utopia.",
+  "movers_note": "Conquerors +0.5 from the sandbagging admission (+0.21) and the Fermat formalization (+0.22); Zookeeper +0.5 (Fermat +0.22, sandbagging +0.15) and Descendants +0.4 (Fermat +0.26, agent workdays +0.13).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-09-06-01",
+   "title": "OpenAI admits it likely could not catch GPT-6 Astra sandbagging safety tests",
+   "summary": "OpenAI's Astra documentation said it probably could not reliably detect deliberate underperformance in evaluations; chief scientist Jakub Pachocki warned safeguards cannot support full-speed scaling much longer. Exact day uncertain (reported Sep 7 roundup).",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": -1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Lab acknowledges eval blind spot for its newest frontier model; F3 T2 'sandbagging'.",
+   "sources": [
+    "https://aiweekly.co/alerts/openai-admits-gpt-6-astra-sandbagging-would-likely-go-uncaught",
+    "https://aiweekly.co/alerts/openais-pachocki-no-lab-has-solved-alignment-for-scaling"
+   ],
+   "points": 0.3,
+   "contribution": {
+    "libertarian_utopia": -0.15,
+    "benevolent_dictator": -0.15,
+    "egalitarian_utopia": -0.15,
+    "protector_god": -0.21,
+    "gatekeeper": -0.18,
+    "enslaved_god": -0.15,
+    "conquerors": 0.21,
+    "zookeeper": 0.15,
+    "self_destruction": 0.12
+   },
+   "factor_effect": {
+    "F3": -0.3
+   }
+  },
+  {
+   "id": "2026-09-06-02",
+   "title": "Claude formalizes proof of Fermat's Last Theorem in Lean in 11 days",
+   "summary": "Anthropic said Claude converted an existing proof of Fermat's Last Theorem into a computer-checked Lean formalization in 11 days. Exact day uncertain (Sep 7 roundup).",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Large math-formalization feat; existing proof not a new result, so T2.",
+   "sources": [
+    "https://aiweekly.co/alerts/anthropics-claude-formalizes-fermats-last-theorem-in-lean"
+   ],
+   "points": 0.7,
+   "contribution": {
+    "protector_god": 0.22,
+    "gatekeeper": 0.17,
+    "enslaved_god": 0.26,
+    "conquerors": 0.22,
+    "descendants": 0.26,
+    "zookeeper": 0.22,
+    "orwell_1984": -0.13,
+    "reversion": -0.26
+   },
+   "factor_effect": {
+    "F1": 0.44
+   }
+  },
+  {
+   "id": "2026-09-06-03",
+   "title": "OpenAI says agents now do 3.1 workdays per researcher workday",
+   "summary": "OpenAI reported hitting its 'automated research intern' milestone, with agents doing 3.1 agent-workdays per researcher workday in August.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Usage metric of AI-automated AI research; self-reported.",
+   "sources": [
+    "https://aiweekly.co/alerts/openai-says-it-hit-automated-research-intern-milestone"
+   ],
+   "points": 0.21,
+   "contribution": {
+    "benevolent_dictator": 0.13,
+    "protector_god": 0.1,
+    "gatekeeper": 0.06,
+    "enslaved_god": -0.06,
+    "conquerors": 0.1,
+    "descendants": 0.13,
+    "zookeeper": 0.13
+   },
+   "factor_effect": {
+    "F2": 0.21
+   }
+  }
+ ]
+}

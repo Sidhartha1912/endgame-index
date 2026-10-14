@@ -1,0 +1,25 @@
+[
+ {
+  "id": "2026-08-05-01",
+  "title": "JPMorgan's Dimon launches cross-industry AI risk alliance",
+  "summary": "Jamie Dimon is expanding the Alliance for Critical Infrastructure into a 40+ organization effort with the US government to anticipate AI risks.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "US",
+  "reason": "Private-sector risk coordination; early stage.",
+  "sources": [
+   "https://www.reuters.com/world/jpmorgan-ceo-dimon-leads-new-cross-industry-effort-tackle-ai-risks-2026-08-05/"
+  ]
+ }
+]

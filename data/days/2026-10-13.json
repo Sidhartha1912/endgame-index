@@ -1,0 +1,187 @@
+{
+ "date": "2026-10-13",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 17.83,
+  "benevolent_dictator": 22.83,
+  "egalitarian_utopia": 5.64,
+  "protector_god": 17.41,
+  "gatekeeper": 18.73,
+  "enslaved_god": 40.78,
+  "conquerors": 36.33,
+  "descendants": 26.95,
+  "zookeeper": 27.38,
+  "orwell_1984": 22.89,
+  "reversion": 5.94,
+  "self_destruction": 32.03
+ },
+ "deltas": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.01,
+  "egalitarian_utopia": -0.11,
+  "protector_god": 0.02,
+  "gatekeeper": 0.02,
+  "enslaved_god": 0.02,
+  "conquerors": 0.04,
+  "descendants": 0.03,
+  "zookeeper": 0.04,
+  "orwell_1984": -0.01,
+  "reversion": -0.04,
+  "self_destruction": -0.0
+ },
+ "targets": {
+  "libertarian_utopia": 17.83,
+  "benevolent_dictator": 22.83,
+  "egalitarian_utopia": 5.64,
+  "protector_god": 17.41,
+  "gatekeeper": 18.73,
+  "enslaved_god": 40.78,
+  "conquerors": 36.33,
+  "descendants": 26.95,
+  "zookeeper": 27.38,
+  "orwell_1984": 22.89,
+  "reversion": 5.94,
+  "self_destruction": 32.03
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.42,
+  "benevolent_dictator": 0.03,
+  "egalitarian_utopia": -0.5,
+  "protector_god": 0.65,
+  "gatekeeper": 0.52,
+  "enslaved_god": 0.68,
+  "conquerors": 1.23,
+  "descendants": 1.17,
+  "zookeeper": 0.93,
+  "orwell_1984": -0.37,
+  "reversion": 0.32,
+  "self_destruction": 1.04
+ },
+ "factors": {
+  "F1": 84.18,
+  "F2": 52.82,
+  "F3": 32.82,
+  "F4": 25.6,
+  "F5": 67.01,
+  "F6": 45.56,
+  "F7": 32.3,
+  "F8": 64.69,
+  "F9": 45.78,
+  "F10": 20.68
+ },
+ "factor_deltas": {
+  "F1": 0.06,
+  "F2": -0.0,
+  "F3": -0.02,
+  "F4": 0.01,
+  "F5": -0.01,
+  "F6": 0.0,
+  "F7": -0.14,
+  "F8": -0.0,
+  "F9": -0.0,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": -13.73,
+  "families": {
+   "flourishing": 15.93,
+   "contained": 29.76,
+   "successors": 30.22,
+   "stalled": 20.29
+  },
+  "news_heat": 0.29,
+  "evidence": "low",
+  "event_count": 2
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.01,
+  "protector_god": -0.02,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.02,
+  "conquerors": 0.01,
+  "descendants": -0.02,
+  "orwell_1984": 0.01
+ },
+ "summary": {
+  "headline": "IMF flags AI share crash; Anthropic nears Japan data centre",
+  "body": "A quiet day. The IMF named an AI equity correction as one of three top risks to global financial stability, a small knock to Shared Prosperity that trims Egalitarian Utopia. NTT Data entered final talks to build a 500MW data centre in Osaka for Anthropic, with partial operations targeted for 2028, a slight boost to capability. Horizon Balance ended at -13.73.",
+  "movers_note": "Egalitarian Utopia -0.1, from the IMF warning (-0.10); every other ending moved by less than 0.1.",
+  "coming_up": [
+   "2028: partial operations targeted for Anthropic's Osaka data center with NTT Data"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-10-13-01",
+   "title": "NTT Data in final talks to build Anthropic's first Japan data center",
+   "summary": "NTT Data is in final talks to build a 500MW, up to ¥1T ($6.3B) data center in Osaka for Anthropic, with partial operations targeted for 2028.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "Other",
+   "reason": "Compute expansion in Japan; deal not yet signed.",
+   "sources": [
+    "https://asia.nikkei.com/business/technology/artificial-intelligence/ntt-to-build-first-data-center-for-anthropic-in-japan"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "protector_god": 0.04,
+    "gatekeeper": 0.03,
+    "enslaved_god": 0.05,
+    "conquerors": 0.04,
+    "descendants": 0.05,
+    "zookeeper": 0.04,
+    "orwell_1984": -0.02,
+    "reversion": -0.05
+   },
+   "factor_effect": {
+    "F1": 0.08
+   }
+  },
+  {
+   "id": "2026-10-13-02",
+   "title": "IMF flags AI share crash as a top threat to global financial stability",
+   "summary": "The IMF's Global Financial Stability Report named an AI equity correction as one of three top risks, noting heavy non-US exposure to US AI assets.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F7",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "Global",
+   "reason": "Warning that AI gains are concentrated and fragile; signal. Original outlet (The Guardian/IMF GFSR) cited via aggregator; direct link not captured.",
+   "sources": [
+    "https://aiweekly.co/ai-news-today/edition/2026-10-13"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "egalitarian_utopia": -0.1
+   },
+   "factor_effect": {
+    "F7": -0.15
+   }
+  }
+ ]
+}

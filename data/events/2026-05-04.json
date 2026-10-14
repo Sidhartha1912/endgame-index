@@ -1,0 +1,30 @@
+[
+ {
+  "id": "2026-05-04-01",
+  "title": "White House weighs pre-release government vetting of frontier AI models",
+  "summary": "The NYT reported the Trump administration is considering an executive order for government review of new AI models before release, prompted by Anthropic's Mythos cyber capabilities.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   },
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Reported deliberations, not action; reversal of hands-off stance.",
+  "sources": [
+   "https://www.freemalaysiatoday.com/category/world/2026/05/05/white-house-weighs-vetting-ai-models-before-public-release",
+   "https://axios.com/2026/05/05/trump-anthropic-ai-regulation-mythos-cyber"
+  ]
+ }
+]

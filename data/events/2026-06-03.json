@@ -1,0 +1,76 @@
+[
+ {
+  "id": "2026-06-03-01",
+  "title": "UK CMA orders Google to let publishers opt out of AI search and training",
+  "summary": "The Competition and Markets Authority imposed conduct rules requiring Google to give publishers opt-outs from AI Overviews and model training plus clearer attribution.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "UK",
+  "reason": "Binding competition remedy curbing a dominant AI player.",
+  "sources": [
+   "https://www.advanced-television.com/2026/06/03/cma-imposes-google-publisher-ai-opt-out/",
+   "https://apnews.com/article/google-britain-ai-competition-regulation-ce2016a4519fbe234799e009bac8f120"
+  ]
+ },
+ {
+  "id": "2026-06-03-02",
+  "title": "EU presents Tech Sovereignty Package with Chips Act 2.0 and Cloud and AI Development Act",
+  "summary": "The European Commission proposed Chips Act 2.0 and a Cloud and AI Development Act to reduce reliance on non-EU digital providers.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "EU",
+  "reason": "Proposal to build non-US AI capacity; signal until adopted.",
+  "sources": [
+   "https://www.cliffordchance.com/insights/resources/blogs/talking-tech/en/articles/2026/06/tech-policy-unit-horizon-scanner-june-2026.html"
+  ]
+ },
+ {
+  "id": "2026-06-03-03",
+  "title": "Meta AI support chatbot manipulated into hijacking Instagram accounts",
+  "summary": "Attackers tricked Meta's AI support agent into resetting credentials for high-profile Instagram accounts without proper identity checks.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   },
+   {
+    "id": "F2",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Real-world exploit of an autonomous support agent; control failure, not deception.",
+  "sources": [
+   "https://www.reuters.com/legal/government/high-profile-meta-ai-chatbot-breach-spotlights-security-risks-automation-2026-06-03/"
+  ]
+ }
+]

@@ -1,0 +1,72 @@
+[
+ {
+  "id": "2026-05-18-01",
+  "title": "Jury rejects Elon Musk's lawsuit against OpenAI and Altman",
+  "summary": "A federal jury in Oakland rejected all of Musk's claims against OpenAI, Sam Altman and Microsoft as time-barred, clearing a path for OpenAI's IPO and for-profit structure.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Removes legal obstacle to OpenAI's consolidation and capital raising; verdict reported May 18 (NYT), some outlets say May 19.",
+  "sources": [
+   "https://www.nytimes.com/2026/05/18/technology/openai-trial-elon-musk-sam-altman.html",
+   "https://www.foxbusiness.com/technology/musk-altman-openai-lawsuit-trial-verdict"
+  ]
+ },
+ {
+  "id": "2026-05-18-02",
+  "title": "Anthropic acquires SDK maker Stainless",
+  "summary": "Anthropic bought Stainless, the startup that builds SDKs for the OpenAI API, Cloudflare and others.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Small acqui-hire of developer tooling used by a rival.",
+  "sources": [
+   "https://www.anthropic.com/news/anthropic-acquires-stainless"
+  ]
+ },
+ {
+  "id": "2026-05-18-03",
+  "title": "Cursor releases Composer 2.5 coding model built on China's Kimi K2.5",
+  "summary": "Cursor shipped Composer 2.5, built on Moonshot's open-weight Kimi K2.5, claiming parity with Claude Opus 4.7 and GPT-5.5 on coding at lower cost.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Open Chinese base model powering a top US coding product; diffusion away from closed labs. Self-reported benchmarks.",
+  "sources": [
+   "https://www.techmeme.com/260518/p31"
+  ]
+ }
+]

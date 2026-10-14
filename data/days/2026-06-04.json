@@ -1,0 +1,198 @@
+{
+ "date": "2026-06-04",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 28.8,
+  "benevolent_dictator": 24.2,
+  "egalitarian_utopia": 15.83,
+  "protector_god": 17.91,
+  "gatekeeper": 18.61,
+  "enslaved_god": 40.05,
+  "conquerors": 19.46,
+  "descendants": 18.33,
+  "zookeeper": 13.5,
+  "orwell_1984": 23.93,
+  "reversion": 4.36,
+  "self_destruction": 19.85
+ },
+ "deltas": {
+  "libertarian_utopia": 0.55,
+  "benevolent_dictator": 0.46,
+  "egalitarian_utopia": 0.54,
+  "protector_god": 0.7,
+  "gatekeeper": 0.32,
+  "enslaved_god": 0.44,
+  "conquerors": -0.7,
+  "descendants": -0.01,
+  "zookeeper": -0.54,
+  "orwell_1984": -0.2,
+  "reversion": -0.02,
+  "self_destruction": -0.2
+ },
+ "targets": {
+  "libertarian_utopia": 28.8,
+  "benevolent_dictator": 24.2,
+  "egalitarian_utopia": 15.83,
+  "protector_god": 17.91,
+  "gatekeeper": 18.61,
+  "enslaved_god": 40.05,
+  "conquerors": 19.46,
+  "descendants": 18.33,
+  "zookeeper": 13.5,
+  "orwell_1984": 23.93,
+  "reversion": 4.36,
+  "self_destruction": 19.85
+ },
+ "momentum_7d": {
+  "libertarian_utopia": 1.27,
+  "benevolent_dictator": 0.82,
+  "egalitarian_utopia": 1.14,
+  "protector_god": 1.38,
+  "gatekeeper": 0.94,
+  "enslaved_god": 0.76,
+  "conquerors": -1.4,
+  "descendants": 0.12,
+  "zookeeper": -1.12,
+  "orwell_1984": -0.28,
+  "reversion": 0.32,
+  "self_destruction": -0.69
+ },
+ "factors": {
+  "F1": 74.68,
+  "F2": 48.43,
+  "F3": 43.53,
+  "F4": 23.55,
+  "F5": 64.17,
+  "F6": 45.72,
+  "F7": 32.94,
+  "F8": 56.58,
+  "F9": 41.73,
+  "F10": 20.33
+ },
+ "factor_deltas": {
+  "F1": -0.01,
+  "F2": 0.0,
+  "F3": 1.0,
+  "F4": -0.4,
+  "F5": -0.1,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.0,
+  "F9": -0.02,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": 2.5,
+  "families": {
+   "flourishing": 21.69,
+   "contained": 29.33,
+   "successors": 17.1,
+   "stalled": 16.05
+  },
+  "news_heat": 1.6,
+  "evidence": "medium",
+  "event_count": 2
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": 0.01,
+  "protector_god": 0.01,
+  "enslaved_god": 0.01,
+  "conquerors": -0.01,
+  "descendants": -0.01,
+  "orwell_1984": 0.01,
+  "reversion": -0.02
+ },
+ "summary": {
+  "headline": "Bipartisan US bill would require frontier AI safety frameworks",
+  "body": "Two House members, Jay Obernolte and Lori Trahan, released a 269-page draft 'Great American AI Act'. It would require large frontier developers to publish safety frameworks, report critical incidents and undergo audits, while overriding state frontier-AI laws for three years; unions opposed it. Mandatory safety work strengthens Alignment & Control, lifting Protector God and Libertarian Utopia and pushing Conquerors down. Overriding state laws counts as a step back for Global Coordination. Nvidia also released an open-weight 550B model, Nemotron 3 Ultra, slightly spreading power. Benevolent Dictator overtook 1984 for third place. Horizon Balance rose 0.97 to 2.5.",
+  "movers_note": "Protector God +0.7 and Conquerors -0.7, from the Great American AI Act draft (+0.69/-0.69); Libertarian Utopia +0.6 from the draft (+0.50) and Nemotron 3 Ultra (+0.06).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-06-04-01",
+   "title": "Bipartisan 'Great American AI Act' draft would preempt state laws and require frontier safety frameworks",
+   "summary": "Reps. Obernolte and Trahan released a 269-page draft requiring large frontier developers to publish safety frameworks, report critical incidents and undergo audits, while preempting state frontier-AI laws for three years; unions opposed it.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": 1
+    },
+    {
+     "id": "F4",
+     "dir": -1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "US",
+   "reason": "Proposed federal oversight (up) paired with state-law preemption; discussion draft so signal.",
+   "sources": [
+    "https://obernolte.house.gov/media/press-releases/obernolte-trahan-release-discussion-draft-great-american-ai-act",
+    "https://www.axios.com/2026/06/04/house-draft-bill-regulate-ai",
+    "https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/"
+   ],
+   "points": 1.0,
+   "contribution": {
+    "libertarian_utopia": 0.5,
+    "benevolent_dictator": 0.5,
+    "egalitarian_utopia": 0.5,
+    "protector_god": 0.69,
+    "gatekeeper": 0.32,
+    "enslaved_god": 0.5,
+    "conquerors": -0.69,
+    "zookeeper": -0.5,
+    "orwell_1984": -0.16,
+    "self_destruction": -0.2
+   },
+   "factor_effect": {
+    "F3": 0.99,
+    "F4": -0.4
+   }
+  },
+  {
+   "id": "2026-06-04-02",
+   "title": "Nvidia releases open-weight Nemotron 3 Ultra (550B MoE)",
+   "summary": "Nvidia shipped Nemotron 3 Ultra, a 550B-parameter open-weight mixture-of-experts model, on Hugging Face and its NIM platform.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Mid/large open-weights release, reportedly still behind Kimi K2.6.",
+   "sources": [
+    "https://aitoolsrecap.com/Blog/AINewsJune2026.aspx"
+   ],
+   "points": 0.1,
+   "contribution": {
+    "libertarian_utopia": 0.06,
+    "benevolent_dictator": -0.05,
+    "egalitarian_utopia": 0.04,
+    "enslaved_god": -0.06,
+    "zookeeper": -0.04,
+    "orwell_1984": -0.04
+   },
+   "factor_effect": {
+    "F5": -0.1
+   }
+  }
+ ]
+}

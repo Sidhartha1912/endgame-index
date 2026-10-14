@@ -1,0 +1,25 @@
+[
+ {
+  "id": "2026-07-13-01",
+  "title": "Indianapolis committee advances data-center moratorium amid protests",
+  "summary": "A city council committee voted 10-3 to pause new data-center approvals until end-2027; at least 17 Indiana counties have temporary moratoriums and two have bans.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "local",
+  "track": "structural",
+  "region": "US",
+  "reason": "Growing local backlash to AI infrastructure.",
+  "sources": [
+   "https://www.wfyi.org/wfyi-news/2026-07-13/data-center-moratorium-advances-for-indianapolis"
+  ]
+ }
+]

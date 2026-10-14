@@ -1,0 +1,48 @@
+[
+ {
+  "id": "2026-08-11-01",
+  "title": "Anthropic to watermark all Claude-generated text to meet EU code",
+  "summary": "Anthropic said models released after Aug 2 will watermark text and files (C2PA), joining Google, Meta, Microsoft and OpenAI under the EU AI Act Transparency Code.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "EU",
+  "reason": "Frontier lab compliance with EU rules.",
+  "sources": [
+   "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/"
+  ]
+ },
+ {
+  "id": "2026-08-11-02",
+  "title": "French publishers ask competition watchdog to act on Google AI summaries",
+  "summary": "A French press group said Google's AI summaries cut publisher traffic by 33-38% without consent or pay and sought antitrust action.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "EU",
+  "reason": "Antitrust pressure on a dominant AI platform; complaint only.",
+  "sources": [
+   "https://www.reuters.com/world/french-media-asks-french-anti-trust-watchdog-act-googles-ai-2026-08-11/"
+  ]
+ }
+]

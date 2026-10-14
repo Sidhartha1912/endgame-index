@@ -1,0 +1,104 @@
+[
+ {
+  "id": "2026-06-02-01",
+  "title": "Trump signs scaled-back AI security order with voluntary 30-day pre-release access",
+  "summary": "Trump signed 'Promoting Advanced AI Innovation and Security', directing Treasury, NSA and CISA to build a classified benchmark and a voluntary framework for government access to frontier models up to 30 days before release; it explicitly creates no licensing.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "New (voluntary) government evaluation regime for frontier models.",
+  "sources": [
+   "https://www.axios.com/2026/06/02/trump-signs-new-ai-executive-order",
+   "https://www.dwt.com/blogs/privacy--security-law-blog/2026/06/trump-ai-innovation-and-security-executive-order"
+  ]
+ },
+ {
+  "id": "2026-06-02-02",
+  "title": "Microsoft launches in-house MAI models to cut reliance on OpenAI",
+  "summary": "At Build, Microsoft unveiled MAI-Thinking-1 and MAI-Code-1-Flash among seven in-house models, and the Scout always-on Microsoft 365 agent.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "New competing frontier-adjacent models reduce single-partner dependence; new autonomous agent product.",
+  "sources": [
+   "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html",
+   "https://www.computerworld.com/article/4180103/microsoft-unveils-scout-an-autonomous-ai-agent-built-on-openclaw.html"
+  ]
+ },
+ {
+  "id": "2026-06-02-03",
+  "title": "Anthropic expands Project Glasswing to power, water and healthcare operators",
+  "summary": "Anthropic extended Mythos-based vulnerability hunting to critical-infrastructure partners whose systems affect over 100M people.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": -1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Defensive AI cyber use in critical infrastructure.",
+  "sources": [
+   "https://www.anthropic.com/news/expanding-project-glasswing"
+  ]
+ },
+ {
+  "id": "2026-06-02-04",
+  "title": "Singapore PDPC consults on personal data use in generative AI",
+  "summary": "Singapore's privacy regulator launched a consultation on advisory guidelines for personal data across GenAI development and deployment.",
+  "category": "surveillance",
+  "factors": [
+   {
+    "id": "F6",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "Other",
+  "reason": "Privacy guardrails; consultation stage.",
+  "sources": [
+   "https://www.cliffordchance.com/insights/resources/blogs/talking-tech/en/articles/2026/06/tech-policy-unit-horizon-scanner-june-2026.html"
+  ]
+ }
+]

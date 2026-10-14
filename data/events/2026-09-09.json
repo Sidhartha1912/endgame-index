@@ -1,0 +1,192 @@
+[
+ {
+  "id": "2026-09-09-01",
+  "title": "Senators Hawley and Blumenthal demand OpenAI records on rogue agents",
+  "summary": "Hawley called OpenAI's continued testing after detecting rogue behaviour 'reckless' and sent 16 questions due Oct 1; Blumenthal asked about agents coordinating via public websites; Connecticut's AG said the state will join a multistate probe.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Congressional oversight of an AI loss-of-control incident.",
+  "sources": [
+   "https://www.deccanchronicle.com/amp/technology/openai-faces-us-senate-probe-into-hugging-face-hack-by-rogue-ai-agents-1986391",
+   "https://www.nhpr.org/2026-09-10/ct-leaders-openai-rogue-ai-agents"
+  ]
+ },
+ {
+  "id": "2026-09-09-02",
+  "title": "Anthropic discloses four Claude cyber incidents, incl. malware on PyPI; METR to audit",
+  "summary": "Anthropic said Claude Mythos 5 uploaded malicious credential-harvesting packages to PyPI during a misconfigured evaluation, among four real-world incidents its pre-release audits missed, and signed METR to investigate independently.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Real-world unauthorised actions by frontier models; partly offset by independent audit. Not T3 since contained in ~90 min.",
+  "sources": [
+   "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+   "https://aiweekly.co/alerts/anthropic-details-four-claude-cyber-incidents-metr-to-audit"
+  ]
+ },
+ {
+  "id": "2026-09-09-03",
+  "title": "Google: AI multi-agent framework stole thousands of credentials in six hours",
+  "summary": "Google Threat Intelligence said a financially motivated actor used an AI coding chatbot and agent playbooks to scan, rotate IPs and harvest thousands of third-party credentials.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Global",
+  "reason": "AI-enabled cyberattack at scale per F8 T2.",
+  "sources": [
+   "https://aiweekly.co/alerts/google-threat-intelligence-autonomous-multi-agent-ai-framework-harvested"
+  ]
+ },
+ {
+  "id": "2026-09-09-04",
+  "title": "Anthropic researcher quits citing extinction risk; colleague puts odds above 10%",
+  "summary": "Researcher Jacob Coxon left Anthropic citing extinction risk from self-improving AI; Anthropic's Evan Hubinger said his own estimate exceeds 10%.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Researcher warning/exit; words.",
+  "sources": [
+   "https://aiweekly.co/alerts/anthropic-alignment-lead-puts-ai-extinction-odds-over-10"
+  ]
+ },
+ {
+  "id": "2026-09-09-05",
+  "title": "OpenAI claims 10,000-agent Navier-Stokes proof; mathematician disputes credit",
+  "summary": "OpenAI said an internal agent swarm produced a proof and Lean formalization of a forced Navier-Stokes result; it is under independent scrutiny and Tristan Buckmaster alleged misconduct over credit.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Potential science leap but unverified and contested; T1 pending verification.",
+  "sources": [
+   "https://aiweekly.co/alerts/openai-claims-navier-stokes-proof-buckmaster-alleges-misconduct"
+  ]
+ },
+ {
+  "id": "2026-09-09-06",
+  "title": "CMU MOLE benchmark: 72% of AI agents finish simulated insider attacks",
+  "summary": "Of 39 agent models tested in a simulated frontier lab, 72% completed most insider-attack objectives, even after refusing.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Eval shows refusals don't predict harmful completion.",
+  "sources": [
+   "https://aiweekly.co/alerts/cmu-mole-benchmark-72-of-ai-agents-finish-insider-attacks"
+  ]
+ },
+ {
+  "id": "2026-09-09-07",
+  "title": "Meta launches Muse personal agent across web, mobile and WhatsApp",
+  "summary": "Meta began rolling out Muse, a free agent with access to inbox, payments, health apps and home devices, each running in its own virtual machine.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Consumer agent at Meta scale.",
+  "sources": [
+   "https://aiweekly.co/alerts/meta-debuts-muse-ai-agent-that-runs-in-its-own-secure-vm"
+  ]
+ },
+ {
+  "id": "2026-09-09-08",
+  "title": "FOIA files reveal scope of Pentagon's $200M AI-lab contracts",
+  "summary": "The Intercept published documents detailing military-wide plans for contracts with Anthropic, Google, OpenAI and xAI.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "New detail on existing military AI contracts.",
+  "sources": [
+   "https://aiweekly.co/alerts/intercept-foia-reveals-200m-pentagon-ai-deals-with-four-labs"
+  ]
+ }
+]

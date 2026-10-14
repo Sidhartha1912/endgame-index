@@ -1,0 +1,183 @@
+{
+ "date": "2026-10-02",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 17.56,
+  "benevolent_dictator": 23.8,
+  "egalitarian_utopia": 6.15,
+  "protector_god": 16.9,
+  "gatekeeper": 18.53,
+  "enslaved_god": 41.11,
+  "conquerors": 34.61,
+  "descendants": 25.46,
+  "zookeeper": 26.79,
+  "orwell_1984": 24.08,
+  "reversion": 5.58,
+  "self_destruction": 30.31
+ },
+ "deltas": {
+  "libertarian_utopia": -0.11,
+  "benevolent_dictator": 0.02,
+  "egalitarian_utopia": -0.07,
+  "protector_god": 0.02,
+  "gatekeeper": -0.0,
+  "enslaved_god": 0.08,
+  "conquerors": 0.01,
+  "descendants": -0.01,
+  "zookeeper": 0.07,
+  "orwell_1984": -0.05,
+  "reversion": 0.0,
+  "self_destruction": -0.0
+ },
+ "targets": {
+  "libertarian_utopia": 17.56,
+  "benevolent_dictator": 23.8,
+  "egalitarian_utopia": 6.15,
+  "protector_god": 16.9,
+  "gatekeeper": 18.53,
+  "enslaved_god": 41.11,
+  "conquerors": 34.61,
+  "descendants": 25.46,
+  "zookeeper": 26.79,
+  "orwell_1984": 24.08,
+  "reversion": 5.58,
+  "self_destruction": 30.31
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -2.56,
+  "benevolent_dictator": -0.18,
+  "egalitarian_utopia": -2.02,
+  "protector_god": -1.73,
+  "gatekeeper": -0.98,
+  "enslaved_god": -0.48,
+  "conquerors": 1.74,
+  "descendants": -0.15,
+  "zookeeper": 1.74,
+  "orwell_1984": 1.1,
+  "reversion": 0.53,
+  "self_destruction": 1.41
+ },
+ "factors": {
+  "F1": 82.49,
+  "F2": 52.63,
+  "F3": 33.4,
+  "F4": 25.87,
+  "F5": 68.68,
+  "F6": 45.46,
+  "F7": 32.86,
+  "F8": 63.45,
+  "F9": 44.89,
+  "F10": 20.23
+ },
+ "factor_deltas": {
+  "F1": -0.02,
+  "F2": -0.0,
+  "F3": -0.02,
+  "F4": 0.02,
+  "F5": 0.17,
+  "F6": -0.15,
+  "F7": 0.01,
+  "F8": -0.0,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -12.85,
+  "families": {
+   "flourishing": 16.1,
+   "contained": 29.82,
+   "successors": 28.95,
+   "stalled": 19.99
+  },
+  "news_heat": 0.33,
+  "evidence": "low",
+  "event_count": 2
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.01,
+  "protector_god": -0.02,
+  "enslaved_god": -0.02,
+  "conquerors": 0.01,
+  "descendants": -0.01,
+  "orwell_1984": 0.01
+ },
+ "summary": {
+  "headline": "Judge tosses publishers' antitrust suits over Google AI Overviews",
+  "body": "A quiet day. Judge Amit Mehta dismissed antitrust suits from Chegg and Penske Media over Google's AI Overviews, ruling that 'an expectation is not an agreement'. Leaving a dominant player unchallenged is a small rise in Power Concentration, lifting Enslaved God. Apple tightened macOS Full Disk Access over AI-agent privacy risks, a small check on surveillance. Horizon Balance slipped to -12.85.",
+  "movers_note": "Enslaved God +0.1 and Libertarian Utopia -0.1 came from the Google ruling (+0.11 and -0.11), with Egalitarian Utopia -0.1 (-0.07).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-10-02-01",
+   "title": "Judge dismisses publishers' antitrust suits over Google AI Overviews",
+   "summary": "Judge Amit Mehta dismissed Chegg and Penske Media antitrust suits over Google's AI Overviews, ruling that 'an expectation is not an agreement'.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Court declines to check a dominant platform's AI product.",
+   "sources": [
+    "https://www.engadget.com/2275023/judge-dismisses-lawsuits-claiming-googles-ai-overviews-siphon-web-traffic/"
+   ],
+   "points": 0.18,
+   "contribution": {
+    "libertarian_utopia": -0.11,
+    "benevolent_dictator": 0.09,
+    "egalitarian_utopia": -0.07,
+    "enslaved_god": 0.11,
+    "zookeeper": 0.07,
+    "orwell_1984": 0.07
+   },
+   "factor_effect": {
+    "F5": 0.18
+   }
+  },
+  {
+   "id": "2026-10-02-02",
+   "title": "Apple tightens macOS Full Disk Access citing AI-agent privacy risks",
+   "summary": "Apple said it is tightening macOS Full Disk Access controls because of new risks from AI agents overreaching into private data.",
+   "category": "surveillance",
+   "factors": [
+    {
+     "id": "F6",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Platform-level privacy protection against agent data collection.",
+   "sources": [
+    "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+    "https://www.thenationalnews.com/future/technology/2026/10/03/apple-to-tighten-mac-privacy-controls-against-ai-agents-after-meta-muse-complaints/"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "benevolent_dictator": -0.06,
+    "protector_god": 0.04,
+    "orwell_1984": -0.13
+   },
+   "factor_effect": {
+    "F6": -0.15
+   }
+  }
+ ]
+}

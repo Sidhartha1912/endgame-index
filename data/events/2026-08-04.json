@@ -1,0 +1,54 @@
+[
+ {
+  "id": "2026-08-04-01",
+  "title": "Oregon Democrats propose three-year moratorium on large data centers",
+  "summary": "State lawmakers proposed pausing new large data centers in Oregon for three years; Salem's council had voted July 27 to develop its own moratorium policy.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "local",
+  "track": "signal",
+  "region": "US",
+  "reason": "Proposal only.",
+  "sources": [
+   "https://oregoncapitalchronicle.com/2026/08/04/democratic-lawmakers-propose-three-year-moratorium-on-new-large-data-centers-in-oregon/",
+   "https://en.wikipedia.org/wiki/Opposition_to_AI_data_centers"
+  ]
+ },
+ {
+  "id": "2026-08-04-02",
+  "title": "Anthropic signs $10B Volta cloud deal and builds in-house chip team",
+  "summary": "Anthropic signed a roughly $10 billion compute deal with Volta, bringing recent compute commitments to about $71B, and confirmed a custom chip design team.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "More compute concentration at a frontier lab.",
+  "sources": [
+   "https://www.datagrom.com/ai-news/anthropic-signs-10b-cloud-deal-with-volta-c2c66b62",
+   "https://www.datagrom.com/ai-news/anthropic-confirms-custom-ai-chip-development-plans-9f35b5c1"
+  ]
+ }
+]

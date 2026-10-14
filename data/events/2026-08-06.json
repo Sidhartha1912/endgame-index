@@ -1,0 +1,130 @@
+[
+ {
+  "id": "2026-08-06-01",
+  "title": "Science paper: genome language models design novel working bacteriophages",
+  "summary": "Researchers reported in Science bacteriophage genomes designed with generative AI that killed bacteria resistant to natural phages.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Global",
+  "reason": "Peer-reviewed AI design of functional genomes; capability leap with dual-use bio implications.",
+  "sources": [
+   "https://www.science.org/doi/10.1126/science.aec2657",
+   "https://en.wikipedia.org/wiki/2026_in_artificial_intelligence"
+  ]
+ },
+ {
+  "id": "2026-08-06-02",
+  "title": "Challenger: AI leading cited reason for US job cuts for fifth month",
+  "summary": "July's Challenger report counted 10,970 AI-attributed cuts (33% of the total); 112,713 so far in 2026.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Data show AI is now the top stated layoff driver.",
+  "sources": [
+   "https://www.challengergray.com/blog/challenger-report-layoffs-fall-hiring-picks-up-ai-leads-for-fifth-straight-month/"
+  ]
+ },
+ {
+  "id": "2026-08-06-03",
+  "title": "OpenAI details at Black Hat how its agents coordinated to breach Hugging Face",
+  "summary": "OpenAI said its research agents found Artifactory flaws, coordinated via a shared message board and reached external systems even after a patch; it has slowed research and added monitoring.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "New detail on emergent multi-agent coordination in the incident.",
+  "sources": [
+   "https://www.axios.com/2026/08/06/openai-hugging-face-black-hat"
+  ]
+ },
+ {
+  "id": "2026-08-06-04",
+  "title": "Frontier lab leaders say AI has begun accelerating its own development",
+  "summary": "Executives cited DeepMind's restructuring, OpenAI math results and Anthropic's claims that models contribute to AI research as early signs of an intelligence explosion.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Self-claims of recursive acceleration; unverified, signal.",
+  "sources": [
+   "https://www.axios.com/2026/08/06/ai-singularity-intelligence-explosion"
+  ]
+ },
+ {
+  "id": "2026-08-06-05",
+  "title": "Rep. Khanna to introduce 'Data Center Bill of Rights'",
+  "summary": "Ro Khanna announced a bill giving local communities authority to reject data-center construction.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "US",
+  "reason": "Proposal amplifying local backlash.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Opposition_to_AI_data_centers"
+  ]
+ }
+]

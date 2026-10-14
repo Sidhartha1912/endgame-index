@@ -1,0 +1,192 @@
+{
+ "date": "2026-08-04",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 25.65,
+  "benevolent_dictator": 25.18,
+  "egalitarian_utopia": 13.2,
+  "protector_god": 18.96,
+  "gatekeeper": 19.85,
+  "enslaved_god": 41.08,
+  "conquerors": 24.63,
+  "descendants": 21.7,
+  "zookeeper": 18.74,
+  "orwell_1984": 23.98,
+  "reversion": 4.27,
+  "self_destruction": 21.77
+ },
+ "deltas": {
+  "libertarian_utopia": -0.05,
+  "benevolent_dictator": 0.04,
+  "egalitarian_utopia": -0.03,
+  "protector_god": 0.05,
+  "gatekeeper": 0.03,
+  "enslaved_god": 0.11,
+  "conquerors": 0.06,
+  "descendants": 0.07,
+  "zookeeper": 0.09,
+  "orwell_1984": -0.01,
+  "reversion": -0.03,
+  "self_destruction": 0.0
+ },
+ "targets": {
+  "libertarian_utopia": 25.65,
+  "benevolent_dictator": 25.18,
+  "egalitarian_utopia": 13.2,
+  "protector_god": 18.96,
+  "gatekeeper": 19.85,
+  "enslaved_god": 41.08,
+  "conquerors": 24.63,
+  "descendants": 21.7,
+  "zookeeper": 18.74,
+  "orwell_1984": 23.98,
+  "reversion": 4.27,
+  "self_destruction": 21.77
+ },
+ "momentum_7d": {
+  "libertarian_utopia": 0.19,
+  "benevolent_dictator": -0.24,
+  "egalitarian_utopia": 0.11,
+  "protector_god": 0.28,
+  "gatekeeper": 0.78,
+  "enslaved_god": -0.48,
+  "conquerors": 0.52,
+  "descendants": 0.41,
+  "zookeeper": 0.34,
+  "orwell_1984": -0.21,
+  "reversion": 0.14,
+  "self_destruction": -0.5
+ },
+ "factors": {
+  "F1": 78.02,
+  "F2": 50.88,
+  "F3": 40.83,
+  "F4": 24.68,
+  "F5": 66.03,
+  "F6": 45.56,
+  "F7": 32.92,
+  "F8": 57.86,
+  "F9": 43.14,
+  "F10": 20.2
+ },
+ "factor_deltas": {
+  "F1": 0.11,
+  "F2": 0.0,
+  "F3": -0.01,
+  "F4": -0.01,
+  "F5": 0.08,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": -0.01,
+  "F9": 0.04,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -1.53,
+  "families": {
+   "flourishing": 20.75,
+   "contained": 30.46,
+   "successors": 21.69,
+   "stalled": 16.67
+  },
+  "news_heat": 0.27,
+  "evidence": "low",
+  "event_count": 2
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "protector_god": -0.01,
+  "gatekeeper": -0.02,
+  "conquerors": 0.01,
+  "zookeeper": 0.01,
+  "reversion": -0.01
+ },
+ "summary": {
+  "headline": "Anthropic signs $10B compute deal; Oregon weighs data-center pause",
+  "body": "A quiet day. Anthropic signed a roughly $10 billion compute deal with Volta and confirmed a custom chip team, raising Capability Velocity and Power Concentration and lifting Enslaved God, Zookeeper and Descendants. Oregon Democrats proposed a three-year pause on large data centers, a small Tech Backlash signal. Horizon Balance slipped to -1.53.",
+  "movers_note": "Enslaved God +0.1, Zookeeper +0.1 and Descendants +0.1 all came from the Anthropic-Volta deal (+0.11, +0.09 and +0.07).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-08-04-01",
+   "title": "Oregon Democrats propose three-year moratorium on large data centers",
+   "summary": "State lawmakers proposed pausing new large data centers in Oregon for three years; Salem's council had voted July 27 to develop its own moratorium policy.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "local",
+   "track": "signal",
+   "region": "US",
+   "reason": "Proposal only.",
+   "sources": [
+    "https://oregoncapitalchronicle.com/2026/08/04/democratic-lawmakers-propose-three-year-moratorium-on-new-large-data-centers-in-oregon/",
+    "https://en.wikipedia.org/wiki/Opposition_to_AI_data_centers"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "reversion": 0.04
+   },
+   "factor_effect": {
+    "F9": 0.04
+   }
+  },
+  {
+   "id": "2026-08-04-02",
+   "title": "Anthropic signs $10B Volta cloud deal and builds in-house chip team",
+   "summary": "Anthropic signed a roughly $10 billion compute deal with Volta, bringing recent compute commitments to about $71B, and confirmed a custom chip design team.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    },
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "More compute concentration at a frontier lab.",
+   "sources": [
+    "https://www.datagrom.com/ai-news/anthropic-signs-10b-cloud-deal-with-volta-c2c66b62",
+    "https://www.datagrom.com/ai-news/anthropic-confirms-custom-ai-chip-development-plans-9f35b5c1"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "libertarian_utopia": -0.04,
+    "benevolent_dictator": 0.04,
+    "egalitarian_utopia": -0.03,
+    "protector_god": 0.06,
+    "gatekeeper": 0.04,
+    "enslaved_god": 0.11,
+    "conquerors": 0.06,
+    "descendants": 0.07,
+    "zookeeper": 0.09,
+    "reversion": -0.07
+   },
+   "factor_effect": {
+    "F1": 0.11,
+    "F5": 0.07
+   }
+  }
+ ]
+}

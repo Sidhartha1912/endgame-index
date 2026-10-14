@@ -1,0 +1,72 @@
+[
+ {
+  "id": "2026-07-17-01",
+  "title": "Xi launches World AI Cooperation Organization at Shanghai WAIC",
+  "summary": "In his first World AI Conference keynote, Xi Jinping announced a Shanghai-based World Artificial Intelligence Cooperation Organization, reportedly with 29 founding countries, and criticized US export curbs.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "New multilateral AI body led by China; adds coordination though as a rival bloc.",
+  "sources": [
+   "https://www.bloomberg.com/news/articles/2026-07-13/xi-to-debut-at-china-s-flagship-ai-summit-as-us-rivalry-heats-up",
+   "https://blog.buildfastwithai.com/ai-news-today-july-18-2026"
+  ]
+ },
+ {
+  "id": "2026-07-17-02",
+  "title": "Tata Electronics sets mid-2028 target for India's first chip fab at Dholera",
+  "summary": "Reports detailed the roughly Rs 91,000 crore Tata-PSMC fab for up to 50,000 wafer starts a month; IT Minister Vaishnaw said operations should start mid-2028.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "signal",
+  "region": "India",
+  "reason": "Adds to sovereign compute and chip supply outside the US/Taiwan; still years away.",
+  "sources": [
+   "https://www.business-standard.com/amp/companies/news/tata-electronics-to-launch-india-s-first-chip-fab-using-older-technology-126071700161_1.html"
+  ]
+ },
+ {
+  "id": "2026-07-17-03",
+  "title": "China claims first commercial invasive brain-chip implant",
+  "summary": "Chinese reports said a brain-computer interface implant had moved from trials to commercial use; details are limited and unverified.",
+  "category": "merge",
+  "factors": [
+   {
+    "id": "F10",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "China",
+  "reason": "BCI commercialisation claim; unverified so T1, D.",
+  "sources": [
+   "https://blog.buildfastwithai.com/ai-news-today-july-17-2026"
+  ]
+ }
+]

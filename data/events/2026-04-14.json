@@ -1,0 +1,100 @@
+[
+ {
+  "id": "2026-04-14-01",
+  "title": "OpenAI releases GPT-5.4-Cyber only to vetted security researchers and agencies",
+  "summary": "OpenAI released a cybersecurity-tuned model with relaxed guardrails but restricted access to vetted defenders and government agencies because of misuse risk.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   },
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Gated release of a dual-use cyber model is a modest control measure; existence of the capability nudges risk.",
+  "sources": [
+   "https://www.humai.blog/ai-news-trends-april-2026-complete-monthly-digest/"
+  ]
+ },
+ {
+  "id": "2026-04-14-02",
+  "title": "Maine legislature passes first statewide moratorium on large data centers",
+  "summary": "Maine's House (79-62) and Senate (21-13) passed a bill pausing approvals for data centers over 20 MW until October 2027 while a council studies grid, bill, air and water impacts.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "First US state legislature to pass a data-center moratorium is a notable backlash milestone; state-level scope.",
+  "sources": [
+   "https://amp.insurancejournal.com/news/east/2026/04/15/866078.htm",
+   "https://news.bloomberglaw.com/daily-labor-report/maine-lawmakers-pass-first-in-nation-data-center-moratorium"
+  ]
+ },
+ {
+  "id": "2026-04-14-03",
+  "title": "Novo Nordisk partners with OpenAI, says AI will slow future hiring",
+  "summary": "Novo Nordisk announced a company-wide OpenAI deployment across drug discovery and operations and said AI would slow future hiring.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "EU",
+  "reason": "Large European employer signalling AI-driven hiring slowdown; words not cuts.",
+  "sources": [
+   "https://www.cnbc.com/2026/04/14/novo-nordisk-openai-ai-drug-discovery-healthcare-nvo.html"
+  ]
+ },
+ {
+  "id": "2026-04-14-04",
+  "title": "CorTec prepares third stroke patient implant of its Brain Interchange BCI",
+  "summary": "German firm CorTec readied its brain-computer interface for a third stroke patient after early results showed improved hand and arm function.",
+  "category": "merge",
+  "factors": [
+   {
+    "id": "F10",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "development",
+  "scope": "local",
+  "track": "structural",
+  "region": "EU",
+  "reason": "Incremental BCI clinical progress outside the US.",
+  "sources": [
+   "https://www.bioworld.com/articles/keyword/23746-synchron-inc",
+   "https://www.mobihealthnews.com/news/cortec-becomes-first-german-bci-company-get-fda-breakthrough-designation"
+  ]
+ }
+]

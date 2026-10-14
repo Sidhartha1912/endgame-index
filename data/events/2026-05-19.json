@@ -1,0 +1,143 @@
+[
+ {
+  "id": "2026-05-19-01",
+  "title": "Google I/O: Gemini 3.5 Flash and Gemini Omni launched",
+  "summary": "Google made Gemini 3.5 Flash the default model across Gemini and Search, launched Gemini Omni (any-input-to-video multimodal model) and said Gemini 3.5 Pro is due in June. Gemini app passed 900M monthly users.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "New frontier-lab model generation with notable gains; mostly Google's own benchmark claims.",
+  "sources": [
+   "https://9to5google.com/2026/05/19/google-io-2026-news/",
+   "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/",
+   "https://techcabal.com/2026/05/19/everything-announced-at-the-google-i-o-2026/"
+  ]
+ },
+ {
+  "id": "2026-05-19-02",
+  "title": "Google launches Gemini Spark 24/7 agent and agent payments protocol",
+  "summary": "Google introduced Gemini Spark, a background agent running on cloud VMs that acts across Gmail/Workspace, plus Managed Agents API and an agent payments protocol letting agents buy on users' behalf within limits.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Agents given standing access and spending authority at consumer scale.",
+  "sources": [
+   "https://9to5google.com/2026/05/19/google-io-2026-news/",
+   "https://techcabal.com/2026/05/19/everything-announced-at-the-google-i-o-2026/"
+  ]
+ },
+ {
+  "id": "2026-05-19-03",
+  "title": "Google unveils TPU 8t/8i, its first dual-chip TPU generation",
+  "summary": "Google announced TPU 8t for training (about 3x raw compute of predecessor) and 8i for inference.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Compute hardware upgrade; vendor claims.",
+  "sources": [
+   "https://techcabal.com/2026/05/19/everything-announced-at-the-google-i-o-2026/"
+  ]
+ },
+ {
+  "id": "2026-05-19-04",
+  "title": "Google, Samsung confirm Android XR AI glasses for fall 2026",
+  "summary": "Google said Gemini-powered Android XR glasses from Samsung with Gentle Monster and Warby Parker frames will ship this fall in audio and display versions.",
+  "category": "merge",
+  "factors": [
+   {
+    "id": "F10",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Always-on AI wearables move human-AI integration closer to the body; consumer device announcement.",
+  "sources": [
+   "https://www.macrumors.com/2026/05/19/google-io-2026-roundup/"
+  ]
+ },
+ {
+  "id": "2026-05-19-05",
+  "title": "SynthID watermark adopted by OpenAI, Kakao and ElevenLabs",
+  "summary": "Google said SynthID has watermarked over 100 billion files and detection is coming to Search and Chrome, with OpenAI, Kakao and ElevenLabs adopting it.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Global",
+  "reason": "Cross-company provenance standard; modest control/trust improvement.",
+  "sources": [
+   "https://techcabal.com/2026/05/19/everything-announced-at-the-google-i-o-2026/"
+  ]
+ },
+ {
+  "id": "2026-05-19-06",
+  "title": "KPMG deploys Claude to 276,000 staff in 138 countries",
+  "summary": "KPMG and Anthropic announced a global alliance and 'Digital Gateway Powered by Claude' covering KPMG's whole workforce.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Global",
+  "reason": "Enterprise lock-in for one frontier lab; incremental.",
+  "sources": [
+   "https://kpmg.com/xx/en/media/press-releases/2026/05/kpmg-and-anthropic-sign-global-alliance-and-launch-digital-gateway-powered-by-claude.html"
+  ]
+ }
+]

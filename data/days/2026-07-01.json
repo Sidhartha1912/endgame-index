@@ -1,0 +1,181 @@
+{
+ "date": "2026-07-01",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 26.87,
+  "benevolent_dictator": 25.69,
+  "egalitarian_utopia": 14.55,
+  "protector_god": 18.83,
+  "gatekeeper": 18.54,
+  "enslaved_god": 42.41,
+  "conquerors": 20.43,
+  "descendants": 19.24,
+  "zookeeper": 15.24,
+  "orwell_1984": 24.1,
+  "reversion": 3.85,
+  "self_destruction": 21.41
+ },
+ "deltas": {
+  "libertarian_utopia": -0.02,
+  "benevolent_dictator": -0.0,
+  "egalitarian_utopia": -0.34,
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.01,
+  "conquerors": 0.01,
+  "descendants": -0.0,
+  "zookeeper": 0.01,
+  "orwell_1984": 0.0,
+  "reversion": -0.01,
+  "self_destruction": 0.01
+ },
+ "targets": {
+  "libertarian_utopia": 26.87,
+  "benevolent_dictator": 25.69,
+  "egalitarian_utopia": 14.55,
+  "protector_god": 18.83,
+  "gatekeeper": 18.54,
+  "enslaved_god": 42.41,
+  "conquerors": 20.43,
+  "descendants": 19.24,
+  "zookeeper": 15.24,
+  "orwell_1984": 24.1,
+  "reversion": 3.85,
+  "self_destruction": 21.41
+ },
+ "momentum_7d": {
+  "libertarian_utopia": 0.19,
+  "benevolent_dictator": 0.37,
+  "egalitarian_utopia": 0.17,
+  "protector_god": 0.85,
+  "gatekeeper": 0.75,
+  "enslaved_god": 0.99,
+  "conquerors": 0.13,
+  "descendants": 0.64,
+  "zookeeper": 0.37,
+  "orwell_1984": -0.17,
+  "reversion": -0.75,
+  "self_destruction": -0.41
+ },
+ "factors": {
+  "F1": 76.06,
+  "F2": 48.65,
+  "F3": 43.71,
+  "F4": 22.43,
+  "F5": 66.69,
+  "F6": 45.74,
+  "F7": 33.0,
+  "F8": 57.55,
+  "F9": 41.66,
+  "F10": 20.27
+ },
+ "factor_deltas": {
+  "F1": -0.0,
+  "F2": 0.0,
+  "F3": -0.02,
+  "F4": 0.0,
+  "F5": 0.01,
+  "F6": 0.0,
+  "F7": -0.47,
+  "F8": 0.0,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": 1.19,
+  "families": {
+   "flourishing": 21.49,
+   "contained": 30.48,
+   "successors": 18.3,
+   "stalled": 16.45
+  },
+  "news_heat": 0.51,
+  "evidence": "medium",
+  "event_count": 2
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.01,
+  "conquerors": 0.01,
+  "zookeeper": 0.01,
+  "reversion": -0.02,
+  "self_destruction": -0.02
+ },
+ "summary": {
+  "headline": "AI tops US layoff reasons for fourth straight month",
+  "body": "A day about jobs. Challenger reported that AI was the top cited reason for US job cuts for the fourth month running: 14,029 of June's 45,849 announced cuts, and 101,743 so far this year. Gains flowing to employers rather than workers weaken Shared Prosperity, which pulls down Egalitarian Utopia, the ending where AI wealth is shared by all. Court emails also showed a Pentagon official calling Anthropic's limits on autonomous weapons and mass surveillance 'just not workable', a small addition to Catastrophic Risk that nudges Self-Destruction. Horizon Balance eased to +1.19.",
+  "movers_note": "Egalitarian Utopia -0.3 was the only real mover, from the Challenger layoffs data (-0.34 from that event); Libertarian Utopia 0.0 was next.",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-07-01-01",
+   "title": "Court emails expose Pentagon-Anthropic clash over autonomous-weapons guardrails",
+   "summary": "Emails disclosed in Anthropic's lawsuit show Under Secretary Emil Michael calling its limits on autonomous weapons and mass surveillance 'just not workable'; Amodei reiterated these as red lines.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "national",
+   "track": "signal",
+   "region": "US",
+   "reason": "Shows military pressure to remove AI weapon safeguards; date approximate (reported week of Jun 30).",
+   "sources": [
+    "https://thenextweb.com/news/anthropic-pentagon-emails-amodei-michael-guardrails",
+    "https://builtin.com/articles/anthropic-pentagon-claude-dispute"
+   ],
+   "points": 0.03,
+   "contribution": {
+    "libertarian_utopia": -0.01,
+    "egalitarian_utopia": -0.01,
+    "conquerors": 0.01,
+    "reversion": 0.01,
+    "self_destruction": 0.03
+   },
+   "factor_effect": {
+    "F8": 0.03
+   }
+  },
+  {
+   "id": "2026-07-01-02",
+   "title": "Challenger: AI the top cited layoff reason for fourth straight month",
+   "summary": "US employers announced 45,849 job cuts in June, 14,029 (31%) attributed to AI; AI-linked cuts reached 101,743 year to date, 23% of all announced cuts.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F7",
+     "dir": -1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Sustained AI-attributed layoffs at scale.",
+   "sources": [
+    "https://www.challengergray.com/?p=28455",
+    "https://www.challengergray.com/wp-content/uploads/2026/07/Challenger-Report-June2600986996.pdf"
+   ],
+   "points": 0.48,
+   "contribution": {
+    "egalitarian_utopia": -0.34
+   },
+   "factor_effect": {
+    "F7": -0.48
+   }
+  }
+ ]
+}

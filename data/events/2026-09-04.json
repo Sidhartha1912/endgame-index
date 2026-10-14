@@ -1,0 +1,141 @@
+[
+ {
+  "id": "2026-09-04-01",
+  "title": "US adds 162,000 jobs in August; unemployment 4.1%, information sector sheds 23,000",
+  "summary": "August payrolls beat estimates; the information industry lost 23,000 jobs, continuing a downtrend.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Strong headline labour data counters AI-displacement fears; info-sector losses noted.",
+  "sources": [
+   "https://www.newkerala.com/news/a/us-payrolls-rise-162000-august-unemployment-holds-41-462.htm",
+   "https://news.bgov.com/daily-labor-report/us-adds-162-000-jobs-topping-all-estimates-in-broad-advance-6"
+  ]
+ },
+ {
+  "id": "2026-09-04-02",
+  "title": "MBZUAI releases K2 Horizon, six fully open models up to 375B",
+  "summary": "Abu Dhabi's MBZUAI released Apache-2.0 models from 0.9B to 375B parameters with weights, code, data and methods.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Other",
+  "reason": "Fully open release from the Gulf; below frontier.",
+  "sources": [
+   "https://aiweekly.co/alerts/mbzuais-ifm-ships-k2-horizon-six-fully-open-models-from-09b-to-375b-parameters"
+  ]
+ },
+ {
+  "id": "2026-09-04-03",
+  "title": "DeepSeek plans 160,000 Huawei Ascend chips at 1GW Inner Mongolia site",
+  "summary": "Bloomberg reported DeepSeek plans to deploy at least 160,000 Huawei Ascend 950DT accelerators for inference at a 1GW Ulanqab data centre by late 2027 or early 2028.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "China",
+  "reason": "Plan for domestic-chip compute scale in China.",
+  "sources": [
+   "https://www.bloomberg.com/news/articles/2026-09-04/deepseek-plans-big-huawei-ai-chip-order-to-power-new-data-center"
+  ]
+ },
+ {
+  "id": "2026-09-04-04",
+  "title": "Nvidia model beats top human at IOI 2026 in preprint",
+  "summary": "Nvidia reported its Nemotron-3-Ultra model scored 535.4/600 at the International Olympiad in Informatics, above the top human's 498.27.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Self-reported competition result, unreplicated.",
+  "sources": [
+   "https://aiweekly.co/alerts/nvidias-550b-nemotron-beats-top-human-coder-at-ioi-2026"
+  ]
+ },
+ {
+  "id": "2026-09-04-05",
+  "title": "Kurzweil joins nasal-spray BCI startup Subsense",
+  "summary": "Ray Kurzweil became an adviser to Subsense, a preclinical non-surgical BCI startup that has raised $27M and is testing in mice.",
+  "category": "merge",
+  "factors": [
+   {
+    "id": "F10",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "BCI startup news; preclinical.",
+  "sources": [
+   "https://aiweekly.co/alerts/ray-kurzweil-joins-nasal-spray-bci-startup-subsense-as-advisor"
+  ]
+ },
+ {
+  "id": "2026-09-04-06",
+  "title": "NHTSA opens probe into Tesla Cybercabs running without steering wheels",
+  "summary": "Regulators opened an investigation after production Cybercabs entered Austin service without steering wheels or pedals.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F2",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Oversight of autonomous systems in transport.",
+  "sources": [
+   "https://aiweekly.co/alerts/nhtsa-opens-probe-into-teslas-cybercab-after-austin-debut-without-steering"
+  ]
+ }
+]

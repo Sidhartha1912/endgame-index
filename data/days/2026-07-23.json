@@ -1,0 +1,145 @@
+{
+ "date": "2026-07-23",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 25.27,
+  "benevolent_dictator": 25.57,
+  "egalitarian_utopia": 12.95,
+  "protector_god": 18.5,
+  "gatekeeper": 18.57,
+  "enslaved_god": 41.47,
+  "conquerors": 23.96,
+  "descendants": 21.1,
+  "zookeeper": 18.33,
+  "orwell_1984": 24.21,
+  "reversion": 4.14,
+  "self_destruction": 22.58
+ },
+ "deltas": {
+  "libertarian_utopia": -0.0,
+  "benevolent_dictator": -0.0,
+  "egalitarian_utopia": -0.06,
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.0,
+  "conquerors": 0.0,
+  "descendants": -0.0,
+  "zookeeper": 0.01,
+  "orwell_1984": 0.0,
+  "reversion": -0.01,
+  "self_destruction": -0.01
+ },
+ "targets": {
+  "libertarian_utopia": 25.27,
+  "benevolent_dictator": 25.57,
+  "egalitarian_utopia": 12.95,
+  "protector_god": 18.5,
+  "gatekeeper": 18.57,
+  "enslaved_god": 41.47,
+  "conquerors": 23.96,
+  "descendants": 21.1,
+  "zookeeper": 18.33,
+  "orwell_1984": 24.21,
+  "reversion": 4.14,
+  "self_destruction": 22.58
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.33,
+  "benevolent_dictator": -0.49,
+  "egalitarian_utopia": -1.4,
+  "protector_god": -0.66,
+  "gatekeeper": -0.3,
+  "enslaved_god": -1.11,
+  "conquerors": 2.85,
+  "descendants": 1.28,
+  "zookeeper": 2.4,
+  "orwell_1984": -0.02,
+  "reversion": -0.05,
+  "self_destruction": 0.93
+ },
+ "factors": {
+  "F1": 77.45,
+  "F2": 50.4,
+  "F3": 41.1,
+  "F4": 23.16,
+  "F5": 66.78,
+  "F6": 45.97,
+  "F7": 32.88,
+  "F8": 58.0,
+  "F9": 42.61,
+  "F10": 20.23
+ },
+ "factor_deltas": {
+  "F1": -0.0,
+  "F2": 0.0,
+  "F3": -0.01,
+  "F4": -0.0,
+  "F5": 0.01,
+  "F6": 0.0,
+  "F7": -0.09,
+  "F8": -0.01,
+  "F9": -0.0,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -1.7,
+  "families": {
+   "flourishing": 20.57,
+   "contained": 30.02,
+   "successors": 21.13,
+   "stalled": 16.98
+  },
+  "news_heat": 0.09,
+  "evidence": "low",
+  "event_count": 1
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "zookeeper": 0.01,
+  "reversion": -0.01,
+  "self_destruction": -0.01
+ },
+ "summary": {
+  "headline": "Telefonica Germany ties 1,100 job cuts to AI",
+  "body": "A quiet day with one story. O2 Germany confirmed it will cut more than 1,100 jobs by end-2026, citing greater use of AI. That slightly lowers Shared Prosperity, nudging Egalitarian Utopia down. Other lines drifted as earlier news faded. Horizon Balance eased to -1.70.",
+  "movers_note": "Egalitarian Utopia -0.1 came from the Telefonica Germany job cuts (-0.06); everything else moved by under 0.1.",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-07-23-01",
+   "title": "Telefonica Germany confirms 1,100 job cuts as it intensifies AI use",
+   "summary": "O2 Germany will cut more than 1,100 jobs by end-2026, citing greater use of AI in key processes, and close 60 shops.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F7",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "EU",
+   "reason": "AI-cited layoffs at a major European telecom.",
+   "sources": [
+    "https://www.datacenterdynamics.com/en/news/telef%C3%B3nica-germany-confirms-plans-to-cut-1100-jobs-as-ai-processes-take-shape/"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "egalitarian_utopia": -0.06
+   },
+   "factor_effect": {
+    "F7": -0.09
+   }
+  }
+ ]
+}

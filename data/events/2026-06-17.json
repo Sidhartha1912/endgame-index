@@ -1,0 +1,74 @@
+[
+ {
+  "id": "2026-06-17-01",
+  "title": "Security researchers sign open letter against US ban on Claude Fable 5",
+  "summary": "300+ cybersecurity leaders signed an open letter demanding the export ban be reversed, after researcher Katie Moussouris said the trigger was a simple 'fix this code' prompt rather than a true jailbreak; Amodei met administration officials without resolution.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Government holding a frontier model offline shows state leverage over labs (power concentration in the state); contested by experts.",
+  "sources": [
+   "https://fortune.com/2026/06/15/fix-this-code-three-words-behind-us-government-shut-down-anthropic-fable-mythos-ai-models-katie-moussouris-open-letter/",
+   "https://www.darkreading.com/vulnerabilities-threats/security-community-slams-us-ban-on-exporting-mythos-fable"
+  ]
+ },
+ {
+  "id": "2026-06-17-02",
+  "title": "Anthropic opens Seoul office, signs AI-safety MOU with Korea's science ministry",
+  "summary": "Anthropic's Seoul office opened with Naver, Samsung SDS and LG CNS deals; an MOU with Korea's Ministry of Science and ICT covers Korean-language safety evaluations with the Korea AI Safety Institute and cyber-threat sharing.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "Other",
+  "reason": "Government-lab safety-evaluation cooperation; minor.",
+  "sources": [
+   "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+   "https://www.koreajoongangdaily.com/business/anthropic-confident-of-reenabling-mythos-fable-5-access-in-coming-days-executive/12727522"
+  ]
+ },
+ {
+  "id": "2026-06-17-03",
+  "title": "G7 Evian summit hosts AI lab CEOs; agrees minors' online protections",
+  "summary": "G7 leaders held an AI session with Altman, Amodei and Hassabis and agreed principles to protect minors from harmful AI content, but weakened data-center sustainability goals over US objections.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "Global",
+  "reason": "Soft multilateral statement; diluted by US resistance.",
+  "sources": [
+   "https://www.globalbankingandfinance.com/tech-executives-attend-g7-summit-leaders-address-ai-online/",
+   "https://www.usnews.com/news/world/articles/2026-06-15/explainer-what-is-the-g7-and-whats-on-the-agenda-at-the-evian-les-bains-summit"
+  ]
+ }
+]

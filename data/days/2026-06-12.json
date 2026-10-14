@@ -1,0 +1,341 @@
+{
+ "date": "2026-06-12",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 27.97,
+  "benevolent_dictator": 24.67,
+  "egalitarian_utopia": 15.3,
+  "protector_god": 17.61,
+  "gatekeeper": 17.41,
+  "enslaved_god": 40.25,
+  "conquerors": 19.6,
+  "descendants": 18.16,
+  "zookeeper": 14.0,
+  "orwell_1984": 23.94,
+  "reversion": 4.77,
+  "self_destruction": 20.7
+ },
+ "deltas": {
+  "libertarian_utopia": -0.6,
+  "benevolent_dictator": 0.41,
+  "egalitarian_utopia": -0.43,
+  "protector_god": -0.54,
+  "gatekeeper": -1.51,
+  "enslaved_god": -0.24,
+  "conquerors": -0.28,
+  "descendants": -0.51,
+  "zookeeper": 0.0,
+  "orwell_1984": 0.02,
+  "reversion": 0.6,
+  "self_destruction": 0.89
+ },
+ "targets": {
+  "libertarian_utopia": 27.97,
+  "benevolent_dictator": 24.67,
+  "egalitarian_utopia": 15.3,
+  "protector_god": 17.61,
+  "gatekeeper": 17.41,
+  "enslaved_god": 40.25,
+  "conquerors": 19.6,
+  "descendants": 18.16,
+  "zookeeper": 14.0,
+  "orwell_1984": 23.94,
+  "reversion": 4.77,
+  "self_destruction": 20.7
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.82,
+  "benevolent_dictator": 0.48,
+  "egalitarian_utopia": -0.51,
+  "protector_god": -0.29,
+  "gatekeeper": -1.19,
+  "enslaved_god": 0.21,
+  "conquerors": 0.13,
+  "descendants": -0.16,
+  "zookeeper": 0.48,
+  "orwell_1984": -0.01,
+  "reversion": 0.43,
+  "self_destruction": 0.84
+ },
+ "factors": {
+  "F1": 74.33,
+  "F2": 48.61,
+  "F3": 43.22,
+  "F4": 22.24,
+  "F5": 65.21,
+  "F6": 45.73,
+  "F7": 33.04,
+  "F8": 56.64,
+  "F9": 41.91,
+  "F10": 20.25
+ },
+ "factor_deltas": {
+  "F1": -0.99,
+  "F2": 0.15,
+  "F3": -0.17,
+  "F4": -1.51,
+  "F5": 0.81,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.06,
+  "F9": -0.02,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": 1.83,
+  "families": {
+   "flourishing": 21.39,
+   "contained": 28.83,
+   "successors": 17.26,
+   "stalled": 16.47
+  },
+  "news_heat": 4.34,
+  "evidence": "medium",
+  "event_count": 6
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.02,
+  "egalitarian_utopia": -0.01,
+  "protector_god": -0.01,
+  "conquerors": 0.01,
+  "descendants": -0.01,
+  "zookeeper": 0.02,
+  "orwell_1984": 0.01,
+  "reversion": -0.02
+ },
+ "summary": {
+  "headline": "US forces global shutdown of Fable 5; Gatekeeper slumps",
+  "body": "Days after launch, the US government issued an emergency export-control directive barring foreign nationals from using Claude Fable 5 and Mythos 5 over a reported jailbreak. Anthropic disabled both models for all customers worldwide and disputed the basis. A unilateral, sudden clampdown hurts Global Coordination, which drags down Gatekeeper and lifts Self-Destruction; pulling frontier models also slows Capability Velocity, which raises Reversion. The same day, SpaceX, which absorbed xAI, listed on Nasdaq at about $1.75T in the largest IPO ever, a jump in Power Concentration that weighs on Libertarian Utopia. Security worries added up: CISA cut federal patch windows to three days because AI speeds up attacks, and researchers showed 'agentjacking' of coding agents. Horizon Balance fell 0.44 to 1.8.",
+  "movers_note": "Gatekeeper -1.5, from the Fable 5 shutdown directive (-1.47); Self-Destruction +0.9, from the directive (+0.76) and CISA's patch order (+0.16); Libertarian Utopia -0.6, mostly from the SpaceX IPO (-0.48).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-06-12-01",
+   "title": "US export-control directive forces Anthropic to suspend Fable 5 and Mythos 5 worldwide",
+   "summary": "Days after launch, the US government issued an emergency export-control directive barring foreign nationals from accessing Fable 5 and Mythos 5 over a reported jailbreak; Anthropic disabled both models for all customers globally and disputed the basis.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": -1
+    },
+    {
+     "id": "F1",
+     "dir": -1
+    }
+   ],
+   "tier": "T3",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "First government-forced withdrawal of a deployed frontier model, via unilateral national-security export control. Skeptic pass: T2-T3; kept T3 (within one tier).",
+   "sources": [
+    "https://www.cbsnews.com/video/anthropic-pulls-access-new-ai-models-after-government-directive/",
+    "https://www.techloy.com/us-government-pulls-the-plug-on-anthropics-most-powerful-ai-and-nobody-got-a-real-explanation/",
+    "https://delante.co/usa-blocks-claude-fable-and-mythos/"
+   ],
+   "points": 2.0,
+   "contribution": {
+    "protector_god": -0.5,
+    "gatekeeper": -1.47,
+    "enslaved_god": -0.59,
+    "conquerors": -0.5,
+    "descendants": -0.59,
+    "zookeeper": -0.5,
+    "orwell_1984": -0.31,
+    "reversion": 0.59,
+    "self_destruction": 0.76
+   },
+   "factor_effect": {
+    "F1": -0.99,
+    "F4": -1.53
+   }
+  },
+  {
+   "id": "2026-06-12-02",
+   "title": "SpaceX, owner of xAI, lists on Nasdaq at ~$1.75T",
+   "summary": "SpaceX, which absorbed xAI as SpaceXAI, began trading as SPCX after a $135/share IPO raising ~$75B, the largest ever, and closed up ~25% on day one.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Massive capital to an AI/compute conglomerate with large lab compute contracts.",
+   "sources": [
+    "https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html",
+    "https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html"
+   ],
+   "points": 0.8,
+   "contribution": {
+    "libertarian_utopia": -0.48,
+    "benevolent_dictator": 0.4,
+    "egalitarian_utopia": -0.32,
+    "enslaved_god": 0.48,
+    "zookeeper": 0.32,
+    "orwell_1984": 0.32
+   },
+   "factor_effect": {
+    "F5": 0.8
+   }
+  },
+  {
+   "id": "2026-06-12-03",
+   "title": "CISA cuts federal patch window to three days citing AI-driven attacks",
+   "summary": "CISA ordered agencies to patch the most serious flaws within three days because AI is speeding up exploitation.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Official recognition of AI-accelerated cyber threat.",
+   "sources": [
+    "https://www.insurancebusinessmag.com/us/news/cyber/us-cuts-cyber-patch-window-to-three-days-as-ai-threats-rise-578750.aspx"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "libertarian_utopia": -0.07,
+    "egalitarian_utopia": -0.06,
+    "conquerors": 0.04,
+    "reversion": 0.06,
+    "self_destruction": 0.16
+   },
+   "factor_effect": {
+    "F8": 0.15
+   }
+  },
+  {
+   "id": "2026-06-12-04",
+   "title": "'Agentjacking' attack tricks AI coding agents into running malicious code",
+   "summary": "Researchers showed fake Sentry error reports with markdown injection could hijack agents like Claude Code and Cursor.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Global",
+   "reason": "Agent control vulnerability demonstrated; research.",
+   "sources": [
+    "https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "libertarian_utopia": -0.07,
+    "benevolent_dictator": -0.07,
+    "egalitarian_utopia": -0.07,
+    "protector_god": -0.1,
+    "gatekeeper": -0.09,
+    "enslaved_god": -0.07,
+    "conquerors": 0.1,
+    "zookeeper": 0.07,
+    "self_destruction": 0.06
+   },
+   "factor_effect": {
+    "F3": -0.15
+   }
+  },
+  {
+   "id": "2026-06-12-05",
+   "title": "Japan revises government cybersecurity standards for AI-enabled attacks",
+   "summary": "Japan's National Cyber Director's Office tightened incident reporting and MFA rules to counter AI-enabled cyberattacks.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "Other",
+   "reason": "National defensive measure.",
+   "sources": [
+    "https://www.cliffordchance.com/insights/resources/blogs/talking-tech/en/articles/2026/06/tech-policy-unit-horizon-scanner-june-2026.html"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "libertarian_utopia": 0.04,
+    "egalitarian_utopia": 0.04,
+    "conquerors": -0.03,
+    "reversion": -0.04,
+    "self_destruction": -0.1
+   },
+   "factor_effect": {
+    "F8": -0.09
+   }
+  },
+  {
+   "id": "2026-06-12-06",
+   "title": "Chinese humanoid robot makers race to IPO: EngineAI files in Hong Kong, Unitree seeks $7B",
+   "summary": "Shenzhen's EngineAI filed confidentially for a Hong Kong IPO after starting T800 shipments, as Unitree and others pursue listings.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "Physical-AI scale-up in China.",
+   "sources": [
+    "https://thenextweb.com/news/engineai-hong-kong-ipo-humanoid-robots"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "benevolent_dictator": 0.09,
+    "protector_god": 0.07,
+    "gatekeeper": 0.04,
+    "enslaved_god": -0.04,
+    "conquerors": 0.07,
+    "descendants": 0.09,
+    "zookeeper": 0.09
+   },
+   "factor_effect": {
+    "F2": 0.15
+   }
+  }
+ ]
+}

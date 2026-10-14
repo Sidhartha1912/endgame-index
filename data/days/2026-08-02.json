@@ -1,0 +1,190 @@
+{
+ "date": "2026-08-02",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 25.39,
+  "benevolent_dictator": 24.95,
+  "egalitarian_utopia": 12.95,
+  "protector_god": 18.55,
+  "gatekeeper": 19.35,
+  "enslaved_god": 40.77,
+  "conquerors": 24.89,
+  "descendants": 21.61,
+  "zookeeper": 18.91,
+  "orwell_1984": 23.94,
+  "reversion": 4.03,
+  "self_destruction": 22.09
+ },
+ "deltas": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.16,
+  "egalitarian_utopia": -0.0,
+  "protector_god": 0.11,
+  "gatekeeper": 0.6,
+  "enslaved_god": -0.0,
+  "conquerors": 0.01,
+  "descendants": -0.0,
+  "zookeeper": 0.01,
+  "orwell_1984": -0.01,
+  "reversion": -0.01,
+  "self_destruction": -0.44
+ },
+ "targets": {
+  "libertarian_utopia": 25.39,
+  "benevolent_dictator": 24.95,
+  "egalitarian_utopia": 12.95,
+  "protector_god": 18.55,
+  "gatekeeper": 19.35,
+  "enslaved_god": 40.77,
+  "conquerors": 24.89,
+  "descendants": 21.61,
+  "zookeeper": 18.91,
+  "orwell_1984": 23.94,
+  "reversion": 4.03,
+  "self_destruction": 22.09
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.02,
+  "benevolent_dictator": -0.58,
+  "egalitarian_utopia": -0.12,
+  "protector_god": -0.16,
+  "gatekeeper": 0.6,
+  "enslaved_god": -0.89,
+  "conquerors": 0.87,
+  "descendants": 0.35,
+  "zookeeper": 0.53,
+  "orwell_1984": -0.12,
+  "reversion": 0.11,
+  "self_destruction": -0.42
+ },
+ "factors": {
+  "F1": 77.87,
+  "F2": 50.88,
+  "F3": 40.35,
+  "F4": 24.46,
+  "F5": 66.05,
+  "F6": 45.56,
+  "F7": 32.92,
+  "F8": 57.87,
+  "F9": 42.81,
+  "F10": 20.2
+ },
+ "factor_deltas": {
+  "F1": -0.0,
+  "F2": 0.0,
+  "F3": -0.01,
+  "F4": 0.87,
+  "F5": 0.01,
+  "F6": -0.4,
+  "F7": 0.0,
+  "F8": -0.01,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -2.0,
+  "families": {
+   "flourishing": 20.46,
+   "contained": 30.06,
+   "successors": 21.8,
+   "stalled": 16.69
+  },
+  "news_heat": 1.29,
+  "evidence": "medium",
+  "event_count": 2
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "protector_god": -0.01,
+  "gatekeeper": -0.02,
+  "conquerors": 0.01,
+  "zookeeper": 0.01,
+  "reversion": -0.01
+ },
+ "summary": {
+  "headline": "EU AI Act transparency rules take effect; Gatekeeper rises",
+  "body": "Rules came into force on both sides of the Atlantic. In the EU, AI Act transparency duties began: chatbots must disclose themselves, deepfakes must be labelled, and the AI Office can now enforce rules on general-purpose models. Rules for high-risk systems were delayed to December 2027. California's AI Transparency Act also took effect, requiring provenance marks and detection tools. Binding rules like these raise Global Coordination, which lifts Gatekeeper and eases Self-Destruction. The EU duties also limit hidden AI manipulation, lowering Surveillance & Control and trimming Benevolent Dictator, which depends on accepted monitoring. Horizon Balance improved to -2.00.",
+  "movers_note": "Gatekeeper +0.6 came from the EU AI Act milestone (+0.56) and California's law (+0.06); Self-Destruction -0.4 and Benevolent Dictator -0.2 came mainly from the EU rules (-0.40 and -0.16).",
+  "coming_up": [
+   "EU AI Act high-risk system rules now delayed to December 2027"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-08-02-01",
+   "title": "EU AI Act transparency duties and GPAI enforcement powers apply",
+   "summary": "Article 50 labeling and disclosure duties (chatbot disclosure, deepfake labels, machine-readable marking) took effect and the AI Office began enforcement on general-purpose models; high-risk rules were delayed to Dec 2027 by the Digital Omnibus.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    },
+    {
+     "id": "F6",
+     "dir": -1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "EU",
+   "reason": "Binding EU obligations now enforceable, tempered by the high-risk delay.",
+   "sources": [
+    "https://apnews.com/article/eu-ai-regulation-deepfakes-hacking-f4fcee1f9750e2b32cdf26ad73ee5ec2",
+    "https://www.joneswalker.com/en/insights/blogs/ai-law-blog/yes-august-2-still-matters-the-eu-approved-a-high-risk-ai-delay-but-most-trans.html"
+   ],
+   "points": 0.8,
+   "contribution": {
+    "benevolent_dictator": -0.16,
+    "protector_god": 0.12,
+    "gatekeeper": 0.56,
+    "orwell_1984": -0.04,
+    "self_destruction": -0.4
+   },
+   "factor_effect": {
+    "F4": 0.79,
+    "F6": -0.4
+   }
+  },
+  {
+   "id": "2026-08-02-02",
+   "title": "California AI Transparency Act (SB 942) takes effect",
+   "summary": "Large generative-AI providers in California must offer provenance marks and AI-detection tools.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "State-level transparency law in force.",
+   "sources": [
+    "https://blog.buildfastwithai.com/ai-news-today-august-4-2026"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "gatekeeper": 0.06,
+    "orwell_1984": 0.04,
+    "self_destruction": -0.04
+   },
+   "factor_effect": {
+    "F4": 0.09
+   }
+  }
+ ]
+}

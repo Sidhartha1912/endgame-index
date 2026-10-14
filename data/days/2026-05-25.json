@@ -1,0 +1,192 @@
+{
+ "date": "2026-05-25",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 27.68,
+  "benevolent_dictator": 23.22,
+  "egalitarian_utopia": 14.7,
+  "protector_god": 16.34,
+  "gatekeeper": 17.4,
+  "enslaved_god": 38.85,
+  "conquerors": 20.74,
+  "descendants": 18.03,
+  "zookeeper": 14.36,
+  "orwell_1984": 24.14,
+  "reversion": 4.36,
+  "self_destruction": 20.68
+ },
+ "deltas": {
+  "libertarian_utopia": 0.0,
+  "benevolent_dictator": 0.01,
+  "egalitarian_utopia": 0.01,
+  "protector_god": 0.01,
+  "gatekeeper": 0.51,
+  "enslaved_god": 0.01,
+  "conquerors": -0.01,
+  "descendants": -0.01,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.29,
+  "reversion": 0.79,
+  "self_destruction": -0.36
+ },
+ "targets": {
+  "libertarian_utopia": 27.68,
+  "benevolent_dictator": 23.22,
+  "egalitarian_utopia": 14.7,
+  "protector_god": 16.34,
+  "gatekeeper": 17.4,
+  "enslaved_god": 38.85,
+  "conquerors": 20.74,
+  "descendants": 18.03,
+  "zookeeper": 14.36,
+  "orwell_1984": 24.14,
+  "reversion": 4.36,
+  "self_destruction": 20.68
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.88,
+  "benevolent_dictator": 1.81,
+  "egalitarian_utopia": -0.96,
+  "protector_god": 2.54,
+  "gatekeeper": 1.92,
+  "enslaved_god": 1.92,
+  "conquerors": 3.21,
+  "descendants": 3.62,
+  "zookeeper": 3.81,
+  "orwell_1984": -0.38,
+  "reversion": -1.25,
+  "self_destruction": 0.16
+ },
+ "factors": {
+  "F1": 74.35,
+  "F2": 48.45,
+  "F3": 41.52,
+  "F4": 23.74,
+  "F5": 64.19,
+  "F6": 45.75,
+  "F7": 32.85,
+  "F8": 56.69,
+  "F9": 41.5,
+  "F10": 20.19
+ },
+ "factor_deltas": {
+  "F1": 0.0,
+  "F2": 0.0,
+  "F3": 0.01,
+  "F4": 0.71,
+  "F5": 0.0,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.0,
+  "F9": 0.79,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": 0.51,
+  "families": {
+   "flourishing": 20.49,
+   "contained": 28.13,
+   "successors": 17.71,
+   "stalled": 16.39
+  },
+  "news_heat": 1.5,
+  "evidence": "medium",
+  "event_count": 2
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": 0.01,
+  "egalitarian_utopia": 0.01,
+  "protector_god": 0.01,
+  "gatekeeper": 0.02,
+  "enslaved_god": 0.01,
+  "conquerors": -0.01,
+  "descendants": -0.01,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.01,
+  "self_destruction": -0.01
+ },
+ "summary": {
+  "headline": "Pope's AI encyclical lifts Reversion and Gatekeeper",
+  "body": "The Vatican published Magnifica Humanitas, Pope Leo XIV's encyclical on AI, which calls for robust regulation, opposes AI in warfare and defends workers and human dignity; Anthropic co-founder Chris Olah appeared alongside the Pope. A moral voice of that reach adds to Tech Backlash, which lifts Reversion (a world that turns away from advanced tech), and to Global Coordination, which helps Gatekeeper. The UK and Australia also signed AI security agreements between their safety institutes, another boost for Global Coordination. More cooperation means less room for runaway conflict, so Self-Destruction fell. Conquerors and Self-Destruction swapped places in the ranking. Horizon Balance is 0.5, up 0.03.",
+  "movers_note": "Reversion +0.8, from the papal encyclical (+0.80); Gatekeeper +0.5, from the encyclical (+0.28) and the UK-Australia agreements (+0.21); Self-Destruction -0.4 from both (-0.20 and -0.15).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-05-25-01",
+   "title": "Pope Leo XIV publishes AI encyclical alongside Anthropic's Chris Olah",
+   "summary": "The Vatican published Magnifica Humanitas, calling for robust AI regulation, opposing AI in warfare and defending workers and human dignity; Anthropic co-founder Chris Olah appeared with the Pope.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    },
+    {
+     "id": "F4",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "Global",
+   "reason": "Global moral authority calls to slow and regulate AI; broad public-opinion signal.",
+   "sources": [
+    "https://www.pbs.org/newshour/world/pope-calls-for-robust-regulation-of-ai-in-manifesto-that-ponders-the-future-of-humanity",
+    "https://www.ncronline.org/vatican/vatican-news/pope-leo-anthropic-co-founder-call-church-tech-ethics-partnership-magnifica",
+    "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical"
+   ],
+   "points": 0.8,
+   "contribution": {
+    "gatekeeper": 0.28,
+    "orwell_1984": 0.16,
+    "reversion": 0.8,
+    "self_destruction": -0.2
+   },
+   "factor_effect": {
+    "F4": 0.4,
+    "F9": 0.8
+   }
+  },
+  {
+   "id": "2026-05-25-02",
+   "title": "UK and Australia sign AI security MoUs",
+   "summary": "The UK AI Security Institute and Australia's AI Safety Institute signed a memorandum on AI security risks, alongside a broader bilateral MoU on safe AI.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "UK",
+   "reason": "Bilateral safety-institute cooperation; modest coordination.",
+   "sources": [
+    "https://www.lexisnexis.co.uk/legal/news/dsit-announces-uk-australia-ai-security-partnership"
+   ],
+   "points": 0.3,
+   "contribution": {
+    "gatekeeper": 0.21,
+    "orwell_1984": 0.12,
+    "self_destruction": -0.15
+   },
+   "factor_effect": {
+    "F4": 0.3
+   }
+  }
+ ]
+}

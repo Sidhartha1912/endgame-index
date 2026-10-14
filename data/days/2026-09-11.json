@@ -1,0 +1,222 @@
+{
+ "date": "2026-09-11",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 21.76,
+  "benevolent_dictator": 25.12,
+  "egalitarian_utopia": 9.77,
+  "protector_god": 19.98,
+  "gatekeeper": 20.53,
+  "enslaved_god": 42.54,
+  "conquerors": 30.44,
+  "descendants": 25.17,
+  "zookeeper": 23.53,
+  "orwell_1984": 22.97,
+  "reversion": 3.78,
+  "self_destruction": 26.76
+ },
+ "deltas": {
+  "libertarian_utopia": -0.04,
+  "benevolent_dictator": 0.07,
+  "egalitarian_utopia": -0.03,
+  "protector_god": 0.1,
+  "gatekeeper": 0.06,
+  "enslaved_god": -0.14,
+  "conquerors": 0.16,
+  "descendants": 0.11,
+  "zookeeper": 0.07,
+  "orwell_1984": -0.03,
+  "reversion": 0.09,
+  "self_destruction": 0.22
+ },
+ "targets": {
+  "libertarian_utopia": 21.76,
+  "benevolent_dictator": 25.12,
+  "egalitarian_utopia": 9.77,
+  "protector_god": 19.98,
+  "gatekeeper": 20.53,
+  "enslaved_god": 42.54,
+  "conquerors": 30.44,
+  "descendants": 25.17,
+  "zookeeper": 23.53,
+  "orwell_1984": 22.97,
+  "reversion": 3.78,
+  "self_destruction": 26.76
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.76,
+  "benevolent_dictator": -0.6,
+  "egalitarian_utopia": -0.91,
+  "protector_god": -0.19,
+  "gatekeeper": -0.4,
+  "enslaved_god": -0.78,
+  "conquerors": 2.16,
+  "descendants": 1.01,
+  "zookeeper": 1.47,
+  "orwell_1984": -0.6,
+  "reversion": -0.25,
+  "self_destruction": 1.47
+ },
+ "factors": {
+  "F1": 82.19,
+  "F2": 52.3,
+  "F3": 38.1,
+  "F4": 25.0,
+  "F5": 67.27,
+  "F6": 45.13,
+  "F7": 32.77,
+  "F8": 61.54,
+  "F9": 43.68,
+  "F10": 20.34
+ },
+ "factor_deltas": {
+  "F1": -0.02,
+  "F2": 0.21,
+  "F3": 0.0,
+  "F4": 0.0,
+  "F5": -0.11,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": 0.21,
+  "F9": -0.01,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": -6.77,
+  "families": {
+   "flourishing": 19.16,
+   "contained": 31.53,
+   "successors": 26.38,
+   "stalled": 17.84
+  },
+  "news_heat": 0.53,
+  "evidence": "low",
+  "event_count": 3
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "egalitarian_utopia": 0.01,
+  "protector_god": -0.01,
+  "enslaved_god": -0.01,
+  "conquerors": -0.01,
+  "descendants": -0.02,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.01,
+  "self_destruction": -0.01
+ },
+ "summary": {
+  "headline": "AI narrows the gap between lone attackers and state hackers",
+  "body": "A modest day. Anthropic case studies showed AI letting small actors do more in Russian- and Chinese-linked operations, with humans still choosing targets, which raises Catastrophic Risk and Self-Destruction. OpenAI's new Agents API public beta adds AI Autonomy, nudging Conquerors, Descendants and Zookeeper. Cohere's 50-language translation model slightly eased Power Concentration. Horizon Balance slipped to -6.77.",
+  "movers_note": "Self-Destruction +0.2 from Anthropic's attacker case studies (+0.23); Conquerors +0.2 from the Agents API (+0.10) and the case studies (+0.06); Descendants +0.1 from the Agents API (+0.13).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-09-11-01",
+   "title": "Anthropic: AI narrowing gap between lone attackers and state hackers",
+   "summary": "Anthropic case studies of Russian- and Chinese-linked operations from December to August showed AI letting small actors do more, with humans still choosing targets.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Global",
+   "reason": "Threat-intel report on AI-uplifted ops.",
+   "sources": [
+    "https://aiweekly.co/alerts/anthropic-details-russian-chinese-ai-uplifted-ops-on-claude",
+    "https://www.microsoft.com/en-us/security/blog/2026/09/10/protecting-organizations-ai-assisted-executive-impersonation-invoice-fraud/"
+   ],
+   "points": 0.21,
+   "contribution": {
+    "libertarian_utopia": -0.1,
+    "egalitarian_utopia": -0.08,
+    "conquerors": 0.06,
+    "reversion": 0.08,
+    "self_destruction": 0.23
+   },
+   "factor_effect": {
+    "F8": 0.21
+   }
+  },
+  {
+   "id": "2026-09-11-02",
+   "title": "OpenAI opens Agents API exposing Codex's managed harness",
+   "summary": "OpenAI released an Agents API public beta that manages sessions, tool coordination and recovery for developer-built agents.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Broadens agent deployment tooling.",
+   "sources": [
+    "https://aiweekly.co/alerts/openai-ships-agents-api-in-public-beta-exposing-managed-codex-harness-with"
+   ],
+   "points": 0.21,
+   "contribution": {
+    "benevolent_dictator": 0.13,
+    "protector_god": 0.1,
+    "gatekeeper": 0.06,
+    "enslaved_god": -0.06,
+    "conquerors": 0.1,
+    "descendants": 0.13,
+    "zookeeper": 0.13
+   },
+   "factor_effect": {
+    "F2": 0.21
+   }
+  },
+  {
+   "id": "2026-09-11-03",
+   "title": "Cohere releases 218B translation model covering 50 languages",
+   "summary": "Canada's Cohere Labs released a 50-language translation MoE for non-commercial use, claiming it beats DeepL and Google in its tests.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Other",
+   "reason": "Non-US open-ish release.",
+   "sources": [
+    "https://aiweekly.co/alerts/cohere-labs-posts-218b-param-translation-moe-for-50-languages"
+   ],
+   "points": 0.1,
+   "contribution": {
+    "libertarian_utopia": 0.06,
+    "benevolent_dictator": -0.05,
+    "egalitarian_utopia": 0.04,
+    "enslaved_god": -0.06,
+    "zookeeper": -0.04,
+    "orwell_1984": -0.04
+   },
+   "factor_effect": {
+    "F5": -0.1
+   }
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+[
+ {
+  "id": "2026-05-25-01",
+  "title": "Pope Leo XIV publishes AI encyclical alongside Anthropic's Chris Olah",
+  "summary": "The Vatican published Magnifica Humanitas, calling for robust AI regulation, opposing AI in warfare and defending workers and human dignity; Anthropic co-founder Chris Olah appeared with the Pope.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   },
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "Global",
+  "reason": "Global moral authority calls to slow and regulate AI; broad public-opinion signal.",
+  "sources": [
+   "https://www.pbs.org/newshour/world/pope-calls-for-robust-regulation-of-ai-in-manifesto-that-ponders-the-future-of-humanity",
+   "https://www.ncronline.org/vatican/vatican-news/pope-leo-anthropic-co-founder-call-church-tech-ethics-partnership-magnifica",
+   "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical"
+  ]
+ },
+ {
+  "id": "2026-05-25-02",
+  "title": "UK and Australia sign AI security MoUs",
+  "summary": "The UK AI Security Institute and Australia's AI Safety Institute signed a memorandum on AI security risks, alongside a broader bilateral MoU on safe AI.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "UK",
+  "reason": "Bilateral safety-institute cooperation; modest coordination.",
+  "sources": [
+   "https://www.lexisnexis.co.uk/legal/news/dsit-announces-uk-australia-ai-security-partnership"
+  ]
+ }
+]

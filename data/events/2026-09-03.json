@@ -1,0 +1,151 @@
+[
+ {
+  "id": "2026-09-03-01",
+  "title": "OpenAI launches GPT-6 Astra, first model rated 'Critical' for cyber",
+  "summary": "OpenAI released GPT-6 Astra to limited partners, then paid tiers, claiming top computer-use and math scores; it is the first OpenAI model at its Critical cybersecurity threshold.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "New frontier model with notable gains and dangerous cyber capability; self-reported benchmarks.",
+  "sources": [
+   "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+   "https://aiweekly.co/alerts/openai-says-astra-is-first-model-to-cross-critical-cyber-threshold-will-limit"
+  ]
+ },
+ {
+  "id": "2026-09-03-02",
+  "title": "Wave of frontier releases: Claude Fable/Mythos 5.1, Gemini 3.8 Flash, Qwen3.8-Max",
+  "summary": "Anthropic, Google DeepMind (including a defenders-only Cyber variant), Alibaba and Meta shipped model updates in the same week.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Global",
+  "reason": "Incremental updates across labs.",
+  "sources": [
+   "https://thursdai.news/releases/2026-09",
+   "https://aiweekly.co/alerts/google-ships-gemini-38-flash-cyber-to-trusted-defenders-via-new-fairwind-program"
+  ]
+ },
+ {
+  "id": "2026-09-03-03",
+  "title": "Nvidia agrees to buy Hugging Face for about $12.9B",
+  "summary": "Nvidia signed a definitive deal to acquire the main open-model hub for $11.9B cash plus about $1B in retention equity, pledging to keep it open to rival chips; closing expected H1 2027.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Dominant chip vendor buys key open-source infrastructure; big acquisition per F5 T2.",
+  "sources": [
+   "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html"
+  ]
+ },
+ {
+  "id": "2026-09-03-04",
+  "title": "Sanders and Casar introduce bill to ban artificial superintelligence",
+  "summary": "The Ban Artificial Superintelligence Act would permanently ban superintelligent AI, pause advanced AI research until federal safety rules exist and create a cabinet-level oversight agency.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   },
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "US",
+  "reason": "High-profile ban proposal citing the OpenAI agent breach; not law.",
+  "sources": [
+   "https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development/",
+   "https://gizmodo.com/bernie-sanders-calls-for-global-ban-on-ai-superintelligence-2000806829"
+  ]
+ },
+ {
+  "id": "2026-09-03-05",
+  "title": "Uber aligns with driver unions to slow robotaxi rollout",
+  "summary": "The FT reported Uber is backing rules to keep human drivers in its network as autonomous fleets grow.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "US",
+  "reason": "Platform supports job protections against automation.",
+  "sources": [
+   "https://aiweekly.co/alerts/ft-uber-aligns-with-driver-unions-to-slow-robotaxi-rollout-reversing-decade-of"
+  ]
+ },
+ {
+  "id": "2026-09-03-06",
+  "title": "Revelio: AI-exposed jobs for workers 22-25 down 19% relative",
+  "summary": "Revelio Labs' August tracker found employment in the most AI-exposed occupations about 6% lower than least-exposed since late 2022, and 19% lower for ages 22-25, but no broad displacement yet.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Uneven youth impact; no broad shock.",
+  "sources": [
+   "https://www.webull.com/news/15514505135776768"
+  ]
+ }
+]

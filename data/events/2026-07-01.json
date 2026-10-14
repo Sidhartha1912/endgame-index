@@ -1,0 +1,50 @@
+[
+ {
+  "id": "2026-07-01-01",
+  "title": "Court emails expose Pentagon-Anthropic clash over autonomous-weapons guardrails",
+  "summary": "Emails disclosed in Anthropic's lawsuit show Under Secretary Emil Michael calling its limits on autonomous weapons and mass surveillance 'just not workable'; Amodei reiterated these as red lines.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "signal",
+  "region": "US",
+  "reason": "Shows military pressure to remove AI weapon safeguards; date approximate (reported week of Jun 30).",
+  "sources": [
+   "https://thenextweb.com/news/anthropic-pentagon-emails-amodei-michael-guardrails",
+   "https://builtin.com/articles/anthropic-pentagon-claude-dispute"
+  ]
+ },
+ {
+  "id": "2026-07-01-02",
+  "title": "Challenger: AI the top cited layoff reason for fourth straight month",
+  "summary": "US employers announced 45,849 job cuts in June, 14,029 (31%) attributed to AI; AI-linked cuts reached 101,743 year to date, 23% of all announced cuts.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Sustained AI-attributed layoffs at scale.",
+  "sources": [
+   "https://www.challengergray.com/?p=28455",
+   "https://www.challengergray.com/wp-content/uploads/2026/07/Challenger-Report-June2600986996.pdf"
+  ]
+ }
+]

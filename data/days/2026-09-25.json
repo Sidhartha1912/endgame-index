@@ -1,0 +1,157 @@
+{
+ "date": "2026-09-25",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 20.12,
+  "benevolent_dictator": 23.98,
+  "egalitarian_utopia": 8.17,
+  "protector_god": 18.63,
+  "gatekeeper": 19.51,
+  "enslaved_god": 41.59,
+  "conquerors": 32.87,
+  "descendants": 25.61,
+  "zookeeper": 25.05,
+  "orwell_1984": 22.99,
+  "reversion": 5.05,
+  "self_destruction": 28.9
+ },
+ "deltas": {
+  "libertarian_utopia": 0.04,
+  "benevolent_dictator": 0.04,
+  "egalitarian_utopia": 0.04,
+  "protector_god": 0.05,
+  "gatekeeper": 0.06,
+  "enslaved_god": 0.03,
+  "conquerors": -0.06,
+  "descendants": -0.01,
+  "zookeeper": -0.05,
+  "orwell_1984": 0.02,
+  "reversion": 0.0,
+  "self_destruction": -0.05
+ },
+ "targets": {
+  "libertarian_utopia": 20.12,
+  "benevolent_dictator": 23.98,
+  "egalitarian_utopia": 8.17,
+  "protector_god": 18.63,
+  "gatekeeper": 19.51,
+  "enslaved_god": 41.59,
+  "conquerors": 32.87,
+  "descendants": 25.61,
+  "zookeeper": 25.05,
+  "orwell_1984": 22.99,
+  "reversion": 5.05,
+  "self_destruction": 28.9
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.46,
+  "benevolent_dictator": -1.01,
+  "egalitarian_utopia": -1.36,
+  "protector_god": -1.18,
+  "gatekeeper": -0.8,
+  "enslaved_god": -0.8,
+  "conquerors": 2.15,
+  "descendants": 0.42,
+  "zookeeper": 1.4,
+  "orwell_1984": 0.01,
+  "reversion": 0.02,
+  "self_destruction": 1.73
+ },
+ "factors": {
+  "F1": 82.93,
+  "F2": 52.41,
+  "F3": 35.71,
+  "F4": 25.13,
+  "F5": 67.0,
+  "F6": 45.46,
+  "F7": 32.69,
+  "F8": 62.68,
+  "F9": 44.93,
+  "F10": 20.26
+ },
+ "factor_deltas": {
+  "F1": -0.02,
+  "F2": -0.0,
+  "F3": 0.08,
+  "F4": 0.03,
+  "F5": 0.0,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": -0.0,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -9.73,
+  "families": {
+   "flourishing": 17.72,
+   "contained": 30.55,
+   "successors": 27.84,
+   "stalled": 18.98
+  },
+  "news_heat": 0.07,
+  "evidence": "low",
+  "event_count": 1
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": 0.01,
+  "egalitarian_utopia": 0.01,
+  "gatekeeper": 0.02,
+  "conquerors": -0.01,
+  "descendants": -0.01,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.02,
+  "self_destruction": -0.02
+ },
+ "summary": {
+  "headline": "NYC proposes AI kill switches and whistleblower rewards",
+  "body": "A quiet day. New York City Council Speaker Julie Menin proposed bills requiring outside validation and kill switches for AI sold in the city, plus whistleblower rewards and a right to sue over harm from jailbroken systems. Stronger oversight is a small plus for Alignment & Control, nudging Gatekeeper and Protector God up and Conquerors down. Horizon Balance edged up to -9.73.",
+  "movers_note": "Gatekeeper +0.1, Protector God +0.1 and Conquerors -0.1, all helped by the NYC proposals (+0.04, +0.05 and -0.05).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-09-25-01",
+   "title": "NYC Council Speaker unveils AI bills with kill switches and whistleblower rewards",
+   "summary": "NYC Council Speaker Julie Menin proposed bills requiring outside validation and kill switches for AI sold in the city, whistleblower rewards, and a right to sue when jailbroken systems cause harm.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "local",
+   "track": "signal",
+   "region": "US",
+   "reason": "Local proposals for control measures.",
+   "sources": [
+    "https://council.nyc.gov/press/2026/09/25/3252/",
+    "https://fortune.com/2026/09/25/new-york-city-council-speaker-ai-regulation-bills-openai-anthropic/"
+   ],
+   "points": 0.07,
+   "contribution": {
+    "libertarian_utopia": 0.04,
+    "benevolent_dictator": 0.04,
+    "egalitarian_utopia": 0.04,
+    "protector_god": 0.05,
+    "gatekeeper": 0.04,
+    "enslaved_god": 0.04,
+    "conquerors": -0.05,
+    "zookeeper": -0.04,
+    "self_destruction": -0.03
+   },
+   "factor_effect": {
+    "F3": 0.07
+   }
+  }
+ ]
+}

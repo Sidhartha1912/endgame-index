@@ -1,0 +1,108 @@
+{
+ "date": "2026-05-02",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 28.74,
+  "benevolent_dictator": 20.31,
+  "egalitarian_utopia": 16.11,
+  "protector_god": 12.99,
+  "gatekeeper": 15.33,
+  "enslaved_god": 35.76,
+  "conquerors": 18.05,
+  "descendants": 14.23,
+  "zookeeper": 10.42,
+  "orwell_1984": 24.43,
+  "reversion": 5.56,
+  "self_destruction": 20.53
+ },
+ "deltas": {
+  "libertarian_utopia": -0.0,
+  "benevolent_dictator": 0.0,
+  "egalitarian_utopia": -0.0,
+  "protector_god": 0.0,
+  "gatekeeper": 0.0,
+  "enslaved_god": 0.0,
+  "conquerors": 0.0,
+  "descendants": 0.0,
+  "zookeeper": 0.0,
+  "orwell_1984": 0.0,
+  "reversion": -0.0,
+  "self_destruction": 0.0
+ },
+ "targets": {
+  "libertarian_utopia": 28.74,
+  "benevolent_dictator": 20.31,
+  "egalitarian_utopia": 16.11,
+  "protector_god": 12.99,
+  "gatekeeper": 15.33,
+  "enslaved_god": 35.76,
+  "conquerors": 18.05,
+  "descendants": 14.23,
+  "zookeeper": 10.42,
+  "orwell_1984": 24.43,
+  "reversion": 5.56,
+  "self_destruction": 20.53
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.32,
+  "benevolent_dictator": -0.14,
+  "egalitarian_utopia": -0.32,
+  "protector_god": 0.39,
+  "gatekeeper": -0.21,
+  "enslaved_god": -0.07,
+  "conquerors": 1.12,
+  "descendants": 0.86,
+  "zookeeper": 0.6,
+  "orwell_1984": -0.69,
+  "reversion": -0.03,
+  "self_destruction": 1.59
+ },
+ "factors": {
+  "F1": 70.7,
+  "F2": 46.02,
+  "F3": 41.01,
+  "F4": 24.34,
+  "F5": 61.91,
+  "F6": 45.6,
+  "F7": 33.88,
+  "F8": 56.64,
+  "F9": 40.53,
+  "F10": 19.99
+ },
+ "factor_deltas": {
+  "F1": 0.0,
+  "F2": 0.0,
+  "F3": 0.0,
+  "F4": 0.0,
+  "F5": 0.0,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.0,
+  "F9": -0.0,
+  "F10": 0.0
+ },
+ "composites": {
+  "horizon_balance": 1.18,
+  "families": {
+   "flourishing": 19.54,
+   "contained": 25.55,
+   "successors": 14.23,
+   "stalled": 16.84
+  },
+  "news_heat": 0.0,
+  "evidence": "low",
+  "event_count": 0
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {},
+ "summary": {
+  "headline": "A still Saturday: no scored AI news",
+  "body": "A completely quiet day. No events were scored and nothing from earlier days was fading yet, so all twelve endings and the ten world factors stayed exactly where they were. The board still reflects Friday's Pentagon AI deals, which left Horizon Balance at its lowest reading so far: +1.18.",
+  "movers_note": "No movers today: every ending's change was 0.0.",
+  "coming_up": []
+ },
+ "events": []
+}

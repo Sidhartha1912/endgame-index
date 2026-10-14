@@ -1,0 +1,72 @@
+[
+ {
+  "id": "2026-06-29-01",
+  "title": "Meituan open-sources 1.6T-parameter LongCat-2.0 trained on Chinese chips",
+  "summary": "Meituan released LongCat-2.0 under an MIT licence with a 1M-token context, reportedly trained on domestic ASICs; it had topped OpenRouter rankings anonymously as 'Owl Alpha'.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Mid-size open release; also signals Chinese compute self-sufficiency.",
+  "sources": [
+   "https://www.llmreference.com/changelog/2026-06",
+   "https://blog.buildfastwithai.com/ai-news-today-july-4-2026"
+  ]
+ },
+ {
+  "id": "2026-06-29-02",
+  "title": "EU Council gives final approval to AI Act delay",
+  "summary": "The Council of the EU formally approved the AI omnibus, locking in the postponement of high-risk obligations before the Aug 2, 2026 deadline; publication in the Official Journal was expected in July.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "EU",
+  "reason": "Final step of the same rollback; development of Jun 16 vote.",
+  "sources": [
+   "https://secureprivacy.ai/blog/eu-ai-act-digital-omnibus-the-new-high-risk-ai-deadlines-after-council-approval"
+  ]
+ },
+ {
+  "id": "2026-06-29-03",
+  "title": "Meta's Brain2Qwerty v2 decodes brain activity to text non-invasively",
+  "summary": "Meta said its MEG-based system decodes typed sentences from brain signals with about 61% word accuracy.",
+  "category": "merge",
+  "factors": [
+   {
+    "id": "F10",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "BCI research progress (rubric T1).",
+  "sources": [
+   "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/"
+  ]
+ }
+]

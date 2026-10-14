@@ -1,0 +1,391 @@
+{
+ "date": "2026-08-19",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 23.81,
+  "benevolent_dictator": 24.7,
+  "egalitarian_utopia": 11.32,
+  "protector_god": 18.86,
+  "gatekeeper": 19.05,
+  "enslaved_god": 41.56,
+  "conquerors": 27.27,
+  "descendants": 22.95,
+  "zookeeper": 20.91,
+  "orwell_1984": 23.17,
+  "reversion": 3.74,
+  "self_destruction": 24.24
+ },
+ "deltas": {
+  "libertarian_utopia": 0.01,
+  "benevolent_dictator": 0.04,
+  "egalitarian_utopia": 0.0,
+  "protector_god": 0.23,
+  "gatekeeper": -0.27,
+  "enslaved_god": 0.17,
+  "conquerors": 0.08,
+  "descendants": 0.14,
+  "zookeeper": 0.01,
+  "orwell_1984": -0.37,
+  "reversion": 0.12,
+  "self_destruction": 0.53
+ },
+ "targets": {
+  "libertarian_utopia": 23.81,
+  "benevolent_dictator": 24.7,
+  "egalitarian_utopia": 11.32,
+  "protector_god": 18.86,
+  "gatekeeper": 19.05,
+  "enslaved_god": 41.56,
+  "conquerors": 27.27,
+  "descendants": 22.95,
+  "zookeeper": 20.91,
+  "orwell_1984": 23.17,
+  "reversion": 3.74,
+  "self_destruction": 24.24
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.66,
+  "benevolent_dictator": -0.39,
+  "egalitarian_utopia": -1.44,
+  "protector_god": -0.95,
+  "gatekeeper": -1.44,
+  "enslaved_god": 0.1,
+  "conquerors": 1.65,
+  "descendants": 0.36,
+  "zookeeper": 1.65,
+  "orwell_1984": -0.13,
+  "reversion": -0.07,
+  "self_destruction": 1.38
+ },
+ "factors": {
+  "F1": 79.84,
+  "F2": 51.17,
+  "F3": 39.1,
+  "F4": 23.87,
+  "F5": 66.59,
+  "F6": 45.38,
+  "F7": 32.5,
+  "F8": 59.1,
+  "F9": 43.2,
+  "F10": 20.17
+ },
+ "factor_deltas": {
+  "F1": 0.24,
+  "F2": -0.0,
+  "F3": 0.16,
+  "F4": -0.66,
+  "F5": -0.09,
+  "F6": 0.0,
+  "F7": -0.03,
+  "F8": 0.24,
+  "F9": 0.17,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -4.22,
+  "families": {
+   "flourishing": 19.68,
+   "contained": 30.31,
+   "successors": 23.71,
+   "stalled": 17.05
+  },
+  "news_heat": 1.86,
+  "evidence": "medium",
+  "event_count": 8
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "zookeeper": 0.01,
+  "reversion": -0.01
+ },
+ "summary": {
+  "headline": "US weighs forcing nations to pick its AI bloc or China's",
+  "body": "A busy day with eight stories; the biggest was geopolitical. Reuters reported Washington may warn dozens of countries that joining Beijing's AI framework would shut them out of a US-led coalition. Splitting the world into rival blocs weakens Global Coordination, which lifts Self-Destruction and drags down Gatekeeper, the ending that needs nations working together. Reports that China is slowing critical-material exports to Taiwan added to Catastrophic Risk. On the brighter side, Claude-designed proteins hit 14 of 15 targets and Unitree's huge IPO pushed Capability Velocity, OpenAI piloted a privacy-preserving abuse monitor, and Pew found most Americans more worried than excited about AI. Horizon Balance held at -4.22; Self-Destruction moved above Libertarian Utopia.",
+  "movers_note": "Self-Destruction +0.5 from the US bloc ultimatum (+0.32) and China's Taiwan export curbs (+0.26); Gatekeeper -0.3 and 1984 -0.4 from the bloc story (-0.45 and -0.26) after offsets.",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-08-19-01",
+   "title": "Unitree surges 629% in Shanghai debut, valued near $66B",
+   "summary": "Chinese humanoid-robot maker Unitree opened far above its IPO price on Shanghai's market, valuing it at about $66 billion.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "China",
+   "reason": "Capital surge into Chinese embodied AI; market event, T1.",
+   "sources": [
+    "https://www.scmp.com/tech/tech-trends/article/3364499/unitree-robotics-surges-629-us66-billion-valuation-shanghai-share-debut"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "protector_god": 0.05,
+    "gatekeeper": 0.04,
+    "enslaved_god": 0.06,
+    "conquerors": 0.05,
+    "descendants": 0.06,
+    "zookeeper": 0.05,
+    "orwell_1984": -0.03,
+    "reversion": -0.06
+   },
+   "factor_effect": {
+    "F1": 0.1
+   }
+  },
+  {
+   "id": "2026-08-19-02",
+   "title": "US prepares to make countries choose its AI bloc or China's",
+   "summary": "Reuters reported Washington may warn dozens of countries that joining Beijing's AI framework would exclude them from a US-led coalition; China urged respect for digital sovereignty.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": -1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "Global",
+   "reason": "Bloc-forming rhetoric hardens AI race between superpowers; signal until enacted.",
+   "sources": [
+    "https://krro.com/2026/08/19/china-urges-respect-for-digital-sovereignty-in-ai-race/",
+    "https://aiweekly.co/ai-news-today/edition/2026-08-20"
+   ],
+   "points": 0.8,
+   "contribution": {
+    "gatekeeper": -0.45,
+    "orwell_1984": -0.26,
+    "self_destruction": 0.32
+   },
+   "factor_effect": {
+    "F4": -0.65
+   }
+  },
+  {
+   "id": "2026-08-19-03",
+   "title": "China reportedly slows critical-material exports to Taiwan",
+   "summary": "Nikkei Asia reported shipments of germanium, quartz materials and certain magnets to Taiwan were restricted or delayed, hitting optical and aerospace suppliers.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "Cross-strait supply-chain pressure near the chip base; raises tension modestly.",
+   "sources": [
+    "https://asia.nikkei.com/spotlight/supply-chain/exclusive-china-slows-exports-of-key-optical-aerospace-metals-to-taiwan"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "libertarian_utopia": -0.12,
+    "egalitarian_utopia": -0.1,
+    "conquerors": 0.07,
+    "reversion": 0.1,
+    "self_destruction": 0.26
+   },
+   "factor_effect": {
+    "F8": 0.24
+   }
+  },
+  {
+   "id": "2026-08-19-04",
+   "title": "Pew: most Americans, and most under-30s, more worried than excited about AI",
+   "summary": "A Pew survey of 3,488 adults found 52% of Americans more concerned than excited about AI, with under-30s at 55% for the first time.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Poll shows rising concern (not a pause demand), so T1.",
+   "sources": [
+    "https://www.theregister.com/ai-and-ml/2026/08/19/more-than-half-of-americans-now-view-ai-negatively/5289736",
+    "https://aiweekly.co/ai-news-today/edition/2026-08-20"
+   ],
+   "points": 0.18,
+   "contribution": {
+    "reversion": 0.18
+   },
+   "factor_effect": {
+    "F9": 0.18
+   }
+  },
+  {
+   "id": "2026-08-19-05",
+   "title": "London chip startup Fractile raising at $6.5B after Anthropic deal",
+   "summary": "UK inference-chip startup Fractile is reportedly raising about $600M at a $6.5B pre-money valuation following a chip agreement with Anthropic.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "UK",
+   "reason": "Diversifies AI chip supply beyond Nvidia; small.",
+   "sources": [
+    "https://thenextweb.com/news/fractile-6-5bn-valuation-anthropic-chip-deal"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "libertarian_utopia": 0.05,
+    "benevolent_dictator": -0.04,
+    "egalitarian_utopia": 0.04,
+    "enslaved_god": -0.05,
+    "zookeeper": -0.04,
+    "orwell_1984": -0.04
+   },
+   "factor_effect": {
+    "F5": -0.09
+   }
+  },
+  {
+   "id": "2026-08-19-06",
+   "title": "OpenAI pilots 'Private Safety Processing' to monitor API abuse",
+   "summary": "OpenAI announced a pilot to detect misuse of advanced models by paid API customers without retaining prompts or responses.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "New misuse monitoring; mechanism unexplained, company-only claims.",
+   "sources": [
+    "https://www.bloomberg.com/news/articles/2026-08-19/openai-to-enhance-safety-processes-for-paid-tool-customers"
+   ],
+   "points": 0.17,
+   "contribution": {
+    "libertarian_utopia": 0.08,
+    "benevolent_dictator": 0.08,
+    "egalitarian_utopia": 0.08,
+    "protector_god": 0.12,
+    "gatekeeper": 0.1,
+    "enslaved_god": 0.08,
+    "conquerors": -0.12,
+    "zookeeper": -0.08,
+    "self_destruction": -0.07
+   },
+   "factor_effect": {
+    "F3": 0.17
+   }
+  },
+  {
+   "id": "2026-08-19-07",
+   "title": "Claude-designed protein binders work on 14 of 15 targets in lab tests",
+   "summary": "Anthropic reported Claude-designed protein binders, tested by Adaptyv Bio and Twist Bioscience, hit 14 of 15 targets, above typical campaign rates.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Science-capability gain; self-reported with partner validation.",
+   "sources": [
+    "https://www.anthropic.com/research/Claude-accelerates-protein-design"
+   ],
+   "points": 0.21,
+   "contribution": {
+    "protector_god": 0.07,
+    "gatekeeper": 0.06,
+    "enslaved_god": 0.09,
+    "conquerors": 0.07,
+    "descendants": 0.09,
+    "zookeeper": 0.07,
+    "orwell_1984": -0.04,
+    "reversion": -0.09
+   },
+   "factor_effect": {
+    "F1": 0.14
+   }
+  },
+  {
+   "id": "2026-08-19-08",
+   "title": "2026 tech layoffs surpass all of 2025",
+   "summary": "The layoffs.fyi tracker counted 126,305 tech job cuts so far in 2026, above the 122,606 for all of 2025.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F7",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Cumulative layoffs milestone, AI partly blamed; T1.",
+   "sources": [
+    "https://layoffs.fyi/",
+    "https://aiweekly.co/ai-news-today/edition/2026-08-19"
+   ],
+   "points": 0.03,
+   "contribution": {
+    "egalitarian_utopia": -0.02
+   },
+   "factor_effect": {
+    "F7": -0.03
+   }
+  }
+ ]
+}

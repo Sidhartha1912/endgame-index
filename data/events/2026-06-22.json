@@ -1,0 +1,74 @@
+[
+ {
+  "id": "2026-06-22-01",
+  "title": "SpaceX leases Colossus 2 compute to Reflection AI in $6.3B deal",
+  "summary": "Reflection AI will pay $150M a month through 2029 for Nvidia GB300 capacity at SpaceX's Colossus 2 data center.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Large compute commitment to an open-weights lab; incremental.",
+  "sources": [
+   "https://finance.yahoo.com/technology/ai/articles/spacex-signs-6-3-billion-160024302.html",
+   "https://thenextweb.com/news/spacex-reflection-ai-6-3bn-compute-deal"
+  ]
+ },
+ {
+  "id": "2026-06-22-02",
+  "title": "OpenAI launches gated GPT-5.5-Cyber and 'Patch the Planet' program",
+  "summary": "OpenAI released a cybersecurity-tuned model to vetted defenders and, with Trail of Bits and HackerOne, a program for AI-found open-source vulnerability fixes.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Specialised cyber capability with access controls; incremental.",
+  "sources": [
+   "https://www.axios.com/2026/06/22/openai-rolls-out-more-capable-version-of-cyber-model",
+   "https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/"
+  ]
+ },
+ {
+  "id": "2026-06-22-03",
+  "title": "Five Eyes agencies warn frontier AI will transform cyberattacks 'within months'",
+  "summary": "CISA, NSA and their UK, Canadian, Australian and New Zealand counterparts jointly warned frontier models will reshape offensive and defensive cyber capabilities: 'The timeline is not years, it is months.'",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "Global",
+  "reason": "Joint intelligence warning of near-term AI-enabled cyber escalation.",
+  "sources": [
+   "https://www.cybersecuritydive.com/news/ai-cyberattacks-five-eyes-frontier-models-warning/823526/",
+   "https://www.computerweekly.com/news/366644997/AI-powered-cyber-attacks-may-be-just-months-away-warn-Five-Eyes"
+  ]
+ }
+]

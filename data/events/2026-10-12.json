@@ -1,0 +1,99 @@
+[
+ {
+  "id": "2026-10-12-01",
+  "title": "Meta releases Muse Wonder, its first frontier-class model",
+  "summary": "Meta launched Muse Wonder and Muse Wonder Full for agentic tasks, priced near Claude Opus 5.5 but trailing it on benchmarks.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "New frontier entrant from a major lab.",
+  "sources": [
+   "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder"
+  ]
+ },
+ {
+  "id": "2026-10-12-02",
+  "title": "China projected to spend $3.9T on grid to power AI data centers",
+  "summary": "BloombergNEF projects China will spend $3.9T through 2049 moving inland wind and solar power to coastal AI data centers; State Grid plans ~$574B over five years.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "China",
+  "reason": "Long-horizon national compute-energy buildout; projection rather than event.",
+  "sources": [
+   "https://www.bloomberg.com/graphics/2026-china-ai-energy-future/"
+  ]
+ },
+ {
+  "id": "2026-10-12-03",
+  "title": "Report: only 3.6% of 857 Chinese AI model releases published safety evaluations",
+  "summary": "A SemiAnalysis study reported by the FT found Chinese developers published safety tests for just 3.6% of 857 model releases, arguing Beijing will not 'pace the frontier'.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   },
+   {
+    "id": "F4",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Evidence of weak safety-eval practice in China; analysis rather than event.",
+  "sources": [
+   "https://www.ft.com/content/e1dd8bff-b06d-4a40-bbb7-c0a6a36f1c8e",
+   "https://newsletter.semianalysis.com/p/beijing-will-not-pace-the-frontier"
+  ]
+ },
+ {
+  "id": "2026-10-12-04",
+  "title": "AI tool lets police pinpoint a home from a single interior photo",
+  "summary": "Graylark's Raven (formerly GeoSpy) lets police upload one interior photo and identify the specific house or rental by matching public Airbnb, Zillow and Vrbo listings; LAPD and Miami-Dade are users.",
+  "category": "surveillance",
+  "factors": [
+   {
+    "id": "F6",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "New AI police surveillance capability in use by large departments.",
+  "sources": [
+   "https://404media.co/ai-company-lets-cops-pinpoint-specific-houses-based-on-a-single-interior-photo"
+  ]
+ }
+]

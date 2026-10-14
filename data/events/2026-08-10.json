@@ -1,0 +1,122 @@
+[
+ {
+  "id": "2026-08-10-01",
+  "title": "Meta releases open-weight Muse Glimmer, will open Muse Spark 1.2",
+  "summary": "Meta released a ~30B open model for local agents and said it will open its frontier Muse Spark 1.2 weights; Zuckerberg urged the US to remove barriers to open AI and pledged $1B for data-center community concerns.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Strong open-weights push from a major lab.",
+  "sources": [
+   "https://www.reuters.com/world/china/meta-launches-new-ai-model-zuckerberg-champions-open-weight-push-2026-08-10/",
+   "https://www.cnbc.com/2026/08/10/meta-muse-glimmer-open-weight-ai.html"
+  ]
+ },
+ {
+  "id": "2026-08-10-02",
+  "title": "Nvidia and Wall Street firms line up ~$500B for AI infrastructure",
+  "summary": "Nvidia partnered with BlackRock, Goldman Sachs, KKR, Blackstone and others to raise about $500 billion for data centers and fabs.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Huge capital pool for compute concentrated around Nvidia.",
+  "sources": [
+   "https://siliconangle.com/2026/08/10/nvidia-taps-wall-street-half-trillion-dollars-fuel-global-ai-infrastructure-buildout/"
+  ]
+ },
+ {
+  "id": "2026-08-10-03",
+  "title": "South Australia launches royal commission into AI",
+  "summary": "South Australia announced a royal commission on artificial intelligence; NSW floated ending unsupervised take-home assessments over generative AI.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "Other",
+  "reason": "Sub-national inquiry; early stage.",
+  "sources": [
+   "https://techstartups.com/2026/08/10/top-tech-news-today-august-10-2026-apple-google-meta-openai-unitree-more/"
+  ]
+ },
+ {
+  "id": "2026-08-10-04",
+  "title": "Unitree files for ~$904M Shanghai IPO",
+  "summary": "Hangzhou robot maker Unitree is seeking about 6.1 billion yuan in a Shanghai listing, with over 40% of 2025 revenue from overseas.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "China",
+  "reason": "Humanoid robotics scaling in China.",
+  "sources": [
+   "https://techstartups.com/2026/08/10/top-tech-news-today-august-10-2026-apple-google-meta-openai-unitree-more/"
+  ]
+ },
+ {
+  "id": "2026-08-10-05",
+  "title": "South Korea sets up 5 trillion won chip supply-chain fund; TSMC July sales up 45%",
+  "summary": "Seoul launched a ~$3.5B fund for chip materials, equipment and fabless design; TSMC reported July revenue up about 45% and raised its outlook on AI demand.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "Other",
+  "reason": "Asian chip capacity expanding for AI.",
+  "sources": [
+   "https://techstartups.com/2026/08/10/top-tech-news-today-august-10-2026-apple-google-meta-openai-unitree-more/"
+  ]
+ }
+]

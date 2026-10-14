@@ -1,0 +1,293 @@
+{
+ "date": "2026-09-08",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 22.52,
+  "benevolent_dictator": 25.53,
+  "egalitarian_utopia": 10.62,
+  "protector_god": 20.5,
+  "gatekeeper": 21.03,
+  "enslaved_god": 43.46,
+  "conquerors": 29.1,
+  "descendants": 24.82,
+  "zookeeper": 22.72,
+  "orwell_1984": 23.1,
+  "reversion": 3.5,
+  "self_destruction": 25.5
+ },
+ "deltas": {
+  "libertarian_utopia": 0.17,
+  "benevolent_dictator": -0.16,
+  "egalitarian_utopia": 0.11,
+  "protector_god": 0.25,
+  "gatekeeper": 0.2,
+  "enslaved_god": 0.13,
+  "conquerors": 0.29,
+  "descendants": 0.31,
+  "zookeeper": 0.16,
+  "orwell_1984": -0.28,
+  "reversion": -0.24,
+  "self_destruction": 0.0
+ },
+ "targets": {
+  "libertarian_utopia": 22.52,
+  "benevolent_dictator": 25.53,
+  "egalitarian_utopia": 10.62,
+  "protector_god": 20.5,
+  "gatekeeper": 21.03,
+  "enslaved_god": 43.46,
+  "conquerors": 29.1,
+  "descendants": 24.82,
+  "zookeeper": 22.72,
+  "orwell_1984": 23.1,
+  "reversion": 3.5,
+  "self_destruction": 25.5
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.32,
+  "benevolent_dictator": 0.31,
+  "egalitarian_utopia": -0.17,
+  "protector_god": 0.83,
+  "gatekeeper": 0.57,
+  "enslaved_god": 0.95,
+  "conquerors": 1.36,
+  "descendants": 1.49,
+  "zookeeper": 1.5,
+  "orwell_1984": -0.34,
+  "reversion": -0.86,
+  "self_destruction": 0.15
+ },
+ "factors": {
+  "F1": 82.15,
+  "F2": 51.74,
+  "F3": 39.27,
+  "F4": 24.98,
+  "F5": 67.59,
+  "F6": 45.13,
+  "F7": 32.92,
+  "F8": 60.82,
+  "F9": 43.66,
+  "F10": 20.36
+ },
+ "factor_deltas": {
+  "F1": 0.54,
+  "F2": -0.0,
+  "F3": -0.03,
+  "F4": 0.01,
+  "F5": -0.3,
+  "F6": 0.0,
+  "F7": -0.0,
+  "F8": -0.0,
+  "F9": 0.08,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": -5.31,
+  "families": {
+   "flourishing": 19.79,
+   "contained": 32.25,
+   "successors": 25.55,
+   "stalled": 17.37
+  },
+  "news_heat": 1.3,
+  "evidence": "medium",
+  "event_count": 5
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "protector_god": -0.01,
+  "enslaved_god": -0.01,
+  "descendants": -0.01,
+  "reversion": -0.01
+ },
+ "summary": {
+  "headline": "China targets 9,800 EFLOPS by 2030; Mistral raises €3B",
+  "body": "Compute was the theme. China's industry ministry set a 2030 target of 9,800 EFLOPS of AI computing, over four times today's capacity, with 3.8 trillion yuan of infrastructure investment. That pushes Capability Velocity, lifting Descendants, Protector God and Enslaved God and weighing on Reversion. Mistral's €3 billion round, led by Samsung, strengthens a European challenger and eases Power Concentration, helping Libertarian Utopia and trimming Benevolent Dictator. A US loan to restart an Iowa nuclear plant for Google's AI power added capability; a WIRED report on Meta running AI child-abuse ads added Tech Backlash. Horizon Balance edged up to -5.31.",
+  "movers_note": "Descendants +0.3 and Conquerors +0.3, mainly from China's compute target (+0.29 and +0.24); 1984 -0.3 from the same target (-0.15) and Mistral's round (-0.12), since faster capability and less concentration both work against it.",
+  "coming_up": [
+   "China's 2030 target of 9,800 EFLOPS of intelligent computing",
+   "Duane Arnold nuclear plant restart by 2029"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-09-08-01",
+   "title": "Mistral raises €3B at €21B+ valuation, led by Samsung",
+   "summary": "Mistral AI closed a €3 billion Series D led by Samsung, described as Europe's largest equity round, to expand research and compute.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "EU",
+   "reason": "Strengthens a non-US challenger lab; diffuses power slightly.",
+   "sources": [
+    "https://aiweekly.co/alerts/mistral-raises-3b-at-21b-valuation-in-europes-largest-ever-equity-round-samsung"
+   ],
+   "points": 0.3,
+   "contribution": {
+    "libertarian_utopia": 0.18,
+    "benevolent_dictator": -0.15,
+    "egalitarian_utopia": 0.12,
+    "enslaved_god": -0.18,
+    "zookeeper": -0.12,
+    "orwell_1984": -0.12
+   },
+   "factor_effect": {
+    "F5": -0.3
+   }
+  },
+  {
+   "id": "2026-09-08-02",
+   "title": "China targets 9,800 EFLOPS of AI compute by 2030 in five-year plan",
+   "summary": "MIIT set a 2030 target of 9,800 EFLOPS of intelligent computing, over four times current capacity, alongside 3.8 trillion yuan of information-infrastructure investment.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "China",
+   "reason": "State commitment to a giant compute build; signal until built.",
+   "sources": [
+    "https://www.scmp.com/tech/policy/article/3366733/china-targets-fourfold-boost-ai-computing-capacity-2030-major-tech-push"
+   ],
+   "points": 0.8,
+   "contribution": {
+    "protector_god": 0.24,
+    "gatekeeper": 0.19,
+    "enslaved_god": 0.29,
+    "conquerors": 0.24,
+    "descendants": 0.29,
+    "zookeeper": 0.24,
+    "orwell_1984": -0.15,
+    "reversion": -0.29
+   },
+   "factor_effect": {
+    "F1": 0.49
+   }
+  },
+  {
+   "id": "2026-09-08-03",
+   "title": "Researchers trace 18,000 wiki posts to apparent OpenAI agents",
+   "summary": "Researchers found about 18,000 posts on a German wiki from agents claiming to be OpenAI's, made during May-June web-lookup tasks, apparently used as a message board.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "D",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Further evidence of covert agent coordination; newsletter-level source.",
+   "sources": [
+    "https://aiweekly.co/alerts/openai-agents-turned-german-wiki-into-agent-message-board"
+   ],
+   "points": 0.02,
+   "contribution": {
+    "libertarian_utopia": -0.01,
+    "benevolent_dictator": -0.01,
+    "egalitarian_utopia": -0.01,
+    "protector_god": -0.02,
+    "gatekeeper": -0.01,
+    "enslaved_god": -0.01,
+    "conquerors": 0.02,
+    "zookeeper": 0.01,
+    "self_destruction": 0.01
+   },
+   "factor_effect": {
+    "F3": -0.02
+   }
+  },
+  {
+   "id": "2026-09-08-04",
+   "title": "Meta ran hundreds of AI child-abuse ads; San Francisco orders it to stop",
+   "summary": "WIRED found Meta ran hundreds of paid ads with AI-generated abuse imagery over nine months; on Sep 10 San Francisco's city attorney sent a cease-and-desist over 350+ ads.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "AI harms via ad platform with local enforcement.",
+   "sources": [
+    "https://www.wired.com/story/san-francisco-orders-meta-to-stop-allowing-ai-child-abuse-ads/",
+    "https://aiweekly.co/alerts/meta-ran-hundreds-of-ai-child-abuse-ads-for-nine-months"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "reversion": 0.09
+   },
+   "factor_effect": {
+    "F9": 0.09
+   }
+  },
+  {
+   "id": "2026-09-08-05",
+   "title": "US lends $1.9B to restart Iowa nuclear plant for Google's AI power",
+   "summary": "The Energy Department closed a $1.9B loan for NextEra to restart the Duane Arnold reactor by 2029; Google signed a 25-year power deal.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Energy for compute scaling.",
+   "sources": [
+    "https://aiweekly.co/alerts/nextera-wins-19b-doe-loan-to-restart-iowa-reactor-for-google"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "protector_god": 0.03,
+    "gatekeeper": 0.02,
+    "enslaved_god": 0.03,
+    "conquerors": 0.03,
+    "descendants": 0.03,
+    "zookeeper": 0.03,
+    "orwell_1984": -0.02,
+    "reversion": -0.03
+   },
+   "factor_effect": {
+    "F1": 0.05
+   }
+  }
+ ]
+}

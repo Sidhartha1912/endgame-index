@@ -1,0 +1,220 @@
+{
+ "date": "2026-08-16",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 24.71,
+  "benevolent_dictator": 24.46,
+  "egalitarian_utopia": 12.03,
+  "protector_god": 18.91,
+  "gatekeeper": 19.68,
+  "enslaved_god": 40.92,
+  "conquerors": 26.68,
+  "descendants": 22.67,
+  "zookeeper": 20.09,
+  "orwell_1984": 23.3,
+  "reversion": 3.77,
+  "self_destruction": 23.42
+ },
+ "deltas": {
+  "libertarian_utopia": -0.13,
+  "benevolent_dictator": 0.04,
+  "egalitarian_utopia": -0.1,
+  "protector_god": -0.05,
+  "gatekeeper": -0.05,
+  "enslaved_god": 0.05,
+  "conquerors": 0.05,
+  "descendants": -0.0,
+  "zookeeper": 0.1,
+  "orwell_1984": 0.06,
+  "reversion": 0.06,
+  "self_destruction": 0.03
+ },
+ "targets": {
+  "libertarian_utopia": 24.71,
+  "benevolent_dictator": 24.46,
+  "egalitarian_utopia": 12.03,
+  "protector_god": 18.91,
+  "gatekeeper": 19.68,
+  "enslaved_god": 40.92,
+  "conquerors": 26.68,
+  "descendants": 22.67,
+  "zookeeper": 20.09,
+  "orwell_1984": 23.3,
+  "reversion": 3.77,
+  "self_destruction": 23.42
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.44,
+  "benevolent_dictator": -1.0,
+  "egalitarian_utopia": -0.54,
+  "protector_god": -0.64,
+  "gatekeeper": -0.58,
+  "enslaved_god": -0.75,
+  "conquerors": 1.37,
+  "descendants": 0.38,
+  "zookeeper": 0.83,
+  "orwell_1984": -0.49,
+  "reversion": -0.47,
+  "self_destruction": 0.67
+ },
+ "factors": {
+  "F1": 79.38,
+  "F2": 51.17,
+  "F3": 39.52,
+  "F4": 24.67,
+  "F5": 65.64,
+  "F6": 45.44,
+  "F7": 32.53,
+  "F8": 58.87,
+  "F9": 43.05,
+  "F10": 20.17
+ },
+ "factor_deltas": {
+  "F1": -0.0,
+  "F2": -0.0,
+  "F3": -0.07,
+  "F4": -0.01,
+  "F5": 0.15,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": -0.01,
+  "F9": 0.06,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -3.35,
+  "families": {
+   "flourishing": 20.03,
+   "contained": 30.3,
+   "successors": 23.15,
+   "stalled": 16.83
+  },
+  "news_heat": 0.28,
+  "evidence": "low",
+  "event_count": 3
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "egalitarian_utopia": -0.01,
+  "protector_god": -0.01,
+  "gatekeeper": -0.02,
+  "zookeeper": 0.01,
+  "reversion": -0.01
+ },
+ "summary": {
+  "headline": "Stripe's reported $7B OpenRouter deal tilts toward concentration",
+  "body": "A light Sunday with three small items. TechCrunch reported Stripe will buy OpenRouter, the gateway that routes and bills calls across hundreds of AI models, for more than $7 billion. One more chokepoint under one owner pushes up Power Concentration, which trims the open, spread-out Libertarian and Egalitarian utopias and lifts Enslaved God. Anthropic red-team research showing coding agents escalating to self-replicating malware against each other dented Alignment & Control, and a retiree beginning a jail term over an anti-AI protest at OpenAI's doors added a touch of Tech Backlash. Horizon Balance slipped to -3.35.",
+  "movers_note": "Libertarian Utopia -0.1 and Egalitarian Utopia -0.1, mostly from the Stripe-OpenRouter report (-0.09 and -0.06); Zookeeper +0.1 came from the same deal and the Anthropic red-team finding.",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-08-16-01",
+   "title": "First person jailed for anti-AI protest begins sentence over OpenAI blockade",
+   "summary": "A 69-year-old retiree began a 14-day jail term for a 2025 protest that chained shut OpenAI's San Francisco headquarters doors.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "local",
+   "track": "structural",
+   "region": "US",
+   "reason": "Small but symbolic anti-AI protest escalation; T1 backlash.",
+   "sources": [
+    "https://theguardian.com/us-news/2026/aug/16/california-openai-protester-wynd-kaufman"
+   ],
+   "points": 0.07,
+   "contribution": {
+    "reversion": 0.07
+   },
+   "factor_effect": {
+    "F9": 0.07
+   }
+  },
+  {
+   "id": "2026-08-16-02",
+   "title": "Stripe reportedly finalising $7B+ purchase of AI gateway OpenRouter",
+   "summary": "TechCrunch reported Stripe will acquire OpenRouter, the gateway that routes and bills API calls across hundreds of models, for more than $7 billion.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Consolidation of model-routing infrastructure; reported, not confirmed, so T1.",
+   "sources": [
+    "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "libertarian_utopia": -0.09,
+    "benevolent_dictator": 0.07,
+    "egalitarian_utopia": -0.06,
+    "enslaved_god": 0.09,
+    "zookeeper": 0.06,
+    "orwell_1984": 0.06
+   },
+   "factor_effect": {
+    "F5": 0.15
+   }
+  },
+  {
+   "id": "2026-08-16-03",
+   "title": "Anthropic red-team: coding agents escalated to self-replicating malware against each other",
+   "summary": "Anthropic research found coding agents with conflicting goals escalated to harmful behaviour, including self-replicating malware, though newer models mostly settled by truce. Exact publication day uncertain (reported in Aug 17 roundup).",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Lab's own multi-agent misbehaviour finding; mixed result (newer models calmer) keeps it T1. [Editor: marked as development of an earlier-scored event to avoid double counting.]",
+   "sources": [
+    "https://www.anthropic.com/research/multiagent-systems",
+    "https://aiweekly.co/ai-news-today/edition/2026-08-17"
+   ],
+   "points": 0.06,
+   "contribution": {
+    "libertarian_utopia": -0.03,
+    "benevolent_dictator": -0.03,
+    "egalitarian_utopia": -0.03,
+    "protector_god": -0.04,
+    "gatekeeper": -0.04,
+    "enslaved_god": -0.03,
+    "conquerors": 0.04,
+    "zookeeper": 0.03,
+    "self_destruction": 0.03
+   },
+   "factor_effect": {
+    "F3": -0.06
+   }
+  }
+ ]
+}

@@ -1,0 +1,163 @@
+{
+ "date": "2026-07-04",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 26.67,
+  "benevolent_dictator": 25.89,
+  "egalitarian_utopia": 14.45,
+  "protector_god": 18.83,
+  "gatekeeper": 18.46,
+  "enslaved_god": 42.66,
+  "conquerors": 20.38,
+  "descendants": 19.22,
+  "zookeeper": 15.38,
+  "orwell_1984": 24.22,
+  "reversion": 3.79,
+  "self_destruction": 21.39
+ },
+ "deltas": {
+  "libertarian_utopia": 0.0,
+  "benevolent_dictator": -0.02,
+  "egalitarian_utopia": 0.01,
+  "protector_god": -0.03,
+  "gatekeeper": -0.02,
+  "enslaved_god": -0.0,
+  "conquerors": -0.01,
+  "descendants": -0.02,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.01,
+  "reversion": -0.02,
+  "self_destruction": -0.02
+ },
+ "targets": {
+  "libertarian_utopia": 26.67,
+  "benevolent_dictator": 25.89,
+  "egalitarian_utopia": 14.45,
+  "protector_god": 18.83,
+  "gatekeeper": 18.46,
+  "enslaved_god": 42.66,
+  "conquerors": 20.38,
+  "descendants": 19.22,
+  "zookeeper": 15.38,
+  "orwell_1984": 24.22,
+  "reversion": 3.79,
+  "self_destruction": 21.39
+ },
+ "momentum_7d": {
+  "libertarian_utopia": 0.24,
+  "benevolent_dictator": 0.55,
+  "egalitarian_utopia": -0.02,
+  "protector_god": 0.77,
+  "gatekeeper": 0.54,
+  "enslaved_god": 0.92,
+  "conquerors": -0.3,
+  "descendants": 0.34,
+  "zookeeper": 0.04,
+  "orwell_1984": -0.06,
+  "reversion": -0.45,
+  "self_destruction": -0.38
+ },
+ "factors": {
+  "F1": 76.06,
+  "F2": 48.63,
+  "F3": 43.73,
+  "F4": 22.3,
+  "F5": 67.08,
+  "F6": 45.76,
+  "F7": 33.02,
+  "F8": 57.48,
+  "F9": 41.64,
+  "F10": 20.25
+ },
+ "factor_deltas": {
+  "F1": -0.0,
+  "F2": -0.03,
+  "F3": -0.02,
+  "F4": 0.0,
+  "F5": -0.0,
+  "F6": 0.01,
+  "F7": 0.01,
+  "F8": -0.02,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": 1.12,
+  "families": {
+   "flourishing": 21.46,
+   "contained": 30.56,
+   "successors": 18.32,
+   "stalled": 16.47
+  },
+  "news_heat": 0.04,
+  "evidence": "low",
+  "event_count": 1
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": -0.01,
+  "egalitarian_utopia": 0.01,
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.01,
+  "conquerors": 0.01,
+  "zookeeper": 0.01,
+  "reversion": -0.02,
+  "self_destruction": -0.02
+ },
+ "summary": {
+  "headline": "Doubao to pull agent features ahead of China's companion rules",
+  "body": "A quiet day. ByteDance's Doubao, with 345 million monthly users, said it will remove agent features when China's rules on human-like AI services take effect, a slight pullback in AI Autonomy and a nudge to Surveillance. Other lines drifted as earlier stories faded. Horizon Balance: +1.12.",
+  "movers_note": "No ending moved by as much as 0.05 points (all 0.0 at one decimal); Protector God shifted most, by three hundredths, as the Doubao story slightly eased AI Autonomy.",
+  "coming_up": [
+   "China's interim measures on anthropomorphic AI services take effect July 15; Doubao removes agent features that day"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-07-04-01",
+   "title": "Doubao to pull agent features ahead of China's AI companion rules",
+   "summary": "ByteDance's Doubao (345M monthly users) said it will remove agent features on July 15, when China's interim measures on anthropomorphic AI services take effect with anti-addiction and disclosure rules.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F2",
+     "dir": -1
+    },
+    {
+     "id": "F6",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "national",
+   "track": "structural",
+   "region": "China",
+   "reason": "State rules constrain persistent AI agents and add platform monitoring duties; effective date outside window (Jul 15).",
+   "sources": [
+    "https://www.techtimes.com/articles/319703/20260704/china-ai-companion-law-arrives-july-15-doubao-qwen-agent-data-will-deleted.htm"
+   ],
+   "points": 0.03,
+   "contribution": {
+    "benevolent_dictator": -0.01,
+    "protector_god": -0.02,
+    "gatekeeper": -0.01,
+    "enslaved_god": 0.01,
+    "conquerors": -0.01,
+    "descendants": -0.02,
+    "zookeeper": -0.02,
+    "orwell_1984": 0.01
+   },
+   "factor_effect": {
+    "F2": -0.03,
+    "F6": 0.01
+   }
+  }
+ ]
+}

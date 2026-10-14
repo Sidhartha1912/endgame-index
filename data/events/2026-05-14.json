@@ -1,0 +1,25 @@
+[
+ {
+  "id": "2026-05-14-01",
+  "title": "PwC announces global alliance with Anthropic for Claude Code and Cowork",
+  "summary": "PwC said it would roll out Claude Code and Cowork across its professional-services workforce, certifying tens of thousands of staff.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Global",
+  "reason": "Large enterprise agent rollout; incremental autonomy, consumer/enterprise-scale product adoption.",
+  "sources": [
+   "https://ghiasya.dev/articles/ai-news-roundupmay2026/"
+  ]
+ }
+]

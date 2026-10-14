@@ -1,0 +1,49 @@
+[
+ {
+  "id": "2026-10-02-01",
+  "title": "Judge dismisses publishers' antitrust suits over Google AI Overviews",
+  "summary": "Judge Amit Mehta dismissed Chegg and Penske Media antitrust suits over Google's AI Overviews, ruling that 'an expectation is not an agreement'.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Court declines to check a dominant platform's AI product.",
+  "sources": [
+   "https://www.engadget.com/2275023/judge-dismisses-lawsuits-claiming-googles-ai-overviews-siphon-web-traffic/"
+  ]
+ },
+ {
+  "id": "2026-10-02-02",
+  "title": "Apple tightens macOS Full Disk Access citing AI-agent privacy risks",
+  "summary": "Apple said it is tightening macOS Full Disk Access controls because of new risks from AI agents overreaching into private data.",
+  "category": "surveillance",
+  "factors": [
+   {
+    "id": "F6",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Platform-level privacy protection against agent data collection.",
+  "sources": [
+   "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+   "https://www.thenationalnews.com/future/technology/2026/10/03/apple-to-tighten-mac-privacy-controls-against-ai-agents-after-meta-muse-complaints/"
+  ]
+ }
+]

@@ -1,0 +1,186 @@
+{
+ "date": "2026-04-22",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 28.76,
+  "benevolent_dictator": 20.55,
+  "egalitarian_utopia": 16.73,
+  "protector_god": 11.94,
+  "gatekeeper": 15.04,
+  "enslaved_god": 35.73,
+  "conquerors": 16.27,
+  "descendants": 12.73,
+  "zookeeper": 9.37,
+  "orwell_1984": 25.66,
+  "reversion": 6.22,
+  "self_destruction": 18.94
+ },
+ "deltas": {
+  "libertarian_utopia": 0.0,
+  "benevolent_dictator": 0.16,
+  "egalitarian_utopia": 0.0,
+  "protector_god": 0.18,
+  "gatekeeper": 0.12,
+  "enslaved_god": -0.03,
+  "conquerors": 0.18,
+  "descendants": 0.21,
+  "zookeeper": 0.21,
+  "orwell_1984": -0.03,
+  "reversion": -0.05,
+  "self_destruction": 0.0
+ },
+ "targets": {
+  "libertarian_utopia": 28.76,
+  "benevolent_dictator": 20.55,
+  "egalitarian_utopia": 16.73,
+  "protector_god": 11.94,
+  "gatekeeper": 15.04,
+  "enslaved_god": 35.73,
+  "conquerors": 16.27,
+  "descendants": 12.73,
+  "zookeeper": 9.37,
+  "orwell_1984": 25.66,
+  "reversion": 6.22,
+  "self_destruction": 18.94
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.19,
+  "benevolent_dictator": 0.5,
+  "egalitarian_utopia": -0.93,
+  "protector_god": -0.13,
+  "gatekeeper": -0.02,
+  "enslaved_god": 0.67,
+  "conquerors": 1.28,
+  "descendants": 0.72,
+  "zookeeper": 1.42,
+  "orwell_1984": 0.66,
+  "reversion": -0.34,
+  "self_destruction": 0.76
+ },
+ "factors": {
+  "F1": 68.93,
+  "F2": 45.27,
+  "F3": 41.31,
+  "F4": 25.0,
+  "F5": 62.99,
+  "F6": 45.6,
+  "F7": 34.59,
+  "F8": 55.6,
+  "F9": 40.54,
+  "F10": 20.01
+ },
+ "factor_deltas": {
+  "F1": 0.08,
+  "F2": 0.27,
+  "F3": 0.0,
+  "F4": 0.0,
+  "F5": 0.0,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.0,
+  "F9": -0.0,
+  "F10": 0.0
+ },
+ "composites": {
+  "horizon_balance": 1.94,
+  "families": {
+   "flourishing": 19.5,
+   "contained": 25.38,
+   "successors": 12.79,
+   "stalled": 16.94
+  },
+  "news_heat": 0.36,
+  "evidence": "low",
+  "event_count": 2
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {},
+ "summary": {
+  "headline": "Google and OpenAI push autonomous agents into the workplace",
+  "body": "A lighter day focused on AI agents. At Cloud Next, Google unveiled eighth-generation TPU chips and put autonomous agents at the centre of its enterprise business. OpenAI launched shared workspace agents that carry out tasks across tools like Slack and Gmail. Both stories raise AI Autonomy, meaning AI is doing more on its own, and Google's chips add a little Capability Velocity. Endings that need independent, capable AI gained slightly, including Descendants, Zookeeper, Protector God and Conquerors. Because these lift bright and dark endings about equally, the overall mood did not shift: Horizon Balance held at +1.94.",
+  "movers_note": "Descendants +0.2 and Zookeeper +0.2, mostly from Google Cloud Next's agent platform (+0.15 and +0.14), with OpenAI's workspace agents adding +0.06 each.",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-04-22-01",
+   "title": "Google Cloud Next: 8th-gen TPUs and Gemini Enterprise Agent Platform",
+   "summary": "At Cloud Next 2026 Google unveiled eighth-generation TPUs and made autonomous agents the centre of its enterprise business via the Gemini Enterprise Agent Platform.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F2",
+     "dir": 1
+    },
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Enterprise agent platform plus new compute silicon; incremental.",
+   "sources": [
+    "https://www.reuters.com/business/google-puts-ai-agents-heart-its-enterprise-money-making-push-2026-04-22/",
+    "https://cloud.google.com/blog/topics/google-cloud-next/google-cloud-next-2026-wrap-up"
+   ],
+   "points": 0.17,
+   "contribution": {
+    "benevolent_dictator": 0.1,
+    "protector_god": 0.13,
+    "gatekeeper": 0.08,
+    "conquerors": 0.13,
+    "descendants": 0.15,
+    "zookeeper": 0.14,
+    "orwell_1984": -0.03,
+    "reversion": -0.05
+   },
+   "factor_effect": {
+    "F1": 0.08,
+    "F2": 0.17
+   }
+  },
+  {
+   "id": "2026-04-22-02",
+   "title": "OpenAI launches workspace agents that act across business tools",
+   "summary": "OpenAI introduced shared ChatGPT workspace agents that autonomously run tasks across tools like Slack and Gmail for business users.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "New agent product for organisations; consumer/business-level autonomy.",
+   "sources": [
+    "https://www.theverge.com/ai-artificial-intelligence/917065/openai-chatgpt-workspace-agents-custom-teams-bots"
+   ],
+   "points": 0.1,
+   "contribution": {
+    "benevolent_dictator": 0.06,
+    "protector_god": 0.05,
+    "gatekeeper": 0.03,
+    "enslaved_god": -0.03,
+    "conquerors": 0.05,
+    "descendants": 0.06,
+    "zookeeper": 0.06
+   },
+   "factor_effect": {
+    "F2": 0.1
+   }
+  }
+ ]
+}

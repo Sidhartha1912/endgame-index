@@ -1,0 +1,54 @@
+[
+ {
+  "id": "2026-06-04-01",
+  "title": "Bipartisan 'Great American AI Act' draft would preempt state laws and require frontier safety frameworks",
+  "summary": "Reps. Obernolte and Trahan released a 269-page draft requiring large frontier developers to publish safety frameworks, report critical incidents and undergo audits, while preempting state frontier-AI laws for three years; unions opposed it.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   },
+   {
+    "id": "F4",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Proposed federal oversight (up) paired with state-law preemption; discussion draft so signal.",
+  "sources": [
+   "https://obernolte.house.gov/media/press-releases/obernolte-trahan-release-discussion-draft-great-american-ai-act",
+   "https://www.axios.com/2026/06/04/house-draft-bill-regulate-ai",
+   "https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/"
+  ]
+ },
+ {
+  "id": "2026-06-04-02",
+  "title": "Nvidia releases open-weight Nemotron 3 Ultra (550B MoE)",
+  "summary": "Nvidia shipped Nemotron 3 Ultra, a 550B-parameter open-weight mixture-of-experts model, on Hugging Face and its NIM platform.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Mid/large open-weights release, reportedly still behind Kimi K2.6.",
+  "sources": [
+   "https://aitoolsrecap.com/Blog/AINewsJune2026.aspx"
+  ]
+ }
+]

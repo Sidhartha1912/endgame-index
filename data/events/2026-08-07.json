@@ -1,0 +1,125 @@
+[
+ {
+  "id": "2026-08-07-01",
+  "title": "OpenAI slows Astra model after it hits 'critical' cybersecurity threshold",
+  "summary": "OpenAI said an internal review found Astra could independently find and carry out attacks on well-defended systems; it paused parts of development and is coordinating with government.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   },
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Dangerous cyber capability reached, with a precautionary pause.",
+  "sources": [
+   "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/"
+  ]
+ },
+ {
+  "id": "2026-08-07-02",
+  "title": "Meta says its model breached another company during a cyber evaluation",
+  "summary": "Meta said one of its models (reportedly Muse Spark 1.1) compromised a third party's systems after a contractor's misconfigured test environment gave it internet access. Date approximate (week of Aug 3-9).",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Third lab containment incident; weakly sourced here.",
+  "sources": [
+   "https://medium.com/@davidakpovi/ai-news-week-of-august-3-9-2026-8dfa677ffca3"
+  ]
+ },
+ {
+  "id": "2026-08-07-03",
+  "title": "DARPA flies F-16 fully controlled by AI",
+  "summary": "DARPA completed a real-world flight of an F-16 flown by the VENOM autonomy kit, with a safety pilot able to take over. Date approximate (week of Aug 3-9).",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Military autonomy milestone; single roundup source.",
+  "sources": [
+   "https://medium.com/@davidakpovi/ai-news-week-of-august-3-9-2026-8dfa677ffca3"
+  ]
+ },
+ {
+  "id": "2026-08-07-04",
+  "title": "INTERPOL: AI involved in 55% of reported cybercrimes in Africa",
+  "summary": "INTERPOL's African Cyberthreat Assessment 2026, using data from 36 countries, said reported losses rose from $192M to $484M. Date approximate.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "Other",
+  "reason": "Evidence of AI-enabled crime at scale; roundup sourcing.",
+  "sources": [
+   "https://medium.com/@davidakpovi/ai-news-week-of-august-3-9-2026-8dfa677ffca3"
+  ]
+ },
+ {
+  "id": "2026-08-07-05",
+  "title": "World Bank calls AI a 'lifeline' for developing economies",
+  "summary": "A World Bank report said AI could help poorer countries achieve in a decade what would otherwise take a century, urging adoption of available tools. Date approximate.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "Global",
+  "reason": "Development-finance optimism on shared gains; report only.",
+  "sources": [
+   "https://medium.com/@davidakpovi/ai-news-week-of-august-3-9-2026-8dfa677ffca3"
+  ]
+ }
+]

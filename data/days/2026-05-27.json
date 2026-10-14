@@ -1,0 +1,314 @@
+{
+ "date": "2026-05-27",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 27.51,
+  "benevolent_dictator": 23.3,
+  "egalitarian_utopia": 14.66,
+  "protector_god": 16.38,
+  "gatekeeper": 17.55,
+  "enslaved_god": 39.21,
+  "conquerors": 20.75,
+  "descendants": 18.05,
+  "zookeeper": 14.47,
+  "orwell_1984": 24.27,
+  "reversion": 4.18,
+  "self_destruction": 20.6
+ },
+ "deltas": {
+  "libertarian_utopia": -0.18,
+  "benevolent_dictator": 0.07,
+  "egalitarian_utopia": -0.06,
+  "protector_god": -0.07,
+  "gatekeeper": 0.03,
+  "enslaved_god": 0.23,
+  "conquerors": -0.09,
+  "descendants": -0.1,
+  "zookeeper": 0.02,
+  "orwell_1984": 0.17,
+  "reversion": -0.03,
+  "self_destruction": -0.05
+ },
+ "targets": {
+  "libertarian_utopia": 27.51,
+  "benevolent_dictator": 23.3,
+  "egalitarian_utopia": 14.66,
+  "protector_god": 16.38,
+  "gatekeeper": 17.55,
+  "enslaved_god": 39.21,
+  "conquerors": 20.75,
+  "descendants": 18.05,
+  "zookeeper": 14.47,
+  "orwell_1984": 24.27,
+  "reversion": 4.18,
+  "self_destruction": 20.6
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.77,
+  "benevolent_dictator": 0.39,
+  "egalitarian_utopia": -0.58,
+  "protector_god": 0.23,
+  "gatekeeper": 0.36,
+  "enslaved_god": 0.87,
+  "conquerors": 0.68,
+  "descendants": 0.51,
+  "zookeeper": 1.0,
+  "orwell_1984": 0.26,
+  "reversion": 0.24,
+  "self_destruction": 0.04
+ },
+ "factors": {
+  "F1": 74.55,
+  "F2": 48.3,
+  "F3": 41.55,
+  "F4": 23.88,
+  "F5": 64.49,
+  "F6": 45.76,
+  "F7": 32.93,
+  "F8": 56.69,
+  "F9": 41.44,
+  "F10": 20.17
+ },
+ "factor_deltas": {
+  "F1": -0.01,
+  "F2": -0.15,
+  "F3": 0.01,
+  "F4": 0.09,
+  "F5": 0.3,
+  "F6": 0.01,
+  "F7": 0.08,
+  "F8": 0.0,
+  "F9": -0.03,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": 0.44,
+  "families": {
+   "flourishing": 20.46,
+   "contained": 28.38,
+   "successors": 17.76,
+   "stalled": 16.35
+  },
+  "news_heat": 0.63,
+  "evidence": "low",
+  "event_count": 6
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": 0.01,
+  "egalitarian_utopia": 0.01,
+  "protector_god": 0.01,
+  "gatekeeper": 0.01,
+  "conquerors": -0.01,
+  "descendants": -0.01,
+  "zookeeper": -0.01,
+  "reversion": -0.03,
+  "self_destruction": -0.01
+ },
+ "summary": {
+  "headline": "Anthropic expands abroad while Gartner predicts agent pullback",
+  "body": "Several small stories, none large. Anthropic opened a Milan office and named a head for Korea, adding to Power Concentration, which lifts Enslaved God and lowers Libertarian Utopia. Gartner predicted 40% of organisations will scale back AI agents over governance problems, a small brake on AI Autonomy that trims Descendants. The same concentration of power also nudges up 1984. Courts in China and Russia moved to set rules for AI cases, and Indian celebrities sought protection from deepfakes. Senator Elizabeth Warren called for taxing AI firms. Horizon Balance is 0.4, down 0.07.",
+  "movers_note": "Enslaved God +0.2 and Libertarian Utopia -0.2, mostly from Anthropic's expansion (+0.18/-0.18); 1984 +0.2, mostly from the Anthropic expansion (+0.12) with small court stories adding +0.02 each.",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-05-27-01",
+   "title": "China's Supreme People's Court plans AI and data property rules for 2026-2030",
+   "summary": "At a State Council briefing, China's top court said it will refine judicial rules on AI and data property rights over the next five-year plan.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "D",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "China",
+   "reason": "Domestic legal framework building; signal.",
+   "sources": [
+    "https://techieray.substack.com/p/ctrlaireg-1-june-2026"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "gatekeeper": 0.03,
+    "orwell_1984": 0.02,
+    "self_destruction": -0.02
+   },
+   "factor_effect": {
+    "F4": 0.04
+   }
+  },
+  {
+   "id": "2026-05-27-02",
+   "title": "Russia's Supreme Court orders nationwide review of AI court cases",
+   "summary": "Chief Justice Igor Krasnov ordered a review of cases involving AI to unify enforcement.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "D",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "Other",
+   "reason": "Minor national legal step.",
+   "sources": [
+    "https://techieray.substack.com/p/ctrlaireg-1-june-2026"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "gatekeeper": 0.03,
+    "orwell_1984": 0.02,
+    "self_destruction": -0.02
+   },
+   "factor_effect": {
+    "F4": 0.04
+   }
+  },
+  {
+   "id": "2026-05-27-03",
+   "title": "Indian celebrities seek legal protection against AI deepfakes",
+   "summary": "Indian public figures pursued court protection of name, voice and likeness amid rising AI deepfakes, exposing gaps in personality-rights law.",
+   "category": "surveillance",
+   "factors": [
+    {
+     "id": "F6",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "D",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "national",
+   "track": "structural",
+   "region": "India",
+   "reason": "Rights harms from generative AI; incremental.",
+   "sources": [
+    "https://techieray.substack.com/p/ctrlaireg-1-june-2026"
+   ],
+   "points": 0.01,
+   "contribution": {
+    "benevolent_dictator": 0.01,
+    "orwell_1984": 0.01
+   },
+   "factor_effect": {
+    "F6": 0.01
+   }
+  },
+  {
+   "id": "2026-05-27-04",
+   "title": "Sen. Warren calls for taxing AI companies",
+   "summary": "Elizabeth Warren argued in a Time op-ed for taxing AI firms to address wealth concentration and worker displacement.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F7",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "D",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "US",
+   "reason": "Proposal for AI dividend/tax; opinion piece, signal.",
+   "sources": [
+    "https://techieray.substack.com/p/ctrlaireg-1-june-2026"
+   ],
+   "points": 0.07,
+   "contribution": {
+    "egalitarian_utopia": 0.05
+   },
+   "factor_effect": {
+    "F7": 0.07
+   }
+  },
+  {
+   "id": "2026-05-27-05",
+   "title": "Gartner: 40% of organisations will scale back AI agents",
+   "summary": "Gartner predicted four in ten firms will demote, limit or retire AI agents over governance problems.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F2",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "Global",
+   "reason": "Analyst forecast of rollback of agent autonomy; signal.",
+   "sources": [
+    "https://www.theregister.com/ai-ml/2026/05/27/4-in-10-ai-agents-headed-for-demotion-or-the-rubbish-bin/5246964"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "benevolent_dictator": -0.09,
+    "protector_god": -0.07,
+    "gatekeeper": -0.04,
+    "enslaved_god": 0.04,
+    "conquerors": -0.07,
+    "descendants": -0.09,
+    "zookeeper": -0.09
+   },
+   "factor_effect": {
+    "F2": -0.15
+   }
+  },
+  {
+   "id": "2026-05-27-06",
+   "title": "Anthropic opens Milan office and names Korea head",
+   "summary": "Anthropic opened its second European office in Milan and appointed KiYoung Choi to lead Anthropic Korea, after Mythos cyber workshops with Korean agencies.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "EU",
+   "reason": "Frontier lab expanding footprint abroad; minor.",
+   "sources": [
+    "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
+    "https://www.asiae.co.kr/en/article/science/2026052709020555911"
+   ],
+   "points": 0.3,
+   "contribution": {
+    "libertarian_utopia": -0.18,
+    "benevolent_dictator": 0.15,
+    "egalitarian_utopia": -0.12,
+    "enslaved_god": 0.18,
+    "zookeeper": 0.12,
+    "orwell_1984": 0.12
+   },
+   "factor_effect": {
+    "F5": 0.3
+   }
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+[
+ {
+  "id": "2026-09-14-01",
+  "title": "China rebukes Amodei's chip-control slowdown essay as 'fearmongering'",
+  "summary": "China's Foreign Ministry called Anthropic CEO Dario Amodei's essay urging a paced frontier and continued US chip curbs 'fearmongering', saying confrontation disrupts global AI governance.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "China",
+  "reason": "Official dismissal in a US-China AI governance dispute.",
+  "sources": [
+   "https://www.npr.org/2026/09/14/nx-s1-5968456/china-hits-back-ai-development",
+   "https://www.bloomberg.com/news/articles/2026-09-14/china-rejects-ai-fearmongering-after-amodei-urges-slowdown"
+  ]
+ },
+ {
+  "id": "2026-09-14-02",
+  "title": "Report: hundreds of contractors read real ChatGPT conversations under 'Project Lily'",
+  "summary": "404 Media reported that contractors hired via Crossing Hurdles and paid through Mercor review real ChatGPT conversations that can contain sensitive personal details; OpenAI says identifiers are stripped.",
+  "category": "surveillance",
+  "factors": [
+   {
+    "id": "F6",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Privacy exposure of user data at scale.",
+  "sources": [
+   "https://www.404media.co/inside-project-lily-the-humans-reading-your-chatgpt-chats/"
+  ]
+ }
+]

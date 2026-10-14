@@ -1,0 +1,77 @@
+[
+ {
+  "id": "2026-04-21-01",
+  "title": "UK High Court upholds Met Police live facial recognition policy",
+  "summary": "The High Court dismissed the Thompson and Carlo (Big Brother Watch) judicial review, finding the Met's live facial recognition policy lawful; claimants plan to appeal.",
+  "category": "surveillance",
+  "factors": [
+   {
+    "id": "F6",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "UK",
+  "reason": "Court clears the way for wider police facial recognition; national precedent. Judgment dated 21 Apr per judiciary.uk summary (some coverage dated later).",
+  "sources": [
+   "https://www.judiciary.uk/wp-content/uploads/2026/04/Summary-of-judgment-Thomson-and-Carlo-v-Metropolitan-Police-Commmissioner-AC-2024-LON-001764-21-04-2026.pdf",
+   "https://www.computerweekly.com/news/366642736/UK-High-Court-dismisses-facial-recognition-judicial-review-case"
+  ]
+ },
+ {
+  "id": "2026-04-21-02",
+  "title": "Unauthorized users accessed Anthropic's restricted Claude Mythos Preview",
+  "summary": "Bloomberg reported a Discord group gained access to the withheld cyber-capable Mythos Preview via a third-party contractor environment; Anthropic said its own systems were not affected.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   },
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Containment failure for a model deliberately withheld for cyber-risk reasons.",
+  "sources": [
+   "https://news.bloomberglaw.com/us-law-week/anthropics-mythos-model-is-being-accessed-by-unauthorized-users",
+   "https://www.businesstoday.in/amp/technology/story/anthropics-mythos-breached-unauthorized-access-raises-security-concerns-526878-2026-04-22"
+  ]
+ },
+ {
+  "id": "2026-04-21-03",
+  "title": "Alibaba releases Qwen 3.6-Max-Preview, its most powerful model",
+  "summary": "Alibaba previewed proprietary Qwen 3.6-Max aimed at coding and agentic tasks for enterprise customers.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "China",
+  "reason": "Incremental Chinese frontier model update; self-reported.",
+  "sources": [
+   "https://decrypt.co/364948/alibaba-qwen-3-6-max-preview-most-powerful-model"
+  ]
+ }
+]

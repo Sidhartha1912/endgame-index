@@ -1,0 +1,192 @@
+{
+ "date": "2026-07-10",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 26.56,
+  "benevolent_dictator": 26.06,
+  "egalitarian_utopia": 14.37,
+  "protector_god": 19.13,
+  "gatekeeper": 18.75,
+  "enslaved_god": 42.54,
+  "conquerors": 21.09,
+  "descendants": 19.78,
+  "zookeeper": 15.88,
+  "orwell_1984": 24.2,
+  "reversion": 3.75,
+  "self_destruction": 21.83
+ },
+ "deltas": {
+  "libertarian_utopia": 0.0,
+  "benevolent_dictator": -0.01,
+  "egalitarian_utopia": 0.0,
+  "protector_god": 0.08,
+  "gatekeeper": 0.06,
+  "enslaved_god": 0.1,
+  "conquerors": 0.09,
+  "descendants": 0.1,
+  "zookeeper": 0.1,
+  "orwell_1984": -0.05,
+  "reversion": -0.12,
+  "self_destruction": -0.01
+ },
+ "targets": {
+  "libertarian_utopia": 26.56,
+  "benevolent_dictator": 26.06,
+  "egalitarian_utopia": 14.37,
+  "protector_god": 19.13,
+  "gatekeeper": 18.75,
+  "enslaved_god": 42.54,
+  "conquerors": 21.09,
+  "descendants": 19.78,
+  "zookeeper": 15.88,
+  "orwell_1984": 24.2,
+  "reversion": 3.75,
+  "self_destruction": 21.83
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.11,
+  "benevolent_dictator": 0.15,
+  "egalitarian_utopia": -0.07,
+  "protector_god": 0.27,
+  "gatekeeper": 0.27,
+  "enslaved_god": -0.13,
+  "conquerors": 0.7,
+  "descendants": 0.54,
+  "zookeeper": 0.49,
+  "orwell_1984": -0.0,
+  "reversion": -0.06,
+  "self_destruction": 0.42
+ },
+ "factors": {
+  "F1": 76.52,
+  "F2": 49.13,
+  "F3": 43.57,
+  "F4": 22.37,
+  "F5": 66.81,
+  "F6": 45.99,
+  "F7": 33.08,
+  "F8": 57.86,
+  "F9": 41.72,
+  "F10": 20.23
+ },
+ "factor_deltas": {
+  "F1": 0.18,
+  "F2": 0.0,
+  "F3": -0.02,
+  "F4": -0.0,
+  "F5": -0.0,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": -0.02,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": 0.78,
+  "families": {
+   "flourishing": 21.53,
+   "contained": 30.64,
+   "successors": 18.91,
+   "stalled": 16.59
+  },
+  "news_heat": 0.22,
+  "evidence": "low",
+  "event_count": 2
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": -0.01,
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.01,
+  "conquerors": 0.01,
+  "zookeeper": 0.01,
+  "reversion": -0.01,
+  "self_destruction": -0.01
+ },
+ "summary": {
+  "headline": "Chipmakers boom: SK Hynix record listing, TSMC record quarter",
+  "body": "A quiet day. SK Hynix made a record Nasdaq debut to fund new fabs, and TSMC posted record quarterly revenue of about $39.6 billion on AI chip demand. Both add to Capability Velocity, lifting Enslaved God, Descendants and Zookeeper and pushing Reversion down. Horizon Balance: +0.78.",
+  "movers_note": "Reversion -0.1, Enslaved God +0.1 and Descendants +0.1, from the TSMC and SK Hynix results (Reversion -0.07 from TSMC alone).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-07-10-01",
+   "title": "SK Hynix makes record ~$28B ADR debut on Nasdaq",
+   "summary": "The South Korean HBM memory maker, a key Nvidia supplier, listed in the largest ADR offering ever to fund new fabs.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "D",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Other",
+   "reason": "More capital for AI memory supply; incremental.",
+   "sources": [
+    "https://simplywall.st/stocks/us/semiconductors/nasdaq-nvda/nvidia/news/latest-news-in-ai-chips-sk-hynixs-nasdaq-debut-shakes-ai-inv"
+   ],
+   "points": 0.07,
+   "contribution": {
+    "protector_god": 0.03,
+    "gatekeeper": 0.02,
+    "enslaved_god": 0.04,
+    "conquerors": 0.03,
+    "descendants": 0.04,
+    "zookeeper": 0.03,
+    "orwell_1984": -0.02,
+    "reversion": -0.04
+   },
+   "factor_effect": {
+    "F1": 0.06
+   }
+  },
+  {
+   "id": "2026-07-10-02",
+   "title": "TSMC posts record quarterly revenue on AI chip demand",
+   "summary": "TSMC reported second-quarter revenue of about $39.6B, up 36% year on year, driven by AI accelerators.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Other",
+   "reason": "Confirms continuing compute build-out; incremental.",
+   "sources": [
+    "https://theaiinsider.tech/2026/07/13/ai-insiders-week-ahead-in-ai-apple-sues-openai-uchicago-law-ai-policy-tsmc-posts-record-revenue-plus-upcoming-hearings-events/"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "protector_god": 0.06,
+    "gatekeeper": 0.05,
+    "enslaved_god": 0.07,
+    "conquerors": 0.06,
+    "descendants": 0.07,
+    "zookeeper": 0.06,
+    "orwell_1984": -0.04,
+    "reversion": -0.07
+   },
+   "factor_effect": {
+    "F1": 0.12
+   }
+  }
+ ]
+}

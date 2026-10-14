@@ -1,0 +1,258 @@
+{
+ "date": "2026-07-02",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 26.67,
+  "benevolent_dictator": 25.92,
+  "egalitarian_utopia": 14.44,
+  "protector_god": 18.87,
+  "gatekeeper": 18.61,
+  "enslaved_god": 42.68,
+  "conquerors": 20.38,
+  "descendants": 19.24,
+  "zookeeper": 15.38,
+  "orwell_1984": 24.28,
+  "reversion": 3.83,
+  "self_destruction": 21.34
+ },
+ "deltas": {
+  "libertarian_utopia": -0.2,
+  "benevolent_dictator": 0.23,
+  "egalitarian_utopia": -0.12,
+  "protector_god": 0.04,
+  "gatekeeper": 0.07,
+  "enslaved_god": 0.26,
+  "conquerors": -0.05,
+  "descendants": -0.0,
+  "zookeeper": 0.13,
+  "orwell_1984": 0.18,
+  "reversion": -0.02,
+  "self_destruction": -0.07
+ },
+ "targets": {
+  "libertarian_utopia": 26.67,
+  "benevolent_dictator": 25.92,
+  "egalitarian_utopia": 14.44,
+  "protector_god": 18.87,
+  "gatekeeper": 18.61,
+  "enslaved_god": 42.68,
+  "conquerors": 20.38,
+  "descendants": 19.24,
+  "zookeeper": 15.38,
+  "orwell_1984": 24.28,
+  "reversion": 3.83,
+  "self_destruction": 21.34
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.02,
+  "benevolent_dictator": 0.6,
+  "egalitarian_utopia": -0.37,
+  "protector_god": 0.89,
+  "gatekeeper": 0.75,
+  "enslaved_god": 1.26,
+  "conquerors": 0.09,
+  "descendants": 0.64,
+  "zookeeper": 0.49,
+  "orwell_1984": -0.04,
+  "reversion": -0.74,
+  "self_destruction": -0.4
+ },
+ "factors": {
+  "F1": 76.06,
+  "F2": 48.65,
+  "F3": 43.76,
+  "F4": 22.47,
+  "F5": 67.09,
+  "F6": 45.74,
+  "F7": 33.0,
+  "F8": 57.53,
+  "F9": 41.66,
+  "F10": 20.26
+ },
+ "factor_deltas": {
+  "F1": -0.0,
+  "F2": 0.0,
+  "F3": 0.05,
+  "F4": 0.05,
+  "F5": 0.39,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": -0.02,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": 1.13,
+  "families": {
+   "flourishing": 21.47,
+   "contained": 30.64,
+   "successors": 18.33,
+   "stalled": 16.48
+  },
+  "news_heat": 0.51,
+  "evidence": "low",
+  "event_count": 4
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.01,
+  "conquerors": 0.01,
+  "zookeeper": 0.01,
+  "reversion": -0.02,
+  "self_destruction": -0.02
+ },
+ "summary": {
+  "headline": "OpenAI floats 5% US government stake; VC piles into two labs",
+  "body": "Power gathered at the top. Fortune reported OpenAI has proposed giving the US government a roughly 5% stake, worth about $42.6 billion, alongside deeper Pentagon ties. Crunchbase data showed record global venture funding in the first half, with OpenAI and Anthropic taking 43% of it. Both raise Power Concentration, which lifts Enslaved God and Benevolent Dictator and, with closer state ties, 1984, while Libertarian Utopia falls. On the safety side, the White House is reportedly negotiating voluntary pre-release standards with labs, including a 30-day review, a small plus for Alignment & Control. New York became the first state to require labels on ads using AI-generated performers. Horizon Balance: +1.13.",
+  "movers_note": "Enslaved God +0.3, Benevolent Dictator +0.2 and Libertarian Utopia -0.2. The OpenAI stake proposal (Enslaved God +0.14, Libertarian Utopia -0.14) and the VC concentration report (Enslaved God +0.09) drove the day.",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-07-02-01",
+   "title": "White House negotiating voluntary pre-release standards with frontier labs",
+   "summary": "The FT and Reuters reported the administration is in talks with AI companies, including Google, on a voluntary framework implementing the June 2 executive order: classified benchmarks for 'covered frontier models' and a 30-day pre-release review.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "global",
+   "track": "signal",
+   "region": "US",
+   "reason": "Talks only; would formalise government evaluation of frontier models.",
+   "sources": [
+    "https://finance.yahoo.com/technology/ai/articles/us-talks-ai-companies-voluntary-001646707.html",
+    "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/"
+   ],
+   "points": 0.07,
+   "contribution": {
+    "libertarian_utopia": 0.04,
+    "benevolent_dictator": 0.04,
+    "egalitarian_utopia": 0.04,
+    "protector_god": 0.05,
+    "gatekeeper": 0.04,
+    "enslaved_god": 0.04,
+    "conquerors": -0.05,
+    "zookeeper": -0.04,
+    "self_destruction": -0.03
+   },
+   "factor_effect": {
+    "F3": 0.07
+   }
+  },
+  {
+   "id": "2026-07-02-02",
+   "title": "Record $510B global VC in H1 2026; OpenAI and Anthropic took 43%",
+   "summary": "Crunchbase data showed record startup funding in H1 2026, with OpenAI and Anthropic alone absorbing $217B; Fortune reported Anthropic's $47B run-rate now exceeds OpenAI's revenue.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Capital concentrating in two frontier labs.",
+   "sources": [
+    "https://www.techmeme.com/260702/p23",
+    "https://fortune.com/2026/07/02/sam-altman-new-world-order-ai-openai-google-anthropic/"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "libertarian_utopia": -0.09,
+    "benevolent_dictator": 0.07,
+    "egalitarian_utopia": -0.06,
+    "enslaved_god": 0.09,
+    "zookeeper": 0.06,
+    "orwell_1984": 0.06
+   },
+   "factor_effect": {
+    "F5": 0.15
+   }
+  },
+  {
+   "id": "2026-07-02-03",
+   "title": "OpenAI floats giving US government a 5% stake",
+   "summary": "Fortune reported OpenAI has proposed a roughly $42.6B government stake and deeper Pentagon ties as part of a US-led AI strategy.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "US",
+   "reason": "Proposal for state-lab fusion; words only.",
+   "sources": [
+    "https://fortune.com/2026/07/02/sam-altman-new-world-order-ai-openai-google-anthropic/",
+    "https://thenextweb.com/news/openai-5-percent-government-stake-proposal"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "libertarian_utopia": -0.14,
+    "benevolent_dictator": 0.12,
+    "egalitarian_utopia": -0.1,
+    "enslaved_god": 0.14,
+    "zookeeper": 0.1,
+    "orwell_1984": 0.1
+   },
+   "factor_effect": {
+    "F5": 0.24
+   }
+  },
+  {
+   "id": "2026-07-02-04",
+   "title": "New York requires labels on ads using AI-generated performers",
+   "summary": "New York became the first state to require disclosure of synthetic performers in advertising, with fines for violations.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "local",
+   "track": "structural",
+   "region": "US",
+   "reason": "Narrow state transparency rule.",
+   "sources": [
+    "https://www.foxnews.com/media/new-york-makes-history-first-of-its-kind-law-regulating-ai-powered-commercials"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "gatekeeper": 0.03,
+    "orwell_1984": 0.02,
+    "self_destruction": -0.02
+   },
+   "factor_effect": {
+    "F4": 0.04
+   }
+  }
+ ]
+}

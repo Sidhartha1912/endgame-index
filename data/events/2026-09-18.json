@@ -1,0 +1,49 @@
+[
+ {
+  "id": "2026-09-18-01",
+  "title": "Anthropic gives Faculty employee-level access for independent model evaluations",
+  "summary": "Anthropic said Accenture's Faculty will lead evaluation, red-teaming and safeguard testing of its models with access comparable to employees, funded by Anthropic.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Third-party eval arrangement; standards still being developed. Original outlet (Anthropic) cited via aggregator; direct link not captured.",
+  "sources": [
+   "https://aiweekly.co/ai-news-today/edition/2026-09-19"
+  ]
+ },
+ {
+  "id": "2026-09-18-02",
+  "title": "Researchers used Claude Opus 5 to hack OpenAI staff ChatGPT and Codex accounts",
+  "summary": "A three-person Hacktron team used Claude Opus 5 to chain vulnerabilities from an OpenAI forum image upload to logged-in access to OpenAI employee accounts (white-hat disclosure).",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "AI-accelerated offensive cyber capability demonstrated.",
+  "sources": [
+   "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
+   "https://fortune.com/2026/09/18/open-ai-hacked-anthropic-claude-source-code-6500-reward/"
+  ]
+ }
+]

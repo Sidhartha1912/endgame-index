@@ -1,0 +1,299 @@
+{
+ "date": "2026-08-17",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 24.09,
+  "benevolent_dictator": 24.94,
+  "egalitarian_utopia": 11.61,
+  "protector_god": 19.14,
+  "gatekeeper": 19.76,
+  "enslaved_god": 41.8,
+  "conquerors": 26.9,
+  "descendants": 22.93,
+  "zookeeper": 20.73,
+  "orwell_1984": 23.47,
+  "reversion": 3.5,
+  "self_destruction": 23.48
+ },
+ "deltas": {
+  "libertarian_utopia": -0.62,
+  "benevolent_dictator": 0.48,
+  "egalitarian_utopia": -0.42,
+  "protector_god": 0.23,
+  "gatekeeper": 0.08,
+  "enslaved_god": 0.88,
+  "conquerors": 0.22,
+  "descendants": 0.26,
+  "zookeeper": 0.64,
+  "orwell_1984": 0.17,
+  "reversion": -0.27,
+  "self_destruction": 0.06
+ },
+ "targets": {
+  "libertarian_utopia": 24.09,
+  "benevolent_dictator": 24.94,
+  "egalitarian_utopia": 11.61,
+  "protector_god": 19.14,
+  "gatekeeper": 19.76,
+  "enslaved_god": 41.8,
+  "conquerors": 26.9,
+  "descendants": 22.93,
+  "zookeeper": 20.73,
+  "orwell_1984": 23.47,
+  "reversion": 3.5,
+  "self_destruction": 23.48
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.39,
+  "benevolent_dictator": -0.29,
+  "egalitarian_utopia": -1.17,
+  "protector_god": -0.66,
+  "gatekeeper": -0.74,
+  "enslaved_god": 0.24,
+  "conquerors": 1.33,
+  "descendants": 0.34,
+  "zookeeper": 1.42,
+  "orwell_1984": -0.01,
+  "reversion": -0.48,
+  "self_destruction": 0.78
+ },
+ "factors": {
+  "F1": 79.82,
+  "F2": 51.17,
+  "F3": 39.51,
+  "F4": 24.54,
+  "F5": 66.67,
+  "F6": 45.37,
+  "F7": 32.53,
+  "F8": 58.87,
+  "F9": 43.04,
+  "F10": 20.17
+ },
+ "factor_deltas": {
+  "F1": 0.44,
+  "F2": -0.0,
+  "F3": -0.01,
+  "F4": -0.13,
+  "F5": 1.03,
+  "F6": -0.07,
+  "F7": 0.0,
+  "F8": -0.0,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -3.7,
+  "families": {
+   "flourishing": 19.94,
+   "contained": 30.78,
+   "successors": 23.52,
+   "stalled": 16.82
+  },
+  "news_heat": 1.9,
+  "evidence": "medium",
+  "event_count": 5
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "egalitarian_utopia": -0.01,
+  "protector_god": -0.01,
+  "gatekeeper": -0.02,
+  "zookeeper": 0.01,
+  "reversion": -0.01
+ },
+ "summary": {
+  "headline": "Nvidia's $105B OpenAI backstop lifts Enslaved God and Zookeeper",
+  "body": "Money and compute dominated. Nvidia is reportedly guaranteeing up to $105 billion of financing for OpenAI's Ohio data-centre lease, and Anthropic told investors its run-rate hit $65 billion, with Q2 revenue overtaking OpenAI's. Both deepen Power Concentration: a few firms holding enormous resources. That favours Enslaved God (a boxed superintelligence owned by one player), Zookeeper and Benevolent Dictator, and hurts Libertarian and Egalitarian Utopia. The Nvidia deal and an AI-assisted improvement to the matrix-multiplication exponent also pushed Capability Velocity. Smaller notes: a Trump-linked venture selling AI to US-restricted Chinese firms weakened Global Coordination, and Sainsbury's paused a facial-recognition camera after a false flag. Horizon Balance fell to -3.70; Benevolent Dictator overtook Libertarian Utopia.",
+  "movers_note": "Enslaved God +0.9, Zookeeper +0.6 and Libertarian Utopia -0.6, driven mainly by the Nvidia-OpenAI financing backstop (+0.64, +0.45, -0.48) with Anthropic's revenue news adding to the first and last.",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-08-17-01",
+   "title": "Nvidia to backstop up to ~$105B for OpenAI's Ohio data-center campus",
+   "summary": "Nvidia is reportedly guaranteeing up to $105 billion of financing for a 20-year OpenAI data-centre lease in Pike County, Ohio, scaled back from an earlier $250B guarantee after investor pushback.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": 1
+    },
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Exclusive mega compute-financing tie between dominant chip vendor and leading lab.",
+   "sources": [
+    "https://www.cnbc.com/2026/08/17/nvidia-financing-open-ai-data-center-ohio.html",
+    "https://www.wsj.com/tech/nvidia-downsizes-plans-for-250-billion-guarantee-of-openai-data-center-b56c38d3"
+   ],
+   "points": 0.8,
+   "contribution": {
+    "libertarian_utopia": -0.48,
+    "benevolent_dictator": 0.4,
+    "egalitarian_utopia": -0.32,
+    "protector_god": 0.14,
+    "gatekeeper": 0.11,
+    "enslaved_god": 0.64,
+    "conquerors": 0.14,
+    "descendants": 0.16,
+    "zookeeper": 0.45,
+    "orwell_1984": 0.23,
+    "reversion": -0.16
+   },
+   "factor_effect": {
+    "F1": 0.27,
+    "F5": 0.79
+   }
+  },
+  {
+   "id": "2026-08-17-02",
+   "title": "Anthropic run-rate hits $65B; Q2 revenue overtakes OpenAI",
+   "summary": "Anthropic told investors its annualised revenue reached $65B in July; WSJ reported its Q2 sales of $11.6B more than doubled, versus OpenAI's $6.7B.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Revenue concentration among two frontier labs; financial news, T1.",
+   "sources": [
+    "https://www.cnbc.com/2026/08/17/anthropic-says-annualized-revenue-climbed-to-65-billion-in-july.html",
+    "https://www.wsj.com/tech/ai/openais-second-quarter-sales-show-tepid-growth-compared-with-anthropic-5cb42998"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "libertarian_utopia": -0.14,
+    "benevolent_dictator": 0.12,
+    "egalitarian_utopia": -0.1,
+    "enslaved_god": 0.14,
+    "zookeeper": 0.1,
+    "orwell_1984": 0.1
+   },
+   "factor_effect": {
+    "F5": 0.24
+   }
+  },
+  {
+   "id": "2026-08-17-03",
+   "title": "Trump-linked crypto firm backs venture selling AI to US-restricted Chinese firms",
+   "summary": "Reuters reported World Liberty Financial backs WorldClaw, a venture offering AI services to Chinese companies targeted by US restrictions.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Undercuts export-control coordination; small scale.",
+   "sources": [
+    "https://www.reuters.com/world/china/trump-crypto-firm-backs-venture-offering-ai-restricted-chinese-companies-2026-08-17/"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "gatekeeper": -0.08,
+    "orwell_1984": -0.05,
+    "self_destruction": 0.06
+   },
+   "factor_effect": {
+    "F4": -0.12
+   }
+  },
+  {
+   "id": "2026-08-17-04",
+   "title": "Sainsbury's pauses Facewatch at store after false shoplifting flag",
+   "summary": "A Sainsbury's facial-recognition camera wrongly flagged a paying customer as a shoplifter, and the store suspended Facewatch scanning at that branch.",
+   "category": "surveillance",
+   "factors": [
+    {
+     "id": "F6",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "local",
+   "track": "structural",
+   "region": "UK",
+   "reason": "Company drops a surveillance deployment locally (F6 T1 down).",
+   "sources": [
+    "https://theguardian.com/technology/2026/aug/17/humiliated-sainsburys-store-pauses-ai-scanning-after-false-shoplifting-accusation"
+   ],
+   "points": 0.07,
+   "contribution": {
+    "benevolent_dictator": -0.03,
+    "protector_god": 0.02,
+    "orwell_1984": -0.06
+   },
+   "factor_effect": {
+    "F6": -0.07
+   }
+  },
+  {
+   "id": "2026-08-17-05",
+   "title": "AI-assisted search lowers matrix-multiplication exponent to 2.371177",
+   "summary": "Researchers used AI tools including AlphaEvolve to improve the bound on the matrix multiplication exponent from 2.371339 to 2.371177.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Global",
+   "reason": "Small but real AI-aided math result; incremental.",
+   "sources": [
+    "https://arxiv.org/abs/2608.16884"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "protector_god": 0.08,
+    "gatekeeper": 0.07,
+    "enslaved_god": 0.1,
+    "conquerors": 0.08,
+    "descendants": 0.1,
+    "zookeeper": 0.08,
+    "orwell_1984": -0.05,
+    "reversion": -0.1
+   },
+   "factor_effect": {
+    "F1": 0.16
+   }
+  }
+ ]
+}

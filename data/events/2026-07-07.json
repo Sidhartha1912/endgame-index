@@ -1,0 +1,123 @@
+[
+ {
+  "id": "2026-07-07-01",
+  "title": "Anthropic signs $19B data-center lease with TeraWulf",
+  "summary": "Anthropic signed a long-term lease with nuclear- and hydro-powered operator TeraWulf, adding to over 1 GW of US capacity ahead of its planned IPO.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Compute build-out; incremental.",
+  "sources": [
+   "https://siliconangle.com/2026/07/07/anthropic-terawulf-19b-data-center-lease/"
+  ]
+ },
+ {
+  "id": "2026-07-07-02",
+  "title": "CNBC: Chinese models now handle 30-46% of US enterprise gateway tokens",
+  "summary": "CNBC reported cheap Chinese open models have held over 30% of weekly OpenRouter token traffic since February, peaking at 46%, as firms like Lindy switch from US models to cut costs.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Open Chinese models eroding US lab dominance in usage.",
+  "sources": [
+   "https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html"
+  ]
+ },
+ {
+  "id": "2026-07-07-03",
+  "title": "UN AI for Good Global Summit opens in Geneva; new Global Commission launched",
+  "summary": "The ITU's AI for Good summit ran July 7-10 in Geneva; the UN and ITU also launched an AI for Good Global Commission co-chaired by Marc Benioff and Paul Kagame on sharing AI gains with developing nations.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   },
+   {
+    "id": "F7",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "Global",
+  "reason": "Multilateral talk, no binding outcome.",
+  "sources": [
+   "https://www.tlt.com/insights-and-events/insight/tlts-ai-brief-june-2026",
+   "https://aiweekly.co/ai-news-today/anthropic-news"
+  ]
+ },
+ {
+  "id": "2026-07-07-04",
+  "title": "Prince George's County extends pause on hyperscale data centers after protests",
+  "summary": "Following a July 1 rally demanding a ban, Maryland's Prince George's County Council approved a two-year moratorium on new hyperscale data-center development.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "local",
+  "track": "structural",
+  "region": "US",
+  "reason": "Local moratorium driven by protests. Vote date inferred from Jul 8 reports.",
+  "sources": [
+   "https://marylandmatters.org/2026/07/08/prince-georges-county-extends-pause-on-hyperscale-data-center-development/",
+   "https://wjla.com/news/local/story/prince-georges-council-approves-moratorium-on-new-data-center-development"
+  ]
+ },
+ {
+  "id": "2026-07-07-05",
+  "title": "Meta's Muse image generator criticised for using others' public Instagram photos",
+  "summary": "Meta launched its first in-house image model across its apps, drawing privacy criticism over a feature that can draw on other users' public Instagram photos.",
+  "category": "surveillance",
+  "factors": [
+   {
+    "id": "F6",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Platform-scale use of personal images; minor.",
+  "sources": [
+   "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/"
+  ]
+ }
+]

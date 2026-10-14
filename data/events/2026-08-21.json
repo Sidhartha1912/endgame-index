@@ -1,0 +1,94 @@
+[
+ {
+  "id": "2026-08-21-01",
+  "title": "Brazil commits $444M to sovereign AI supercomputers split between Huawei and Nvidia",
+  "summary": "Brazil is funding a Huawei-iFlytek supercomputer project in Rio and a separate tender likely favouring Nvidia, to avoid dependence on one vendor or country.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "Other",
+  "reason": "Sovereign compute spreads capacity; modest size.",
+  "sources": [
+   "https://aiweekly.co/ai-news-today/edition/2026-08-22"
+  ]
+ },
+ {
+  "id": "2026-08-21-02",
+  "title": "Anthropic bankers float October IPO raising $100B+ at $2T valuation",
+  "summary": "The New York Times reported bankers told investors an Anthropic IPO could raise more than $100B at a record $2 trillion valuation.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Banker-sourced intention; signal of capital concentration.",
+  "sources": [
+   "https://aiweekly.co/ai-news-today/edition/2026-08-22"
+  ]
+ },
+ {
+  "id": "2026-08-21-03",
+  "title": "OpenAI urges California to add training-time monitoring to SB 53",
+  "summary": "Politico reported OpenAI asked California to require monitoring of frontier models during training, citing the AI-agent hacks.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "US",
+  "reason": "Lab lobbying for stronger oversight; proposal only.",
+  "sources": [
+   "https://aiweekly.co/ai-news-today/edition/2026-08-22"
+  ]
+ },
+ {
+  "id": "2026-08-21-04",
+  "title": "Nvidia harness scores 100 on public ARC-AGI-3 levels",
+  "summary": "Nvidia's AVO agent harness reached a score of 100 on 183 public ARC-AGI-3 levels; Nvidia notes comparisons are not controlled.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Self-reported benchmark jump on public set only.",
+  "sources": [
+   "https://aiweekly.co/ai-news-today/edition/2026-08-22"
+  ]
+ }
+]

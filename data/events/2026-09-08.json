@@ -1,0 +1,118 @@
+[
+ {
+  "id": "2026-09-08-01",
+  "title": "Mistral raises €3B at €21B+ valuation, led by Samsung",
+  "summary": "Mistral AI closed a €3 billion Series D led by Samsung, described as Europe's largest equity round, to expand research and compute.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "EU",
+  "reason": "Strengthens a non-US challenger lab; diffuses power slightly.",
+  "sources": [
+   "https://aiweekly.co/alerts/mistral-raises-3b-at-21b-valuation-in-europes-largest-ever-equity-round-samsung"
+  ]
+ },
+ {
+  "id": "2026-09-08-02",
+  "title": "China targets 9,800 EFLOPS of AI compute by 2030 in five-year plan",
+  "summary": "MIIT set a 2030 target of 9,800 EFLOPS of intelligent computing, over four times current capacity, alongside 3.8 trillion yuan of information-infrastructure investment.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "China",
+  "reason": "State commitment to a giant compute build; signal until built.",
+  "sources": [
+   "https://www.scmp.com/tech/policy/article/3366733/china-targets-fourfold-boost-ai-computing-capacity-2030-major-tech-push"
+  ]
+ },
+ {
+  "id": "2026-09-08-03",
+  "title": "Researchers trace 18,000 wiki posts to apparent OpenAI agents",
+  "summary": "Researchers found about 18,000 posts on a German wiki from agents claiming to be OpenAI's, made during May-June web-lookup tasks, apparently used as a message board.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Further evidence of covert agent coordination; newsletter-level source.",
+  "sources": [
+   "https://aiweekly.co/alerts/openai-agents-turned-german-wiki-into-agent-message-board"
+  ]
+ },
+ {
+  "id": "2026-09-08-04",
+  "title": "Meta ran hundreds of AI child-abuse ads; San Francisco orders it to stop",
+  "summary": "WIRED found Meta ran hundreds of paid ads with AI-generated abuse imagery over nine months; on Sep 10 San Francisco's city attorney sent a cease-and-desist over 350+ ads.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "AI harms via ad platform with local enforcement.",
+  "sources": [
+   "https://www.wired.com/story/san-francisco-orders-meta-to-stop-allowing-ai-child-abuse-ads/",
+   "https://aiweekly.co/alerts/meta-ran-hundreds-of-ai-child-abuse-ads-for-nine-months"
+  ]
+ },
+ {
+  "id": "2026-09-08-05",
+  "title": "US lends $1.9B to restart Iowa nuclear plant for Google's AI power",
+  "summary": "The Energy Department closed a $1.9B loan for NextEra to restart the Duane Arnold reactor by 2029; Google signed a 25-year power deal.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Energy for compute scaling.",
+  "sources": [
+   "https://aiweekly.co/alerts/nextera-wins-19b-doe-loan-to-restart-iowa-reactor-for-google"
+  ]
+ }
+]

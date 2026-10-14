@@ -1,0 +1,25 @@
+[
+ {
+  "id": "2026-06-19-01",
+  "title": "OECD publishes AI literacy framework for schools",
+  "summary": "The OECD released a framework defining AI literacy for primary and secondary education worldwide.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "Global",
+  "reason": "Soft international guidance.",
+  "sources": [
+   "https://dig.watch/updates/oecd-publishes-ai-literacy-framework-for-schools"
+  ]
+ }
+]

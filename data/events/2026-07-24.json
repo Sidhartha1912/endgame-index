@@ -1,0 +1,76 @@
+[
+ {
+  "id": "2026-07-24-01",
+  "title": "Bipartisan 'AI Kill Switch Act' introduced after OpenAI breach",
+  "summary": "US lawmakers proposed letting federal authorities shut down AI models threatening human life or the economy; a separate bill would require Commerce-overseen security audits.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   },
+   {
+    "id": "F2",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "US",
+  "reason": "Bill introduction only; direct reaction to the breach.",
+  "sources": [
+   "https://www.independent.co.uk/tech/openai-ai-kill-switch-chatgpt-bill-b3020779.html"
+  ]
+ },
+ {
+  "id": "2026-07-24-02",
+  "title": "Anthropic releases Claude Opus 5",
+  "summary": "Anthropic launched Claude Opus 5, which it says approaches its Fable 5 model across many domains at lower cost; it soon led several public benchmarks.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "New frontier model with notable gains.",
+  "sources": [
+   "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release"
+  ]
+ },
+ {
+  "id": "2026-07-24-03",
+  "title": "Nvidia, Microsoft, IBM, Meta sign open letter against open-source AI bans",
+  "summary": "More than a dozen tech firms urged policymakers not to ban open models after reports the administration weighed restricting Chinese open-source AI; signatories grew to ~50.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Industry lobbying for open weights; words only.",
+  "sources": [
+   "https://siliconangle.com/2026/07/24/nvidia-tech-giants-caution-open-source-ai-ban-open-letter/",
+   "https://www.forbes.com/sites/sandycarter/2026/07/25/huangs-open-weights-letter-doubled-to-50-without-amazon-and-anthropic/"
+  ]
+ }
+]

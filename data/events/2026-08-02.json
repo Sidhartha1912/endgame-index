@@ -1,0 +1,53 @@
+[
+ {
+  "id": "2026-08-02-01",
+  "title": "EU AI Act transparency duties and GPAI enforcement powers apply",
+  "summary": "Article 50 labeling and disclosure duties (chatbot disclosure, deepfake labels, machine-readable marking) took effect and the AI Office began enforcement on general-purpose models; high-risk rules were delayed to Dec 2027 by the Digital Omnibus.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   },
+   {
+    "id": "F6",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "EU",
+  "reason": "Binding EU obligations now enforceable, tempered by the high-risk delay.",
+  "sources": [
+   "https://apnews.com/article/eu-ai-regulation-deepfakes-hacking-f4fcee1f9750e2b32cdf26ad73ee5ec2",
+   "https://www.joneswalker.com/en/insights/blogs/ai-law-blog/yes-august-2-still-matters-the-eu-approved-a-high-risk-ai-delay-but-most-trans.html"
+  ]
+ },
+ {
+  "id": "2026-08-02-02",
+  "title": "California AI Transparency Act (SB 942) takes effect",
+  "summary": "Large generative-AI providers in California must offer provenance marks and AI-detection tools.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "State-level transparency law in force.",
+  "sources": [
+   "https://blog.buildfastwithai.com/ai-news-today-august-4-2026"
+  ]
+ }
+]

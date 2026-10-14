@@ -1,0 +1,188 @@
+{
+ "date": "2026-09-22",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 20.39,
+  "benevolent_dictator": 24.11,
+  "egalitarian_utopia": 8.4,
+  "protector_god": 18.82,
+  "gatekeeper": 19.61,
+  "enslaved_god": 41.78,
+  "conquerors": 32.48,
+  "descendants": 25.52,
+  "zookeeper": 24.77,
+  "orwell_1984": 22.96,
+  "reversion": 5.0,
+  "self_destruction": 28.65
+ },
+ "deltas": {
+  "libertarian_utopia": 0.0,
+  "benevolent_dictator": 0.01,
+  "egalitarian_utopia": 0.01,
+  "protector_god": 0.2,
+  "gatekeeper": 0.35,
+  "enslaved_god": 0.24,
+  "conquerors": 0.19,
+  "descendants": 0.23,
+  "zookeeper": 0.19,
+  "orwell_1984": -0.01,
+  "reversion": -0.24,
+  "self_destruction": -0.14
+ },
+ "targets": {
+  "libertarian_utopia": 20.39,
+  "benevolent_dictator": 24.11,
+  "egalitarian_utopia": 8.4,
+  "protector_god": 18.82,
+  "gatekeeper": 19.61,
+  "enslaved_god": 41.78,
+  "conquerors": 32.48,
+  "descendants": 25.52,
+  "zookeeper": 24.77,
+  "orwell_1984": 22.96,
+  "reversion": 5.0,
+  "self_destruction": 28.65
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.33,
+  "benevolent_dictator": -1.03,
+  "egalitarian_utopia": -1.34,
+  "protector_god": -1.02,
+  "gatekeeper": -0.71,
+  "enslaved_god": -0.66,
+  "conquerors": 2.03,
+  "descendants": 0.42,
+  "zookeeper": 1.23,
+  "orwell_1984": -0.1,
+  "reversion": 1.21,
+  "self_destruction": 1.78
+ },
+ "factors": {
+  "F1": 82.87,
+  "F2": 52.3,
+  "F3": 36.09,
+  "F4": 25.03,
+  "F5": 67.0,
+  "F6": 45.45,
+  "F7": 32.68,
+  "F8": 62.54,
+  "F9": 44.9,
+  "F10": 20.27
+ },
+ "factor_deltas": {
+  "F1": 0.39,
+  "F2": -0.0,
+  "F3": 0.01,
+  "F4": 0.27,
+  "F5": 0.0,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": -0.0,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -9.29,
+  "families": {
+   "flourishing": 17.93,
+   "contained": 30.69,
+   "successors": 27.59,
+   "stalled": 18.87
+  },
+  "news_heat": 0.94,
+  "evidence": "medium",
+  "event_count": 2
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": 0.01,
+  "egalitarian_utopia": 0.01,
+  "gatekeeper": 0.02,
+  "enslaved_god": -0.01,
+  "conquerors": -0.02,
+  "descendants": -0.01,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.02,
+  "self_destruction": -0.02
+ },
+ "summary": {
+  "headline": "Anthropic ships cheaper Claude Opus 5.5; Guterres urges AI risk framework",
+  "body": "Two steady pushes. Anthropic released Claude Opus 5.5 at prices 20% below Opus 5, claiming near-top performance; cheaper, stronger models raise Capability Velocity, which lifts Enslaved God and Descendants and lowers Reversion. In his final UN General Assembly address, Secretary-General Guterres urged leading AI nations to share safety-risk information and build a multilateral risk framework with independent oversight. That supports Global Coordination, the main driver of Gatekeeper, and eases Self-Destruction. Bright and dark endings rose by similar amounts, leaving Horizon Balance almost unchanged at -9.29. Gatekeeper, helped by both stories at once, was the day's biggest gainer.",
+  "movers_note": "Gatekeeper +0.4 (Guterres +0.17, Opus 5.5 +0.16), Enslaved God +0.2 (Opus 5.5 +0.24) and Reversion -0.2 (Opus 5.5 -0.24).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-09-22-01",
+   "title": "Anthropic releases Claude Opus 5.5 at 20% lower prices",
+   "summary": "Anthropic launched Claude Opus 5.5, priced 20% below Opus 5, claiming performance near its top Fable 5.1 tier at much lower cost.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "New frontier model with notable gains per rubric T2; self-reported benchmarks.",
+   "sources": [
+    "https://www.anthropic.com/claude-opus-5-5",
+    "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/"
+   ],
+   "points": 0.7,
+   "contribution": {
+    "protector_god": 0.2,
+    "gatekeeper": 0.16,
+    "enslaved_god": 0.24,
+    "conquerors": 0.2,
+    "descendants": 0.24,
+    "zookeeper": 0.2,
+    "orwell_1984": -0.12,
+    "reversion": -0.24
+   },
+   "factor_effect": {
+    "F1": 0.41
+   }
+  },
+  {
+   "id": "2026-09-22-02",
+   "title": "Guterres uses final UNGA address to urge multilateral AI risk framework",
+   "summary": "UN Secretary-General Guterres told the General Assembly that leading AI nations must share safety-risk information and work toward a multilateral AI risk-management framework with independent oversight.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "Global",
+   "reason": "UN leader call; words not action.",
+   "sources": [
+    "https://www.al-monitor.com/originals/2026/09/un-chief-calls-ai-curbs-and-end-wars-his-last-assembly-address",
+    "https://en.mercopress.com/2026/09/22/un-general-debate-opens-with-wars-artificial-intelligence-and-the-guterres-succession"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "gatekeeper": 0.17,
+    "orwell_1984": 0.1,
+    "self_destruction": -0.12
+   },
+   "factor_effect": {
+    "F4": 0.24
+   }
+  }
+ ]
+}

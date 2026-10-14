@@ -1,0 +1,117 @@
+{
+ "date": "2026-06-13",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 27.95,
+  "benevolent_dictator": 24.68,
+  "egalitarian_utopia": 15.29,
+  "protector_god": 17.59,
+  "gatekeeper": 17.41,
+  "enslaved_god": 40.25,
+  "conquerors": 19.62,
+  "descendants": 18.16,
+  "zookeeper": 14.02,
+  "orwell_1984": 23.95,
+  "reversion": 4.75,
+  "self_destruction": 20.7
+ },
+ "deltas": {
+  "libertarian_utopia": -0.02,
+  "benevolent_dictator": 0.0,
+  "egalitarian_utopia": -0.01,
+  "protector_god": -0.01,
+  "gatekeeper": 0.0,
+  "enslaved_god": -0.0,
+  "conquerors": 0.01,
+  "descendants": -0.01,
+  "zookeeper": 0.02,
+  "orwell_1984": 0.01,
+  "reversion": -0.02,
+  "self_destruction": -0.0
+ },
+ "targets": {
+  "libertarian_utopia": 27.95,
+  "benevolent_dictator": 24.68,
+  "egalitarian_utopia": 15.29,
+  "protector_god": 17.59,
+  "gatekeeper": 17.41,
+  "enslaved_god": 40.25,
+  "conquerors": 19.62,
+  "descendants": 18.16,
+  "zookeeper": 14.02,
+  "orwell_1984": 23.95,
+  "reversion": 4.75,
+  "self_destruction": 20.7
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.82,
+  "benevolent_dictator": 0.48,
+  "egalitarian_utopia": -0.51,
+  "protector_god": -0.29,
+  "gatekeeper": -1.18,
+  "enslaved_god": 0.22,
+  "conquerors": 0.13,
+  "descendants": -0.16,
+  "zookeeper": 0.49,
+  "orwell_1984": -0.0,
+  "reversion": 0.43,
+  "self_destruction": 0.84
+ },
+ "factors": {
+  "F1": 74.32,
+  "F2": 48.61,
+  "F3": 43.21,
+  "F4": 22.25,
+  "F5": 65.22,
+  "F6": 45.73,
+  "F7": 33.04,
+  "F8": 56.64,
+  "F9": 41.89,
+  "F10": 20.24
+ },
+ "factor_deltas": {
+  "F1": -0.0,
+  "F2": 0.0,
+  "F3": -0.02,
+  "F4": 0.01,
+  "F5": 0.01,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.0,
+  "F9": -0.02,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": 1.81,
+  "families": {
+   "flourishing": 21.38,
+   "contained": 28.83,
+   "successors": 17.26,
+   "stalled": 16.47
+  },
+  "news_heat": 0.0,
+  "evidence": "low",
+  "event_count": 0
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.02,
+  "egalitarian_utopia": -0.01,
+  "protector_god": -0.01,
+  "conquerors": 0.01,
+  "descendants": -0.01,
+  "zookeeper": 0.02,
+  "orwell_1984": 0.01,
+  "reversion": -0.02
+ },
+ "summary": {
+  "headline": "Quiet day after the Fable 5 shutdown",
+  "body": "A quiet day with no scored events, following yesterday's export-control shock. Scores drifted only by hundredths as older news faded: Libertarian Utopia and Reversion eased and Zookeeper edged up. The big moves from the shutdown, a sharp fall for Gatekeeper and a rise for Self-Destruction, stay in place. Horizon Balance is 1.8, down 0.02.",
+  "movers_note": "No ending moved by 0.1 or more; Libertarian Utopia -0.0, Reversion -0.0 and Zookeeper +0.0 from fading.",
+  "coming_up": []
+ },
+ "events": []
+}

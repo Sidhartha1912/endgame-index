@@ -1,0 +1,97 @@
+[
+ {
+  "id": "2026-07-02-01",
+  "title": "White House negotiating voluntary pre-release standards with frontier labs",
+  "summary": "The FT and Reuters reported the administration is in talks with AI companies, including Google, on a voluntary framework implementing the June 2 executive order: classified benchmarks for 'covered frontier models' and a 30-day pre-release review.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Talks only; would formalise government evaluation of frontier models.",
+  "sources": [
+   "https://finance.yahoo.com/technology/ai/articles/us-talks-ai-companies-voluntary-001646707.html",
+   "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/"
+  ]
+ },
+ {
+  "id": "2026-07-02-02",
+  "title": "Record $510B global VC in H1 2026; OpenAI and Anthropic took 43%",
+  "summary": "Crunchbase data showed record startup funding in H1 2026, with OpenAI and Anthropic alone absorbing $217B; Fortune reported Anthropic's $47B run-rate now exceeds OpenAI's revenue.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Capital concentrating in two frontier labs.",
+  "sources": [
+   "https://www.techmeme.com/260702/p23",
+   "https://fortune.com/2026/07/02/sam-altman-new-world-order-ai-openai-google-anthropic/"
+  ]
+ },
+ {
+  "id": "2026-07-02-03",
+  "title": "OpenAI floats giving US government a 5% stake",
+  "summary": "Fortune reported OpenAI has proposed a roughly $42.6B government stake and deeper Pentagon ties as part of a US-led AI strategy.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Proposal for state-lab fusion; words only.",
+  "sources": [
+   "https://fortune.com/2026/07/02/sam-altman-new-world-order-ai-openai-google-anthropic/",
+   "https://thenextweb.com/news/openai-5-percent-government-stake-proposal"
+  ]
+ },
+ {
+  "id": "2026-07-02-04",
+  "title": "New York requires labels on ads using AI-generated performers",
+  "summary": "New York became the first state to require disclosure of synthetic performers in advertising, with fines for violations.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "local",
+  "track": "structural",
+  "region": "US",
+  "reason": "Narrow state transparency rule.",
+  "sources": [
+   "https://www.foxnews.com/media/new-york-makes-history-first-of-its-kind-law-regulating-ai-powered-commercials"
+  ]
+ }
+]

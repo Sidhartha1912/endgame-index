@@ -1,0 +1,25 @@
+[
+ {
+  "id": "2026-07-25-01",
+  "title": "Nvidia to invest $1B in Naver; expands 2 GW data-center pact with SK",
+  "summary": "Nvidia will invest $1 billion in South Korea's Naver to expand a Brookfield-backed AI data center and widen an SK Group deal for over 2 GW of AI data centers.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "Other",
+  "reason": "Sovereign compute build-out in Korea.",
+  "sources": [
+   "https://financialpost.com/pmn/business-pmn/nvidia-to-invest-1-billion-in-naver-and-expand-sk-group-accord"
+  ]
+ }
+]

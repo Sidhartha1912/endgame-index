@@ -1,0 +1,100 @@
+[
+ {
+  "id": "2026-04-23-01",
+  "title": "OpenAI releases GPT-5.5, rated 'High' for bio and cyber risk",
+  "summary": "OpenAI launched GPT-5.5, an agent-oriented frontier model claiming state of the art on 14 benchmarks, rated High under its Preparedness Framework for biological and cybersecurity capability.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "New frontier model with notable gains in agentic coding; benchmarks self-reported.",
+  "sources": [
+   "https://openai.com/index/introducing-gpt-5-5/",
+   "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/"
+  ]
+ },
+ {
+  "id": "2026-04-23-02",
+  "title": "Meta confirms ~8,000 layoffs (10%) to offset massive AI spending",
+  "summary": "An internal memo confirmed Meta will cut about 8,000 jobs and close 6,000 open roles from May 20 to run more efficiently while pouring money into AI infrastructure.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Mass layoff at a frontier AI company tied to redirecting capital to AI.",
+  "sources": [
+   "https://www.techrepublic.com/article/meta-layoffs-10-percent-workforce-2026/",
+   "https://abc30.com/18956199/"
+  ]
+ },
+ {
+  "id": "2026-04-23-03",
+  "title": "Tennessee law excludes AI from legal definition of 'person'",
+  "summary": "Tennessee SB 837 took effect, amending state code so AI systems, algorithms and machines cannot be legal persons, hold rights or bear liability independently. Exact signing date unclear; effective date used.",
+  "category": "merge",
+  "factors": [
+   {
+    "id": "F10",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Rubric T2 down example: law explicitly bans AI personhood (state level).",
+  "sources": [
+   "https://regulations.ai/regulations/RAI-US-TN-SB83700-2026"
+  ]
+ },
+ {
+  "id": "2026-04-23-04",
+  "title": "Tencent previews open-source Hy3 mixture-of-experts model",
+  "summary": "Tencent released Hy3 preview, an open 295B-parameter MoE model claiming large efficiency gains.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "China",
+  "reason": "Mid-size open-weights release from a Chinese giant. Date approximate (week of Apr 20-24).",
+  "sources": [
+   "https://decrypt.co/365297/tencent-hy3-preview-open-source-moe-model"
+  ]
+ }
+]

@@ -1,0 +1,55 @@
+[
+ {
+  "id": "2026-07-06-01",
+  "title": "JADEPUFFER: first largely AI-run ransomware attack documented",
+  "summary": "Sysdig documented an attack in which an LLM agent ran reconnaissance, credential theft, lateral movement, encryption and the ransom note after a human chose the target.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Global",
+  "reason": "AI-enabled cyberattack with agentic execution (rubric T2 up).",
+  "sources": [
+   "https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion",
+   "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
+   "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html"
+  ]
+ },
+ {
+  "id": "2026-07-06-02",
+  "title": "Albany council backs New York statewide data-center construction pause",
+  "summary": "Albany's Common Council voted 13-0 to support a one-year statewide moratorium on hyperscale data centers, which the legislature passed in June and which awaits Gov. Hochul's signature.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "local",
+  "track": "signal",
+  "region": "US",
+  "reason": "Local backing for a state moratorium; pending signature.",
+  "sources": [
+   "https://www.wamc.org/news/2026-07-07/albany-council-supports-statewide-data-center-construction-pause",
+   "https://www.foodandwaterwatch.org/2026/06/04/gov-hochul-must-sign-one-year-ai-crypto-data-center-moratorium-passed-by-legislature/"
+  ]
+ }
+]

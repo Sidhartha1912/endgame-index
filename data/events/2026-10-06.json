@@ -1,0 +1,123 @@
+[
+ {
+  "id": "2026-10-06-01",
+  "title": "DeepSeek nears $12B funding round led by Tencent and CATL before HK IPO",
+  "summary": "DeepSeek is finalising at least $12B (80B yuan) with Tencent and CATL among backers, ahead of a Hong Kong IPO targeted for Q1 2027; revenue run rate passed $1B in September.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Strengthens a non-US challenger lab, diluting US frontier concentration.",
+  "sources": [
+   "https://www.bloomberg.com/news/articles/2026-10-06/deepseek-to-raise-at-least-12-billion-in-tencent-backed-funding",
+   "https://www.theinformation.com/articles/deepseeks-annualized-revenue-hits-1-billion-startup-finalizes-7-5-billion-fundraising"
+  ]
+ },
+ {
+  "id": "2026-10-06-02",
+  "title": "Mistral previews 1T-parameter open-weight Large 4 'Le Chonk'",
+  "summary": "France's Mistral AI unveiled Mistral Large 4, a 1-trillion-parameter model it plans to release with open weights, posting strong benchmark scores.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   },
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "EU",
+  "reason": "Strong European open-weights model; weights promised, not yet released.",
+  "sources": [
+   "https://mistral.ai/news/mistral-large-4/",
+   "https://www.cnbc.com/2026/10/06/mistral-ai-model-le-chonk.html"
+  ]
+ },
+ {
+  "id": "2026-10-06-03",
+  "title": "Google signs 3.6 GW power deal with Constellation incl. 890 MW new nuclear",
+  "summary": "Google entered a 3.6 GW long-term power agreement with Constellation Energy, including 890 MW of new nuclear capacity from reactor uprates on the PJM grid, to feed AI data centers.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Large energy deal enabling compute growth.",
+  "sources": [
+   "https://www.reuters.com/business/energy/google-enters-massive-36-gw-power-deal-with-constellation-energy-2026-10-06/"
+  ]
+ },
+ {
+  "id": "2026-10-06-04",
+  "title": "Sub-$100 phone shipments fall ~60% as AI data centers absorb memory supply",
+  "summary": "Rest of World reported Q2 sub-$100 phone shipments fell nearly 60% year on year with prices up ~25%, hitting India (+21%) and Asia-Pacific hardest as memory makers divert supply to AI.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "India",
+  "reason": "AI buildout measurably pricing low-income users out of devices in the Global South.",
+  "sources": [
+   "https://restofworld.org/2026/ai-data-center-memory-chip-shortage-cheap-smartphones-digital-divide/"
+  ]
+ },
+ {
+  "id": "2026-10-06-05",
+  "title": "Memphis data-center moratorium vote postponed amid protests and a fistfight",
+  "summary": "The Memphis City Council postponed a data-center moratorium vote for a second time after more than 100 residents protested and a fight broke out; the vote moved to Oct 20.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "local",
+  "track": "structural",
+  "region": "US",
+  "reason": "Local data-center backlash.",
+  "sources": [
+   "https://www.wsmv.com/2026/10/06/data-center-moratorium-vote-ends-abruptly-amid-protests-fistfight/"
+  ]
+ }
+]

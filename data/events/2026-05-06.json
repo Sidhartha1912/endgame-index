@@ -1,0 +1,29 @@
+[
+ {
+  "id": "2026-05-06-01",
+  "title": "SpaceX leases all of Colossus 1 supercomputer to Anthropic",
+  "summary": "Anthropic will use the full capacity of SpaceX/xAI's Colossus 1 (300+ MW, 220,000+ Nvidia GPUs) within a month amid an acute compute shortage.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Large compute reallocation to a frontier lab; existing cluster, not new.",
+  "sources": [
+   "https://www.axios.com/2026/05/07/musk-anthropic-compute-spacex-ai"
+  ]
+ }
+]

@@ -1,0 +1,230 @@
+{
+ "date": "2026-07-24",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 25.4,
+  "benevolent_dictator": 25.51,
+  "egalitarian_utopia": 13.05,
+  "protector_god": 18.67,
+  "gatekeeper": 18.71,
+  "enslaved_god": 41.59,
+  "conquerors": 24.01,
+  "descendants": 21.22,
+  "zookeeper": 18.34,
+  "orwell_1984": 24.08,
+  "reversion": 3.98,
+  "self_destruction": 22.54
+ },
+ "deltas": {
+  "libertarian_utopia": 0.13,
+  "benevolent_dictator": -0.06,
+  "egalitarian_utopia": 0.11,
+  "protector_god": 0.16,
+  "gatekeeper": 0.14,
+  "enslaved_god": 0.12,
+  "conquerors": 0.05,
+  "descendants": 0.13,
+  "zookeeper": 0.01,
+  "orwell_1984": -0.14,
+  "reversion": -0.16,
+  "self_destruction": -0.04
+ },
+ "targets": {
+  "libertarian_utopia": 25.4,
+  "benevolent_dictator": 25.51,
+  "egalitarian_utopia": 13.05,
+  "protector_god": 18.67,
+  "gatekeeper": 18.71,
+  "enslaved_god": 41.59,
+  "conquerors": 24.01,
+  "descendants": 21.22,
+  "zookeeper": 18.34,
+  "orwell_1984": 24.08,
+  "reversion": 3.98,
+  "self_destruction": 22.54
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.25,
+  "benevolent_dictator": -0.52,
+  "egalitarian_utopia": -1.32,
+  "protector_god": -0.48,
+  "gatekeeper": -0.71,
+  "enslaved_god": -0.95,
+  "conquerors": 2.89,
+  "descendants": 1.38,
+  "zookeeper": 2.42,
+  "orwell_1984": -0.46,
+  "reversion": -0.2,
+  "self_destruction": 1.29
+ },
+ "factors": {
+  "F1": 77.71,
+  "F2": 50.36,
+  "F3": 41.18,
+  "F4": 23.16,
+  "F5": 66.64,
+  "F6": 45.97,
+  "F7": 32.88,
+  "F8": 57.99,
+  "F9": 42.61,
+  "F10": 20.23
+ },
+ "factor_deltas": {
+  "F1": 0.26,
+  "F2": -0.04,
+  "F3": 0.08,
+  "F4": -0.0,
+  "F5": -0.15,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": -0.01,
+  "F9": -0.0,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -1.58,
+  "families": {
+   "flourishing": 20.66,
+   "contained": 30.15,
+   "successors": 21.19,
+   "stalled": 16.86
+  },
+  "news_heat": 0.64,
+  "evidence": "low",
+  "event_count": 3
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "zookeeper": 0.01,
+  "reversion": -0.01,
+  "self_destruction": -0.01
+ },
+ "summary": {
+  "headline": "Claude Opus 5 launches as Congress drafts an AI kill switch",
+  "body": "Washington reacted to the OpenAI breach. A bipartisan 'AI Kill Switch Act' would let federal authorities shut down AI models that threaten human life or the economy, and a second bill would require security audits. These are proposals, so they counted lightly, but they point to stronger Alignment & Control and less unchecked AI Autonomy, trimming Conquerors and Zookeeper. Anthropic released Claude Opus 5, which soon led several benchmarks, raising Capability Velocity and pushing Reversion down. Over a dozen tech firms, including Nvidia, Microsoft, IBM and Meta, signed a letter opposing bans on open models, a vote for spreading power out that lifts Libertarian Utopia. Horizon Balance improved to -1.58.",
+  "movers_note": "Protector God +0.2 came mostly from Claude Opus 5 (+0.13) and the Kill Switch Act (+0.04); Reversion -0.2 came from Claude Opus 5 (-0.16).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-07-24-01",
+   "title": "Bipartisan 'AI Kill Switch Act' introduced after OpenAI breach",
+   "summary": "US lawmakers proposed letting federal authorities shut down AI models threatening human life or the economy; a separate bill would require Commerce-overseen security audits.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": 1
+    },
+    {
+     "id": "F2",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "US",
+   "reason": "Bill introduction only; direct reaction to the breach.",
+   "sources": [
+    "https://www.independent.co.uk/tech/openai-ai-kill-switch-chatgpt-bill-b3020779.html"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "libertarian_utopia": 0.04,
+    "benevolent_dictator": 0.02,
+    "egalitarian_utopia": 0.04,
+    "protector_god": 0.04,
+    "gatekeeper": 0.04,
+    "enslaved_god": 0.06,
+    "conquerors": -0.09,
+    "descendants": -0.03,
+    "zookeeper": -0.07,
+    "self_destruction": -0.04
+   },
+   "factor_effect": {
+    "F2": -0.04,
+    "F3": 0.09
+   }
+  },
+  {
+   "id": "2026-07-24-02",
+   "title": "Anthropic releases Claude Opus 5",
+   "summary": "Anthropic launched Claude Opus 5, which it says approaches its Fable 5 model across many domains at lower cost; it soon led several public benchmarks.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "C",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "New frontier model with notable gains.",
+   "sources": [
+    "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release"
+   ],
+   "points": 0.35,
+   "contribution": {
+    "protector_god": 0.13,
+    "gatekeeper": 0.11,
+    "enslaved_god": 0.16,
+    "conquerors": 0.13,
+    "descendants": 0.16,
+    "zookeeper": 0.13,
+    "orwell_1984": -0.08,
+    "reversion": -0.16
+   },
+   "factor_effect": {
+    "F1": 0.26
+   }
+  },
+  {
+   "id": "2026-07-24-03",
+   "title": "Nvidia, Microsoft, IBM, Meta sign open letter against open-source AI bans",
+   "summary": "More than a dozen tech firms urged policymakers not to ban open models after reports the administration weighed restricting Chinese open-source AI; signatories grew to ~50.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "US",
+   "reason": "Industry lobbying for open weights; words only.",
+   "sources": [
+    "https://siliconangle.com/2026/07/24/nvidia-tech-giants-caution-open-source-ai-ban-open-letter/",
+    "https://www.forbes.com/sites/sandycarter/2026/07/25/huangs-open-weights-letter-doubled-to-50-without-amazon-and-anthropic/"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "libertarian_utopia": 0.09,
+    "benevolent_dictator": -0.07,
+    "egalitarian_utopia": 0.06,
+    "enslaved_god": -0.09,
+    "zookeeper": -0.06,
+    "orwell_1984": -0.06
+   },
+   "factor_effect": {
+    "F5": -0.15
+   }
+  }
+ ]
+}

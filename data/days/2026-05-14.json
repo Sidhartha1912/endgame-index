@@ -1,0 +1,148 @@
+{
+ "date": "2026-05-14",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 29.16,
+  "benevolent_dictator": 20.93,
+  "egalitarian_utopia": 16.06,
+  "protector_god": 13.82,
+  "gatekeeper": 15.51,
+  "enslaved_god": 36.35,
+  "conquerors": 17.52,
+  "descendants": 14.4,
+  "zookeeper": 10.14,
+  "orwell_1984": 24.13,
+  "reversion": 5.63,
+  "self_destruction": 20.5
+ },
+ "deltas": {
+  "libertarian_utopia": -0.0,
+  "benevolent_dictator": 0.09,
+  "egalitarian_utopia": 0.0,
+  "protector_god": 0.07,
+  "gatekeeper": 0.04,
+  "enslaved_god": -0.05,
+  "conquerors": 0.08,
+  "descendants": 0.09,
+  "zookeeper": 0.09,
+  "orwell_1984": -0.0,
+  "reversion": -0.01,
+  "self_destruction": 0.0
+ },
+ "targets": {
+  "libertarian_utopia": 29.16,
+  "benevolent_dictator": 20.93,
+  "egalitarian_utopia": 16.06,
+  "protector_god": 13.82,
+  "gatekeeper": 15.51,
+  "enslaved_god": 36.35,
+  "conquerors": 17.52,
+  "descendants": 14.4,
+  "zookeeper": 10.14,
+  "orwell_1984": 24.13,
+  "reversion": 5.63,
+  "self_destruction": 20.5
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.03,
+  "benevolent_dictator": 0.07,
+  "egalitarian_utopia": -0.05,
+  "protector_god": 0.04,
+  "gatekeeper": 0.0,
+  "enslaved_god": -0.06,
+  "conquerors": 0.11,
+  "descendants": 0.09,
+  "zookeeper": 0.12,
+  "orwell_1984": -0.0,
+  "reversion": -0.05,
+  "self_destruction": 0.03
+ },
+ "factors": {
+  "F1": 70.85,
+  "F2": 46.17,
+  "F3": 41.98,
+  "F4": 23.62,
+  "F5": 62.0,
+  "F6": 45.6,
+  "F7": 33.18,
+  "F8": 56.64,
+  "F9": 40.69,
+  "F10": 19.99
+ },
+ "factor_deltas": {
+  "F1": 0.0,
+  "F2": 0.15,
+  "F3": -0.01,
+  "F4": -0.0,
+  "F5": 0.0,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": 0.0,
+  "F9": -0.01,
+  "F10": 0.0
+ },
+ "composites": {
+  "horizon_balance": 1.92,
+  "families": {
+   "flourishing": 19.99,
+   "contained": 25.93,
+   "successors": 14.02,
+   "stalled": 16.76
+  },
+  "news_heat": 0.15,
+  "evidence": "low",
+  "event_count": 1
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "gatekeeper": -0.01,
+  "reversion": -0.01
+ },
+ "summary": {
+  "headline": "PwC rolls out Claude agents firm-wide on a quiet day",
+  "body": "A quiet day with one story. PwC said it will roll out Anthropic's Claude Code and Cowork across its workforce, certifying tens of thousands of staff. Large-scale use of AI agents nudges up AI Autonomy, which gives a tiny lift to the endings where AI acts on its own, such as Benevolent Dictator, Descendants and Zookeeper. Horizon Balance is 1.9, barely changed (-0.01).",
+  "movers_note": "Benevolent Dictator +0.1, Descendants +0.1 and Zookeeper +0.1, all from the PwC agent rollout (+0.09 each).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-05-14-01",
+   "title": "PwC announces global alliance with Anthropic for Claude Code and Cowork",
+   "summary": "PwC said it would roll out Claude Code and Cowork across its professional-services workforce, certifying tens of thousands of staff.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Global",
+   "reason": "Large enterprise agent rollout; incremental autonomy, consumer/enterprise-scale product adoption.",
+   "sources": [
+    "https://ghiasya.dev/articles/ai-news-roundupmay2026/"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "benevolent_dictator": 0.09,
+    "protector_god": 0.07,
+    "gatekeeper": 0.04,
+    "enslaved_god": -0.04,
+    "conquerors": 0.07,
+    "descendants": 0.09,
+    "zookeeper": 0.09
+   },
+   "factor_effect": {
+    "F2": 0.15
+   }
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+[
+ {
+  "id": "2026-04-18-01",
+  "title": "Protesters rally at Saskatchewan legislature against proposed AI data centre",
+  "summary": "Protesters in Regina, Canada called for a halt to a proposed AI data centre, part of a wave of Canadian data-centre protests including Vancouver and Hamilton.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "local",
+  "track": "signal",
+  "region": "Other",
+  "reason": "Small local protest against AI infrastructure.",
+  "sources": [
+   "https://www.ctvnews.ca/regina/video/2026/04/20/protestors-rally-against-proposed-ai-data-centre-at-legislature/",
+   "https://gdeltcloud.com/events/protesters-in-regina-call-for-halt-to-ai-data-centre--conflict_9137c751"
+  ]
+ }
+]

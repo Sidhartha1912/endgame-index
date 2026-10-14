@@ -1,0 +1,78 @@
+[
+ {
+  "id": "2026-07-14-01",
+  "title": "DeepMind's Hassabis proposes FINRA-style independent body to vet frontier AI",
+  "summary": "Demis Hassabis called for an industry-funded but independent standards body that would review frontier models up to 30 days before release.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   },
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Lab leader governance proposal; words not action, so T1 signal.",
+  "sources": [
+   "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
+   "https://www.datagrom.com/ai-news/deepmind-ceo-proposes-independent-ai-standards-body-e991213a"
+  ]
+ },
+ {
+  "id": "2026-07-14-02",
+  "title": "New York becomes first US state to impose a data-center moratorium",
+  "summary": "Governor Kathy Hochul's executive order paused certain state environmental permits for data centers of 50 MW or more while regulators develop standards.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "First statewide pause on AI infrastructure; concrete backlash policy.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Opposition_to_AI_data_centers",
+   "https://siliconangle.com/2026/07/17/ai-backlash-intensifies-china-gains-us-leaders-ibm-tanks/"
+  ]
+ },
+ {
+  "id": "2026-07-14-03",
+  "title": "Ex-Meta staff sue, alleging AI ranking system targeted workers on leave in layoffs",
+  "summary": "26 former Meta employees allege the company used AI-generated performance data to pick layoff targets without excluding people on parental or medical leave.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "US",
+  "reason": "Allegation of AI used to cut jobs unfairly; lawsuit only.",
+  "sources": [
+   "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
+   "https://www.datagrom.com/ai-news/meta-sued-over-ai-driven-biased-layoff-targeting-b0872e76"
+  ]
+ }
+]

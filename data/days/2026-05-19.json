@@ -1,0 +1,331 @@
+{
+ "date": "2026-05-19",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 28.55,
+  "benevolent_dictator": 22.12,
+  "egalitarian_utopia": 15.62,
+  "protector_god": 14.62,
+  "gatekeeper": 16.07,
+  "enslaved_god": 37.33,
+  "conquerors": 18.15,
+  "descendants": 15.46,
+  "zookeeper": 11.39,
+  "orwell_1984": 24.45,
+  "reversion": 5.22,
+  "self_destruction": 20.46
+ },
+ "deltas": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": 0.7,
+  "egalitarian_utopia": -0.04,
+  "protector_god": 0.82,
+  "gatekeeper": 0.58,
+  "enslaved_god": 0.4,
+  "conquerors": 0.62,
+  "descendants": 1.06,
+  "zookeeper": 0.85,
+  "orwell_1984": -0.07,
+  "reversion": -0.39,
+  "self_destruction": -0.06
+ },
+ "targets": {
+  "libertarian_utopia": 28.55,
+  "benevolent_dictator": 22.12,
+  "egalitarian_utopia": 15.62,
+  "protector_god": 14.62,
+  "gatekeeper": 16.07,
+  "enslaved_god": 37.33,
+  "conquerors": 18.15,
+  "descendants": 15.46,
+  "zookeeper": 11.39,
+  "orwell_1984": 24.45,
+  "reversion": 5.22,
+  "self_destruction": 20.46
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.63,
+  "benevolent_dictator": 1.27,
+  "egalitarian_utopia": -0.43,
+  "protector_god": 0.87,
+  "gatekeeper": 0.59,
+  "enslaved_god": 0.94,
+  "conquerors": 0.72,
+  "descendants": 1.15,
+  "zookeeper": 1.35,
+  "orwell_1984": 0.32,
+  "reversion": -0.43,
+  "self_destruction": -0.04
+ },
+ "factors": {
+  "F1": 71.49,
+  "F2": 46.97,
+  "F3": 42.1,
+  "F4": 23.6,
+  "F5": 63.29,
+  "F6": 45.6,
+  "F7": 33.21,
+  "F8": 56.64,
+  "F9": 40.66,
+  "F10": 20.23
+ },
+ "factor_deltas": {
+  "F1": 0.64,
+  "F2": 0.8,
+  "F3": 0.15,
+  "F4": -0.0,
+  "F5": 0.3,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": 0.0,
+  "F9": -0.01,
+  "F10": 0.24
+ },
+ "composites": {
+  "horizon_balance": 1.61,
+  "families": {
+   "flourishing": 20.23,
+   "contained": 26.7,
+   "successors": 15.0,
+   "stalled": 16.71
+  },
+  "news_heat": 2.15,
+  "evidence": "medium",
+  "event_count": 6
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "reversion": -0.01
+ },
+ "summary": {
+  "headline": "Google I/O pushes agents and models forward; Descendants climbs",
+  "body": "Google I/O dominated. Google launched Gemini 3.5 Flash and Gemini Omni, which lifts Capability Velocity, and introduced Gemini Spark, an always-on agent that can act across Gmail and even buy things for users within limits. That lifts AI Autonomy, the factor behind endings where AI runs on its own: Descendants, Zookeeper and Benevolent Dictator all rose. Google and Samsung also confirmed Gemini-powered smart glasses for this fall, a small step for Human-AI Merging that helps Descendants. On the safety side, OpenAI, Kakao and ElevenLabs adopted Google's SynthID watermark, a modest boost to Alignment & Control that helps Protector God. KPMG's rollout of Claude to 276,000 staff added to Power Concentration. Gatekeeper and Egalitarian Utopia swapped places. Horizon Balance edged up 0.03 to 1.6.",
+  "movers_note": "Descendants +1.1, led by the Gemini Spark agent launch (+0.48), Gemini 3.5 Flash/Omni (+0.33) and the Android XR glasses (+0.19); Zookeeper +0.8, mostly from Gemini Spark (+0.48); Protector God +0.8 from the agent launch and SynthID adoption (+0.10).",
+  "coming_up": [
+   "Gemini 3.5 Pro is due in June",
+   "Samsung's Gemini-powered Android XR glasses ship this fall"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-05-19-01",
+   "title": "Google I/O: Gemini 3.5 Flash and Gemini Omni launched",
+   "summary": "Google made Gemini 3.5 Flash the default model across Gemini and Search, launched Gemini Omni (any-input-to-video multimodal model) and said Gemini 3.5 Pro is due in June. Gemini app passed 900M monthly users.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "New frontier-lab model generation with notable gains; mostly Google's own benchmark claims.",
+   "sources": [
+    "https://9to5google.com/2026/05/19/google-io-2026-news/",
+    "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/",
+    "https://techcabal.com/2026/05/19/everything-announced-at-the-google-i-o-2026/"
+   ],
+   "points": 0.56,
+   "contribution": {
+    "protector_god": 0.27,
+    "gatekeeper": 0.22,
+    "enslaved_god": 0.33,
+    "conquerors": 0.27,
+    "descendants": 0.33,
+    "zookeeper": 0.27,
+    "orwell_1984": -0.16,
+    "reversion": -0.33
+   },
+   "factor_effect": {
+    "F1": 0.54
+   }
+  },
+  {
+   "id": "2026-05-19-02",
+   "title": "Google launches Gemini Spark 24/7 agent and agent payments protocol",
+   "summary": "Google introduced Gemini Spark, a background agent running on cloud VMs that acts across Gmail/Workspace, plus Managed Agents API and an agent payments protocol letting agents buy on users' behalf within limits.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Agents given standing access and spending authority at consumer scale.",
+   "sources": [
+    "https://9to5google.com/2026/05/19/google-io-2026-news/",
+    "https://techcabal.com/2026/05/19/everything-announced-at-the-google-i-o-2026/"
+   ],
+   "points": 0.8,
+   "contribution": {
+    "benevolent_dictator": 0.48,
+    "protector_god": 0.4,
+    "gatekeeper": 0.24,
+    "enslaved_god": -0.24,
+    "conquerors": 0.4,
+    "descendants": 0.48,
+    "zookeeper": 0.48
+   },
+   "factor_effect": {
+    "F2": 0.8
+   }
+  },
+  {
+   "id": "2026-05-19-03",
+   "title": "Google unveils TPU 8t/8i, its first dual-chip TPU generation",
+   "summary": "Google announced TPU 8t for training (about 3x raw compute of predecessor) and 8i for inference.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Compute hardware upgrade; vendor claims.",
+   "sources": [
+    "https://techcabal.com/2026/05/19/everything-announced-at-the-google-i-o-2026/"
+   ],
+   "points": 0.1,
+   "contribution": {
+    "protector_god": 0.05,
+    "gatekeeper": 0.04,
+    "enslaved_god": 0.06,
+    "conquerors": 0.05,
+    "descendants": 0.06,
+    "zookeeper": 0.05,
+    "orwell_1984": -0.03,
+    "reversion": -0.06
+   },
+   "factor_effect": {
+    "F1": 0.1
+   }
+  },
+  {
+   "id": "2026-05-19-04",
+   "title": "Google, Samsung confirm Android XR AI glasses for fall 2026",
+   "summary": "Google said Gemini-powered Android XR glasses from Samsung with Gentle Monster and Warby Parker frames will ship this fall in audio and display versions.",
+   "category": "merge",
+   "factors": [
+    {
+     "id": "F10",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "US",
+   "reason": "Always-on AI wearables move human-AI integration closer to the body; consumer device announcement.",
+   "sources": [
+    "https://www.macrumors.com/2026/05/19/google-io-2026-roundup/"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "libertarian_utopia": 0.1,
+    "descendants": 0.19
+   },
+   "factor_effect": {
+    "F10": 0.24
+   }
+  },
+  {
+   "id": "2026-05-19-05",
+   "title": "SynthID watermark adopted by OpenAI, Kakao and ElevenLabs",
+   "summary": "Google said SynthID has watermarked over 100 billion files and detection is coming to Search and Chrome, with OpenAI, Kakao and ElevenLabs adopting it.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Global",
+   "reason": "Cross-company provenance standard; modest control/trust improvement.",
+   "sources": [
+    "https://techcabal.com/2026/05/19/everything-announced-at-the-google-i-o-2026/"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "libertarian_utopia": 0.07,
+    "benevolent_dictator": 0.07,
+    "egalitarian_utopia": 0.07,
+    "protector_god": 0.1,
+    "gatekeeper": 0.09,
+    "enslaved_god": 0.07,
+    "conquerors": -0.1,
+    "zookeeper": -0.07,
+    "self_destruction": -0.06
+   },
+   "factor_effect": {
+    "F3": 0.15
+   }
+  },
+  {
+   "id": "2026-05-19-06",
+   "title": "KPMG deploys Claude to 276,000 staff in 138 countries",
+   "summary": "KPMG and Anthropic announced a global alliance and 'Digital Gateway Powered by Claude' covering KPMG's whole workforce.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Global",
+   "reason": "Enterprise lock-in for one frontier lab; incremental.",
+   "sources": [
+    "https://kpmg.com/xx/en/media/press-releases/2026/05/kpmg-and-anthropic-sign-global-alliance-and-launch-digital-gateway-powered-by-claude.html"
+   ],
+   "points": 0.3,
+   "contribution": {
+    "libertarian_utopia": -0.18,
+    "benevolent_dictator": 0.15,
+    "egalitarian_utopia": -0.12,
+    "enslaved_god": 0.18,
+    "zookeeper": 0.12,
+    "orwell_1984": 0.12
+   },
+   "factor_effect": {
+    "F5": 0.3
+   }
+  }
+ ]
+}

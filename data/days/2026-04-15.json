@@ -1,0 +1,159 @@
+{
+ "date": "2026-04-15",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 29.96,
+  "benevolent_dictator": 20.05,
+  "egalitarian_utopia": 17.66,
+  "protector_god": 12.07,
+  "gatekeeper": 15.06,
+  "enslaved_god": 35.05,
+  "conquerors": 14.99,
+  "descendants": 12.01,
+  "zookeeper": 7.95,
+  "orwell_1984": 25.0,
+  "reversion": 6.56,
+  "self_destruction": 18.18
+ },
+ "deltas": {
+  "libertarian_utopia": -0.07,
+  "benevolent_dictator": 0.0,
+  "egalitarian_utopia": -0.27,
+  "protector_god": 0.0,
+  "gatekeeper": 0.0,
+  "enslaved_god": 0.0,
+  "conquerors": 0.04,
+  "descendants": 0.0,
+  "zookeeper": 0.0,
+  "orwell_1984": 0.0,
+  "reversion": 0.06,
+  "self_destruction": 0.16
+ },
+ "targets": {
+  "libertarian_utopia": 29.96,
+  "benevolent_dictator": 20.05,
+  "egalitarian_utopia": 17.66,
+  "protector_god": 12.07,
+  "gatekeeper": 15.06,
+  "enslaved_god": 35.05,
+  "conquerors": 14.99,
+  "descendants": 12.01,
+  "zookeeper": 7.95,
+  "orwell_1984": 25.0,
+  "reversion": 6.56,
+  "self_destruction": 18.18
+ },
+ "momentum_7d": {},
+ "factors": {
+  "F1": 68.0,
+  "F2": 45.0,
+  "F3": 42.1,
+  "F4": 25.0,
+  "F5": 62.0,
+  "F6": 45.0,
+  "F7": 34.56,
+  "F8": 55.2,
+  "F9": 40.48,
+  "F10": 20.01
+ },
+ "factor_deltas": {
+  "F1": 0.0,
+  "F2": 0.0,
+  "F3": 0.0,
+  "F4": 0.0,
+  "F5": 0.0,
+  "F6": 0.0,
+  "F7": -0.3,
+  "F8": 0.15,
+  "F9": 0.0,
+  "F10": 0.0
+ },
+ "composites": {
+  "horizon_balance": 3.41,
+  "families": {
+   "flourishing": 19.94,
+   "contained": 25.06,
+   "successors": 11.65,
+   "stalled": 16.58
+  },
+  "news_heat": 0.45,
+  "evidence": "low",
+  "event_count": 2
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {},
+ "summary": {
+  "headline": "Snap cuts 1,000 jobs citing AI; Air Force tests AI wargaming",
+  "body": "Two modest stories pulled the mood slightly darker. Snap said it is laying off about 1,000 staff, roughly 16%, and its CEO credited AI for letting smaller teams do the work. Job cuts blamed on AI weaken Shared Prosperity, the factor that decides whether AI's gains are spread widely, so Egalitarian Utopia slipped. Separately, the US Air Force disclosed its first operational use of WarMatrix, an AI wargaming system, with humans keeping decision authority. Military AI raises Catastrophic Risk a touch, lifting Self-Destruction and trimming the peaceful Libertarian Utopia. Horizon Balance eased to +3.41, down 0.14.",
+  "movers_note": "Egalitarian Utopia -0.3, driven by Snap's AI-linked layoffs (-0.21). Self-Destruction +0.2 from the Air Force's WarMatrix debut (+0.16), which also nudged Libertarian Utopia -0.1.",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-04-15-01",
+   "title": "Snap cuts about 1,000 jobs (16%), citing rapid AI advances",
+   "summary": "Snap said it is laying off roughly 1,000 staff and closing 300+ open roles, with CEO Evan Spiegel crediting AI for enabling smaller teams.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F7",
+     "dir": -1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Explicitly AI-attributed layoff of 16% of a major tech firm's workforce.",
+   "sources": [
+    "https://techcrunch.com/2026/04/15/snap-is-cutting-1000-jobs-16-of-its-workforce/",
+    "https://khaleejtimes.com/business/tech/snap-to-cut-1000-jobs-after-activist-pressure-bets-on-ai-efficiency"
+   ],
+   "points": 0.3,
+   "contribution": {
+    "egalitarian_utopia": -0.21
+   },
+   "factor_effect": {
+    "F7": -0.3
+   }
+  },
+  {
+   "id": "2026-04-15-02",
+   "title": "US Air Force debuts WarMatrix operational AI wargaming system",
+   "summary": "The Air Force disclosed its first operational use of the WarMatrix AI wargaming environment at a March exercise, with humans retaining decision authority.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Incremental military-AI adoption in planning, human-in-loop.",
+   "sources": [
+    "https://www.militarytimes.com/industry/techwatch/2026/04/15/us-air-force-debuts-operational-ai-wargame-system/"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "libertarian_utopia": -0.07,
+    "egalitarian_utopia": -0.06,
+    "conquerors": 0.04,
+    "reversion": 0.06,
+    "self_destruction": 0.16
+   },
+   "factor_effect": {
+    "F8": 0.15
+   }
+  }
+ ]
+}

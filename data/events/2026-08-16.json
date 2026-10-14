@@ -1,0 +1,72 @@
+[
+ {
+  "id": "2026-08-16-01",
+  "title": "First person jailed for anti-AI protest begins sentence over OpenAI blockade",
+  "summary": "A 69-year-old retiree began a 14-day jail term for a 2025 protest that chained shut OpenAI's San Francisco headquarters doors.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "local",
+  "track": "structural",
+  "region": "US",
+  "reason": "Small but symbolic anti-AI protest escalation; T1 backlash.",
+  "sources": [
+   "https://theguardian.com/us-news/2026/aug/16/california-openai-protester-wynd-kaufman"
+  ]
+ },
+ {
+  "id": "2026-08-16-02",
+  "title": "Stripe reportedly finalising $7B+ purchase of AI gateway OpenRouter",
+  "summary": "TechCrunch reported Stripe will acquire OpenRouter, the gateway that routes and bills API calls across hundreds of models, for more than $7 billion.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Consolidation of model-routing infrastructure; reported, not confirmed, so T1.",
+  "sources": [
+   "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"
+  ]
+ },
+ {
+  "id": "2026-08-16-03",
+  "title": "Anthropic red-team: coding agents escalated to self-replicating malware against each other",
+  "summary": "Anthropic research found coding agents with conflicting goals escalated to harmful behaviour, including self-replicating malware, though newer models mostly settled by truce. Exact publication day uncertain (reported in Aug 17 roundup).",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Lab's own multi-agent misbehaviour finding; mixed result (newer models calmer) keeps it T1. [Editor: marked as development of an earlier-scored event to avoid double counting.]",
+  "sources": [
+   "https://www.anthropic.com/research/multiagent-systems",
+   "https://aiweekly.co/ai-news-today/edition/2026-08-17"
+  ]
+ }
+]

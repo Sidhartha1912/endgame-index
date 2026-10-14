@@ -1,0 +1,153 @@
+{
+ "date": "2026-05-30",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 27.6,
+  "benevolent_dictator": 23.41,
+  "egalitarian_utopia": 14.67,
+  "protector_god": 16.53,
+  "gatekeeper": 17.72,
+  "enslaved_god": 39.3,
+  "conquerors": 20.86,
+  "descendants": 18.39,
+  "zookeeper": 14.64,
+  "orwell_1984": 24.27,
+  "reversion": 3.99,
+  "self_destruction": 20.5
+ },
+ "deltas": {
+  "libertarian_utopia": -0.03,
+  "benevolent_dictator": 0.03,
+  "egalitarian_utopia": -0.01,
+  "protector_god": 0.01,
+  "gatekeeper": 0.01,
+  "enslaved_god": 0.03,
+  "conquerors": -0.01,
+  "descendants": -0.01,
+  "zookeeper": 0.01,
+  "orwell_1984": 0.02,
+  "reversion": -0.02,
+  "self_destruction": -0.0
+ },
+ "targets": {
+  "libertarian_utopia": 27.6,
+  "benevolent_dictator": 23.41,
+  "egalitarian_utopia": 14.67,
+  "protector_god": 16.53,
+  "gatekeeper": 17.72,
+  "enslaved_god": 39.3,
+  "conquerors": 20.86,
+  "descendants": 18.39,
+  "zookeeper": 14.64,
+  "orwell_1984": 24.27,
+  "reversion": 3.99,
+  "self_destruction": 20.5
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": 0.12,
+  "egalitarian_utopia": 0.02,
+  "protector_god": 0.21,
+  "gatekeeper": 0.84,
+  "enslaved_god": 0.38,
+  "conquerors": 0.11,
+  "descendants": 0.35,
+  "zookeeper": 0.2,
+  "orwell_1984": 0.36,
+  "reversion": 0.43,
+  "self_destruction": -0.5
+ },
+ "factors": {
+  "F1": 74.71,
+  "F2": 48.42,
+  "F3": 41.57,
+  "F4": 23.96,
+  "F5": 64.54,
+  "F6": 45.76,
+  "F7": 32.94,
+  "F8": 56.64,
+  "F9": 41.35,
+  "F10": 20.39
+ },
+ "factor_deltas": {
+  "F1": -0.01,
+  "F2": 0.0,
+  "F3": 0.01,
+  "F4": -0.0,
+  "F5": 0.05,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.0,
+  "F9": -0.03,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": 0.48,
+  "families": {
+   "flourishing": 20.55,
+   "contained": 28.51,
+   "successors": 17.96,
+   "stalled": 16.25
+  },
+  "news_heat": 0.04,
+  "evidence": "low",
+  "event_count": 1
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": 0.01,
+  "egalitarian_utopia": 0.01,
+  "protector_god": 0.01,
+  "gatekeeper": 0.01,
+  "conquerors": -0.01,
+  "descendants": -0.01,
+  "zookeeper": -0.01,
+  "reversion": -0.02
+ },
+ "summary": {
+  "headline": "Quiet day: UK banks still waiting for Mythos access",
+  "body": "A quiet day. The Bank of England said UK banks want, but still lack, access to Anthropic's Mythos for cyber testing, a tiny signal that powerful tools sit with a few providers (Power Concentration). Otherwise scores drifted as earlier news faded. Horizon Balance is 0.5, down 0.01.",
+  "movers_note": "No ending moved by 0.1 or more; Libertarian Utopia -0.0 and Enslaved God +0.0 from the Mythos access story.",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-05-30-01",
+   "title": "Bank of England: UK banks still lack access to Anthropic's Mythos",
+   "summary": "The Bank of England said UK banks want but still lack access to Mythos to test defences against cyber threats.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "D",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "UK",
+   "reason": "Access to top cyber model concentrated in US-chosen partners.",
+   "sources": [
+    "https://techieray.substack.com/p/ctrlaireg-1-june-2026"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "libertarian_utopia": -0.03,
+    "benevolent_dictator": 0.02,
+    "egalitarian_utopia": -0.02,
+    "enslaved_god": 0.03,
+    "zookeeper": 0.02,
+    "orwell_1984": 0.02
+   },
+   "factor_effect": {
+    "F5": 0.04
+   }
+  }
+ ]
+}

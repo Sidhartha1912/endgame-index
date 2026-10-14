@@ -1,0 +1,26 @@
+[
+ {
+  "id": "2026-09-27-01",
+  "title": "Claude computes nine-loop Yang-Mills scattering amplitude, checked by SLAC physicist",
+  "summary": "Anthropic researchers reported Claude computed a six-particle amplitude in planar N=4 super Yang-Mills at nine loops, one beyond the published record; SLAC/Stanford physicist Lance Dixon checked it.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Research-level physics result with independent expert check; single result, not a field-wide leap.",
+  "sources": [
+   "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+   "https://www.unite.ai/anthropic-says-claude-computed-a-nine-loop-particle-physics-amplitude/"
+  ]
+ }
+]

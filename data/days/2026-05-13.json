@@ -1,0 +1,111 @@
+{
+ "date": "2026-05-13",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 29.17,
+  "benevolent_dictator": 20.84,
+  "egalitarian_utopia": 16.06,
+  "protector_god": 13.74,
+  "gatekeeper": 15.47,
+  "enslaved_god": 36.4,
+  "conquerors": 17.44,
+  "descendants": 14.31,
+  "zookeeper": 10.05,
+  "orwell_1984": 24.13,
+  "reversion": 5.64,
+  "self_destruction": 20.5
+ },
+ "deltas": {
+  "libertarian_utopia": -0.0,
+  "benevolent_dictator": -0.0,
+  "egalitarian_utopia": 0.0,
+  "protector_god": -0.0,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.0,
+  "conquerors": 0.0,
+  "descendants": 0.0,
+  "zookeeper": 0.0,
+  "orwell_1984": -0.0,
+  "reversion": -0.01,
+  "self_destruction": 0.0
+ },
+ "targets": {
+  "libertarian_utopia": 29.17,
+  "benevolent_dictator": 20.84,
+  "egalitarian_utopia": 16.06,
+  "protector_god": 13.74,
+  "gatekeeper": 15.47,
+  "enslaved_god": 36.4,
+  "conquerors": 17.44,
+  "descendants": 14.31,
+  "zookeeper": 10.05,
+  "orwell_1984": 24.13,
+  "reversion": 5.64,
+  "self_destruction": 20.5
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.03,
+  "benevolent_dictator": -0.02,
+  "egalitarian_utopia": -0.26,
+  "protector_god": -0.03,
+  "gatekeeper": -0.61,
+  "enslaved_god": -0.02,
+  "conquerors": 0.03,
+  "descendants": 0.0,
+  "zookeeper": 0.03,
+  "orwell_1984": -0.33,
+  "reversion": -0.06,
+  "self_destruction": 0.43
+ },
+ "factors": {
+  "F1": 70.85,
+  "F2": 46.02,
+  "F3": 41.98,
+  "F4": 23.62,
+  "F5": 62.0,
+  "F6": 45.6,
+  "F7": 33.17,
+  "F8": 56.64,
+  "F9": 40.7,
+  "F10": 19.99
+ },
+ "factor_deltas": {
+  "F1": 0.0,
+  "F2": 0.0,
+  "F3": -0.01,
+  "F4": -0.0,
+  "F5": 0.0,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": 0.0,
+  "F9": -0.01,
+  "F10": 0.0
+ },
+ "composites": {
+  "horizon_balance": 1.93,
+  "families": {
+   "flourishing": 19.95,
+   "contained": 25.93,
+   "successors": 13.93,
+   "stalled": 16.76
+  },
+  "news_heat": 0.0,
+  "evidence": "low",
+  "event_count": 0
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "gatekeeper": -0.01,
+  "reversion": -0.01
+ },
+ "summary": {
+  "headline": "Quiet close to the month; slow fading continues",
+  "body": "A quiet day with no scored events. The only movement came from earlier announcements fading, which took 0.01 off Gatekeeper and Reversion, with similar tiny drifts in the world factors. The window ends with Enslaved God still on top and the mood a little darker than a month ago. Horizon Balance holds at +1.93.",
+  "movers_note": "Gatekeeper and Reversion each -0.01 from fading, both rounding to 0.0.",
+  "coming_up": []
+ },
+ "events": []
+}

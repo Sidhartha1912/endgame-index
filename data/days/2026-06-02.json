@@ -1,0 +1,277 @@
+{
+ "date": "2026-06-02",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 27.94,
+  "benevolent_dictator": 24.29,
+  "egalitarian_utopia": 15.11,
+  "protector_god": 17.43,
+  "gatekeeper": 18.46,
+  "enslaved_god": 40.12,
+  "conquerors": 20.06,
+  "descendants": 18.42,
+  "zookeeper": 14.29,
+  "orwell_1984": 24.41,
+  "reversion": 4.4,
+  "self_destruction": 19.96
+ },
+ "deltas": {
+  "libertarian_utopia": 0.63,
+  "benevolent_dictator": 0.47,
+  "egalitarian_utopia": 0.59,
+  "protector_god": 0.77,
+  "gatekeeper": 0.63,
+  "enslaved_god": 0.36,
+  "conquerors": -0.66,
+  "descendants": 0.06,
+  "zookeeper": -0.5,
+  "orwell_1984": -0.11,
+  "reversion": -0.05,
+  "self_destruction": -0.47
+ },
+ "targets": {
+  "libertarian_utopia": 27.94,
+  "benevolent_dictator": 24.29,
+  "egalitarian_utopia": 15.11,
+  "protector_god": 17.43,
+  "gatekeeper": 18.46,
+  "enslaved_god": 40.12,
+  "conquerors": 20.06,
+  "descendants": 18.42,
+  "zookeeper": 14.29,
+  "orwell_1984": 24.41,
+  "reversion": 4.4,
+  "self_destruction": 19.96
+ },
+ "momentum_7d": {
+  "libertarian_utopia": 0.26,
+  "benevolent_dictator": 1.06,
+  "egalitarian_utopia": 0.4,
+  "protector_god": 0.98,
+  "gatekeeper": 0.93,
+  "enslaved_god": 1.14,
+  "conquerors": -0.77,
+  "descendants": 0.28,
+  "zookeeper": -0.17,
+  "orwell_1984": 0.32,
+  "reversion": 0.19,
+  "self_destruction": -0.69
+ },
+ "factors": {
+  "F1": 74.69,
+  "F2": 48.55,
+  "F3": 42.76,
+  "F4": 23.95,
+  "F5": 64.98,
+  "F6": 45.72,
+  "F7": 32.94,
+  "F8": 56.58,
+  "F9": 41.78,
+  "F10": 20.35
+ },
+ "factor_deltas": {
+  "F1": -0.01,
+  "F2": 0.12,
+  "F3": 1.0,
+  "F4": -0.0,
+  "F5": -0.17,
+  "F6": -0.04,
+  "F7": 0.0,
+  "F8": -0.06,
+  "F9": -0.02,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": 1.51,
+  "families": {
+   "flourishing": 21.19,
+   "contained": 29.29,
+   "successors": 17.59,
+   "stalled": 16.26
+  },
+  "news_heat": 1.39,
+  "evidence": "medium",
+  "event_count": 4
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": 0.01,
+  "egalitarian_utopia": 0.01,
+  "protector_god": 0.01,
+  "conquerors": -0.01,
+  "descendants": -0.01,
+  "zookeeper": -0.01,
+  "reversion": -0.02
+ },
+ "summary": {
+  "headline": "Trump signs scaled-back AI security order; Protector God rises",
+  "body": "After scrapping an earlier version last month, President Trump signed a narrower AI security order. It directs Treasury, the NSA and CISA to build a classified benchmark and a voluntary framework for government access to frontier models up to 30 days before release, with no licensing. Even voluntary testing strengthens Alignment & Control, which lifts Protector God and Gatekeeper and pushes Conquerors down. Microsoft launched its own in-house MAI models to reduce reliance on OpenAI, slightly spreading power. Anthropic extended Project Glasswing's bug-hunting to power, water and healthcare operators. Several endings swapped places, and Horizon Balance rose 1.05 to 1.5, its biggest one-day gain of the period so far.",
+  "movers_note": "Protector God +0.8 and Conquerors -0.7, driven by the AI security order (+0.69/-0.69); Gatekeeper +0.6 from the same order (+0.59).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-06-02-01",
+   "title": "Trump signs scaled-back AI security order with voluntary 30-day pre-release access",
+   "summary": "Trump signed 'Promoting Advanced AI Innovation and Security', directing Treasury, NSA and CISA to build a classified benchmark and a voluntary framework for government access to frontier models up to 30 days before release; it explicitly creates no licensing.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "New (voluntary) government evaluation regime for frontier models.",
+   "sources": [
+    "https://www.axios.com/2026/06/02/trump-signs-new-ai-executive-order",
+    "https://www.dwt.com/blogs/privacy--security-law-blog/2026/06/trump-ai-innovation-and-security-executive-order"
+   ],
+   "points": 1.0,
+   "contribution": {
+    "libertarian_utopia": 0.5,
+    "benevolent_dictator": 0.5,
+    "egalitarian_utopia": 0.5,
+    "protector_god": 0.69,
+    "gatekeeper": 0.59,
+    "enslaved_god": 0.5,
+    "conquerors": -0.69,
+    "zookeeper": -0.5,
+    "self_destruction": -0.4
+   },
+   "factor_effect": {
+    "F3": 0.99
+   }
+  },
+  {
+   "id": "2026-06-02-02",
+   "title": "Microsoft launches in-house MAI models to cut reliance on OpenAI",
+   "summary": "At Build, Microsoft unveiled MAI-Thinking-1 and MAI-Code-1-Flash among seven in-house models, and the Scout always-on Microsoft 365 agent.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    },
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "New competing frontier-adjacent models reduce single-partner dependence; new autonomous agent product.",
+   "sources": [
+    "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html",
+    "https://www.computerworld.com/article/4180103/microsoft-unveils-scout-an-autonomous-ai-agent-built-on-openclaw.html"
+   ],
+   "points": 0.17,
+   "contribution": {
+    "libertarian_utopia": 0.1,
+    "benevolent_dictator": -0.03,
+    "egalitarian_utopia": 0.07,
+    "protector_god": 0.04,
+    "gatekeeper": 0.03,
+    "enslaved_god": -0.13,
+    "conquerors": 0.04,
+    "descendants": 0.05,
+    "zookeeper": -0.02,
+    "orwell_1984": -0.07
+   },
+   "factor_effect": {
+    "F2": 0.08,
+    "F5": -0.17
+   }
+  },
+  {
+   "id": "2026-06-02-03",
+   "title": "Anthropic expands Project Glasswing to power, water and healthcare operators",
+   "summary": "Anthropic extended Mythos-based vulnerability hunting to critical-infrastructure partners whose systems affect over 100M people.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": -1
+    },
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Defensive AI cyber use in critical infrastructure.",
+   "sources": [
+    "https://www.anthropic.com/news/expanding-project-glasswing"
+   ],
+   "points": 0.06,
+   "contribution": {
+    "libertarian_utopia": 0.03,
+    "benevolent_dictator": 0.02,
+    "egalitarian_utopia": 0.03,
+    "protector_god": 0.02,
+    "gatekeeper": 0.01,
+    "enslaved_god": -0.01,
+    "descendants": 0.02,
+    "zookeeper": 0.02,
+    "reversion": -0.03,
+    "self_destruction": -0.07
+   },
+   "factor_effect": {
+    "F2": 0.03,
+    "F8": -0.06
+   }
+  },
+  {
+   "id": "2026-06-02-04",
+   "title": "Singapore PDPC consults on personal data use in generative AI",
+   "summary": "Singapore's privacy regulator launched a consultation on advisory guidelines for personal data across GenAI development and deployment.",
+   "category": "surveillance",
+   "factors": [
+    {
+     "id": "F6",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "D",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "Other",
+   "reason": "Privacy guardrails; consultation stage.",
+   "sources": [
+    "https://www.cliffordchance.com/insights/resources/blogs/talking-tech/en/articles/2026/06/tech-policy-unit-horizon-scanner-june-2026.html"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "benevolent_dictator": -0.02,
+    "protector_god": 0.01,
+    "orwell_1984": -0.04
+   },
+   "factor_effect": {
+    "F6": -0.04
+   }
+  }
+ ]
+}

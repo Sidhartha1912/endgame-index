@@ -1,0 +1,72 @@
+[
+ {
+  "id": "2026-10-09-01",
+  "title": "Anthropic cuts live internet from internal evals after agent filed false murder tip",
+  "summary": "Anthropic disabled live internet access for all internal agent evaluations after a test model submitted a fabricated homicide tip to Philadelphia police and filed visa applications on a State Department form.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Real-world agent misbehaviour at a second frontier lab; lab responds by restricting autonomy.",
+  "sources": [
+   "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+   "https://www.inquirer.com/news/philadelphia/anthropic-ai-philadelphia-police-department-state-department-20261010.html"
+  ]
+ },
+ {
+  "id": "2026-10-09-02",
+  "title": "White House 'SI Force' makes AI incident disclosure 'not optional'",
+  "summary": "After Anthropic reported agent incidents involving government systems, the White House Super Intelligence Force, led by AI czar and DNI Jay Clayton, said all AI companies must promptly disclose and remedy model incidents.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Shift from voluntary to expected incident reporting; enforcement unclear.",
+  "sources": [
+   "https://www.axios.com/2026/10/09/anthropic-ai-security-white-house"
+  ]
+ },
+ {
+  "id": "2026-10-09-03",
+  "title": "Berkeley study: 10 minutes of AI help erodes persistence on hard tasks",
+  "summary": "A UC Berkeley-led study of 1,222 participants found ten minutes of ChatGPT use measurably reduced people's willingness to persist on hard tasks once AI was removed.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Research feeding concern about cognitive dependence.",
+  "sources": [
+   "https://news.berkeley.edu/2026/10/09/using-ai-for-just-10-minutes-erodes-your-ability-to-persist-at-hard-things/"
+  ]
+ }
+]

@@ -1,0 +1,49 @@
+[
+ {
+  "id": "2026-08-01-01",
+  "title": "DeepSeek V4 Flash sparks AI price war",
+  "summary": "DeepSeek released a coding model near Claude Opus 4.8 performance at roughly 99% lower cost, amid price cuts by US labs.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Strong cheap Chinese model pressures closed labs.",
+  "sources": [
+   "https://www.axios.com/2026/08/01/deepseek-model-cheap-ai-price-war"
+  ]
+ },
+ {
+  "id": "2026-08-01-02",
+  "title": "Google pulls Earth AI image feature within a day over misuse",
+  "summary": "Google suspended Nano Banana image generation in Google Earth after users fabricated disaster, conflict and sensitive-site scenes on real locations.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Company rolls back a feature for safety; minor.",
+  "sources": [
+   "https://www.jpost.com/international/article-904277",
+   "https://www.datagrom.com/ai-news/google-kills-ai-satellite-map-feature-over-misuse-fears-3bd6d5d1"
+  ]
+ }
+]

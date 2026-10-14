@@ -1,0 +1,49 @@
+[
+ {
+  "id": "2026-07-08-01",
+  "title": "Anthropic begins government-ID and biometric verification for Fable 5 access",
+  "summary": "An updated Anthropic privacy policy, tied to the export-control redeployment, took effect allowing collection of government ID and facial data to verify some users' identity for Fable 5.",
+  "category": "surveillance",
+  "factors": [
+   {
+    "id": "F6",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Identity/biometric gating of AI access normalises KYC-style monitoring; modest scale, secondary sourcing.",
+  "sources": [
+   "https://www.explainx.ai/blog/us-government-bans-fable-5-mythos-5-anthropic-export-control-2026",
+   "https://blog.buildfastwithai.com/ai-news-today-july-8-2026"
+  ]
+ },
+ {
+  "id": "2026-07-08-02",
+  "title": "NYC schools freeze tech purchases amid AI policy backlash",
+  "summary": "New York City's schools chancellor paused education-technology purchases until a delayed AI policy is finalised, after public backlash; earlier guidance required bias reviews for all AI tools.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "local",
+  "track": "structural",
+  "region": "US",
+  "reason": "Institutional pullback from AI in largest US school system.",
+  "sources": [
+   "https://www.nydailynews.com/2026/07/08/nyc-public-schools-puts-technology-purchases-on-hold-amid-heated-debate-over-ai-policy/"
+  ]
+ }
+]

@@ -1,0 +1,25 @@
+[
+ {
+  "id": "2026-06-10-01",
+  "title": "EU publishes Code of Practice on labelling AI-generated content",
+  "summary": "The European Commission released a voluntary code to help providers and deployers prepare for AI Act transparency rules on marking AI content.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "EU",
+  "reason": "AI Act implementation step; voluntary.",
+  "sources": [
+   "https://www.cliffordchance.com/insights/resources/blogs/talking-tech/en/articles/2026/06/tech-policy-unit-horizon-scanner-june-2026.html"
+  ]
+ }
+]

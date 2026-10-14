@@ -1,0 +1,77 @@
+[
+ {
+  "id": "2026-06-18-01",
+  "title": "Gemini co-lead Noam Shazeer leaves Google for OpenAI; DeepMind talent exodus follows",
+  "summary": "Transformer co-author Noam Shazeer joined OpenAI, followed by Nobel laureate John Jumper (Jun 20) and two more DeepMind researchers moving to Anthropic (Jun 24); Alphabet shares fell sharply.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Top talent consolidating at two leading labs; modest concentration effect.",
+  "sources": [
+   "https://www.bloomberg.com/news/articles/2026-06-18/star-google-researcher-jumps-to-openai-in-coup-for-startup",
+   "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+   "https://www.cnbc.com/2026/06/22/alphabet-goog-stock-ai-departures.html"
+  ]
+ },
+ {
+  "id": "2026-06-18-02",
+  "title": "China reportedly unveils 2 trillion yuan five-year AI infrastructure plan",
+  "summary": "Reports said Beijing announced a roughly $295B five-year plan for national AI data centers requiring at least 80% domestic technology.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "State-directed mega compute plan; single secondary source, so low credibility - verify before relying.",
+  "sources": [
+   "https://medium.com/adi-insights-innovations-collective/ai-update-thursday-june-18-2026-f74c93022f92"
+  ]
+ },
+ {
+  "id": "2026-06-18-03",
+  "title": "Northwestern prints artificial neurons that signal with living brain tissue",
+  "summary": "Researchers reported two-way communication between printed organic-polymer neurons and biological neural tissue.",
+  "category": "merge",
+  "factors": [
+   {
+    "id": "F10",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Early neural-interface research; secondary sourcing.",
+  "sources": [
+   "https://medium.com/adi-insights-innovations-collective/ai-update-thursday-june-18-2026-f74c93022f92"
+  ]
+ }
+]

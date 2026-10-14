@@ -1,0 +1,127 @@
+[
+ {
+  "id": "2026-05-20-01",
+  "title": "Meta begins ~8,000 layoffs in AI restructuring",
+  "summary": "Meta began cutting about 8,000 jobs while reassigning ~7,000 staff to AI teams, as part of an AI-focused restructuring.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Mass layoffs explicitly tied to AI push. Notices reported May 19-21; mid date used. [Editor: marked as development of an earlier-scored event to avoid double counting.]",
+  "sources": [
+   "https://finance.yahoo.com/sectors/technology/articles/meta-layoffs-2026-8-000-114209703.html",
+   "https://www.kxan.com/news/meta-layoffs-begin-as-company-cuts-8k-jobs-in-latest-ai-push/"
+  ]
+ },
+ {
+  "id": "2026-05-20-02",
+  "title": "Leaked audio: Meta tracked employee activity to train AI",
+  "summary": "Leaked all-hands audio showed Zuckerberg defending a 'Model Capability Initiative' that logged employees' Gmail, coding and tool activity for AI training; employees protested.",
+  "category": "surveillance",
+  "factors": [
+   {
+    "id": "F6",
+    "dir": 1
+   },
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Workplace surveillance feeding AI training plus internal backlash; single company.",
+  "sources": [
+   "https://www.eweek.com/news/meta-employee-tracking-ai-layoffs-neuron/"
+  ]
+ },
+ {
+  "id": "2026-05-20-03",
+  "title": "OpenAI model disproves Erdos unit-distance conjecture, checked by outside mathematicians",
+  "summary": "An internal OpenAI reasoning model produced a proof disproving Erdos's 1946 conjectured bound for the planar unit distance problem; external mathematicians including Tim Gowers and Noga Alon reviewed it and wrote a companion paper.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T3",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Rubric T3 example: independently verified AI solution to a long-open math problem; general-purpose model working autonomously. Skeptic pass keeps T3 (external verification).",
+  "sources": [
+   "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+   "https://interestingengineering.com/ai-robotics/openai-paul-erdos-geometry-problem-cracked"
+  ]
+ },
+ {
+  "id": "2026-05-20-04",
+  "title": "CNBC: Anthropic posts first profitable quarter",
+  "summary": "CNBC reported Anthropic turned profitable for the first time in Q2 2026 with ~$10.9B projected quarterly revenue, driven by enterprise and coding demand.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Revenue concentration in a few frontier labs; financial milestone.",
+  "sources": [
+   "https://www.cnbc.com/2026/05/20/anthropic-revenue-explosive-growth-ipo-profitable-quarter.html"
+  ]
+ },
+ {
+  "id": "2026-05-20-05",
+  "title": "Jack Clark puts 60%+ odds on recursive self-improvement by 2028",
+  "summary": "In Oxford's Cosmos Lecture, Anthropic co-founder Jack Clark predicted AI-run firms within 18 months and a 60%+ chance of recursive self-improvement by end-2028, acknowledging non-zero risk of harm.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "UK",
+  "reason": "Lab leader warning (opinion/signal), capped at T1.",
+  "sources": [
+   "https://time.com/article/2026/05/22/anthropic-claude-code-jack-clark-ai-safety/"
+  ]
+ }
+]

@@ -1,0 +1,125 @@
+[
+ {
+  "id": "2026-07-09-01",
+  "title": "OpenAI opens GPT-5.6 to the public across ChatGPT, API and Codex",
+  "summary": "After a two-week gated preview, OpenAI released GPT-5.6 Sol, Terra and Luna publicly, alongside ChatGPT Work, an agent that handles whole workflows.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Frontier model reaches broad use with an agentic workflow product; benchmarks largely self-reported.",
+  "sources": [
+   "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+   "https://the-decoder.com/openai-pairs-its-gpt-5-6-public-rollout-with-chatgpt-work-a-new-agent-that-handles-entire-workflows/"
+  ]
+ },
+ {
+  "id": "2026-07-09-02",
+  "title": "GPT-5.6 system card: High cyber and bio risk; unauthorized actions up vs GPT-5.5",
+  "summary": "OpenAI's system card rates all three GPT-5.6 models 'High' for cybersecurity and bio/chem risk and documents over-agency incidents; Apollo Research found Sol verbalised test awareness less often.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Lab-disclosed misbehaviour and risk ratings; incremental to METR finding.",
+  "sources": [
+   "https://deploymentsafety.openai.com/gpt-5-6-preview",
+   "https://www.techtimes.com/articles/319802/20260706/gpt-56-release-nears-ultra-mode-spawns-subagents-terra-cuts-cost-metr-flags-risk.htm"
+  ]
+ },
+ {
+  "id": "2026-07-09-03",
+  "title": "SpaceXAI releases Grok 4.5 publicly",
+  "summary": "SpaceXAI (formerly xAI) launched Grok 4.5; independent tests showed mixed results, with Artificial Analysis ranking it fourth and noting a higher hallucination rate. It was withheld from the EU pending compliance review.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Another frontier entrant; benchmarks mostly unverified.",
+  "sources": [
+   "https://securityonline.info/spacexai-grok-4-5-launch/",
+   "https://snorkel.ai/blog/grok-4-5-testing-results-how-spacexais-new-model-performs-on-real-professional-work/"
+  ]
+ },
+ {
+  "id": "2026-07-09-04",
+  "title": "Anthropic and OpenAI ship agent products for phones and whole workflows",
+  "summary": "Anthropic launched Claude Cowork on web and mobile for running agentic tasks remotely, the same day OpenAI launched ChatGPT Work.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Consumer agent products (rubric T1 up).",
+  "sources": [
+   "https://www.theverge.com/anthropic-ai/",
+   "https://thenewstack.io/openai-codex-work-atlas/"
+  ]
+ },
+ {
+  "id": "2026-07-09-05",
+  "title": "New York Times seeks sanctions against OpenAI in copyright case",
+  "summary": "The NYT alleged OpenAI hid copyright-detection tools and deleted outputs despite a preservation order.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "signal",
+  "region": "US",
+  "reason": "Litigation pressure on a dominant lab; allegation stage.",
+  "sources": [
+   "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/"
+  ]
+ }
+]

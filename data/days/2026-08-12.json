@@ -1,0 +1,213 @@
+{
+ "date": "2026-08-12",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 25.47,
+  "benevolent_dictator": 25.09,
+  "egalitarian_utopia": 12.76,
+  "protector_god": 19.82,
+  "gatekeeper": 20.5,
+  "enslaved_god": 41.46,
+  "conquerors": 25.62,
+  "descendants": 22.58,
+  "zookeeper": 19.26,
+  "orwell_1984": 23.31,
+  "reversion": 3.8,
+  "self_destruction": 22.86
+ },
+ "deltas": {
+  "libertarian_utopia": -0.08,
+  "benevolent_dictator": -0.06,
+  "egalitarian_utopia": -0.07,
+  "protector_god": 0.03,
+  "gatekeeper": -0.02,
+  "enslaved_god": -0.0,
+  "conquerors": 0.05,
+  "descendants": -0.0,
+  "zookeeper": 0.01,
+  "orwell_1984": -0.13,
+  "reversion": -0.16,
+  "self_destruction": 0.17
+ },
+ "targets": {
+  "libertarian_utopia": 25.47,
+  "benevolent_dictator": 25.09,
+  "egalitarian_utopia": 12.76,
+  "protector_god": 19.82,
+  "gatekeeper": 20.5,
+  "enslaved_god": 41.46,
+  "conquerors": 25.62,
+  "descendants": 22.58,
+  "zookeeper": 19.26,
+  "orwell_1984": 23.31,
+  "reversion": 3.8,
+  "self_destruction": 22.86
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.24,
+  "benevolent_dictator": -0.16,
+  "egalitarian_utopia": -0.51,
+  "protector_god": 0.76,
+  "gatekeeper": 0.58,
+  "enslaved_god": 0.3,
+  "conquerors": 1.09,
+  "descendants": 0.88,
+  "zookeeper": 0.59,
+  "orwell_1984": -0.67,
+  "reversion": -0.45,
+  "self_destruction": 1.14
+ },
+ "factors": {
+  "F1": 79.22,
+  "F2": 51.17,
+  "F3": 40.92,
+  "F4": 24.72,
+  "F5": 65.52,
+  "F6": 45.42,
+  "F7": 32.53,
+  "F8": 58.89,
+  "F9": 42.98,
+  "F10": 20.18
+ },
+ "factor_deltas": {
+  "F1": -0.0,
+  "F2": -0.0,
+  "F3": -0.01,
+  "F4": -0.01,
+  "F5": 0.01,
+  "F6": -0.14,
+  "F7": 0.0,
+  "F8": 0.14,
+  "F9": -0.22,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -1.98,
+  "families": {
+   "flourishing": 20.79,
+   "contained": 30.98,
+   "successors": 22.49,
+   "stalled": 16.66
+  },
+  "news_heat": 0.5,
+  "evidence": "low",
+  "event_count": 3
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "egalitarian_utopia": -0.01,
+  "protector_god": -0.01,
+  "gatekeeper": -0.02,
+  "conquerors": 0.01,
+  "zookeeper": 0.01,
+  "reversion": -0.01,
+  "self_destruction": 0.01
+ },
+ "summary": {
+  "headline": "Reported AI-agent attack on Taiwan nuclear regulator",
+  "body": "Three stories with mixed effects. Roundups citing Reuters said a China-linked actor used autonomous AI agents to probe Taiwan's nuclear safety regulator. The report is not independently verified, so it was weighted with caution, but it still raised Catastrophic Risk and lifted Self-Destruction. Google said the Gemini app passed one billion monthly users, a sign of broad public acceptance that lowers Tech Backlash and Reversion. In Germany, HateAid filed a criminal complaint arguing Ray-Ban Meta glasses are illegal covert recording devices; pushing back on surveillance trims 1984. Horizon Balance slipped to -1.98.",
+  "movers_note": "Self-Destruction +0.2 came from the reported Taiwan attack (+0.16); Reversion -0.2 came from Gemini's one billion users (-0.21); 1984 -0.1 came from the HateAid complaint (-0.13).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-08-12-01",
+   "title": "German group files criminal complaint over Meta AI smart glasses",
+   "summary": "HateAid filed a complaint against Meta, EssilorLuxottica units and retailers, arguing Ray-Ban Meta glasses are illegal covert recording devices.",
+   "category": "surveillance",
+   "factors": [
+    {
+     "id": "F6",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "EU",
+   "reason": "Civil-society challenge to AI wearable surveillance.",
+   "sources": [
+    "https://www.reuters.com/legal/government/german-advocacy-group-lodges-criminal-complaint-over-meta-ai-glasses-2026-08-12/"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "benevolent_dictator": -0.06,
+    "protector_god": 0.04,
+    "orwell_1984": -0.13
+   },
+   "factor_effect": {
+    "F6": -0.14
+   }
+  },
+  {
+   "id": "2026-08-12-02",
+   "title": "Gemini app reaches 1 billion monthly users",
+   "summary": "Google said the Gemini app passed one billion monthly users; ChatGPT reportedly reached a similar scale.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Mass adoption; company-reported figure.",
+   "sources": [
+    "https://blog.google/products/gemini/gemini-1-billion-users/",
+    "https://www.datagrom.com/ai-news/chatgpt-and-gemini-each-reach-1-billion-users-91b246bb"
+   ],
+   "points": 0.21,
+   "contribution": {
+    "reversion": -0.21
+   },
+   "factor_effect": {
+    "F9": -0.21
+   }
+  },
+  {
+   "id": "2026-08-12-03",
+   "title": "Reported AI-agent cyberattack on Taiwan's nuclear regulator",
+   "summary": "Roundups citing Reuters said a China-linked actor used autonomous AI agents for reconnaissance and intrusion attempts against Taiwan's nuclear safety regulator; not independently verified here.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "D",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "Other",
+   "reason": "State-linked AI-enabled cyberattack on critical infrastructure; sourcing unverified so D.",
+   "sources": [
+    "https://blog.buildfastwithai.com/ai-news-today-august-13-2026"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "libertarian_utopia": -0.07,
+    "egalitarian_utopia": -0.06,
+    "conquerors": 0.04,
+    "reversion": 0.06,
+    "self_destruction": 0.16
+   },
+   "factor_effect": {
+    "F8": 0.15
+   }
+  }
+ ]
+}

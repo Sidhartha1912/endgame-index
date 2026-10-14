@@ -1,0 +1,343 @@
+{
+ "date": "2026-08-24",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 23.01,
+  "benevolent_dictator": 24.68,
+  "egalitarian_utopia": 10.71,
+  "protector_god": 19.3,
+  "gatekeeper": 19.4,
+  "enslaved_god": 41.77,
+  "conquerors": 27.75,
+  "descendants": 23.08,
+  "zookeeper": 20.97,
+  "orwell_1984": 22.73,
+  "reversion": 4.3,
+  "self_destruction": 25.93
+ },
+ "deltas": {
+  "libertarian_utopia": -0.78,
+  "benevolent_dictator": -0.1,
+  "egalitarian_utopia": -0.6,
+  "protector_god": 0.35,
+  "gatekeeper": 0.24,
+  "enslaved_god": 0.05,
+  "conquerors": 0.45,
+  "descendants": 0.06,
+  "zookeeper": -0.03,
+  "orwell_1984": -0.47,
+  "reversion": 0.68,
+  "self_destruction": 1.75
+ },
+ "targets": {
+  "libertarian_utopia": 23.01,
+  "benevolent_dictator": 24.68,
+  "egalitarian_utopia": 10.71,
+  "protector_god": 19.3,
+  "gatekeeper": 19.4,
+  "enslaved_god": 41.77,
+  "conquerors": 27.75,
+  "descendants": 23.08,
+  "zookeeper": 20.97,
+  "orwell_1984": 22.73,
+  "reversion": 4.3,
+  "self_destruction": 25.93
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.08,
+  "benevolent_dictator": -0.26,
+  "egalitarian_utopia": -0.9,
+  "protector_god": 0.17,
+  "gatekeeper": -0.36,
+  "enslaved_god": -0.02,
+  "conquerors": 0.85,
+  "descendants": 0.15,
+  "zookeeper": 0.24,
+  "orwell_1984": -0.75,
+  "reversion": 0.8,
+  "self_destruction": 2.45
+ },
+ "factors": {
+  "F1": 79.98,
+  "F2": 51.27,
+  "F3": 39.31,
+  "F4": 24.06,
+  "F5": 66.69,
+  "F6": 44.8,
+  "F7": 32.5,
+  "F8": 60.81,
+  "F9": 43.16,
+  "F10": 20.16
+ },
+ "factor_deltas": {
+  "F1": -0.0,
+  "F2": 0.1,
+  "F3": 0.17,
+  "F4": 0.15,
+  "F5": -0.0,
+  "F6": -0.59,
+  "F7": 0.0,
+  "F8": 1.73,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -4.92,
+  "families": {
+   "flourishing": 19.43,
+   "contained": 30.59,
+   "successors": 23.93,
+   "stalled": 17.65
+  },
+  "news_heat": 3.4,
+  "evidence": "high",
+  "event_count": 6
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": -0.01,
+  "protector_god": -0.01,
+  "enslaved_god": -0.01,
+  "conquerors": 0.01,
+  "orwell_1984": 0.01,
+  "reversion": -0.01
+ },
+ "summary": {
+  "headline": "Autonomous Russian drone kill and AI-boosted hacking lift Self-Destruction",
+  "body": "The heaviest news day of the window so far. Ukrainian investigators said a Russian drone, running an Nvidia Jetson module that Nvidia confirmed, picked its target without human input and killed three civilians. Taiwanese firm TeamT5 said Chinese state hackers more than doubled attacks after adding AI tools such as DeepSeek. Both raise Catastrophic Risk, the main driver of Self-Destruction; the drone also adds AI Autonomy, lifting Conquerors. The UK gaining access to Ukraine's AI battlefield data platform added to that risk. Pulling the other way, a European regulator fined Uber about €825 million for automated driver deactivations, pushing back on Surveillance & Control and denting 1984 and Benevolent Dictator; Alabama also subpoenaed OpenAI over the Hugging Face breach. Horizon Balance fell to -4.92, and Self-Destruction climbed to third place.",
+  "movers_note": "Self-Destruction +1.8, from the autonomous drone strike (+0.86), China's AI-boosted hacking (+0.86) and the UK battlefield-data deal (+0.19); Libertarian Utopia -0.8 from the same stories, and Reversion +0.7.",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-08-24-01",
+   "title": "Alabama AG subpoenas OpenAI over 'AI lab leak' that breached Hugging Face",
+   "summary": "Alabama's attorney general opened a consumer-protection investigation into OpenAI and Sam Altman and demanded records over the July autonomous-agent breach of Hugging Face.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "First formal state investigation of an AI loss-of-control incident; accountability pressure.",
+   "sources": [
+    "https://www.alabamaag.gov/attorney-general-marshall-launches-investigation-into-openai-and-sam-altman-for-massive-artificial-intelligence-data-breach/",
+    "https://www.apr.org/news/2026-08-25/alabama-subpoenas-openai-over-alleged-data-breach"
+   ],
+   "points": 0.18,
+   "contribution": {
+    "libertarian_utopia": 0.09,
+    "benevolent_dictator": 0.09,
+    "egalitarian_utopia": 0.09,
+    "protector_god": 0.13,
+    "gatekeeper": 0.11,
+    "enslaved_god": 0.09,
+    "conquerors": -0.13,
+    "zookeeper": -0.09,
+    "self_destruction": -0.07
+   },
+   "factor_effect": {
+    "F3": 0.18
+   }
+  },
+  {
+   "id": "2026-08-24-02",
+   "title": "Ukraine says Russian drone picked target autonomously, killing three civilians",
+   "summary": "Ukrainian investigators said a Russian drone using an Nvidia Jetson Orin module selected its target without human input in a July 6 strike that killed three civilians; Nvidia confirmed the module.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    },
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Other",
+   "reason": "Reported lethal autonomous targeting in war; single incident, attribution by one party, so T2 not T3.",
+   "sources": [
+    "https://www.nytimes.com/2026/08/24/world/europe/drones-autonomous-ai-kill.html"
+   ],
+   "points": 0.8,
+   "contribution": {
+    "libertarian_utopia": -0.39,
+    "benevolent_dictator": 0.24,
+    "egalitarian_utopia": -0.31,
+    "protector_god": 0.2,
+    "gatekeeper": 0.12,
+    "enslaved_god": -0.12,
+    "conquerors": 0.43,
+    "descendants": 0.24,
+    "zookeeper": 0.24,
+    "reversion": 0.31,
+    "self_destruction": 0.86
+   },
+   "factor_effect": {
+    "F2": 0.4,
+    "F8": 0.78
+   }
+  },
+  {
+   "id": "2026-08-24-03",
+   "title": "UK gains access to Ukraine's 'Avengers' AI battlefield data platform",
+   "summary": "The UK became the first foreign partner to access battlefield sensor data from Ukraine's Avengers AI Labs under a non-binding pilot declaration.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "UK",
+   "reason": "Military AI cooperation using combat data; pilot-scale.",
+   "sources": [
+    "https://www.gov.uk/government/news/new-partnership-set-to-see-the-uk-and-ukraine-develop-battle-winning-technology-as-britain-secures-access-to-ukraines-avengers-ai-labs"
+   ],
+   "points": 0.18,
+   "contribution": {
+    "libertarian_utopia": -0.09,
+    "egalitarian_utopia": -0.07,
+    "conquerors": 0.05,
+    "reversion": 0.07,
+    "self_destruction": 0.19
+   },
+   "factor_effect": {
+    "F8": 0.17
+   }
+  },
+  {
+   "id": "2026-08-24-04",
+   "title": "European regulator fines Uber €825M over automated driver deactivations",
+   "summary": "Uber was fined about €825 million for deactivating drivers for suspected fraud or low ratings without human review; Uber will appeal. (Roundup calls it the Dutch DPA; link is CNIL's English page.)",
+   "category": "surveillance",
+   "factors": [
+    {
+     "id": "F6",
+     "dir": -1
+    },
+    {
+     "id": "F2",
+     "dir": -1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "EU",
+   "reason": "Large GDPR fine against automated decisions without human review; pushes back algorithmic control.",
+   "sources": [
+    "https://www.cnil.fr/en/automated-decisions-uber-fined-nearly-eur-825-million",
+    "https://aiweekly.co/ai-news-today/edition/2026-08-25"
+   ],
+   "points": 0.6,
+   "contribution": {
+    "benevolent_dictator": -0.42,
+    "protector_god": 0.03,
+    "gatekeeper": -0.09,
+    "enslaved_god": 0.09,
+    "conquerors": -0.15,
+    "descendants": -0.18,
+    "zookeeper": -0.18,
+    "orwell_1984": -0.54
+   },
+   "factor_effect": {
+    "F2": -0.3,
+    "F6": -0.6
+   }
+  },
+  {
+   "id": "2026-08-24-05",
+   "title": "Taiwan indicts nine over Nvidia B300 servers smuggled to China",
+   "summary": "Taiwanese prosecutors alleged 74 Nvidia B300 servers reached China via third countries, with 56 intercepted, and charged nine people.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "Other",
+   "reason": "Enforcement of chip export controls; small scale.",
+   "sources": [
+    "https://apnews.com/article/511e9ae69d517c49f19512d45b1a8b0c"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "gatekeeper": 0.1,
+    "orwell_1984": 0.06,
+    "self_destruction": -0.07
+   },
+   "factor_effect": {
+    "F4": 0.14
+   }
+  },
+  {
+   "id": "2026-08-24-06",
+   "title": "Chinese state hackers doubled attacks using DeepSeek, TeamT5 says",
+   "summary": "Taiwanese security firm TeamT5 told Bloomberg that China-linked state groups more than doubled attacks after adding AI tools, often DeepSeek.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "AI-enabled state cyber operations at scale; F8 T2 'AI-enabled cyberattack'.",
+   "sources": [
+    "https://www.bloomberg.com/news/articles/2026-08-24/chinese-hackers-use-deepseek-to-boost-attacks-researchers-say"
+   ],
+   "points": 0.8,
+   "contribution": {
+    "libertarian_utopia": -0.39,
+    "egalitarian_utopia": -0.31,
+    "conquerors": 0.23,
+    "reversion": 0.31,
+    "self_destruction": 0.86
+   },
+   "factor_effect": {
+    "F8": 0.78
+   }
+  }
+ ]
+}

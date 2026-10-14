@@ -1,0 +1,228 @@
+{
+ "date": "2026-06-18",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 27.37,
+  "benevolent_dictator": 25.21,
+  "egalitarian_utopia": 14.91,
+  "protector_god": 17.89,
+  "gatekeeper": 17.59,
+  "enslaved_god": 41.12,
+  "conquerors": 19.81,
+  "descendants": 18.45,
+  "zookeeper": 14.57,
+  "orwell_1984": 24.17,
+  "reversion": 4.47,
+  "self_destruction": 20.86
+ },
+ "deltas": {
+  "libertarian_utopia": -0.2,
+  "benevolent_dictator": 0.18,
+  "egalitarian_utopia": -0.16,
+  "protector_god": 0.1,
+  "gatekeeper": 0.08,
+  "enslaved_god": 0.34,
+  "conquerors": 0.12,
+  "descendants": 0.18,
+  "zookeeper": 0.26,
+  "orwell_1984": 0.09,
+  "reversion": -0.14,
+  "self_destruction": -0.0
+ },
+ "targets": {
+  "libertarian_utopia": 27.37,
+  "benevolent_dictator": 25.21,
+  "egalitarian_utopia": 14.91,
+  "protector_god": 17.89,
+  "gatekeeper": 17.59,
+  "enslaved_god": 41.12,
+  "conquerors": 19.81,
+  "descendants": 18.45,
+  "zookeeper": 14.57,
+  "orwell_1984": 24.17,
+  "reversion": 4.47,
+  "self_destruction": 20.86
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.2,
+  "benevolent_dictator": 0.95,
+  "egalitarian_utopia": -0.83,
+  "protector_god": -0.25,
+  "gatekeeper": -1.33,
+  "enslaved_god": 0.63,
+  "conquerors": -0.07,
+  "descendants": -0.22,
+  "zookeeper": 0.57,
+  "orwell_1984": 0.24,
+  "reversion": 0.31,
+  "self_destruction": 1.06
+ },
+ "factors": {
+  "F1": 74.76,
+  "F2": 48.63,
+  "F3": 43.31,
+  "F4": 22.16,
+  "F5": 66.17,
+  "F6": 45.73,
+  "F7": 33.05,
+  "F8": 56.79,
+  "F9": 41.81,
+  "F10": 20.28
+ },
+ "factor_deltas": {
+  "F1": 0.21,
+  "F2": 0.0,
+  "F3": -0.01,
+  "F4": 0.01,
+  "F5": 0.37,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.0,
+  "F9": -0.01,
+  "F10": 0.07
+ },
+ "composites": {
+  "horizon_balance": 1.49,
+  "families": {
+   "flourishing": 21.34,
+   "contained": 29.36,
+   "successors": 17.61,
+   "stalled": 16.5
+  },
+  "news_heat": 0.69,
+  "evidence": "low",
+  "event_count": 3
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.02,
+  "egalitarian_utopia": -0.01,
+  "protector_god": -0.01,
+  "conquerors": 0.01,
+  "zookeeper": 0.01,
+  "orwell_1984": 0.01,
+  "reversion": -0.01
+ },
+ "summary": {
+  "headline": "Shazeer quits Google for OpenAI; China plans huge AI build-out",
+  "body": "Talent and money concentrated further. Transformer co-author Noam Shazeer left Google for OpenAI, with more DeepMind researchers reported to follow, and Alphabet shares fell sharply. A lower-credibility report said Beijing has a roughly $295 billion five-year plan for national AI data centers built mostly on domestic technology. Both raise Power Concentration, and the China plan also adds to Capability Velocity, so Enslaved God and Zookeeper rose while Libertarian Utopia fell. A lab result showing printed artificial neurons talking to living brain tissue nudged Human-AI Merging, the factor behind Descendants. Horizon Balance dipped to +1.49.",
+  "movers_note": "Enslaved God +0.3, Zookeeper +0.3 and Libertarian Utopia -0.2. The China infrastructure report (Enslaved God +0.20) and Shazeer's move (Enslaved God +0.14, Libertarian Utopia -0.14) explain most of it.",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-06-18-01",
+   "title": "Gemini co-lead Noam Shazeer leaves Google for OpenAI; DeepMind talent exodus follows",
+   "summary": "Transformer co-author Noam Shazeer joined OpenAI, followed by Nobel laureate John Jumper (Jun 20) and two more DeepMind researchers moving to Anthropic (Jun 24); Alphabet shares fell sharply.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Top talent consolidating at two leading labs; modest concentration effect.",
+   "sources": [
+    "https://www.bloomberg.com/news/articles/2026-06-18/star-google-researcher-jumps-to-openai-in-coup-for-startup",
+    "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+    "https://www.cnbc.com/2026/06/22/alphabet-goog-stock-ai-departures.html"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "libertarian_utopia": -0.14,
+    "benevolent_dictator": 0.12,
+    "egalitarian_utopia": -0.1,
+    "enslaved_god": 0.14,
+    "zookeeper": 0.1,
+    "orwell_1984": 0.1
+   },
+   "factor_effect": {
+    "F5": 0.24
+   }
+  },
+  {
+   "id": "2026-06-18-02",
+   "title": "China reportedly unveils 2 trillion yuan five-year AI infrastructure plan",
+   "summary": "Reports said Beijing announced a roughly $295B five-year plan for national AI data centers requiring at least 80% domestic technology.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    },
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "D",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "State-directed mega compute plan; single secondary source, so low credibility - verify before relying.",
+   "sources": [
+    "https://medium.com/adi-insights-innovations-collective/ai-update-thursday-june-18-2026-f74c93022f92"
+   ],
+   "points": 0.25,
+   "contribution": {
+    "libertarian_utopia": -0.07,
+    "benevolent_dictator": 0.06,
+    "egalitarian_utopia": -0.05,
+    "protector_god": 0.11,
+    "gatekeeper": 0.08,
+    "enslaved_god": 0.2,
+    "conquerors": 0.11,
+    "descendants": 0.13,
+    "zookeeper": 0.16,
+    "orwell_1984": -0.01,
+    "reversion": -0.13
+   },
+   "factor_effect": {
+    "F1": 0.21,
+    "F5": 0.12
+   }
+  },
+  {
+   "id": "2026-06-18-03",
+   "title": "Northwestern prints artificial neurons that signal with living brain tissue",
+   "summary": "Researchers reported two-way communication between printed organic-polymer neurons and biological neural tissue.",
+   "category": "merge",
+   "factors": [
+    {
+     "id": "F10",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "D",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Early neural-interface research; secondary sourcing.",
+   "sources": [
+    "https://medium.com/adi-insights-innovations-collective/ai-update-thursday-june-18-2026-f74c93022f92"
+   ],
+   "points": 0.07,
+   "contribution": {
+    "libertarian_utopia": 0.03,
+    "descendants": 0.06
+   },
+   "factor_effect": {
+    "F10": 0.07
+   }
+  }
+ ]
+}

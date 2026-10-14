@@ -1,0 +1,179 @@
+{
+ "date": "2026-05-07",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 29.19,
+  "benevolent_dictator": 20.86,
+  "egalitarian_utopia": 16.11,
+  "protector_god": 13.77,
+  "gatekeeper": 15.51,
+  "enslaved_god": 36.41,
+  "conquerors": 17.41,
+  "descendants": 14.31,
+  "zookeeper": 10.02,
+  "orwell_1984": 24.14,
+  "reversion": 5.69,
+  "self_destruction": 20.47
+ },
+ "deltas": {
+  "libertarian_utopia": -0.0,
+  "benevolent_dictator": -0.0,
+  "egalitarian_utopia": -0.21,
+  "protector_god": -0.01,
+  "gatekeeper": -0.57,
+  "enslaved_god": -0.0,
+  "conquerors": 0.01,
+  "descendants": 0.0,
+  "zookeeper": 0.0,
+  "orwell_1984": -0.32,
+  "reversion": -0.01,
+  "self_destruction": 0.41
+ },
+ "targets": {
+  "libertarian_utopia": 29.19,
+  "benevolent_dictator": 20.86,
+  "egalitarian_utopia": 16.11,
+  "protector_god": 13.77,
+  "gatekeeper": 15.51,
+  "enslaved_god": 36.41,
+  "conquerors": 17.41,
+  "descendants": 14.31,
+  "zookeeper": 10.02,
+  "orwell_1984": 24.14,
+  "reversion": 5.69,
+  "self_destruction": 20.47
+ },
+ "momentum_7d": {
+  "libertarian_utopia": 0.06,
+  "benevolent_dictator": 0.79,
+  "egalitarian_utopia": -0.31,
+  "protector_god": 0.98,
+  "gatekeeper": 0.3,
+  "enslaved_god": 0.53,
+  "conquerors": -0.2,
+  "descendants": 0.33,
+  "zookeeper": -0.16,
+  "orwell_1984": -0.29,
+  "reversion": 0.44,
+  "self_destruction": 0.82
+ },
+ "factors": {
+  "F1": 70.85,
+  "F2": 46.02,
+  "F3": 42.02,
+  "F4": 23.64,
+  "F5": 61.99,
+  "F6": 45.6,
+  "F7": 33.22,
+  "F8": 56.64,
+  "F9": 40.74,
+  "F10": 19.99
+ },
+ "factor_deltas": {
+  "F1": 0.0,
+  "F2": 0.0,
+  "F3": -0.01,
+  "F4": -0.81,
+  "F5": 0.0,
+  "F6": 0.0,
+  "F7": -0.29,
+  "F8": 0.0,
+  "F9": -0.01,
+  "F10": 0.0
+ },
+ "composites": {
+  "horizon_balance": 1.97,
+  "families": {
+   "flourishing": 19.98,
+   "contained": 25.96,
+   "successors": 13.92,
+   "stalled": 16.77
+  },
+  "news_heat": 1.3,
+  "evidence": "medium",
+  "event_count": 2
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "conquerors": 0.01,
+  "reversion": -0.01
+ },
+ "summary": {
+  "headline": "EU delays AI Act rules — Gatekeeper slips, Self-Destruction rises",
+  "body": "Europe blinked. EU negotiators agreed a provisional deal to delay and simplify the AI Act: standalone high-risk rules move to December 2027 and embedded ones to August 2028, though a ban on nudification and child-abuse-image tools was added. Pushing back the world's main AI rulebook weakens Global Coordination. That hurts Gatekeeper, the ending where the world works together to cap AI, and 1984, while lifting Self-Destruction, where a lack of cooperation lets risks grow. Cloudflare also cut about 1,100 jobs, around 20%, saying AI made many roles obsolete, a hit to Shared Prosperity and Egalitarian Utopia. Horizon Balance eased to +1.97, down 0.08.",
+  "movers_note": "Gatekeeper -0.6, Self-Destruction +0.4 and 1984 -0.3, all from the EU AI Act delay (-0.57, +0.40 and -0.32).",
+  "coming_up": [
+   "EU AI Act standalone high-risk obligations now due December 2027",
+   "EU AI Act embedded high-risk obligations now due August 2028"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-05-07-01",
+   "title": "EU Council and Parliament agree to delay and simplify AI Act rules",
+   "summary": "A provisional AI omnibus deal pushes standalone high-risk obligations to Dec 2027 and embedded ones to Aug 2028, while adding a ban on nudification and CSAM-generating AI tools.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": -1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "EU",
+   "reason": "Binding-rule timetable loosened in the world's main AI regime; partial offset by new prohibition.",
+   "sources": [
+    "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/",
+    "https://www.reuters.com/world/eu-countries-lawmakers-strike-provisional-deal-watered-down-ai-rules-2026-05-07/"
+   ],
+   "points": 1.0,
+   "contribution": {
+    "gatekeeper": -0.57,
+    "orwell_1984": -0.32,
+    "self_destruction": 0.4
+   },
+   "factor_effect": {
+    "F4": -0.81
+   }
+  },
+  {
+   "id": "2026-05-07-02",
+   "title": "Cloudflare lays off ~1,100 (about 20%), saying AI made roles obsolete",
+   "summary": "Cloudflare announced about 1,100 job cuts as it rebuilt processes for the agentic AI era, with CEO Matthew Prince saying many cut roles were 'measurers'.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F7",
+     "dir": -1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Large share of workforce cut explicitly attributed to AI.",
+   "sources": [
+    "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+    "https://www.techtarget.com/searchcio/feature/Weekly-News-Roundup-OpenAI-launch-AI-lawsuits-and-frameworks-and-Pentagon-AI-alliances"
+   ],
+   "points": 0.3,
+   "contribution": {
+    "egalitarian_utopia": -0.21
+   },
+   "factor_effect": {
+    "F7": -0.3
+   }
+  }
+ ]
+}

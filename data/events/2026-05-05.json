@@ -1,0 +1,96 @@
+[
+ {
+  "id": "2026-05-05-01",
+  "title": "Microsoft, Google and xAI agree to pre-release US government security testing",
+  "summary": "NIST's Center for AI Standards and Innovation will get early access to frontier models from Microsoft, Google DeepMind and xAI for national-security testing, joining OpenAI and Anthropic.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Expands third-party (government) pre-deployment eval regime to most US frontier labs.",
+  "sources": [
+   "https://www.reuters.com/legal/litigation/microsoft-xai-google-will-share-ai-models-with-us-govt-security-reviews-2026-05-05/",
+   "https://www.techtarget.com/searchcio/feature/Weekly-News-Roundup-OpenAI-launch-AI-lawsuits-and-frameworks-and-Pentagon-AI-alliances"
+  ]
+ },
+ {
+  "id": "2026-05-05-02",
+  "title": "Coinbase cuts ~700 jobs (14%) to rebuild around AI",
+  "summary": "Coinbase announced about 700 layoffs as CEO Brian Armstrong restructured the company around AI agents and consolidated roles.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Modest AI-cited layoff.",
+  "sources": [
+   "https://www.axios.com/2026/05/06/ai-layoff-coinbase",
+   "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/"
+  ]
+ },
+ {
+  "id": "2026-05-05-03",
+  "title": "PayPal to cut ~20% of staff over 2-3 years in AI-driven turnaround",
+  "summary": "WSJ reported PayPal plans to cut roughly 4,760 jobs; executives said on the earnings call they will aggressively adopt AI and automation for $1.5B savings.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Large planned cut tied to AI, multi-year and not fully confirmed.",
+  "sources": [
+   "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/"
+  ]
+ },
+ {
+  "id": "2026-05-05-04",
+  "title": "Major publishers file class action against Meta over AI training on pirated books",
+  "summary": "Elsevier, Hachette, McGraw Hill and others sued Meta alleging Llama was trained on pirated copyrighted works; Meta says training is fair use.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Creative-industry legal pushback against AI training.",
+  "sources": [
+   "https://www.reuters.com/sustainability/boards-policy-regulation/major-publishers-sue-meta-copyright-infringement-over-ai-training-2026-05-05/"
+  ]
+ }
+]

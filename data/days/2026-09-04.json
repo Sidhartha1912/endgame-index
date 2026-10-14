@@ -1,0 +1,321 @@
+{
+ "date": "2026-09-04",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 22.51,
+  "benevolent_dictator": 25.73,
+  "egalitarian_utopia": 10.68,
+  "protector_god": 20.17,
+  "gatekeeper": 20.93,
+  "enslaved_god": 43.31,
+  "conquerors": 28.28,
+  "descendants": 24.15,
+  "zookeeper": 22.07,
+  "orwell_1984": 23.57,
+  "reversion": 4.03,
+  "self_destruction": 25.29
+ },
+ "deltas": {
+  "libertarian_utopia": 0.2,
+  "benevolent_dictator": -0.14,
+  "egalitarian_utopia": 0.19,
+  "protector_god": 0.08,
+  "gatekeeper": 0.08,
+  "enslaved_god": 0.08,
+  "conquerors": 0.09,
+  "descendants": 0.29,
+  "zookeeper": 0.01,
+  "orwell_1984": -0.14,
+  "reversion": -0.17,
+  "self_destruction": -0.01
+ },
+ "targets": {
+  "libertarian_utopia": 22.51,
+  "benevolent_dictator": 25.73,
+  "egalitarian_utopia": 10.68,
+  "protector_god": 20.17,
+  "gatekeeper": 20.93,
+  "enslaved_god": 43.31,
+  "conquerors": 28.28,
+  "descendants": 24.15,
+  "zookeeper": 22.07,
+  "orwell_1984": 23.57,
+  "reversion": 4.03,
+  "self_destruction": 25.29
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.62,
+  "benevolent_dictator": 1.07,
+  "egalitarian_utopia": -0.17,
+  "protector_god": 0.9,
+  "gatekeeper": 1.47,
+  "enslaved_god": 1.62,
+  "conquerors": 0.45,
+  "descendants": 1.0,
+  "zookeeper": 1.1,
+  "orwell_1984": 0.73,
+  "reversion": -0.31,
+  "self_destruction": -0.62
+ },
+ "factors": {
+  "F1": 81.2,
+  "F2": 51.53,
+  "F3": 39.62,
+  "F4": 25.16,
+  "F5": 67.9,
+  "F6": 45.12,
+  "F7": 32.94,
+  "F8": 60.84,
+  "F9": 43.61,
+  "F10": 20.39
+ },
+ "factor_deltas": {
+  "F1": 0.26,
+  "F2": -0.09,
+  "F3": -0.01,
+  "F4": 0.01,
+  "F5": -0.17,
+  "F6": 0.0,
+  "F7": 0.18,
+  "F8": -0.0,
+  "F9": -0.01,
+  "F10": 0.24
+ },
+ "composites": {
+  "horizon_balance": -5.03,
+  "families": {
+   "flourishing": 19.77,
+   "contained": 32.12,
+   "successors": 24.83,
+   "stalled": 17.63
+  },
+  "news_heat": 1.09,
+  "evidence": "low",
+  "event_count": 6
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "protector_god": -0.01,
+  "enslaved_god": -0.01,
+  "reversion": -0.01,
+  "self_destruction": -0.01
+ },
+ "summary": {
+  "headline": "Kurzweil joins a nasal-spray BCI startup; open models keep coming",
+  "body": "A mixed day of six smaller stories. Ray Kurzweil became an adviser to Subsense, a preclinical non-surgical brain-computer interface startup, nudging Human-AI Merging and lifting Descendants (humanity handing over to digital heirs). DeepSeek's planned 160,000-chip Huawei cluster and an Nvidia model beating the top human at the 2026 Informatics Olympiad added Capability Velocity. MBZUAI's fully open K2 Horizon models eased Power Concentration, and solid US August jobs numbers helped Shared Prosperity, together lifting the Libertarian and Egalitarian utopias. A US probe into Tesla Cybercabs without steering wheels trimmed AI Autonomy. Horizon Balance edged up to -5.03.",
+  "movers_note": "Descendants +0.3 from the Kurzweil BCI news (+0.19) plus DeepSeek and Nvidia; Libertarian Utopia +0.2 from K2 Horizon (+0.10) and Subsense (+0.10); Egalitarian Utopia +0.2 from the jobs report (+0.13).",
+  "coming_up": [
+   "DeepSeek's 1GW Ulanqab inference site targeted for late 2027 or early 2028"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-09-04-01",
+   "title": "US adds 162,000 jobs in August; unemployment 4.1%, information sector sheds 23,000",
+   "summary": "August payrolls beat estimates; the information industry lost 23,000 jobs, continuing a downtrend.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F7",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Strong headline labour data counters AI-displacement fears; info-sector losses noted.",
+   "sources": [
+    "https://www.newkerala.com/news/a/us-payrolls-rise-162000-august-unemployment-holds-41-462.htm",
+    "https://news.bgov.com/daily-labor-report/us-adds-162-000-jobs-topping-all-estimates-in-broad-advance-6"
+   ],
+   "points": 0.18,
+   "contribution": {
+    "egalitarian_utopia": 0.13
+   },
+   "factor_effect": {
+    "F7": 0.18
+   }
+  },
+  {
+   "id": "2026-09-04-02",
+   "title": "MBZUAI releases K2 Horizon, six fully open models up to 375B",
+   "summary": "Abu Dhabi's MBZUAI released Apache-2.0 models from 0.9B to 375B parameters with weights, code, data and methods.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Other",
+   "reason": "Fully open release from the Gulf; below frontier.",
+   "sources": [
+    "https://aiweekly.co/alerts/mbzuais-ifm-ships-k2-horizon-six-fully-open-models-from-09b-to-375b-parameters"
+   ],
+   "points": 0.17,
+   "contribution": {
+    "libertarian_utopia": 0.1,
+    "benevolent_dictator": -0.08,
+    "egalitarian_utopia": 0.07,
+    "enslaved_god": -0.1,
+    "zookeeper": -0.07,
+    "orwell_1984": -0.07
+   },
+   "factor_effect": {
+    "F5": -0.17
+   }
+  },
+  {
+   "id": "2026-09-04-03",
+   "title": "DeepSeek plans 160,000 Huawei Ascend chips at 1GW Inner Mongolia site",
+   "summary": "Bloomberg reported DeepSeek plans to deploy at least 160,000 Huawei Ascend 950DT accelerators for inference at a 1GW Ulanqab data centre by late 2027 or early 2028.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "China",
+   "reason": "Plan for domestic-chip compute scale in China.",
+   "sources": [
+    "https://www.bloomberg.com/news/articles/2026-09-04/deepseek-plans-big-huawei-ai-chip-order-to-power-new-data-center"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "protector_god": 0.08,
+    "gatekeeper": 0.06,
+    "enslaved_god": 0.09,
+    "conquerors": 0.08,
+    "descendants": 0.09,
+    "zookeeper": 0.08,
+    "orwell_1984": -0.05,
+    "reversion": -0.09
+   },
+   "factor_effect": {
+    "F1": 0.15
+   }
+  },
+  {
+   "id": "2026-09-04-04",
+   "title": "Nvidia model beats top human at IOI 2026 in preprint",
+   "summary": "Nvidia reported its Nemotron-3-Ultra model scored 535.4/600 at the International Olympiad in Informatics, above the top human's 498.27.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Self-reported competition result, unreplicated.",
+   "sources": [
+    "https://aiweekly.co/alerts/nvidias-550b-nemotron-beats-top-human-coder-at-ioi-2026"
+   ],
+   "points": 0.17,
+   "contribution": {
+    "protector_god": 0.05,
+    "gatekeeper": 0.04,
+    "enslaved_god": 0.06,
+    "conquerors": 0.05,
+    "descendants": 0.06,
+    "zookeeper": 0.05,
+    "orwell_1984": -0.03,
+    "reversion": -0.06
+   },
+   "factor_effect": {
+    "F1": 0.11
+   }
+  },
+  {
+   "id": "2026-09-04-05",
+   "title": "Kurzweil joins nasal-spray BCI startup Subsense",
+   "summary": "Ray Kurzweil became an adviser to Subsense, a preclinical non-surgical BCI startup that has raised $27M and is testing in mice.",
+   "category": "merge",
+   "factors": [
+    {
+     "id": "F10",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "US",
+   "reason": "BCI startup news; preclinical.",
+   "sources": [
+    "https://aiweekly.co/alerts/ray-kurzweil-joins-nasal-spray-bci-startup-subsense-as-advisor"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "libertarian_utopia": 0.1,
+    "descendants": 0.19
+   },
+   "factor_effect": {
+    "F10": 0.24
+   }
+  },
+  {
+   "id": "2026-09-04-06",
+   "title": "NHTSA opens probe into Tesla Cybercabs running without steering wheels",
+   "summary": "Regulators opened an investigation after production Cybercabs entered Austin service without steering wheels or pedals.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F2",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Oversight of autonomous systems in transport.",
+   "sources": [
+    "https://aiweekly.co/alerts/nhtsa-opens-probe-into-teslas-cybercab-after-austin-debut-without-steering"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "benevolent_dictator": -0.05,
+    "protector_god": -0.04,
+    "gatekeeper": -0.03,
+    "enslaved_god": 0.03,
+    "conquerors": -0.04,
+    "descendants": -0.05,
+    "zookeeper": -0.05
+   },
+   "factor_effect": {
+    "F2": -0.09
+   }
+  }
+ ]
+}

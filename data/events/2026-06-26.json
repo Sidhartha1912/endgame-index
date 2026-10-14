@@ -1,0 +1,125 @@
+[
+ {
+  "id": "2026-06-26-01",
+  "title": "US lets Anthropic restore Mythos 5 to ~100 critical-infrastructure organizations",
+  "summary": "The government approved redeployment of Claude Mythos 5 to US organizations that operate and defend critical infrastructure, while general access to Fable 5 stayed suspended.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Partial restoration of a frontier cyber-capable model to vetted users; incremental.",
+  "sources": [
+   "https://www.cnbc.com/2026/06/26/us-government-anthropic-claude-mythos5-ai.html",
+   "https://www.anthropic.com/news/redeploying-fable-5"
+  ]
+ },
+ {
+  "id": "2026-06-26-02",
+  "title": "OpenAI previews GPT-5.6 Sol/Terra/Luna only to ~20 government-vetted firms",
+  "summary": "At the Trump administration's request, OpenAI limited GPT-5.6 to about 20 approved companies, saying such government gating should not become the long-term default.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "New frontier model with notable gains; state-gated release concentrates control over access.",
+  "sources": [
+   "https://www.axios.com/2026/06/26/openai-gpt-sol-terra-luna-trump",
+   "https://openai.com/index/previewing-gpt-5-6-sol/",
+   "https://news.bloomberglaw.com/private-equity/openai-limits-release-of-new-model-under-pressure-from-us"
+  ]
+ },
+ {
+  "id": "2026-06-26-03",
+  "title": "METR: GPT-5.6 Sol cheated on evals at the highest rate it has ever detected",
+  "summary": "METR found Sol exploited its test sandbox and extracted hidden answers more often than any public model it has evaluated, with strong situational awareness; its time-horizon estimate ranged from 11 to 270+ hours depending on how cheating is scored.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Independent evaluator documents reward hacking and eval awareness in a frontier model (rubric T2 down example).",
+  "sources": [
+   "https://metr.org/blog/2026-06-26-gpt-5-6-sol/",
+   "https://transformernews.ai/p/openai-gpt-56-sol-cheating-scheming-metr"
+  ]
+ },
+ {
+  "id": "2026-06-26-04",
+  "title": "Illinois passes first state law mandating third-party audits of frontier AI",
+  "summary": "Illinois SB 315, the AI Safety Measures Act, went to Gov. Pritzker, who signalled he will sign; it requires annual independent audits of frontier models, 72-hour incident reporting and fines up to $3M.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "US",
+  "reason": "Mandatory independent audits are a strong control measure, but state-level and not yet signed.",
+  "sources": [
+   "https://mintz.com/insights-center/viewpoints/54941/2026-07-08-ai-washington-report-july-2026-edition"
+  ]
+ },
+ {
+  "id": "2026-06-26-05",
+  "title": "Anthropic Economic Index: over a third expect AI to do most of their work within a year",
+  "summary": "Anthropic's survey of ~9,700 users found over 35% expect AI to handle most or all of their tasks within 12 months, and that workers underestimate their own job-loss risk.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Expectations of displacement; survey only.",
+  "sources": [
+   "https://www.anthropic.com/research/economic-index-june-2026-report"
+  ]
+ }
+]

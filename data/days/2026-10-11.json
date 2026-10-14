@@ -1,0 +1,190 @@
+{
+ "date": "2026-10-11",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 17.96,
+  "benevolent_dictator": 22.94,
+  "egalitarian_utopia": 5.87,
+  "protector_god": 17.45,
+  "gatekeeper": 18.81,
+  "enslaved_god": 40.71,
+  "conquerors": 35.96,
+  "descendants": 26.74,
+  "zookeeper": 27.06,
+  "orwell_1984": 22.95,
+  "reversion": 6.17,
+  "self_destruction": 31.89
+ },
+ "deltas": {
+  "libertarian_utopia": -0.33,
+  "benevolent_dictator": 0.06,
+  "egalitarian_utopia": -0.24,
+  "protector_god": 0.09,
+  "gatekeeper": 0.09,
+  "enslaved_god": 0.06,
+  "conquerors": 0.14,
+  "descendants": -0.01,
+  "zookeeper": -0.08,
+  "orwell_1984": 0.01,
+  "reversion": 0.32,
+  "self_destruction": 0.81
+ },
+ "targets": {
+  "libertarian_utopia": 17.96,
+  "benevolent_dictator": 22.94,
+  "egalitarian_utopia": 5.87,
+  "protector_god": 17.45,
+  "gatekeeper": 18.81,
+  "enslaved_god": 40.71,
+  "conquerors": 35.96,
+  "descendants": 26.74,
+  "zookeeper": 27.06,
+  "orwell_1984": 22.95,
+  "reversion": 6.17,
+  "self_destruction": 31.89
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.16,
+  "benevolent_dictator": -0.43,
+  "egalitarian_utopia": -0.6,
+  "protector_god": 0.59,
+  "gatekeeper": 0.52,
+  "enslaved_god": 0.12,
+  "conquerors": 1.33,
+  "descendants": 1.12,
+  "zookeeper": 0.59,
+  "orwell_1984": -0.69,
+  "reversion": 0.59,
+  "self_destruction": 1.42
+ },
+ "factors": {
+  "F1": 83.82,
+  "F2": 52.82,
+  "F3": 33.1,
+  "F4": 25.68,
+  "F5": 67.03,
+  "F6": 45.47,
+  "F7": 32.44,
+  "F8": 64.7,
+  "F9": 45.78,
+  "F10": 20.7
+ },
+ "factor_deltas": {
+  "F1": -0.01,
+  "F2": -0.0,
+  "F3": 0.14,
+  "F4": 0.01,
+  "F5": -0.01,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": 0.79,
+  "F9": -0.0,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": -13.41,
+  "families": {
+   "flourishing": 16.06,
+   "contained": 29.76,
+   "successors": 29.92,
+   "stalled": 20.34
+  },
+  "news_heat": 0.95,
+  "evidence": "medium",
+  "event_count": 2
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.01,
+  "protector_god": -0.02,
+  "enslaved_god": -0.02,
+  "descendants": -0.01,
+  "orwell_1984": 0.01
+ },
+ "summary": {
+  "headline": "Ukrainian drones knock out Yandex AI data centres",
+  "body": "War reached AI infrastructure. Yandex suspended its Vladimir data centre after a third Ukrainian drone strike in four days on its compute sites, which house supercomputers used to train its AI models. Physical attacks on AI hardware raise Catastrophic Risk, the main ingredient of Self-Destruction, and also lift Reversion while pulling down Libertarian and Egalitarian Utopia. Microsoft CEO Satya Nadella argued that advanced models should be assumed compromised and contained from the start, with a mandatory emergency brake, a small plus for Alignment & Control. Reversion edged past Egalitarian Utopia. Horizon Balance fell to -13.41.",
+  "movers_note": "Self-Destruction +0.8 (Yandex strikes +0.87, Nadella -0.06), Libertarian Utopia -0.3 (Yandex -0.40, Nadella +0.07) and Reversion +0.3 (Yandex +0.32).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-10-11-01",
+   "title": "Satya Nadella says all AI models should be assumed 'compromised', urges emergency brake",
+   "summary": "Microsoft CEO Satya Nadella argued that advanced models must be assumed compromised and contained from the start, calling for a mandatory emergency brake and tamper-proof audit logs.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "US",
+   "reason": "Lab-leader policy signal favouring control measures. Original outlet (The Verge) cited via aggregator; direct link not captured.",
+   "sources": [
+    "https://aiweekly.co/ai-news-today/edition/2026-10-12"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "libertarian_utopia": 0.07,
+    "benevolent_dictator": 0.07,
+    "egalitarian_utopia": 0.07,
+    "protector_god": 0.1,
+    "gatekeeper": 0.09,
+    "enslaved_god": 0.07,
+    "conquerors": -0.1,
+    "zookeeper": -0.07,
+    "self_destruction": -0.06
+   },
+   "factor_effect": {
+    "F3": 0.15
+   }
+  },
+  {
+   "id": "2026-10-11-02",
+   "title": "Ukrainian drones knock out Yandex AI data centers housing its supercomputers",
+   "summary": "Yandex suspended its Vladimir data center after a third Ukrainian drone strike in four days on its compute sites, which house supercomputers used to train its AI models.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Other",
+   "reason": "AI compute infrastructure becomes a direct military target in an active war.",
+   "sources": [
+    "https://www.aljazeera.com/news/2026/10/11/russias-yandex-says-data-centre-in-vladimir-shut-down-after-drone-attack",
+    "https://meduza.io/en/feature/2026/10/08/ukraine-strikes-yandex-data-center-housing-two-of-the-company-s-supercomputers",
+    "https://www.aljazeera.com/news/2026/10/9/ukraine-takes-aim-at-russias-ai-data-infrastructure"
+   ],
+   "points": 0.8,
+   "contribution": {
+    "libertarian_utopia": -0.4,
+    "egalitarian_utopia": -0.32,
+    "conquerors": 0.24,
+    "reversion": 0.32,
+    "self_destruction": 0.87
+   },
+   "factor_effect": {
+    "F8": 0.8
+   }
+  }
+ ]
+}

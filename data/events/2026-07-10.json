@@ -1,0 +1,48 @@
+[
+ {
+  "id": "2026-07-10-01",
+  "title": "SK Hynix makes record ~$28B ADR debut on Nasdaq",
+  "summary": "The South Korean HBM memory maker, a key Nvidia supplier, listed in the largest ADR offering ever to fund new fabs.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Other",
+  "reason": "More capital for AI memory supply; incremental.",
+  "sources": [
+   "https://simplywall.st/stocks/us/semiconductors/nasdaq-nvda/nvidia/news/latest-news-in-ai-chips-sk-hynixs-nasdaq-debut-shakes-ai-inv"
+  ]
+ },
+ {
+  "id": "2026-07-10-02",
+  "title": "TSMC posts record quarterly revenue on AI chip demand",
+  "summary": "TSMC reported second-quarter revenue of about $39.6B, up 36% year on year, driven by AI accelerators.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Other",
+  "reason": "Confirms continuing compute build-out; incremental.",
+  "sources": [
+   "https://theaiinsider.tech/2026/07/13/ai-insiders-week-ahead-in-ai-apple-sues-openai-uchicago-law-ai-policy-tsmc-posts-record-revenue-plus-upcoming-hearings-events/"
+  ]
+ }
+]

@@ -1,0 +1,154 @@
+{
+ "date": "2026-08-05",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 25.71,
+  "benevolent_dictator": 25.25,
+  "egalitarian_utopia": 13.27,
+  "protector_god": 19.06,
+  "gatekeeper": 19.92,
+  "enslaved_god": 41.15,
+  "conquerors": 24.53,
+  "descendants": 21.7,
+  "zookeeper": 18.67,
+  "orwell_1984": 23.98,
+  "reversion": 4.25,
+  "self_destruction": 21.72
+ },
+ "deltas": {
+  "libertarian_utopia": 0.07,
+  "benevolent_dictator": 0.07,
+  "egalitarian_utopia": 0.07,
+  "protector_god": 0.09,
+  "gatekeeper": 0.07,
+  "enslaved_god": 0.07,
+  "conquerors": -0.09,
+  "descendants": -0.0,
+  "zookeeper": -0.06,
+  "orwell_1984": -0.0,
+  "reversion": -0.01,
+  "self_destruction": -0.05
+ },
+ "targets": {
+  "libertarian_utopia": 25.71,
+  "benevolent_dictator": 25.25,
+  "egalitarian_utopia": 13.27,
+  "protector_god": 19.06,
+  "gatekeeper": 19.92,
+  "enslaved_god": 41.15,
+  "conquerors": 24.53,
+  "descendants": 21.7,
+  "zookeeper": 18.67,
+  "orwell_1984": 23.98,
+  "reversion": 4.25,
+  "self_destruction": 21.72
+ },
+ "momentum_7d": {
+  "libertarian_utopia": 0.27,
+  "benevolent_dictator": -0.17,
+  "egalitarian_utopia": 0.18,
+  "protector_god": 0.38,
+  "gatekeeper": 0.87,
+  "enslaved_god": -0.41,
+  "conquerors": 0.42,
+  "descendants": 0.41,
+  "zookeeper": 0.27,
+  "orwell_1984": -0.21,
+  "reversion": 0.14,
+  "self_destruction": -0.56
+ },
+ "factors": {
+  "F1": 78.02,
+  "F2": 50.88,
+  "F3": 40.96,
+  "F4": 24.67,
+  "F5": 66.04,
+  "F6": 45.56,
+  "F7": 32.92,
+  "F8": 57.85,
+  "F9": 43.13,
+  "F10": 20.2
+ },
+ "factor_deltas": {
+  "F1": -0.0,
+  "F2": 0.0,
+  "F3": 0.13,
+  "F4": -0.01,
+  "F5": 0.01,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": -0.01,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -1.4,
+  "families": {
+   "flourishing": 20.82,
+   "contained": 30.54,
+   "successors": 21.64,
+   "stalled": 16.65
+  },
+  "news_heat": 0.14,
+  "evidence": "low",
+  "event_count": 1
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "protector_god": -0.01,
+  "gatekeeper": -0.02,
+  "conquerors": 0.01,
+  "zookeeper": 0.01,
+  "reversion": -0.01
+ },
+ "summary": {
+  "headline": "Jamie Dimon launches cross-industry AI risk alliance",
+  "body": "A quiet day with one story. JPMorgan's Jamie Dimon is expanding the Alliance for Critical Infrastructure into a 40-plus organisation effort with the US government to anticipate AI risks. That gives Alignment & Control a small boost, lifting Protector God and easing Conquerors. Horizon Balance improved to -1.40.",
+  "movers_note": "Protector God +0.1 and Conquerors -0.1 came from the Dimon alliance (+0.10 and -0.10).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-08-05-01",
+   "title": "JPMorgan's Dimon launches cross-industry AI risk alliance",
+   "summary": "Jamie Dimon is expanding the Alliance for Critical Infrastructure into a 40+ organization effort with the US government to anticipate AI risks.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "US",
+   "reason": "Private-sector risk coordination; early stage.",
+   "sources": [
+    "https://www.reuters.com/world/jpmorgan-ceo-dimon-leads-new-cross-industry-effort-tackle-ai-risks-2026-08-05/"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "libertarian_utopia": 0.07,
+    "benevolent_dictator": 0.07,
+    "egalitarian_utopia": 0.07,
+    "protector_god": 0.1,
+    "gatekeeper": 0.09,
+    "enslaved_god": 0.07,
+    "conquerors": -0.1,
+    "zookeeper": -0.07,
+    "self_destruction": -0.06
+   },
+   "factor_effect": {
+    "F3": 0.14
+   }
+  }
+ ]
+}

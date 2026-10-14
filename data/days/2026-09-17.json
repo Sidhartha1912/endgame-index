@@ -1,0 +1,231 @@
+{
+ "date": "2026-09-17",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 21.61,
+  "benevolent_dictator": 24.94,
+  "egalitarian_utopia": 9.54,
+  "protector_god": 19.74,
+  "gatekeeper": 20.25,
+  "enslaved_god": 42.35,
+  "conquerors": 30.76,
+  "descendants": 25.21,
+  "zookeeper": 23.72,
+  "orwell_1984": 22.96,
+  "reversion": 4.97,
+  "self_destruction": 27.05
+ },
+ "deltas": {
+  "libertarian_utopia": 0.07,
+  "benevolent_dictator": -0.06,
+  "egalitarian_utopia": -0.05,
+  "protector_god": 0.06,
+  "gatekeeper": 0.06,
+  "enslaved_god": 0.0,
+  "conquerors": 0.06,
+  "descendants": 0.07,
+  "zookeeper": 0.02,
+  "orwell_1984": -0.08,
+  "reversion": 0.26,
+  "self_destruction": -0.01
+ },
+ "targets": {
+  "libertarian_utopia": 21.61,
+  "benevolent_dictator": 24.94,
+  "egalitarian_utopia": 9.54,
+  "protector_god": 19.74,
+  "gatekeeper": 20.25,
+  "enslaved_god": 42.35,
+  "conquerors": 30.76,
+  "descendants": 25.21,
+  "zookeeper": 23.72,
+  "orwell_1984": 22.96,
+  "reversion": 4.97,
+  "self_destruction": 27.05
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.19,
+  "benevolent_dictator": -0.1,
+  "egalitarian_utopia": -0.27,
+  "protector_god": -0.14,
+  "gatekeeper": -0.21,
+  "enslaved_god": -0.32,
+  "conquerors": 0.48,
+  "descendants": 0.15,
+  "zookeeper": 0.26,
+  "orwell_1984": -0.04,
+  "reversion": 1.27,
+  "self_destruction": 0.52
+ },
+ "factors": {
+  "F1": 82.31,
+  "F2": 52.3,
+  "F3": 37.75,
+  "F4": 24.84,
+  "F5": 67.14,
+  "F6": 45.29,
+  "F7": 32.66,
+  "F8": 61.61,
+  "F9": 44.91,
+  "F10": 20.3
+ },
+ "factor_deltas": {
+  "F1": 0.13,
+  "F2": -0.0,
+  "F3": -0.0,
+  "F4": 0.01,
+  "F5": -0.12,
+  "F6": 0.0,
+  "F7": -0.14,
+  "F8": -0.0,
+  "F9": 0.34,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": -7.17,
+  "families": {
+   "flourishing": 18.96,
+   "contained": 31.3,
+   "successors": 26.56,
+   "stalled": 18.33
+  },
+  "news_heat": 0.85,
+  "evidence": "low",
+  "event_count": 3
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "protector_god": -0.01,
+  "enslaved_god": -0.01,
+  "conquerors": -0.01,
+  "descendants": -0.01,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.01,
+  "self_destruction": -0.01
+ },
+ "summary": {
+  "headline": "Pew finds job fears outweigh hopes in 34 of 37 countries",
+  "body": "Worry about work led the day. A Pew Research Center survey found majorities or pluralities in 34 of 37 countries expect AI to eliminate more jobs than it creates, with the US share up seven points in two years. That feeds Tech Backlash, lifting Reversion, and dents Shared Prosperity, which weighs on Egalitarian Utopia. A small 'Stop the AI Race' march in San Francisco added to the backlash. Huawei laid out its 2027 Ascend 960 chip roadmap, a sign of capability spreading to more players, which slightly eases Power Concentration. Horizon Balance held at -7.17.",
+  "movers_note": "Reversion +0.3 came from the Pew survey (+0.30) and the march (+0.04); 1984 -0.1 and Libertarian Utopia +0.1 tracked Huawei's roadmap (-0.09 and +0.07).",
+  "coming_up": [
+   "Q1 2027: Huawei Ascend 960DT launch",
+   "Q3 2027: Huawei Ascend 960PR launch"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-09-17-01",
+   "title": "Huawei unveils 2027 Ascend 960 AI-chip roadmap",
+   "summary": "Huawei said it will launch Ascend 960DT in Q1 2027 and 960PR in Q3 2027, with its UnifiedBus interconnect to link many chips into larger systems.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    },
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "China",
+   "reason": "Chinese domestic compute roadmap; erodes US chip dominance slightly; roadmap only.",
+   "sources": [
+    "https://www.reuters.com/world/asia-pacific/chinas-huawei-launch-two-new-ai-chips-2027-2026-09-17/",
+    "https://www.trendforce.com/news/2026/09/17/news-huawei-speeds-up-ai-chip-roadmap-reportedly-pulls-ascend-960dt-forward-three-quarters-to-1q27/"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "libertarian_utopia": 0.07,
+    "benevolent_dictator": -0.06,
+    "egalitarian_utopia": 0.05,
+    "protector_god": 0.07,
+    "gatekeeper": 0.06,
+    "enslaved_god": 0.01,
+    "conquerors": 0.07,
+    "descendants": 0.09,
+    "zookeeper": 0.02,
+    "orwell_1984": -0.09,
+    "reversion": -0.09
+   },
+   "factor_effect": {
+    "F1": 0.14,
+    "F5": -0.12
+   }
+  },
+  {
+   "id": "2026-09-17-02",
+   "title": "Pew: more people expect AI to cut jobs than create them in 34 of 37 countries",
+   "summary": "A Pew Research Center global survey found majorities or pluralities expect AI to eliminate more jobs than it creates in 34 of 37 countries; the US share rose seven points in two years.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    },
+    {
+     "id": "F7",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Global",
+   "reason": "Broad public pessimism about AI's labour effects; expectations, not measured losses.",
+   "sources": [
+    "https://pewresearch.org/global/2026/09/17/globally-more-people-expect-ai-to-cause-job-loss-than-growth"
+   ],
+   "points": 0.3,
+   "contribution": {
+    "egalitarian_utopia": -0.1,
+    "reversion": 0.3
+   },
+   "factor_effect": {
+    "F7": -0.15,
+    "F9": 0.3
+   }
+  },
+  {
+   "id": "2026-09-17-03",
+   "title": "'Stop the AI Race' marchers target OpenAI and Anthropic during Dreamforce",
+   "summary": "About two dozen protesters rallied outside OpenAI and Anthropic offices in San Francisco and marched to City Hall demanding a slowdown of AI development.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "local",
+   "track": "structural",
+   "region": "US",
+   "reason": "Small protest.",
+   "sources": [
+    "https://www.ktvu.com/news/anti-ai-rally-outside-dreamforce-san-francisco.amp",
+    "https://hoodline.com/2026/09/stop-the-ai-race-movement-targets-openai-and-anthropic/"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "reversion": 0.04
+   },
+   "factor_effect": {
+    "F9": 0.04
+   }
+  }
+ ]
+}

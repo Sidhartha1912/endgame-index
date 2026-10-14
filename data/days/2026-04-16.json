@@ -1,0 +1,134 @@
+{
+ "date": "2026-04-16",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 29.96,
+  "benevolent_dictator": 20.05,
+  "egalitarian_utopia": 17.67,
+  "protector_god": 12.13,
+  "gatekeeper": 15.1,
+  "enslaved_god": 35.12,
+  "conquerors": 15.04,
+  "descendants": 12.07,
+  "zookeeper": 8.0,
+  "orwell_1984": 24.97,
+  "reversion": 6.5,
+  "self_destruction": 18.18
+ },
+ "deltas": {
+  "libertarian_utopia": 0.0,
+  "benevolent_dictator": 0.0,
+  "egalitarian_utopia": 0.0,
+  "protector_god": 0.05,
+  "gatekeeper": 0.04,
+  "enslaved_god": 0.06,
+  "conquerors": 0.05,
+  "descendants": 0.06,
+  "zookeeper": 0.05,
+  "orwell_1984": -0.03,
+  "reversion": -0.06,
+  "self_destruction": 0.0
+ },
+ "targets": {
+  "libertarian_utopia": 29.96,
+  "benevolent_dictator": 20.05,
+  "egalitarian_utopia": 17.67,
+  "protector_god": 12.13,
+  "gatekeeper": 15.1,
+  "enslaved_god": 35.12,
+  "conquerors": 15.04,
+  "descendants": 12.07,
+  "zookeeper": 8.0,
+  "orwell_1984": 24.97,
+  "reversion": 6.5,
+  "self_destruction": 18.18
+ },
+ "momentum_7d": {},
+ "factors": {
+  "F1": 68.1,
+  "F2": 45.0,
+  "F3": 42.1,
+  "F4": 25.0,
+  "F5": 62.0,
+  "F6": 45.0,
+  "F7": 34.57,
+  "F8": 55.2,
+  "F9": 40.48,
+  "F10": 20.01
+ },
+ "factor_deltas": {
+  "F1": 0.1,
+  "F2": 0.0,
+  "F3": 0.0,
+  "F4": 0.0,
+  "F5": 0.0,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.0,
+  "F9": 0.0,
+  "F10": 0.0
+ },
+ "composites": {
+  "horizon_balance": 3.4,
+  "families": {
+   "flourishing": 19.95,
+   "contained": 25.11,
+   "successors": 11.7,
+   "stalled": 16.55
+  },
+  "news_heat": 0.1,
+  "evidence": "low",
+  "event_count": 1
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {},
+ "summary": {
+  "headline": "Anthropic launches Claude Opus 4.7 on an otherwise quiet day",
+  "body": "A quiet day with one story. Anthropic released Claude Opus 4.7, its most capable generally available model, with stronger coding and agent skills. A new top model pushes Capability Velocity up a notch, which lifts every ending that needs powerful AI, such as Enslaved God and Descendants, and nudges Reversion down. All moves were tiny. Horizon Balance sits at +3.40.",
+  "movers_note": "Every move was under 0.1 before rounding: Enslaved God +0.1 and Descendants +0.1 from the Claude Opus 4.7 launch (+0.06 each), with Reversion -0.1 (-0.06).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-04-16-01",
+   "title": "Anthropic releases Claude Opus 4.7",
+   "summary": "Anthropic launched Claude Opus 4.7 as its most capable generally available model, with stronger coding, agentic and vision performance.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Incremental frontier update; benchmarks self-reported.",
+   "sources": [
+    "https://rits.shanghai.nyu.edu/ai/anthropic-releases-claude-opus-4-7-with-sharper-coding-and-3x-vision-resolution/",
+    "https://vals.ai/models/anthropic_claude-opus-4-7"
+   ],
+   "points": 0.1,
+   "contribution": {
+    "protector_god": 0.05,
+    "gatekeeper": 0.04,
+    "enslaved_god": 0.06,
+    "conquerors": 0.05,
+    "descendants": 0.06,
+    "zookeeper": 0.05,
+    "orwell_1984": -0.03,
+    "reversion": -0.06
+   },
+   "factor_effect": {
+    "F1": 0.1
+   }
+  }
+ ]
+}

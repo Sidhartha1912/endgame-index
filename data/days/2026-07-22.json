@@ -1,0 +1,296 @@
+{
+ "date": "2026-07-22",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 25.27,
+  "benevolent_dictator": 25.57,
+  "egalitarian_utopia": 13.01,
+  "protector_god": 18.51,
+  "gatekeeper": 18.58,
+  "enslaved_god": 41.47,
+  "conquerors": 23.95,
+  "descendants": 21.1,
+  "zookeeper": 18.32,
+  "orwell_1984": 24.21,
+  "reversion": 4.15,
+  "self_destruction": 22.59
+ },
+ "deltas": {
+  "libertarian_utopia": -0.1,
+  "benevolent_dictator": 0.08,
+  "egalitarian_utopia": -0.13,
+  "protector_god": 0.38,
+  "gatekeeper": 0.22,
+  "enslaved_god": 0.55,
+  "conquerors": 0.39,
+  "descendants": 0.46,
+  "zookeeper": 0.46,
+  "orwell_1984": -0.21,
+  "reversion": -0.47,
+  "self_destruction": 0.05
+ },
+ "targets": {
+  "libertarian_utopia": 25.27,
+  "benevolent_dictator": 25.57,
+  "egalitarian_utopia": 13.01,
+  "protector_god": 18.51,
+  "gatekeeper": 18.58,
+  "enslaved_god": 41.47,
+  "conquerors": 23.95,
+  "descendants": 21.1,
+  "zookeeper": 18.32,
+  "orwell_1984": 24.21,
+  "reversion": 4.15,
+  "self_destruction": 22.59
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.33,
+  "benevolent_dictator": -0.49,
+  "egalitarian_utopia": -1.35,
+  "protector_god": -0.62,
+  "gatekeeper": -0.27,
+  "enslaved_god": -1.06,
+  "conquerors": 2.89,
+  "descendants": 1.33,
+  "zookeeper": 2.44,
+  "orwell_1984": -0.05,
+  "reversion": -0.06,
+  "self_destruction": 0.93
+ },
+ "factors": {
+  "F1": 77.45,
+  "F2": 50.4,
+  "F3": 41.11,
+  "F4": 23.16,
+  "F5": 66.78,
+  "F6": 45.97,
+  "F7": 32.96,
+  "F8": 58.02,
+  "F9": 42.61,
+  "F10": 20.23
+ },
+ "factor_deltas": {
+  "F1": 0.77,
+  "F2": 0.0,
+  "F3": -0.01,
+  "F4": -0.12,
+  "F5": 0.17,
+  "F6": 0.0,
+  "F7": -0.09,
+  "F8": -0.01,
+  "F9": -0.0,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -1.68,
+  "families": {
+   "flourishing": 20.59,
+   "contained": 30.03,
+   "successors": 21.12,
+   "stalled": 16.98
+  },
+  "news_heat": 1.58,
+  "evidence": "low",
+  "event_count": 5
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "zookeeper": 0.01,
+  "reversion": -0.01,
+  "self_destruction": -0.01
+ },
+ "summary": {
+  "headline": "AMD bets $5B on Anthropic as compute race accelerates",
+  "body": "A day of huge compute deals. AMD committed up to $5 billion to Anthropic, which will deploy up to 2 gigawatts of AMD GPUs, and OpenAI unveiled 'Project Camellia', a 3.2-gigawatt data-center campus in Georgia. Both raised Capability Velocity, which lifts the endings that need very capable AI: Enslaved God, Descendants and Zookeeper. The AMD deal also concentrates power with a leading lab, adding to Enslaved God and Zookeeper. Faster progress pushes Reversion down. Elsewhere, the White House accused Moonshot of distilling Anthropic's model and evading chip curbs, a small blow to Global Coordination. Mistral signed an Azure deal to grow European compute, and Monday.com cut about 20% of staff in an AI-linked restructuring. Horizon Balance slipped to -1.68.",
+  "movers_note": "Enslaved God +0.6 came from the AMD-Anthropic deal (+0.38) and Project Camellia (+0.23); Reversion -0.5 and Descendants +0.5 split evenly between the same two stories (-0.23/+0.23 each).",
+  "coming_up": [
+   "OpenAI's Project Camellia campus in Georgia to have power phased in from 2028 to 2032"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-07-22-01",
+   "title": "White House accuses Moonshot of distilling Anthropic's model and evading chip curbs",
+   "summary": "OSTP Director Michael Kratsios alleged Moonshot AI distilled Anthropic's Fable to build Kimi K3 and accessed Nvidia GB300s via Thailand; Moonshot did not concede.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "China",
+   "reason": "Escalates US-China AI rivalry rhetoric; accusation only.",
+   "sources": [
+    "https://cointelegraph.com/news/chinas-moonshot-ai-distilled-anthropics-fable-to-develop-k3-white-house-official",
+    "https://blog.buildfastwithai.com/ai-news-today-july-23-2026"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "gatekeeper": -0.08,
+    "orwell_1984": -0.05,
+    "self_destruction": 0.06
+   },
+   "factor_effect": {
+    "F4": -0.12
+   }
+  },
+  {
+   "id": "2026-07-22-02",
+   "title": "AMD to invest up to $5B in Anthropic with 2 GW of MI450 GPUs",
+   "summary": "AMD committed up to $5 billion to Anthropic, which will deploy up to 2 gigawatts of AMD Instinct MI450 GPUs in Helios racks.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    },
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Giant compute deal for a frontier lab.",
+   "sources": [
+    "https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal"
+   ],
+   "points": 0.5,
+   "contribution": {
+    "libertarian_utopia": -0.15,
+    "benevolent_dictator": 0.12,
+    "egalitarian_utopia": -0.1,
+    "protector_god": 0.19,
+    "gatekeeper": 0.15,
+    "enslaved_god": 0.38,
+    "conquerors": 0.19,
+    "descendants": 0.23,
+    "zookeeper": 0.29,
+    "orwell_1984": -0.02,
+    "reversion": -0.23
+   },
+   "factor_effect": {
+    "F1": 0.39,
+    "F5": 0.25
+   }
+  },
+  {
+   "id": "2026-07-22-03",
+   "title": "OpenAI announces 3.2 GW 'Project Camellia' data center in Georgia",
+   "summary": "OpenAI unveiled a 1,400-acre, 3.2-gigawatt campus in Effingham County, Georgia, with power phased in 2028-2032 and reported spending of $20-30 billion.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Giant compute cluster announced.",
+   "sources": [
+    "https://www.axios.com/2026/07/22/openai-savannah-georgia-data-center-project",
+    "https://www.prnewswire.com/news-releases/georgia-power-to-serve-openai-project-in-effingham-county-302832224.html"
+   ],
+   "points": 0.5,
+   "contribution": {
+    "protector_god": 0.19,
+    "gatekeeper": 0.15,
+    "enslaved_god": 0.23,
+    "conquerors": 0.19,
+    "descendants": 0.23,
+    "zookeeper": 0.19,
+    "orwell_1984": -0.12,
+    "reversion": -0.23
+   },
+   "factor_effect": {
+    "F1": 0.39
+   }
+  },
+  {
+   "id": "2026-07-22-04",
+   "title": "Mistral signs multibillion-dollar Azure deal to expand European AI infrastructure",
+   "summary": "France's Mistral AI and Microsoft agreed a deal bringing Mistral models to Azure and expanding compute in Europe; Mistral targets 1 GW by 2030.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "EU",
+   "reason": "Strengthens a European alternative to US frontier labs.",
+   "sources": [
+    "https://siliconangle.com/2026/07/21/mistral-ai-strikes-multibillion-dollar-deal-microsoft-build-azure-infrastructure-europe/"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "libertarian_utopia": 0.05,
+    "benevolent_dictator": -0.04,
+    "egalitarian_utopia": 0.04,
+    "enslaved_god": -0.05,
+    "zookeeper": -0.04,
+    "orwell_1984": -0.04
+   },
+   "factor_effect": {
+    "F5": -0.09
+   }
+  },
+  {
+   "id": "2026-07-22-05",
+   "title": "Monday.com cuts about 20% of staff, tying restructuring to AI strategy",
+   "summary": "Israel-based Monday.com cut roughly 600 jobs (about 350 in Israel) under an 'AI-driven growth strategy'.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F7",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "Other",
+   "reason": "Company cites AI in sizeable layoffs.",
+   "sources": [
+    "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "egalitarian_utopia": -0.06
+   },
+   "factor_effect": {
+    "F7": -0.09
+   }
+  }
+ ]
+}

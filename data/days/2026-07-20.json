@@ -1,0 +1,291 @@
+{
+ "date": "2026-07-20",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 26.56,
+  "benevolent_dictator": 25.94,
+  "egalitarian_utopia": 14.32,
+  "protector_god": 19.14,
+  "gatekeeper": 19.39,
+  "enslaved_god": 42.43,
+  "conquerors": 21.25,
+  "descendants": 19.85,
+  "zookeeper": 15.89,
+  "orwell_1984": 24.45,
+  "reversion": 4.67,
+  "self_destruction": 21.6
+ },
+ "deltas": {
+  "libertarian_utopia": -0.08,
+  "benevolent_dictator": -0.07,
+  "egalitarian_utopia": -0.06,
+  "protector_god": 0.0,
+  "gatekeeper": -0.0,
+  "enslaved_god": -0.1,
+  "conquerors": 0.12,
+  "descendants": 0.01,
+  "zookeeper": -0.04,
+  "orwell_1984": -0.06,
+  "reversion": 0.04,
+  "self_destruction": 0.37
+ },
+ "targets": {
+  "libertarian_utopia": 26.56,
+  "benevolent_dictator": 25.94,
+  "egalitarian_utopia": 14.32,
+  "protector_god": 19.14,
+  "gatekeeper": 19.39,
+  "enslaved_god": 42.43,
+  "conquerors": 21.25,
+  "descendants": 19.85,
+  "zookeeper": 15.89,
+  "orwell_1984": 24.45,
+  "reversion": 4.67,
+  "self_destruction": 21.6
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.1,
+  "egalitarian_utopia": -0.06,
+  "protector_god": 0.04,
+  "gatekeeper": 0.67,
+  "enslaved_god": -0.09,
+  "conquerors": 0.14,
+  "descendants": 0.08,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.25,
+  "reversion": 0.92,
+  "self_destruction": -0.18
+ },
+ "factors": {
+  "F1": 76.6,
+  "F2": 49.17,
+  "F3": 43.5,
+  "F4": 23.28,
+  "F5": 66.61,
+  "F6": 45.97,
+  "F7": 33.04,
+  "F8": 58.04,
+  "F9": 42.62,
+  "F10": 20.24
+ },
+ "factor_deltas": {
+  "F1": -0.0,
+  "F2": 0.02,
+  "F3": -0.01,
+  "F4": -0.0,
+  "F5": -0.15,
+  "F6": 0.0,
+  "F7": 0.03,
+  "F8": 0.33,
+  "F9": -0.1,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": 0.69,
+  "families": {
+   "flourishing": 21.49,
+   "contained": 30.91,
+   "successors": 19.0,
+   "stalled": 16.91
+  },
+  "news_heat": 0.63,
+  "evidence": "low",
+  "event_count": 5
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": -0.01,
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.01,
+  "conquerors": 0.01,
+  "zookeeper": 0.01,
+  "reversion": -0.01,
+  "self_destruction": -0.01
+ },
+ "summary": {
+  "headline": "Pentagon AI war-data contract lifts Self-Destruction",
+  "body": "Military AI led the day. Accenture won a contract worth up to $821M to build a Pentagon 'War Data Platform' feeding more than 1,500 military data streams into AI tools, and Shield AI raised $1.5B for autonomous drones as defence-AI funding surged. Both raised Catastrophic Risk, the factor behind Self-Destruction, and gave a small lift to Conquerors, which also gains in a more militarised world. Pulling the other way, Hugging Face used a Chinese open model to analyse a cyberattack after US models refused, a sign that power is not locked up by a few labs; that lowers Enslaved God. A HarrisX poll found 56% of US voters view AI favourably, easing Tech Backlash, and a judge approved Anthropic's $1.5B authors' settlement. Horizon Balance fell to 0.69.",
+  "movers_note": "Self-Destruction +0.4 came mostly from the Accenture Pentagon contract (+0.33) plus Shield AI's raise (+0.05). Conquerors +0.1 followed the same two stories, and Enslaved God -0.1 tracked the Hugging Face open-model story (-0.09).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-07-20-01",
+   "title": "Judge approves Anthropic's $1.5B copyright settlement with authors",
+   "summary": "A federal judge approved the $1.5 billion class settlement over books pirated for Claude training, about $3,000 per work; Anthropic must destroy pirated copies.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F7",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Compensation to creators from AI gains; known story reaching final approval.",
+   "sources": [
+    "https://siliconangle.com/2026/07/20/anthropic-settles-authors-publishers-1-5-billion-landmark-copyright-case/",
+    "https://www.datagrom.com/ai-news/anthropic-pays-15b-in-historic-copyright-settlement-cd4b1293"
+   ],
+   "points": 0.03,
+   "contribution": {
+    "egalitarian_utopia": 0.02
+   },
+   "factor_effect": {
+    "F7": 0.03
+   }
+  },
+  {
+   "id": "2026-07-20-02",
+   "title": "Poll: 56% of US voters view AI favorably",
+   "summary": "A HarrisX poll of 2,011 voters, commissioned by pro-AI group Build American AI, found 56% favorable and 53% backing rapid development.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "US",
+   "reason": "Survey showing acceptance; sponsor is an industry advocacy group.",
+   "sources": [
+    "https://nypost.com/2026/07/20/business/most-american-voters-have-favorable-view-of-ai-despite-media-focus-on-controversies-poll/"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "reversion": -0.09
+   },
+   "factor_effect": {
+    "F9": -0.09
+   }
+  },
+  {
+   "id": "2026-07-20-03",
+   "title": "Hugging Face turns to Chinese open model after US models refused to help analyze attack",
+   "summary": "Hugging Face used Z.ai's GLM 5.2 to analyse the cyberattack on it after closed US frontier models refused, fuelling the open-weights debate.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "Global",
+   "reason": "Shows open (Chinese) weights gaining ground versus closed labs.",
+   "sources": [
+    "https://siliconangle.com/2026/07/20/hugging-face-uses-open-weights-z-ai-glm-5-2-defend-attacker-commercial-frontier-model-refusal/"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "libertarian_utopia": 0.09,
+    "benevolent_dictator": -0.07,
+    "egalitarian_utopia": 0.06,
+    "enslaved_god": -0.09,
+    "zookeeper": -0.06,
+    "orwell_1984": -0.06
+   },
+   "factor_effect": {
+    "F5": -0.15
+   }
+  },
+  {
+   "id": "2026-07-20-04",
+   "title": "Accenture wins up to $821M Pentagon contract for AI 'War Data Platform'",
+   "summary": "Accenture Federal Services won a five-year contract to build software feeding 1,500+ military data streams into Pentagon AI tools; CDAO credited the platform in the Iran campaign. Exact date is a Monday in July; July 20 is best estimate.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Major military AI data contract.",
+   "sources": [
+    "https://federalnewsnetwork.com/defense-news/2026/07/accenture-wins-821m-pentagon-ai-data-platform-contract/"
+   ],
+   "points": 0.3,
+   "contribution": {
+    "libertarian_utopia": -0.15,
+    "egalitarian_utopia": -0.12,
+    "conquerors": 0.09,
+    "reversion": 0.12,
+    "self_destruction": 0.33
+   },
+   "factor_effect": {
+    "F8": 0.3
+   }
+  },
+  {
+   "id": "2026-07-20-05",
+   "title": "Defense-AI funding surges: Shield AI raises $1.5B at $12.7B valuation",
+   "summary": "Autonomous-drone maker Shield AI raised a $1.5B Series G; roundups counted over $3B in defense AI funding in July including Helsing's round. Date approximate (reported July 20).",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    },
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "D",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Autonomous weapons funding; date and figures from roundup only.",
+   "sources": [
+    "https://blog.buildfastwithai.com/ai-news-today-july-21-2026"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "libertarian_utopia": -0.02,
+    "benevolent_dictator": 0.01,
+    "egalitarian_utopia": -0.02,
+    "protector_god": 0.01,
+    "gatekeeper": 0.01,
+    "enslaved_god": -0.01,
+    "conquerors": 0.02,
+    "descendants": 0.01,
+    "zookeeper": 0.01,
+    "reversion": 0.02,
+    "self_destruction": 0.05
+   },
+   "factor_effect": {
+    "F2": 0.02,
+    "F8": 0.04
+   }
+  }
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "date": "2026-05-04",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 28.86,
+  "benevolent_dictator": 20.43,
+  "egalitarian_utopia": 16.23,
+  "protector_god": 13.16,
+  "gatekeeper": 15.56,
+  "enslaved_god": 35.89,
+  "conquerors": 17.88,
+  "descendants": 14.23,
+  "zookeeper": 10.3,
+  "orwell_1984": 24.47,
+  "reversion": 5.56,
+  "self_destruction": 20.37
+ },
+ "deltas": {
+  "libertarian_utopia": 0.12,
+  "benevolent_dictator": 0.12,
+  "egalitarian_utopia": 0.12,
+  "protector_god": 0.17,
+  "gatekeeper": 0.23,
+  "enslaved_god": 0.12,
+  "conquerors": -0.17,
+  "descendants": 0.0,
+  "zookeeper": -0.12,
+  "orwell_1984": 0.05,
+  "reversion": -0.0,
+  "self_destruction": -0.16
+ },
+ "targets": {
+  "libertarian_utopia": 28.86,
+  "benevolent_dictator": 20.43,
+  "egalitarian_utopia": 16.23,
+  "protector_god": 13.16,
+  "gatekeeper": 15.56,
+  "enslaved_god": 35.89,
+  "conquerors": 17.88,
+  "descendants": 14.23,
+  "zookeeper": 10.3,
+  "orwell_1984": 24.47,
+  "reversion": 5.56,
+  "self_destruction": 20.37
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.44,
+  "benevolent_dictator": 0.18,
+  "egalitarian_utopia": -0.37,
+  "protector_god": 0.56,
+  "gatekeeper": 0.49,
+  "enslaved_god": 0.29,
+  "conquerors": 0.95,
+  "descendants": 0.86,
+  "zookeeper": 0.64,
+  "orwell_1984": -0.21,
+  "reversion": -0.07,
+  "self_destruction": 1.1
+ },
+ "factors": {
+  "F1": 70.7,
+  "F2": 46.02,
+  "F3": 41.25,
+  "F4": 24.46,
+  "F5": 61.91,
+  "F6": 45.6,
+  "F7": 33.89,
+  "F8": 56.64,
+  "F9": 40.52,
+  "F10": 19.99
+ },
+ "factor_deltas": {
+  "F1": 0.0,
+  "F2": 0.0,
+  "F3": 0.24,
+  "F4": 0.12,
+  "F5": 0.0,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.0,
+  "F9": -0.0,
+  "F10": 0.0
+ },
+ "composites": {
+  "horizon_balance": 1.41,
+  "families": {
+   "flourishing": 19.67,
+   "contained": 25.72,
+   "successors": 14.14,
+   "stalled": 16.8
+  },
+  "news_heat": 0.36,
+  "evidence": "low",
+  "event_count": 1
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {},
+ "summary": {
+  "headline": "White House weighs vetting frontier AI before release",
+  "body": "A small but meaningful story. The New York Times reported the Trump administration is considering an executive order for government review of new AI models before release, prompted by Anthropic's Mythos cyber capabilities. Pre-release checks would strengthen Alignment & Control and add a little Global Coordination. That lifts Gatekeeper and Protector God and pulls Conquerors and Self-Destruction down. It is only a report of something being considered, not a signed order, and comes from a single news source, so the moves were small. Horizon Balance rose to +1.41, up 0.23, and two endings swapped places.",
+  "movers_note": "Gatekeeper +0.2, Protector God +0.2 and Conquerors -0.2, all from the reported pre-release vetting plan (+0.23, +0.17 and -0.17).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-05-04-01",
+   "title": "White House weighs pre-release government vetting of frontier AI models",
+   "summary": "The NYT reported the Trump administration is considering an executive order for government review of new AI models before release, prompted by Anthropic's Mythos cyber capabilities.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": 1
+    },
+    {
+     "id": "F4",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "US",
+   "reason": "Reported deliberations, not action; reversal of hands-off stance.",
+   "sources": [
+    "https://www.freemalaysiatoday.com/category/world/2026/05/05/white-house-weighs-vetting-ai-models-before-public-release",
+    "https://axios.com/2026/05/05/trump-anthropic-ai-regulation-mythos-cyber"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "libertarian_utopia": 0.12,
+    "benevolent_dictator": 0.12,
+    "egalitarian_utopia": 0.12,
+    "protector_god": 0.17,
+    "gatekeeper": 0.23,
+    "enslaved_god": 0.12,
+    "conquerors": -0.17,
+    "zookeeper": -0.12,
+    "orwell_1984": 0.05,
+    "self_destruction": -0.16
+   },
+   "factor_effect": {
+    "F3": 0.24,
+    "F4": 0.12
+   }
+  }
+ ]
+}

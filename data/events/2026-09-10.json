@@ -1,0 +1,117 @@
+[
+ {
+  "id": "2026-09-10-01",
+  "title": "Paul Christiano joins OpenAI Foundation board and safety committee",
+  "summary": "Loss-of-control researcher Paul Christiano joined the OpenAI Foundation board and its Safety and Security Committee, warning the industry is not on track.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Adds safety expertise to governance.",
+  "sources": [
+   "https://aiweekly.co/alerts/paul-christiano-joins-openai-foundation-board-and-safety-committee-warns-of"
+  ]
+ },
+ {
+  "id": "2026-09-10-02",
+  "title": "Anthropic scenario: AI boom could cut labour's income share to 45%",
+  "summary": "Anthropic modelled an extreme case where US GDP is 32% higher by 2030 while labour's share of income falls from about 60% to 45%.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Scenario, not forecast; signal about distribution.",
+  "sources": [
+   "https://aiweekly.co/alerts/anthropic-model-sees-labor-share-at-452-in-extreme-ai-case"
+  ]
+ },
+ {
+  "id": "2026-09-10-03",
+  "title": "Massachusetts requires local approval and clean power for big data centers",
+  "summary": "Executive Order 658 blocks state permits for data centres over 25MW unless they meet a state framework, cover clean-power costs and sign community-benefit agreements.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "local",
+  "track": "structural",
+  "region": "US",
+  "reason": "State response to data-centre backlash.",
+  "sources": [
+   "https://aiweekly.co/alerts/massachusetts-orders-data-centers-over-25mw-to-bring-their-own-100-clean-power"
+  ]
+ },
+ {
+  "id": "2026-09-10-04",
+  "title": "DeepSeek releases V4.1-Flash open weights with 1M context",
+  "summary": "DeepSeek posted an MIT-licensed 552B multimodal MoE model with 8B active parameters and a one-million-token context.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Strong open-weights release; vendor benchmarks.",
+  "sources": [
+   "https://aiweekly.co/alerts/deepseek-posts-v41-flash-552b-moe-8b-active-1m-context"
+  ]
+ },
+ {
+  "id": "2026-09-10-05",
+  "title": "Suno v6 launches with licensed label catalogs and rightsholder payments",
+  "summary": "Suno's new model was built with Warner Music Group, BMG and Believe, and begins paying participating rightsholders.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Revenue sharing with creators.",
+  "sources": [
+   "https://aiweekly.co/alerts/suno-launches-v6-with-warner-music-bmg-and-believe-partnerships-begins-paying"
+  ]
+ }
+]

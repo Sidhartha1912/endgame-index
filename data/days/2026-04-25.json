@@ -1,0 +1,108 @@
+{
+ "date": "2026-04-25",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 29.06,
+  "benevolent_dictator": 20.45,
+  "egalitarian_utopia": 16.43,
+  "protector_god": 12.6,
+  "gatekeeper": 15.54,
+  "enslaved_god": 35.83,
+  "conquerors": 16.93,
+  "descendants": 13.37,
+  "zookeeper": 9.82,
+  "orwell_1984": 25.11,
+  "reversion": 5.59,
+  "self_destruction": 18.94
+ },
+ "deltas": {
+  "libertarian_utopia": 0.0,
+  "benevolent_dictator": 0.0,
+  "egalitarian_utopia": 0.0,
+  "protector_god": 0.0,
+  "gatekeeper": 0.0,
+  "enslaved_god": 0.0,
+  "conquerors": 0.0,
+  "descendants": 0.0,
+  "zookeeper": 0.0,
+  "orwell_1984": 0.0,
+  "reversion": -0.0,
+  "self_destruction": 0.0
+ },
+ "targets": {
+  "libertarian_utopia": 29.06,
+  "benevolent_dictator": 20.45,
+  "egalitarian_utopia": 16.43,
+  "protector_god": 12.6,
+  "gatekeeper": 15.54,
+  "enslaved_god": 35.83,
+  "conquerors": 16.93,
+  "descendants": 13.37,
+  "zookeeper": 9.82,
+  "orwell_1984": 25.11,
+  "reversion": 5.59,
+  "self_destruction": 18.94
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.9,
+  "benevolent_dictator": 0.4,
+  "egalitarian_utopia": -1.24,
+  "protector_god": 0.48,
+  "gatekeeper": 0.43,
+  "enslaved_god": 0.72,
+  "conquerors": 1.89,
+  "descendants": 1.29,
+  "zookeeper": 1.82,
+  "orwell_1984": 0.15,
+  "reversion": -0.98,
+  "self_destruction": 0.76
+ },
+ "factors": {
+  "F1": 69.91,
+  "F2": 45.62,
+  "F3": 41.31,
+  "F4": 25.0,
+  "F5": 62.37,
+  "F6": 45.6,
+  "F7": 33.8,
+  "F8": 55.6,
+  "F9": 40.49,
+  "F10": 19.81
+ },
+ "factor_deltas": {
+  "F1": 0.0,
+  "F2": 0.0,
+  "F3": 0.0,
+  "F4": 0.0,
+  "F5": 0.0,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.0,
+  "F9": -0.0,
+  "F10": 0.0
+ },
+ "composites": {
+  "horizon_balance": 1.93,
+  "families": {
+   "flourishing": 19.64,
+   "contained": 25.68,
+   "successors": 13.37,
+   "stalled": 16.55
+  },
+  "news_heat": 0.0,
+  "evidence": "low",
+  "event_count": 0
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {},
+ "summary": {
+  "headline": "No scored AI news; the scoreboard rests",
+  "body": "A completely quiet day. No events were scored, and no earlier stories were fading yet, so every ending and every world factor held exactly still. Enslaved God remains the leading ending, and the slightly darker mood left by this week's Mythos leak and GPT-5.5 stories carries over unchanged. Horizon Balance stays at +1.93.",
+  "movers_note": "No movers today: every ending's change was 0.0.",
+  "coming_up": []
+ },
+ "events": []
+}

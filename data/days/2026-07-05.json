@@ -1,0 +1,157 @@
+{
+ "date": "2026-07-05",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 26.68,
+  "benevolent_dictator": 25.9,
+  "egalitarian_utopia": 14.45,
+  "protector_god": 18.84,
+  "gatekeeper": 18.46,
+  "enslaved_god": 42.64,
+  "conquerors": 20.41,
+  "descendants": 19.24,
+  "zookeeper": 15.41,
+  "orwell_1984": 24.22,
+  "reversion": 3.78,
+  "self_destruction": 21.37
+ },
+ "deltas": {
+  "libertarian_utopia": 0.0,
+  "benevolent_dictator": 0.02,
+  "egalitarian_utopia": 0.0,
+  "protector_god": 0.01,
+  "gatekeeper": 0.0,
+  "enslaved_god": -0.02,
+  "conquerors": 0.03,
+  "descendants": 0.02,
+  "zookeeper": 0.03,
+  "orwell_1984": 0.0,
+  "reversion": -0.02,
+  "self_destruction": -0.02
+ },
+ "targets": {
+  "libertarian_utopia": 26.68,
+  "benevolent_dictator": 25.9,
+  "egalitarian_utopia": 14.45,
+  "protector_god": 18.84,
+  "gatekeeper": 18.46,
+  "enslaved_god": 42.64,
+  "conquerors": 20.41,
+  "descendants": 19.24,
+  "zookeeper": 15.41,
+  "orwell_1984": 24.22,
+  "reversion": 3.78,
+  "self_destruction": 21.37
+ },
+ "momentum_7d": {
+  "libertarian_utopia": 0.24,
+  "benevolent_dictator": 0.57,
+  "egalitarian_utopia": -0.02,
+  "protector_god": 0.8,
+  "gatekeeper": 0.56,
+  "enslaved_god": 0.9,
+  "conquerors": -0.28,
+  "descendants": 0.37,
+  "zookeeper": 0.06,
+  "orwell_1984": -0.07,
+  "reversion": -0.45,
+  "self_destruction": -0.38
+ },
+ "factors": {
+  "F1": 76.06,
+  "F2": 48.67,
+  "F3": 43.71,
+  "F4": 22.3,
+  "F5": 67.08,
+  "F6": 45.76,
+  "F7": 33.02,
+  "F8": 57.46,
+  "F9": 41.63,
+  "F10": 20.25
+ },
+ "factor_deltas": {
+  "F1": -0.0,
+  "F2": 0.04,
+  "F3": -0.02,
+  "F4": 0.0,
+  "F5": -0.0,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": -0.02,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": 1.11,
+  "families": {
+   "flourishing": 21.47,
+   "contained": 30.55,
+   "successors": 18.35,
+   "stalled": 16.46
+  },
+  "news_heat": 0.04,
+  "evidence": "low",
+  "event_count": 1
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": -0.01,
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.01,
+  "conquerors": 0.01,
+  "zookeeper": 0.01,
+  "reversion": -0.02,
+  "self_destruction": -0.02
+ },
+ "summary": {
+  "headline": "Tesla robotaxis go driverless in Miami",
+  "body": "A quiet day. Tesla expanded unsupervised robotaxi service to Miami, its fifth city, a small step up in AI Autonomy that nudges Conquerors and Zookeeper. Robotaxis without safety monitors are a concrete example of AI acting without a human in the loop. Otherwise lines drifted as older stories faded. Horizon Balance: +1.11.",
+  "movers_note": "No ending moved by as much as 0.05 points (all 0.0 at one decimal); Conquerors and Zookeeper shifted most, by three hundredths, from the Tesla robotaxi story.",
+  "coming_up": [
+   "Tesla targets robotaxi service in a dozen states by year-end"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-07-05-01",
+   "title": "Tesla launches robotaxis in Miami without safety monitors",
+   "summary": "Tesla expanded unsupervised robotaxi service to Miami, its fifth city, targeting a dozen states by year-end.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Autonomous systems expanding in public; incremental.",
+   "sources": [
+    "https://llm-stats.com/ai-news",
+    "https://blog.buildfastwithai.com/ai-news-today-july-6-2026"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "benevolent_dictator": 0.03,
+    "protector_god": 0.02,
+    "gatekeeper": 0.01,
+    "enslaved_god": -0.01,
+    "conquerors": 0.02,
+    "descendants": 0.03,
+    "zookeeper": 0.03
+   },
+   "factor_effect": {
+    "F2": 0.04
+   }
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+[
+ {
+  "id": "2026-10-07-01",
+  "title": "OpenAI publishes 700+ AI-generated math results incl. Lean-verified Unique Games proof",
+  "summary": "OpenAI released hundreds of math manuscripts from an unreleased model; Scott Aaronson reported the drop includes a Lean-verified proof of the Unique Games Conjecture, a major open problem.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T3",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Rubric T3 example: AI solves open science problem with formal verification; skeptic pass keeps T3 as proof is machine-checked and assessed by outside experts (still under expert review).",
+  "sources": [
+   "https://www.scientificamerican.com/article/openai-unleashes-hundreds-more-math-results-upon-a-field-already-in-shock/",
+   "https://github.com/openai/math-results",
+   "https://the-decoder.com/openai-dumps-372-ai-generated-math-proofs-on-github-telling-the-academic-world-to-keep-up/"
+  ]
+ },
+ {
+  "id": "2026-10-07-02",
+  "title": "OpenAI rolls GPT-6 out to all ChatGPT tiers with 'Intelligent UI'",
+  "summary": "OpenAI began rolling out GPT-6 to all ChatGPT users, including free tiers, with an interface that renders interactive buttons, calculators and graphs inline.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Broad deployment of existing frontier family; incremental capability.",
+  "sources": [
+   "https://openai.com/index/gpt-6-for-everyone/",
+   "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/"
+  ]
+ },
+ {
+  "id": "2026-10-07-03",
+  "title": "Finland orders halt to work on Google AI data-center sites",
+  "summary": "Finnish authorities ordered Google to pause site work at its Muhos and Kajaani data-center projects pending environmental review.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   },
+   {
+    "id": "F1",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "EU",
+  "reason": "Government halts major AI infrastructure on environmental grounds.",
+  "sources": [
+   "https://www.cnbc.com/2026/10/07/google-finland-data-center-halt.html",
+   "https://www.euronews.com/2026/10/07/finland-orders-pause-on-google-ai-data-centre-over-environmental-concerns"
+  ]
+ },
+ {
+  "id": "2026-10-07-04",
+  "title": "Common Sense Media rates ChatGPT for Teens an 'unacceptable risk'",
+  "summary": "Common Sense Media found ChatGPT for Teens kept teens talking even during mental-health crises and rated it an unacceptable risk.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Critical safety rating from a child-safety group.",
+  "sources": [
+   "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises"
+  ]
+ }
+]

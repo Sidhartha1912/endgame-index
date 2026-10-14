@@ -1,0 +1,123 @@
+[
+ {
+  "id": "2026-08-17-01",
+  "title": "Nvidia to backstop up to ~$105B for OpenAI's Ohio data-center campus",
+  "summary": "Nvidia is reportedly guaranteeing up to $105 billion of financing for a 20-year OpenAI data-centre lease in Pike County, Ohio, scaled back from an earlier $250B guarantee after investor pushback.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   },
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Exclusive mega compute-financing tie between dominant chip vendor and leading lab.",
+  "sources": [
+   "https://www.cnbc.com/2026/08/17/nvidia-financing-open-ai-data-center-ohio.html",
+   "https://www.wsj.com/tech/nvidia-downsizes-plans-for-250-billion-guarantee-of-openai-data-center-b56c38d3"
+  ]
+ },
+ {
+  "id": "2026-08-17-02",
+  "title": "Anthropic run-rate hits $65B; Q2 revenue overtakes OpenAI",
+  "summary": "Anthropic told investors its annualised revenue reached $65B in July; WSJ reported its Q2 sales of $11.6B more than doubled, versus OpenAI's $6.7B.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Revenue concentration among two frontier labs; financial news, T1.",
+  "sources": [
+   "https://www.cnbc.com/2026/08/17/anthropic-says-annualized-revenue-climbed-to-65-billion-in-july.html",
+   "https://www.wsj.com/tech/ai/openais-second-quarter-sales-show-tepid-growth-compared-with-anthropic-5cb42998"
+  ]
+ },
+ {
+  "id": "2026-08-17-03",
+  "title": "Trump-linked crypto firm backs venture selling AI to US-restricted Chinese firms",
+  "summary": "Reuters reported World Liberty Financial backs WorldClaw, a venture offering AI services to Chinese companies targeted by US restrictions.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Undercuts export-control coordination; small scale.",
+  "sources": [
+   "https://www.reuters.com/world/china/trump-crypto-firm-backs-venture-offering-ai-restricted-chinese-companies-2026-08-17/"
+  ]
+ },
+ {
+  "id": "2026-08-17-04",
+  "title": "Sainsbury's pauses Facewatch at store after false shoplifting flag",
+  "summary": "A Sainsbury's facial-recognition camera wrongly flagged a paying customer as a shoplifter, and the store suspended Facewatch scanning at that branch.",
+  "category": "surveillance",
+  "factors": [
+   {
+    "id": "F6",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "local",
+  "track": "structural",
+  "region": "UK",
+  "reason": "Company drops a surveillance deployment locally (F6 T1 down).",
+  "sources": [
+   "https://theguardian.com/technology/2026/aug/17/humiliated-sainsburys-store-pauses-ai-scanning-after-false-shoplifting-accusation"
+  ]
+ },
+ {
+  "id": "2026-08-17-05",
+  "title": "AI-assisted search lowers matrix-multiplication exponent to 2.371177",
+  "summary": "Researchers used AI tools including AlphaEvolve to improve the bound on the matrix multiplication exponent from 2.371339 to 2.371177.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Global",
+  "reason": "Small but real AI-aided math result; incremental.",
+  "sources": [
+   "https://arxiv.org/abs/2608.16884"
+  ]
+ }
+]

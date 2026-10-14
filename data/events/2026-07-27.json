@@ -1,0 +1,53 @@
+[
+ {
+  "id": "2026-07-27-01",
+  "title": "Nvidia launches Open Secure AI Alliance; OpenAI, Google, Anthropic absent",
+  "summary": "Nvidia formed a 30+ member coalition with Microsoft, IBM, Hugging Face and others to build open AI cybersecurity tools after the OpenAI breach.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Industry defensive coordination; modest.",
+  "sources": [
+   "https://www.cnbc.com/2026/07/27/nvidia-ai-initiative-openai-cyber-attack.html",
+   "https://blogs.nvidia.com/blog/open-secure-ai-alliance/"
+  ]
+ },
+ {
+  "id": "2026-07-27-02",
+  "title": "Moonshot releases Kimi K3 open weights",
+  "summary": "Moonshot published the 2.8-trillion-parameter Kimi K3 weights under a modified MIT license, letting organisations self-host a near-frontier model.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   },
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Strong open-weights release narrows gap to closed frontier.",
+  "sources": [
+   "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation"
+  ]
+ }
+]

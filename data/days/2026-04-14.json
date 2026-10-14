@@ -1,0 +1,230 @@
+{
+ "date": "2026-04-14",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 30.03,
+  "benevolent_dictator": 20.05,
+  "egalitarian_utopia": 17.93,
+  "protector_god": 12.07,
+  "gatekeeper": 15.06,
+  "enslaved_god": 35.05,
+  "conquerors": 14.94,
+  "descendants": 12.01,
+  "zookeeper": 7.95,
+  "orwell_1984": 25.0,
+  "reversion": 6.5,
+  "self_destruction": 18.02
+ },
+ "deltas": {
+  "libertarian_utopia": 0.03,
+  "benevolent_dictator": 0.05,
+  "egalitarian_utopia": -0.07,
+  "protector_god": 0.07,
+  "gatekeeper": 0.06,
+  "enslaved_god": 0.05,
+  "conquerors": -0.06,
+  "descendants": 0.01,
+  "zookeeper": -0.05,
+  "orwell_1984": 0.0,
+  "reversion": 0.5,
+  "self_destruction": 0.02
+ },
+ "targets": {
+  "libertarian_utopia": 30.03,
+  "benevolent_dictator": 20.05,
+  "egalitarian_utopia": 17.93,
+  "protector_god": 12.07,
+  "gatekeeper": 15.06,
+  "enslaved_god": 35.05,
+  "conquerors": 14.94,
+  "descendants": 12.01,
+  "zookeeper": 7.95,
+  "orwell_1984": 25.0,
+  "reversion": 6.5,
+  "self_destruction": 18.02
+ },
+ "momentum_7d": {},
+ "factors": {
+  "F1": 68.0,
+  "F2": 45.0,
+  "F3": 42.1,
+  "F4": 25.0,
+  "F5": 62.0,
+  "F6": 45.0,
+  "F7": 34.86,
+  "F8": 55.05,
+  "F9": 40.48,
+  "F10": 20.01
+ },
+ "factor_deltas": {
+  "F1": 0.0,
+  "F2": 0.0,
+  "F3": 0.1,
+  "F4": 0.0,
+  "F5": 0.0,
+  "F6": 0.0,
+  "F7": -0.14,
+  "F8": 0.05,
+  "F9": 0.48,
+  "F10": 0.01
+ },
+ "composites": {
+  "horizon_balance": 3.55,
+  "families": {
+   "flourishing": 20.02,
+   "contained": 25.06,
+   "successors": 11.63,
+   "stalled": 16.51
+  },
+  "news_heat": 0.79,
+  "evidence": "medium",
+  "event_count": 4
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {},
+ "summary": {
+  "headline": "Maine passes first statewide data-center pause — Reversion ticks up",
+  "body": "A busy but gentle opening day. Maine's legislature passed the first statewide moratorium on large data centers, pausing approvals for sites over 20 MW until October 2027. That is a clear sign of Tech Backlash, the factor behind Reversion, the ending where people turn away from advanced technology. OpenAI released a cyber-tuned model, GPT-5.4-Cyber, but only to vetted defenders and agencies; keeping a risky tool on a short leash slightly strengthens Alignment & Control, nudging Protector God and Gatekeeper up and Conquerors down. Novo Nordisk said its company-wide OpenAI rollout will slow hiring, a small dent in Shared Prosperity that trims Egalitarian Utopia. A German brain-implant firm, CorTec, prepared its third stroke patient. Horizon Balance reads +3.55, up 0.05.",
+  "movers_note": "Reversion +0.5, almost all from Maine's data-center moratorium (+0.48). Egalitarian Utopia -0.1 after Novo Nordisk's hiring warning (-0.10), while Protector God +0.1 on OpenAI's gated cyber-model release (+0.07).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-04-14-01",
+   "title": "OpenAI releases GPT-5.4-Cyber only to vetted security researchers and agencies",
+   "summary": "OpenAI released a cybersecurity-tuned model with relaxed guardrails but restricted access to vetted defenders and government agencies because of misuse risk.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": 1
+    },
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Gated release of a dual-use cyber model is a modest control measure; existence of the capability nudges risk.",
+   "sources": [
+    "https://www.humai.blog/ai-news-trends-april-2026-complete-monthly-digest/"
+   ],
+   "points": 0.1,
+   "contribution": {
+    "libertarian_utopia": 0.03,
+    "benevolent_dictator": 0.05,
+    "egalitarian_utopia": 0.03,
+    "protector_god": 0.07,
+    "gatekeeper": 0.06,
+    "enslaved_god": 0.05,
+    "conquerors": -0.06,
+    "zookeeper": -0.05,
+    "reversion": 0.02,
+    "self_destruction": 0.02
+   },
+   "factor_effect": {
+    "F3": 0.1,
+    "F8": 0.05
+   }
+  },
+  {
+   "id": "2026-04-14-02",
+   "title": "Maine legislature passes first statewide moratorium on large data centers",
+   "summary": "Maine's House (79-62) and Senate (21-13) passed a bill pausing approvals for data centers over 20 MW until October 2027 while a council studies grid, bill, air and water impacts.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "First US state legislature to pass a data-center moratorium is a notable backlash milestone; state-level scope.",
+   "sources": [
+    "https://amp.insurancejournal.com/news/east/2026/04/15/866078.htm",
+    "https://news.bloomberglaw.com/daily-labor-report/maine-lawmakers-pass-first-in-nation-data-center-moratorium"
+   ],
+   "points": 0.48,
+   "contribution": {
+    "reversion": 0.48
+   },
+   "factor_effect": {
+    "F9": 0.48
+   }
+  },
+  {
+   "id": "2026-04-14-03",
+   "title": "Novo Nordisk partners with OpenAI, says AI will slow future hiring",
+   "summary": "Novo Nordisk announced a company-wide OpenAI deployment across drug discovery and operations and said AI would slow future hiring.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F7",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "EU",
+   "reason": "Large European employer signalling AI-driven hiring slowdown; words not cuts.",
+   "sources": [
+    "https://www.cnbc.com/2026/04/14/novo-nordisk-openai-ai-drug-discovery-healthcare-nvo.html"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "egalitarian_utopia": -0.1
+   },
+   "factor_effect": {
+    "F7": -0.14
+   }
+  },
+  {
+   "id": "2026-04-14-04",
+   "title": "CorTec prepares third stroke patient implant of its Brain Interchange BCI",
+   "summary": "German firm CorTec readied its brain-computer interface for a third stroke patient after early results showed improved hand and arm function.",
+   "category": "merge",
+   "factors": [
+    {
+     "id": "F10",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": true,
+   "novelty": "development",
+   "scope": "local",
+   "track": "structural",
+   "region": "EU",
+   "reason": "Incremental BCI clinical progress outside the US.",
+   "sources": [
+    "https://www.bioworld.com/articles/keyword/23746-synchron-inc",
+    "https://www.mobihealthnews.com/news/cortec-becomes-first-german-bci-company-get-fda-breakthrough-designation"
+   ],
+   "points": 0.01,
+   "contribution": {
+    "descendants": 0.01
+   },
+   "factor_effect": {
+    "F10": 0.01
+   }
+  }
+ ]
+}

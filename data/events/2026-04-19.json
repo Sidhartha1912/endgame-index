@@ -1,0 +1,26 @@
+[
+ {
+  "id": "2026-04-19-01",
+  "title": "Humanoid robot wins Beijing half marathon, beating human world record time",
+  "summary": "A humanoid robot won Beijing's humanoid half marathon in a time faster than the human world record, a year after the first such race saw most robots struggle.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "China",
+  "reason": "Visible, independently observed robotics progress in China; narrow capability.",
+  "sources": [
+   "https://english.beijing.gov.cn/latest/news/202604/t20260419_4593508.html",
+   "https://www.pbs.org/newshour/world/humanoid-robot-wins-beijing-half-marathon-defeating-the-human-world-record"
+  ]
+ }
+]

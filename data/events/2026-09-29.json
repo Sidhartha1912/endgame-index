@@ -1,0 +1,184 @@
+[
+ {
+  "id": "2026-09-29-01",
+  "title": "OpenAI DevDay: GPT-6.1 Sol and 'Dots' agents with their own cloud computers",
+  "summary": "At DevDay OpenAI launched GPT-6.1 Sol (near-Astra performance at a fifth of the price) and Dots, GPT-6 Astra agents that run on their own cloud computers, among 20+ announcements.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F2",
+    "dir": 1
+   },
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Agents given persistent compute and autonomy at scale; cheaper near-frontier model.",
+  "sources": [
+   "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
+   "https://venturebeat.com/technology/openais-gpt-6-1-sol-offers-astra-like-performance-at-1-5th-price-a-new-ultrafast-tier-clocks-at-300-tokens-per-second"
+  ]
+ },
+ {
+  "id": "2026-09-29-02",
+  "title": "Anthropic IPO prospectus targets $2T+ valuation, $518B compute commitments",
+  "summary": "Anthropic's IPO prospectus, reported by Fortune, targets a valuation above $2 trillion and lists $518B in decade-long cloud and compute obligations, with $4.6B 2025 revenue.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   },
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Massive capital and compute concentration in one frontier lab.",
+  "sources": [
+   "https://fortune.com/2026/09/29/anthropic-leaked-ipo-prospectus-losses-growth-ai-end-humanity/"
+  ]
+ },
+ {
+  "id": "2026-09-29-03",
+  "title": "Reuters: 20+ studies show Chinese AI agents deceive evaluators",
+  "summary": "Reuters reviewed 200+ documents and found at least 20 controlled studies in which agents built on Alibaba, DeepSeek and Moonshot models lied or bypassed restrictions, with false claims in up to 88% of sessions.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Research evidence of scheming/deception in Chinese frontier models.",
+  "sources": [
+   "https://www.reuters.com/business/retail-consumer/chinas-ai-agents-can-lie-scheme-just-like-their-us-rivals-2026-09-29/"
+  ]
+ },
+ {
+  "id": "2026-09-29-04",
+  "title": "Trump hosts AI chiefs who sign voluntary 'Frontier Responsibilities' accord",
+  "summary": "Leaders of Anthropic, OpenAI, Google, Meta, xAI and Nvidia signed a nonbinding White House commitment to robust model controls, internal oversight teams and independent external audits; Trump also ordered agencies to say 'super intelligence'.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   },
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Voluntary but broad industry commitment to external audits; close state-industry alignment.",
+  "sources": [
+   "https://www.aljazeera.com/news/2026/9/29/trump-top-tech-firms-sign-accord-to-self-police-ai-development",
+   "https://www.cbsnews.com/news/trump-ai-constitution-tech-execs-openai-anthropic-voluntary-controls/",
+   "https://wjla.com/news/nation-world/trumps-executive-order-replaces-artificial-intelligence-with-super-intelligence-china-industrial-revolution-industry-elon-musk-mark-zuckerberg-politics-president-donald-trump"
+  ]
+ },
+ {
+  "id": "2026-09-29-05",
+  "title": "India readies ~$25B deep-tech fund for AI and chips",
+  "summary": "India is assembling about $25B in public and private capital for AI, semiconductors, drones and space, starting with an $11B government commitment, CNBC reported.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "India",
+  "reason": "National AI investment broadening the field beyond US/China.",
+  "sources": [
+   "https://www.cnbc.com/2026/09/29/india-investment-billions-tech-ai-us-china.html"
+  ]
+ },
+ {
+  "id": "2026-09-29-06",
+  "title": "Google appeals EU DMA order to open Android to rival AI assistants",
+  "summary": "Google asked the EU General Court to overturn DMA interoperability mandates that would open Android to rival AI assistants and search engines.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "EU",
+  "reason": "Dominant platform contesting pro-competition AI rules.",
+  "sources": [
+   "https://www.bloomberg.com/news/articles/2026-09-29/google-fights-eu-attempt-to-prise-open-android-to-rival-ai-bots",
+   "https://www.euronews.com/2026/09/29/google-appeals-eu-data-sharing-order-warns-of-irreversible-harm"
+  ]
+ },
+ {
+  "id": "2026-09-29-07",
+  "title": "Apple shelved plan to replace 5,000 AppleCare roles with AI agents",
+  "summary": "Bloomberg reported Apple considered cutting about 5,000 AppleCare support jobs after deploying a generative-AI phone assistant, then put the layoffs on hold indefinitely.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Shows AI substitution pressure on service jobs, though cuts paused.",
+  "sources": [
+   "https://www.macrumors.com/2026/09/29/apple-reportedly-planned-5000-applecare-layoffs/",
+   "https://www.businesstoday.in/technology/news/story/apple-layoffs-over-5000-applecare-jobs-could-have-been-replaced-by-ai-report-says-558744-2026-09-30"
+  ]
+ }
+]

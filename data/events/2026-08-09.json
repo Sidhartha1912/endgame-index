@@ -1,0 +1,48 @@
+[
+ {
+  "id": "2026-08-09-01",
+  "title": "Anthropic to make Claude Code auto mode the default",
+  "summary": "From Aug 14, Claude Code on Pro, Max and Team plans will act without asking approval unless an action is irreversible or destructive.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Agents given more default autonomy over code.",
+  "sources": [
+   "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/"
+  ]
+ },
+ {
+  "id": "2026-08-09-02",
+  "title": "Moody's warns banks' reliance on few AI providers is a systemic risk",
+  "summary": "Moody's said concentration on a handful of cloud and AI vendors exposes banks to outages, cyber failures and pricing pressure, citing Lloyds.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "UK",
+  "reason": "Flags concentration risk; warning only.",
+  "sources": [
+   "https://www.theguardian.com/business/2026/aug/09/ai-push-banks-tech-firms-moodys-risks-financial-sector"
+  ]
+ }
+]

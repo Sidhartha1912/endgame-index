@@ -1,0 +1,52 @@
+[
+ {
+  "id": "2026-09-30-01",
+  "title": "DeepMind publishes SynthID Bio in Nature to watermark AI-designed proteins",
+  "summary": "Google DeepMind published methods to embed verifiable watermarks in AI-designed protein sequences and structures without impairing function, aimed at biosecurity provenance.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Biosecurity safeguard research, peer-reviewed.",
+  "sources": [
+   "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-bio/"
+  ]
+ },
+ {
+  "id": "2026-09-30-02",
+  "title": "California bars AI-only firings as Newsom signs SB 947",
+  "summary": "California became the first US state to bar employers from relying solely on automated systems to fire or discipline workers, requiring human corroboration and notice.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F2",
+    "dir": -1
+   },
+   {
+    "id": "F7",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Rubric T2: rule requiring a human in the loop in one sector.",
+  "sources": [
+   "https://www.cnbc.com/2026/09/30/california-gavin-newsom-ai-ban.html"
+  ]
+ }
+]

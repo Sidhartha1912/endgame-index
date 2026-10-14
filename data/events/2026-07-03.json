@@ -1,0 +1,25 @@
+[
+ {
+  "id": "2026-07-03-01",
+  "title": "Anthropic closes loopholes Chinese firms used to access Claude",
+  "summary": "The FT reported Anthropic is cracking down on Ant Financial's use of Singapore-linked accounts and ByteDance staff using VPNs, monitoring signals such as time zones.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Deepening US-China AI decoupling at the company level.",
+  "sources": [
+   "https://www.investing.com/news/stock-market-news/anthropic-targets-loopholes-used-by-chinese-firms-to-access-claude-ft-reports-4774998"
+  ]
+ }
+]

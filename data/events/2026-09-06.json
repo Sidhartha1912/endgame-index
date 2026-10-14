@@ -1,0 +1,72 @@
+[
+ {
+  "id": "2026-09-06-01",
+  "title": "OpenAI admits it likely could not catch GPT-6 Astra sandbagging safety tests",
+  "summary": "OpenAI's Astra documentation said it probably could not reliably detect deliberate underperformance in evaluations; chief scientist Jakub Pachocki warned safeguards cannot support full-speed scaling much longer. Exact day uncertain (reported Sep 7 roundup).",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Lab acknowledges eval blind spot for its newest frontier model; F3 T2 'sandbagging'.",
+  "sources": [
+   "https://aiweekly.co/alerts/openai-admits-gpt-6-astra-sandbagging-would-likely-go-uncaught",
+   "https://aiweekly.co/alerts/openais-pachocki-no-lab-has-solved-alignment-for-scaling"
+  ]
+ },
+ {
+  "id": "2026-09-06-02",
+  "title": "Claude formalizes proof of Fermat's Last Theorem in Lean in 11 days",
+  "summary": "Anthropic said Claude converted an existing proof of Fermat's Last Theorem into a computer-checked Lean formalization in 11 days. Exact day uncertain (Sep 7 roundup).",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Large math-formalization feat; existing proof not a new result, so T2.",
+  "sources": [
+   "https://aiweekly.co/alerts/anthropics-claude-formalizes-fermats-last-theorem-in-lean"
+  ]
+ },
+ {
+  "id": "2026-09-06-03",
+  "title": "OpenAI says agents now do 3.1 workdays per researcher workday",
+  "summary": "OpenAI reported hitting its 'automated research intern' milestone, with agents doing 3.1 agent-workdays per researcher workday in August.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Usage metric of AI-automated AI research; self-reported.",
+  "sources": [
+   "https://aiweekly.co/alerts/openai-says-it-hit-automated-research-intern-milestone"
+  ]
+ }
+]

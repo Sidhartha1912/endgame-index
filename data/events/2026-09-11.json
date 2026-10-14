@@ -1,0 +1,72 @@
+[
+ {
+  "id": "2026-09-11-01",
+  "title": "Anthropic: AI narrowing gap between lone attackers and state hackers",
+  "summary": "Anthropic case studies of Russian- and Chinese-linked operations from December to August showed AI letting small actors do more, with humans still choosing targets.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Global",
+  "reason": "Threat-intel report on AI-uplifted ops.",
+  "sources": [
+   "https://aiweekly.co/alerts/anthropic-details-russian-chinese-ai-uplifted-ops-on-claude",
+   "https://www.microsoft.com/en-us/security/blog/2026/09/10/protecting-organizations-ai-assisted-executive-impersonation-invoice-fraud/"
+  ]
+ },
+ {
+  "id": "2026-09-11-02",
+  "title": "OpenAI opens Agents API exposing Codex's managed harness",
+  "summary": "OpenAI released an Agents API public beta that manages sessions, tool coordination and recovery for developer-built agents.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Broadens agent deployment tooling.",
+  "sources": [
+   "https://aiweekly.co/alerts/openai-ships-agents-api-in-public-beta-exposing-managed-codex-harness-with"
+  ]
+ },
+ {
+  "id": "2026-09-11-03",
+  "title": "Cohere releases 218B translation model covering 50 languages",
+  "summary": "Canada's Cohere Labs released a 50-language translation MoE for non-commercial use, claiming it beats DeepL and Google in its tests.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Other",
+  "reason": "Non-US open-ish release.",
+  "sources": [
+   "https://aiweekly.co/alerts/cohere-labs-posts-218b-param-translation-moe-for-50-languages"
+  ]
+ }
+]

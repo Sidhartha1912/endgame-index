@@ -1,0 +1,95 @@
+{
+ "date": "2026-04-17",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 29.96,
+  "benevolent_dictator": 20.05,
+  "egalitarian_utopia": 17.67,
+  "protector_god": 12.13,
+  "gatekeeper": 15.1,
+  "enslaved_god": 35.12,
+  "conquerors": 15.04,
+  "descendants": 12.07,
+  "zookeeper": 8.0,
+  "orwell_1984": 24.97,
+  "reversion": 6.5,
+  "self_destruction": 18.18
+ },
+ "deltas": {
+  "libertarian_utopia": 0.0,
+  "benevolent_dictator": 0.0,
+  "egalitarian_utopia": 0.0,
+  "protector_god": 0.0,
+  "gatekeeper": 0.0,
+  "enslaved_god": 0.0,
+  "conquerors": 0.0,
+  "descendants": 0.0,
+  "zookeeper": 0.0,
+  "orwell_1984": 0.0,
+  "reversion": 0.0,
+  "self_destruction": 0.0
+ },
+ "targets": {
+  "libertarian_utopia": 29.96,
+  "benevolent_dictator": 20.05,
+  "egalitarian_utopia": 17.67,
+  "protector_god": 12.13,
+  "gatekeeper": 15.1,
+  "enslaved_god": 35.12,
+  "conquerors": 15.04,
+  "descendants": 12.07,
+  "zookeeper": 8.0,
+  "orwell_1984": 24.97,
+  "reversion": 6.5,
+  "self_destruction": 18.18
+ },
+ "momentum_7d": {},
+ "factors": {
+  "F1": 68.1,
+  "F2": 45.0,
+  "F3": 42.1,
+  "F4": 25.0,
+  "F5": 62.0,
+  "F6": 45.0,
+  "F7": 34.57,
+  "F8": 55.2,
+  "F9": 40.48,
+  "F10": 20.01
+ },
+ "factor_deltas": {
+  "F1": 0.0,
+  "F2": 0.0,
+  "F3": 0.0,
+  "F4": 0.0,
+  "F5": 0.0,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.0,
+  "F9": 0.0,
+  "F10": 0.0
+ },
+ "composites": {
+  "horizon_balance": 3.4,
+  "families": {
+   "flourishing": 19.95,
+   "contained": 25.11,
+   "successors": 11.7,
+   "stalled": 16.55
+  },
+  "news_heat": 0.0,
+  "evidence": "low",
+  "event_count": 0
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {},
+ "summary": {
+  "headline": "No scored AI news; every ending holds steady",
+  "body": "A completely quiet day. No events cleared the bar for scoring, and no earlier stories had begun to fade yet, so all twelve endings and all ten world factors stayed exactly where they were. In this early stretch, past stories were not yet set to fade, so a news-free day simply freezes the board. Horizon Balance holds at +3.40.",
+  "movers_note": "No movers today: every ending's change was 0.0.",
+  "coming_up": []
+ },
+ "events": []
+}

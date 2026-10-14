@@ -1,0 +1,52 @@
+[
+ {
+  "id": "2026-10-04-01",
+  "title": "DeepSeek V4.1 Flash narrows US-China top-model gap to ~3%, Bloomberg Intelligence says",
+  "summary": "Bloomberg Intelligence found DeepSeek's V4.1 Flash scored 81.1 on LiveBench vs Anthropic's top 83.4, the smallest US-China gap it has tracked, down from ~15% earlier in 2026.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   },
+   {
+    "id": "F4",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Chinese model near the frontier spreads power and intensifies race dynamics.",
+  "sources": [
+   "https://www.bloomberg.com/news/articles/2026-10-04/us-lead-in-ai-over-china-narrows-after-deepseek-gains-bi-says"
+  ]
+ },
+ {
+  "id": "2026-10-04-02",
+  "title": "NYT: Anthropic lobbied Vatican advisers to soften stance against AI consciousness",
+  "summary": "Anthropic co-founder Chris Olah held months of meetings with advisers to Pope Leo XIV seeking to soften the Church's position that AI systems are not conscious, the NYT reported.",
+  "category": "merge",
+  "factors": [
+   {
+    "id": "F10",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "Global",
+  "reason": "Frontier lab pushing for recognition of possible AI moral status.",
+  "sources": [
+   "https://futurism.com/artificial-intelligence/anthropic-lobbying-vatican"
+  ]
+ }
+]

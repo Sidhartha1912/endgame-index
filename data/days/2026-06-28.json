@@ -1,0 +1,117 @@
+{
+ "date": "2026-06-28",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 26.43,
+  "benevolent_dictator": 25.34,
+  "egalitarian_utopia": 14.47,
+  "protector_god": 18.04,
+  "gatekeeper": 17.9,
+  "enslaved_god": 41.74,
+  "conquerors": 20.68,
+  "descendants": 18.87,
+  "zookeeper": 15.35,
+  "orwell_1984": 24.29,
+  "reversion": 4.22,
+  "self_destruction": 21.75
+ },
+ "deltas": {
+  "libertarian_utopia": -0.0,
+  "benevolent_dictator": -0.01,
+  "egalitarian_utopia": 0.0,
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.01,
+  "conquerors": 0.01,
+  "descendants": -0.0,
+  "zookeeper": 0.01,
+  "orwell_1984": 0.0,
+  "reversion": -0.02,
+  "self_destruction": -0.02
+ },
+ "targets": {
+  "libertarian_utopia": 26.43,
+  "benevolent_dictator": 25.34,
+  "egalitarian_utopia": 14.47,
+  "protector_god": 18.04,
+  "gatekeeper": 17.9,
+  "enslaved_god": 41.74,
+  "conquerors": 20.68,
+  "descendants": 18.87,
+  "zookeeper": 15.35,
+  "orwell_1984": 24.29,
+  "reversion": 4.22,
+  "self_destruction": 21.75
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.9,
+  "benevolent_dictator": 0.13,
+  "egalitarian_utopia": -0.41,
+  "protector_god": 0.18,
+  "gatekeeper": 0.21,
+  "enslaved_god": 0.63,
+  "conquerors": 0.84,
+  "descendants": 0.43,
+  "zookeeper": 0.75,
+  "orwell_1984": 0.04,
+  "reversion": -0.21,
+  "self_destruction": 0.95
+ },
+ "factors": {
+  "F1": 75.52,
+  "F2": 48.65,
+  "F3": 42.97,
+  "F4": 22.45,
+  "F5": 66.73,
+  "F6": 45.74,
+  "F7": 33.46,
+  "F8": 57.6,
+  "F9": 41.69,
+  "F10": 20.22
+ },
+ "factor_deltas": {
+  "F1": -0.0,
+  "F2": 0.0,
+  "F3": -0.02,
+  "F4": 0.0,
+  "F5": 0.01,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": -0.03,
+  "F9": -0.01,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": 0.55,
+  "families": {
+   "flourishing": 21.07,
+   "contained": 29.82,
+   "successors": 18.3,
+   "stalled": 16.75
+  },
+  "news_heat": 0.0,
+  "evidence": "low",
+  "event_count": 0
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": -0.01,
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.01,
+  "conquerors": 0.01,
+  "zookeeper": 0.01,
+  "reversion": -0.02,
+  "self_destruction": -0.02
+ },
+ "summary": {
+  "headline": "Second empty day in a row; minimal drift",
+  "body": "Another quiet day with no scored events. The same gentle fade of older stories continued, and no line moved more than a few hundredths. The board still reflects the late-June mix of gated frontier models and alignment worries. Horizon Balance: +0.55.",
+  "movers_note": "No ending moved by as much as 0.05 points (all 0.0 at one decimal); Reversion and Self-Destruction shifted most, by two hundredths, from fading contributions.",
+  "coming_up": []
+ },
+ "events": []
+}

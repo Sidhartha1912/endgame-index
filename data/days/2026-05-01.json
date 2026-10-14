@@ -1,0 +1,155 @@
+{
+ "date": "2026-05-01",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 28.74,
+  "benevolent_dictator": 20.31,
+  "egalitarian_utopia": 16.11,
+  "protector_god": 12.99,
+  "gatekeeper": 15.33,
+  "enslaved_god": 35.76,
+  "conquerors": 18.05,
+  "descendants": 14.23,
+  "zookeeper": 10.42,
+  "orwell_1984": 24.42,
+  "reversion": 5.56,
+  "self_destruction": 20.53
+ },
+ "deltas": {
+  "libertarian_utopia": -0.4,
+  "benevolent_dictator": 0.24,
+  "egalitarian_utopia": -0.32,
+  "protector_god": 0.2,
+  "gatekeeper": 0.12,
+  "enslaved_god": -0.12,
+  "conquerors": 0.44,
+  "descendants": 0.24,
+  "zookeeper": 0.24,
+  "orwell_1984": 0.0,
+  "reversion": 0.32,
+  "self_destruction": 0.87
+ },
+ "targets": {
+  "libertarian_utopia": 28.74,
+  "benevolent_dictator": 20.31,
+  "egalitarian_utopia": 16.11,
+  "protector_god": 12.99,
+  "gatekeeper": 15.33,
+  "enslaved_god": 35.76,
+  "conquerors": 18.05,
+  "descendants": 14.23,
+  "zookeeper": 10.42,
+  "orwell_1984": 24.42,
+  "reversion": 5.56,
+  "self_destruction": 20.53
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.32,
+  "benevolent_dictator": -0.14,
+  "egalitarian_utopia": -0.32,
+  "protector_god": 0.39,
+  "gatekeeper": -0.21,
+  "enslaved_god": -0.07,
+  "conquerors": 1.12,
+  "descendants": 0.86,
+  "zookeeper": 0.6,
+  "orwell_1984": -0.69,
+  "reversion": -0.03,
+  "self_destruction": 1.59
+ },
+ "factors": {
+  "F1": 70.7,
+  "F2": 46.02,
+  "F3": 41.01,
+  "F4": 24.34,
+  "F5": 61.9,
+  "F6": 45.6,
+  "F7": 33.88,
+  "F8": 56.64,
+  "F9": 40.53,
+  "F10": 19.99
+ },
+ "factor_deltas": {
+  "F1": 0.0,
+  "F2": 0.4,
+  "F3": 0.0,
+  "F4": 0.0,
+  "F5": 0.0,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.8,
+  "F9": -0.0,
+  "F10": 0.0
+ },
+ "composites": {
+  "horizon_balance": 1.18,
+  "families": {
+   "flourishing": 19.54,
+   "contained": 25.55,
+   "successors": 14.23,
+   "stalled": 16.84
+  },
+  "news_heat": 1.2,
+  "evidence": "medium",
+  "event_count": 1
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {},
+ "summary": {
+  "headline": "Pentagon signs seven AI firms for war networks — Self-Destruction jumps",
+  "body": "One defence story made the day. The US Defense Department signed agreements with Google, OpenAI, Nvidia, Microsoft, Amazon, SpaceX and Reflection to run AI on classified networks, aiming for an 'AI-first fighting force'. Anthropic was left out and is still designated a supply-chain risk. Militarised AI raises Catastrophic Risk and also AI Autonomy, since AI takes on more operational roles. That lifts Self-Destruction, where conflict ends the story, and Conquerors, where capable AI slips out of control in a militarised world. Peaceful endings like Libertarian Utopia and Egalitarian Utopia lost ground. Horizon Balance fell to +1.18, down 0.46, and two endings swapped places.",
+  "movers_note": "Self-Destruction +0.9, Conquerors +0.4 and Libertarian Utopia -0.4, all from the Pentagon's classified-network AI deals (+0.87, +0.44 and -0.40).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-05-01-01",
+   "title": "Pentagon signs classified-network AI deals with seven firms, excluding Anthropic",
+   "summary": "The Defense Department signed agreements with Google, OpenAI, Nvidia, Microsoft, Amazon, SpaceX and Reflection to deploy AI on classified networks, aiming for an 'AI-first fighting force'; Anthropic remains designated a supply-chain risk.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    },
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Major multi-vendor military AI contracts; continuing Anthropic dispute over autonomous weapons/surveillance limits.",
+   "sources": [
+    "https://www.theamericanconservative.com/pentagon-announces-ai-deal-with-google-openai-nvidia-others/",
+    "https://www.newsnationnow.com/us-news/military/pentagon-deal-openai-google-nvidia-reflection-microsoft-aws-spacex-anthropic/amp/"
+   ],
+   "points": 0.8,
+   "contribution": {
+    "libertarian_utopia": -0.4,
+    "benevolent_dictator": 0.24,
+    "egalitarian_utopia": -0.32,
+    "protector_god": 0.2,
+    "gatekeeper": 0.12,
+    "enslaved_god": -0.12,
+    "conquerors": 0.44,
+    "descendants": 0.24,
+    "zookeeper": 0.24,
+    "reversion": 0.32,
+    "self_destruction": 0.87
+   },
+   "factor_effect": {
+    "F2": 0.4,
+    "F8": 0.8
+   }
+  }
+ ]
+}

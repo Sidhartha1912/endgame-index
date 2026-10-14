@@ -1,0 +1,30 @@
+[
+ {
+  "id": "2026-05-01-01",
+  "title": "Pentagon signs classified-network AI deals with seven firms, excluding Anthropic",
+  "summary": "The Defense Department signed agreements with Google, OpenAI, Nvidia, Microsoft, Amazon, SpaceX and Reflection to deploy AI on classified networks, aiming for an 'AI-first fighting force'; Anthropic remains designated a supply-chain risk.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Major multi-vendor military AI contracts; continuing Anthropic dispute over autonomous weapons/surveillance limits.",
+  "sources": [
+   "https://www.theamericanconservative.com/pentagon-announces-ai-deal-with-google-openai-nvidia-others/",
+   "https://www.newsnationnow.com/us-news/military/pentagon-deal-openai-google-nvidia-reflection-microsoft-aws-spacex-anthropic/amp/"
+  ]
+ }
+]

@@ -1,0 +1,53 @@
+[
+ {
+  "id": "2026-05-28-01",
+  "title": "Anthropic releases Claude Opus 4.8",
+  "summary": "Anthropic released Claude Opus 4.8, aimed at longer agentic coding tasks, available on its API and major clouds.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Incremental frontier update ahead of Mythos-class launch.",
+  "sources": [
+   "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/partner-models/claude/opus-4-8",
+   "https://rits.shanghai.nyu.edu/ai/anthropic-releases-claude-opus-4-8-for-longer-agentic-coding/"
+  ]
+ },
+ {
+  "id": "2026-05-28-02",
+  "title": "South Korea announces plan against AI-based cyber threats to personal data",
+  "summary": "Korea's Ministry of Science and ICT launched a public-private plan to protect personal information from AI-enabled cyberattacks.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "Other",
+  "reason": "National defensive cyber measure.",
+  "sources": [
+   "https://techieray.substack.com/p/ctrlaireg-1-june-2026"
+  ]
+ }
+]

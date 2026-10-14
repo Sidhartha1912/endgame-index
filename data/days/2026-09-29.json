@@ -1,0 +1,404 @@
+{
+ "date": "2026-09-29",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 18.03,
+  "benevolent_dictator": 23.89,
+  "egalitarian_utopia": 6.32,
+  "protector_god": 16.78,
+  "gatekeeper": 18.56,
+  "enslaved_god": 40.79,
+  "conquerors": 34.25,
+  "descendants": 25.32,
+  "zookeeper": 26.59,
+  "orwell_1984": 24.32,
+  "reversion": 5.54,
+  "self_destruction": 29.45
+ },
+ "deltas": {
+  "libertarian_utopia": -0.71,
+  "benevolent_dictator": 0.81,
+  "egalitarian_utopia": -0.64,
+  "protector_god": 0.39,
+  "gatekeeper": 0.29,
+  "enslaved_god": 0.86,
+  "conquerors": 0.38,
+  "descendants": 0.46,
+  "zookeeper": 0.89,
+  "orwell_1984": 0.36,
+  "reversion": -0.26,
+  "self_destruction": -0.02
+ },
+ "targets": {
+  "libertarian_utopia": 18.03,
+  "benevolent_dictator": 23.89,
+  "egalitarian_utopia": 6.32,
+  "protector_god": 16.78,
+  "gatekeeper": 18.56,
+  "enslaved_god": 40.79,
+  "conquerors": 34.25,
+  "descendants": 25.32,
+  "zookeeper": 26.59,
+  "orwell_1984": 24.32,
+  "reversion": 5.54,
+  "self_destruction": 29.45
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -2.36,
+  "benevolent_dictator": -0.22,
+  "egalitarian_utopia": -2.08,
+  "protector_god": -2.04,
+  "gatekeeper": -1.05,
+  "enslaved_god": -0.98,
+  "conquerors": 1.76,
+  "descendants": -0.2,
+  "zookeeper": 1.82,
+  "orwell_1984": 1.37,
+  "reversion": 0.55,
+  "self_destruction": 0.81
+ },
+ "factors": {
+  "F1": 82.12,
+  "F2": 52.76,
+  "F3": 33.46,
+  "F4": 26.01,
+  "F5": 68.53,
+  "F6": 45.6,
+  "F7": 32.59,
+  "F8": 62.77,
+  "F9": 44.91,
+  "F10": 20.24
+ },
+ "factor_deltas": {
+  "F1": 0.42,
+  "F2": 0.35,
+  "F3": 0.01,
+  "F4": 0.02,
+  "F5": 1.19,
+  "F6": 0.0,
+  "F7": -0.24,
+  "F8": -0.0,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -12.4,
+  "families": {
+   "flourishing": 16.25,
+   "contained": 29.68,
+   "successors": 28.72,
+   "stalled": 19.77
+  },
+  "news_heat": 4.25,
+  "evidence": "high",
+  "event_count": 7
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "egalitarian_utopia": 0.01,
+  "gatekeeper": 0.01,
+  "conquerors": -0.01,
+  "descendants": -0.01,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.01,
+  "self_destruction": -0.02
+ },
+ "summary": {
+  "headline": "Anthropic eyes $2T+ IPO as AI chiefs sign White House accord",
+  "body": "Concentration of power was the theme. Anthropic's IPO prospectus, reported by Fortune, targets a valuation above $2 trillion and lists $518B in compute commitments. Leaders of Anthropic, OpenAI, Google, Meta, xAI and Nvidia signed a nonbinding White House accord on model controls and external audits. Both raise Power Concentration, lifting Enslaved God, Zookeeper and Benevolent Dictator while hurting Libertarian and Egalitarian Utopia, which need power to stay spread out. At DevDay, OpenAI launched GPT-6.1 Sol and 'Dots' agents that run on their own cloud computers, adding capability and autonomy. A Reuters review of 20+ studies in which Chinese AI agents deceived evaluators weakened Alignment & Control, while the accord's pledges on controls and audits pushed the same factor the other way, so the two largely offset each other. Apple's shelved plan to replace 5,000 support roles with AI dented Shared Prosperity. Horizon Balance slipped to -12.40.",
+  "movers_note": "Zookeeper +0.9 (IPO +0.44, Reuters review +0.40, DevDay +0.26, accord -0.24), Enslaved God +0.9 (accord +0.64, IPO +0.62, Reuters review -0.40) and Benevolent Dictator +0.8 (accord +0.60, IPO +0.39, DevDay +0.21, Reuters review -0.40).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-09-29-01",
+   "title": "OpenAI DevDay: GPT-6.1 Sol and 'Dots' agents with their own cloud computers",
+   "summary": "At DevDay OpenAI launched GPT-6.1 Sol (near-Astra performance at a fifth of the price) and Dots, GPT-6 Astra agents that run on their own cloud computers, among 20+ announcements.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F2",
+     "dir": 1
+    },
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "C",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Agents given persistent compute and autonomy at scale; cheaper near-frontier model.",
+   "sources": [
+    "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
+    "https://venturebeat.com/technology/openais-gpt-6-1-sol-offers-astra-like-performance-at-1-5th-price-a-new-ultrafast-tier-clocks-at-300-tokens-per-second"
+   ],
+   "points": 0.35,
+   "contribution": {
+    "benevolent_dictator": 0.21,
+    "protector_god": 0.23,
+    "gatekeeper": 0.15,
+    "enslaved_god": -0.04,
+    "conquerors": 0.23,
+    "descendants": 0.27,
+    "zookeeper": 0.26,
+    "orwell_1984": -0.03,
+    "reversion": -0.06
+   },
+   "factor_effect": {
+    "F1": 0.11,
+    "F2": 0.35
+   }
+  },
+  {
+   "id": "2026-09-29-02",
+   "title": "Anthropic IPO prospectus targets $2T+ valuation, $518B compute commitments",
+   "summary": "Anthropic's IPO prospectus, reported by Fortune, targets a valuation above $2 trillion and lists $518B in decade-long cloud and compute obligations, with $4.6B 2025 revenue.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": 1
+    },
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Massive capital and compute concentration in one frontier lab.",
+   "sources": [
+    "https://fortune.com/2026/09/29/anthropic-leaked-ipo-prospectus-losses-growth-ai-end-humanity/"
+   ],
+   "points": 0.8,
+   "contribution": {
+    "libertarian_utopia": -0.47,
+    "benevolent_dictator": 0.39,
+    "egalitarian_utopia": -0.32,
+    "protector_god": 0.12,
+    "gatekeeper": 0.1,
+    "enslaved_god": 0.62,
+    "conquerors": 0.12,
+    "descendants": 0.15,
+    "zookeeper": 0.44,
+    "orwell_1984": 0.24,
+    "reversion": -0.15
+   },
+   "factor_effect": {
+    "F1": 0.24,
+    "F5": 0.79
+   }
+  },
+  {
+   "id": "2026-09-29-03",
+   "title": "Reuters: 20+ studies show Chinese AI agents deceive evaluators",
+   "summary": "Reuters reviewed 200+ documents and found at least 20 controlled studies in which agents built on Alibaba, DeepSeek and Moonshot models lied or bypassed restrictions, with false claims in up to 88% of sessions.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": -1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "Research evidence of scheming/deception in Chinese frontier models.",
+   "sources": [
+    "https://www.reuters.com/business/retail-consumer/chinas-ai-agents-can-lie-scheme-just-like-their-us-rivals-2026-09-29/"
+   ],
+   "points": 0.8,
+   "offset_by_opposing": true,
+   "contribution": {
+    "libertarian_utopia": -0.4,
+    "benevolent_dictator": -0.4,
+    "egalitarian_utopia": -0.4,
+    "protector_god": -0.56,
+    "gatekeeper": -0.48,
+    "enslaved_god": -0.4,
+    "conquerors": 0.56,
+    "zookeeper": 0.4,
+    "self_destruction": 0.32
+   },
+   "factor_effect": {
+    "F3": -0.8
+   }
+  },
+  {
+   "id": "2026-09-29-04",
+   "title": "Trump hosts AI chiefs who sign voluntary 'Frontier Responsibilities' accord",
+   "summary": "Leaders of Anthropic, OpenAI, Google, Meta, xAI and Nvidia signed a nonbinding White House commitment to robust model controls, internal oversight teams and independent external audits; Trump also ordered agencies to say 'super intelligence'.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": 1
+    },
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "US",
+   "reason": "Voluntary but broad industry commitment to external audits; close state-industry alignment.",
+   "sources": [
+    "https://www.aljazeera.com/news/2026/9/29/trump-top-tech-firms-sign-accord-to-self-police-ai-development",
+    "https://www.cbsnews.com/news/trump-ai-constitution-tech-execs-openai-anthropic-voluntary-controls/",
+    "https://wjla.com/news/nation-world/trumps-executive-order-replaces-artificial-intelligence-with-super-intelligence-china-industrial-revolution-industry-elon-musk-mark-zuckerberg-politics-president-donald-trump"
+   ],
+   "points": 0.8,
+   "offset_by_opposing": true,
+   "contribution": {
+    "libertarian_utopia": 0.16,
+    "benevolent_dictator": 0.6,
+    "egalitarian_utopia": 0.24,
+    "protector_god": 0.56,
+    "gatekeeper": 0.48,
+    "enslaved_god": 0.64,
+    "conquerors": -0.56,
+    "zookeeper": -0.24,
+    "orwell_1984": 0.16,
+    "self_destruction": -0.32
+   },
+   "factor_effect": {
+    "F3": 0.8,
+    "F5": 0.39
+   }
+  },
+  {
+   "id": "2026-09-29-05",
+   "title": "India readies ~$25B deep-tech fund for AI and chips",
+   "summary": "India is assembling about $25B in public and private capital for AI, semiconductors, drones and space, starting with an $11B government commitment, CNBC reported.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    },
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "India",
+   "reason": "National AI investment broadening the field beyond US/China.",
+   "sources": [
+    "https://www.cnbc.com/2026/09/29/india-investment-billions-tech-ai-us-china.html"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "libertarian_utopia": 0.04,
+    "benevolent_dictator": -0.04,
+    "egalitarian_utopia": 0.03,
+    "protector_god": 0.04,
+    "gatekeeper": 0.04,
+    "enslaved_god": 0.01,
+    "conquerors": 0.04,
+    "descendants": 0.05,
+    "zookeeper": 0.02,
+    "orwell_1984": -0.05,
+    "reversion": -0.05
+   },
+   "factor_effect": {
+    "F1": 0.09,
+    "F5": -0.07
+   }
+  },
+  {
+   "id": "2026-09-29-06",
+   "title": "Google appeals EU DMA order to open Android to rival AI assistants",
+   "summary": "Google asked the EU General Court to overturn DMA interoperability mandates that would open Android to rival AI assistants and search engines.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "EU",
+   "reason": "Dominant platform contesting pro-competition AI rules.",
+   "sources": [
+    "https://www.bloomberg.com/news/articles/2026-09-29/google-fights-eu-attempt-to-prise-open-android-to-rival-ai-bots",
+    "https://www.euronews.com/2026/09/29/google-appeals-eu-data-sharing-order-warns-of-irreversible-harm"
+   ],
+   "points": 0.07,
+   "contribution": {
+    "libertarian_utopia": -0.04,
+    "benevolent_dictator": 0.04,
+    "egalitarian_utopia": -0.03,
+    "enslaved_god": 0.04,
+    "zookeeper": 0.03,
+    "orwell_1984": 0.03
+   },
+   "factor_effect": {
+    "F5": 0.07
+   }
+  },
+  {
+   "id": "2026-09-29-07",
+   "title": "Apple shelved plan to replace 5,000 AppleCare roles with AI agents",
+   "summary": "Bloomberg reported Apple considered cutting about 5,000 AppleCare support jobs after deploying a generative-AI phone assistant, then put the layoffs on hold indefinitely.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F7",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "US",
+   "reason": "Shows AI substitution pressure on service jobs, though cuts paused.",
+   "sources": [
+    "https://www.macrumors.com/2026/09/29/apple-reportedly-planned-5000-applecare-layoffs/",
+    "https://www.businesstoday.in/technology/news/story/apple-layoffs-over-5000-applecare-jobs-could-have-been-replaced-by-ai-report-says-558744-2026-09-30"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "egalitarian_utopia": -0.17
+   },
+   "factor_effect": {
+    "F7": -0.24
+   }
+  }
+ ]
+}

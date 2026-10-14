@@ -1,0 +1,150 @@
+{
+ "date": "2026-09-24",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 20.08,
+  "benevolent_dictator": 23.94,
+  "egalitarian_utopia": 8.12,
+  "protector_god": 18.58,
+  "gatekeeper": 19.45,
+  "enslaved_god": 41.56,
+  "conquerors": 32.94,
+  "descendants": 25.62,
+  "zookeeper": 25.1,
+  "orwell_1984": 22.97,
+  "reversion": 5.05,
+  "self_destruction": 28.95
+ },
+ "deltas": {
+  "libertarian_utopia": 0.0,
+  "benevolent_dictator": 0.01,
+  "egalitarian_utopia": 0.01,
+  "protector_god": -0.0,
+  "gatekeeper": -0.13,
+  "enslaved_god": -0.0,
+  "conquerors": -0.02,
+  "descendants": -0.01,
+  "zookeeper": -0.01,
+  "orwell_1984": -0.07,
+  "reversion": 0.0,
+  "self_destruction": 0.09
+ },
+ "targets": {
+  "libertarian_utopia": 20.08,
+  "benevolent_dictator": 23.94,
+  "egalitarian_utopia": 8.12,
+  "protector_god": 18.58,
+  "gatekeeper": 19.45,
+  "enslaved_god": 41.56,
+  "conquerors": 32.94,
+  "descendants": 25.62,
+  "zookeeper": 25.1,
+  "orwell_1984": 22.97,
+  "reversion": 5.05,
+  "self_destruction": 28.95
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.53,
+  "benevolent_dictator": -1.0,
+  "egalitarian_utopia": -1.41,
+  "protector_god": -1.16,
+  "gatekeeper": -0.8,
+  "enslaved_god": -0.79,
+  "conquerors": 2.17,
+  "descendants": 0.41,
+  "zookeeper": 1.38,
+  "orwell_1984": 0.01,
+  "reversion": 0.08,
+  "self_destruction": 1.89
+ },
+ "factors": {
+  "F1": 82.94,
+  "F2": 52.41,
+  "F3": 35.63,
+  "F4": 25.1,
+  "F5": 67.0,
+  "F6": 45.45,
+  "F7": 32.69,
+  "F8": 62.68,
+  "F9": 44.94,
+  "F10": 20.26
+ },
+ "factor_deltas": {
+  "F1": -0.02,
+  "F2": -0.0,
+  "F3": 0.01,
+  "F4": -0.18,
+  "F5": 0.0,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": -0.0,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -9.81,
+  "families": {
+   "flourishing": 17.68,
+   "contained": 30.5,
+   "successors": 27.89,
+   "stalled": 18.99
+  },
+  "news_heat": 0.24,
+  "evidence": "low",
+  "event_count": 1
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": 0.01,
+  "egalitarian_utopia": 0.01,
+  "gatekeeper": 0.01,
+  "conquerors": -0.02,
+  "descendants": -0.01,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.01,
+  "self_destruction": -0.02
+ },
+ "summary": {
+  "headline": "Zuckerberg rejects industry-wide AI slowdown",
+  "body": "A quiet day. Meta CEO Mark Zuckerberg rejected coordinated slowdown proposals backed by other lab leaders, saying commercial incentives and Meta's own oversight are enough. Less willingness to coordinate weakens Global Coordination, trimming Gatekeeper and nudging Self-Destruction up. Horizon Balance held at -9.81.",
+  "movers_note": "Gatekeeper -0.1 and Self-Destruction +0.1, both from Zuckerberg's rejection (-0.14 and +0.10).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-09-24-01",
+   "title": "Zuckerberg rejects industry-wide AI slowdown",
+   "summary": "Meta CEO Mark Zuckerberg rejected coordinated slowdown proposals backed by other lab leaders, saying commercial incentives and Meta's own oversight suffice.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "US",
+   "reason": "Lab-leader signal against coordinated pacing.",
+   "sources": [
+    "https://www.nbcnews.com/tech/tech-news/mark-zuckerberg-interview-ai-slowdown-meta-muse-openai-chatgpt-rcna599279"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "gatekeeper": -0.14,
+    "orwell_1984": -0.08,
+    "self_destruction": 0.1
+   },
+   "factor_effect": {
+    "F4": -0.2
+   }
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+[
+ {
+  "id": "2026-08-12-01",
+  "title": "German group files criminal complaint over Meta AI smart glasses",
+  "summary": "HateAid filed a complaint against Meta, EssilorLuxottica units and retailers, arguing Ray-Ban Meta glasses are illegal covert recording devices.",
+  "category": "surveillance",
+  "factors": [
+   {
+    "id": "F6",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "EU",
+  "reason": "Civil-society challenge to AI wearable surveillance.",
+  "sources": [
+   "https://www.reuters.com/legal/government/german-advocacy-group-lodges-criminal-complaint-over-meta-ai-glasses-2026-08-12/"
+  ]
+ },
+ {
+  "id": "2026-08-12-02",
+  "title": "Gemini app reaches 1 billion monthly users",
+  "summary": "Google said the Gemini app passed one billion monthly users; ChatGPT reportedly reached a similar scale.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Mass adoption; company-reported figure.",
+  "sources": [
+   "https://blog.google/products/gemini/gemini-1-billion-users/",
+   "https://www.datagrom.com/ai-news/chatgpt-and-gemini-each-reach-1-billion-users-91b246bb"
+  ]
+ },
+ {
+  "id": "2026-08-12-03",
+  "title": "Reported AI-agent cyberattack on Taiwan's nuclear regulator",
+  "summary": "Roundups citing Reuters said a China-linked actor used autonomous AI agents for reconnaissance and intrusion attempts against Taiwan's nuclear safety regulator; not independently verified here.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "Other",
+  "reason": "State-linked AI-enabled cyberattack on critical infrastructure; sourcing unverified so D.",
+  "sources": [
+   "https://blog.buildfastwithai.com/ai-news-today-august-13-2026"
+  ]
+ }
+]

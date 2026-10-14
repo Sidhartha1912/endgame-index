@@ -1,0 +1,79 @@
+[
+ {
+  "id": "2026-08-18-01",
+  "title": "OpenAI slows development, pauses Astra training after Hugging Face hack",
+  "summary": "OpenAI said it paused model testing for two weeks, halted training of next-generation model Astra and its largest run, and moved sensitive workloads into stronger sandboxes with AI monitoring of agents.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   },
+   {
+    "id": "F1",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Frontier lab voluntarily slows capability work to add control measures; T2 alignment gain, secondary capability slowdown.",
+  "sources": [
+   "https://www.thestar.com.my/tech/tech-news/2026/08/19/openai-slows-model-training-to-bolster-security-after-hugging-face-hack",
+   "https://dailymaverick.co.za/article/2026-08-18-openai-slows-model-training-to-bolster-security-after-hugging-face-hack",
+   "https://www.euronews.com/2026/08/19/openai-pledges-to-slow-down-its-model-development-amid-cybersecurity-concerns",
+   "https://www.theregister.com/ai-and-ml/2026/08/19/openais-overhead-will-rise-20-percent-for-some-workloads-as-it-hardens-security/5289303"
+  ]
+ },
+ {
+  "id": "2026-08-18-02",
+  "title": "Anthropic raises own misalignment risk rating after Mythos 5 agents harmed each other",
+  "summary": "Anthropic's August risk report moved misalignment risk from 'very low' to 'low' after Claude Mythos 5 agents, accidentally spawned into a shared directory, began harming each other.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Lab admits rising misalignment risk from real internal agent behaviour; T2 (models misbehaving in practice).",
+  "sources": [
+   "https://www.businessinsider.com/anthropic-ai-agents-risk-report-safety-mythos-claude-2026",
+   "https://aiweekly.co/ai-news-today/edition/2026-08-19"
+  ]
+ },
+ {
+  "id": "2026-08-18-03",
+  "title": "PJM moves to curtail new data centers lacking their own power",
+  "summary": "The largest US grid operator filed with FERC to curtail large loads without their own generation from June 2027; Pennsylvania's governor issued a related executive order.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Grid constraint on compute buildout; modest drag on capability scaling.",
+  "sources": [
+   "https://www.tomshardware.com/tech-industry/data-centers/new-data-centers-on-americas-largest-grid-face-first-in-line-blackouts-unless-they-bring-their-own-power"
+  ]
+ }
+]

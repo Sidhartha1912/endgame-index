@@ -1,0 +1,50 @@
+[
+ {
+  "id": "2026-05-07-01",
+  "title": "EU Council and Parliament agree to delay and simplify AI Act rules",
+  "summary": "A provisional AI omnibus deal pushes standalone high-risk obligations to Dec 2027 and embedded ones to Aug 2028, while adding a ban on nudification and CSAM-generating AI tools.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "EU",
+  "reason": "Binding-rule timetable loosened in the world's main AI regime; partial offset by new prohibition.",
+  "sources": [
+   "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/",
+   "https://www.reuters.com/world/eu-countries-lawmakers-strike-provisional-deal-watered-down-ai-rules-2026-05-07/"
+  ]
+ },
+ {
+  "id": "2026-05-07-02",
+  "title": "Cloudflare lays off ~1,100 (about 20%), saying AI made roles obsolete",
+  "summary": "Cloudflare announced about 1,100 job cuts as it rebuilt processes for the agentic AI era, with CEO Matthew Prince saying many cut roles were 'measurers'.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Large share of workforce cut explicitly attributed to AI.",
+  "sources": [
+   "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+   "https://www.techtarget.com/searchcio/feature/Weekly-News-Roundup-OpenAI-launch-AI-lawsuits-and-frameworks-and-Pentagon-AI-alliances"
+  ]
+ }
+]

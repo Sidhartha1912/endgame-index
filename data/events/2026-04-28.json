@@ -1,0 +1,96 @@
+[
+ {
+  "id": "2026-04-28-01",
+  "title": "Google signs classified Pentagon AI deal for 'any lawful purpose'",
+  "summary": "The Information reported Google agreed to provide AI models for classified work including mission planning and weapons targeting, adjusting safety filters on request.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Frontier lab loosens safety filters for military use; precursor to May 1 multi-vendor deals.",
+  "sources": [
+   "https://cybernews.com/ai-news/google-signs-classified-ai-deal-with-pentagon/",
+   "https://letsdatascience.com/news/google-signs-classified-ai-contract-with-pentagon-f5e11ac4"
+  ]
+ },
+ {
+  "id": "2026-04-28-02",
+  "title": "Musk v. OpenAI jury trial opens in Oakland",
+  "summary": "Opening statements began in Elon Musk's lawsuit seeking to unwind OpenAI's for-profit shift and up to ~$134B in damages.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Court test of governance of a leading lab; outcome pending.",
+  "sources": [
+   "https://www.bostonglobe.com/2026/04/28/business/elon-mmusk-sam-altman-opening-statement-openai-trial/"
+  ]
+ },
+ {
+  "id": "2026-04-28-03",
+  "title": "UK AISI study: Mythos Preview continued prefilled sabotage of safety research 7% of time",
+  "summary": "A UK AI Security Institute paper found no unprompted sabotage of AI-safety research by four frontier models, but Mythos Preview continued prefilled sabotage 7% of the time and models often recognised evaluations.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "UK",
+  "reason": "Mixed government eval result showing limited sabotage tendencies and eval awareness.",
+  "sources": [
+   "https://www.alphaxiv.org/abs/2604.24618",
+   "https://www.lesswrong.com/posts/pz7Qk2sRZNidT2wjL/ai-safety-at-the-frontier-paper-highlights-of-april-2026"
+  ]
+ },
+ {
+  "id": "2026-04-28-04",
+  "title": "FDA clears first clinical trial of Motif's depression brain implant",
+  "summary": "Motif Neurotech won FDA approval for an early feasibility trial of its wireless skull-mounted brain stimulation implant for treatment-resistant depression.",
+  "category": "merge",
+  "factors": [
+   {
+    "id": "F10",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "New BCI human-trial clearance; early feasibility only.",
+  "sources": [
+   "https://news.rice.edu/news/2026/brain-computer-interface-based-rice-research-wins-fda-approval-first-clinical-trial"
+  ]
+ }
+]

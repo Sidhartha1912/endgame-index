@@ -1,0 +1,252 @@
+{
+ "date": "2026-04-23",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 28.72,
+  "benevolent_dictator": 20.73,
+  "egalitarian_utopia": 16.2,
+  "protector_god": 12.46,
+  "gatekeeper": 15.42,
+  "enslaved_god": 36.0,
+  "conquerors": 16.79,
+  "descendants": 13.2,
+  "zookeeper": 9.9,
+  "orwell_1984": 25.42,
+  "reversion": 5.8,
+  "self_destruction": 18.94
+ },
+ "deltas": {
+  "libertarian_utopia": -0.04,
+  "benevolent_dictator": 0.18,
+  "egalitarian_utopia": -0.53,
+  "protector_god": 0.52,
+  "gatekeeper": 0.38,
+  "enslaved_god": 0.28,
+  "conquerors": 0.52,
+  "descendants": 0.47,
+  "zookeeper": 0.53,
+  "orwell_1984": -0.23,
+  "reversion": -0.42,
+  "self_destruction": 0.0
+ },
+ "targets": {
+  "libertarian_utopia": 28.72,
+  "benevolent_dictator": 20.73,
+  "egalitarian_utopia": 16.2,
+  "protector_god": 12.46,
+  "gatekeeper": 15.42,
+  "enslaved_god": 36.0,
+  "conquerors": 16.79,
+  "descendants": 13.2,
+  "zookeeper": 9.9,
+  "orwell_1984": 25.42,
+  "reversion": 5.8,
+  "self_destruction": 18.94
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.23,
+  "benevolent_dictator": 0.68,
+  "egalitarian_utopia": -1.47,
+  "protector_god": 0.34,
+  "gatekeeper": 0.32,
+  "enslaved_god": 0.89,
+  "conquerors": 1.75,
+  "descendants": 1.13,
+  "zookeeper": 1.9,
+  "orwell_1984": 0.45,
+  "reversion": -0.69,
+  "self_destruction": 0.76
+ },
+ "factors": {
+  "F1": 69.63,
+  "F2": 45.62,
+  "F3": 41.31,
+  "F4": 25.0,
+  "F5": 62.93,
+  "F6": 45.6,
+  "F7": 33.8,
+  "F8": 55.6,
+  "F9": 40.54,
+  "F10": 19.81
+ },
+ "factor_deltas": {
+  "F1": 0.7,
+  "F2": 0.35,
+  "F3": 0.0,
+  "F4": 0.0,
+  "F5": -0.06,
+  "F6": 0.0,
+  "F7": -0.79,
+  "F8": 0.0,
+  "F9": -0.0,
+  "F10": -0.2
+ },
+ "composites": {
+  "horizon_balance": 1.77,
+  "families": {
+   "flourishing": 19.53,
+   "contained": 25.71,
+   "successors": 13.3,
+   "stalled": 16.72
+  },
+  "news_heat": 2.21,
+  "evidence": "medium",
+  "event_count": 4
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {},
+ "summary": {
+  "headline": "GPT-5.5 lands as Meta cuts 8,000 jobs for AI",
+  "body": "A heavy news day. OpenAI released GPT-5.5, an agent-focused model that it rates High risk for biological and cyber capability. That raises both Capability Velocity and AI Autonomy, lifting endings that need powerful, independent AI: Descendants, Zookeeper, Protector God and Conquerors. Meta confirmed about 8,000 layoffs, roughly 10%, starting May 20 to fund its AI build-out. That cuts into Shared Prosperity and pulls Egalitarian Utopia down. Tennessee's new law declaring that AI cannot be a legal person draws a firmer line between humans and machines, weakening Human–AI Merging and trimming Descendants. Tencent's open Hy3 model was a small counterweight to power concentration. Horizon Balance slipped to +1.77, down 0.17, and two endings swapped places.",
+  "movers_note": "Egalitarian Utopia -0.5 came from Meta's layoffs (-0.56). Zookeeper +0.5, Protector God +0.5 and Conquerors +0.5 were driven by the GPT-5.5 release (+0.56, +0.52 and +0.52).",
+  "coming_up": [
+   "Meta's roughly 8,000 job cuts begin May 20"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-04-23-01",
+   "title": "OpenAI releases GPT-5.5, rated 'High' for bio and cyber risk",
+   "summary": "OpenAI launched GPT-5.5, an agent-oriented frontier model claiming state of the art on 14 benchmarks, rated High under its Preparedness Framework for biological and cybersecurity capability.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    },
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "New frontier model with notable gains in agentic coding; benchmarks self-reported.",
+   "sources": [
+    "https://openai.com/index/introducing-gpt-5-5/",
+    "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/"
+   ],
+   "points": 0.7,
+   "contribution": {
+    "benevolent_dictator": 0.21,
+    "protector_god": 0.52,
+    "gatekeeper": 0.38,
+    "enslaved_god": 0.31,
+    "conquerors": 0.52,
+    "descendants": 0.63,
+    "zookeeper": 0.56,
+    "orwell_1984": -0.21,
+    "reversion": -0.42
+   },
+   "factor_effect": {
+    "F1": 0.7,
+    "F2": 0.35
+   }
+  },
+  {
+   "id": "2026-04-23-02",
+   "title": "Meta confirms ~8,000 layoffs (10%) to offset massive AI spending",
+   "summary": "An internal memo confirmed Meta will cut about 8,000 jobs and close 6,000 open roles from May 20 to run more efficiently while pouring money into AI infrastructure.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F7",
+     "dir": -1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Mass layoff at a frontier AI company tied to redirecting capital to AI.",
+   "sources": [
+    "https://www.techrepublic.com/article/meta-layoffs-10-percent-workforce-2026/",
+    "https://abc30.com/18956199/"
+   ],
+   "points": 0.8,
+   "contribution": {
+    "egalitarian_utopia": -0.56
+   },
+   "factor_effect": {
+    "F7": -0.8
+   }
+  },
+  {
+   "id": "2026-04-23-03",
+   "title": "Tennessee law excludes AI from legal definition of 'person'",
+   "summary": "Tennessee SB 837 took effect, amending state code so AI systems, algorithms and machines cannot be legal persons, hold rights or bear liability independently. Exact signing date unclear; effective date used.",
+   "category": "merge",
+   "factors": [
+    {
+     "id": "F10",
+     "dir": -1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Rubric T2 down example: law explicitly bans AI personhood (state level).",
+   "sources": [
+    "https://regulations.ai/regulations/RAI-US-TN-SB83700-2026"
+   ],
+   "points": 0.3,
+   "contribution": {
+    "libertarian_utopia": -0.08,
+    "descendants": -0.16
+   },
+   "factor_effect": {
+    "F10": -0.2
+   }
+  },
+  {
+   "id": "2026-04-23-04",
+   "title": "Tencent previews open-source Hy3 mixture-of-experts model",
+   "summary": "Tencent released Hy3 preview, an open 295B-parameter MoE model claiming large efficiency gains.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "China",
+   "reason": "Mid-size open-weights release from a Chinese giant. Date approximate (week of Apr 20-24).",
+   "sources": [
+    "https://decrypt.co/365297/tencent-hy3-preview-open-source-moe-model"
+   ],
+   "points": 0.06,
+   "contribution": {
+    "libertarian_utopia": 0.04,
+    "benevolent_dictator": -0.03,
+    "egalitarian_utopia": 0.03,
+    "enslaved_god": -0.04,
+    "zookeeper": -0.03,
+    "orwell_1984": -0.03
+   },
+   "factor_effect": {
+    "F5": -0.06
+   }
+  }
+ ]
+}

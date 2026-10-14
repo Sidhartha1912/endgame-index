@@ -1,0 +1,220 @@
+{
+ "date": "2026-06-29",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 26.49,
+  "benevolent_dictator": 25.3,
+  "egalitarian_utopia": 14.5,
+  "protector_god": 18.03,
+  "gatekeeper": 17.87,
+  "enslaved_god": 41.7,
+  "conquerors": 20.69,
+  "descendants": 18.92,
+  "zookeeper": 15.35,
+  "orwell_1984": 24.26,
+  "reversion": 4.2,
+  "self_destruction": 21.74
+ },
+ "deltas": {
+  "libertarian_utopia": 0.05,
+  "benevolent_dictator": -0.03,
+  "egalitarian_utopia": 0.02,
+  "protector_god": -0.01,
+  "gatekeeper": -0.03,
+  "enslaved_god": -0.04,
+  "conquerors": 0.01,
+  "descendants": 0.05,
+  "zookeeper": -0.01,
+  "orwell_1984": -0.03,
+  "reversion": -0.02,
+  "self_destruction": -0.01
+ },
+ "targets": {
+  "libertarian_utopia": 26.49,
+  "benevolent_dictator": 25.3,
+  "egalitarian_utopia": 14.5,
+  "protector_god": 18.03,
+  "gatekeeper": 17.87,
+  "enslaved_god": 41.7,
+  "conquerors": 20.69,
+  "descendants": 18.92,
+  "zookeeper": 15.35,
+  "orwell_1984": 24.26,
+  "reversion": 4.2,
+  "self_destruction": 21.74
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.33,
+  "benevolent_dictator": 0.1,
+  "egalitarian_utopia": 0.02,
+  "protector_god": 0.03,
+  "gatekeeper": 0.07,
+  "enslaved_god": 0.42,
+  "conquerors": 0.39,
+  "descendants": 0.31,
+  "zookeeper": 0.59,
+  "orwell_1984": 0.09,
+  "reversion": -0.44,
+  "self_destruction": -0.14
+ },
+ "factors": {
+  "F1": 75.52,
+  "F2": 48.65,
+  "F3": 42.95,
+  "F4": 22.42,
+  "F5": 66.68,
+  "F6": 45.74,
+  "F7": 33.46,
+  "F8": 57.58,
+  "F9": 41.68,
+  "F10": 20.28
+ },
+ "factor_deltas": {
+  "F1": -0.0,
+  "F2": 0.0,
+  "F3": -0.02,
+  "F4": -0.03,
+  "F5": -0.05,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": -0.03,
+  "F9": -0.01,
+  "F10": 0.06
+ },
+ "composites": {
+  "horizon_balance": 0.57,
+  "families": {
+   "flourishing": 21.08,
+   "contained": 29.78,
+   "successors": 18.32,
+   "stalled": 16.73
+  },
+  "news_heat": 0.16,
+  "evidence": "low",
+  "event_count": 3
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": -0.01,
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.01,
+  "conquerors": 0.01,
+  "zookeeper": 0.01,
+  "reversion": -0.02,
+  "self_destruction": -0.02
+ },
+ "summary": {
+  "headline": "EU locks in AI Act delay; Meituan open-sources big model",
+  "body": "A quiet day. The EU Council gave final approval to delaying the AI Act's high-risk rules, a small hit to Global Coordination. Meituan open-sourced a 1.6-trillion-parameter model reportedly trained on Chinese chips, spreading power away from a few labs, and Meta showed a non-invasive brain-to-text decoder, edging Human-AI Merging up. Horizon Balance: +0.57.",
+  "movers_note": "Small moves: Libertarian Utopia +0.1 and Descendants +0.1, from Meituan's open model and Meta's brain decoder.",
+  "coming_up": [
+   "AI Act omnibus publication in the EU Official Journal expected in July",
+   "Original EU AI Act high-risk deadline of August 2, 2026 is now postponed"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-06-29-01",
+   "title": "Meituan open-sources 1.6T-parameter LongCat-2.0 trained on Chinese chips",
+   "summary": "Meituan released LongCat-2.0 under an MIT licence with a 1M-token context, reportedly trained on domestic ASICs; it had topped OpenRouter rankings anonymously as 'Owl Alpha'.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "D",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "Mid-size open release; also signals Chinese compute self-sufficiency.",
+   "sources": [
+    "https://www.llmreference.com/changelog/2026-06",
+    "https://blog.buildfastwithai.com/ai-news-today-july-4-2026"
+   ],
+   "points": 0.05,
+   "contribution": {
+    "libertarian_utopia": 0.03,
+    "benevolent_dictator": -0.03,
+    "egalitarian_utopia": 0.02,
+    "enslaved_god": -0.03,
+    "zookeeper": -0.02,
+    "orwell_1984": -0.02
+   },
+   "factor_effect": {
+    "F5": -0.05
+   }
+  },
+  {
+   "id": "2026-06-29-02",
+   "title": "EU Council gives final approval to AI Act delay",
+   "summary": "The Council of the EU formally approved the AI omnibus, locking in the postponement of high-risk obligations before the Aug 2, 2026 deadline; publication in the Official Journal was expected in July.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "EU",
+   "reason": "Final step of the same rollback; development of Jun 16 vote.",
+   "sources": [
+    "https://secureprivacy.ai/blog/eu-ai-act-digital-omnibus-the-new-high-risk-ai-deadlines-after-council-approval"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "gatekeeper": -0.02,
+    "orwell_1984": -0.01,
+    "self_destruction": 0.02
+   },
+   "factor_effect": {
+    "F4": -0.03
+   }
+  },
+  {
+   "id": "2026-06-29-03",
+   "title": "Meta's Brain2Qwerty v2 decodes brain activity to text non-invasively",
+   "summary": "Meta said its MEG-based system decodes typed sentences from brain signals with about 61% word accuracy.",
+   "category": "merge",
+   "factors": [
+    {
+     "id": "F10",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "BCI research progress (rubric T1).",
+   "sources": [
+    "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/"
+   ],
+   "points": 0.06,
+   "contribution": {
+    "libertarian_utopia": 0.03,
+    "descendants": 0.05
+   },
+   "factor_effect": {
+    "F10": 0.06
+   }
+  }
+ ]
+}

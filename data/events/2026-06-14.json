@@ -1,0 +1,49 @@
+[
+ {
+  "id": "2026-06-14-01",
+  "title": "Canada's Carney says US curbs on Anthropic models show AI dependence risk",
+  "summary": "Ahead of the G7, PM Mark Carney cited the US order that took Claude Fable 5 and Mythos 5 offline as evidence allies must diversify away from dependence on a few US AI models.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "Other",
+  "reason": "Allied leader openly frames US AI controls as a sovereignty risk; a rift signal, words only. Context: the US imposed the export controls on Jun 12 (pre-window) after a reported Fable 5 jailbreak.",
+  "sources": [
+   "https://www.usnews.com/news/technology/articles/2026-06-14/canadian-prime-minister-mark-carney-says-us-ai-restrictions-underscore-risks-of-dependence",
+   "https://thenextweb.com/news/carney-anthropic-fable-ai-model-risk-g7"
+  ]
+ },
+ {
+  "id": "2026-06-14-02",
+  "title": "Cambridge team reports AI-designed vaccine component passes first human trial",
+  "summary": "Researchers said a vaccine component designed entirely by AI passed initial human safety trials.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "UK",
+  "reason": "AI-for-science milestone; early-stage and lightly sourced.",
+  "sources": [
+   "https://www.wionews.com/videos/ai-designed-universal-vaccine-passes-first-human-trial-1781445439486"
+  ]
+ }
+]

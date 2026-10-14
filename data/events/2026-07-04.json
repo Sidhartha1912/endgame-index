@@ -1,0 +1,29 @@
+[
+ {
+  "id": "2026-07-04-01",
+  "title": "Doubao to pull agent features ahead of China's AI companion rules",
+  "summary": "ByteDance's Doubao (345M monthly users) said it will remove agent features on July 15, when China's interim measures on anthropomorphic AI services take effect with anti-addiction and disclosure rules.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F2",
+    "dir": -1
+   },
+   {
+    "id": "F6",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "structural",
+  "region": "China",
+  "reason": "State rules constrain persistent AI agents and add platform monitoring duties; effective date outside window (Jul 15).",
+  "sources": [
+   "https://www.techtimes.com/articles/319703/20260704/china-ai-companion-law-arrives-july-15-doubao-qwen-agent-data-will-deleted.htm"
+  ]
+ }
+]

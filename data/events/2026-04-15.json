@@ -1,0 +1,49 @@
+[
+ {
+  "id": "2026-04-15-01",
+  "title": "Snap cuts about 1,000 jobs (16%), citing rapid AI advances",
+  "summary": "Snap said it is laying off roughly 1,000 staff and closing 300+ open roles, with CEO Evan Spiegel crediting AI for enabling smaller teams.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Explicitly AI-attributed layoff of 16% of a major tech firm's workforce.",
+  "sources": [
+   "https://techcrunch.com/2026/04/15/snap-is-cutting-1000-jobs-16-of-its-workforce/",
+   "https://khaleejtimes.com/business/tech/snap-to-cut-1000-jobs-after-activist-pressure-bets-on-ai-efficiency"
+  ]
+ },
+ {
+  "id": "2026-04-15-02",
+  "title": "US Air Force debuts WarMatrix operational AI wargaming system",
+  "summary": "The Air Force disclosed its first operational use of the WarMatrix AI wargaming environment at a March exercise, with humans retaining decision authority.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Incremental military-AI adoption in planning, human-in-loop.",
+  "sources": [
+   "https://www.militarytimes.com/industry/techwatch/2026/04/15/us-air-force-debuts-operational-ai-wargame-system/"
+  ]
+ }
+]

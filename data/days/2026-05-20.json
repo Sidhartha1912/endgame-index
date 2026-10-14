@@ -1,0 +1,299 @@
+{
+ "date": "2026-05-20",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 28.28,
+  "benevolent_dictator": 22.92,
+  "egalitarian_utopia": 15.24,
+  "protector_god": 16.14,
+  "gatekeeper": 17.19,
+  "enslaved_god": 38.33,
+  "conquerors": 20.06,
+  "descendants": 17.54,
+  "zookeeper": 13.48,
+  "orwell_1984": 24.01,
+  "reversion": 3.94,
+  "self_destruction": 20.56
+ },
+ "deltas": {
+  "libertarian_utopia": -0.27,
+  "benevolent_dictator": 0.8,
+  "egalitarian_utopia": -0.38,
+  "protector_god": 1.52,
+  "gatekeeper": 1.12,
+  "enslaved_god": 1.0,
+  "conquerors": 1.91,
+  "descendants": 2.08,
+  "zookeeper": 2.08,
+  "orwell_1984": -0.44,
+  "reversion": -1.28,
+  "self_destruction": 0.1
+ },
+ "targets": {
+  "libertarian_utopia": 28.28,
+  "benevolent_dictator": 22.92,
+  "egalitarian_utopia": 15.24,
+  "protector_god": 16.14,
+  "gatekeeper": 17.19,
+  "enslaved_god": 38.33,
+  "conquerors": 20.06,
+  "descendants": 17.54,
+  "zookeeper": 13.48,
+  "orwell_1984": 24.01,
+  "reversion": 3.94,
+  "self_destruction": 20.56
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.89,
+  "benevolent_dictator": 2.07,
+  "egalitarian_utopia": -0.82,
+  "protector_god": 2.4,
+  "gatekeeper": 1.72,
+  "enslaved_god": 1.94,
+  "conquerors": 2.62,
+  "descendants": 3.23,
+  "zookeeper": 3.43,
+  "orwell_1984": -0.13,
+  "reversion": -1.7,
+  "self_destruction": 0.06
+ },
+ "factors": {
+  "F1": 73.74,
+  "F2": 48.2,
+  "F3": 41.86,
+  "F4": 23.6,
+  "F5": 63.54,
+  "F6": 45.75,
+  "F7": 32.97,
+  "F8": 56.64,
+  "F9": 40.73,
+  "F10": 20.22
+ },
+ "factor_deltas": {
+  "F1": 2.25,
+  "F2": 1.23,
+  "F3": -0.24,
+  "F4": -0.0,
+  "F5": 0.24,
+  "F6": 0.15,
+  "F7": -0.23,
+  "F8": 0.0,
+  "F9": 0.07,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": 1.12,
+  "families": {
+   "flourishing": 20.64,
+   "contained": 27.76,
+   "successors": 17.03,
+   "stalled": 16.17
+  },
+  "news_heat": 4.7,
+  "evidence": "medium",
+  "event_count": 5
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "descendants": -0.01,
+  "reversion": -0.01
+ },
+ "summary": {
+  "headline": "OpenAI model disproves an Erdos conjecture; AI-takeover endings jump",
+  "body": "The big story: an internal OpenAI reasoning model produced a proof disproving a bound Paul Erdos conjectured in 1946, and outside mathematicians including Tim Gowers and Noga Alon checked it. An AI doing new, verified research is a strong signal for Capability Velocity and AI Autonomy, which lifts every ending where very capable AI acts on its own, bright and dark alike: Descendants, Zookeeper, Protector God and Conquerors. Conquerors got an extra push from Anthropic co-founder Jack Clark, who put 60%+ odds on recursive self-improvement by 2028, a reminder that Alignment & Control may lag. Meta began about 8,000 layoffs in an AI restructuring and leaked audio showed it logging staff activity to train AI, denting Shared Prosperity. Because dark endings rose most, Horizon Balance fell 0.49 to 1.1.",
+  "movers_note": "Descendants +2.1 and Zookeeper +2.1, driven almost entirely by the Erdos proof (+2.09 and +1.86); Conquerors +1.9 from the same proof plus Jack Clark's self-improvement forecast (+0.17).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-05-20-01",
+   "title": "Meta begins ~8,000 layoffs in AI restructuring",
+   "summary": "Meta began cutting about 8,000 jobs while reassigning ~7,000 staff to AI teams, as part of an AI-focused restructuring.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F7",
+     "dir": -1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Mass layoffs explicitly tied to AI push. Notices reported May 19-21; mid date used. [Editor: marked as development of an earlier-scored event to avoid double counting.]",
+   "sources": [
+    "https://finance.yahoo.com/sectors/technology/articles/meta-layoffs-2026-8-000-114209703.html",
+    "https://www.kxan.com/news/meta-layoffs-begin-as-company-cuts-8k-jobs-in-latest-ai-push/"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "egalitarian_utopia": -0.17
+   },
+   "factor_effect": {
+    "F7": -0.24
+   }
+  },
+  {
+   "id": "2026-05-20-02",
+   "title": "Leaked audio: Meta tracked employee activity to train AI",
+   "summary": "Leaked all-hands audio showed Zuckerberg defending a 'Model Capability Initiative' that logged employees' Gmail, coding and tool activity for AI training; employees protested.",
+   "category": "surveillance",
+   "factors": [
+    {
+     "id": "F6",
+     "dir": 1
+    },
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Workplace surveillance feeding AI training plus internal backlash; single company.",
+   "sources": [
+    "https://www.eweek.com/news/meta-employee-tracking-ai-layoffs-neuron/"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "benevolent_dictator": 0.06,
+    "protector_god": -0.04,
+    "orwell_1984": 0.13,
+    "reversion": 0.07
+   },
+   "factor_effect": {
+    "F6": 0.15,
+    "F9": 0.07
+   }
+  },
+  {
+   "id": "2026-05-20-03",
+   "title": "OpenAI model disproves Erdos unit-distance conjecture, checked by outside mathematicians",
+   "summary": "An internal OpenAI reasoning model produced a proof disproving Erdos's 1946 conjectured bound for the planar unit distance problem; external mathematicians including Tim Gowers and Noga Alon reviewed it and wrote a companion paper.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    },
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T3",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Rubric T3 example: independently verified AI solution to a long-open math problem; general-purpose model working autonomously. Skeptic pass keeps T3 (external verification).",
+   "sources": [
+    "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+    "https://interestingengineering.com/ai-robotics/openai-paul-erdos-geometry-problem-cracked"
+   ],
+   "points": 2.5,
+   "contribution": {
+    "benevolent_dictator": 0.74,
+    "protector_god": 1.74,
+    "gatekeeper": 1.27,
+    "enslaved_god": 0.98,
+    "conquerors": 1.74,
+    "descendants": 2.09,
+    "zookeeper": 1.86,
+    "orwell_1984": -0.67,
+    "reversion": -1.35
+   },
+   "factor_effect": {
+    "F1": 2.25,
+    "F2": 1.23
+   }
+  },
+  {
+   "id": "2026-05-20-04",
+   "title": "CNBC: Anthropic posts first profitable quarter",
+   "summary": "CNBC reported Anthropic turned profitable for the first time in Q2 2026 with ~$10.9B projected quarterly revenue, driven by enterprise and coding demand.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Revenue concentration in a few frontier labs; financial milestone.",
+   "sources": [
+    "https://www.cnbc.com/2026/05/20/anthropic-revenue-explosive-growth-ipo-profitable-quarter.html"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "libertarian_utopia": -0.14,
+    "benevolent_dictator": 0.12,
+    "egalitarian_utopia": -0.1,
+    "enslaved_god": 0.14,
+    "zookeeper": 0.1,
+    "orwell_1984": 0.1
+   },
+   "factor_effect": {
+    "F5": 0.24
+   }
+  },
+  {
+   "id": "2026-05-20-05",
+   "title": "Jack Clark puts 60%+ odds on recursive self-improvement by 2028",
+   "summary": "In Oxford's Cosmos Lecture, Anthropic co-founder Jack Clark predicted AI-run firms within 18 months and a 60%+ chance of recursive self-improvement by end-2028, acknowledging non-zero risk of harm.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "UK",
+   "reason": "Lab leader warning (opinion/signal), capped at T1.",
+   "sources": [
+    "https://time.com/article/2026/05/22/anthropic-claude-code-jack-clark-ai-safety/"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "libertarian_utopia": -0.12,
+    "benevolent_dictator": -0.12,
+    "egalitarian_utopia": -0.12,
+    "protector_god": -0.17,
+    "gatekeeper": -0.14,
+    "enslaved_god": -0.12,
+    "conquerors": 0.17,
+    "zookeeper": 0.12,
+    "self_destruction": 0.1
+   },
+   "factor_effect": {
+    "F3": -0.24
+   }
+  }
+ ]
+}

@@ -1,0 +1,266 @@
+{
+ "date": "2026-06-16",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 27.55,
+  "benevolent_dictator": 24.9,
+  "egalitarian_utopia": 15.01,
+  "protector_god": 17.68,
+  "gatekeeper": 17.29,
+  "enslaved_god": 40.65,
+  "conquerors": 19.81,
+  "descendants": 18.28,
+  "zookeeper": 14.35,
+  "orwell_1984": 23.97,
+  "reversion": 4.63,
+  "self_destruction": 21.01
+ },
+ "deltas": {
+  "libertarian_utopia": -0.29,
+  "benevolent_dictator": 0.22,
+  "egalitarian_utopia": -0.19,
+  "protector_god": 0.06,
+  "gatekeeper": -0.08,
+  "enslaved_god": 0.36,
+  "conquerors": 0.09,
+  "descendants": 0.08,
+  "zookeeper": 0.27,
+  "orwell_1984": 0.06,
+  "reversion": -0.1,
+  "self_destruction": 0.1
+ },
+ "targets": {
+  "libertarian_utopia": 27.55,
+  "benevolent_dictator": 24.9,
+  "egalitarian_utopia": 15.01,
+  "protector_god": 17.68,
+  "gatekeeper": 17.29,
+  "enslaved_god": 40.65,
+  "conquerors": 19.81,
+  "descendants": 18.28,
+  "zookeeper": 14.35,
+  "orwell_1984": 23.97,
+  "reversion": 4.63,
+  "self_destruction": 21.01
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.06,
+  "benevolent_dictator": 0.64,
+  "egalitarian_utopia": -0.75,
+  "protector_god": -0.49,
+  "gatekeeper": -1.42,
+  "enslaved_god": 0.15,
+  "conquerors": -0.05,
+  "descendants": -0.41,
+  "zookeeper": 0.39,
+  "orwell_1984": 0.2,
+  "reversion": 0.43,
+  "self_destruction": 1.06
+ },
+ "factors": {
+  "F1": 74.55,
+  "F2": 48.62,
+  "F3": 43.16,
+  "F4": 21.98,
+  "F5": 65.71,
+  "F6": 45.73,
+  "F7": 33.05,
+  "F8": 56.79,
+  "F9": 41.84,
+  "F10": 20.22
+ },
+ "factor_deltas": {
+  "F1": 0.15,
+  "F2": 0.0,
+  "F3": -0.02,
+  "F4": -0.19,
+  "F5": 0.46,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.0,
+  "F9": -0.02,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": 1.5,
+  "families": {
+   "flourishing": 21.28,
+   "contained": 28.97,
+   "successors": 17.48,
+   "stalled": 16.54
+  },
+  "news_heat": 1.61,
+  "evidence": "medium",
+  "event_count": 4
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.02,
+  "egalitarian_utopia": -0.01,
+  "protector_god": -0.01,
+  "conquerors": 0.01,
+  "descendants": -0.01,
+  "zookeeper": 0.01,
+  "orwell_1984": 0.01,
+  "reversion": -0.01
+ },
+ "summary": {
+  "headline": "SpaceX buys Cursor for $60B as EU delays AI Act rules",
+  "body": "A busier day, led by consolidation. Days after its IPO, SpaceX, parent of xAI, agreed an all-stock deal to buy the AI coding firm Cursor for $60 billion. Fewer, bigger players means more Power Concentration, which feeds the endings where a single owner holds the keys: Enslaved God (a boxed super-AI owned by one lab), Zookeeper and Benevolent Dictator, while Libertarian Utopia, which needs power spread out, falls. China's Z.ai pushed the other way by releasing an open-weight GLM-5.2 model, which spreads capability around. In Europe, Parliament voted to push AI Act high-risk rules back to December 2027, and a report tied the US block on Anthropic models to a Korean telecom's alleged China links; both weaken Global Coordination and trim Gatekeeper. Horizon Balance: +1.50.",
+  "movers_note": "Enslaved God +0.4, Libertarian Utopia -0.3 and Zookeeper +0.3. The SpaceX-Cursor deal did most of the work (Enslaved God +0.48, Libertarian Utopia -0.48 from that event), partly offset by Z.ai's open-weight release (Libertarian Utopia +0.21).",
+  "coming_up": [
+   "EU AI Act stand-alone high-risk obligations now due December 2027 (embedded products August 2028), per the Parliament vote"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-06-16-01",
+   "title": "Report: Korean telecom's alleged China ties triggered US block on Anthropic models",
+   "summary": "Citing the Washington Post, Korea JoongAng Daily reported the White House weighed controls after a Korean telecom 'suspected of ties to China' appeared among Mythos 5 access holders; SK Telecom declined to comment.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "national",
+   "track": "signal",
+   "region": "Other",
+   "reason": "Explains the national-security rationale behind the Jun 12 controls (China-leakage fear plus an Amazon-reported jailbreak); deepens tech decoupling.",
+   "sources": [
+    "https://www.koreajoongangdaily.com/business/white-house-officials-pin-anthropic-ai-export-block-on-korean-telecom-report/12726842",
+    "https://www.bankinfosecurity.net/us-pulls-plug-on-anthropics-top-ai-models-a-31964"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "gatekeeper": -0.02,
+    "orwell_1984": -0.01,
+    "self_destruction": 0.02
+   },
+   "factor_effect": {
+    "F4": -0.03
+   }
+  },
+  {
+   "id": "2026-06-16-02",
+   "title": "SpaceX agrees to buy Cursor for $60 billion in stock",
+   "summary": "Days after its IPO, SpaceX (parent of xAI) agreed an all-stock deal for AI coding firm Cursor, aiming to 'build the world's most useful AI models' on its Colossus compute.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Big acquisition consolidating a frontier lab, compute and a top AI app (rubric T2 up).",
+   "sources": [
+    "https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html",
+    "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/"
+   ],
+   "points": 0.8,
+   "contribution": {
+    "libertarian_utopia": -0.48,
+    "benevolent_dictator": 0.4,
+    "egalitarian_utopia": -0.32,
+    "enslaved_god": 0.48,
+    "zookeeper": 0.32,
+    "orwell_1984": 0.32
+   },
+   "factor_effect": {
+    "F5": 0.8
+   }
+  },
+  {
+   "id": "2026-06-16-03",
+   "title": "Z.ai releases open-weight GLM-5.2; CEO says China will match Fable 5 soon",
+   "summary": "China's Z.ai (Zhipu) released MIT-licensed GLM-5.2, reported to beat GPT-5.5 on several coding benchmarks at a fraction of the cost; founder Jie Tang said a Chinese Fable-5-class model is coming sooner than Musk's Q1 2027 estimate.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    },
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "C",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "Strong open-weights model narrows gap with US frontier (rubric T2 down for F5). Release date given as Jun 13 by some outlets, Jun 16 by Tom's Hardware.",
+   "sources": [
+    "https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-says-that-china-will-have-a-fable-5-class-ai-model-probably-q1-next-year-ceo-of-chinese-anthropic-rival-says-it-wont-take-that-long",
+    "https://venturebeat.com/technology/z-ais-open-weights-glm-5-2-beats-gpt-5-5-on-multiple-long-horizon-coding-benchmarks-for-1-6th-the-cost"
+   ],
+   "points": 0.35,
+   "contribution": {
+    "libertarian_utopia": 0.21,
+    "benevolent_dictator": -0.17,
+    "egalitarian_utopia": 0.14,
+    "protector_god": 0.07,
+    "gatekeeper": 0.06,
+    "enslaved_god": -0.12,
+    "conquerors": 0.07,
+    "descendants": 0.09,
+    "zookeeper": -0.07,
+    "orwell_1984": -0.18,
+    "reversion": -0.09
+   },
+   "factor_effect": {
+    "F1": 0.15,
+    "F5": -0.35
+   }
+  },
+  {
+   "id": "2026-06-16-04",
+   "title": "European Parliament votes to delay EU AI Act high-risk rules",
+   "summary": "Parliament adopted the AI 'digital omnibus', pushing stand-alone high-risk obligations from Aug 2026 to Dec 2027 (embedded products to Aug 2028) while adding a ban on AI-generated CSAM and non-consensual intimate imagery.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": -1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "EU",
+   "reason": "Major regulator softens and postpones its flagship regime (partial rollback); offset slightly by new prohibitions.",
+   "sources": [
+    "https://datamatters.sidley.com/2026/06/22/eu-lawmakers-reach-provisional-agreement-to-delay-key-eu-ai-act-obligations/",
+    "https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-high-risk-deadline-omnibus-20260/"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "gatekeeper": -0.12,
+    "orwell_1984": -0.07,
+    "self_destruction": 0.09
+   },
+   "factor_effect": {
+    "F4": -0.18
+   }
+  }
+ ]
+}

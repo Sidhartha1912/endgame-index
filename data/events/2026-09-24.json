@@ -1,0 +1,25 @@
+[
+ {
+  "id": "2026-09-24-01",
+  "title": "Zuckerberg rejects industry-wide AI slowdown",
+  "summary": "Meta CEO Mark Zuckerberg rejected coordinated slowdown proposals backed by other lab leaders, saying commercial incentives and Meta's own oversight suffice.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Lab-leader signal against coordinated pacing.",
+  "sources": [
+   "https://www.nbcnews.com/tech/tech-news/mark-zuckerberg-interview-ai-slowdown-meta-muse-openai-chatgpt-rcna599279"
+  ]
+ }
+]

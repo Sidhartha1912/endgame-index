@@ -1,0 +1,190 @@
+{
+ "date": "2026-09-18",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 21.58,
+  "benevolent_dictator": 25.0,
+  "egalitarian_utopia": 9.53,
+  "protector_god": 19.8,
+  "gatekeeper": 20.31,
+  "enslaved_god": 42.39,
+  "conquerors": 30.73,
+  "descendants": 25.19,
+  "zookeeper": 23.66,
+  "orwell_1984": 22.98,
+  "reversion": 5.03,
+  "self_destruction": 27.17
+ },
+ "deltas": {
+  "libertarian_utopia": -0.03,
+  "benevolent_dictator": 0.05,
+  "egalitarian_utopia": -0.01,
+  "protector_god": 0.06,
+  "gatekeeper": 0.06,
+  "enslaved_god": 0.04,
+  "conquerors": -0.04,
+  "descendants": -0.02,
+  "zookeeper": -0.06,
+  "orwell_1984": 0.01,
+  "reversion": 0.06,
+  "self_destruction": 0.12
+ },
+ "targets": {
+  "libertarian_utopia": 21.58,
+  "benevolent_dictator": 25.0,
+  "egalitarian_utopia": 9.53,
+  "protector_god": 19.8,
+  "gatekeeper": 20.31,
+  "enslaved_god": 42.39,
+  "conquerors": 30.73,
+  "descendants": 25.19,
+  "zookeeper": 23.66,
+  "orwell_1984": 22.98,
+  "reversion": 5.03,
+  "self_destruction": 27.17
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.17,
+  "benevolent_dictator": -0.13,
+  "egalitarian_utopia": -0.24,
+  "protector_god": -0.18,
+  "gatekeeper": -0.21,
+  "enslaved_god": -0.14,
+  "conquerors": 0.29,
+  "descendants": 0.02,
+  "zookeeper": 0.12,
+  "orwell_1984": 0.01,
+  "reversion": 1.25,
+  "self_destruction": 0.41
+ },
+ "factors": {
+  "F1": 82.29,
+  "F2": 52.3,
+  "F3": 37.85,
+  "F4": 24.85,
+  "F5": 67.14,
+  "F6": 45.3,
+  "F7": 32.66,
+  "F8": 61.76,
+  "F9": 44.9,
+  "F10": 20.29
+ },
+ "factor_deltas": {
+  "F1": -0.02,
+  "F2": -0.0,
+  "F3": 0.1,
+  "F4": 0.01,
+  "F5": 0.0,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.15,
+  "F9": -0.01,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": -7.15,
+  "families": {
+   "flourishing": 18.98,
+   "contained": 31.35,
+   "successors": 26.52,
+   "stalled": 18.39
+  },
+  "news_heat": 0.26,
+  "evidence": "low",
+  "event_count": 2
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "protector_god": -0.01,
+  "enslaved_god": -0.01,
+  "conquerors": -0.01,
+  "descendants": -0.02,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.01,
+  "self_destruction": -0.01
+ },
+ "summary": {
+  "headline": "Claude-assisted hack of OpenAI staff accounts nudges catastrophic risk",
+  "body": "A quiet day. A three-person white-hat team used Claude Opus 5 to chain bugs from an OpenAI forum upload into logged-in access to employee accounts, a reminder of AI-boosted hacking that raises Catastrophic Risk and nudges Self-Destruction. Anthropic giving Faculty employee-level access for independent evaluations was a small plus for Alignment & Control. Horizon Balance edged to -7.15.",
+  "movers_note": "Self-Destruction +0.1 from the Hacktron hack (+0.16); Protector God +0.1 and Gatekeeper +0.1 from Anthropic's Faculty evaluation deal (+0.07 and +0.06).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-09-18-01",
+   "title": "Anthropic gives Faculty employee-level access for independent model evaluations",
+   "summary": "Anthropic said Accenture's Faculty will lead evaluation, red-teaming and safeguard testing of its models with access comparable to employees, funded by Anthropic.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Third-party eval arrangement; standards still being developed. Original outlet (Anthropic) cited via aggregator; direct link not captured.",
+   "sources": [
+    "https://aiweekly.co/ai-news-today/edition/2026-09-19"
+   ],
+   "points": 0.1,
+   "contribution": {
+    "libertarian_utopia": 0.05,
+    "benevolent_dictator": 0.05,
+    "egalitarian_utopia": 0.05,
+    "protector_god": 0.07,
+    "gatekeeper": 0.06,
+    "enslaved_god": 0.05,
+    "conquerors": -0.07,
+    "zookeeper": -0.05,
+    "self_destruction": -0.04
+   },
+   "factor_effect": {
+    "F3": 0.1
+   }
+  },
+  {
+   "id": "2026-09-18-02",
+   "title": "Researchers used Claude Opus 5 to hack OpenAI staff ChatGPT and Codex accounts",
+   "summary": "A three-person Hacktron team used Claude Opus 5 to chain vulnerabilities from an OpenAI forum image upload to logged-in access to OpenAI employee accounts (white-hat disclosure).",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "AI-accelerated offensive cyber capability demonstrated.",
+   "sources": [
+    "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
+    "https://fortune.com/2026/09/18/open-ai-hacked-anthropic-claude-source-code-6500-reward/"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "libertarian_utopia": -0.07,
+    "egalitarian_utopia": -0.06,
+    "conquerors": 0.04,
+    "reversion": 0.06,
+    "self_destruction": 0.16
+   },
+   "factor_effect": {
+    "F8": 0.15
+   }
+  }
+ ]
+}

@@ -1,0 +1,248 @@
+{
+ "date": "2026-09-21",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 20.38,
+  "benevolent_dictator": 24.1,
+  "egalitarian_utopia": 8.4,
+  "protector_god": 18.62,
+  "gatekeeper": 19.26,
+  "enslaved_god": 41.54,
+  "conquerors": 32.3,
+  "descendants": 25.29,
+  "zookeeper": 24.58,
+  "orwell_1984": 22.96,
+  "reversion": 5.24,
+  "self_destruction": 28.79
+ },
+ "deltas": {
+  "libertarian_utopia": -0.4,
+  "benevolent_dictator": -0.56,
+  "egalitarian_utopia": -0.43,
+  "protector_god": -0.57,
+  "gatekeeper": -0.13,
+  "enslaved_god": -0.44,
+  "conquerors": 0.8,
+  "descendants": 0.14,
+  "zookeeper": 0.55,
+  "orwell_1984": 0.08,
+  "reversion": -0.15,
+  "self_destruction": 0.13
+ },
+ "targets": {
+  "libertarian_utopia": 20.38,
+  "benevolent_dictator": 24.1,
+  "egalitarian_utopia": 8.4,
+  "protector_god": 18.62,
+  "gatekeeper": 19.26,
+  "enslaved_god": 41.54,
+  "conquerors": 32.3,
+  "descendants": 25.29,
+  "zookeeper": 24.58,
+  "orwell_1984": 22.96,
+  "reversion": 5.24,
+  "self_destruction": 28.79
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.38,
+  "benevolent_dictator": -1.08,
+  "egalitarian_utopia": -1.39,
+  "protector_god": -1.29,
+  "gatekeeper": -1.11,
+  "enslaved_god": -0.96,
+  "conquerors": 1.9,
+  "descendants": 0.18,
+  "zookeeper": 1.08,
+  "orwell_1984": -0.09,
+  "reversion": 1.45,
+  "self_destruction": 1.95
+ },
+ "factors": {
+  "F1": 82.48,
+  "F2": 52.3,
+  "F3": 36.08,
+  "F4": 24.76,
+  "F5": 67.0,
+  "F6": 45.45,
+  "F7": 32.67,
+  "F8": 62.55,
+  "F9": 44.91,
+  "F10": 20.28
+ },
+ "factor_deltas": {
+  "F1": 0.23,
+  "F2": -0.0,
+  "F3": -0.98,
+  "F4": 0.53,
+  "F5": -0.15,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": -0.0,
+  "F9": -0.01,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": -9.28,
+  "families": {
+   "flourishing": 17.87,
+   "contained": 30.4,
+   "successors": 27.39,
+   "stalled": 19.0
+  },
+  "news_heat": 2.08,
+  "evidence": "medium",
+  "event_count": 3
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": 0.01,
+  "egalitarian_utopia": 0.01,
+  "gatekeeper": 0.02,
+  "enslaved_god": -0.01,
+  "conquerors": -0.02,
+  "descendants": -0.02,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.02,
+  "self_destruction": -0.02
+ },
+ "summary": {
+  "headline": "UN science panel warns AI-agent safeguards are unravelling",
+  "body": "The UN Independent International Scientific Panel on AI issued its first thematic brief, warning that safeguards for capable AI agents are not keeping pace and urging precaution on loss-of-control risk. Coming from a top-credibility source, it weakened Alignment & Control, which lifts Conquerors and Zookeeper and pulls down the bright endings that need safe AI. It also counted as a small step toward Global Coordination. Capability kept climbing: OpenAI said an internal model resolved more than 100 additional open math problems, and Xiaomi open-sourced a 1-trillion-parameter model under an MIT licence, spreading power more widely. Zookeeper moved ahead of Benevolent Dictator. Horizon Balance dropped to -9.28.",
+  "movers_note": "Conquerors +0.8 (UN brief +0.69, OpenAI math +0.10), Protector God -0.6 (UN brief -0.69, partly offset by OpenAI math +0.10) and Benevolent Dictator -0.6 (UN brief -0.50, Xiaomi -0.07).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-09-21-01",
+   "title": "OpenAI says internal model resolved 100+ open math problems; forms IAS advisory group",
+   "summary": "OpenAI said an internal model resolved more than 100 additional open problems and set up a nine-member Advisory Group on Mathematics and AI at Princeton's IAS to assess results.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "C",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Claimed research-level capability jump; mostly company claim, advisory group confirmed by Terence Tao's blog.",
+   "sources": [
+    "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
+    "https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence/"
+   ],
+   "points": 0.35,
+   "contribution": {
+    "protector_god": 0.1,
+    "gatekeeper": 0.08,
+    "enslaved_god": 0.12,
+    "conquerors": 0.1,
+    "descendants": 0.12,
+    "zookeeper": 0.1,
+    "orwell_1984": -0.06,
+    "reversion": -0.12
+   },
+   "factor_effect": {
+    "F1": 0.21
+   }
+  },
+  {
+   "id": "2026-09-21-02",
+   "title": "Xiaomi open-sources 1T-parameter MiMo-V2.6-Pro under MIT license",
+   "summary": "Xiaomi released weights, code and a technical report for MiMo-V2.6-Pro-RL, a 1.02T-parameter MoE that scored 46 on Artificial Analysis' Intelligence Index, matching xAI's Grok 4.7.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    },
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "Strong open-weights release from China spreads capability.",
+   "sources": [
+    "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL/blob/main/MiMo_V2_6_technical_report.pdf",
+    "https://venturebeat.com/technology/better-than-deepseek-xiaomis-mimo-v2-6-pro-debuts-as-the-top-open-weights-model-in-the-world-alongside-cheaper-v2-6-flash"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "libertarian_utopia": 0.09,
+    "benevolent_dictator": -0.07,
+    "egalitarian_utopia": 0.06,
+    "protector_god": 0.02,
+    "gatekeeper": 0.02,
+    "enslaved_god": -0.06,
+    "conquerors": 0.02,
+    "descendants": 0.03,
+    "zookeeper": -0.04,
+    "orwell_1984": -0.07,
+    "reversion": -0.03
+   },
+   "factor_effect": {
+    "F1": 0.04,
+    "F5": -0.15
+   }
+  },
+  {
+   "id": "2026-09-21-03",
+   "title": "UN scientific panel warns safeguards for AI agents are unravelling",
+   "summary": "The UN Independent International Scientific Panel on AI issued its first thematic brief, warning that safeguards for capable AI agents are not keeping pace and invoking a precautionary approach to loss-of-control risk.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": -1
+    },
+    {
+     "id": "F4",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Global",
+   "reason": "First output of UN scientific panel; authoritative global warning on control risk.",
+   "sources": [
+    "https://news.un.org/en/story/2026/09/1168380",
+    "https://www.un.org/independent-international-scientific-panel-ai/en/thematic-briefs/ai-agents-misalignment-risks"
+   ],
+   "points": 1.0,
+   "contribution": {
+    "libertarian_utopia": -0.5,
+    "benevolent_dictator": -0.5,
+    "egalitarian_utopia": -0.5,
+    "protector_god": -0.69,
+    "gatekeeper": -0.25,
+    "enslaved_god": -0.5,
+    "conquerors": 0.69,
+    "zookeeper": 0.5,
+    "orwell_1984": 0.2,
+    "self_destruction": 0.15
+   },
+   "factor_effect": {
+    "F3": -0.99,
+    "F4": 0.5
+   }
+  }
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "date": "2026-10-03",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 17.55,
+  "benevolent_dictator": 23.79,
+  "egalitarian_utopia": 6.15,
+  "protector_god": 16.88,
+  "gatekeeper": 18.53,
+  "enslaved_god": 41.09,
+  "conquerors": 34.62,
+  "descendants": 25.44,
+  "zookeeper": 26.79,
+  "orwell_1984": 24.09,
+  "reversion": 5.58,
+  "self_destruction": 30.3
+ },
+ "deltas": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.01,
+  "egalitarian_utopia": 0.0,
+  "protector_god": -0.02,
+  "gatekeeper": -0.0,
+  "enslaved_god": -0.02,
+  "conquerors": 0.01,
+  "descendants": -0.01,
+  "zookeeper": -0.0,
+  "orwell_1984": 0.01,
+  "reversion": 0.0,
+  "self_destruction": -0.0
+ },
+ "targets": {
+  "libertarian_utopia": 17.55,
+  "benevolent_dictator": 23.79,
+  "egalitarian_utopia": 6.15,
+  "protector_god": 16.88,
+  "gatekeeper": 18.53,
+  "enslaved_god": 41.09,
+  "conquerors": 34.62,
+  "descendants": 25.44,
+  "zookeeper": 26.79,
+  "orwell_1984": 24.09,
+  "reversion": 5.58,
+  "self_destruction": 30.3
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -2.77,
+  "benevolent_dictator": -0.2,
+  "egalitarian_utopia": -2.18,
+  "protector_god": -1.74,
+  "gatekeeper": -1.55,
+  "enslaved_god": -0.49,
+  "conquerors": 1.88,
+  "descendants": -0.15,
+  "zookeeper": 1.75,
+  "orwell_1984": 0.77,
+  "reversion": 0.69,
+  "self_destruction": 2.26
+ },
+ "factors": {
+  "F1": 82.47,
+  "F2": 52.63,
+  "F3": 33.38,
+  "F4": 25.89,
+  "F5": 68.67,
+  "F6": 45.46,
+  "F7": 32.87,
+  "F8": 63.45,
+  "F9": 44.88,
+  "F10": 20.23
+ },
+ "factor_deltas": {
+  "F1": -0.01,
+  "F2": -0.0,
+  "F3": -0.02,
+  "F4": 0.02,
+  "F5": -0.01,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": -0.0,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -12.86,
+  "families": {
+   "flourishing": 16.09,
+   "contained": 29.81,
+   "successors": 28.95,
+   "stalled": 19.99
+  },
+  "news_heat": 0.0,
+  "evidence": "low",
+  "event_count": 0
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.01,
+  "protector_god": -0.02,
+  "enslaved_god": -0.02,
+  "conquerors": 0.01,
+  "descendants": -0.01,
+  "orwell_1984": 0.01
+ },
+ "summary": {
+  "headline": "No scored news; lines drift as earlier stories fade",
+  "body": "A quiet day with no scored events. Scores moved by only hundredths of a point as the effects of earlier announcements slowly faded. Enslaved God still leads at 41.09, followed by Conquerors at 34.62 and Self-Destruction at 30.30. Horizon Balance stayed at -12.86, unchanged in practice.",
+  "movers_note": "No ending moved by 0.1 or more; the small drifts in Protector God and Enslaved God came only from earlier events fading.",
+  "coming_up": []
+ },
+ "events": []
+}

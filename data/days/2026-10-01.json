@@ -1,0 +1,227 @@
+{
+ "date": "2026-10-01",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 17.67,
+  "benevolent_dictator": 23.78,
+  "egalitarian_utopia": 6.22,
+  "protector_god": 16.88,
+  "gatekeeper": 18.54,
+  "enslaved_god": 41.03,
+  "conquerors": 34.61,
+  "descendants": 25.47,
+  "zookeeper": 26.72,
+  "orwell_1984": 24.14,
+  "reversion": 5.57,
+  "self_destruction": 30.31
+ },
+ "deltas": {
+  "libertarian_utopia": -0.5,
+  "benevolent_dictator": 0.2,
+  "egalitarian_utopia": -0.39,
+  "protector_god": 0.36,
+  "gatekeeper": 0.12,
+  "enslaved_god": 0.12,
+  "conquerors": 0.69,
+  "descendants": 0.45,
+  "zookeeper": 0.42,
+  "orwell_1984": -0.2,
+  "reversion": 0.15,
+  "self_destruction": 1.19
+ },
+ "targets": {
+  "libertarian_utopia": 17.67,
+  "benevolent_dictator": 23.78,
+  "egalitarian_utopia": 6.22,
+  "protector_god": 16.88,
+  "gatekeeper": 18.54,
+  "enslaved_god": 41.03,
+  "conquerors": 34.61,
+  "descendants": 25.47,
+  "zookeeper": 26.72,
+  "orwell_1984": 24.14,
+  "reversion": 5.57,
+  "self_destruction": 30.31
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -2.41,
+  "benevolent_dictator": -0.16,
+  "egalitarian_utopia": -1.91,
+  "protector_god": -1.7,
+  "gatekeeper": -0.91,
+  "enslaved_god": -0.53,
+  "conquerors": 1.67,
+  "descendants": -0.15,
+  "zookeeper": 1.62,
+  "orwell_1984": 1.17,
+  "reversion": 0.52,
+  "self_destruction": 1.36
+ },
+ "factors": {
+  "F1": 82.5,
+  "F2": 52.63,
+  "F3": 33.42,
+  "F4": 25.85,
+  "F5": 68.51,
+  "F6": 45.61,
+  "F7": 32.85,
+  "F8": 63.46,
+  "F9": 44.89,
+  "F10": 20.24
+ },
+ "factor_deltas": {
+  "F1": 0.4,
+  "F2": 0.35,
+  "F3": -0.02,
+  "F4": -0.19,
+  "F5": -0.01,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": 0.99,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -12.81,
+  "families": {
+   "flourishing": 16.14,
+   "contained": 29.78,
+   "successors": 28.93,
+   "stalled": 20.01
+  },
+  "news_heat": 2.29,
+  "evidence": "medium",
+  "event_count": 3
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.01,
+  "protector_god": -0.02,
+  "enslaved_god": -0.02,
+  "conquerors": 0.01,
+  "descendants": -0.01,
+  "orwell_1984": 0.01
+ },
+ "summary": {
+  "headline": "Open-weight GLM-5.3 nearly matches Claude at building exploits",
+  "body": "Cyber capability dominated. Anthropic's red team said Zhipu's open-weight GLM-5.3 built end-to-end exploits in 50 of 410 attempts, close to Claude Mythos Preview's 56, and its refusals were easily bypassed. Powerful hacking ability that anyone can download raises Catastrophic Risk, the main driver of Self-Destruction. Google released Gemini 4 Argon first to vetted cyber defenders, saying it can autonomously find, validate and fix critical vulnerabilities; that adds capability and autonomy, lifting Conquerors, Descendants and Zookeeper. OpenAI also accused Moonshot-linked users of a coordinated distillation campaign, a small strain on Global Coordination. Horizon Balance fell to -12.81.",
+  "movers_note": "Self-Destruction +1.2 (GLM-5.3 +1.09, distillation campaign +0.10), Conquerors +0.7 (Gemini 4 Argon +0.38, GLM-5.3 +0.30) and Libertarian Utopia -0.5 (GLM-5.3 -0.50).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-10-01-01",
+   "title": "Google releases Gemini 4 Argon, first to vetted cyber defenders",
+   "summary": "Google released its Gemini 4 Argon flagship first to trusted cyber defenders, saying it can autonomously find, validate and fix critical vulnerabilities, before paid API access.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    },
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "New frontier model with notable gains; staged release due to cyber capability.",
+   "sources": [
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+    "https://www.bloomberg.com/news/articles/2026-09-30/google-grapples-with-employee-skepticism-about-new-gemini-model"
+   ],
+   "points": 0.7,
+   "contribution": {
+    "benevolent_dictator": 0.21,
+    "protector_god": 0.38,
+    "gatekeeper": 0.27,
+    "enslaved_god": 0.14,
+    "conquerors": 0.38,
+    "descendants": 0.46,
+    "zookeeper": 0.42,
+    "orwell_1984": -0.12,
+    "reversion": -0.25
+   },
+   "factor_effect": {
+    "F1": 0.42,
+    "F2": 0.35
+   }
+  },
+  {
+   "id": "2026-10-01-02",
+   "title": "OpenAI accuses Moonshot-linked users of coordinated distillation campaign",
+   "summary": "OpenAI said a coordinated distillation campaign of 16,000 requests from 4,000+ users, with a core cluster linked to China's Moonshot AI, tried to extract hidden reasoning from its models.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "Escalating US-China lab friction over model extraction.",
+   "sources": [
+    "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/",
+    "https://www.cnbc.com/2026/10/01/openai-chinas-moonshot-ai-kimi.html"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "gatekeeper": -0.15,
+    "orwell_1984": -0.08,
+    "self_destruction": 0.1
+   },
+   "factor_effect": {
+    "F4": -0.21
+   }
+  },
+  {
+   "id": "2026-10-01-03",
+   "title": "Anthropic: open-weight GLM-5.3 nearly matches Claude at autonomous exploit-building",
+   "summary": "Anthropic's red team said Zhipu's open-weight GLM-5.3 built end-to-end exploits in 50 of 410 attempts vs 56 for Claude Mythos Preview, and its refusals were easily bypassed.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "Advanced offensive cyber capability now freely available in open weights; rival-lab assessment.",
+   "sources": [
+    "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+    "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-claims-popular-chinese-ai-model-has-mythos-class-hacking-abilities-frontier-red-teaming-report-details-weak-safeguards-on-open-weight-ai"
+   ],
+   "points": 1.0,
+   "contribution": {
+    "libertarian_utopia": -0.5,
+    "egalitarian_utopia": -0.4,
+    "conquerors": 0.3,
+    "reversion": 0.4,
+    "self_destruction": 1.09
+   },
+   "factor_effect": {
+    "F8": 0.99
+   }
+  }
+ ]
+}

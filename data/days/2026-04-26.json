@@ -1,0 +1,142 @@
+{
+ "date": "2026-04-26",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 29.06,
+  "benevolent_dictator": 20.45,
+  "egalitarian_utopia": 16.43,
+  "protector_god": 12.6,
+  "gatekeeper": 15.54,
+  "enslaved_god": 35.83,
+  "conquerors": 16.93,
+  "descendants": 13.37,
+  "zookeeper": 9.82,
+  "orwell_1984": 25.11,
+  "reversion": 5.63,
+  "self_destruction": 18.94
+ },
+ "deltas": {
+  "libertarian_utopia": 0.0,
+  "benevolent_dictator": 0.0,
+  "egalitarian_utopia": 0.0,
+  "protector_god": 0.0,
+  "gatekeeper": 0.0,
+  "enslaved_god": 0.0,
+  "conquerors": 0.0,
+  "descendants": 0.0,
+  "zookeeper": 0.0,
+  "orwell_1984": 0.0,
+  "reversion": 0.04,
+  "self_destruction": 0.0
+ },
+ "targets": {
+  "libertarian_utopia": 29.06,
+  "benevolent_dictator": 20.45,
+  "egalitarian_utopia": 16.43,
+  "protector_god": 12.6,
+  "gatekeeper": 15.54,
+  "enslaved_god": 35.83,
+  "conquerors": 16.93,
+  "descendants": 13.37,
+  "zookeeper": 9.82,
+  "orwell_1984": 25.11,
+  "reversion": 5.63,
+  "self_destruction": 18.94
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.9,
+  "benevolent_dictator": 0.4,
+  "egalitarian_utopia": -1.24,
+  "protector_god": 0.39,
+  "gatekeeper": 0.36,
+  "enslaved_god": 0.61,
+  "conquerors": 1.8,
+  "descendants": 1.19,
+  "zookeeper": 1.73,
+  "orwell_1984": 0.2,
+  "reversion": -0.83,
+  "self_destruction": 0.76
+ },
+ "factors": {
+  "F1": 69.91,
+  "F2": 45.62,
+  "F3": 41.31,
+  "F4": 25.0,
+  "F5": 62.37,
+  "F6": 45.6,
+  "F7": 33.81,
+  "F8": 55.6,
+  "F9": 40.54,
+  "F10": 19.81
+ },
+ "factor_deltas": {
+  "F1": 0.0,
+  "F2": 0.0,
+  "F3": 0.0,
+  "F4": 0.0,
+  "F5": 0.0,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.0,
+  "F9": 0.04,
+  "F10": 0.0
+ },
+ "composites": {
+  "horizon_balance": 1.94,
+  "families": {
+   "flourishing": 19.64,
+   "contained": 25.68,
+   "successors": 13.37,
+   "stalled": 16.56
+  },
+  "news_heat": 0.04,
+  "evidence": "low",
+  "event_count": 1
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {},
+ "summary": {
+  "headline": "OpenAI closes the Sora consumer app as planned",
+  "body": "A quiet day. OpenAI shut down the consumer Sora video app, as it had announced in March, to focus on business tools; the API is due to follow in September. A product being pulled is a faint signal of Tech Backlash, so Reversion moved by a hair. Horizon Balance reads +1.94.",
+  "movers_note": "The only mover was Reversion, up 0.04 (rounds to +0.0) from the Sora shutdown.",
+  "coming_up": [
+   "Sora API scheduled to shut down in September"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-04-26-01",
+   "title": "OpenAI shuts down Sora app and web experience",
+   "summary": "OpenAI closed the consumer Sora video app on April 26 as planned in March, refocusing on business tools; the API follows in September.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Retreat from consumer AI video amid 'slop' criticism; announced earlier so development.",
+   "sources": [
+    "https://the-decoder.com/openai-sets-two-stage-sora-shutdown-with-app-closing-april-2026-and-api-following-in-september/",
+    "https://engadget.com/ai/openai-is-shutting-down-its-sora-video-generation-app-211023358.html"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "reversion": 0.04
+   },
+   "factor_effect": {
+    "F9": 0.04
+   }
+  }
+ ]
+}

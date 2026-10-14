@@ -1,0 +1,48 @@
+[
+ {
+  "id": "2026-10-13-01",
+  "title": "NTT Data in final talks to build Anthropic's first Japan data center",
+  "summary": "NTT Data is in final talks to build a 500MW, up to ¥1T ($6.3B) data center in Osaka for Anthropic, with partial operations targeted for 2028.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "Other",
+  "reason": "Compute expansion in Japan; deal not yet signed.",
+  "sources": [
+   "https://asia.nikkei.com/business/technology/artificial-intelligence/ntt-to-build-first-data-center-for-anthropic-in-japan"
+  ]
+ },
+ {
+  "id": "2026-10-13-02",
+  "title": "IMF flags AI share crash as a top threat to global financial stability",
+  "summary": "The IMF's Global Financial Stability Report named an AI equity correction as one of three top risks, noting heavy non-US exposure to US AI assets.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "Global",
+  "reason": "Warning that AI gains are concentrated and fragile; signal. Original outlet (The Guardian/IMF GFSR) cited via aggregator; direct link not captured.",
+  "sources": [
+   "https://aiweekly.co/ai-news-today/edition/2026-10-13"
+  ]
+ }
+]

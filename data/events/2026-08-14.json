@@ -1,0 +1,26 @@
+[
+ {
+  "id": "2026-08-14-01",
+  "title": "OpenAI disbands Preparedness team that scored frontier cyber/bio risk",
+  "summary": "CNBC reported OpenAI dissolved its Preparedness team, which graded frontier models for cyber and bio risk, amid executive departures ahead of a reported IPO.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Safety-team exit at a frontier lab weeks after its models' Hugging Face breach; T2 per F3 'safety-team exits'.",
+  "sources": [
+   "https://www.cnbc.com/2026/08/14/open-ai-ipo-red-flag.html",
+   "https://aiweekly.co/ai-news-today/edition/2026-08-17"
+  ]
+ }
+]

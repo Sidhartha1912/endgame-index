@@ -1,0 +1,195 @@
+{
+ "date": "2026-05-28",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 27.53,
+  "benevolent_dictator": 23.38,
+  "egalitarian_utopia": 14.68,
+  "protector_god": 16.53,
+  "gatekeeper": 17.66,
+  "enslaved_god": 39.28,
+  "conquerors": 20.86,
+  "descendants": 18.21,
+  "zookeeper": 14.62,
+  "orwell_1984": 24.22,
+  "reversion": 4.03,
+  "self_destruction": 20.54
+ },
+ "deltas": {
+  "libertarian_utopia": 0.03,
+  "benevolent_dictator": 0.07,
+  "egalitarian_utopia": 0.03,
+  "protector_god": 0.15,
+  "gatekeeper": 0.11,
+  "enslaved_god": 0.08,
+  "conquerors": 0.12,
+  "descendants": 0.16,
+  "zookeeper": 0.15,
+  "orwell_1984": -0.05,
+  "reversion": -0.15,
+  "self_destruction": -0.06
+ },
+ "targets": {
+  "libertarian_utopia": 27.53,
+  "benevolent_dictator": 23.38,
+  "egalitarian_utopia": 14.68,
+  "protector_god": 16.53,
+  "gatekeeper": 17.66,
+  "enslaved_god": 39.28,
+  "conquerors": 20.86,
+  "descendants": 18.21,
+  "zookeeper": 14.62,
+  "orwell_1984": 24.22,
+  "reversion": 4.03,
+  "self_destruction": 20.54
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.29,
+  "benevolent_dictator": 0.51,
+  "egalitarian_utopia": -0.06,
+  "protector_god": 0.54,
+  "gatekeeper": 1.08,
+  "enslaved_god": 1.22,
+  "conquerors": 0.25,
+  "descendants": 0.53,
+  "zookeeper": 0.8,
+  "orwell_1984": 0.46,
+  "reversion": -0.1,
+  "self_destruction": -1.04
+ },
+ "factors": {
+  "F1": 74.72,
+  "F2": 48.41,
+  "F3": 41.56,
+  "F4": 23.88,
+  "F5": 64.49,
+  "F6": 45.76,
+  "F7": 32.93,
+  "F8": 56.64,
+  "F9": 41.41,
+  "F10": 20.17
+ },
+ "factor_deltas": {
+  "F1": 0.17,
+  "F2": 0.11,
+  "F3": 0.01,
+  "F4": 0.0,
+  "F5": 0.0,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": -0.04,
+  "F9": -0.03,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": 0.47,
+  "families": {
+   "flourishing": 20.53,
+   "contained": 28.47,
+   "successors": 17.9,
+   "stalled": 16.26
+  },
+  "news_heat": 0.36,
+  "evidence": "low",
+  "event_count": 2
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": 0.01,
+  "egalitarian_utopia": 0.01,
+  "protector_god": 0.01,
+  "gatekeeper": 0.01,
+  "conquerors": -0.01,
+  "descendants": -0.01,
+  "zookeeper": -0.01,
+  "reversion": -0.02,
+  "self_destruction": -0.01
+ },
+ "summary": {
+  "headline": "Anthropic releases Claude Opus 4.8 for longer agentic tasks",
+  "body": "A light day. Anthropic released Claude Opus 4.8, built for longer agentic coding tasks, adding a little to both Capability Velocity and AI Autonomy. That lifts endings with capable, independent AI, including Descendants, Protector God and Zookeeper. South Korea launched a plan against AI-enabled cyberattacks. Horizon Balance is 0.5, up 0.03.",
+  "movers_note": "Descendants +0.2 (Opus 4.8, +0.17), Protector God +0.1 (+0.14) and Zookeeper +0.1 (+0.15).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-05-28-01",
+   "title": "Anthropic releases Claude Opus 4.8",
+   "summary": "Anthropic released Claude Opus 4.8, aimed at longer agentic coding tasks, available on its API and major clouds.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    },
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Incremental frontier update ahead of Mythos-class launch.",
+   "sources": [
+    "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/partner-models/claude/opus-4-8",
+    "https://rits.shanghai.nyu.edu/ai/anthropic-releases-claude-opus-4-8-for-longer-agentic-coding/"
+   ],
+   "points": 0.21,
+   "contribution": {
+    "benevolent_dictator": 0.06,
+    "protector_god": 0.14,
+    "gatekeeper": 0.1,
+    "enslaved_god": 0.08,
+    "conquerors": 0.14,
+    "descendants": 0.17,
+    "zookeeper": 0.15,
+    "orwell_1984": -0.05,
+    "reversion": -0.11
+   },
+   "factor_effect": {
+    "F1": 0.18,
+    "F2": 0.1
+   }
+  },
+  {
+   "id": "2026-05-28-02",
+   "title": "South Korea announces plan against AI-based cyber threats to personal data",
+   "summary": "Korea's Ministry of Science and ICT launched a public-private plan to protect personal information from AI-enabled cyberattacks.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "D",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "Other",
+   "reason": "National defensive cyber measure.",
+   "sources": [
+    "https://techieray.substack.com/p/ctrlaireg-1-june-2026"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "libertarian_utopia": 0.02,
+    "egalitarian_utopia": 0.02,
+    "conquerors": -0.01,
+    "reversion": -0.02,
+    "self_destruction": -0.05
+   },
+   "factor_effect": {
+    "F8": -0.04
+   }
+  }
+ ]
+}

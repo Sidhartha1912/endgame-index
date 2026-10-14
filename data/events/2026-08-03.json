@@ -1,0 +1,81 @@
+[
+ {
+  "id": "2026-08-03-01",
+  "title": "White House rolls out voluntary pre-release testing framework for frontier models",
+  "summary": "The administration finalized a voluntary framework for labs to submit closed frontier models for government safety testing up to 30 days before release; open-weight models are excluded.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   },
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "New government eval regime, though voluntary and unpublished.",
+  "sources": [
+   "https://siliconangle.com/2026/08/03/white-house-invites-ai-companies-review-new-ai-safety-framework/",
+   "https://www.axios.com/2026/08/04/trump-ai-framework-open-models",
+   "https://www.techmeme.com/260803/p12"
+  ]
+ },
+ {
+  "id": "2026-08-03-02",
+  "title": "Alibaba releases Qwen3.8-Max and pledges open weights",
+  "summary": "Alibaba made Qwen3.8-Max widely available, claiming it rivals OpenAI, Anthropic and Kimi K3, and said it will publish the weights.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   },
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Self-reported frontier-class Chinese model; weights only promised.",
+  "sources": [
+   "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai"
+  ]
+ },
+ {
+  "id": "2026-08-03-03",
+  "title": "Texas freezes new data-center approvals pending grid audit",
+  "summary": "Governor Greg Abbott halted approval of new data-center projects until an audit of their grid connections. Date uncertain: Texas Tribune report dated Aug 3; Wikipedia lists Aug 10.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Large US state pauses AI infrastructure.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Opposition_to_AI_data_centers"
+  ]
+ }
+]

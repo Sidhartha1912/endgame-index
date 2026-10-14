@@ -1,0 +1,49 @@
+[
+ {
+  "id": "2026-06-25-01",
+  "title": "House Science Committee advances 10 bipartisan AI bills",
+  "summary": "The committee reported bills on research compute access (CREATE AI Act), AI security, flaw reporting, provenance, workforce and data-center energy measurement; Senators also introduced the AI Labeling Act.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "US",
+  "reason": "Non-prescriptive bills advancing; words more than action.",
+  "sources": [
+   "https://mintz.com/insights-center/viewpoints/54941/2026-07-08-ai-washington-report-july-2026-edition"
+  ]
+ },
+ {
+  "id": "2026-06-25-02",
+  "title": "RAISE US launches with $500M+ to retrain workers for the AI economy",
+  "summary": "A nonprofit led by Gina Raimondo and Eric Holcomb launched with Amazon, Anthropic, Microsoft and the OpenAI Foundation as anchors, targeting $1B for state reskilling partnerships.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Reskilling fund (rubric T2 up).",
+  "sources": [
+   "https://www.rockefellerfoundation.org/news/raise-us-launches-uniting-nations-leading-employers-and-bipartisan-governors-behind-american-workers/",
+   "https://www.axios.com/2026/06/25/anthropic-labor-market-ai-jobs-crisis"
+  ]
+ }
+]

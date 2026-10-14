@@ -1,0 +1,102 @@
+[
+ {
+  "id": "2026-06-16-01",
+  "title": "Report: Korean telecom's alleged China ties triggered US block on Anthropic models",
+  "summary": "Citing the Washington Post, Korea JoongAng Daily reported the White House weighed controls after a Korean telecom 'suspected of ties to China' appeared among Mythos 5 access holders; SK Telecom declined to comment.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "signal",
+  "region": "Other",
+  "reason": "Explains the national-security rationale behind the Jun 12 controls (China-leakage fear plus an Amazon-reported jailbreak); deepens tech decoupling.",
+  "sources": [
+   "https://www.koreajoongangdaily.com/business/white-house-officials-pin-anthropic-ai-export-block-on-korean-telecom-report/12726842",
+   "https://www.bankinfosecurity.net/us-pulls-plug-on-anthropics-top-ai-models-a-31964"
+  ]
+ },
+ {
+  "id": "2026-06-16-02",
+  "title": "SpaceX agrees to buy Cursor for $60 billion in stock",
+  "summary": "Days after its IPO, SpaceX (parent of xAI) agreed an all-stock deal for AI coding firm Cursor, aiming to 'build the world's most useful AI models' on its Colossus compute.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Big acquisition consolidating a frontier lab, compute and a top AI app (rubric T2 up).",
+  "sources": [
+   "https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html",
+   "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/"
+  ]
+ },
+ {
+  "id": "2026-06-16-03",
+  "title": "Z.ai releases open-weight GLM-5.2; CEO says China will match Fable 5 soon",
+  "summary": "China's Z.ai (Zhipu) released MIT-licensed GLM-5.2, reported to beat GPT-5.5 on several coding benchmarks at a fraction of the cost; founder Jie Tang said a Chinese Fable-5-class model is coming sooner than Musk's Q1 2027 estimate.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   },
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Strong open-weights model narrows gap with US frontier (rubric T2 down for F5). Release date given as Jun 13 by some outlets, Jun 16 by Tom's Hardware.",
+  "sources": [
+   "https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-says-that-china-will-have-a-fable-5-class-ai-model-probably-q1-next-year-ceo-of-chinese-anthropic-rival-says-it-wont-take-that-long",
+   "https://venturebeat.com/technology/z-ais-open-weights-glm-5-2-beats-gpt-5-5-on-multiple-long-horizon-coding-benchmarks-for-1-6th-the-cost"
+  ]
+ },
+ {
+  "id": "2026-06-16-04",
+  "title": "European Parliament votes to delay EU AI Act high-risk rules",
+  "summary": "Parliament adopted the AI 'digital omnibus', pushing stand-alone high-risk obligations from Aug 2026 to Dec 2027 (embedded products to Aug 2028) while adding a ban on AI-generated CSAM and non-consensual intimate imagery.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "EU",
+  "reason": "Major regulator softens and postpones its flagship regime (partial rollback); offset slightly by new prohibitions.",
+  "sources": [
+   "https://datamatters.sidley.com/2026/06/22/eu-lawmakers-reach-provisional-agreement-to-delay-key-eu-ai-act-obligations/",
+   "https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-high-risk-deadline-omnibus-20260/"
+  ]
+ }
+]

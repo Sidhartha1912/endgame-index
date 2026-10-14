@@ -1,0 +1,161 @@
+{
+ "date": "2026-09-26",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 20.32,
+  "benevolent_dictator": 23.99,
+  "egalitarian_utopia": 8.33,
+  "protector_god": 18.62,
+  "gatekeeper": 20.08,
+  "enslaved_god": 41.59,
+  "conquerors": 32.74,
+  "descendants": 25.59,
+  "zookeeper": 25.04,
+  "orwell_1984": 23.32,
+  "reversion": 4.89,
+  "self_destruction": 28.04
+ },
+ "deltas": {
+  "libertarian_utopia": 0.2,
+  "benevolent_dictator": 0.0,
+  "egalitarian_utopia": 0.17,
+  "protector_god": -0.0,
+  "gatekeeper": 0.57,
+  "enslaved_god": -0.01,
+  "conquerors": -0.13,
+  "descendants": -0.01,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.33,
+  "reversion": -0.16,
+  "self_destruction": -0.85
+ },
+ "targets": {
+  "libertarian_utopia": 20.32,
+  "benevolent_dictator": 23.99,
+  "egalitarian_utopia": 8.33,
+  "protector_god": 18.62,
+  "gatekeeper": 20.08,
+  "enslaved_god": 41.59,
+  "conquerors": 32.74,
+  "descendants": 25.59,
+  "zookeeper": 25.04,
+  "orwell_1984": 23.32,
+  "reversion": 4.89,
+  "self_destruction": 28.04
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.46,
+  "benevolent_dictator": -0.61,
+  "egalitarian_utopia": -0.48,
+  "protector_god": -0.61,
+  "gatekeeper": 0.71,
+  "enslaved_god": -0.4,
+  "conquerors": 1.23,
+  "descendants": 0.42,
+  "zookeeper": 1.0,
+  "orwell_1984": 0.6,
+  "reversion": -0.49,
+  "self_destruction": -0.64
+ },
+ "factors": {
+  "F1": 82.91,
+  "F2": 52.41,
+  "F3": 35.72,
+  "F4": 25.95,
+  "F5": 67.01,
+  "F6": 45.46,
+  "F7": 32.69,
+  "F8": 62.28,
+  "F9": 44.93,
+  "F10": 20.26
+ },
+ "factor_deltas": {
+  "F1": -0.02,
+  "F2": -0.0,
+  "F3": 0.01,
+  "F4": 0.82,
+  "F5": 0.0,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": -0.4,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -9.47,
+  "families": {
+   "flourishing": 17.82,
+   "contained": 30.83,
+   "successors": 27.79,
+   "stalled": 18.75
+  },
+  "news_heat": 1.2,
+  "evidence": "medium",
+  "event_count": 1
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "egalitarian_utopia": 0.01,
+  "gatekeeper": 0.01,
+  "enslaved_god": -0.01,
+  "conquerors": -0.01,
+  "descendants": -0.01,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.02,
+  "self_destruction": -0.02
+ },
+ "summary": {
+  "headline": "US and China agree AI incident channel at Trump-Xi summit",
+  "body": "The day's single story was a hopeful one. After a Washington summit where Xi Jinping said AI must stay under human control, the US and China agreed to set up a communication mechanism for AI-related incidents, with an AI dialogue set for November. Trump added that the US would not slow its own AI efforts. A crisis line between the two AI superpowers boosts Global Coordination and lowers Catastrophic Risk, which sharply reduces Self-Destruction and lifts Gatekeeper, the ending where nations jointly keep AI in check. It also gave 1984 a small lift, since that ending feeds on state coordination too. Horizon Balance rose to -9.47.",
+  "movers_note": "Self-Destruction -0.9 (-0.84), Gatekeeper +0.6 (+0.56) and 1984 +0.3 (+0.32), all from the US-China incident channel.",
+  "coming_up": [
+   "November: US-China AI dialogue"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-09-26-01",
+   "title": "US and China agree to set up AI safety incident channel at Trump-Xi summit",
+   "summary": "After a Washington summit where Xi said AI must stay under human control, the US and China agreed to a communication mechanism for AI-related incidents, with an AI dialogue set for November; Trump said the US would not slow its AI efforts.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    },
+    {
+     "id": "F8",
+     "dir": -1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Global",
+   "reason": "US-China confidence-building measure on AI; non-binding, not a treaty.",
+   "sources": [
+    "https://www.pbs.org/newshour/world/china-and-u-s-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks",
+    "https://www.bloomberg.com/news/articles/2026-09-24/trump-says-no-moves-toward-us-china-ai-guardrails-in-xi-summit",
+    "https://thehill.com/homenews/administration/6109283-xi-china-us-ai-responsibility-trump/"
+   ],
+   "points": 0.8,
+   "contribution": {
+    "libertarian_utopia": 0.2,
+    "egalitarian_utopia": 0.16,
+    "gatekeeper": 0.56,
+    "conquerors": -0.12,
+    "orwell_1984": 0.32,
+    "reversion": -0.16,
+    "self_destruction": -0.84
+   },
+   "factor_effect": {
+    "F4": 0.8,
+    "F8": -0.4
+   }
+  }
+ ]
+}

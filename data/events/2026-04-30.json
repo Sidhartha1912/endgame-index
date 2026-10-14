@@ -1,0 +1,48 @@
+[
+ {
+  "id": "2026-04-30-01",
+  "title": "Science study: OpenAI model beat ER physicians at real-world diagnosis",
+  "summary": "A peer-reviewed study in Science using emergency department records found an OpenAI reasoning model matched or outperformed physicians on diagnosis and care decisions.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Independent peer-reviewed evidence of expert-level capability in a real-world domain.",
+  "sources": [
+   "https://www.npr.org/2026/04/30/nx-s1-5804474/ai-doctors-openai-patient-care-diagnosis"
+  ]
+ },
+ {
+  "id": "2026-04-30-02",
+  "title": "Infosys CEO: no layoffs, AI expanding work; 20,000 graduate hires planned",
+  "summary": "Infosys's Salil Parekh said the firm made no layoffs in the past year and plans ~20,000 fresher hires, arguing AI is expanding scope of work.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "India",
+  "reason": "Counter-signal from a major Indian IT employer; executive statement.",
+  "sources": [
+   "https://www.peoplematters.in/news/ai-and-emerging-tech/no-layoffs-at-infosys-as-ceo-says-ai-is-expanding-work-report-49481"
+  ]
+ }
+]

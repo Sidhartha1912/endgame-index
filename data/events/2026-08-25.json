@@ -1,0 +1,25 @@
+[
+ {
+  "id": "2026-08-25-01",
+  "title": "Australia's ARIA bars mostly-AI songs from music charts",
+  "summary": "ARIA said tracks made mostly or wholly by AI will be excluded from Australian charts from Friday.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "Other",
+  "reason": "Cultural institution draws a line against AI output.",
+  "sources": [
+   "https://www.abc.net.au/news/2026-08-25/ai-generated-music-to-be-banned-from-aria-charts/107072642"
+  ]
+ }
+]

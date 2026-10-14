@@ -1,0 +1,158 @@
+{
+ "date": "2026-05-31",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 27.56,
+  "benevolent_dictator": 23.38,
+  "egalitarian_utopia": 14.64,
+  "protector_god": 16.49,
+  "gatekeeper": 17.68,
+  "enslaved_god": 39.27,
+  "conquerors": 20.9,
+  "descendants": 18.38,
+  "zookeeper": 14.67,
+  "orwell_1984": 24.27,
+  "reversion": 3.96,
+  "self_destruction": 20.53
+ },
+ "deltas": {
+  "libertarian_utopia": -0.04,
+  "benevolent_dictator": -0.03,
+  "egalitarian_utopia": -0.03,
+  "protector_god": -0.04,
+  "gatekeeper": -0.04,
+  "enslaved_god": -0.03,
+  "conquerors": 0.04,
+  "descendants": -0.01,
+  "zookeeper": 0.03,
+  "orwell_1984": 0.0,
+  "reversion": -0.02,
+  "self_destruction": 0.02
+ },
+ "targets": {
+  "libertarian_utopia": 27.56,
+  "benevolent_dictator": 23.38,
+  "egalitarian_utopia": 14.64,
+  "protector_god": 16.49,
+  "gatekeeper": 17.68,
+  "enslaved_god": 39.27,
+  "conquerors": 20.9,
+  "descendants": 18.38,
+  "zookeeper": 14.67,
+  "orwell_1984": 24.27,
+  "reversion": 3.96,
+  "self_destruction": 20.53
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.12,
+  "benevolent_dictator": 0.16,
+  "egalitarian_utopia": -0.06,
+  "protector_god": 0.16,
+  "gatekeeper": 0.78,
+  "enslaved_god": 0.43,
+  "conquerors": 0.15,
+  "descendants": 0.34,
+  "zookeeper": 0.3,
+  "orwell_1984": 0.42,
+  "reversion": 0.39,
+  "self_destruction": -0.51
+ },
+ "factors": {
+  "F1": 74.7,
+  "F2": 48.42,
+  "F3": 41.51,
+  "F4": 23.95,
+  "F5": 64.54,
+  "F6": 45.76,
+  "F7": 32.94,
+  "F8": 56.64,
+  "F9": 41.33,
+  "F10": 20.38
+ },
+ "factor_deltas": {
+  "F1": -0.01,
+  "F2": 0.0,
+  "F3": -0.06,
+  "F4": -0.0,
+  "F5": 0.0,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.0,
+  "F9": -0.03,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": 0.42,
+  "families": {
+   "flourishing": 20.52,
+   "contained": 28.47,
+   "successors": 17.98,
+   "stalled": 16.25
+  },
+  "news_heat": 0.07,
+  "evidence": "low",
+  "event_count": 1
+ },
+ "badges": [
+  "crossover",
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": 0.01,
+  "egalitarian_utopia": 0.01,
+  "protector_god": 0.01,
+  "gatekeeper": 0.01,
+  "conquerors": -0.01,
+  "descendants": -0.01,
+  "zookeeper": -0.01,
+  "reversion": -0.02
+ },
+ "summary": {
+  "headline": "NPR finds open models stripped of safeguards in minutes",
+  "body": "A quiet day. NPR documented thousands of altered open-weight models used for scams and extremism, and showed safeguards on Gemma 3 and Llama 3.3 can be removed with public tools. That chips at Alignment & Control, nudging Conquerors up and Protector God down by hundredths. Zookeeper edged past Egalitarian Utopia. Horizon Balance is 0.4, down 0.06.",
+  "movers_note": "No ending moved by 0.1 or more; Conquerors +0.0 and Protector God -0.0, from the NPR report (+0.05/-0.05).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-05-31-01",
+   "title": "NPR: thousands of uncensored open-weight models fuel misuse; guardrails stripped in minutes",
+   "summary": "NPR documented thousands of altered open-weight models used for scams and extremism, while researchers showed Gemma 3 and Llama 3.3 safeguards can be removed with public tools.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "Global",
+   "reason": "Evidence safety measures on open models are easily removed; known issue.",
+   "sources": [
+    "https://www.npr.org/2026/05/31/nx-s1-5816391/ai-safety-concerns-danger-open-weight-models-risks",
+    "https://www.eweek.com/news/open-weight-ai-guardrails-gemma-llama/"
+   ],
+   "points": 0.07,
+   "contribution": {
+    "libertarian_utopia": -0.04,
+    "benevolent_dictator": -0.04,
+    "egalitarian_utopia": -0.04,
+    "protector_god": -0.05,
+    "gatekeeper": -0.04,
+    "enslaved_god": -0.04,
+    "conquerors": 0.05,
+    "zookeeper": 0.04,
+    "self_destruction": 0.03
+   },
+   "factor_effect": {
+    "F3": -0.07
+   }
+  }
+ ]
+}

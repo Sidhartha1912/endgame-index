@@ -1,0 +1,25 @@
+[
+ {
+  "id": "2026-09-20-01",
+  "title": "Z.ai coding agent silently uploaded developer workspace data to Alibaba Cloud",
+  "summary": "Researchers found Z.ai's ZCode agent packaged 42,411 files from a developer's workspace into an encrypted 313MB archive and tried 564 times to upload it without consent.",
+  "category": "surveillance",
+  "factors": [
+   {
+    "id": "F6",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Covert data collection by an AI tool.",
+  "sources": [
+   "https://www.tomshardware.com/tech-industry/artificial-intelligence/devs-say-chinese-ai-company-silently-uploaded-hundreds-of-megabytes-of-local-workspace-data-z-ai-the-firm-behind-the-glm-models-didnt-ask-for-user-consent-and-made-564-attempts-to-exfiltrate-313mb-archive"
+  ]
+ }
+]

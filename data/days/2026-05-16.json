@@ -1,0 +1,111 @@
+{
+ "date": "2026-05-16",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 29.16,
+  "benevolent_dictator": 20.93,
+  "egalitarian_utopia": 16.06,
+  "protector_god": 13.81,
+  "gatekeeper": 15.5,
+  "enslaved_god": 36.34,
+  "conquerors": 17.52,
+  "descendants": 14.4,
+  "zookeeper": 10.15,
+  "orwell_1984": 24.13,
+  "reversion": 5.62,
+  "self_destruction": 20.51
+ },
+ "deltas": {
+  "libertarian_utopia": -0.0,
+  "benevolent_dictator": -0.0,
+  "egalitarian_utopia": 0.0,
+  "protector_god": -0.0,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.0,
+  "conquerors": 0.0,
+  "descendants": 0.0,
+  "zookeeper": 0.0,
+  "orwell_1984": -0.0,
+  "reversion": -0.01,
+  "self_destruction": 0.0
+ },
+ "targets": {
+  "libertarian_utopia": 29.16,
+  "benevolent_dictator": 20.93,
+  "egalitarian_utopia": 16.06,
+  "protector_god": 13.81,
+  "gatekeeper": 15.5,
+  "enslaved_god": 36.34,
+  "conquerors": 17.52,
+  "descendants": 14.4,
+  "zookeeper": 10.15,
+  "orwell_1984": 24.13,
+  "reversion": 5.62,
+  "self_destruction": 20.51
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.03,
+  "benevolent_dictator": 0.07,
+  "egalitarian_utopia": -0.06,
+  "protector_god": 0.05,
+  "gatekeeper": 0.01,
+  "enslaved_god": -0.06,
+  "conquerors": 0.1,
+  "descendants": 0.09,
+  "zookeeper": 0.12,
+  "orwell_1984": -0.0,
+  "reversion": -0.05,
+  "self_destruction": 0.03
+ },
+ "factors": {
+  "F1": 70.85,
+  "F2": 46.17,
+  "F3": 41.97,
+  "F4": 23.61,
+  "F5": 62.01,
+  "F6": 45.6,
+  "F7": 33.19,
+  "F8": 56.64,
+  "F9": 40.68,
+  "F10": 19.99
+ },
+ "factor_deltas": {
+  "F1": 0.0,
+  "F2": 0.0,
+  "F3": -0.01,
+  "F4": -0.0,
+  "F5": 0.0,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": 0.0,
+  "F9": -0.01,
+  "F10": 0.0
+ },
+ "composites": {
+  "horizon_balance": 1.91,
+  "families": {
+   "flourishing": 19.99,
+   "contained": 25.92,
+   "successors": 14.03,
+   "stalled": 16.75
+  },
+  "news_heat": 0.0,
+  "evidence": "low",
+  "event_count": 0
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "gatekeeper": -0.01,
+  "reversion": -0.01
+ },
+ "summary": {
+  "headline": "Another quiet day as older news fades",
+  "body": "Another day with no scored events. The only movement came from fading: older announcements count for a little less each day, so Gatekeeper and Reversion eased down by a hundredth of a point. Horizon Balance is 1.9, down 0.01, which is noise rather than a signal.",
+  "movers_note": "No ending moved by 0.1 or more; Gatekeeper and Reversion slipped slightly (-0.0) as earlier stories faded.",
+  "coming_up": []
+ },
+ "events": []
+}

@@ -1,0 +1,48 @@
+[
+ {
+  "id": "2026-07-18-01",
+  "title": "Data-center opponents stage 142 protests across 42 US states",
+  "summary": "Reuters tallied 142 protests against AI data centers in 42 states in July, over power bills, water and noise.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Coordinated, large-scale local opposition to AI infrastructure.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Opposition_to_AI_data_centers"
+  ]
+ },
+ {
+  "id": "2026-07-18-02",
+  "title": "San Francisco orders Apple and Google to pull 13 'nudify' AI apps",
+  "summary": "The city sent cease-and-desist orders demanding removal of apps that generate non-consensual nude images of real people. Date approximate (week of July 17).",
+  "category": "surveillance",
+  "factors": [
+   {
+    "id": "F6",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "local",
+  "track": "structural",
+  "region": "US",
+  "reason": "Local rights enforcement against abusive generative AI.",
+  "sources": [
+   "https://blog.buildfastwithai.com/ai-news-today-july-18-2026"
+  ]
+ }
+]

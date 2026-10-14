@@ -1,0 +1,53 @@
+[
+ {
+  "id": "2026-04-24-01",
+  "title": "DeepSeek releases open V4 models adapted to Huawei Ascend chips",
+  "summary": "DeepSeek previewed MIT-licensed V4-Pro (1.6T params) and V4-Flash with 1M-token context, near-frontier benchmarks and support for Huawei Ascend processors.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   },
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Strong open-weights model near frontier, reducing dependence on Nvidia and on closed labs.",
+  "sources": [
+   "https://apnews.com/article/deepseek-ai-china-gpt-v4-d2ed33f2521917193616e061674d5f92",
+   "https://qz.com/deepseek-v4-model-huawei-chips-open-source-042426"
+  ]
+ },
+ {
+  "id": "2026-04-24-02",
+  "title": "Maine governor vetoes first-in-nation data center moratorium",
+  "summary": "Gov. Janet Mills vetoed the moratorium because it lacked an exemption for a project in Jay, promising an executive-order study council instead.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Rollback of the backlash measure passed Apr 14.",
+  "sources": [
+   "https://broadbandbreakfast.com/nations-first-state-data-center-moratorium-vetoed-by-maine-governor/"
+  ]
+ }
+]

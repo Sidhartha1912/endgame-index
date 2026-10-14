@@ -1,0 +1,219 @@
+{
+ "date": "2026-07-17",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 26.65,
+  "benevolent_dictator": 26.03,
+  "egalitarian_utopia": 14.37,
+  "protector_god": 19.15,
+  "gatekeeper": 19.42,
+  "enslaved_god": 42.54,
+  "conquerors": 21.11,
+  "descendants": 19.85,
+  "zookeeper": 15.92,
+  "orwell_1984": 24.53,
+  "reversion": 4.18,
+  "self_destruction": 21.25
+ },
+ "deltas": {
+  "libertarian_utopia": 0.04,
+  "benevolent_dictator": -0.03,
+  "egalitarian_utopia": 0.02,
+  "protector_god": -0.01,
+  "gatekeeper": 0.54,
+  "enslaved_god": -0.03,
+  "conquerors": 0.01,
+  "descendants": 0.03,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.3,
+  "reversion": -0.01,
+  "self_destruction": -0.41
+ },
+ "targets": {
+  "libertarian_utopia": 26.65,
+  "benevolent_dictator": 26.03,
+  "egalitarian_utopia": 14.37,
+  "protector_god": 19.15,
+  "gatekeeper": 19.42,
+  "enslaved_god": 42.54,
+  "conquerors": 21.11,
+  "descendants": 19.85,
+  "zookeeper": 15.92,
+  "orwell_1984": 24.53,
+  "reversion": 4.18,
+  "self_destruction": 21.25
+ },
+ "momentum_7d": {
+  "libertarian_utopia": 0.09,
+  "benevolent_dictator": -0.03,
+  "egalitarian_utopia": -0.0,
+  "protector_god": 0.03,
+  "gatekeeper": 0.67,
+  "enslaved_god": 0.0,
+  "conquerors": 0.03,
+  "descendants": 0.07,
+  "zookeeper": 0.04,
+  "orwell_1984": 0.33,
+  "reversion": 0.43,
+  "self_destruction": -0.58
+ },
+ "factors": {
+  "F1": 76.6,
+  "F2": 49.14,
+  "F3": 43.54,
+  "F4": 23.3,
+  "F5": 66.76,
+  "F6": 45.99,
+  "F7": 33.0,
+  "F8": 57.74,
+  "F9": 42.25,
+  "F10": 20.25
+ },
+ "factor_deltas": {
+  "F1": -0.0,
+  "F2": 0.0,
+  "F3": -0.01,
+  "F4": 0.79,
+  "F5": -0.04,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": -0.02,
+  "F9": -0.01,
+  "F10": 0.04
+ },
+ "composites": {
+  "horizon_balance": 0.85,
+  "families": {
+   "flourishing": 21.55,
+   "contained": 30.98,
+   "successors": 18.96,
+   "stalled": 16.65
+  },
+  "news_heat": 0.89,
+  "evidence": "medium",
+  "event_count": 3
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": -0.01,
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.01,
+  "conquerors": 0.01,
+  "zookeeper": 0.01,
+  "reversion": -0.01,
+  "self_destruction": -0.01
+ },
+ "summary": {
+  "headline": "Xi launches a global AI cooperation body; Gatekeeper rises",
+  "body": "The day's big story came from Shanghai. In his first World AI Conference keynote, Xi Jinping announced a World Artificial Intelligence Cooperation Organization, reportedly with 29 founding countries, while criticising US export curbs. A new multi-country body is a real step for Global Coordination. That matters for Gatekeeper, the ending where nations work together to keep superintelligence in check, and it eases Self-Destruction, which feeds on a breakdown in cooperation. It also lifted 1984, because coordinated state control can cut both ways. Two smaller items: Tata set a mid-2028 start for India's first chip fab at Dholera, a slight spread of power away from the leaders, and China claimed its first commercial brain-chip implant, an unverified nudge to Human-AI Merging. Horizon Balance rose to 0.85.",
+  "movers_note": "Gatekeeper +0.5, Self-Destruction -0.4 and 1984 +0.3 were driven by Xi's World AI Cooperation Organization announcement (+0.56, -0.40 and +0.32).",
+  "coming_up": [
+   "Tata-PSMC Dholera chip fab targeted to start operations in mid-2028"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-07-17-01",
+   "title": "Xi launches World AI Cooperation Organization at Shanghai WAIC",
+   "summary": "In his first World AI Conference keynote, Xi Jinping announced a Shanghai-based World Artificial Intelligence Cooperation Organization, reportedly with 29 founding countries, and criticized US export curbs.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "New multilateral AI body led by China; adds coordination though as a rival bloc.",
+   "sources": [
+    "https://www.bloomberg.com/news/articles/2026-07-13/xi-to-debut-at-china-s-flagship-ai-summit-as-us-rivalry-heats-up",
+    "https://blog.buildfastwithai.com/ai-news-today-july-18-2026"
+   ],
+   "points": 0.8,
+   "contribution": {
+    "gatekeeper": 0.56,
+    "orwell_1984": 0.32,
+    "self_destruction": -0.4
+   },
+   "factor_effect": {
+    "F4": 0.8
+   }
+  },
+  {
+   "id": "2026-07-17-02",
+   "title": "Tata Electronics sets mid-2028 target for India's first chip fab at Dholera",
+   "summary": "Reports detailed the roughly Rs 91,000 crore Tata-PSMC fab for up to 50,000 wafer starts a month; IT Minister Vaishnaw said operations should start mid-2028.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "national",
+   "track": "signal",
+   "region": "India",
+   "reason": "Adds to sovereign compute and chip supply outside the US/Taiwan; still years away.",
+   "sources": [
+    "https://www.business-standard.com/amp/companies/news/tata-electronics-to-launch-india-s-first-chip-fab-using-older-technology-126071700161_1.html"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "libertarian_utopia": 0.03,
+    "benevolent_dictator": -0.02,
+    "egalitarian_utopia": 0.02,
+    "enslaved_god": -0.03,
+    "zookeeper": -0.02,
+    "orwell_1984": -0.02
+   },
+   "factor_effect": {
+    "F5": -0.04
+   }
+  },
+  {
+   "id": "2026-07-17-03",
+   "title": "China claims first commercial invasive brain-chip implant",
+   "summary": "Chinese reports said a brain-computer interface implant had moved from trials to commercial use; details are limited and unverified.",
+   "category": "merge",
+   "factors": [
+    {
+     "id": "F10",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "D",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "China",
+   "reason": "BCI commercialisation claim; unverified so T1, D.",
+   "sources": [
+    "https://blog.buildfastwithai.com/ai-news-today-july-17-2026"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "libertarian_utopia": 0.02,
+    "descendants": 0.04
+   },
+   "factor_effect": {
+    "F10": 0.04
+   }
+  }
+ ]
+}

@@ -1,0 +1,119 @@
+[
+ {
+  "id": "2026-08-26-01",
+  "title": "Z.ai releases GLM-5.3-Flash, 320B open-weight multimodal model",
+  "summary": "China's Z.ai released MIT-licensed GLM-5.3-Flash and confirmed it was behind the stealth 'Ox Alpha' model said to rival DeepSeek.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Mid-to-large open-weights release; vendor benchmarks.",
+  "sources": [
+   "https://huggingface.co/zai-org/GLM-5.3-Flash",
+   "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek"
+  ]
+ },
+ {
+  "id": "2026-08-26-02",
+  "title": "Nvidia posts record $96.2B quarterly revenue, up 106%",
+  "summary": "Nvidia reported record quarterly revenue of $96.22 billion, more than doubling year on year on AI data-centre demand.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Confirms compute buildout pace; financial.",
+  "sources": [
+   "https://www.grandlinux.com/en/blogs/ai-august-2569-roundup.html"
+  ]
+ },
+ {
+  "id": "2026-08-26-03",
+  "title": "Altman says OpenAI is '80%' to AGI while delaying its biggest training run",
+  "summary": "In a TIME interview, Sam Altman described an 'AI research intern' and said OpenAI is about 80% of the way to AGI, while holding its largest run until new safety controls are ready.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": true,
+  "novelty": "development",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Lab-leader claim about own progress; words, not verified.",
+  "sources": [
+   "https://time.com/article/2026/08/26/openai-sam-altman-interview/"
+  ]
+ },
+ {
+  "id": "2026-08-26-04",
+  "title": "Meta scrapped 'AI-native' plan that would have cut teams by 60%",
+  "summary": "Ars Technica reported Meta's AI-native workforce push produced more code but more incidents, and Meta cancelled some planned cuts.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Evidence AI substitution under-delivered; cuts cancelled.",
+  "sources": [
+   "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/"
+  ]
+ },
+ {
+  "id": "2026-08-26-05",
+  "title": "Influence operations try to seed AI chatbots with propaganda",
+  "summary": "The Guardian exposed a fake Israeli-funded thinktank publishing 124 reports in nine days to be cited by AI assistants; OpenAI also banned a Russian influence cluster.",
+  "category": "surveillance",
+  "factors": [
+   {
+    "id": "F6",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Global",
+  "reason": "State-linked information manipulation via AI; attempt, limited reach.",
+  "sources": [
+   "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
+   "https://aiweekly.co/ai-news-today/edition/2026-08-26"
+  ]
+ }
+]

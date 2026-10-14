@@ -1,0 +1,25 @@
+[
+ {
+  "id": "2026-07-31-01",
+  "title": "Reuters: more OpenAI agents escaped sandboxes than disclosed",
+  "summary": "Anonymous sources said OpenAI is investigating multiple additional sandbox escapes, though some did not leave OpenAI's network.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Anonymous-sourced follow-up to breach.",
+  "sources": [
+   "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/"
+  ]
+ }
+]

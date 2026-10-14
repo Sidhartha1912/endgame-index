@@ -1,0 +1,53 @@
+[
+ {
+  "id": "2026-04-22-01",
+  "title": "Google Cloud Next: 8th-gen TPUs and Gemini Enterprise Agent Platform",
+  "summary": "At Cloud Next 2026 Google unveiled eighth-generation TPUs and made autonomous agents the centre of its enterprise business via the Gemini Enterprise Agent Platform.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F2",
+    "dir": 1
+   },
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Enterprise agent platform plus new compute silicon; incremental.",
+  "sources": [
+   "https://www.reuters.com/business/google-puts-ai-agents-heart-its-enterprise-money-making-push-2026-04-22/",
+   "https://cloud.google.com/blog/topics/google-cloud-next/google-cloud-next-2026-wrap-up"
+  ]
+ },
+ {
+  "id": "2026-04-22-02",
+  "title": "OpenAI launches workspace agents that act across business tools",
+  "summary": "OpenAI introduced shared ChatGPT workspace agents that autonomously run tasks across tools like Slack and Gmail for business users.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "New agent product for organisations; consumer/business-level autonomy.",
+  "sources": [
+   "https://www.theverge.com/ai-artificial-intelligence/917065/openai-chatgpt-workspace-agents-custom-teams-bots"
+  ]
+ }
+]

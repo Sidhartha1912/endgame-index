@@ -1,0 +1,218 @@
+{
+ "date": "2026-05-29",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 27.62,
+  "benevolent_dictator": 23.37,
+  "egalitarian_utopia": 14.68,
+  "protector_god": 16.52,
+  "gatekeeper": 17.71,
+  "enslaved_god": 39.27,
+  "conquerors": 20.87,
+  "descendants": 18.4,
+  "zookeeper": 14.62,
+  "orwell_1984": 24.25,
+  "reversion": 4.01,
+  "self_destruction": 20.51
+ },
+ "deltas": {
+  "libertarian_utopia": 0.09,
+  "benevolent_dictator": -0.0,
+  "egalitarian_utopia": -0.0,
+  "protector_god": -0.01,
+  "gatekeeper": 0.05,
+  "enslaved_god": -0.01,
+  "conquerors": 0.01,
+  "descendants": 0.19,
+  "zookeeper": 0.0,
+  "orwell_1984": 0.03,
+  "reversion": -0.02,
+  "self_destruction": -0.03
+ },
+ "targets": {
+  "libertarian_utopia": 27.62,
+  "benevolent_dictator": 23.37,
+  "egalitarian_utopia": 14.68,
+  "protector_god": 16.52,
+  "gatekeeper": 17.71,
+  "enslaved_god": 39.27,
+  "conquerors": 20.87,
+  "descendants": 18.4,
+  "zookeeper": 14.62,
+  "orwell_1984": 24.25,
+  "reversion": 4.01,
+  "self_destruction": 20.51
+ },
+ "momentum_7d": {
+  "libertarian_utopia": 0.02,
+  "benevolent_dictator": 0.1,
+  "egalitarian_utopia": 0.05,
+  "protector_god": 0.21,
+  "gatekeeper": 0.86,
+  "enslaved_god": 0.36,
+  "conquerors": 0.11,
+  "descendants": 0.35,
+  "zookeeper": 0.19,
+  "orwell_1984": 0.35,
+  "reversion": 0.45,
+  "self_destruction": -0.51
+ },
+ "factors": {
+  "F1": 74.71,
+  "F2": 48.41,
+  "F3": 41.55,
+  "F4": 23.96,
+  "F5": 64.49,
+  "F6": 45.76,
+  "F7": 32.93,
+  "F8": 56.64,
+  "F9": 41.38,
+  "F10": 20.4
+ },
+ "factor_deltas": {
+  "F1": -0.01,
+  "F2": 0.0,
+  "F3": -0.01,
+  "F4": 0.08,
+  "F5": 0.0,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.0,
+  "F9": -0.03,
+  "F10": 0.23
+ },
+ "composites": {
+  "horizon_balance": 0.49,
+  "families": {
+   "flourishing": 20.55,
+   "contained": 28.49,
+   "successors": 17.96,
+   "stalled": 16.26
+  },
+  "news_heat": 0.34,
+  "evidence": "low",
+  "event_count": 3
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": 0.01,
+  "egalitarian_utopia": 0.01,
+  "protector_god": 0.01,
+  "gatekeeper": 0.01,
+  "conquerors": -0.01,
+  "descendants": -0.01,
+  "zookeeper": -0.01,
+  "reversion": -0.02,
+  "self_destruction": -0.01
+ },
+ "summary": {
+  "headline": "Meta tests an AI pendant; Descendants inches up",
+  "body": "A light day. Reuters reported Meta is testing an AI pendant and work wearables, a step toward always-on AI on the body that adds to Human-AI Merging and lifts Descendants. China's Wang Yi called for international AI regulation at the UN, and NIST broadened its AI consortium from safety toward innovation. Horizon Balance is 0.5, up 0.02.",
+  "movers_note": "Descendants +0.2, mostly from Meta's AI wearables (+0.19); Libertarian Utopia +0.1 from the same story (+0.10).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-05-29-01",
+   "title": "China's Wang Yi proposes global governance reforms including AI at UN",
+   "summary": "Foreign Minister Wang Yi called for UN reform and international AI regulation at a UN meeting in New York.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "D",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "China",
+   "reason": "Statement of intent on global AI governance by major power; signal.",
+   "sources": [
+    "https://techieray.substack.com/p/ctrlaireg-1-june-2026"
+   ],
+   "points": 0.07,
+   "contribution": {
+    "gatekeeper": 0.05,
+    "orwell_1984": 0.03,
+    "self_destruction": -0.04
+   },
+   "factor_effect": {
+    "F4": 0.07
+   }
+  },
+  {
+   "id": "2026-05-29-02",
+   "title": "NIST renames AI Safety Institute Consortium, adds innovation mission",
+   "summary": "NIST rebranded its AISI Consortium as the NIST AI Consortium, broadening its mission from safety to innovation and adoption.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "D",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Further de-emphasis of safety in US institutions; minor.",
+   "sources": [
+    "https://techieray.substack.com/p/ctrlaireg-1-june-2026"
+   ],
+   "points": 0.02,
+   "contribution": {
+    "libertarian_utopia": -0.01,
+    "benevolent_dictator": -0.01,
+    "egalitarian_utopia": -0.01,
+    "protector_god": -0.02,
+    "gatekeeper": -0.01,
+    "enslaved_god": -0.01,
+    "conquerors": 0.02,
+    "zookeeper": 0.01,
+    "self_destruction": 0.01
+   },
+   "factor_effect": {
+    "F3": -0.02
+   }
+  },
+  {
+   "id": "2026-05-29-03",
+   "title": "Meta plans AI pendant and 'Wearables for Work'",
+   "summary": "Reuters reported Meta is testing an AI pendant, expanding AI glasses and launching enterprise wearables as it pushes always-on AI devices.",
+   "category": "merge",
+   "factors": [
+    {
+     "id": "F10",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "US",
+   "reason": "Body-worn AI devices; plans, not trials.",
+   "sources": [
+    "https://www.reuters.com/technology/meta-plans-wearables-work-ai-pendant-information-reports-2026-05-29/"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "libertarian_utopia": 0.1,
+    "descendants": 0.19
+   },
+   "factor_effect": {
+    "F10": 0.24
+   }
+  }
+ ]
+}

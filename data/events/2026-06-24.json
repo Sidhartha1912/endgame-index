@@ -1,0 +1,26 @@
+[
+ {
+  "id": "2026-06-24-01",
+  "title": "Qualcomm confirms ~$3.9B acquisition of AI software firm Modular",
+  "summary": "Qualcomm said it is buying Modular to strengthen its AI chip software stack, paying in stock with closing expected in H2 2026.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Mid-size consolidation in AI infrastructure.",
+  "sources": [
+   "https://www.bloomberg.com/news/articles/2026-06-24/qualcomm-confirms-buying-modular-to-help-ai-market-push",
+   "https://www.cnbc.com/2026/06/24/qualcomm-ai-chip-modular-software.html"
+  ]
+ }
+]

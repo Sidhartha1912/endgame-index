@@ -1,0 +1,153 @@
+{
+ "date": "2026-06-24",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 26.68,
+  "benevolent_dictator": 25.32,
+  "egalitarian_utopia": 14.38,
+  "protector_god": 17.98,
+  "gatekeeper": 17.8,
+  "enslaved_god": 41.42,
+  "conquerors": 20.3,
+  "descendants": 18.6,
+  "zookeeper": 14.87,
+  "orwell_1984": 24.27,
+  "reversion": 4.6,
+  "self_destruction": 21.82
+ },
+ "deltas": {
+  "libertarian_utopia": -0.14,
+  "benevolent_dictator": 0.12,
+  "egalitarian_utopia": -0.09,
+  "protector_god": -0.01,
+  "gatekeeper": -0.0,
+  "enslaved_god": 0.14,
+  "conquerors": -0.0,
+  "descendants": -0.0,
+  "zookeeper": 0.11,
+  "orwell_1984": 0.1,
+  "reversion": -0.02,
+  "self_destruction": -0.03
+ },
+ "targets": {
+  "libertarian_utopia": 26.68,
+  "benevolent_dictator": 25.32,
+  "egalitarian_utopia": 14.38,
+  "protector_god": 17.98,
+  "gatekeeper": 17.8,
+  "enslaved_god": 41.42,
+  "conquerors": 20.3,
+  "descendants": 18.6,
+  "zookeeper": 14.87,
+  "orwell_1984": 24.27,
+  "reversion": 4.6,
+  "self_destruction": 21.82
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.89,
+  "benevolent_dictator": 0.3,
+  "egalitarian_utopia": -0.68,
+  "protector_god": 0.19,
+  "gatekeeper": 0.29,
+  "enslaved_god": 0.64,
+  "conquerors": 0.6,
+  "descendants": 0.33,
+  "zookeeper": 0.57,
+  "orwell_1984": 0.2,
+  "reversion": -0.02,
+  "self_destruction": 0.96
+ },
+ "factors": {
+  "F1": 75.05,
+  "F2": 48.64,
+  "F3": 43.23,
+  "F4": 22.35,
+  "F5": 66.45,
+  "F6": 45.74,
+  "F7": 33.05,
+  "F8": 57.72,
+  "F9": 41.74,
+  "F10": 20.24
+ },
+ "factor_deltas": {
+  "F1": -0.0,
+  "F2": 0.0,
+  "F3": -0.01,
+  "F4": 0.01,
+  "F5": 0.25,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": -0.03,
+  "F9": -0.01,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": 0.78,
+  "families": {
+   "flourishing": 21.09,
+   "contained": 29.61,
+   "successors": 17.92,
+   "stalled": 16.9
+  },
+  "news_heat": 0.24,
+  "evidence": "low",
+  "event_count": 1
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "protector_god": -0.01,
+  "zookeeper": 0.01,
+  "orwell_1984": 0.01,
+  "reversion": -0.02,
+  "self_destruction": -0.03
+ },
+ "summary": {
+  "headline": "Qualcomm buys AI software firm Modular for ~$3.9B",
+  "body": "A quiet day with one deal. Qualcomm confirmed it is buying AI software company Modular for about $3.9 billion to strengthen its chip software. Another acquisition adds to Power Concentration, which lifts Enslaved God and Benevolent Dictator and trims Libertarian Utopia. Horizon Balance: +0.78.",
+  "movers_note": "Libertarian Utopia -0.1, Enslaved God +0.1 and Benevolent Dictator +0.1, all from the Qualcomm-Modular deal.",
+  "coming_up": [
+   "Qualcomm-Modular deal expected to close in H2 2026"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-06-24-01",
+   "title": "Qualcomm confirms ~$3.9B acquisition of AI software firm Modular",
+   "summary": "Qualcomm said it is buying Modular to strengthen its AI chip software stack, paying in stock with closing expected in H2 2026.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Mid-size consolidation in AI infrastructure.",
+   "sources": [
+    "https://www.bloomberg.com/news/articles/2026-06-24/qualcomm-confirms-buying-modular-to-help-ai-market-push",
+    "https://www.cnbc.com/2026/06/24/qualcomm-ai-chip-modular-software.html"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "libertarian_utopia": -0.14,
+    "benevolent_dictator": 0.12,
+    "egalitarian_utopia": -0.1,
+    "enslaved_god": 0.14,
+    "zookeeper": 0.1,
+    "orwell_1984": 0.1
+   },
+   "factor_effect": {
+    "F5": 0.24
+   }
+  }
+ ]
+}

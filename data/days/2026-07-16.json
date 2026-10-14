@@ -1,0 +1,192 @@
+{
+ "date": "2026-07-16",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 26.6,
+  "benevolent_dictator": 26.06,
+  "egalitarian_utopia": 14.35,
+  "protector_god": 19.16,
+  "gatekeeper": 18.87,
+  "enslaved_god": 42.58,
+  "conquerors": 21.11,
+  "descendants": 19.81,
+  "zookeeper": 15.93,
+  "orwell_1984": 24.23,
+  "reversion": 4.19,
+  "self_destruction": 21.65
+ },
+ "deltas": {
+  "libertarian_utopia": -0.0,
+  "benevolent_dictator": -0.01,
+  "egalitarian_utopia": -0.01,
+  "protector_god": 0.03,
+  "gatekeeper": 0.02,
+  "enslaved_god": 0.04,
+  "conquerors": 0.05,
+  "descendants": 0.05,
+  "zookeeper": 0.05,
+  "orwell_1984": -0.03,
+  "reversion": -0.02,
+  "self_destruction": -0.01
+ },
+ "targets": {
+  "libertarian_utopia": 26.6,
+  "benevolent_dictator": 26.06,
+  "egalitarian_utopia": 14.35,
+  "protector_god": 19.16,
+  "gatekeeper": 18.87,
+  "enslaved_god": 42.58,
+  "conquerors": 21.11,
+  "descendants": 19.81,
+  "zookeeper": 15.93,
+  "orwell_1984": 24.23,
+  "reversion": 4.19,
+  "self_destruction": 21.65
+ },
+ "momentum_7d": {
+  "libertarian_utopia": 0.04,
+  "benevolent_dictator": -0.01,
+  "egalitarian_utopia": -0.02,
+  "protector_god": 0.11,
+  "gatekeeper": 0.18,
+  "enslaved_god": 0.14,
+  "conquerors": 0.11,
+  "descendants": 0.14,
+  "zookeeper": 0.14,
+  "orwell_1984": -0.02,
+  "reversion": 0.32,
+  "self_destruction": -0.19
+ },
+ "factors": {
+  "F1": 76.6,
+  "F2": 49.14,
+  "F3": 43.55,
+  "F4": 22.51,
+  "F5": 66.8,
+  "F6": 45.99,
+  "F7": 32.99,
+  "F8": 57.75,
+  "F9": 42.25,
+  "F10": 20.21
+ },
+ "factor_deltas": {
+  "F1": 0.08,
+  "F2": 0.0,
+  "F3": -0.01,
+  "F4": -0.01,
+  "F5": -0.0,
+  "F6": 0.0,
+  "F7": -0.02,
+  "F8": -0.02,
+  "F9": 0.04,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": 0.81,
+  "families": {
+   "flourishing": 21.54,
+   "contained": 30.72,
+   "successors": 18.95,
+   "stalled": 16.69
+  },
+  "news_heat": 0.17,
+  "evidence": "low",
+  "event_count": 2
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": -0.01,
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.01,
+  "conquerors": 0.01,
+  "zookeeper": 0.01,
+  "reversion": -0.01,
+  "self_destruction": -0.01
+ },
+ "summary": {
+  "headline": "Moonshot's giant Kimi K3 nudges capability higher",
+  "body": "A light day. Beijing's Moonshot AI launched Kimi K3, a 2.8-trillion-parameter model it calls the largest open model and a rival to top US systems. That lifted Capability Velocity a little, giving a small push to endings that need very capable AI, such as Descendants, Zookeeper and Conquerors. A Hyundai strike, partly over AI and humanoid robots, added a touch of Tech Backlash. Horizon Balance slipped to 0.81.",
+  "movers_note": "Conquerors, Descendants and Zookeeper each rose +0.1 (about +0.04 to +0.05 each from the Kimi K3 launch).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-07-16-01",
+   "title": "Moonshot AI launches Kimi K3, a 2.8-trillion-parameter model",
+   "summary": "Beijing's Moonshot AI released Kimi K3, claiming it is the largest open model and rivals top US systems; it topped a frontend coding arena.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "Chinese frontier-class model; capability claims mostly self-reported, partially independent (arena).",
+   "sources": [
+    "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
+    "https://www.datagrom.com/ai-news/chinas-kimi-k3-becomes-largest-open-source-ai-model-af80603a"
+   ],
+   "points": 0.1,
+   "contribution": {
+    "protector_god": 0.04,
+    "gatekeeper": 0.03,
+    "enslaved_god": 0.05,
+    "conquerors": 0.04,
+    "descendants": 0.05,
+    "zookeeper": 0.04,
+    "orwell_1984": -0.02,
+    "reversion": -0.05
+   },
+   "factor_effect": {
+    "F1": 0.08
+   }
+  },
+  {
+   "id": "2026-07-16-02",
+   "title": "Hyundai workers strike partly over AI and humanoid robots on factory floor",
+   "summary": "Hyundai union workers staged a partial strike over wages, AI deployment and the introduction of humanoid robots. Date approximate (reported in mid-July roundups).",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    },
+    {
+     "id": "F7",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "D",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "Other",
+   "reason": "Labour action against automation in South Korea; only roundup sourcing.",
+   "sources": [
+    "https://blog.buildfastwithai.com/ai-news-today-july-16-2026"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "egalitarian_utopia": -0.02,
+    "reversion": 0.04
+   },
+   "factor_effect": {
+    "F7": -0.02,
+    "F9": 0.04
+   }
+  }
+ ]
+}

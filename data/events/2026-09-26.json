@@ -1,0 +1,31 @@
+[
+ {
+  "id": "2026-09-26-01",
+  "title": "US and China agree to set up AI safety incident channel at Trump-Xi summit",
+  "summary": "After a Washington summit where Xi said AI must stay under human control, the US and China agreed to a communication mechanism for AI-related incidents, with an AI dialogue set for November; Trump said the US would not slow its AI efforts.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   },
+   {
+    "id": "F8",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Global",
+  "reason": "US-China confidence-building measure on AI; non-binding, not a treaty.",
+  "sources": [
+   "https://www.pbs.org/newshour/world/china-and-u-s-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks",
+   "https://www.bloomberg.com/news/articles/2026-09-24/trump-says-no-moves-toward-us-china-ai-guardrails-in-xi-summit",
+   "https://thehill.com/homenews/administration/6109283-xi-china-us-ai-responsibility-trump/"
+  ]
+ }
+]

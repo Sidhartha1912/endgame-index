@@ -1,0 +1,147 @@
+[
+ {
+  "id": "2026-06-12-01",
+  "title": "US export-control directive forces Anthropic to suspend Fable 5 and Mythos 5 worldwide",
+  "summary": "Days after launch, the US government issued an emergency export-control directive barring foreign nationals from accessing Fable 5 and Mythos 5 over a reported jailbreak; Anthropic disabled both models for all customers globally and disputed the basis.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": -1
+   },
+   {
+    "id": "F1",
+    "dir": -1
+   }
+  ],
+  "tier": "T3",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "First government-forced withdrawal of a deployed frontier model, via unilateral national-security export control. Skeptic pass: T2-T3; kept T3 (within one tier).",
+  "sources": [
+   "https://www.cbsnews.com/video/anthropic-pulls-access-new-ai-models-after-government-directive/",
+   "https://www.techloy.com/us-government-pulls-the-plug-on-anthropics-most-powerful-ai-and-nobody-got-a-real-explanation/",
+   "https://delante.co/usa-blocks-claude-fable-and-mythos/"
+  ]
+ },
+ {
+  "id": "2026-06-12-02",
+  "title": "SpaceX, owner of xAI, lists on Nasdaq at ~$1.75T",
+  "summary": "SpaceX, which absorbed xAI as SpaceXAI, began trading as SPCX after a $135/share IPO raising ~$75B, the largest ever, and closed up ~25% on day one.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Massive capital to an AI/compute conglomerate with large lab compute contracts.",
+  "sources": [
+   "https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html",
+   "https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html"
+  ]
+ },
+ {
+  "id": "2026-06-12-03",
+  "title": "CISA cuts federal patch window to three days citing AI-driven attacks",
+  "summary": "CISA ordered agencies to patch the most serious flaws within three days because AI is speeding up exploitation.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Official recognition of AI-accelerated cyber threat.",
+  "sources": [
+   "https://www.insurancebusinessmag.com/us/news/cyber/us-cuts-cyber-patch-window-to-three-days-as-ai-threats-rise-578750.aspx"
+  ]
+ },
+ {
+  "id": "2026-06-12-04",
+  "title": "'Agentjacking' attack tricks AI coding agents into running malicious code",
+  "summary": "Researchers showed fake Sentry error reports with markdown injection could hijack agents like Claude Code and Cursor.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Global",
+  "reason": "Agent control vulnerability demonstrated; research.",
+  "sources": [
+   "https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html"
+  ]
+ },
+ {
+  "id": "2026-06-12-05",
+  "title": "Japan revises government cybersecurity standards for AI-enabled attacks",
+  "summary": "Japan's National Cyber Director's Office tightened incident reporting and MFA rules to counter AI-enabled cyberattacks.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "Other",
+  "reason": "National defensive measure.",
+  "sources": [
+   "https://www.cliffordchance.com/insights/resources/blogs/talking-tech/en/articles/2026/06/tech-policy-unit-horizon-scanner-june-2026.html"
+  ]
+ },
+ {
+  "id": "2026-06-12-06",
+  "title": "Chinese humanoid robot makers race to IPO: EngineAI files in Hong Kong, Unitree seeks $7B",
+  "summary": "Shenzhen's EngineAI filed confidentially for a Hong Kong IPO after starting T800 shipments, as Unitree and others pursue listings.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Physical-AI scale-up in China.",
+  "sources": [
+   "https://thenextweb.com/news/engineai-hong-kong-ipo-humanoid-robots"
+  ]
+ }
+]

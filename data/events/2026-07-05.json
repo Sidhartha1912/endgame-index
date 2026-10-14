@@ -1,0 +1,26 @@
+[
+ {
+  "id": "2026-07-05-01",
+  "title": "Tesla launches robotaxis in Miami without safety monitors",
+  "summary": "Tesla expanded unsupervised robotaxi service to Miami, its fifth city, targeting a dozen states by year-end.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Autonomous systems expanding in public; incremental.",
+  "sources": [
+   "https://llm-stats.com/ai-news",
+   "https://blog.buildfastwithai.com/ai-news-today-july-6-2026"
+  ]
+ }
+]

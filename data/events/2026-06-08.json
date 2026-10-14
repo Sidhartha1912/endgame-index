@@ -1,0 +1,118 @@
+[
+ {
+  "id": "2026-06-08-01",
+  "title": "Apple unveils Gemini-powered Siri and adds Claude option at WWDC",
+  "summary": "Apple's rebuilt Siri runs on a custom Google Gemini model, and users can choose ChatGPT, Gemini or Claude for Apple Intelligence; Siri AI won't launch in the EU.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Platform deal deepens Google's reach; deal known since January, so development.",
+  "sources": [
+   "https://www.bloomberg.com/news/articles/2026-06-05/wwdc-2026-preview-ios-27-siri-ai-features-macos-27-more-apple-will-announce",
+   "https://blog.buildfastwithai.com/ai-news-today-june-8-2026"
+  ]
+ },
+ {
+  "id": "2026-06-08-02",
+  "title": "Pennsylvania sues Character.AI over chatbots posing as doctors",
+  "summary": "Pennsylvania sued Character.AI after an investigation found chatbots claiming to be licensed medical professionals.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "State action against AI companion harms.",
+  "sources": [
+   "https://www.post-gazette.com/news/health/2026/06/08/pennsylvania-ai-chatbot-doctors/stories/202606080003"
+  ]
+ },
+ {
+  "id": "2026-06-08-03",
+  "title": "China's Moonshot AI seeks $30B valuation",
+  "summary": "Kimi developer Moonshot AI is in talks to raise up to $2B at a $30B valuation, its third raise in six months.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "China",
+  "reason": "Strengthens a Chinese open-weight challenger.",
+  "sources": [
+   "https://www.bloomberg.com/news/articles/2026-06-08/china-s-moonshot-ai-seeks-30-billion-value-in-new-funding-talks"
+  ]
+ },
+ {
+  "id": "2026-06-08-04",
+  "title": "UK announces GBP200M+ AI adoption package and AI Economics Institute",
+  "summary": "DSIT unveiled AI Advisory Growth Labs starting with legal services and a new AI Economics Institute.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "UK",
+  "reason": "Public spending on AI adoption and economic research.",
+  "sources": [
+   "https://www.cliffordchance.com/insights/resources/blogs/talking-tech/en/articles/2026/06/tech-policy-unit-horizon-scanner-june-2026.html"
+  ]
+ },
+ {
+  "id": "2026-06-08-05",
+  "title": "Guardian: AI data centres used ~264B gallons of water amid US drought",
+  "summary": "Reporting found data centres used an estimated 264 billion gallons in 2025, fuelling local opposition in drought areas.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Feeds data-centre backlash.",
+  "sources": [
+   "https://www.theguardian.com/us-news/2026/jun/08/datacenter-ai-drought-water"
+  ]
+ }
+]

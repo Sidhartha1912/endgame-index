@@ -1,0 +1,77 @@
+[
+ {
+  "id": "2026-10-08-01",
+  "title": "Google Cloud gives Gemini agents their own Workspace accounts and directory seats",
+  "summary": "Google's new Gemini coworker agent gets a per-instance Workspace account with its own email, calendar and Drive, so colleagues can delegate to it like a teammate (private preview).",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Agents treated as organisational members; enterprise preview.",
+  "sources": [
+   "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+   "https://venturebeat.com/orchestration/google-cloud-unveils-persistent-gemini-agents-for-long-running-tasks-and-they-get-their-own-gmail-calendar-and-drive-storage"
+  ]
+ },
+ {
+  "id": "2026-10-08-02",
+  "title": "Pentagon Tradewinds lets AI vendors win contracts via five-minute videos",
+  "summary": "The Pentagon's CDAO lets AI vendors pitch in five-minute videos and can award contracts, including for kill-chain tools, in under a week without competitive bidding.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Faster military AI procurement.",
+  "sources": [
+   "https://wired.com/story/the-pentagon-hopes-to-speed-up-kill-chain-ai-buys-with-5-minute-videos"
+  ]
+ },
+ {
+  "id": "2026-10-08-03",
+  "title": "Anthropic usage policy bans sustained abuse of Claude from Nov 12",
+  "summary": "Anthropic's updated usage policy bars sustained, needless cruelty toward Claude, without claiming it can suffer, and adds rules against election deception.",
+  "category": "merge",
+  "factors": [
+   {
+    "id": "F10",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Model-welfare protection in a binding usage policy; small step toward AI moral consideration.",
+  "sources": [
+   "https://www.anthropic.com/news/2026-usage-policy-update",
+   "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/"
+  ]
+ }
+]

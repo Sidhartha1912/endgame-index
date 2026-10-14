@@ -1,0 +1,25 @@
+[
+ {
+  "id": "2026-06-15-01",
+  "title": "Google links China-nexus hackers to attacks on US military and AI research",
+  "summary": "Google's threat team tied group UNC6508 to intrusions at North American medical, academic and military research bodies, including AI-related IP.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "State-linked cyber espionage targeting AI; incremental.",
+  "sources": [
+   "https://www.securityweek.com/chinese-hackers-target-medical-military-and-ai-research-in-north-america/"
+  ]
+ }
+]

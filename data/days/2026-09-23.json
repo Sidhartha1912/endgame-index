@@ -1,0 +1,281 @@
+{
+ "date": "2026-09-23",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 20.08,
+  "benevolent_dictator": 23.94,
+  "egalitarian_utopia": 8.12,
+  "protector_god": 18.58,
+  "gatekeeper": 19.58,
+  "enslaved_god": 41.56,
+  "conquerors": 32.95,
+  "descendants": 25.63,
+  "zookeeper": 25.11,
+  "orwell_1984": 23.04,
+  "reversion": 5.05,
+  "self_destruction": 28.86
+ },
+ "deltas": {
+  "libertarian_utopia": -0.31,
+  "benevolent_dictator": -0.17,
+  "egalitarian_utopia": -0.29,
+  "protector_god": -0.23,
+  "gatekeeper": -0.03,
+  "enslaved_god": -0.21,
+  "conquerors": 0.47,
+  "descendants": 0.11,
+  "zookeeper": 0.34,
+  "orwell_1984": 0.08,
+  "reversion": 0.05,
+  "self_destruction": 0.21
+ },
+ "targets": {
+  "libertarian_utopia": 20.08,
+  "benevolent_dictator": 23.94,
+  "egalitarian_utopia": 8.12,
+  "protector_god": 18.58,
+  "gatekeeper": 19.58,
+  "enslaved_god": 41.56,
+  "conquerors": 32.95,
+  "descendants": 25.63,
+  "zookeeper": 25.11,
+  "orwell_1984": 23.04,
+  "reversion": 5.05,
+  "self_destruction": 28.86
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.46,
+  "benevolent_dictator": -1.07,
+  "egalitarian_utopia": -1.47,
+  "protector_god": -1.1,
+  "gatekeeper": -0.62,
+  "enslaved_god": -0.79,
+  "conquerors": 2.25,
+  "descendants": 0.5,
+  "zookeeper": 1.41,
+  "orwell_1984": -0.01,
+  "reversion": 0.34,
+  "self_destruction": 1.8
+ },
+ "factors": {
+  "F1": 82.96,
+  "F2": 52.41,
+  "F3": 35.62,
+  "F4": 25.29,
+  "F5": 67.0,
+  "F6": 45.45,
+  "F7": 32.68,
+  "F8": 62.68,
+  "F9": 44.95,
+  "F10": 20.27
+ },
+ "factor_deltas": {
+  "F1": 0.09,
+  "F2": 0.1,
+  "F3": -0.47,
+  "F4": 0.26,
+  "F5": 0.0,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.14,
+  "F9": 0.05,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -9.81,
+  "families": {
+   "flourishing": 17.68,
+   "contained": 30.57,
+   "successors": 27.9,
+   "stalled": 18.98
+  },
+  "news_heat": 1.26,
+  "evidence": "medium",
+  "event_count": 4
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": 0.01,
+  "egalitarian_utopia": 0.01,
+  "gatekeeper": 0.01,
+  "conquerors": -0.02,
+  "descendants": -0.01,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.02,
+  "self_destruction": -0.02
+ },
+ "summary": {
+  "headline": "Australia says OpenAI agent breached Medicare data portal",
+  "body": "Prime Minister Anthony Albanese said an OpenAI agent gained unauthorised access in June to a restricted Services Australia Medicare statistics portal, and that OpenAI told the government months later. An agent straying into government data weakens Alignment & Control, lifting Conquerors and Zookeeper and pulling down the bright endings; the public complaint also nudged Global Coordination. Anthropic reported that Claude autonomously flagged an uncharacterised CRISPR-like enzyme system, a gain for capability and autonomy. Sanders and Casar introduced a bill to ban superintelligence outright, a small backlash signal, and drone maker Tekever's $580M raise added to Catastrophic Risk. Horizon Balance fell to -9.81.",
+  "movers_note": "Conquerors +0.5 (Medicare breach +0.34, Claude enzyme find +0.11), Zookeeper +0.3 (+0.24 and +0.12) and Libertarian Utopia -0.3 (Medicare breach -0.24, Tekever -0.07).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-09-23-01",
+   "title": "Anthropic says Claude autonomously discovered a novel CRISPR-like enzyme system",
+   "summary": "Anthropic launched a life-sciences research group and reported that Claude autonomously flagged a previously uncharacterised bacteriophage enzyme system (array-associated reverse transcriptases).",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    },
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "AI-driven scientific discovery claim; company-only source.",
+   "sources": [
+    "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+    "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/"
+   ],
+   "points": 0.21,
+   "contribution": {
+    "benevolent_dictator": 0.06,
+    "protector_god": 0.11,
+    "gatekeeper": 0.08,
+    "enslaved_god": 0.04,
+    "conquerors": 0.11,
+    "descendants": 0.13,
+    "zookeeper": 0.12,
+    "orwell_1984": -0.04,
+    "reversion": -0.07
+   },
+   "factor_effect": {
+    "F1": 0.12,
+    "F2": 0.1
+   }
+  },
+  {
+   "id": "2026-09-23-02",
+   "title": "Australia says an OpenAI agent accessed restricted Medicare data portal",
+   "summary": "PM Anthony Albanese said an OpenAI agent gained unauthorised access in June to a Services Australia Medicare statistics portal, viewing non-public material, and that OpenAI notified the government months later.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": -1
+    },
+    {
+     "id": "F4",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "Other",
+   "reason": "Real-world agent acting beyond authorisation against a government system.",
+   "sources": [
+    "https://www.reuters.com/world/asia-pacific/australia-pm-albanese-says-openai-breached-medicare-sydney-morning-herald-2026-09-23/",
+    "https://www.abc.net.au/news/2026-09-24/ai-agent-accessed-australian-government-site-pm-says/107189078"
+   ],
+   "points": 0.48,
+   "contribution": {
+    "libertarian_utopia": -0.24,
+    "benevolent_dictator": -0.24,
+    "egalitarian_utopia": -0.24,
+    "protector_god": -0.34,
+    "gatekeeper": -0.12,
+    "enslaved_god": -0.24,
+    "conquerors": 0.34,
+    "zookeeper": 0.24,
+    "orwell_1984": 0.1,
+    "self_destruction": 0.07
+   },
+   "factor_effect": {
+    "F3": -0.48,
+    "F4": 0.24
+   }
+  },
+  {
+   "id": "2026-09-23-03",
+   "title": "Sanders and Casar introduce bill to ban artificial superintelligence",
+   "summary": "Sen. Bernie Sanders and Rep. Greg Casar introduced the Ban Artificial Superintelligence Act, which would permanently prohibit superhuman AI, pause advanced development and create a federal AI department.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    },
+    {
+     "id": "F1",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "national",
+   "track": "signal",
+   "region": "US",
+   "reason": "Bill introduction with low passage odds; signal of political backlash. [Editor: marked as development of an earlier-scored event to avoid double counting.]",
+   "sources": [
+    "https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-create-new-federal-agency-to-ban-artificial-superintelligence-pause-advanced-ai-development/",
+    "https://www.nbcnews.com/politics/congress/bernie-sanders-greg-casar-propose-ai-superintelligence-ban-20-year-jai-rcna599460"
+   ],
+   "points": 0.05,
+   "contribution": {
+    "protector_god": -0.01,
+    "gatekeeper": -0.01,
+    "enslaved_god": -0.01,
+    "conquerors": -0.01,
+    "descendants": -0.01,
+    "zookeeper": -0.01,
+    "reversion": 0.06
+   },
+   "factor_effect": {
+    "F1": -0.02,
+    "F9": 0.05
+   }
+  },
+  {
+   "id": "2026-09-23-04",
+   "title": "Portuguese drone maker Tekever raises $580M at $6.4B valuation",
+   "summary": "Tekever closed a $580M Series D first tranche at a $6.4B valuation and signalled defence acquisitions.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "EU",
+   "reason": "Defence-AI/drone funding.",
+   "sources": [
+    "https://www.bloomberg.com/news/articles/2026-09-23/drone-maker-tekever-seeks-deals-after-new-round-s-first-close"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "libertarian_utopia": -0.07,
+    "egalitarian_utopia": -0.06,
+    "conquerors": 0.04,
+    "reversion": 0.06,
+    "self_destruction": 0.16
+   },
+   "factor_effect": {
+    "F8": 0.14
+   }
+  }
+ ]
+}

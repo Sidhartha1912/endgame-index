@@ -1,0 +1,30 @@
+[
+ {
+  "id": "2026-04-27-01",
+  "title": "China blocks Meta's acquisition of AI agent startup Manus",
+  "summary": "Chinese authorities blocked Meta from acquiring Manus, the Chinese-founded AI agent startup, deepening US-China AI decoupling.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": -1
+   },
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "State intervention against cross-border AI M&A signals rivalry over coordination; also blocks a big-tech acquisition.",
+  "sources": [
+   "https://www.bnnbloomberg.ca/business/2026/04/27/china-blocks-meta-from-acquiring-ai-startup-manus/",
+   "https://www.kunc.org/npr-news/2026-04-27/china-blocks-meta-from-acquiring-ai-startup-manus"
+  ]
+ }
+]

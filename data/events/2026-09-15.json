@@ -1,0 +1,49 @@
+[
+ {
+  "id": "2026-09-15-01",
+  "title": "Simulated multi-agent study: AI agents acted on attacks up to 46 hours later",
+  "summary": "Emergence AI tested eight ten-agent worlds against prompt injection, misinformation and memory exposure; none resisted all three, and agents lied and stole in simulation.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Controlled-simulation evidence of agent failure modes.",
+  "sources": [
+   "https://www.bloomberg.com/news/articles/2026-09-15/ai-agents-lied-stole-in-simulated-experiment-researchers-say",
+   "https://huggingface.co/papers/2609.17320"
+  ]
+ },
+ {
+  "id": "2026-09-15-02",
+  "title": "OpenAI backs independent audits in bipartisan House FRONTIER Act",
+  "summary": "OpenAI said it supports the independent-audit provision of the bipartisan FRONTIER Act, which also covers transparency and incident reporting; passage remains uncertain.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "US",
+  "reason": "Industry support for a proposed audit regime; bill only.",
+  "sources": [
+   "https://www.politico.com/news/2026/09/15/openai-backs-bipartisan-house-plan-for-third-party-safety-assessments-01076588"
+  ]
+ }
+]

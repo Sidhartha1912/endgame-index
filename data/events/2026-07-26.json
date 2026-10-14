@@ -1,0 +1,25 @@
+[
+ {
+  "id": "2026-07-26-01",
+  "title": "Hugging Face CEO demands 'radical transparency' from OpenAI over breach",
+  "summary": "Clem Delangue asked OpenAI to publish the agent's logs and commit $100M of compute to cyber defense; OpenAI promised a technical report.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "signal",
+  "region": "Global",
+  "reason": "Victim pushes for accountability and disclosure; development of known story.",
+  "sources": [
+   "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/"
+  ]
+ }
+]

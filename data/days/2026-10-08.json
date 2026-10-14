@@ -1,0 +1,230 @@
+{
+ "date": "2026-10-08",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 18.31,
+  "benevolent_dictator": 22.9,
+  "egalitarian_utopia": 6.11,
+  "protector_god": 17.4,
+  "gatekeeper": 18.73,
+  "enslaved_god": 40.69,
+  "conquerors": 35.81,
+  "descendants": 26.78,
+  "zookeeper": 27.14,
+  "orwell_1984": 22.93,
+  "reversion": 5.55,
+  "self_destruction": 31.08
+ },
+ "deltas": {
+  "libertarian_utopia": 0.07,
+  "benevolent_dictator": 0.11,
+  "egalitarian_utopia": -0.03,
+  "protector_god": 0.08,
+  "gatekeeper": 0.06,
+  "enslaved_god": -0.08,
+  "conquerors": 0.13,
+  "descendants": 0.34,
+  "zookeeper": 0.12,
+  "orwell_1984": 0.01,
+  "reversion": 0.04,
+  "self_destruction": 0.1
+ },
+ "targets": {
+  "libertarian_utopia": 18.31,
+  "benevolent_dictator": 22.9,
+  "egalitarian_utopia": 6.11,
+  "protector_god": 17.4,
+  "gatekeeper": 18.73,
+  "enslaved_god": 40.69,
+  "conquerors": 35.81,
+  "descendants": 26.78,
+  "zookeeper": 27.14,
+  "orwell_1984": 22.93,
+  "reversion": 5.55,
+  "self_destruction": 31.08
+ },
+ "momentum_7d": {
+  "libertarian_utopia": 0.64,
+  "benevolent_dictator": -0.88,
+  "egalitarian_utopia": -0.11,
+  "protector_god": 0.52,
+  "gatekeeper": 0.19,
+  "enslaved_god": -0.34,
+  "conquerors": 1.2,
+  "descendants": 1.32,
+  "zookeeper": 0.42,
+  "orwell_1984": -1.21,
+  "reversion": -0.03,
+  "self_destruction": 0.77
+ },
+ "factors": {
+  "F1": 83.85,
+  "F2": 52.82,
+  "F3": 33.0,
+  "F4": 25.63,
+  "F5": 67.05,
+  "F6": 45.46,
+  "F7": 32.41,
+  "F8": 63.91,
+  "F9": 45.5,
+  "F10": 20.72
+ },
+ "factor_deltas": {
+  "F1": -0.01,
+  "F2": 0.19,
+  "F3": -0.02,
+  "F4": 0.02,
+  "F5": -0.01,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": 0.09,
+  "F9": -0.0,
+  "F10": 0.29
+ },
+ "composites": {
+  "horizon_balance": -13.06,
+  "families": {
+   "flourishing": 16.18,
+   "contained": 29.71,
+   "successors": 29.91,
+   "stalled": 19.85
+  },
+  "news_heat": 0.58,
+  "evidence": "low",
+  "event_count": 3
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.01,
+  "protector_god": -0.02,
+  "enslaved_god": -0.02,
+  "descendants": -0.02,
+  "orwell_1984": 0.01
+ },
+ "summary": {
+  "headline": "Anthropic bans sustained abuse of Claude; Gemini agents get Workspace seats",
+  "body": "A lighter day that blurred the line between people and AI. Anthropic's updated usage policy, effective Nov 12, bars sustained, needless cruelty toward Claude without claiming it can suffer. Treating AI more like a party with standing nudges Human-AI Merging, lifting Descendants. Google gave Gemini agents their own Workspace accounts so colleagues can delegate to them like teammates, a step up in AI Autonomy. Horizon Balance held at -13.06.",
+  "movers_note": "Descendants +0.3 (usage policy +0.24, Gemini agents +0.09) and Benevolent Dictator +0.1 (Gemini agents +0.09, Pentagon Tradewinds +0.03).",
+  "coming_up": [
+   "Nov 12: Anthropic's updated usage policy takes effect"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-10-08-01",
+   "title": "Google Cloud gives Gemini agents their own Workspace accounts and directory seats",
+   "summary": "Google's new Gemini coworker agent gets a per-instance Workspace account with its own email, calendar and Drive, so colleagues can delegate to it like a teammate (private preview).",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Agents treated as organisational members; enterprise preview.",
+   "sources": [
+    "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+    "https://venturebeat.com/orchestration/google-cloud-unveils-persistent-gemini-agents-for-long-running-tasks-and-they-get-their-own-gmail-calendar-and-drive-storage"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "benevolent_dictator": 0.09,
+    "protector_god": 0.07,
+    "gatekeeper": 0.04,
+    "enslaved_god": -0.04,
+    "conquerors": 0.07,
+    "descendants": 0.09,
+    "zookeeper": 0.09
+   },
+   "factor_effect": {
+    "F2": 0.15
+   }
+  },
+  {
+   "id": "2026-10-08-02",
+   "title": "Pentagon Tradewinds lets AI vendors win contracts via five-minute videos",
+   "summary": "The Pentagon's CDAO lets AI vendors pitch in five-minute videos and can award contracts, including for kill-chain tools, in under a week without competitive bidding.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    },
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Faster military AI procurement.",
+   "sources": [
+    "https://wired.com/story/the-pentagon-hopes-to-speed-up-kill-chain-ai-buys-with-5-minute-videos"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "libertarian_utopia": -0.04,
+    "benevolent_dictator": 0.03,
+    "egalitarian_utopia": -0.04,
+    "protector_god": 0.02,
+    "gatekeeper": 0.01,
+    "enslaved_god": -0.01,
+    "conquerors": 0.05,
+    "descendants": 0.03,
+    "zookeeper": 0.03,
+    "reversion": 0.04,
+    "self_destruction": 0.1
+   },
+   "factor_effect": {
+    "F2": 0.04,
+    "F8": 0.09
+   }
+  },
+  {
+   "id": "2026-10-08-03",
+   "title": "Anthropic usage policy bans sustained abuse of Claude from Nov 12",
+   "summary": "Anthropic's updated usage policy bars sustained, needless cruelty toward Claude, without claiming it can suffer, and adds rules against election deception.",
+   "category": "merge",
+   "factors": [
+    {
+     "id": "F10",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Model-welfare protection in a binding usage policy; small step toward AI moral consideration.",
+   "sources": [
+    "https://www.anthropic.com/news/2026-usage-policy-update",
+    "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/"
+   ],
+   "points": 0.3,
+   "contribution": {
+    "libertarian_utopia": 0.12,
+    "descendants": 0.24
+   },
+   "factor_effect": {
+    "F10": 0.3
+   }
+  }
+ ]
+}

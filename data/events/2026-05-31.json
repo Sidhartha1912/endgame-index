@@ -1,0 +1,26 @@
+[
+ {
+  "id": "2026-05-31-01",
+  "title": "NPR: thousands of uncensored open-weight models fuel misuse; guardrails stripped in minutes",
+  "summary": "NPR documented thousands of altered open-weight models used for scams and extremism, while researchers showed Gemma 3 and Llama 3.3 safeguards can be removed with public tools.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "Global",
+  "reason": "Evidence safety measures on open models are easily removed; known issue.",
+  "sources": [
+   "https://www.npr.org/2026/05/31/nx-s1-5816391/ai-safety-concerns-danger-open-weight-models-risks",
+   "https://www.eweek.com/news/open-weight-ai-guardrails-gemma-llama/"
+  ]
+ }
+]

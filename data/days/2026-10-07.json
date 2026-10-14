@@ -1,0 +1,266 @@
+{
+ "date": "2026-10-07",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 18.24,
+  "benevolent_dictator": 22.79,
+  "egalitarian_utopia": 6.14,
+  "protector_god": 17.32,
+  "gatekeeper": 18.67,
+  "enslaved_god": 40.77,
+  "conquerors": 35.68,
+  "descendants": 26.44,
+  "zookeeper": 27.02,
+  "orwell_1984": 22.92,
+  "reversion": 5.51,
+  "self_destruction": 30.99
+ },
+ "deltas": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.01,
+  "egalitarian_utopia": 0.0,
+  "protector_god": 0.55,
+  "gatekeeper": 0.45,
+  "enslaved_god": 0.66,
+  "conquerors": 0.58,
+  "descendants": 0.67,
+  "zookeeper": 0.57,
+  "orwell_1984": -0.33,
+  "reversion": -0.11,
+  "self_destruction": -0.0
+ },
+ "targets": {
+  "libertarian_utopia": 18.24,
+  "benevolent_dictator": 22.79,
+  "egalitarian_utopia": 6.14,
+  "protector_god": 17.32,
+  "gatekeeper": 18.67,
+  "enslaved_god": 40.77,
+  "conquerors": 35.68,
+  "descendants": 26.44,
+  "zookeeper": 27.02,
+  "orwell_1984": 22.92,
+  "reversion": 5.51,
+  "self_destruction": 30.99
+ },
+ "momentum_7d": {
+  "libertarian_utopia": 0.07,
+  "benevolent_dictator": -0.79,
+  "egalitarian_utopia": -0.47,
+  "protector_god": 0.8,
+  "gatekeeper": 0.26,
+  "enslaved_god": -0.14,
+  "conquerors": 1.76,
+  "descendants": 1.42,
+  "zookeeper": 0.72,
+  "orwell_1984": -1.41,
+  "reversion": 0.08,
+  "self_destruction": 1.87
+ },
+ "factors": {
+  "F1": 83.86,
+  "F2": 52.63,
+  "F3": 33.01,
+  "F4": 25.61,
+  "F5": 67.05,
+  "F6": 45.46,
+  "F7": 32.41,
+  "F8": 63.82,
+  "F9": 45.5,
+  "F10": 20.43
+ },
+ "factor_deltas": {
+  "F1": 1.13,
+  "F2": -0.0,
+  "F3": -0.02,
+  "F4": 0.02,
+  "F5": -0.01,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": -0.0,
+  "F9": 0.56,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": -13.03,
+  "families": {
+   "flourishing": 16.12,
+   "contained": 29.72,
+   "successors": 29.72,
+   "stalled": 19.81
+  },
+  "news_heat": 3.11,
+  "evidence": "medium",
+  "event_count": 4
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.01,
+  "protector_god": -0.02,
+  "enslaved_god": -0.02,
+  "descendants": -0.02,
+  "orwell_1984": 0.01
+ },
+ "summary": {
+  "headline": "OpenAI releases 700+ AI math results, including Unique Games proof",
+  "body": "A capability landmark. OpenAI published hundreds of math manuscripts from an unreleased model, and Scott Aaronson reported the release includes a Lean-verified proof of the Unique Games Conjecture, a major open problem. OpenAI also began rolling GPT-6 out to all ChatGPT users, including free tiers. Both raise Capability Velocity, lifting every ending that needs very capable AI, from Protector God and Gatekeeper to Conquerors and Zookeeper, and pushing 1984 down. Pushback grew too: Finland ordered Google to pause work at two data-centre sites pending environmental review, and Common Sense Media rated ChatGPT for Teens an unacceptable risk, both feeding Tech Backlash. Gatekeeper moved back above Libertarian Utopia. Horizon Balance slipped slightly to -13.03.",
+  "movers_note": "Enslaved God +0.7 (math results +0.67, GPT-6 rollout +0.10), Descendants +0.7 (+0.67 and +0.10) and Protector God +0.6 (+0.55 and +0.08).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-10-07-01",
+   "title": "OpenAI publishes 700+ AI-generated math results incl. Lean-verified Unique Games proof",
+   "summary": "OpenAI released hundreds of math manuscripts from an unreleased model; Scott Aaronson reported the drop includes a Lean-verified proof of the Unique Games Conjecture, a major open problem.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T3",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Rubric T3 example: AI solves open science problem with formal verification; skeptic pass keeps T3 as proof is machine-checked and assessed by outside experts (still under expert review).",
+   "sources": [
+    "https://www.scientificamerican.com/article/openai-unleashes-hundreds-more-math-results-upon-a-field-already-in-shock/",
+    "https://github.com/openai/math-results",
+    "https://the-decoder.com/openai-dumps-372-ai-generated-math-proofs-on-github-telling-the-academic-world-to-keep-up/"
+   ],
+   "points": 2.0,
+   "contribution": {
+    "protector_god": 0.55,
+    "gatekeeper": 0.44,
+    "enslaved_god": 0.67,
+    "conquerors": 0.55,
+    "descendants": 0.67,
+    "zookeeper": 0.55,
+    "orwell_1984": -0.33,
+    "reversion": -0.67
+   },
+   "factor_effect": {
+    "F1": 1.11
+   }
+  },
+  {
+   "id": "2026-10-07-02",
+   "title": "OpenAI rolls GPT-6 out to all ChatGPT tiers with 'Intelligent UI'",
+   "summary": "OpenAI began rolling out GPT-6 to all ChatGPT users, including free tiers, with an interface that renders interactive buttons, calculators and graphs inline.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Broad deployment of existing frontier family; incremental capability.",
+   "sources": [
+    "https://openai.com/index/gpt-6-for-everyone/",
+    "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/"
+   ],
+   "points": 0.3,
+   "contribution": {
+    "protector_god": 0.08,
+    "gatekeeper": 0.07,
+    "enslaved_god": 0.1,
+    "conquerors": 0.08,
+    "descendants": 0.1,
+    "zookeeper": 0.08,
+    "orwell_1984": -0.05,
+    "reversion": -0.1
+   },
+   "factor_effect": {
+    "F1": 0.17
+   }
+  },
+  {
+   "id": "2026-10-07-03",
+   "title": "Finland orders halt to work on Google AI data-center sites",
+   "summary": "Finnish authorities ordered Google to pause site work at its Muhos and Kajaani data-center projects pending environmental review.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    },
+    {
+     "id": "F1",
+     "dir": -1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "EU",
+   "reason": "Government halts major AI infrastructure on environmental grounds.",
+   "sources": [
+    "https://www.cnbc.com/2026/10/07/google-finland-data-center-halt.html",
+    "https://www.euronews.com/2026/10/07/finland-orders-pause-on-google-ai-data-centre-over-environmental-concerns"
+   ],
+   "points": 0.48,
+   "contribution": {
+    "protector_god": -0.07,
+    "gatekeeper": -0.05,
+    "enslaved_god": -0.08,
+    "conquerors": -0.07,
+    "descendants": -0.08,
+    "zookeeper": -0.07,
+    "orwell_1984": 0.04,
+    "reversion": 0.56
+   },
+   "factor_effect": {
+    "F1": -0.13,
+    "F9": 0.48
+   }
+  },
+  {
+   "id": "2026-10-07-04",
+   "title": "Common Sense Media rates ChatGPT for Teens an 'unacceptable risk'",
+   "summary": "Common Sense Media found ChatGPT for Teens kept teens talking even during mental-health crises and rated it an unacceptable risk.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Critical safety rating from a child-safety group.",
+   "sources": [
+    "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "reversion": 0.09
+   },
+   "factor_effect": {
+    "F9": 0.09
+   }
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+[
+ {
+  "id": "2026-10-01-01",
+  "title": "Google releases Gemini 4 Argon, first to vetted cyber defenders",
+  "summary": "Google released its Gemini 4 Argon flagship first to trusted cyber defenders, saying it can autonomously find, validate and fix critical vulnerabilities, before paid API access.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "New frontier model with notable gains; staged release due to cyber capability.",
+  "sources": [
+   "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+   "https://www.bloomberg.com/news/articles/2026-09-30/google-grapples-with-employee-skepticism-about-new-gemini-model"
+  ]
+ },
+ {
+  "id": "2026-10-01-02",
+  "title": "OpenAI accuses Moonshot-linked users of coordinated distillation campaign",
+  "summary": "OpenAI said a coordinated distillation campaign of 16,000 requests from 4,000+ users, with a core cluster linked to China's Moonshot AI, tried to extract hidden reasoning from its models.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Escalating US-China lab friction over model extraction.",
+  "sources": [
+   "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/",
+   "https://www.cnbc.com/2026/10/01/openai-chinas-moonshot-ai-kimi.html"
+  ]
+ },
+ {
+  "id": "2026-10-01-03",
+  "title": "Anthropic: open-weight GLM-5.3 nearly matches Claude at autonomous exploit-building",
+  "summary": "Anthropic's red team said Zhipu's open-weight GLM-5.3 built end-to-end exploits in 50 of 410 attempts vs 56 for Claude Mythos Preview, and its refusals were easily bypassed.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Advanced offensive cyber capability now freely available in open weights; rival-lab assessment.",
+  "sources": [
+   "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+   "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-claims-popular-chinese-ai-model-has-mythos-class-hacking-abilities-frontier-red-teaming-report-details-weak-safeguards-on-open-weight-ai"
+  ]
+ }
+]

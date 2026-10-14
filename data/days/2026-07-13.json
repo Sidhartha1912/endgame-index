@@ -1,0 +1,147 @@
+{
+ "date": "2026-07-13",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 26.57,
+  "benevolent_dictator": 26.04,
+  "egalitarian_utopia": 14.38,
+  "protector_god": 19.1,
+  "gatekeeper": 18.72,
+  "enslaved_god": 42.51,
+  "conquerors": 21.1,
+  "descendants": 19.77,
+  "zookeeper": 15.9,
+  "orwell_1984": 24.2,
+  "reversion": 3.76,
+  "self_destruction": 21.79
+ },
+ "deltas": {
+  "libertarian_utopia": 0.0,
+  "benevolent_dictator": -0.01,
+  "egalitarian_utopia": 0.0,
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.01,
+  "conquerors": 0.0,
+  "descendants": -0.0,
+  "zookeeper": 0.01,
+  "orwell_1984": -0.0,
+  "reversion": 0.03,
+  "self_destruction": -0.01
+ },
+ "targets": {
+  "libertarian_utopia": 26.57,
+  "benevolent_dictator": 26.04,
+  "egalitarian_utopia": 14.38,
+  "protector_god": 19.1,
+  "gatekeeper": 18.72,
+  "enslaved_god": 42.51,
+  "conquerors": 21.1,
+  "descendants": 19.77,
+  "zookeeper": 15.9,
+  "orwell_1984": 24.2,
+  "reversion": 3.76,
+  "self_destruction": 21.79
+ },
+ "momentum_7d": {
+  "libertarian_utopia": 0.14,
+  "benevolent_dictator": -0.01,
+  "egalitarian_utopia": 0.12,
+  "protector_god": 0.15,
+  "gatekeeper": 0.2,
+  "enslaved_god": -0.04,
+  "conquerors": 0.41,
+  "descendants": 0.38,
+  "zookeeper": 0.33,
+  "orwell_1984": -0.02,
+  "reversion": -0.22,
+  "self_destruction": -0.11
+ },
+ "factors": {
+  "F1": 76.52,
+  "F2": 49.14,
+  "F3": 43.52,
+  "F4": 22.37,
+  "F5": 66.8,
+  "F6": 45.99,
+  "F7": 33.09,
+  "F8": 57.8,
+  "F9": 41.75,
+  "F10": 20.22
+ },
+ "factor_deltas": {
+  "F1": -0.0,
+  "F2": 0.0,
+  "F3": -0.01,
+  "F4": -0.0,
+  "F5": -0.0,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": -0.02,
+  "F9": 0.04,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": 0.77,
+  "families": {
+   "flourishing": 21.52,
+   "contained": 30.62,
+   "successors": 18.93,
+   "stalled": 16.58
+  },
+  "news_heat": 0.04,
+  "evidence": "low",
+  "event_count": 1
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": -0.01,
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.01,
+  "zookeeper": 0.01,
+  "reversion": -0.01,
+  "self_destruction": -0.01
+ },
+ "summary": {
+  "headline": "Indianapolis moves toward data-center pause amid protests",
+  "body": "A quiet day. An Indianapolis council committee voted 10-3 to pause new data-center approvals until the end of 2027, joining temporary moratoriums in at least 17 Indiana counties. Rising Tech Backlash nudges Reversion up a little. Other lines drifted as earlier stories faded. Horizon Balance: +0.77.",
+  "movers_note": "No ending moved by as much as 0.05 points (all 0.0 at one decimal); Reversion shifted most, by three hundredths, from the Indianapolis vote.",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-07-13-01",
+   "title": "Indianapolis committee advances data-center moratorium amid protests",
+   "summary": "A city council committee voted 10-3 to pause new data-center approvals until end-2027; at least 17 Indiana counties have temporary moratoriums and two have bans.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "local",
+   "track": "structural",
+   "region": "US",
+   "reason": "Growing local backlash to AI infrastructure.",
+   "sources": [
+    "https://www.wfyi.org/wfyi-news/2026-07-13/data-center-moratorium-advances-for-indianapolis"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "reversion": 0.04
+   },
+   "factor_effect": {
+    "F9": 0.04
+   }
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+[
+ {
+  "id": "2026-05-26-01",
+  "title": "Spain approves draft Organic Law on AI governance",
+  "summary": "Spain's Council of Ministers approved a draft law aligning national AI governance with the EU AI Act.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "EU",
+  "reason": "National implementation of EU rules; draft stage.",
+  "sources": [
+   "https://techieray.substack.com/p/ctrlaireg-1-june-2026"
+  ]
+ },
+ {
+  "id": "2026-05-26-02",
+  "title": "Huawei proposes new chip scaling law targeting 1.4nm-class density by 2031",
+  "summary": "At an IEEE conference Huawei laid out a roadmap to 1.4nm-equivalent transistor density by 2031 despite export controls.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "China",
+  "reason": "China compute self-reliance roadmap; signal. Date approximate (week of May 25, Nikkei).",
+  "sources": [
+   "https://blog.buildfastwithai.com/ai-news-today-may-26-2026"
+  ]
+ }
+]

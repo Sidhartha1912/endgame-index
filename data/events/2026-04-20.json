@@ -1,0 +1,30 @@
+[
+ {
+  "id": "2026-04-20-01",
+  "title": "Amazon to invest up to $25B more in Anthropic; Anthropic commits $100B+ to AWS",
+  "summary": "Amazon will invest $5B now and up to $20B later in Anthropic, which commits over $100B in AWS spend for up to 5 GW of compute over a decade.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   },
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Giant exclusive compute/investment tie-up concentrates frontier capacity in a hyperscaler-lab pair.",
+  "sources": [
+   "https://www.anthropic.com/news/anthropic-amazon-compute",
+   "https://siliconangle.com/2026/04/20/amazon-invest-25b-anthropic-part-expanded-cloud-partnership/"
+  ]
+ }
+]

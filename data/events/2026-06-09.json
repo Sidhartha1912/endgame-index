@@ -1,0 +1,81 @@
+[
+ {
+  "id": "2026-06-09-01",
+  "title": "Anthropic releases Claude Fable 5 and Mythos 5",
+  "summary": "Anthropic launched Claude Fable 5, its first generally available Mythos-class model, claiming state-of-the-art results on nearly all benchmarks (e.g. 80.3% SWE-Bench Pro vs 58.6% for GPT-5.5); Mythos 5, the same model with cyber safeguards lifted, went to Project Glasswing partners only.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "New frontier model with large self-reported gains; T3 not assigned because benchmarks are self-reported (skeptic pass).",
+  "sources": [
+   "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+   "https://9to5mac.com/2026/06/09/anthropic-just-released-public-mythos-class-ai-model-called-claude-fable-details-here/"
+  ]
+ },
+ {
+  "id": "2026-06-09-02",
+  "title": "Taiwan weighs curbing AI chip exports to all Chinese customers",
+  "summary": "Bloomberg reported Taiwan is considering extending AI chip export curbs to all of China to align with US controls.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": -1
+   },
+   {
+    "id": "F1",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "Other",
+  "reason": "Tech-bloc decoupling; under consideration only.",
+  "sources": [
+   "https://www.bloomberg.com/news/articles/2026-06-09/taiwan-mulls-curbs-on-ai-chip-exports-to-china-to-align-with-us",
+   "https://news.bloomberglaw.com/artificial-intelligence/taiwan-mulls-curbs-on-ai-chip-exports-to-china-to-align-with-us"
+  ]
+ },
+ {
+  "id": "2026-06-09-03",
+  "title": "EU and Apple clash over Siri AI not launching in Europe",
+  "summary": "Apple said Siri AI won't launch in the EU due to the Digital Markets Act; the Commission said the decision was Apple's and refused an 18-month exemption.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "structural",
+  "region": "EU",
+  "reason": "EU holds DMA line against big-tech AI rollout.",
+  "sources": [
+   "https://www.macrumors.com/2026/06/09/eu-says-decision-not-to-launch-siri-ai-in-europe-is-apples/"
+  ]
+ }
+]

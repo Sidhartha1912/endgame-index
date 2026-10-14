@@ -1,0 +1,261 @@
+{
+ "date": "2026-08-21",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 23.79,
+  "benevolent_dictator": 24.79,
+  "egalitarian_utopia": 11.32,
+  "protector_god": 18.98,
+  "gatekeeper": 19.17,
+  "enslaved_god": 41.74,
+  "conquerors": 27.29,
+  "descendants": 23.03,
+  "zookeeper": 20.99,
+  "orwell_1984": 23.19,
+  "reversion": 3.63,
+  "self_destruction": 24.19
+ },
+ "deltas": {
+  "libertarian_utopia": -0.02,
+  "benevolent_dictator": 0.09,
+  "egalitarian_utopia": 0.0,
+  "protector_god": 0.13,
+  "gatekeeper": 0.11,
+  "enslaved_god": 0.18,
+  "conquerors": 0.01,
+  "descendants": 0.08,
+  "zookeeper": 0.07,
+  "orwell_1984": 0.01,
+  "reversion": -0.09,
+  "self_destruction": -0.04
+ },
+ "targets": {
+  "libertarian_utopia": 23.79,
+  "benevolent_dictator": 24.79,
+  "egalitarian_utopia": 11.32,
+  "protector_god": 18.98,
+  "gatekeeper": 19.17,
+  "enslaved_god": 41.74,
+  "conquerors": 27.29,
+  "descendants": 23.03,
+  "zookeeper": 20.99,
+  "orwell_1984": 23.19,
+  "reversion": 3.63,
+  "self_destruction": 24.19
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.06,
+  "benevolent_dictator": 0.37,
+  "egalitarian_utopia": -0.8,
+  "protector_god": 0.01,
+  "gatekeeper": -0.58,
+  "enslaved_god": 0.87,
+  "conquerors": 0.66,
+  "descendants": 0.35,
+  "zookeeper": 1.0,
+  "orwell_1984": -0.05,
+  "reversion": -0.05,
+  "self_destruction": 0.8
+ },
+ "factors": {
+  "F1": 79.98,
+  "F2": 51.17,
+  "F3": 39.17,
+  "F4": 23.89,
+  "F5": 66.7,
+  "F6": 45.39,
+  "F7": 32.5,
+  "F8": 59.09,
+  "F9": 43.19,
+  "F10": 20.17
+ },
+ "factor_deltas": {
+  "F1": 0.14,
+  "F2": -0.0,
+  "F3": 0.08,
+  "F4": 0.01,
+  "F5": 0.1,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": -0.0,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -4.19,
+  "families": {
+   "flourishing": 19.72,
+   "contained": 30.45,
+   "successors": 23.77,
+   "stalled": 17.0
+  },
+  "news_heat": 0.68,
+  "evidence": "low",
+  "event_count": 4
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "protector_god": -0.01,
+  "zookeeper": 0.01,
+  "orwell_1984": 0.01,
+  "reversion": -0.01,
+  "self_destruction": -0.01
+ },
+ "summary": {
+  "headline": "Anthropic IPO talk at $2 trillion; Nvidia aces ARC-AGI-3 public levels",
+  "body": "A modest day. The New York Times reported bankers have floated an Anthropic IPO raising more than $100 billion at a $2 trillion valuation, another sign of Power Concentration, which nudged Enslaved God and Benevolent Dictator up. Brazil's split sovereign-supercomputer bet on Huawei and Nvidia pulled the other way, deliberately avoiding dependence on one vendor. Nvidia's agent harness scored 100 on public ARC-AGI-3 levels, adding to Capability Velocity, and OpenAI asked California to require monitoring during training, a small plus for Alignment & Control. Horizon Balance edged up to -4.19.",
+  "movers_note": "Enslaved God +0.2 from the Anthropic IPO report (+0.14) and Nvidia's ARC-AGI-3 result (+0.08), less Brazil (-0.09); Protector God +0.1 from ARC-AGI-3 (+0.07) and OpenAI's SB 53 push (+0.06).",
+  "coming_up": [
+   "Possible Anthropic IPO in October, as floated by bankers"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-08-21-01",
+   "title": "Brazil commits $444M to sovereign AI supercomputers split between Huawei and Nvidia",
+   "summary": "Brazil is funding a Huawei-iFlytek supercomputer project in Rio and a separate tender likely favouring Nvidia, to avoid dependence on one vendor or country.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "Other",
+   "reason": "Sovereign compute spreads capacity; modest size.",
+   "sources": [
+    "https://aiweekly.co/ai-news-today/edition/2026-08-22"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "libertarian_utopia": 0.09,
+    "benevolent_dictator": -0.07,
+    "egalitarian_utopia": 0.06,
+    "enslaved_god": -0.09,
+    "zookeeper": -0.06,
+    "orwell_1984": -0.06
+   },
+   "factor_effect": {
+    "F5": -0.14
+   }
+  },
+  {
+   "id": "2026-08-21-02",
+   "title": "Anthropic bankers float October IPO raising $100B+ at $2T valuation",
+   "summary": "The New York Times reported bankers told investors an Anthropic IPO could raise more than $100B at a record $2 trillion valuation.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "US",
+   "reason": "Banker-sourced intention; signal of capital concentration.",
+   "sources": [
+    "https://aiweekly.co/ai-news-today/edition/2026-08-22"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "libertarian_utopia": -0.14,
+    "benevolent_dictator": 0.12,
+    "egalitarian_utopia": -0.1,
+    "enslaved_god": 0.14,
+    "zookeeper": 0.1,
+    "orwell_1984": 0.1
+   },
+   "factor_effect": {
+    "F5": 0.24
+   }
+  },
+  {
+   "id": "2026-08-21-03",
+   "title": "OpenAI urges California to add training-time monitoring to SB 53",
+   "summary": "Politico reported OpenAI asked California to require monitoring of frontier models during training, citing the AI-agent hacks.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "US",
+   "reason": "Lab lobbying for stronger oversight; proposal only.",
+   "sources": [
+    "https://aiweekly.co/ai-news-today/edition/2026-08-22"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "libertarian_utopia": 0.04,
+    "benevolent_dictator": 0.04,
+    "egalitarian_utopia": 0.04,
+    "protector_god": 0.06,
+    "gatekeeper": 0.05,
+    "enslaved_god": 0.04,
+    "conquerors": -0.06,
+    "zookeeper": -0.04,
+    "self_destruction": -0.04
+   },
+   "factor_effect": {
+    "F3": 0.09
+   }
+  },
+  {
+   "id": "2026-08-21-04",
+   "title": "Nvidia harness scores 100 on public ARC-AGI-3 levels",
+   "summary": "Nvidia's AVO agent harness reached a score of 100 on 183 public ARC-AGI-3 levels; Nvidia notes comparisons are not controlled.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Self-reported benchmark jump on public set only.",
+   "sources": [
+    "https://aiweekly.co/ai-news-today/edition/2026-08-22"
+   ],
+   "points": 0.21,
+   "contribution": {
+    "protector_god": 0.07,
+    "gatekeeper": 0.06,
+    "enslaved_god": 0.08,
+    "conquerors": 0.07,
+    "descendants": 0.08,
+    "zookeeper": 0.07,
+    "orwell_1984": -0.04,
+    "reversion": -0.08
+   },
+   "factor_effect": {
+    "F1": 0.14
+   }
+  }
+ ]
+}

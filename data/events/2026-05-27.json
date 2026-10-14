@@ -1,0 +1,141 @@
+[
+ {
+  "id": "2026-05-27-01",
+  "title": "China's Supreme People's Court plans AI and data property rules for 2026-2030",
+  "summary": "At a State Council briefing, China's top court said it will refine judicial rules on AI and data property rights over the next five-year plan.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "China",
+  "reason": "Domestic legal framework building; signal.",
+  "sources": [
+   "https://techieray.substack.com/p/ctrlaireg-1-june-2026"
+  ]
+ },
+ {
+  "id": "2026-05-27-02",
+  "title": "Russia's Supreme Court orders nationwide review of AI court cases",
+  "summary": "Chief Justice Igor Krasnov ordered a review of cases involving AI to unify enforcement.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "Other",
+  "reason": "Minor national legal step.",
+  "sources": [
+   "https://techieray.substack.com/p/ctrlaireg-1-june-2026"
+  ]
+ },
+ {
+  "id": "2026-05-27-03",
+  "title": "Indian celebrities seek legal protection against AI deepfakes",
+  "summary": "Indian public figures pursued court protection of name, voice and likeness amid rising AI deepfakes, exposing gaps in personality-rights law.",
+  "category": "surveillance",
+  "factors": [
+   {
+    "id": "F6",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "structural",
+  "region": "India",
+  "reason": "Rights harms from generative AI; incremental.",
+  "sources": [
+   "https://techieray.substack.com/p/ctrlaireg-1-june-2026"
+  ]
+ },
+ {
+  "id": "2026-05-27-04",
+  "title": "Sen. Warren calls for taxing AI companies",
+  "summary": "Elizabeth Warren argued in a Time op-ed for taxing AI firms to address wealth concentration and worker displacement.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Proposal for AI dividend/tax; opinion piece, signal.",
+  "sources": [
+   "https://techieray.substack.com/p/ctrlaireg-1-june-2026"
+  ]
+ },
+ {
+  "id": "2026-05-27-05",
+  "title": "Gartner: 40% of organisations will scale back AI agents",
+  "summary": "Gartner predicted four in ten firms will demote, limit or retire AI agents over governance problems.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F2",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "Global",
+  "reason": "Analyst forecast of rollback of agent autonomy; signal.",
+  "sources": [
+   "https://www.theregister.com/ai-ml/2026/05/27/4-in-10-ai-agents-headed-for-demotion-or-the-rubbish-bin/5246964"
+  ]
+ },
+ {
+  "id": "2026-05-27-06",
+  "title": "Anthropic opens Milan office and names Korea head",
+  "summary": "Anthropic opened its second European office in Milan and appointed KiYoung Choi to lead Anthropic Korea, after Mythos cyber workshops with Korean agencies.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "EU",
+  "reason": "Frontier lab expanding footprint abroad; minor.",
+  "sources": [
+   "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
+   "https://www.asiae.co.kr/en/article/science/2026052709020555911"
+  ]
+ }
+]

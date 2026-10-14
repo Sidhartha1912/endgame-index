@@ -1,0 +1,155 @@
+{
+ "date": "2026-07-26",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 25.41,
+  "benevolent_dictator": 25.53,
+  "egalitarian_utopia": 13.07,
+  "protector_god": 18.72,
+  "gatekeeper": 18.75,
+  "enslaved_god": 41.65,
+  "conquerors": 24.02,
+  "descendants": 21.26,
+  "zookeeper": 18.37,
+  "orwell_1984": 24.06,
+  "reversion": 3.93,
+  "self_destruction": 22.51
+ },
+ "deltas": {
+  "libertarian_utopia": 0.01,
+  "benevolent_dictator": 0.02,
+  "egalitarian_utopia": 0.02,
+  "protector_god": 0.02,
+  "gatekeeper": 0.02,
+  "enslaved_god": 0.02,
+  "conquerors": -0.02,
+  "descendants": -0.0,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.0,
+  "reversion": -0.01,
+  "self_destruction": -0.02
+ },
+ "targets": {
+  "libertarian_utopia": 25.41,
+  "benevolent_dictator": 25.53,
+  "egalitarian_utopia": 13.07,
+  "protector_god": 18.72,
+  "gatekeeper": 18.75,
+  "enslaved_god": 41.65,
+  "conquerors": 24.02,
+  "descendants": 21.26,
+  "zookeeper": 18.37,
+  "orwell_1984": 24.06,
+  "reversion": 3.93,
+  "self_destruction": 22.51
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.24,
+  "benevolent_dictator": -0.48,
+  "egalitarian_utopia": -1.31,
+  "protector_god": -0.42,
+  "gatekeeper": -0.65,
+  "enslaved_god": -0.88,
+  "conquerors": 2.9,
+  "descendants": 1.42,
+  "zookeeper": 2.44,
+  "orwell_1984": -0.45,
+  "reversion": -0.71,
+  "self_destruction": 1.28
+ },
+ "factors": {
+  "F1": 77.78,
+  "F2": 50.36,
+  "F3": 41.2,
+  "F4": 23.16,
+  "F5": 66.66,
+  "F6": 45.97,
+  "F7": 32.89,
+  "F8": 57.97,
+  "F9": 42.61,
+  "F10": 20.22
+ },
+ "factor_deltas": {
+  "F1": -0.0,
+  "F2": 0.0,
+  "F3": 0.03,
+  "F4": -0.0,
+  "F5": 0.01,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": -0.01,
+  "F9": -0.0,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -1.56,
+  "families": {
+   "flourishing": 20.68,
+   "contained": 30.2,
+   "successors": 21.22,
+   "stalled": 16.83
+  },
+  "news_heat": 0.04,
+  "evidence": "low",
+  "event_count": 1
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "conquerors": 0.01,
+  "zookeeper": 0.01,
+  "reversion": -0.01,
+  "self_destruction": -0.01
+ },
+ "summary": {
+  "headline": "Hugging Face demands transparency from OpenAI over breach",
+  "body": "A quiet day. Hugging Face CEO Clem Delangue asked OpenAI to publish the agent's logs and commit $100M of compute to cyber defence, and OpenAI promised a technical report. This counted as a small push for Alignment & Control, giving tiny lifts to Protector God and Gatekeeper. Horizon Balance edged up to -1.56.",
+  "movers_note": "No ending moved by 0.1 or more; the largest changes were +0.02 to +0.03 from the Hugging Face transparency demand.",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-07-26-01",
+   "title": "Hugging Face CEO demands 'radical transparency' from OpenAI over breach",
+   "summary": "Clem Delangue asked OpenAI to publish the agent's logs and commit $100M of compute to cyber defense; OpenAI promised a technical report.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "global",
+   "track": "signal",
+   "region": "Global",
+   "reason": "Victim pushes for accountability and disclosure; development of known story.",
+   "sources": [
+    "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "libertarian_utopia": 0.02,
+    "benevolent_dictator": 0.02,
+    "egalitarian_utopia": 0.02,
+    "protector_god": 0.03,
+    "gatekeeper": 0.03,
+    "enslaved_god": 0.02,
+    "conquerors": -0.03,
+    "zookeeper": -0.02,
+    "self_destruction": -0.02
+   },
+   "factor_effect": {
+    "F3": 0.04
+   }
+  }
+ ]
+}

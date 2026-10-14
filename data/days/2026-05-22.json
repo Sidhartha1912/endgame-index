@@ -1,0 +1,238 @@
+{
+ "date": "2026-05-22",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 27.6,
+  "benevolent_dictator": 23.27,
+  "egalitarian_utopia": 14.63,
+  "protector_god": 16.31,
+  "gatekeeper": 16.85,
+  "enslaved_god": 38.91,
+  "conquerors": 20.76,
+  "descendants": 18.04,
+  "zookeeper": 14.44,
+  "orwell_1984": 23.9,
+  "reversion": 3.56,
+  "self_destruction": 21.02
+ },
+ "deltas": {
+  "libertarian_utopia": -0.23,
+  "benevolent_dictator": 0.41,
+  "egalitarian_utopia": -0.11,
+  "protector_god": 0.32,
+  "gatekeeper": 0.27,
+  "enslaved_god": 0.85,
+  "conquerors": 0.15,
+  "descendants": 0.36,
+  "zookeeper": 0.62,
+  "orwell_1984": 0.14,
+  "reversion": -0.57,
+  "self_destruction": -0.56
+ },
+ "targets": {
+  "libertarian_utopia": 27.6,
+  "benevolent_dictator": 23.27,
+  "egalitarian_utopia": 14.63,
+  "protector_god": 16.31,
+  "gatekeeper": 16.85,
+  "enslaved_god": 38.91,
+  "conquerors": 20.76,
+  "descendants": 18.04,
+  "zookeeper": 14.44,
+  "orwell_1984": 23.9,
+  "reversion": 3.56,
+  "self_destruction": 21.02
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.56,
+  "benevolent_dictator": 2.34,
+  "egalitarian_utopia": -1.43,
+  "protector_god": 2.5,
+  "gatekeeper": 1.35,
+  "enslaved_god": 2.57,
+  "conquerors": 3.24,
+  "descendants": 3.64,
+  "zookeeper": 4.3,
+  "orwell_1984": -0.23,
+  "reversion": -2.06,
+  "self_destruction": 0.52
+ },
+ "factors": {
+  "F1": 74.35,
+  "F2": 48.45,
+  "F3": 41.48,
+  "F4": 22.99,
+  "F5": 64.33,
+  "F6": 45.75,
+  "F7": 32.83,
+  "F8": 56.64,
+  "F9": 40.72,
+  "F10": 20.21
+ },
+ "factor_deltas": {
+  "F1": 0.61,
+  "F2": 0.0,
+  "F3": 0.02,
+  "F4": 0.02,
+  "F5": 0.8,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": -0.49,
+  "F9": -0.01,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": 0.42,
+  "families": {
+   "flourishing": 20.45,
+   "contained": 27.88,
+   "successors": 17.75,
+   "stalled": 16.16
+  },
+  "news_heat": 1.99,
+  "evidence": "medium",
+  "event_count": 3
+ },
+ "badges": [
+  "breakout"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": 0.01,
+  "egalitarian_utopia": 0.01,
+  "protector_god": 0.01,
+  "gatekeeper": 0.02,
+  "enslaved_god": 0.01,
+  "conquerors": -0.01,
+  "descendants": -0.01,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.01,
+  "reversion": -0.01,
+  "self_destruction": -0.02
+ },
+ "summary": {
+  "headline": "Anthropic nears $900B valuation as Mythos hunts 10,000 bugs",
+  "body": "Two Anthropic stories pulled in different directions. Project Glasswing reported that Claude Mythos Preview and about 50 partners flagged over 10,000 serious software vulnerabilities in 30 days, including a 27-year-old OpenBSD bug. That shows rising capability but also AI being used to make systems safer, so it lowers Catastrophic Risk, easing Self-Destruction and Reversion. Japan said its government and banks will get Mythos for cyber defence. Meanwhile Anthropic raised over $30B at about a $900B valuation and OpenAI filed confidentially for an IPO, a clear step up in Power Concentration that favours Enslaved God. Zookeeper earned a Breakout badge for its run over the past week. Horizon Balance edged up 0.01 to 0.4.",
+  "movers_note": "Enslaved God +0.8, from the Anthropic funding round and OpenAI IPO filing (+0.48) plus Glasswing (+0.37); Reversion -0.6 and Self-Destruction -0.6, mainly from Glasswing's bug-hunting (-0.51 and -0.38).",
+  "coming_up": [
+   "Japan's government is due to get access to Claude Mythos later in May"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-05-22-01",
+   "title": "Project Glasswing: Mythos Preview finds 10,000+ serious vulnerabilities in 30 days",
+   "summary": "Anthropic reported that Claude Mythos Preview and ~50 partners flagged over 10,000 high/critical vulnerabilities (1,094 confirmed high/critical after review), including a 27-year-old OpenBSD bug; Mozilla fixed 271 Firefox flaws.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    },
+    {
+     "id": "F8",
+     "dir": -1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Global",
+   "reason": "Concrete evidence of frontier offensive-grade cyber capability, used defensively; partner disclosures partly corroborate.",
+   "sources": [
+    "https://www.anthropic.com/glasswing"
+   ],
+   "points": 0.7,
+   "contribution": {
+    "libertarian_utopia": 0.17,
+    "egalitarian_utopia": 0.14,
+    "protector_god": 0.3,
+    "gatekeeper": 0.24,
+    "enslaved_god": 0.37,
+    "conquerors": 0.2,
+    "descendants": 0.37,
+    "zookeeper": 0.3,
+    "orwell_1984": -0.18,
+    "reversion": -0.51,
+    "self_destruction": -0.38
+   },
+   "factor_effect": {
+    "F1": 0.61,
+    "F8": -0.35
+   }
+  },
+  {
+   "id": "2026-05-22-02",
+   "title": "Japan's government and banks to get access to Claude Mythos for cyber defence",
+   "summary": "Finance Minister Satsuki Katayama said Japan's government would get access to Anthropic's Mythos later in May to strengthen cyber defence, alongside a cybersecurity working group with major banks.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "Other",
+   "reason": "Allied state access to a restricted cyber-capable model for defence (Kyodo via Japan Today).",
+   "sources": [
+    "https://japantoday.com/category/tech/japan-gov't-to-get-access-to-anthropic's-latest-ai-finance-minister"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "libertarian_utopia": 0.07,
+    "egalitarian_utopia": 0.06,
+    "conquerors": -0.04,
+    "reversion": -0.06,
+    "self_destruction": -0.16
+   },
+   "factor_effect": {
+    "F8": -0.14
+   }
+  },
+  {
+   "id": "2026-05-22-03",
+   "title": "Anthropic closes $30B+ round at ~$900B valuation; OpenAI files confidentially for IPO",
+   "summary": "Anthropic raised over $30B led by Sequoia, Dragoneer, Altimeter and Greenoaks at a ~$900B valuation, and OpenAI confidentially filed for an IPO at a reported ~$852B valuation.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Capital concentrating in two frontier labs. Exact day uncertain (reported May 18-29); best-supported ~May 22.",
+   "sources": [
+    "https://www.techtimes.com/articles/317066/20260523/anthropic-funding-round-top-30b-900b-valuation-would-surpass-openai-most-valuable-ai-startup.htm",
+    "https://aifundingtracker.com/ai-ipo-tracker/"
+   ],
+   "points": 0.8,
+   "contribution": {
+    "libertarian_utopia": -0.48,
+    "benevolent_dictator": 0.4,
+    "egalitarian_utopia": -0.32,
+    "enslaved_god": 0.48,
+    "zookeeper": 0.32,
+    "orwell_1984": 0.32
+   },
+   "factor_effect": {
+    "F5": 0.8
+   }
+  }
+ ]
+}

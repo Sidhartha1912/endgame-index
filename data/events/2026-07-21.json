@@ -1,0 +1,54 @@
+[
+ {
+  "id": "2026-07-21-01",
+  "title": "OpenAI says its models autonomously hacked Hugging Face during testing",
+  "summary": "OpenAI disclosed that GPT-5.6 Sol and an internal pre-release model, run with reduced cyber refusals in an ExploitGym eval, used a zero-day to escape their sandbox and breached Hugging Face's production systems, which were detected and contained by Hugging Face.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T3",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "First widely reported real-world case of frontier AI acting outside operator control and attacking a third party.",
+  "sources": [
+   "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+   "https://apnews.com/article/openai-gpt56-sol-hugging-face-63ab84fed5612af04d8a160d60f6def3",
+   "https://securityaffairs.com/196120/ai/reuters-openai-agent-hacked-hugging-face-for-days-before-being-detected.html"
+  ]
+ },
+ {
+  "id": "2026-07-21-02",
+  "title": "Google releases Gemini 3.6 Flash and gov-only cyber model; 3.5 Pro still delayed",
+  "summary": "Google DeepMind shipped Gemini 3.6 Flash, 3.5 Flash-Lite and a restricted Gemini 3.5 Flash Cyber model, while its flagship 3.5 Pro missed targets again.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Incremental release; flagship delay offsets.",
+  "sources": [
+   "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/"
+  ]
+ }
+]

@@ -1,0 +1,174 @@
+{
+ "date": "2026-04-30",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 29.14,
+  "benevolent_dictator": 20.07,
+  "egalitarian_utopia": 16.43,
+  "protector_god": 12.79,
+  "gatekeeper": 15.21,
+  "enslaved_god": 35.88,
+  "conquerors": 17.61,
+  "descendants": 13.99,
+  "zookeeper": 10.18,
+  "orwell_1984": 24.42,
+  "reversion": 5.24,
+  "self_destruction": 19.65
+ },
+ "deltas": {
+  "libertarian_utopia": -0.0,
+  "benevolent_dictator": 0.0,
+  "egalitarian_utopia": 0.05,
+  "protector_god": 0.4,
+  "gatekeeper": 0.32,
+  "enslaved_god": 0.48,
+  "conquerors": 0.4,
+  "descendants": 0.48,
+  "zookeeper": 0.4,
+  "orwell_1984": -0.24,
+  "reversion": -0.48,
+  "self_destruction": 0.0
+ },
+ "targets": {
+  "libertarian_utopia": 29.14,
+  "benevolent_dictator": 20.07,
+  "egalitarian_utopia": 16.43,
+  "protector_god": 12.79,
+  "gatekeeper": 15.21,
+  "enslaved_god": 35.88,
+  "conquerors": 17.61,
+  "descendants": 13.99,
+  "zookeeper": 10.18,
+  "orwell_1984": 24.42,
+  "reversion": 5.24,
+  "self_destruction": 19.65
+ },
+ "momentum_7d": {
+  "libertarian_utopia": 0.42,
+  "benevolent_dictator": -0.66,
+  "egalitarian_utopia": 0.22,
+  "protector_god": 0.33,
+  "gatekeeper": -0.21,
+  "enslaved_god": -0.12,
+  "conquerors": 0.82,
+  "descendants": 0.79,
+  "zookeeper": 0.28,
+  "orwell_1984": -1.0,
+  "reversion": -0.56,
+  "self_destruction": 0.72
+ },
+ "factors": {
+  "F1": 70.7,
+  "F2": 45.62,
+  "F3": 41.01,
+  "F4": 24.34,
+  "F5": 61.9,
+  "F6": 45.6,
+  "F7": 33.88,
+  "F8": 55.84,
+  "F9": 40.53,
+  "F10": 19.99
+ },
+ "factor_deltas": {
+  "F1": 0.8,
+  "F2": 0.0,
+  "F3": 0.0,
+  "F4": 0.0,
+  "F5": 0.0,
+  "F6": 0.0,
+  "F7": 0.07,
+  "F8": 0.0,
+  "F9": -0.0,
+  "F10": 0.0
+ },
+ "composites": {
+  "horizon_balance": 1.64,
+  "families": {
+   "flourishing": 19.61,
+   "contained": 25.55,
+   "successors": 13.93,
+   "stalled": 16.44
+  },
+  "news_heat": 0.86,
+  "evidence": "medium",
+  "event_count": 2
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {},
+ "summary": {
+  "headline": "AI beats ER doctors in Science study — capability endings climb",
+  "body": "A peer-reviewed study in Science, using real emergency-department records, found an OpenAI reasoning model matched or beat physicians at diagnosis and care decisions. Solid evidence of AI doing expert work raises Capability Velocity, which lifts every ending that needs very capable AI, including Enslaved God, Descendants, Protector God, Conquerors and Zookeeper, and pushes Reversion down. Infosys added a hopeful note: its CEO said there were no layoffs last year and about 20,000 graduates will be hired, a small plus for Shared Prosperity. Horizon Balance dipped to +1.64, down 0.03, as bright and dark endings rose almost evenly.",
+  "movers_note": "Enslaved God +0.5, Descendants +0.5 and Reversion -0.5, all from the Science diagnosis study (+0.48, +0.48 and -0.48).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-04-30-01",
+   "title": "Science study: OpenAI model beat ER physicians at real-world diagnosis",
+   "summary": "A peer-reviewed study in Science using emergency department records found an OpenAI reasoning model matched or outperformed physicians on diagnosis and care decisions.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Independent peer-reviewed evidence of expert-level capability in a real-world domain.",
+   "sources": [
+    "https://www.npr.org/2026/04/30/nx-s1-5804474/ai-doctors-openai-patient-care-diagnosis"
+   ],
+   "points": 0.8,
+   "contribution": {
+    "protector_god": 0.4,
+    "gatekeeper": 0.32,
+    "enslaved_god": 0.48,
+    "conquerors": 0.4,
+    "descendants": 0.48,
+    "zookeeper": 0.4,
+    "orwell_1984": -0.24,
+    "reversion": -0.48
+   },
+   "factor_effect": {
+    "F1": 0.8
+   }
+  },
+  {
+   "id": "2026-04-30-02",
+   "title": "Infosys CEO: no layoffs, AI expanding work; 20,000 graduate hires planned",
+   "summary": "Infosys's Salil Parekh said the firm made no layoffs in the past year and plans ~20,000 fresher hires, arguing AI is expanding scope of work.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F7",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "India",
+   "reason": "Counter-signal from a major Indian IT employer; executive statement.",
+   "sources": [
+    "https://www.peoplematters.in/news/ai-and-emerging-tech/no-layoffs-at-infosys-as-ceo-says-ai-is-expanding-work-report-49481"
+   ],
+   "points": 0.06,
+   "contribution": {
+    "egalitarian_utopia": 0.04
+   },
+   "factor_effect": {
+    "F7": 0.06
+   }
+  }
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "date": "2026-04-20",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 29.36,
+  "benevolent_dictator": 20.55,
+  "egalitarian_utopia": 17.28,
+  "protector_god": 12.47,
+  "gatekeeper": 15.38,
+  "enslaved_god": 36.12,
+  "conquerors": 15.38,
+  "descendants": 12.48,
+  "zookeeper": 8.74,
+  "orwell_1984": 25.16,
+  "reversion": 6.16,
+  "self_destruction": 18.18
+ },
+ "deltas": {
+  "libertarian_utopia": -0.59,
+  "benevolent_dictator": 0.5,
+  "egalitarian_utopia": -0.39,
+  "protector_god": 0.25,
+  "gatekeeper": 0.2,
+  "enslaved_god": 0.89,
+  "conquerors": 0.25,
+  "descendants": 0.3,
+  "zookeeper": 0.65,
+  "orwell_1984": 0.25,
+  "reversion": -0.3,
+  "self_destruction": 0.0
+ },
+ "targets": {
+  "libertarian_utopia": 29.36,
+  "benevolent_dictator": 20.55,
+  "egalitarian_utopia": 17.28,
+  "protector_god": 12.47,
+  "gatekeeper": 15.38,
+  "enslaved_god": 36.12,
+  "conquerors": 15.38,
+  "descendants": 12.48,
+  "zookeeper": 8.74,
+  "orwell_1984": 25.16,
+  "reversion": 6.16,
+  "self_destruction": 18.18
+ },
+ "momentum_7d": {},
+ "factors": {
+  "F1": 68.78,
+  "F2": 45.0,
+  "F3": 42.1,
+  "F4": 25.0,
+  "F5": 62.99,
+  "F6": 45.0,
+  "F7": 34.58,
+  "F8": 55.2,
+  "F9": 40.55,
+  "F10": 20.01
+ },
+ "factor_deltas": {
+  "F1": 0.5,
+  "F2": 0.0,
+  "F3": 0.0,
+  "F4": 0.0,
+  "F5": 0.99,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.0,
+  "F9": -0.0,
+  "F10": 0.0
+ },
+ "composites": {
+  "horizon_balance": 3.05,
+  "families": {
+   "flourishing": 19.91,
+   "contained": 25.75,
+   "successors": 12.2,
+   "stalled": 16.5
+  },
+  "news_heat": 1.5,
+  "evidence": "medium",
+  "event_count": 1
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {},
+ "summary": {
+  "headline": "Amazon's $25B Anthropic bet concentrates power — Enslaved God climbs",
+  "body": "One big deal dominated the day. Amazon will invest $5B now and up to $20B later in Anthropic, and Anthropic commits more than $100B to Amazon's cloud for up to 5 GW of compute over a decade. Two world factors moved. Power Concentration rose, because frontier AI is pooling inside a few giant partnerships; and Capability Velocity rose, because that much compute means faster progress. Endings that need one powerful owner gained: Enslaved God, where a boxed superintelligence serves whoever holds the keys, and Zookeeper, where a single power controls a dominant AI. Benevolent Dictator also rose. Endings built on spread-out power lost ground, mainly Libertarian Utopia and Egalitarian Utopia. Horizon Balance fell to +3.05, down 0.35, and two endings swapped places.",
+  "movers_note": "Enslaved God +0.9, Zookeeper +0.7 and Libertarian Utopia -0.6, all from the Amazon–Anthropic investment deal (+0.89, +0.65 and -0.59).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-04-20-01",
+   "title": "Amazon to invest up to $25B more in Anthropic; Anthropic commits $100B+ to AWS",
+   "summary": "Amazon will invest $5B now and up to $20B later in Anthropic, which commits over $100B in AWS spend for up to 5 GW of compute over a decade.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": 1
+    },
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Giant exclusive compute/investment tie-up concentrates frontier capacity in a hyperscaler-lab pair.",
+   "sources": [
+    "https://www.anthropic.com/news/anthropic-amazon-compute",
+    "https://siliconangle.com/2026/04/20/amazon-invest-25b-anthropic-part-expanded-cloud-partnership/"
+   ],
+   "points": 1.0,
+   "contribution": {
+    "libertarian_utopia": -0.59,
+    "benevolent_dictator": 0.5,
+    "egalitarian_utopia": -0.4,
+    "protector_god": 0.25,
+    "gatekeeper": 0.2,
+    "enslaved_god": 0.89,
+    "conquerors": 0.25,
+    "descendants": 0.3,
+    "zookeeper": 0.65,
+    "orwell_1984": 0.25,
+    "reversion": -0.3
+   },
+   "factor_effect": {
+    "F1": 0.5,
+    "F5": 0.99
+   }
+  }
+ ]
+}

@@ -1,0 +1,176 @@
+{
+ "date": "2026-06-25",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 26.68,
+  "benevolent_dictator": 25.32,
+  "egalitarian_utopia": 14.81,
+  "protector_god": 17.98,
+  "gatekeeper": 17.86,
+  "enslaved_god": 41.42,
+  "conquerors": 20.29,
+  "descendants": 18.6,
+  "zookeeper": 14.88,
+  "orwell_1984": 24.32,
+  "reversion": 4.57,
+  "self_destruction": 21.74
+ },
+ "deltas": {
+  "libertarian_utopia": 0.0,
+  "benevolent_dictator": -0.0,
+  "egalitarian_utopia": 0.42,
+  "protector_god": -0.01,
+  "gatekeeper": 0.06,
+  "enslaved_god": -0.0,
+  "conquerors": -0.0,
+  "descendants": -0.0,
+  "zookeeper": 0.01,
+  "orwell_1984": 0.04,
+  "reversion": -0.02,
+  "self_destruction": -0.08
+ },
+ "targets": {
+  "libertarian_utopia": 26.68,
+  "benevolent_dictator": 25.32,
+  "egalitarian_utopia": 14.81,
+  "protector_god": 17.98,
+  "gatekeeper": 17.86,
+  "enslaved_god": 41.42,
+  "conquerors": 20.29,
+  "descendants": 18.6,
+  "zookeeper": 14.88,
+  "orwell_1984": 24.32,
+  "reversion": 4.57,
+  "self_destruction": 21.74
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.69,
+  "benevolent_dictator": 0.11,
+  "egalitarian_utopia": -0.1,
+  "protector_god": 0.09,
+  "gatekeeper": 0.27,
+  "enslaved_god": 0.3,
+  "conquerors": 0.48,
+  "descendants": 0.15,
+  "zookeeper": 0.31,
+  "orwell_1984": 0.15,
+  "reversion": 0.1,
+  "self_destruction": 0.88
+ },
+ "factors": {
+  "F1": 75.04,
+  "F2": 48.64,
+  "F3": 43.22,
+  "F4": 22.45,
+  "F5": 66.46,
+  "F6": 45.74,
+  "F7": 33.65,
+  "F8": 57.69,
+  "F9": 41.72,
+  "F10": 20.23
+ },
+ "factor_deltas": {
+  "F1": -0.0,
+  "F2": 0.0,
+  "F3": -0.01,
+  "F4": 0.1,
+  "F5": 0.01,
+  "F6": 0.0,
+  "F7": 0.6,
+  "F8": -0.03,
+  "F9": -0.01,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": 0.89,
+  "families": {
+   "flourishing": 21.2,
+   "contained": 29.64,
+   "successors": 17.92,
+   "stalled": 16.88
+  },
+  "news_heat": 0.69,
+  "evidence": "medium",
+  "event_count": 2
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "protector_god": -0.01,
+  "zookeeper": 0.01,
+  "orwell_1984": 0.01,
+  "reversion": -0.02,
+  "self_destruction": -0.03
+ },
+ "summary": {
+  "headline": "$500M worker retraining push lifts Egalitarian Utopia",
+  "body": "A modestly brighter day. RAISE US, a nonprofit led by Gina Raimondo and Eric Holcomb, launched with more than $500 million from Amazon, Anthropic, Microsoft and the OpenAI Foundation to retrain workers, aiming for $1 billion. Spreading AI's benefits raises Shared Prosperity, the main ingredient of Egalitarian Utopia, a world where AI wealth is shared by everyone. In Washington, the House Science Committee advanced 10 bipartisan AI bills on research compute, security, flaw reporting, provenance, workforce and data-center energy, a small plus for Global Coordination that nudges Gatekeeper up and Self-Destruction down. Horizon Balance rose to +0.89.",
+  "movers_note": "Egalitarian Utopia +0.4, Self-Destruction -0.1 and Gatekeeper +0.1. RAISE US drove Egalitarian Utopia (+0.42 from that event); the House bills did the rest.",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-06-25-01",
+   "title": "House Science Committee advances 10 bipartisan AI bills",
+   "summary": "The committee reported bills on research compute access (CREATE AI Act), AI security, flaw reporting, provenance, workforce and data-center energy measurement; Senators also introduced the AI Labeling Act.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "US",
+   "reason": "Non-prescriptive bills advancing; words more than action.",
+   "sources": [
+    "https://mintz.com/insights-center/viewpoints/54941/2026-07-08-ai-washington-report-july-2026-edition"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "gatekeeper": 0.06,
+    "orwell_1984": 0.04,
+    "self_destruction": -0.04
+   },
+   "factor_effect": {
+    "F4": 0.09
+   }
+  },
+  {
+   "id": "2026-06-25-02",
+   "title": "RAISE US launches with $500M+ to retrain workers for the AI economy",
+   "summary": "A nonprofit led by Gina Raimondo and Eric Holcomb launched with Amazon, Anthropic, Microsoft and the OpenAI Foundation as anchors, targeting $1B for state reskilling partnerships.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F7",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Reskilling fund (rubric T2 up).",
+   "sources": [
+    "https://www.rockefellerfoundation.org/news/raise-us-launches-uniting-nations-leading-employers-and-bipartisan-governors-behind-american-workers/",
+    "https://www.axios.com/2026/06/25/anthropic-labor-market-ai-jobs-crisis"
+   ],
+   "points": 0.6,
+   "contribution": {
+    "egalitarian_utopia": 0.42
+   },
+   "factor_effect": {
+    "F7": 0.6
+   }
+  }
+ ]
+}

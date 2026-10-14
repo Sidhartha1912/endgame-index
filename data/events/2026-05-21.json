@@ -1,0 +1,80 @@
+[
+ {
+  "id": "2026-05-21-01",
+  "title": "Trump scraps AI security executive order hours before signing",
+  "summary": "Trump cancelled the signing of an order creating voluntary 90-day pre-release government testing of frontier models after lobbying by Sacks, Musk and Zuckerberg, saying regulation could slow the US lead over China.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": -1
+   },
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Head of state rejects pre-release oversight on explicit race-with-China grounds.",
+  "sources": [
+   "https://www.axios.com/2026/05/21/trump-ai-executive-order-postponed-why",
+   "https://www.pbs.org/newshour/politics/watch-trump-explains-why-he-postponed-signing-ai-executive-order"
+  ]
+ },
+ {
+  "id": "2026-05-21-02",
+  "title": "Pentagon adds Shield AI autonomy to LUCAS loitering munition",
+  "summary": "The Pentagon partnered with Shield AI to integrate Hivemind autonomous piloting into the low-cost LUCAS one-way attack drone.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Major military AI contract putting autonomy into a strike weapon.",
+  "sources": [
+   "https://thedefensepost.com/2026/05/21/us-ai-pilot-lucas-drone/"
+  ]
+ },
+ {
+  "id": "2026-05-21-03",
+  "title": "Intuit cuts ~3,000 jobs as it shifts to AI agents",
+  "summary": "Intuit said it would cut about 8% of staff as it pivots to AI agents, projecting $500M+ annual savings.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Company-cited AI-linked layoffs, mid-size. Exact announcement date unclear (reported week of May 18-22).",
+  "sources": [
+   "https://blog.buildfastwithai.com/ai-news-today-may-23-2026"
+  ]
+ }
+]

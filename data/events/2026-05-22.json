@@ -1,0 +1,76 @@
+[
+ {
+  "id": "2026-05-22-01",
+  "title": "Project Glasswing: Mythos Preview finds 10,000+ serious vulnerabilities in 30 days",
+  "summary": "Anthropic reported that Claude Mythos Preview and ~50 partners flagged over 10,000 high/critical vulnerabilities (1,094 confirmed high/critical after review), including a 27-year-old OpenBSD bug; Mozilla fixed 271 Firefox flaws.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F8",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Global",
+  "reason": "Concrete evidence of frontier offensive-grade cyber capability, used defensively; partner disclosures partly corroborate.",
+  "sources": [
+   "https://www.anthropic.com/glasswing"
+  ]
+ },
+ {
+  "id": "2026-05-22-02",
+  "title": "Japan's government and banks to get access to Claude Mythos for cyber defence",
+  "summary": "Finance Minister Satsuki Katayama said Japan's government would get access to Anthropic's Mythos later in May to strengthen cyber defence, alongside a cybersecurity working group with major banks.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "Other",
+  "reason": "Allied state access to a restricted cyber-capable model for defence (Kyodo via Japan Today).",
+  "sources": [
+   "https://japantoday.com/category/tech/japan-gov't-to-get-access-to-anthropic's-latest-ai-finance-minister"
+  ]
+ },
+ {
+  "id": "2026-05-22-03",
+  "title": "Anthropic closes $30B+ round at ~$900B valuation; OpenAI files confidentially for IPO",
+  "summary": "Anthropic raised over $30B led by Sequoia, Dragoneer, Altimeter and Greenoaks at a ~$900B valuation, and OpenAI confidentially filed for an IPO at a reported ~$852B valuation.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Capital concentrating in two frontier labs. Exact day uncertain (reported May 18-29); best-supported ~May 22.",
+  "sources": [
+   "https://www.techtimes.com/articles/317066/20260523/anthropic-funding-round-top-30b-900b-valuation-would-surpass-openai-most-valuable-ai-startup.htm",
+   "https://aifundingtracker.com/ai-ipo-tracker/"
+  ]
+ }
+]

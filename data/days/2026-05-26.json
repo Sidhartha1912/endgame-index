@@ -1,0 +1,189 @@
+{
+ "date": "2026-05-26",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 27.68,
+  "benevolent_dictator": 23.23,
+  "egalitarian_utopia": 14.71,
+  "protector_god": 16.45,
+  "gatekeeper": 17.53,
+  "enslaved_god": 38.98,
+  "conquerors": 20.83,
+  "descendants": 18.15,
+  "zookeeper": 14.45,
+  "orwell_1984": 24.1,
+  "reversion": 4.21,
+  "self_destruction": 20.65
+ },
+ "deltas": {
+  "libertarian_utopia": 0.0,
+  "benevolent_dictator": 0.01,
+  "egalitarian_utopia": 0.01,
+  "protector_god": 0.11,
+  "gatekeeper": 0.12,
+  "enslaved_god": 0.13,
+  "conquerors": 0.09,
+  "descendants": 0.12,
+  "zookeeper": 0.1,
+  "orwell_1984": -0.04,
+  "reversion": -0.15,
+  "self_destruction": -0.03
+ },
+ "targets": {
+  "libertarian_utopia": 27.68,
+  "benevolent_dictator": 23.23,
+  "egalitarian_utopia": 14.71,
+  "protector_god": 16.45,
+  "gatekeeper": 17.53,
+  "enslaved_god": 38.98,
+  "conquerors": 20.83,
+  "descendants": 18.15,
+  "zookeeper": 14.45,
+  "orwell_1984": 24.1,
+  "reversion": 4.21,
+  "self_destruction": 20.65
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.86,
+  "benevolent_dictator": 1.11,
+  "egalitarian_utopia": -0.91,
+  "protector_god": 1.83,
+  "gatekeeper": 1.46,
+  "enslaved_god": 1.65,
+  "conquerors": 2.68,
+  "descendants": 2.69,
+  "zookeeper": 3.06,
+  "orwell_1984": -0.35,
+  "reversion": -1.01,
+  "self_destruction": 0.19
+ },
+ "factors": {
+  "F1": 74.55,
+  "F2": 48.45,
+  "F3": 41.54,
+  "F4": 23.79,
+  "F5": 64.19,
+  "F6": 45.75,
+  "F7": 32.85,
+  "F8": 56.69,
+  "F9": 41.47,
+  "F10": 20.18
+ },
+ "factor_deltas": {
+  "F1": 0.21,
+  "F2": 0.0,
+  "F3": 0.01,
+  "F4": 0.05,
+  "F5": 0.0,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.0,
+  "F9": -0.03,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": 0.51,
+  "families": {
+   "flourishing": 20.52,
+   "contained": 28.25,
+   "successors": 17.81,
+   "stalled": 16.32
+  },
+  "news_heat": 0.28,
+  "evidence": "low",
+  "event_count": 2
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": 0.01,
+  "egalitarian_utopia": 0.01,
+  "protector_god": 0.01,
+  "gatekeeper": 0.01,
+  "enslaved_god": 0.01,
+  "conquerors": -0.01,
+  "descendants": -0.01,
+  "zookeeper": -0.01,
+  "reversion": -0.03,
+  "self_destruction": -0.01
+ },
+ "summary": {
+  "headline": "Huawei maps 1.4nm-class chips by 2031; a quiet day",
+  "body": "A quiet day. Huawei laid out a roadmap to 1.4nm-class chip density by 2031 despite export controls, a small push to Capability Velocity that slightly lifts Enslaved God and Descendants and trims Reversion. Spain approved a draft AI law aligned with the EU AI Act. Horizon Balance is unchanged at 0.5.",
+  "movers_note": "Reversion -0.1, Enslaved God +0.1 and Descendants +0.1, each mostly from Huawei's chip roadmap (-0.12/+0.12/+0.12).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-05-26-01",
+   "title": "Spain approves draft Organic Law on AI governance",
+   "summary": "Spain's Council of Ministers approved a draft law aligning national AI governance with the EU AI Act.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "D",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "EU",
+   "reason": "National implementation of EU rules; draft stage.",
+   "sources": [
+    "https://techieray.substack.com/p/ctrlaireg-1-june-2026"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "gatekeeper": 0.03,
+    "orwell_1984": 0.02,
+    "self_destruction": -0.02
+   },
+   "factor_effect": {
+    "F4": 0.04
+   }
+  },
+  {
+   "id": "2026-05-26-02",
+   "title": "Huawei proposes new chip scaling law targeting 1.4nm-class density by 2031",
+   "summary": "At an IEEE conference Huawei laid out a roadmap to 1.4nm-equivalent transistor density by 2031 despite export controls.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "China",
+   "reason": "China compute self-reliance roadmap; signal. Date approximate (week of May 25, Nikkei).",
+   "sources": [
+    "https://blog.buildfastwithai.com/ai-news-today-may-26-2026"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "protector_god": 0.1,
+    "gatekeeper": 0.08,
+    "enslaved_god": 0.12,
+    "conquerors": 0.1,
+    "descendants": 0.12,
+    "zookeeper": 0.1,
+    "orwell_1984": -0.06,
+    "reversion": -0.12
+   },
+   "factor_effect": {
+    "F1": 0.21
+   }
+  }
+ ]
+}

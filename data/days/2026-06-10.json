@@ -1,0 +1,150 @@
+{
+ "date": "2026-06-10",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 28.59,
+  "benevolent_dictator": 24.26,
+  "egalitarian_utopia": 15.75,
+  "protector_god": 18.15,
+  "gatekeeper": 18.92,
+  "enslaved_god": 40.49,
+  "conquerors": 19.87,
+  "descendants": 18.68,
+  "zookeeper": 13.98,
+  "orwell_1984": 23.91,
+  "reversion": 4.18,
+  "self_destruction": 19.81
+ },
+ "deltas": {
+  "libertarian_utopia": -0.02,
+  "benevolent_dictator": 0.0,
+  "egalitarian_utopia": -0.01,
+  "protector_god": -0.01,
+  "gatekeeper": 0.21,
+  "enslaved_god": -0.0,
+  "conquerors": 0.01,
+  "descendants": -0.01,
+  "zookeeper": 0.02,
+  "orwell_1984": 0.13,
+  "reversion": -0.02,
+  "self_destruction": -0.15
+ },
+ "targets": {
+  "libertarian_utopia": 28.59,
+  "benevolent_dictator": 24.26,
+  "egalitarian_utopia": 15.75,
+  "protector_god": 18.15,
+  "gatekeeper": 18.92,
+  "enslaved_god": 40.49,
+  "conquerors": 19.87,
+  "descendants": 18.68,
+  "zookeeper": 13.98,
+  "orwell_1984": 23.91,
+  "reversion": 4.18,
+  "self_destruction": 19.81
+ },
+ "momentum_7d": {
+  "libertarian_utopia": 0.34,
+  "benevolent_dictator": 0.52,
+  "egalitarian_utopia": 0.46,
+  "protector_god": 0.94,
+  "gatekeeper": 0.64,
+  "enslaved_god": 0.88,
+  "conquerors": -0.29,
+  "descendants": 0.34,
+  "zookeeper": -0.06,
+  "orwell_1984": -0.22,
+  "reversion": -0.19,
+  "self_destruction": -0.24
+ },
+ "factors": {
+  "F1": 75.32,
+  "F2": 48.46,
+  "F3": 43.41,
+  "F4": 23.73,
+  "F5": 64.39,
+  "F6": 45.73,
+  "F7": 33.04,
+  "F8": 56.58,
+  "F9": 41.94,
+  "F10": 20.27
+ },
+ "factor_deltas": {
+  "F1": -0.0,
+  "F2": 0.0,
+  "F3": -0.02,
+  "F4": 0.32,
+  "F5": 0.01,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.0,
+  "F9": -0.02,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": 2.29,
+  "families": {
+   "flourishing": 21.69,
+   "contained": 29.71,
+   "successors": 17.51,
+   "stalled": 15.97
+  },
+  "news_heat": 0.3,
+  "evidence": "low",
+  "event_count": 1
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.02,
+  "egalitarian_utopia": -0.01,
+  "protector_god": -0.01,
+  "conquerors": 0.01,
+  "descendants": -0.01,
+  "zookeeper": 0.02,
+  "orwell_1984": 0.01,
+  "reversion": -0.02
+ },
+ "summary": {
+  "headline": "EU publishes code for labelling AI-generated content",
+  "body": "A quiet day with one story. The European Commission published a voluntary Code of Practice to help companies label AI-generated content ahead of AI Act transparency rules. Shared rules add to Global Coordination, lifting Gatekeeper and easing Self-Destruction; Conquerors moved back above Self-Destruction. Horizon Balance is 2.3, down 0.02.",
+  "movers_note": "Gatekeeper +0.2 (EU labelling code, +0.21), Self-Destruction -0.1 (-0.15) and 1984 +0.1 (+0.12).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-06-10-01",
+   "title": "EU publishes Code of Practice on labelling AI-generated content",
+   "summary": "The European Commission released a voluntary code to help providers and deployers prepare for AI Act transparency rules on marking AI content.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "EU",
+   "reason": "AI Act implementation step; voluntary.",
+   "sources": [
+    "https://www.cliffordchance.com/insights/resources/blogs/talking-tech/en/articles/2026/06/tech-policy-unit-horizon-scanner-june-2026.html"
+   ],
+   "points": 0.3,
+   "contribution": {
+    "gatekeeper": 0.21,
+    "orwell_1984": 0.12,
+    "self_destruction": -0.15
+   },
+   "factor_effect": {
+    "F4": 0.3
+   }
+  }
+ ]
+}

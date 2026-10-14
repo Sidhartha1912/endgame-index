@@ -1,0 +1,196 @@
+{
+ "date": "2026-07-06",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 26.43,
+  "benevolent_dictator": 26.05,
+  "egalitarian_utopia": 14.26,
+  "protector_god": 18.95,
+  "gatekeeper": 18.53,
+  "enslaved_god": 42.55,
+  "conquerors": 20.69,
+  "descendants": 19.39,
+  "zookeeper": 15.57,
+  "orwell_1984": 24.22,
+  "reversion": 3.97,
+  "self_destruction": 21.9
+ },
+ "deltas": {
+  "libertarian_utopia": -0.25,
+  "benevolent_dictator": 0.14,
+  "egalitarian_utopia": -0.19,
+  "protector_god": 0.11,
+  "gatekeeper": 0.07,
+  "enslaved_god": -0.09,
+  "conquerors": 0.28,
+  "descendants": 0.15,
+  "zookeeper": 0.16,
+  "orwell_1984": 0.0,
+  "reversion": 0.2,
+  "self_destruction": 0.53
+ },
+ "targets": {
+  "libertarian_utopia": 26.43,
+  "benevolent_dictator": 26.05,
+  "egalitarian_utopia": 14.26,
+  "protector_god": 18.95,
+  "gatekeeper": 18.53,
+  "enslaved_god": 42.55,
+  "conquerors": 20.69,
+  "descendants": 19.39,
+  "zookeeper": 15.57,
+  "orwell_1984": 24.22,
+  "reversion": 3.97,
+  "self_destruction": 21.9
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.06,
+  "benevolent_dictator": 0.74,
+  "egalitarian_utopia": -0.24,
+  "protector_god": 0.92,
+  "gatekeeper": 0.66,
+  "enslaved_god": 0.85,
+  "conquerors": -0.0,
+  "descendants": 0.47,
+  "zookeeper": 0.23,
+  "orwell_1984": -0.04,
+  "reversion": -0.23,
+  "self_destruction": 0.16
+ },
+ "factors": {
+  "F1": 76.06,
+  "F2": 48.93,
+  "F3": 43.69,
+  "F4": 22.3,
+  "F5": 67.08,
+  "F6": 45.76,
+  "F7": 33.03,
+  "F8": 57.94,
+  "F9": 41.64,
+  "F10": 20.25
+ },
+ "factor_deltas": {
+  "F1": -0.0,
+  "F2": 0.25,
+  "F3": -0.02,
+  "F4": 0.0,
+  "F5": -0.0,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": 0.48,
+  "F9": 0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": 0.82,
+  "families": {
+   "flourishing": 21.42,
+   "contained": 30.54,
+   "successors": 18.55,
+   "stalled": 16.7
+  },
+  "news_heat": 0.76,
+  "evidence": "low",
+  "event_count": 2
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": -0.01,
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.01,
+  "conquerors": 0.01,
+  "zookeeper": 0.01,
+  "reversion": -0.02,
+  "self_destruction": -0.02
+ },
+ "summary": {
+  "headline": "First largely AI-run ransomware attack documented",
+  "body": "A darker day. Security firm Sysdig documented JADEPUFFER, a ransomware attack in which an AI agent carried out reconnaissance, credential theft, lateral movement, encryption and the ransom note after a human picked the target. That is a step up in both Catastrophic Risk and AI Autonomy, because the AI did the dangerous work on its own. Self-Destruction, the ending where tech-fuelled catastrophe wins, rose most, Conquerors followed and Libertarian Utopia fell. Separately, Albany's council backed a one-year statewide pause on hyperscale data centers in New York, a sign of Tech Backlash that lifts Reversion slightly. Horizon Balance fell from +1.11 to +0.82.",
+  "movers_note": "Self-Destruction +0.5, Conquerors +0.3 and Libertarian Utopia -0.2, almost all from JADEPUFFER (Self-Destruction +0.55, Conquerors +0.27 from that event).",
+  "coming_up": [
+   "New York's one-year hyperscale data-center moratorium awaits Gov. Hochul's signature"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-07-06-01",
+   "title": "JADEPUFFER: first largely AI-run ransomware attack documented",
+   "summary": "Sysdig documented an attack in which an LLM agent ran reconnaissance, credential theft, lateral movement, encryption and the ransom note after a human chose the target.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    },
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Global",
+   "reason": "AI-enabled cyberattack with agentic execution (rubric T2 up).",
+   "sources": [
+    "https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion",
+    "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
+    "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html"
+   ],
+   "points": 0.5,
+   "contribution": {
+    "libertarian_utopia": -0.25,
+    "benevolent_dictator": 0.15,
+    "egalitarian_utopia": -0.2,
+    "protector_god": 0.12,
+    "gatekeeper": 0.07,
+    "enslaved_god": -0.07,
+    "conquerors": 0.27,
+    "descendants": 0.15,
+    "zookeeper": 0.15,
+    "reversion": 0.2,
+    "self_destruction": 0.55
+   },
+   "factor_effect": {
+    "F2": 0.25,
+    "F8": 0.5
+   }
+  },
+  {
+   "id": "2026-07-06-02",
+   "title": "Albany council backs New York statewide data-center construction pause",
+   "summary": "Albany's Common Council voted 13-0 to support a one-year statewide moratorium on hyperscale data centers, which the legislature passed in June and which awaits Gov. Hochul's signature.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "local",
+   "track": "signal",
+   "region": "US",
+   "reason": "Local backing for a state moratorium; pending signature.",
+   "sources": [
+    "https://www.wamc.org/news/2026-07-07/albany-council-supports-statewide-data-center-construction-pause",
+    "https://www.foodandwaterwatch.org/2026/06/04/gov-hochul-must-sign-one-year-ai-crypto-data-center-moratorium-passed-by-legislature/"
+   ],
+   "points": 0.01,
+   "contribution": {
+    "reversion": 0.01
+   },
+   "factor_effect": {
+    "F9": 0.01
+   }
+  }
+ ]
+}

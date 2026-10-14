@@ -1,0 +1,50 @@
+[
+ {
+  "id": "2026-09-22-01",
+  "title": "Anthropic releases Claude Opus 5.5 at 20% lower prices",
+  "summary": "Anthropic launched Claude Opus 5.5, priced 20% below Opus 5, claiming performance near its top Fable 5.1 tier at much lower cost.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "New frontier model with notable gains per rubric T2; self-reported benchmarks.",
+  "sources": [
+   "https://www.anthropic.com/claude-opus-5-5",
+   "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/"
+  ]
+ },
+ {
+  "id": "2026-09-22-02",
+  "title": "Guterres uses final UNGA address to urge multilateral AI risk framework",
+  "summary": "UN Secretary-General Guterres told the General Assembly that leading AI nations must share safety-risk information and work toward a multilateral AI risk-management framework with independent oversight.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "Global",
+  "reason": "UN leader call; words not action.",
+  "sources": [
+   "https://www.al-monitor.com/originals/2026/09/un-chief-calls-ai-curbs-and-end-wars-his-last-assembly-address",
+   "https://en.mercopress.com/2026/09/22/un-general-debate-opens-with-wars-artificial-intelligence-and-the-guterres-succession"
+  ]
+ }
+]

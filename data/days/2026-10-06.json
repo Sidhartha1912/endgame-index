@@ -1,0 +1,298 @@
+{
+ "date": "2026-10-06",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 18.25,
+  "benevolent_dictator": 22.8,
+  "egalitarian_utopia": 6.14,
+  "protector_god": 16.76,
+  "gatekeeper": 18.22,
+  "enslaved_god": 40.1,
+  "conquerors": 35.11,
+  "descendants": 25.77,
+  "zookeeper": 26.45,
+  "orwell_1984": 23.26,
+  "reversion": 5.62,
+  "self_destruction": 30.99
+ },
+ "deltas": {
+  "libertarian_utopia": 0.47,
+  "benevolent_dictator": -0.41,
+  "egalitarian_utopia": -0.03,
+  "protector_god": 0.13,
+  "gatekeeper": 0.12,
+  "enslaved_god": -0.32,
+  "conquerors": 0.16,
+  "descendants": 0.17,
+  "zookeeper": -0.17,
+  "orwell_1984": -0.4,
+  "reversion": -0.11,
+  "self_destruction": -0.0
+ },
+ "targets": {
+  "libertarian_utopia": 18.25,
+  "benevolent_dictator": 22.8,
+  "egalitarian_utopia": 6.14,
+  "protector_god": 16.76,
+  "gatekeeper": 18.22,
+  "enslaved_god": 40.1,
+  "conquerors": 35.11,
+  "descendants": 25.77,
+  "zookeeper": 26.45,
+  "orwell_1984": 23.26,
+  "reversion": 5.62,
+  "self_destruction": 30.99
+ },
+ "momentum_7d": {
+  "libertarian_utopia": 0.22,
+  "benevolent_dictator": -1.09,
+  "egalitarian_utopia": -0.18,
+  "protector_god": -0.02,
+  "gatekeeper": -0.35,
+  "enslaved_god": -0.69,
+  "conquerors": 0.86,
+  "descendants": 0.45,
+  "zookeeper": -0.14,
+  "orwell_1984": -1.07,
+  "reversion": 0.08,
+  "self_destruction": 1.54
+ },
+ "factors": {
+  "F1": 82.74,
+  "F2": 52.63,
+  "F3": 33.03,
+  "F4": 25.6,
+  "F5": 67.06,
+  "F6": 45.46,
+  "F7": 32.4,
+  "F8": 63.82,
+  "F9": 44.94,
+  "F10": 20.44
+ },
+ "factor_deltas": {
+  "F1": 0.29,
+  "F2": -0.0,
+  "F3": -0.02,
+  "F4": 0.02,
+  "F5": -0.8,
+  "F6": 0.0,
+  "F7": -0.49,
+  "F8": -0.0,
+  "F9": 0.07,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": -12.96,
+  "families": {
+   "flourishing": 15.99,
+   "contained": 29.16,
+   "successors": 29.11,
+   "stalled": 19.96
+  },
+  "news_heat": 1.89,
+  "evidence": "medium",
+  "event_count": 5
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.01,
+  "protector_god": -0.02,
+  "enslaved_god": -0.02,
+  "descendants": -0.02,
+  "orwell_1984": 0.01
+ },
+ "summary": {
+  "headline": "Mistral and DeepSeek push open, spread-out AI; cheap phones squeezed",
+  "body": "Power spread out. Mistral previewed Large 4, a 1-trillion-parameter model it plans to release with open weights, and DeepSeek neared a $12B funding round ahead of a Hong Kong IPO targeted for Q1 2027. Strong challengers and open weights lower Power Concentration, lifting Libertarian Utopia and cutting Benevolent Dictator, 1984 and Enslaved God. The costs of the AI boom also showed: Rest of World reported sub-$100 phone shipments fell nearly 60% as memory went to AI data centres, hurting Shared Prosperity and Egalitarian Utopia. Google signed a 3.6 GW power deal including new nuclear, and Memphis postponed a data-centre moratorium vote amid protests. Libertarian Utopia edged past Gatekeeper. Horizon Balance rose to -12.96.",
+  "movers_note": "Libertarian Utopia +0.5 (Mistral +0.33, DeepSeek +0.14), Benevolent Dictator -0.4 (Mistral -0.28, DeepSeek -0.12) and 1984 -0.4 (Mistral -0.27, DeepSeek -0.10).",
+  "coming_up": [
+   "Oct 20: Memphis City Council vote on a data-center moratorium",
+   "Q1 2027: DeepSeek Hong Kong IPO (targeted)"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-10-06-01",
+   "title": "DeepSeek nears $12B funding round led by Tencent and CATL before HK IPO",
+   "summary": "DeepSeek is finalising at least $12B (80B yuan) with Tencent and CATL among backers, ahead of a Hong Kong IPO targeted for Q1 2027; revenue run rate passed $1B in September.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "Strengthens a non-US challenger lab, diluting US frontier concentration.",
+   "sources": [
+    "https://www.bloomberg.com/news/articles/2026-10-06/deepseek-to-raise-at-least-12-billion-in-tencent-backed-funding",
+    "https://www.theinformation.com/articles/deepseeks-annualized-revenue-hits-1-billion-startup-finalizes-7-5-billion-fundraising"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "libertarian_utopia": 0.14,
+    "benevolent_dictator": -0.12,
+    "egalitarian_utopia": 0.1,
+    "enslaved_god": -0.14,
+    "zookeeper": -0.1,
+    "orwell_1984": -0.1
+   },
+   "factor_effect": {
+    "F5": -0.24
+   }
+  },
+  {
+   "id": "2026-10-06-02",
+   "title": "Mistral previews 1T-parameter open-weight Large 4 'Le Chonk'",
+   "summary": "France's Mistral AI unveiled Mistral Large 4, a 1-trillion-parameter model it plans to release with open weights, posting strong benchmark scores.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    },
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "EU",
+   "reason": "Strong European open-weights model; weights promised, not yet released.",
+   "sources": [
+    "https://mistral.ai/news/mistral-large-4/",
+    "https://www.cnbc.com/2026/10/06/mistral-ai-model-le-chonk.html"
+   ],
+   "points": 0.56,
+   "contribution": {
+    "libertarian_utopia": 0.33,
+    "benevolent_dictator": -0.28,
+    "egalitarian_utopia": 0.22,
+    "protector_god": 0.08,
+    "gatekeeper": 0.07,
+    "enslaved_god": -0.24,
+    "conquerors": 0.08,
+    "descendants": 0.1,
+    "zookeeper": -0.14,
+    "orwell_1984": -0.27,
+    "reversion": -0.1
+   },
+   "factor_effect": {
+    "F1": 0.16,
+    "F5": -0.56
+   }
+  },
+  {
+   "id": "2026-10-06-03",
+   "title": "Google signs 3.6 GW power deal with Constellation incl. 890 MW new nuclear",
+   "summary": "Google entered a 3.6 GW long-term power agreement with Constellation Energy, including 890 MW of new nuclear capacity from reactor uprates on the PJM grid, to feed AI data centers.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Large energy deal enabling compute growth.",
+   "sources": [
+    "https://www.reuters.com/business/energy/google-enters-massive-36-gw-power-deal-with-constellation-energy-2026-10-06/"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "protector_god": 0.07,
+    "gatekeeper": 0.06,
+    "enslaved_god": 0.08,
+    "conquerors": 0.07,
+    "descendants": 0.08,
+    "zookeeper": 0.07,
+    "orwell_1984": -0.04,
+    "reversion": -0.08
+   },
+   "factor_effect": {
+    "F1": 0.14
+   }
+  },
+  {
+   "id": "2026-10-06-04",
+   "title": "Sub-$100 phone shipments fall ~60% as AI data centers absorb memory supply",
+   "summary": "Rest of World reported Q2 sub-$100 phone shipments fell nearly 60% year on year with prices up ~25%, hitting India (+21%) and Asia-Pacific hardest as memory makers divert supply to AI.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F7",
+     "dir": -1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "India",
+   "reason": "AI buildout measurably pricing low-income users out of devices in the Global South.",
+   "sources": [
+    "https://restofworld.org/2026/ai-data-center-memory-chip-shortage-cheap-smartphones-digital-divide/"
+   ],
+   "points": 0.5,
+   "contribution": {
+    "egalitarian_utopia": -0.35
+   },
+   "factor_effect": {
+    "F7": -0.5
+   }
+  },
+  {
+   "id": "2026-10-06-05",
+   "title": "Memphis data-center moratorium vote postponed amid protests and a fistfight",
+   "summary": "The Memphis City Council postponed a data-center moratorium vote for a second time after more than 100 residents protested and a fight broke out; the vote moved to Oct 20.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "local",
+   "track": "structural",
+   "region": "US",
+   "reason": "Local data-center backlash.",
+   "sources": [
+    "https://www.wsmv.com/2026/10/06/data-center-moratorium-vote-ends-abruptly-amid-protests-fistfight/"
+   ],
+   "points": 0.07,
+   "contribution": {
+    "reversion": 0.07
+   },
+   "factor_effect": {
+    "F9": 0.07
+   }
+  }
+ ]
+}

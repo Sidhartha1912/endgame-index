@@ -1,0 +1,287 @@
+{
+ "date": "2026-08-26",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 23.13,
+  "benevolent_dictator": 24.66,
+  "egalitarian_utopia": 10.86,
+  "protector_god": 19.28,
+  "gatekeeper": 19.46,
+  "enslaved_god": 41.71,
+  "conquerors": 27.82,
+  "descendants": 23.16,
+  "zookeeper": 20.96,
+  "orwell_1984": 22.83,
+  "reversion": 4.35,
+  "self_destruction": 25.92
+ },
+ "deltas": {
+  "libertarian_utopia": 0.12,
+  "benevolent_dictator": -0.01,
+  "egalitarian_utopia": 0.14,
+  "protector_god": -0.01,
+  "gatekeeper": 0.05,
+  "enslaved_god": -0.05,
+  "conquerors": 0.07,
+  "descendants": 0.08,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.1,
+  "reversion": -0.09,
+  "self_destruction": -0.0
+ },
+ "targets": {
+  "libertarian_utopia": 23.13,
+  "benevolent_dictator": 24.66,
+  "egalitarian_utopia": 10.86,
+  "protector_god": 19.28,
+  "gatekeeper": 19.46,
+  "enslaved_god": 41.71,
+  "conquerors": 27.82,
+  "descendants": 23.16,
+  "zookeeper": 20.96,
+  "orwell_1984": 22.83,
+  "reversion": 4.35,
+  "self_destruction": 25.92
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.68,
+  "benevolent_dictator": -0.04,
+  "egalitarian_utopia": -0.47,
+  "protector_god": 0.42,
+  "gatekeeper": 0.4,
+  "enslaved_god": 0.15,
+  "conquerors": 0.55,
+  "descendants": 0.21,
+  "zookeeper": 0.04,
+  "orwell_1984": -0.34,
+  "reversion": 0.61,
+  "self_destruction": 1.69
+ },
+ "factors": {
+  "F1": 80.11,
+  "F2": 51.27,
+  "F3": 39.29,
+  "F4": 24.08,
+  "F5": 66.47,
+  "F6": 45.05,
+  "F7": 32.59,
+  "F8": 60.8,
+  "F9": 43.29,
+  "F10": 20.16
+ },
+ "factor_deltas": {
+  "F1": 0.13,
+  "F2": -0.0,
+  "F3": -0.01,
+  "F4": 0.01,
+  "F5": -0.21,
+  "F6": 0.24,
+  "F7": 0.09,
+  "F8": -0.0,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -4.9,
+  "families": {
+   "flourishing": 19.48,
+   "contained": 30.58,
+   "successors": 23.98,
+   "stalled": 17.7
+  },
+  "news_heat": 0.74,
+  "evidence": "low",
+  "event_count": 5
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": -0.01,
+  "protector_god": -0.01,
+  "enslaved_god": -0.01,
+  "conquerors": 0.01,
+  "orwell_1984": 0.01,
+  "reversion": -0.01
+ },
+ "summary": {
+  "headline": "China's open GLM-5.3-Flash and Nvidia's record quarter",
+  "body": "Five small stories, mostly balancing out. China's Z.ai released GLM-5.3-Flash, a 320B open-weight model under an MIT licence; open models spread capability around, easing Power Concentration and helping the Libertarian and Egalitarian utopias. Nvidia's record $96.2 billion quarter added to Capability Velocity. The Guardian exposed an influence operation trying to seed AI chatbots with propaganda, raising Surveillance & Control and lifting 1984. Meta scrapping part of an 'AI-native' plan to cut teams was a small plus for Shared Prosperity. Sam Altman said OpenAI is '80%' to AGI while holding its biggest run until safety controls are ready. Horizon Balance: -4.90.",
+  "movers_note": "Egalitarian Utopia +0.1 from GLM-5.3-Flash (+0.08) and Meta's reversed cuts (+0.06); Libertarian Utopia +0.1 from GLM-5.3-Flash (+0.13); 1984 +0.1 from the chatbot propaganda story (+0.22).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-08-26-01",
+   "title": "Z.ai releases GLM-5.3-Flash, 320B open-weight multimodal model",
+   "summary": "China's Z.ai released MIT-licensed GLM-5.3-Flash and confirmed it was behind the stealth 'Ox Alpha' model said to rival DeepSeek.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "Mid-to-large open-weights release; vendor benchmarks.",
+   "sources": [
+    "https://huggingface.co/zai-org/GLM-5.3-Flash",
+    "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek"
+   ],
+   "points": 0.21,
+   "contribution": {
+    "libertarian_utopia": 0.13,
+    "benevolent_dictator": -0.1,
+    "egalitarian_utopia": 0.08,
+    "enslaved_god": -0.13,
+    "zookeeper": -0.08,
+    "orwell_1984": -0.08
+   },
+   "factor_effect": {
+    "F5": -0.21
+   }
+  },
+  {
+   "id": "2026-08-26-02",
+   "title": "Nvidia posts record $96.2B quarterly revenue, up 106%",
+   "summary": "Nvidia reported record quarterly revenue of $96.22 billion, more than doubling year on year on AI data-centre demand.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Confirms compute buildout pace; financial.",
+   "sources": [
+    "https://www.grandlinux.com/en/blogs/ai-august-2569-roundup.html"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "protector_god": 0.05,
+    "gatekeeper": 0.04,
+    "enslaved_god": 0.06,
+    "conquerors": 0.05,
+    "descendants": 0.06,
+    "zookeeper": 0.05,
+    "orwell_1984": -0.03,
+    "reversion": -0.06
+   },
+   "factor_effect": {
+    "F1": 0.1
+   }
+  },
+  {
+   "id": "2026-08-26-03",
+   "title": "Altman says OpenAI is '80%' to AGI while delaying its biggest training run",
+   "summary": "In a TIME interview, Sam Altman described an 'AI research intern' and said OpenAI is about 80% of the way to AGI, while holding its largest run until new safety controls are ready.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": true,
+   "novelty": "development",
+   "scope": "global",
+   "track": "signal",
+   "region": "US",
+   "reason": "Lab-leader claim about own progress; words, not verified.",
+   "sources": [
+    "https://time.com/article/2026/08/26/openai-sam-altman-interview/"
+   ],
+   "points": 0.05,
+   "contribution": {
+    "protector_god": 0.02,
+    "gatekeeper": 0.01,
+    "enslaved_god": 0.02,
+    "conquerors": 0.02,
+    "descendants": 0.02,
+    "zookeeper": 0.02,
+    "orwell_1984": -0.01,
+    "reversion": -0.02
+   },
+   "factor_effect": {
+    "F1": 0.03
+   }
+  },
+  {
+   "id": "2026-08-26-04",
+   "title": "Meta scrapped 'AI-native' plan that would have cut teams by 60%",
+   "summary": "Ars Technica reported Meta's AI-native workforce push produced more code but more incidents, and Meta cancelled some planned cuts.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F7",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Evidence AI substitution under-delivered; cuts cancelled.",
+   "sources": [
+    "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "egalitarian_utopia": 0.06
+   },
+   "factor_effect": {
+    "F7": 0.09
+   }
+  },
+  {
+   "id": "2026-08-26-05",
+   "title": "Influence operations try to seed AI chatbots with propaganda",
+   "summary": "The Guardian exposed a fake Israeli-funded thinktank publishing 124 reports in nine days to be cited by AI assistants; OpenAI also banned a Russian influence cluster.",
+   "category": "surveillance",
+   "factors": [
+    {
+     "id": "F6",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Global",
+   "reason": "State-linked information manipulation via AI; attempt, limited reach.",
+   "sources": [
+    "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
+    "https://aiweekly.co/ai-news-today/edition/2026-08-26"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "benevolent_dictator": 0.1,
+    "protector_god": -0.07,
+    "orwell_1984": 0.22
+   },
+   "factor_effect": {
+    "F6": 0.24
+   }
+  }
+ ]
+}

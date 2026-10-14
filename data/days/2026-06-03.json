@@ -1,0 +1,232 @@
+{
+ "date": "2026-06-03",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 28.25,
+  "benevolent_dictator": 23.74,
+  "egalitarian_utopia": 15.28,
+  "protector_god": 17.21,
+  "gatekeeper": 18.29,
+  "enslaved_god": 39.61,
+  "conquerors": 20.16,
+  "descendants": 18.34,
+  "zookeeper": 14.04,
+  "orwell_1984": 24.13,
+  "reversion": 4.38,
+  "self_destruction": 20.05
+ },
+ "deltas": {
+  "libertarian_utopia": 0.31,
+  "benevolent_dictator": -0.54,
+  "egalitarian_utopia": 0.17,
+  "protector_god": -0.22,
+  "gatekeeper": -0.18,
+  "enslaved_god": -0.51,
+  "conquerors": 0.1,
+  "descendants": -0.08,
+  "zookeeper": -0.24,
+  "orwell_1984": -0.28,
+  "reversion": -0.02,
+  "self_destruction": 0.09
+ },
+ "targets": {
+  "libertarian_utopia": 28.25,
+  "benevolent_dictator": 23.74,
+  "egalitarian_utopia": 15.28,
+  "protector_god": 17.21,
+  "gatekeeper": 18.29,
+  "enslaved_god": 39.61,
+  "conquerors": 20.16,
+  "descendants": 18.34,
+  "zookeeper": 14.04,
+  "orwell_1984": 24.13,
+  "reversion": 4.38,
+  "self_destruction": 20.05
+ },
+ "momentum_7d": {
+  "libertarian_utopia": 0.74,
+  "benevolent_dictator": 0.44,
+  "egalitarian_utopia": 0.63,
+  "protector_god": 0.83,
+  "gatekeeper": 0.73,
+  "enslaved_god": 0.4,
+  "conquerors": -0.58,
+  "descendants": 0.29,
+  "zookeeper": -0.43,
+  "orwell_1984": -0.14,
+  "reversion": 0.19,
+  "self_destruction": -0.55
+ },
+ "factors": {
+  "F1": 74.69,
+  "F2": 48.43,
+  "F3": 42.53,
+  "F4": 23.95,
+  "F5": 64.27,
+  "F6": 45.72,
+  "F7": 32.94,
+  "F8": 56.58,
+  "F9": 41.76,
+  "F10": 20.34
+ },
+ "factor_deltas": {
+  "F1": -0.01,
+  "F2": -0.12,
+  "F3": -0.23,
+  "F4": -0.0,
+  "F5": -0.72,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.0,
+  "F9": -0.02,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": 1.53,
+  "families": {
+   "flourishing": 21.12,
+   "contained": 28.95,
+   "successors": 17.52,
+   "stalled": 16.19
+  },
+  "news_heat": 1.08,
+  "evidence": "medium",
+  "event_count": 3
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": 0.01,
+  "egalitarian_utopia": 0.01,
+  "protector_god": 0.01,
+  "conquerors": -0.01,
+  "descendants": -0.01,
+  "zookeeper": -0.01,
+  "reversion": -0.02
+ },
+ "summary": {
+  "headline": "UK regulator reins in Google's AI search; power spreads out",
+  "body": "Regulators pushed back on Big Tech. The UK's Competition and Markets Authority ordered Google to let publishers opt out of AI Overviews and model training. The European Commission proposed a Tech Sovereignty Package, including Chips Act 2.0, to reduce reliance on non-EU providers. Both ease Power Concentration, which lowers Enslaved God and Benevolent Dictator and lifts Libertarian Utopia. A security lapse added a darker note: attackers tricked Meta's AI support agent into resetting credentials on high-profile Instagram accounts, a knock to Alignment & Control. Descendants and Gatekeeper swapped places. Horizon Balance is 1.5, up 0.02.",
+  "movers_note": "Benevolent Dictator -0.5, from the CMA ruling (-0.24), the EU package (-0.12) and the Meta agent hijack (-0.19); Enslaved God -0.5, from the CMA (-0.29) and EU (-0.14); Libertarian Utopia +0.3 from the CMA ruling (+0.29).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-06-03-01",
+   "title": "UK CMA orders Google to let publishers opt out of AI search and training",
+   "summary": "The Competition and Markets Authority imposed conduct rules requiring Google to give publishers opt-outs from AI Overviews and model training plus clearer attribution.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "UK",
+   "reason": "Binding competition remedy curbing a dominant AI player.",
+   "sources": [
+    "https://www.advanced-television.com/2026/06/03/cma-imposes-google-publisher-ai-opt-out/",
+    "https://apnews.com/article/google-britain-ai-competition-regulation-ce2016a4519fbe234799e009bac8f120"
+   ],
+   "points": 0.48,
+   "contribution": {
+    "libertarian_utopia": 0.29,
+    "benevolent_dictator": -0.24,
+    "egalitarian_utopia": 0.19,
+    "enslaved_god": -0.29,
+    "zookeeper": -0.19,
+    "orwell_1984": -0.19
+   },
+   "factor_effect": {
+    "F5": -0.48
+   }
+  },
+  {
+   "id": "2026-06-03-02",
+   "title": "EU presents Tech Sovereignty Package with Chips Act 2.0 and Cloud and AI Development Act",
+   "summary": "The European Commission proposed Chips Act 2.0 and a Cloud and AI Development Act to reduce reliance on non-EU digital providers.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "EU",
+   "reason": "Proposal to build non-US AI capacity; signal until adopted.",
+   "sources": [
+    "https://www.cliffordchance.com/insights/resources/blogs/talking-tech/en/articles/2026/06/tech-policy-unit-horizon-scanner-june-2026.html"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "libertarian_utopia": 0.14,
+    "benevolent_dictator": -0.12,
+    "egalitarian_utopia": 0.1,
+    "enslaved_god": -0.14,
+    "zookeeper": -0.1,
+    "orwell_1984": -0.1
+   },
+   "factor_effect": {
+    "F5": -0.24
+   }
+  },
+  {
+   "id": "2026-06-03-03",
+   "title": "Meta AI support chatbot manipulated into hijacking Instagram accounts",
+   "summary": "Attackers tricked Meta's AI support agent into resetting credentials for high-profile Instagram accounts without proper identity checks.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": -1
+    },
+    {
+     "id": "F2",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Real-world exploit of an autonomous support agent; control failure, not deception.",
+   "sources": [
+    "https://www.reuters.com/legal/government/high-profile-meta-ai-chatbot-breach-spotlights-security-risks-automation-2026-06-03/"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "libertarian_utopia": -0.12,
+    "benevolent_dictator": -0.19,
+    "egalitarian_utopia": -0.12,
+    "protector_god": -0.23,
+    "gatekeeper": -0.18,
+    "enslaved_god": -0.08,
+    "conquerors": 0.11,
+    "descendants": -0.07,
+    "zookeeper": 0.05,
+    "self_destruction": 0.1
+   },
+   "factor_effect": {
+    "F2": -0.12,
+    "F3": -0.24
+   }
+  }
+ ]
+}

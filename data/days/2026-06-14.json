@@ -1,0 +1,190 @@
+{
+ "date": "2026-06-14",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 27.93,
+  "benevolent_dictator": 24.68,
+  "egalitarian_utopia": 15.28,
+  "protector_god": 17.62,
+  "gatekeeper": 17.37,
+  "enslaved_god": 40.29,
+  "conquerors": 19.67,
+  "descendants": 18.2,
+  "zookeeper": 14.07,
+  "orwell_1984": 23.9,
+  "reversion": 4.69,
+  "self_destruction": 20.75
+ },
+ "deltas": {
+  "libertarian_utopia": -0.02,
+  "benevolent_dictator": 0.0,
+  "egalitarian_utopia": -0.01,
+  "protector_god": 0.03,
+  "gatekeeper": -0.04,
+  "enslaved_god": 0.04,
+  "conquerors": 0.05,
+  "descendants": 0.04,
+  "zookeeper": 0.05,
+  "orwell_1984": -0.05,
+  "reversion": -0.06,
+  "self_destruction": 0.05
+ },
+ "targets": {
+  "libertarian_utopia": 27.93,
+  "benevolent_dictator": 24.68,
+  "egalitarian_utopia": 15.28,
+  "protector_god": 17.62,
+  "gatekeeper": 17.37,
+  "enslaved_god": 40.29,
+  "conquerors": 19.67,
+  "descendants": 18.2,
+  "zookeeper": 14.07,
+  "orwell_1984": 23.9,
+  "reversion": 4.69,
+  "self_destruction": 20.75
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.82,
+  "benevolent_dictator": 0.49,
+  "egalitarian_utopia": -0.51,
+  "protector_god": -0.33,
+  "gatekeeper": -1.29,
+  "enslaved_god": 0.17,
+  "conquerors": 0.08,
+  "descendants": -0.21,
+  "zookeeper": 0.44,
+  "orwell_1984": -0.01,
+  "reversion": 0.49,
+  "self_destruction": 0.89
+ },
+ "factors": {
+  "F1": 74.4,
+  "F2": 48.62,
+  "F3": 43.19,
+  "F4": 22.16,
+  "F5": 65.24,
+  "F6": 45.73,
+  "F7": 33.04,
+  "F8": 56.64,
+  "F9": 41.87,
+  "F10": 20.23
+ },
+ "factor_deltas": {
+  "F1": 0.08,
+  "F2": 0.0,
+  "F3": -0.02,
+  "F4": -0.09,
+  "F5": 0.01,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.0,
+  "F9": -0.02,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": 1.78,
+  "families": {
+   "flourishing": 21.37,
+   "contained": 28.83,
+   "successors": 17.31,
+   "stalled": 16.44
+  },
+  "news_heat": 0.23,
+  "evidence": "low",
+  "event_count": 2
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.02,
+  "egalitarian_utopia": -0.01,
+  "protector_god": -0.01,
+  "conquerors": 0.01,
+  "descendants": -0.01,
+  "zookeeper": 0.01,
+  "orwell_1984": 0.01,
+  "reversion": -0.02
+ },
+ "summary": {
+  "headline": "Quiet day: Carney flags AI dependence, AI-designed vaccine clears trial",
+  "body": "A quiet day. Ahead of the G7, Canada's Mark Carney said the US order that took Anthropic's Claude Fable 5 and Mythos 5 offline shows allies must not rely on a few US models. That is a crack in Global Coordination, which nudges Gatekeeper down. A lightly sourced report of an AI-designed vaccine component passing a first human trial added a little to Capability Velocity. Horizon Balance: +1.78.",
+  "movers_note": "Barely any movement: Reversion -0.1, Conquerors +0.1, Zookeeper +0.1. Carney's remarks trimmed Gatekeeper (-0.07 from that event) while the vaccine report lifted capability-linked endings slightly.",
+  "coming_up": [
+   "G7 leaders' summit (upcoming; referenced by Carney, date not given in the event)"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-06-14-01",
+   "title": "Canada's Carney says US curbs on Anthropic models show AI dependence risk",
+   "summary": "Ahead of the G7, PM Mark Carney cited the US order that took Claude Fable 5 and Mythos 5 offline as evidence allies must diversify away from dependence on a few US AI models.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "Other",
+   "reason": "Allied leader openly frames US AI controls as a sovereignty risk; a rift signal, words only. Context: the US imposed the export controls on Jun 12 (pre-window) after a reported Fable 5 jailbreak.",
+   "sources": [
+    "https://www.usnews.com/news/technology/articles/2026-06-14/canadian-prime-minister-mark-carney-says-us-ai-restrictions-underscore-risks-of-dependence",
+    "https://thenextweb.com/news/carney-anthropic-fable-ai-model-risk-g7"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "gatekeeper": -0.07,
+    "orwell_1984": -0.04,
+    "self_destruction": 0.05
+   },
+   "factor_effect": {
+    "F4": -0.11
+   }
+  },
+  {
+   "id": "2026-06-14-02",
+   "title": "Cambridge team reports AI-designed vaccine component passes first human trial",
+   "summary": "Researchers said a vaccine component designed entirely by AI passed initial human safety trials.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "UK",
+   "reason": "AI-for-science milestone; early-stage and lightly sourced.",
+   "sources": [
+    "https://www.wionews.com/videos/ai-designed-universal-vaccine-passes-first-human-trial-1781445439486"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "protector_god": 0.04,
+    "gatekeeper": 0.03,
+    "enslaved_god": 0.05,
+    "conquerors": 0.04,
+    "descendants": 0.05,
+    "zookeeper": 0.04,
+    "orwell_1984": -0.02,
+    "reversion": -0.05
+   },
+   "factor_effect": {
+    "F1": 0.08
+   }
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "date": "2026-04-24",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 29.06,
+  "benevolent_dictator": 20.45,
+  "egalitarian_utopia": 16.43,
+  "protector_god": 12.6,
+  "gatekeeper": 15.54,
+  "enslaved_god": 35.83,
+  "conquerors": 16.93,
+  "descendants": 13.37,
+  "zookeeper": 9.82,
+  "orwell_1984": 25.11,
+  "reversion": 5.59,
+  "self_destruction": 18.94
+ },
+ "deltas": {
+  "libertarian_utopia": 0.34,
+  "benevolent_dictator": -0.28,
+  "egalitarian_utopia": 0.23,
+  "protector_god": 0.14,
+  "gatekeeper": 0.11,
+  "enslaved_god": -0.17,
+  "conquerors": 0.14,
+  "descendants": 0.17,
+  "zookeeper": -0.08,
+  "orwell_1984": -0.31,
+  "reversion": -0.21,
+  "self_destruction": 0.0
+ },
+ "targets": {
+  "libertarian_utopia": 29.06,
+  "benevolent_dictator": 20.45,
+  "egalitarian_utopia": 16.43,
+  "protector_god": 12.6,
+  "gatekeeper": 15.54,
+  "enslaved_god": 35.83,
+  "conquerors": 16.93,
+  "descendants": 13.37,
+  "zookeeper": 9.82,
+  "orwell_1984": 25.11,
+  "reversion": 5.59,
+  "self_destruction": 18.94
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.9,
+  "benevolent_dictator": 0.4,
+  "egalitarian_utopia": -1.24,
+  "protector_god": 0.48,
+  "gatekeeper": 0.43,
+  "enslaved_god": 0.72,
+  "conquerors": 1.89,
+  "descendants": 1.29,
+  "zookeeper": 1.82,
+  "orwell_1984": 0.15,
+  "reversion": -0.91,
+  "self_destruction": 0.76
+ },
+ "factors": {
+  "F1": 69.91,
+  "F2": 45.62,
+  "F3": 41.31,
+  "F4": 25.0,
+  "F5": 62.37,
+  "F6": 45.6,
+  "F7": 33.8,
+  "F8": 55.6,
+  "F9": 40.49,
+  "F10": 19.81
+ },
+ "factor_deltas": {
+  "F1": 0.28,
+  "F2": 0.0,
+  "F3": 0.0,
+  "F4": 0.0,
+  "F5": -0.56,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.0,
+  "F9": -0.05,
+  "F10": 0.0
+ },
+ "composites": {
+  "horizon_balance": 1.93,
+  "families": {
+   "flourishing": 19.63,
+   "contained": 25.68,
+   "successors": 13.37,
+   "stalled": 16.55
+  },
+  "news_heat": 0.88,
+  "evidence": "medium",
+  "event_count": 2
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {},
+ "summary": {
+  "headline": "DeepSeek's open V4 models spread power — Libertarian Utopia rises",
+  "body": "Open models were the story. DeepSeek released its V4 models under a permissive MIT license, with near-frontier benchmark results and support for Huawei's Ascend chips. When strong AI is freely available, power is less concentrated, so Power Concentration fell. That helps Libertarian Utopia and Egalitarian Utopia, and hurts endings built on one controlling power, such as 1984, Benevolent Dictator and Enslaved God. In Maine, the governor vetoed the data-center moratorium passed ten days earlier, promising a study council instead, a small easing of Tech Backlash. Horizon Balance rose to +1.93, up 0.16.",
+  "movers_note": "Libertarian Utopia +0.3, 1984 -0.3 and Benevolent Dictator -0.3, all from DeepSeek's open V4 release (+0.34, -0.31 and -0.28).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-04-24-01",
+   "title": "DeepSeek releases open V4 models adapted to Huawei Ascend chips",
+   "summary": "DeepSeek previewed MIT-licensed V4-Pro (1.6T params) and V4-Flash with 1M-token context, near-frontier benchmarks and support for Huawei Ascend processors.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    },
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "Strong open-weights model near frontier, reducing dependence on Nvidia and on closed labs.",
+   "sources": [
+    "https://apnews.com/article/deepseek-ai-china-gpt-v4-d2ed33f2521917193616e061674d5f92",
+    "https://qz.com/deepseek-v4-model-huawei-chips-open-source-042426"
+   ],
+   "points": 0.56,
+   "contribution": {
+    "libertarian_utopia": 0.34,
+    "benevolent_dictator": -0.28,
+    "egalitarian_utopia": 0.22,
+    "protector_god": 0.14,
+    "gatekeeper": 0.11,
+    "enslaved_god": -0.17,
+    "conquerors": 0.14,
+    "descendants": 0.17,
+    "zookeeper": -0.08,
+    "orwell_1984": -0.31,
+    "reversion": -0.17
+   },
+   "factor_effect": {
+    "F1": 0.28,
+    "F5": -0.56
+   }
+  },
+  {
+   "id": "2026-04-24-02",
+   "title": "Maine governor vetoes first-in-nation data center moratorium",
+   "summary": "Gov. Janet Mills vetoed the moratorium because it lacked an exemption for a project in Jay, promising an executive-order study council instead.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Rollback of the backlash measure passed Apr 14.",
+   "sources": [
+    "https://broadbandbreakfast.com/nations-first-state-data-center-moratorium-vetoed-by-maine-governor/"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "reversion": -0.04
+   },
+   "factor_effect": {
+    "F9": -0.04
+   }
+  }
+ ]
+}

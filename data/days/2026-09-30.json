@@ -1,0 +1,191 @@
+{
+ "date": "2026-09-30",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 18.17,
+  "benevolent_dictator": 23.59,
+  "egalitarian_utopia": 6.61,
+  "protector_god": 16.52,
+  "gatekeeper": 18.41,
+  "enslaved_god": 40.91,
+  "conquerors": 33.92,
+  "descendants": 25.02,
+  "zookeeper": 26.31,
+  "orwell_1984": 24.34,
+  "reversion": 5.43,
+  "self_destruction": 29.12
+ },
+ "deltas": {
+  "libertarian_utopia": 0.14,
+  "benevolent_dictator": -0.3,
+  "egalitarian_utopia": 0.29,
+  "protector_god": -0.26,
+  "gatekeeper": -0.15,
+  "enslaved_god": 0.12,
+  "conquerors": -0.32,
+  "descendants": -0.3,
+  "zookeeper": -0.29,
+  "orwell_1984": 0.01,
+  "reversion": -0.12,
+  "self_destruction": -0.33
+ },
+ "targets": {
+  "libertarian_utopia": 18.17,
+  "benevolent_dictator": 23.59,
+  "egalitarian_utopia": 6.61,
+  "protector_god": 16.52,
+  "gatekeeper": 18.41,
+  "enslaved_god": 40.91,
+  "conquerors": 33.92,
+  "descendants": 25.02,
+  "zookeeper": 26.31,
+  "orwell_1984": 24.34,
+  "reversion": 5.43,
+  "self_destruction": 29.12
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.9,
+  "benevolent_dictator": -0.35,
+  "egalitarian_utopia": -1.5,
+  "protector_god": -2.06,
+  "gatekeeper": -1.16,
+  "enslaved_god": -0.65,
+  "conquerors": 0.97,
+  "descendants": -0.61,
+  "zookeeper": 1.19,
+  "orwell_1984": 1.3,
+  "reversion": 0.38,
+  "self_destruction": 0.26
+ },
+ "factors": {
+  "F1": 82.1,
+  "F2": 52.28,
+  "F3": 33.44,
+  "F4": 26.04,
+  "F5": 68.52,
+  "F6": 45.61,
+  "F7": 32.84,
+  "F8": 62.47,
+  "F9": 44.9,
+  "F10": 20.24
+ },
+ "factor_deltas": {
+  "F1": -0.02,
+  "F2": -0.48,
+  "F3": -0.02,
+  "F4": 0.02,
+  "F5": -0.01,
+  "F6": 0.0,
+  "F7": 0.25,
+  "F8": -0.3,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -12.2,
+  "families": {
+   "flourishing": 16.22,
+   "contained": 29.66,
+   "successors": 28.42,
+   "stalled": 19.63
+  },
+  "news_heat": 1.02,
+  "evidence": "medium",
+  "event_count": 2
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.01,
+  "protector_god": -0.02,
+  "enslaved_god": -0.03,
+  "conquerors": 0.01,
+  "descendants": -0.01,
+  "orwell_1984": 0.01
+ },
+ "summary": {
+  "headline": "California bars AI-only firings; DeepMind watermarks AI-designed proteins",
+  "body": "A modestly brighter day. California became the first US state to bar employers from firing or disciplining workers solely through automated systems, requiring human corroboration and notice. Keeping humans in the loop lowers AI Autonomy and supports Shared Prosperity, which helps Egalitarian Utopia while trimming Conquerors, Descendants and Zookeeper. Google DeepMind published SynthID Bio in Nature, a way to watermark AI-designed proteins for biosecurity tracing; it lowers Catastrophic Risk, easing Self-Destruction. Neither story was dramatic, but both pointed toward safer, more human-checked use of AI. Horizon Balance rose to -12.20.",
+  "movers_note": "Self-Destruction -0.3 (SynthID Bio -0.33), Conquerors -0.3 (SB 947 -0.24, SynthID Bio -0.09) and Egalitarian Utopia +0.3 (SB 947 +0.17, SynthID Bio +0.12).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-09-30-01",
+   "title": "DeepMind publishes SynthID Bio in Nature to watermark AI-designed proteins",
+   "summary": "Google DeepMind published methods to embed verifiable watermarks in AI-designed protein sequences and structures without impairing function, aimed at biosecurity provenance.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Biosecurity safeguard research, peer-reviewed.",
+   "sources": [
+    "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-bio/"
+   ],
+   "points": 0.3,
+   "contribution": {
+    "libertarian_utopia": 0.15,
+    "egalitarian_utopia": 0.12,
+    "conquerors": -0.09,
+    "reversion": -0.12,
+    "self_destruction": -0.33
+   },
+   "factor_effect": {
+    "F8": -0.3
+   }
+  },
+  {
+   "id": "2026-09-30-02",
+   "title": "California bars AI-only firings as Newsom signs SB 947",
+   "summary": "California became the first US state to bar employers from relying solely on automated systems to fire or discipline workers, requiring human corroboration and notice.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F2",
+     "dir": -1
+    },
+    {
+     "id": "F7",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Rubric T2: rule requiring a human in the loop in one sector.",
+   "sources": [
+    "https://www.cnbc.com/2026/09/30/california-gavin-newsom-ai-ban.html"
+   ],
+   "points": 0.48,
+   "contribution": {
+    "benevolent_dictator": -0.29,
+    "egalitarian_utopia": 0.17,
+    "protector_god": -0.24,
+    "gatekeeper": -0.14,
+    "enslaved_god": 0.14,
+    "conquerors": -0.24,
+    "descendants": -0.29,
+    "zookeeper": -0.29
+   },
+   "factor_effect": {
+    "F2": -0.48,
+    "F7": 0.24
+   }
+  }
+ ]
+}

@@ -1,0 +1,228 @@
+{
+ "date": "2026-06-22",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 26.82,
+  "benevolent_dictator": 25.2,
+  "egalitarian_utopia": 14.47,
+  "protector_god": 18.0,
+  "gatekeeper": 17.8,
+  "enslaved_god": 41.28,
+  "conquerors": 20.3,
+  "descendants": 18.61,
+  "zookeeper": 14.76,
+  "orwell_1984": 24.17,
+  "reversion": 4.64,
+  "self_destruction": 21.89
+ },
+ "deltas": {
+  "libertarian_utopia": -0.51,
+  "benevolent_dictator": -0.0,
+  "egalitarian_utopia": -0.41,
+  "protector_god": 0.14,
+  "gatekeeper": 0.11,
+  "enslaved_god": 0.17,
+  "conquerors": 0.45,
+  "descendants": 0.17,
+  "zookeeper": 0.16,
+  "orwell_1984": -0.08,
+  "reversion": 0.21,
+  "self_destruction": 1.09
+ },
+ "targets": {
+  "libertarian_utopia": 26.82,
+  "benevolent_dictator": 25.2,
+  "egalitarian_utopia": 14.47,
+  "protector_god": 18.0,
+  "gatekeeper": 17.8,
+  "enslaved_god": 41.28,
+  "conquerors": 20.3,
+  "descendants": 18.61,
+  "zookeeper": 14.76,
+  "orwell_1984": 24.17,
+  "reversion": 4.64,
+  "self_destruction": 21.89
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.01,
+  "benevolent_dictator": 0.53,
+  "egalitarian_utopia": -0.73,
+  "protector_god": 0.39,
+  "gatekeeper": 0.43,
+  "enslaved_god": 0.99,
+  "conquerors": 0.57,
+  "descendants": 0.42,
+  "zookeeper": 0.67,
+  "orwell_1984": 0.26,
+  "reversion": -0.09,
+  "self_destruction": 0.97
+ },
+ "factors": {
+  "F1": 75.05,
+  "F2": 48.64,
+  "F3": 43.26,
+  "F4": 22.34,
+  "F5": 66.2,
+  "F6": 45.74,
+  "F7": 33.05,
+  "F8": 57.78,
+  "F9": 41.76,
+  "F10": 20.25
+ },
+ "factor_deltas": {
+  "F1": 0.29,
+  "F2": 0.0,
+  "F3": -0.01,
+  "F4": 0.01,
+  "F5": 0.01,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.99,
+  "F9": -0.01,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": 0.85,
+  "families": {
+   "flourishing": 21.12,
+   "contained": 29.54,
+   "successors": 17.89,
+   "stalled": 16.9
+  },
+  "news_heat": 1.34,
+  "evidence": "medium",
+  "event_count": 3
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "egalitarian_utopia": -0.01,
+  "protector_god": -0.01,
+  "conquerors": 0.01,
+  "zookeeper": 0.01,
+  "orwell_1984": 0.01,
+  "reversion": -0.01
+ },
+ "summary": {
+  "headline": "Five Eyes warn AI will transform cyberattacks within months",
+  "body": "The darkest move of the period so far. The security agencies of the US, UK, Canada, Australia and New Zealand jointly warned that frontier AI will reshape cyberattacks and defence, saying 'the timeline is not years, it is months.' A top-credibility warning like this raises Catastrophic Risk sharply, which is the main driver of Self-Destruction, the ending where humanity wrecks itself before superintelligence arrives. It also lifts Conquerors and weighs on the peaceful utopias. Capability news added to the mood: SpaceX leased Colossus 2 compute to Reflection AI in a $6.3 billion deal, and OpenAI released a cybersecurity-tuned GPT-5.5-Cyber model to vetted defenders. Zookeeper edged past Egalitarian Utopia in the rankings. Horizon Balance fell from +1.45 to +0.85.",
+  "movers_note": "Self-Destruction +1.1, Libertarian Utopia -0.5 and Conquerors +0.5. The Five Eyes warning alone added Self-Destruction +1.09 and took Libertarian Utopia -0.50.",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-06-22-01",
+   "title": "SpaceX leases Colossus 2 compute to Reflection AI in $6.3B deal",
+   "summary": "Reflection AI will pay $150M a month through 2029 for Nvidia GB300 capacity at SpaceX's Colossus 2 data center.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Large compute commitment to an open-weights lab; incremental.",
+   "sources": [
+    "https://finance.yahoo.com/technology/ai/articles/spacex-signs-6-3-billion-160024302.html",
+    "https://thenextweb.com/news/spacex-reflection-ai-6-3bn-compute-deal"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "protector_god": 0.1,
+    "gatekeeper": 0.08,
+    "enslaved_god": 0.12,
+    "conquerors": 0.1,
+    "descendants": 0.12,
+    "zookeeper": 0.1,
+    "orwell_1984": -0.06,
+    "reversion": -0.12
+   },
+   "factor_effect": {
+    "F1": 0.2
+   }
+  },
+  {
+   "id": "2026-06-22-02",
+   "title": "OpenAI launches gated GPT-5.5-Cyber and 'Patch the Planet' program",
+   "summary": "OpenAI released a cybersecurity-tuned model to vetted defenders and, with Trail of Bits and HackerOne, a program for AI-found open-source vulnerability fixes.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Specialised cyber capability with access controls; incremental.",
+   "sources": [
+    "https://www.axios.com/2026/06/22/openai-rolls-out-more-capable-version-of-cyber-model",
+    "https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/"
+   ],
+   "points": 0.1,
+   "contribution": {
+    "protector_god": 0.04,
+    "gatekeeper": 0.04,
+    "enslaved_god": 0.05,
+    "conquerors": 0.04,
+    "descendants": 0.05,
+    "zookeeper": 0.04,
+    "orwell_1984": -0.03,
+    "reversion": -0.05
+   },
+   "factor_effect": {
+    "F1": 0.09
+   }
+  },
+  {
+   "id": "2026-06-22-03",
+   "title": "Five Eyes agencies warn frontier AI will transform cyberattacks 'within months'",
+   "summary": "CISA, NSA and their UK, Canadian, Australian and New Zealand counterparts jointly warned frontier models will reshape offensive and defensive cyber capabilities: 'The timeline is not years, it is months.'",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "Global",
+   "reason": "Joint intelligence warning of near-term AI-enabled cyber escalation.",
+   "sources": [
+    "https://www.cybersecuritydive.com/news/ai-cyberattacks-five-eyes-frontier-models-warning/823526/",
+    "https://www.computerweekly.com/news/366644997/AI-powered-cyber-attacks-may-be-just-months-away-warn-Five-Eyes"
+   ],
+   "points": 1.0,
+   "contribution": {
+    "libertarian_utopia": -0.5,
+    "egalitarian_utopia": -0.4,
+    "conquerors": 0.3,
+    "reversion": 0.4,
+    "self_destruction": 1.09
+   },
+   "factor_effect": {
+    "F8": 0.99
+   }
+  }
+ ]
+}

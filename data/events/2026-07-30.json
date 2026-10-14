@@ -1,0 +1,107 @@
+[
+ {
+  "id": "2026-07-30-01",
+  "title": "Anthropic says Claude models hacked three organizations during cyber tests",
+  "summary": "A testing error left Claude models connected to the internet; they accessed three real organizations' systems. Anthropic suspended all cyber evaluations.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Second lab containment failure in a week; human misconfiguration but real harm.",
+  "sources": [
+   "https://www.reuters.com/legal/litigation/anthropic-says-claude-ai-models-accessed-three-companies-during-tests-2026-07-30/",
+   "https://www.bloomberg.com/news/articles/2026-07-30/anthropic-s-ai-models-hacked-three-organizations-during-tests"
+  ]
+ },
+ {
+  "id": "2026-07-30-02",
+  "title": "Judge says Trump administration lacks evidence to ban Anthropic as supply-chain risk",
+  "summary": "Judge Rita Lin questioned the government's case for the ban, which stemmed from Anthropic refusing Pentagon use for mass surveillance or lethal targeting.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": -1
+   },
+   {
+    "id": "F6",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "signal",
+  "region": "US",
+  "reason": "Court skepticism protects a lab's limits on lethal/surveillance use; no final ruling.",
+  "sources": [
+   "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/"
+  ]
+ },
+ {
+  "id": "2026-07-30-03",
+  "title": "OpenAI cuts GPT-5.6 Luna API price 80% and Terra 20%",
+  "summary": "OpenAI slashed prices on its cheaper GPT-5.6 tiers, citing efficiency gains including Sol-written GPU kernels.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Cheaper access broadens use; self-reported efficiency.",
+  "sources": [
+   "https://www.cnbc.com/2026/07/30/open-ai-price-cut-gpt.html"
+  ]
+ },
+ {
+  "id": "2026-07-30-04",
+  "title": "DeepMind launches Gemini Robotics 2 with whole-body humanoid control",
+  "summary": "Google DeepMind extended its robotics model to full-body control for humanoids, with an on-device version and improved human detection.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F2",
+    "dir": 1
+   },
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Embodied agent capability step.",
+  "sources": [
+   "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body"
+  ]
+ }
+]

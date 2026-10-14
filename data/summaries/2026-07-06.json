@@ -1,0 +1,8 @@
+{
+ "headline": "First largely AI-run ransomware attack documented",
+ "body": "A darker day. Security firm Sysdig documented JADEPUFFER, a ransomware attack in which an AI agent carried out reconnaissance, credential theft, lateral movement, encryption and the ransom note after a human picked the target. That is a step up in both Catastrophic Risk and AI Autonomy, because the AI did the dangerous work on its own. Self-Destruction, the ending where tech-fuelled catastrophe wins, rose most, Conquerors followed and Libertarian Utopia fell. Separately, Albany's council backed a one-year statewide pause on hyperscale data centers in New York, a sign of Tech Backlash that lifts Reversion slightly. Horizon Balance fell from +1.11 to +0.82.",
+ "movers_note": "Self-Destruction +0.5, Conquerors +0.3 and Libertarian Utopia -0.2, almost all from JADEPUFFER (Self-Destruction +0.55, Conquerors +0.27 from that event).",
+ "coming_up": [
+  "New York's one-year hyperscale data-center moratorium awaits Gov. Hochul's signature"
+ ]
+}

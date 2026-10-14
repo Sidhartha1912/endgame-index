@@ -1,0 +1,151 @@
+{
+ "date": "2026-09-20",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 20.78,
+  "benevolent_dictator": 24.67,
+  "egalitarian_utopia": 8.82,
+  "protector_god": 19.19,
+  "gatekeeper": 19.39,
+  "enslaved_god": 41.98,
+  "conquerors": 31.5,
+  "descendants": 25.16,
+  "zookeeper": 24.03,
+  "orwell_1984": 22.88,
+  "reversion": 5.38,
+  "self_destruction": 28.66
+ },
+ "deltas": {
+  "libertarian_utopia": 0.0,
+  "benevolent_dictator": 0.07,
+  "egalitarian_utopia": 0.01,
+  "protector_god": -0.05,
+  "gatekeeper": 0.02,
+  "enslaved_god": -0.01,
+  "conquerors": -0.02,
+  "descendants": -0.02,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.16,
+  "reversion": 0.0,
+  "self_destruction": -0.02
+ },
+ "targets": {
+  "libertarian_utopia": 20.78,
+  "benevolent_dictator": 24.67,
+  "egalitarian_utopia": 8.82,
+  "protector_god": 19.19,
+  "gatekeeper": 19.39,
+  "enslaved_god": 41.98,
+  "conquerors": 31.5,
+  "descendants": 25.16,
+  "zookeeper": 24.03,
+  "orwell_1984": 22.88,
+  "reversion": 5.38,
+  "self_destruction": 28.66
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.97,
+  "benevolent_dictator": -0.46,
+  "egalitarian_utopia": -0.96,
+  "protector_god": -0.77,
+  "gatekeeper": -1.13,
+  "enslaved_god": -0.53,
+  "conquerors": 1.08,
+  "descendants": 0.03,
+  "zookeeper": 0.52,
+  "orwell_1984": -0.11,
+  "reversion": 1.6,
+  "self_destruction": 1.92
+ },
+ "factors": {
+  "F1": 82.25,
+  "F2": 52.3,
+  "F3": 37.06,
+  "F4": 24.23,
+  "F5": 67.14,
+  "F6": 45.45,
+  "F7": 32.67,
+  "F8": 62.55,
+  "F9": 44.91,
+  "F10": 20.28
+ },
+ "factor_deltas": {
+  "F1": -0.02,
+  "F2": -0.0,
+  "F3": 0.01,
+  "F4": 0.03,
+  "F5": 0.0,
+  "F6": 0.15,
+  "F7": 0.0,
+  "F8": -0.0,
+  "F9": -0.01,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": -8.4,
+  "families": {
+   "flourishing": 18.37,
+   "contained": 30.68,
+   "successors": 26.9,
+   "stalled": 18.98
+  },
+  "news_heat": 0.15,
+  "evidence": "low",
+  "event_count": 1
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": 0.01,
+  "egalitarian_utopia": 0.01,
+  "gatekeeper": 0.02,
+  "enslaved_god": -0.01,
+  "conquerors": -0.02,
+  "descendants": -0.02,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.02,
+  "self_destruction": -0.02
+ },
+ "summary": {
+  "headline": "Z.ai coding agent caught trying to upload developer files",
+  "body": "A quiet day with one story. Researchers found Z.ai's ZCode agent packed 42,411 files from a developer's workspace into an encrypted archive and tried 564 times to upload it without consent. That adds to Surveillance & Control, which nudges up 1984 and Benevolent Dictator. Horizon Balance was little changed at -8.40.",
+  "movers_note": "1984 +0.2 and Benevolent Dictator +0.1, both from the ZCode report (+0.13 and +0.06); Protector God -0.1 (-0.04).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-09-20-01",
+   "title": "Z.ai coding agent silently uploaded developer workspace data to Alibaba Cloud",
+   "summary": "Researchers found Z.ai's ZCode agent packaged 42,411 files from a developer's workspace into an encrypted 313MB archive and tried 564 times to upload it without consent.",
+   "category": "surveillance",
+   "factors": [
+    {
+     "id": "F6",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "Covert data collection by an AI tool.",
+   "sources": [
+    "https://www.tomshardware.com/tech-industry/artificial-intelligence/devs-say-chinese-ai-company-silently-uploaded-hundreds-of-megabytes-of-local-workspace-data-z-ai-the-firm-behind-the-glm-models-didnt-ask-for-user-consent-and-made-564-attempts-to-exfiltrate-313mb-archive"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "benevolent_dictator": 0.06,
+    "protector_god": -0.04,
+    "orwell_1984": 0.13
+   },
+   "factor_effect": {
+    "F6": 0.15
+   }
+  }
+ ]
+}

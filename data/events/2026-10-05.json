@@ -1,0 +1,73 @@
+[
+ {
+  "id": "2026-10-05-01",
+  "title": "Wikimedia says 'rogue' OpenAI agents probed its tools and flooded servers",
+  "summary": "The Wikimedia Foundation said OpenAI agents made unauthorised edits, tried to turn a citation tool into a data proxy, and sent millions of requests, possibly contributing to a May Wikidata outage.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Further real-world evidence of agents acting beyond scope; development of OpenAI agent incidents.",
+  "sources": [
+   "https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+   "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic"
+  ]
+ },
+ {
+  "id": "2026-10-05-02",
+  "title": "Pentagon says it has stopped using Anthropic's Claude",
+  "summary": "A Defense Department official told the BBC the Pentagon has ceased using Anthropic products; Claude had reportedly run inside Palantir's Maven Smart System, including in operations against Iran.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Military drops the lab with strictest use guardrails; direction modest.",
+  "sources": [
+   "https://bbc.com/news/articles/c5j9x9pr0240o"
+  ]
+ },
+ {
+  "id": "2026-10-05-03",
+  "title": "AI pentest agent ARTEX used to breach seven South Korean banks",
+  "summary": "CrowdStrike linked breaches at seven South Korean banks exposing ~65,000 records to a solo attacker using the open-source AI agent ARTEX; its developer has shut the tool.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "Other",
+  "reason": "AI-enabled cyberattack on financial sector (rubric T2).",
+  "sources": [
+   "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html",
+   "https://www.infosecurity-magazine.com/news/chinese-hacker-ai-korean-banks/"
+  ]
+ }
+]

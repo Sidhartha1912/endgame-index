@@ -1,0 +1,119 @@
+{
+ "date": "2026-06-06",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 28.76,
+  "benevolent_dictator": 24.19,
+  "egalitarian_utopia": 15.8,
+  "protector_god": 17.88,
+  "gatekeeper": 18.6,
+  "enslaved_god": 40.03,
+  "conquerors": 19.49,
+  "descendants": 18.31,
+  "zookeeper": 13.53,
+  "orwell_1984": 23.95,
+  "reversion": 4.32,
+  "self_destruction": 19.86
+ },
+ "deltas": {
+  "libertarian_utopia": -0.02,
+  "benevolent_dictator": -0.0,
+  "egalitarian_utopia": -0.01,
+  "protector_god": -0.02,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.01,
+  "conquerors": 0.01,
+  "descendants": -0.01,
+  "zookeeper": 0.01,
+  "orwell_1984": 0.01,
+  "reversion": -0.02,
+  "self_destruction": 0.0
+ },
+ "targets": {
+  "libertarian_utopia": 28.76,
+  "benevolent_dictator": 24.19,
+  "egalitarian_utopia": 15.8,
+  "protector_god": 17.88,
+  "gatekeeper": 18.6,
+  "enslaved_god": 40.03,
+  "conquerors": 19.49,
+  "descendants": 18.31,
+  "zookeeper": 13.53,
+  "orwell_1984": 23.95,
+  "reversion": 4.32,
+  "self_destruction": 19.86
+ },
+ "momentum_7d": {
+  "libertarian_utopia": 1.17,
+  "benevolent_dictator": 0.79,
+  "egalitarian_utopia": 1.13,
+  "protector_god": 1.35,
+  "gatekeeper": 0.88,
+  "enslaved_god": 0.72,
+  "conquerors": -1.37,
+  "descendants": -0.07,
+  "zookeeper": -1.1,
+  "orwell_1984": -0.32,
+  "reversion": 0.33,
+  "self_destruction": -0.65
+ },
+ "factors": {
+  "F1": 74.67,
+  "F2": 48.44,
+  "F3": 43.49,
+  "F4": 23.58,
+  "F5": 64.19,
+  "F6": 45.72,
+  "F7": 32.95,
+  "F8": 56.58,
+  "F9": 41.69,
+  "F10": 20.31
+ },
+ "factor_deltas": {
+  "F1": -0.0,
+  "F2": 0.0,
+  "F3": -0.02,
+  "F4": 0.01,
+  "F5": 0.01,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.0,
+  "F9": -0.02,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": 2.45,
+  "families": {
+   "flourishing": 21.66,
+   "contained": 29.31,
+   "successors": 17.11,
+   "stalled": 16.04
+  },
+  "news_heat": 0.0,
+  "evidence": "low",
+  "event_count": 0
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.02,
+  "egalitarian_utopia": -0.01,
+  "protector_god": -0.02,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.01,
+  "conquerors": 0.01,
+  "descendants": -0.01,
+  "zookeeper": 0.01,
+  "orwell_1984": 0.01,
+  "reversion": -0.02
+ },
+ "summary": {
+  "headline": "A second quiet day; scores ease slightly",
+  "body": "Another day with no scored events. The board drifted only by hundredths as earlier stories counted for a little less each day: Libertarian Utopia, Protector God and Reversion eased slightly, while the darker endings held almost still. Horizon Balance is 2.4, down 0.02.",
+  "movers_note": "No ending moved by 0.1 or more; Libertarian Utopia, Protector God and Reversion eased (-0.0) from fading.",
+  "coming_up": []
+ },
+ "events": []
+}

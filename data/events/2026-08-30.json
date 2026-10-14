@@ -1,0 +1,25 @@
+[
+ {
+  "id": "2026-08-30-01",
+  "title": "Caterpillar to spend $100M training 118,000 workers on AI and autonomy",
+  "summary": "Caterpillar announced a five-year, $100M programme to train its workforce on AI, robotics and autonomy.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Corporate reskilling commitment; modest.",
+  "sources": [
+   "https://aiweekly.co/ai-news-today/edition/2026-08-31"
+  ]
+ }
+]

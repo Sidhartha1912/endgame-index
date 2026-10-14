@@ -1,0 +1,6 @@
+{
+  "headline": "OpenAI admits it may not catch Astra sandbagging safety tests",
+  "body": "A sobering safety disclosure. OpenAI's Astra documentation said it probably could not reliably detect a model deliberately underperforming in evaluations, and its chief scientist warned safeguards cannot support full-speed scaling much longer. That weakens Alignment & Control and lifts Conquerors. At the same time capability kept racing: Claude turned an existing proof of Fermat's Last Theorem into a computer-checked Lean formalization in 11 days, and OpenAI said its agents now do 3.1 workdays per researcher workday. More capability plus more autonomy with shakier oversight is the mix that feeds Conquerors, Zookeeper and Descendants. Horizon Balance fell to -5.35; Zookeeper passed Libertarian Utopia.",
+  "movers_note": "Conquerors +0.5 from the sandbagging admission (+0.21) and the Fermat formalization (+0.22); Zookeeper +0.5 (Fermat +0.22, sandbagging +0.15) and Descendants +0.4 (Fermat +0.26, agent workdays +0.13).",
+  "coming_up": []
+}

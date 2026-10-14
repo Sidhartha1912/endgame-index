@@ -1,0 +1,298 @@
+{
+ "date": "2026-06-01",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 27.31,
+  "benevolent_dictator": 23.81,
+  "egalitarian_utopia": 14.52,
+  "protector_god": 16.66,
+  "gatekeeper": 17.83,
+  "enslaved_god": 39.76,
+  "conquerors": 20.72,
+  "descendants": 18.36,
+  "zookeeper": 14.79,
+  "orwell_1984": 24.52,
+  "reversion": 4.44,
+  "self_destruction": 20.43
+ },
+ "deltas": {
+  "libertarian_utopia": -0.25,
+  "benevolent_dictator": 0.44,
+  "egalitarian_utopia": -0.12,
+  "protector_god": 0.18,
+  "gatekeeper": 0.15,
+  "enslaved_god": 0.49,
+  "conquerors": -0.18,
+  "descendants": -0.01,
+  "zookeeper": 0.12,
+  "orwell_1984": 0.25,
+  "reversion": 0.48,
+  "self_destruction": -0.1
+ },
+ "targets": {
+  "libertarian_utopia": 27.31,
+  "benevolent_dictator": 23.81,
+  "egalitarian_utopia": 14.52,
+  "protector_god": 16.66,
+  "gatekeeper": 17.83,
+  "enslaved_god": 39.76,
+  "conquerors": 20.72,
+  "descendants": 18.36,
+  "zookeeper": 14.79,
+  "orwell_1984": 24.52,
+  "reversion": 4.44,
+  "self_destruction": 20.43
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.37,
+  "benevolent_dictator": 0.59,
+  "egalitarian_utopia": -0.19,
+  "protector_god": 0.32,
+  "gatekeeper": 0.42,
+  "enslaved_god": 0.91,
+  "conquerors": -0.02,
+  "descendants": 0.34,
+  "zookeeper": 0.43,
+  "orwell_1984": 0.38,
+  "reversion": 0.08,
+  "self_destruction": -0.25
+ },
+ "factors": {
+  "F1": 74.7,
+  "F2": 48.43,
+  "F3": 41.76,
+  "F4": 23.95,
+  "F5": 65.15,
+  "F6": 45.76,
+  "F7": 32.94,
+  "F8": 56.64,
+  "F9": 41.8,
+  "F10": 20.36
+ },
+ "factor_deltas": {
+  "F1": -0.01,
+  "F2": 0.0,
+  "F3": 0.25,
+  "F4": -0.0,
+  "F5": 0.61,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.0,
+  "F9": 0.48,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": 0.46,
+  "families": {
+   "flourishing": 20.58,
+   "contained": 28.79,
+   "successors": 17.96,
+   "stalled": 16.46
+  },
+  "news_heat": 2.13,
+  "evidence": "medium",
+  "event_count": 5
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": 0.01,
+  "egalitarian_utopia": 0.01,
+  "protector_god": 0.01,
+  "gatekeeper": 0.01,
+  "conquerors": -0.01,
+  "descendants": -0.01,
+  "zookeeper": -0.01,
+  "reversion": -0.02
+ },
+ "summary": {
+  "headline": "Anthropic files for IPO as Florida sues OpenAI",
+  "body": "Two big themes. Anthropic confidentially filed a draft S-1 for an IPO after a $65B round at $965B post-money, with reported run-rate revenue of about $47B. That is a big step for Power Concentration, lifting Enslaved God and Benevolent Dictator and lowering Libertarian Utopia. Meanwhile Florida filed the first state lawsuit against OpenAI, alleging ChatGPT concealed risks and contributed to harm, and seeking personal liability for Sam Altman. That feeds Tech Backlash, lifting Reversion, and counts as pressure for safer AI. Pushing the other way, Nvidia's RTX Spark chip for running large models locally and Canada's national AI sovereignty plan both spread power out. Horizon Balance is 0.5, up 0.04.",
+  "movers_note": "Enslaved God +0.5, from Anthropic's IPO filing (+0.60) partly offset by Nvidia RTX Spark and Canada's plan; Reversion +0.5 from the Florida lawsuit (+0.48); Benevolent Dictator +0.4 from the IPO filing (+0.50).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-06-01-01",
+   "title": "Florida sues OpenAI and Sam Altman over ChatGPT safety",
+   "summary": "Florida AG James Uthmeier filed the first state lawsuit against OpenAI over ChatGPT, alleging it concealed risks, aided the FSU shooter and encouraged suicides, and seeking personal liability for Altman and penalties up to billions.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    },
+    {
+     "id": "F3",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "State legal backlash against a frontier lab; accountability pressure on safety.",
+   "sources": [
+    "https://www.npr.org/2026/06/01/nx-s1-5843132/openai-florida-lawsuit-safety-chatgpt",
+    "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/"
+   ],
+   "points": 0.48,
+   "contribution": {
+    "libertarian_utopia": 0.12,
+    "benevolent_dictator": 0.12,
+    "egalitarian_utopia": 0.12,
+    "protector_god": 0.17,
+    "gatekeeper": 0.14,
+    "enslaved_god": 0.12,
+    "conquerors": -0.17,
+    "zookeeper": -0.12,
+    "reversion": 0.48,
+    "self_destruction": -0.1
+   },
+   "factor_effect": {
+    "F3": 0.24,
+    "F9": 0.48
+   }
+  },
+  {
+   "id": "2026-06-01-02",
+   "title": "Anthropic confidentially files draft S-1 for IPO",
+   "summary": "Anthropic confidentially filed a draft S-1 with the SEC after a $65B Series H at $965B post-money, with run-rate revenue reportedly ~$47B and a $1.25B/month compute deal with SpaceX.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Frontier lab scale and capital concentration; huge exclusive compute commitment.",
+   "sources": [
+    "https://www.anthropic.com/news/confidential-draft-s1-sec",
+    "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/"
+   ],
+   "points": 1.0,
+   "contribution": {
+    "libertarian_utopia": -0.6,
+    "benevolent_dictator": 0.5,
+    "egalitarian_utopia": -0.4,
+    "enslaved_god": 0.6,
+    "zookeeper": 0.4,
+    "orwell_1984": 0.4
+   },
+   "factor_effect": {
+    "F5": 1.0
+   }
+  },
+  {
+   "id": "2026-06-01-03",
+   "title": "Nvidia unveils RTX Spark Arm superchip for Windows PCs at Computex",
+   "summary": "At Computex in Taipei, Nvidia announced RTX Spark, an Arm-based chip for Windows laptops built with Microsoft to run large local AI models.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Other",
+   "reason": "Local AI compute spreads to PCs; minor decentralising effect.",
+   "sources": [
+    "https://www.cnbc.com/2026/06/02/nvidias-new-pc-chips-are-ceos-bid-to-own-every-part-of-ai-stack.html",
+    "https://www.reuters.com/world/asia-pacific/what-are-ai-pcs-that-nvidias-jensen-huang-is-betting-2026-06-01/"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "libertarian_utopia": 0.14,
+    "benevolent_dictator": -0.12,
+    "egalitarian_utopia": 0.1,
+    "enslaved_god": -0.14,
+    "zookeeper": -0.1,
+    "orwell_1984": -0.1
+   },
+   "factor_effect": {
+    "F5": -0.24
+   }
+  },
+  {
+   "id": "2026-06-01-04",
+   "title": "Canada unveils national AI sovereignty strategy",
+   "summary": "PM Mark Carney's plan aims to cut reliance on foreign AI platforms and cloud, with domestic investment, a Canadian supercomputer, privacy protections and AI literacy.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "Other",
+   "reason": "Middle power builds sovereign capacity, diluting US-lab dominance. Exact date not confirmed (AP, week of ~May 29-Jun 5).",
+   "sources": [
+    "https://apnews.com/article/canada-carney-artificial-intelligence-d8dfba818b84ccf5947f941731829254"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "libertarian_utopia": 0.09,
+    "benevolent_dictator": -0.07,
+    "egalitarian_utopia": 0.06,
+    "enslaved_god": -0.09,
+    "zookeeper": -0.06,
+    "orwell_1984": -0.06
+   },
+   "factor_effect": {
+    "F5": -0.14
+   }
+  },
+  {
+   "id": "2026-06-01-05",
+   "title": "New York teachers' union seeks ban on student-facing AI for young children",
+   "summary": "NYSUT proposed banning student-facing AI in pre-K to grade 2 and companion chatbots for under-16s.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "D",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "local",
+   "track": "structural",
+   "region": "US",
+   "reason": "Local organised pushback.",
+   "sources": [
+    "https://yonkerstimes.com/nysut-calls-for-limits-on-screen-time-student-facing-ai-in-schools/"
+   ],
+   "points": 0.02,
+   "contribution": {
+    "reversion": 0.02
+   },
+   "factor_effect": {
+    "F9": 0.02
+   }
+  }
+ ]
+}

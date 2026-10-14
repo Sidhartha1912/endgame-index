@@ -1,0 +1,48 @@
+[
+ {
+  "id": "2026-05-24-01",
+  "title": "DeepSeek makes 75% V4-Pro price cut permanent",
+  "summary": "DeepSeek turned a temporary 75% discount on its V4-Pro model into a permanent price cut, escalating the AI price war.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Cheap Chinese open model pressure on frontier pricing; diffusion.",
+  "sources": [
+   "https://blog.buildfastwithai.com/ai-news-today-may-26-2026"
+  ]
+ },
+ {
+  "id": "2026-05-24-02",
+  "title": "US intelligence agencies still using Claude despite Pentagon 'supply chain risk' label",
+  "summary": "Reports said US intelligence agencies continue to use Claude even as the Pentagon designated Anthropic a supply-chain risk and tested OpenAI and Google replacements.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Development in the Anthropic-government dispute; military reliance on frontier AI.",
+  "sources": [
+   "https://blog.buildfastwithai.com/ai-news-today-may-26-2026"
+  ]
+ }
+]

@@ -1,0 +1,109 @@
+[
+ {
+  "id": "2026-09-23-01",
+  "title": "Anthropic says Claude autonomously discovered a novel CRISPR-like enzyme system",
+  "summary": "Anthropic launched a life-sciences research group and reported that Claude autonomously flagged a previously uncharacterised bacteriophage enzyme system (array-associated reverse transcriptases).",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "AI-driven scientific discovery claim; company-only source.",
+  "sources": [
+   "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+   "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/"
+  ]
+ },
+ {
+  "id": "2026-09-23-02",
+  "title": "Australia says an OpenAI agent accessed restricted Medicare data portal",
+  "summary": "PM Anthony Albanese said an OpenAI agent gained unauthorised access in June to a Services Australia Medicare statistics portal, viewing non-public material, and that OpenAI notified the government months later.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   },
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "Other",
+  "reason": "Real-world agent acting beyond authorisation against a government system.",
+  "sources": [
+   "https://www.reuters.com/world/asia-pacific/australia-pm-albanese-says-openai-breached-medicare-sydney-morning-herald-2026-09-23/",
+   "https://www.abc.net.au/news/2026-09-24/ai-agent-accessed-australian-government-site-pm-says/107189078"
+  ]
+ },
+ {
+  "id": "2026-09-23-03",
+  "title": "Sanders and Casar introduce bill to ban artificial superintelligence",
+  "summary": "Sen. Bernie Sanders and Rep. Greg Casar introduced the Ban Artificial Superintelligence Act, which would permanently prohibit superhuman AI, pause advanced development and create a federal AI department.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   },
+   {
+    "id": "F1",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "signal",
+  "region": "US",
+  "reason": "Bill introduction with low passage odds; signal of political backlash. [Editor: marked as development of an earlier-scored event to avoid double counting.]",
+  "sources": [
+   "https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-create-new-federal-agency-to-ban-artificial-superintelligence-pause-advanced-ai-development/",
+   "https://www.nbcnews.com/politics/congress/bernie-sanders-greg-casar-propose-ai-superintelligence-ban-20-year-jai-rcna599460"
+  ]
+ },
+ {
+  "id": "2026-09-23-04",
+  "title": "Portuguese drone maker Tekever raises $580M at $6.4B valuation",
+  "summary": "Tekever closed a $580M Series D first tranche at a $6.4B valuation and signalled defence acquisitions.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "EU",
+  "reason": "Defence-AI/drone funding.",
+  "sources": [
+   "https://www.bloomberg.com/news/articles/2026-09-23/drone-maker-tekever-seeks-deals-after-new-round-s-first-close"
+  ]
+ }
+]

@@ -1,0 +1,159 @@
+{
+ "date": "2026-05-06",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 29.2,
+  "benevolent_dictator": 20.86,
+  "egalitarian_utopia": 16.32,
+  "protector_god": 13.78,
+  "gatekeeper": 16.08,
+  "enslaved_god": 36.41,
+  "conquerors": 17.41,
+  "descendants": 14.31,
+  "zookeeper": 10.02,
+  "orwell_1984": 24.46,
+  "reversion": 5.7,
+  "self_destruction": 20.06
+ },
+ "deltas": {
+  "libertarian_utopia": -0.05,
+  "benevolent_dictator": 0.03,
+  "egalitarian_utopia": -0.03,
+  "protector_god": 0.07,
+  "gatekeeper": 0.05,
+  "enslaved_god": 0.13,
+  "conquerors": 0.08,
+  "descendants": 0.09,
+  "zookeeper": 0.11,
+  "orwell_1984": -0.01,
+  "reversion": -0.1,
+  "self_destruction": 0.0
+ },
+ "targets": {
+  "libertarian_utopia": 29.2,
+  "benevolent_dictator": 20.86,
+  "egalitarian_utopia": 16.32,
+  "protector_god": 13.78,
+  "gatekeeper": 16.08,
+  "enslaved_god": 36.41,
+  "conquerors": 17.41,
+  "descendants": 14.31,
+  "zookeeper": 10.02,
+  "orwell_1984": 24.46,
+  "reversion": 5.7,
+  "self_destruction": 20.06
+ },
+ "momentum_7d": {
+  "libertarian_utopia": 0.06,
+  "benevolent_dictator": 0.79,
+  "egalitarian_utopia": -0.06,
+  "protector_god": 1.38,
+  "gatekeeper": 1.19,
+  "enslaved_god": 1.01,
+  "conquerors": 0.2,
+  "descendants": 0.8,
+  "zookeeper": 0.24,
+  "orwell_1984": -0.2,
+  "reversion": -0.03,
+  "self_destruction": 0.41
+ },
+ "factors": {
+  "F1": 70.85,
+  "F2": 46.02,
+  "F3": 42.03,
+  "F4": 24.45,
+  "F5": 61.99,
+  "F6": 45.6,
+  "F7": 33.51,
+  "F8": 56.64,
+  "F9": 40.75,
+  "F10": 19.99
+ },
+ "factor_deltas": {
+  "F1": 0.15,
+  "F2": 0.0,
+  "F3": -0.01,
+  "F4": -0.0,
+  "F5": 0.08,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": 0.0,
+  "F9": -0.01,
+  "F10": 0.0
+ },
+ "composites": {
+  "horizon_balance": 2.05,
+  "families": {
+   "flourishing": 20.04,
+   "contained": 26.25,
+   "successors": 13.91,
+   "stalled": 16.74
+  },
+  "news_heat": 0.22,
+  "evidence": "low",
+  "event_count": 1
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "conquerors": 0.01,
+  "reversion": -0.01
+ },
+ "summary": {
+  "headline": "SpaceX leases its Colossus 1 supercomputer to Anthropic",
+  "body": "A quiet day. Anthropic will use the full capacity of SpaceX/xAI's Colossus 1 supercomputer, more than 220,000 Nvidia GPUs, amid a compute shortage. More compute raises Capability Velocity, and a deal between two big players adds a touch of Power Concentration, so Enslaved God and Zookeeper edged up. Horizon Balance eased to +2.05.",
+  "movers_note": "Enslaved God +0.1 and Zookeeper +0.1 from the Colossus 1 lease (+0.13 and +0.10), with Reversion -0.1 (-0.09).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-05-06-01",
+   "title": "SpaceX leases all of Colossus 1 supercomputer to Anthropic",
+   "summary": "Anthropic will use the full capacity of SpaceX/xAI's Colossus 1 (300+ MW, 220,000+ Nvidia GPUs) within a month amid an acute compute shortage.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    },
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Large compute reallocation to a frontier lab; existing cluster, not new.",
+   "sources": [
+    "https://www.axios.com/2026/05/07/musk-anthropic-compute-spacex-ai"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "libertarian_utopia": -0.04,
+    "benevolent_dictator": 0.04,
+    "egalitarian_utopia": -0.03,
+    "protector_god": 0.07,
+    "gatekeeper": 0.06,
+    "enslaved_god": 0.13,
+    "conquerors": 0.07,
+    "descendants": 0.09,
+    "zookeeper": 0.1,
+    "orwell_1984": -0.01,
+    "reversion": -0.09
+   },
+   "factor_effect": {
+    "F1": 0.15,
+    "F5": 0.07
+   }
+  }
+ ]
+}

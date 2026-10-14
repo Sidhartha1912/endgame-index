@@ -1,0 +1,25 @@
+[
+ {
+  "id": "2026-05-12-01",
+  "title": "GM cuts 500-600 mostly IT jobs, with AI a factor",
+  "summary": "General Motors cut 500 to 600 roles, mostly in IT; a person familiar told CNBC AI played a role though not the only reason.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Small layoff partly attributed to AI.",
+  "sources": [
+   "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/"
+  ]
+ }
+]

@@ -1,0 +1,26 @@
+[
+ {
+  "id": "2026-09-25-01",
+  "title": "NYC Council Speaker unveils AI bills with kill switches and whistleblower rewards",
+  "summary": "NYC Council Speaker Julie Menin proposed bills requiring outside validation and kill switches for AI sold in the city, whistleblower rewards, and a right to sue when jailbroken systems cause harm.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "local",
+  "track": "signal",
+  "region": "US",
+  "reason": "Local proposals for control measures.",
+  "sources": [
+   "https://council.nyc.gov/press/2026/09/25/3252/",
+   "https://fortune.com/2026/09/25/new-york-city-council-speaker-ai-regulation-bills-openai-anthropic/"
+  ]
+ }
+]

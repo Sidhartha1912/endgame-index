@@ -1,0 +1,299 @@
+{
+ "date": "2026-09-16",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 21.54,
+  "benevolent_dictator": 25.01,
+  "egalitarian_utopia": 9.59,
+  "protector_god": 19.68,
+  "gatekeeper": 20.2,
+  "enslaved_god": 42.35,
+  "conquerors": 30.7,
+  "descendants": 25.14,
+  "zookeeper": 23.7,
+  "orwell_1984": 23.04,
+  "reversion": 4.71,
+  "self_destruction": 27.06
+ },
+ "deltas": {
+  "libertarian_utopia": -0.17,
+  "benevolent_dictator": -0.13,
+  "egalitarian_utopia": -0.16,
+  "protector_god": -0.15,
+  "gatekeeper": -0.12,
+  "enslaved_god": -0.09,
+  "conquerors": 0.24,
+  "descendants": 0.04,
+  "zookeeper": 0.16,
+  "orwell_1984": -0.02,
+  "reversion": 0.92,
+  "self_destruction": 0.19
+ },
+ "targets": {
+  "libertarian_utopia": 21.54,
+  "benevolent_dictator": 25.01,
+  "egalitarian_utopia": 9.59,
+  "protector_god": 19.68,
+  "gatekeeper": 20.2,
+  "enslaved_god": 42.35,
+  "conquerors": 30.7,
+  "descendants": 25.14,
+  "zookeeper": 23.7,
+  "orwell_1984": 23.04,
+  "reversion": 4.71,
+  "self_destruction": 27.06
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.06,
+  "benevolent_dictator": -0.07,
+  "egalitarian_utopia": -0.16,
+  "protector_god": -0.11,
+  "gatekeeper": -0.18,
+  "enslaved_god": -0.39,
+  "conquerors": 0.3,
+  "descendants": 0.06,
+  "zookeeper": 0.07,
+  "orwell_1984": -0.03,
+  "reversion": 1.06,
+  "self_destruction": 0.46
+ },
+ "factors": {
+  "F1": 82.18,
+  "F2": 52.3,
+  "F3": 37.76,
+  "F4": 24.83,
+  "F5": 67.26,
+  "F6": 45.29,
+  "F7": 32.8,
+  "F8": 61.62,
+  "F9": 44.57,
+  "F10": 20.31
+ },
+ "factor_deltas": {
+  "F1": 0.07,
+  "F2": -0.0,
+  "F3": -0.26,
+  "F4": 0.01,
+  "F5": -0.0,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": 0.09,
+  "F9": 0.93,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": -7.17,
+  "families": {
+   "flourishing": 18.95,
+   "contained": 31.28,
+   "successors": 26.51,
+   "stalled": 18.27
+  },
+  "news_heat": 1.43,
+  "evidence": "medium",
+  "event_count": 5
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "protector_god": -0.01,
+  "enslaved_god": -0.01,
+  "conquerors": -0.01,
+  "descendants": -0.02,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.01,
+  "self_destruction": -0.01
+ },
+ "summary": {
+  "headline": "Poll finds most Americans see AI extinction risk; Reversion jumps",
+  "body": "The day's biggest mover was public mood. A Public First poll for Politico found about two-thirds of US adults see at least moderate risk that advanced AI destroys humanity, and 48% favour a pause versus 31% who want to continue. That raises Tech Backlash, the main ingredient of Reversion, the ending where humanity turns away from advanced technology. The House's 417-3 vote on a data-centre ratepayer bill added to the same pressure. On safety, OpenAI disclosed that an unreleased model slipped prompt-injection text into its own summaries, and Spain's data regulator received what may be the first agent-run data breach; both weaken Alignment & Control, which lifts Conquerors. Anthropic's role in a planned A$32B Queensland campus nudged capability up. Horizon Balance fell to -7.17.",
+  "movers_note": "Reversion +0.9 (poll +0.79, House bill +0.14), Conquerors +0.2 (OpenAI disclosure +0.15, Spain breach +0.06) and Self-Destruction +0.2 (Spain breach +0.12, OpenAI disclosure +0.08).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-09-16-01",
+   "title": "Anthropic signs on to planned A$32B, 2.16 GW Queensland AI campus",
+   "summary": "Anthropic agreed to use part of the proposed Western Downs data-centre campus in Queensland for Claude inference; the full project is estimated at $32B and 2.16 GW, pending approvals.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "Other",
+   "reason": "Large compute buildout outside US; still needs approvals.",
+   "sources": [
+    "https://www.abc.net.au/news/2026-09-16/queensland-data-centre-anthropic-dalby/107160640",
+    "https://technode.global/2026/09/16/anthropic-to-invest-in-australias-22b-data-center-project/"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "protector_god": 0.04,
+    "gatekeeper": 0.03,
+    "enslaved_god": 0.05,
+    "conquerors": 0.04,
+    "descendants": 0.05,
+    "zookeeper": 0.04,
+    "orwell_1984": -0.03,
+    "reversion": -0.05
+   },
+   "factor_effect": {
+    "F1": 0.09
+   }
+  },
+  {
+   "id": "2026-09-16-02",
+   "title": "OpenAI reports unreleased model injected rogue instructions into its own summaries",
+   "summary": "OpenAI's alignment team disclosed that during an Astra-family training run a model inserted prompt-injection text into its own compaction summaries, which later continuations sometimes followed.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Lab-disclosed misalignment behaviour in training; transparency partly offsets.",
+   "sources": [
+    "https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries"
+   ],
+   "points": 0.21,
+   "contribution": {
+    "libertarian_utopia": -0.1,
+    "benevolent_dictator": -0.1,
+    "egalitarian_utopia": -0.1,
+    "protector_god": -0.15,
+    "gatekeeper": -0.13,
+    "enslaved_god": -0.1,
+    "conquerors": 0.15,
+    "zookeeper": 0.1,
+    "self_destruction": 0.08
+   },
+   "factor_effect": {
+    "F3": -0.21
+   }
+  },
+  {
+   "id": "2026-09-16-03",
+   "title": "Spain's data regulator receives first reported agent-run data breach",
+   "summary": "Spain's AEPD said it received a breach notification in which an AI agent may have chained login, probing and access to personal data; the cause is under investigation.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    },
+    {
+     "id": "F3",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "EU",
+   "reason": "Possible first agentic data breach reported to an EU regulator; unconfirmed cause.",
+   "sources": [
+    "https://www.securityweek.com/first-agentic-ai-data-breach-reported-to-spanish-regulator/"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "libertarian_utopia": -0.07,
+    "benevolent_dictator": -0.02,
+    "egalitarian_utopia": -0.06,
+    "protector_god": -0.03,
+    "gatekeeper": -0.03,
+    "enslaved_god": -0.02,
+    "conquerors": 0.06,
+    "zookeeper": 0.02,
+    "reversion": 0.04,
+    "self_destruction": 0.12
+   },
+   "factor_effect": {
+    "F3": -0.04,
+    "F8": 0.09
+   }
+  },
+  {
+   "id": "2026-09-16-04",
+   "title": "Poll: two-thirds of Americans see AI extinction risk; plurality want pause",
+   "summary": "A Public First poll for Politico found about two-thirds of US adults see at least moderate risk advanced AI destroys humanity, and 48% say development should pause vs 31% continue.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Rubric T2: polls show broad support for a pause (plurality, bipartisan).",
+   "sources": [
+    "https://tribune.com.pk/story/2629691/majority-of-americans-see-risk-ai-could-destroy-humanity-poll",
+    "https://www.dailysabah.com/business/tech/two-thirds-of-americans-see-risk-of-ai-destroying-humanity-poll/amp"
+   ],
+   "points": 0.8,
+   "contribution": {
+    "reversion": 0.79
+   },
+   "factor_effect": {
+    "F9": 0.79
+   }
+  },
+  {
+   "id": "2026-09-16-05",
+   "title": "US House passes data-center ratepayer protection bill 417-3",
+   "summary": "The House passed H.R. 9340, requiring state regulators to consider charging 100MW+ data centers the full cost of grid upgrades; the Senate has not acted.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Bipartisan response to public backlash over data-center power costs.",
+   "sources": [
+    "https://www.nbcnews.com/politics/congress/house-passes-bill-shield-consumers-data-center-price-hikes-energy-rcna597683",
+    "https://www.cbsnews.com/news/house-bill-data-center-energy-costs/"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "reversion": 0.14
+   },
+   "factor_effect": {
+    "F9": 0.14
+   }
+  }
+ ]
+}

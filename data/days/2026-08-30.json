@@ -1,0 +1,144 @@
+{
+ "date": "2026-08-30",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 23.12,
+  "benevolent_dictator": 24.64,
+  "egalitarian_utopia": 10.89,
+  "protector_god": 19.25,
+  "gatekeeper": 19.45,
+  "enslaved_god": 41.68,
+  "conquerors": 27.84,
+  "descendants": 23.15,
+  "zookeeper": 20.97,
+  "orwell_1984": 22.85,
+  "reversion": 4.32,
+  "self_destruction": 25.91
+ },
+ "deltas": {
+  "libertarian_utopia": -0.0,
+  "benevolent_dictator": -0.0,
+  "egalitarian_utopia": 0.04,
+  "protector_god": -0.01,
+  "gatekeeper": -0.0,
+  "enslaved_god": -0.01,
+  "conquerors": 0.0,
+  "descendants": -0.0,
+  "zookeeper": 0.0,
+  "orwell_1984": 0.01,
+  "reversion": -0.01,
+  "self_destruction": -0.0
+ },
+ "targets": {
+  "libertarian_utopia": 23.12,
+  "benevolent_dictator": 24.64,
+  "egalitarian_utopia": 10.89,
+  "protector_god": 19.25,
+  "gatekeeper": 19.45,
+  "enslaved_god": 41.68,
+  "conquerors": 27.84,
+  "descendants": 23.15,
+  "zookeeper": 20.97,
+  "orwell_1984": 22.85,
+  "reversion": 4.32,
+  "self_destruction": 25.91
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.66,
+  "benevolent_dictator": -0.14,
+  "egalitarian_utopia": -0.43,
+  "protector_god": 0.29,
+  "gatekeeper": 0.29,
+  "enslaved_god": -0.04,
+  "conquerors": 0.54,
+  "descendants": 0.13,
+  "zookeeper": -0.03,
+  "orwell_1984": -0.35,
+  "reversion": 0.71,
+  "self_destruction": 1.73
+ },
+ "factors": {
+  "F1": 80.1,
+  "F2": 51.27,
+  "F3": 39.26,
+  "F4": 24.11,
+  "F5": 66.46,
+  "F6": 45.06,
+  "F7": 32.66,
+  "F8": 60.79,
+  "F9": 43.27,
+  "F10": 20.16
+ },
+ "factor_deltas": {
+  "F1": -0.0,
+  "F2": -0.0,
+  "F3": -0.01,
+  "F4": 0.01,
+  "F5": -0.0,
+  "F6": 0.0,
+  "F7": 0.06,
+  "F8": -0.0,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -4.92,
+  "families": {
+   "flourishing": 19.48,
+   "contained": 30.57,
+   "successors": 23.99,
+   "stalled": 17.69
+  },
+  "news_heat": 0.06,
+  "evidence": "low",
+  "event_count": 1
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "protector_god": -0.01,
+  "enslaved_god": -0.01,
+  "orwell_1984": 0.01,
+  "reversion": -0.01
+ },
+ "summary": {
+  "headline": "Caterpillar's $100M AI training pledge on a quiet Sunday",
+  "body": "A quiet day. Caterpillar announced a five-year, $100 million programme to train 118,000 workers on AI, robotics and autonomy, a small plus for Shared Prosperity that nudged Egalitarian Utopia. Other endings drifted as earlier news faded. Horizon Balance stays at -4.92.",
+  "movers_note": "No ending moved by a tenth of a point; Caterpillar's programme added 0.04 to Egalitarian Utopia.",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-08-30-01",
+   "title": "Caterpillar to spend $100M training 118,000 workers on AI and autonomy",
+   "summary": "Caterpillar announced a five-year, $100M programme to train its workforce on AI, robotics and autonomy.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F7",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Corporate reskilling commitment; modest.",
+   "sources": [
+    "https://aiweekly.co/ai-news-today/edition/2026-08-31"
+   ],
+   "points": 0.06,
+   "contribution": {
+    "egalitarian_utopia": 0.04
+   },
+   "factor_effect": {
+    "F7": 0.06
+   }
+  }
+ ]
+}

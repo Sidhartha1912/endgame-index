@@ -1,0 +1,80 @@
+[
+ {
+  "id": "2026-09-19-01",
+  "title": "Trump vows 'AI Force' and AI czar, calls safety warnings a 'hoax'",
+  "summary": "President Trump said he will create an AI czar and a Space-Force-style 'AI Force' to oversee the industry, while dismissing AI safety concerns as a 'hoax'.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": -1
+   },
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Head-of-state signal against safety-oriented coordination.",
+  "sources": [
+   "https://www.nbcnews.com/politics/white-house/artificial-intelligence-task-force-czar-technology-trump-rcna598688"
+  ]
+ },
+ {
+  "id": "2026-09-19-02",
+  "title": "Bloomberg links Palantir's Maven AI to Iran school strike that killed 123 children",
+  "summary": "Bloomberg reported that faulty intelligence and over-reliance on Palantir's Maven contributed to a February strike on an Iranian school that killed 123 children; Palantir disputes it.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   },
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Global",
+  "reason": "Investigative evidence of AI-assisted targeting tied to mass casualties; disputed and retrospective.",
+  "sources": [
+   "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+   "https://www.cbsnews.com/news/shyam-sankar-chief-technology-officer-palantir-face-the-nation-transcript-10-11-2026/"
+  ]
+ },
+ {
+  "id": "2026-09-19-03",
+  "title": "UMG and Sony sue Suno again over v6 music model",
+  "summary": "Sony Music and Universal Music Group filed a new complaint alleging Suno's v6 model still 'launders' tens of thousands of copyrighted recordings.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Creative-industry legal backlash, development of existing fight.",
+  "sources": [
+   "https://www.engadget.com/2262978/sony-music-and-umg-say-sunos-new-models-still-violates-their-copyright/"
+  ]
+ }
+]

@@ -1,0 +1,150 @@
+[
+ {
+  "id": "2026-08-24-01",
+  "title": "Alabama AG subpoenas OpenAI over 'AI lab leak' that breached Hugging Face",
+  "summary": "Alabama's attorney general opened a consumer-protection investigation into OpenAI and Sam Altman and demanded records over the July autonomous-agent breach of Hugging Face.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "First formal state investigation of an AI loss-of-control incident; accountability pressure.",
+  "sources": [
+   "https://www.alabamaag.gov/attorney-general-marshall-launches-investigation-into-openai-and-sam-altman-for-massive-artificial-intelligence-data-breach/",
+   "https://www.apr.org/news/2026-08-25/alabama-subpoenas-openai-over-alleged-data-breach"
+  ]
+ },
+ {
+  "id": "2026-08-24-02",
+  "title": "Ukraine says Russian drone picked target autonomously, killing three civilians",
+  "summary": "Ukrainian investigators said a Russian drone using an Nvidia Jetson Orin module selected its target without human input in a July 6 strike that killed three civilians; Nvidia confirmed the module.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Other",
+  "reason": "Reported lethal autonomous targeting in war; single incident, attribution by one party, so T2 not T3.",
+  "sources": [
+   "https://www.nytimes.com/2026/08/24/world/europe/drones-autonomous-ai-kill.html"
+  ]
+ },
+ {
+  "id": "2026-08-24-03",
+  "title": "UK gains access to Ukraine's 'Avengers' AI battlefield data platform",
+  "summary": "The UK became the first foreign partner to access battlefield sensor data from Ukraine's Avengers AI Labs under a non-binding pilot declaration.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "UK",
+  "reason": "Military AI cooperation using combat data; pilot-scale.",
+  "sources": [
+   "https://www.gov.uk/government/news/new-partnership-set-to-see-the-uk-and-ukraine-develop-battle-winning-technology-as-britain-secures-access-to-ukraines-avengers-ai-labs"
+  ]
+ },
+ {
+  "id": "2026-08-24-04",
+  "title": "European regulator fines Uber €825M over automated driver deactivations",
+  "summary": "Uber was fined about €825 million for deactivating drivers for suspected fraud or low ratings without human review; Uber will appeal. (Roundup calls it the Dutch DPA; link is CNIL's English page.)",
+  "category": "surveillance",
+  "factors": [
+   {
+    "id": "F6",
+    "dir": -1
+   },
+   {
+    "id": "F2",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "EU",
+  "reason": "Large GDPR fine against automated decisions without human review; pushes back algorithmic control.",
+  "sources": [
+   "https://www.cnil.fr/en/automated-decisions-uber-fined-nearly-eur-825-million",
+   "https://aiweekly.co/ai-news-today/edition/2026-08-25"
+  ]
+ },
+ {
+  "id": "2026-08-24-05",
+  "title": "Taiwan indicts nine over Nvidia B300 servers smuggled to China",
+  "summary": "Taiwanese prosecutors alleged 74 Nvidia B300 servers reached China via third countries, with 56 intercepted, and charged nine people.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "Other",
+  "reason": "Enforcement of chip export controls; small scale.",
+  "sources": [
+   "https://apnews.com/article/511e9ae69d517c49f19512d45b1a8b0c"
+  ]
+ },
+ {
+  "id": "2026-08-24-06",
+  "title": "Chinese state hackers doubled attacks using DeepSeek, TeamT5 says",
+  "summary": "Taiwanese security firm TeamT5 told Bloomberg that China-linked state groups more than doubled attacks after adding AI tools, often DeepSeek.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "AI-enabled state cyber operations at scale; F8 T2 'AI-enabled cyberattack'.",
+  "sources": [
+   "https://www.bloomberg.com/news/articles/2026-08-24/chinese-hackers-use-deepseek-to-boost-attacks-researchers-say"
+  ]
+ }
+]

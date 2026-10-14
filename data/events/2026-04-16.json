@@ -1,0 +1,26 @@
+[
+ {
+  "id": "2026-04-16-01",
+  "title": "Anthropic releases Claude Opus 4.7",
+  "summary": "Anthropic launched Claude Opus 4.7 as its most capable generally available model, with stronger coding, agentic and vision performance.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Incremental frontier update; benchmarks self-reported.",
+  "sources": [
+   "https://rits.shanghai.nyu.edu/ai/anthropic-releases-claude-opus-4-7-with-sharper-coding-and-3x-vision-resolution/",
+   "https://vals.ai/models/anthropic_claude-opus-4-7"
+  ]
+ }
+]

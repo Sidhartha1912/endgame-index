@@ -1,0 +1,26 @@
+[
+ {
+  "id": "2026-04-26-01",
+  "title": "OpenAI shuts down Sora app and web experience",
+  "summary": "OpenAI closed the consumer Sora video app on April 26 as planned in March, refocusing on business tools; the API follows in September.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Retreat from consumer AI video amid 'slop' criticism; announced earlier so development.",
+  "sources": [
+   "https://the-decoder.com/openai-sets-two-stage-sora-shutdown-with-app-closing-april-2026-and-api-following-in-september/",
+   "https://engadget.com/ai/openai-is-shutting-down-its-sora-video-generation-app-211023358.html"
+  ]
+ }
+]

@@ -1,0 +1,181 @@
+{
+ "date": "2026-07-08",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 26.58,
+  "benevolent_dictator": 26.0,
+  "egalitarian_utopia": 14.39,
+  "protector_god": 18.92,
+  "gatekeeper": 18.61,
+  "enslaved_god": 42.46,
+  "conquerors": 20.76,
+  "descendants": 19.45,
+  "zookeeper": 15.55,
+  "orwell_1984": 24.32,
+  "reversion": 3.99,
+  "self_destruction": 21.83
+ },
+ "deltas": {
+  "libertarian_utopia": 0.0,
+  "benevolent_dictator": 0.02,
+  "egalitarian_utopia": 0.0,
+  "protector_god": -0.03,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.01,
+  "conquerors": 0.01,
+  "descendants": -0.0,
+  "zookeeper": 0.01,
+  "orwell_1984": 0.07,
+  "reversion": 0.06,
+  "self_destruction": -0.02
+ },
+ "targets": {
+  "libertarian_utopia": 26.58,
+  "benevolent_dictator": 26.0,
+  "egalitarian_utopia": 14.39,
+  "protector_god": 18.92,
+  "gatekeeper": 18.61,
+  "enslaved_god": 42.46,
+  "conquerors": 20.76,
+  "descendants": 19.45,
+  "zookeeper": 15.55,
+  "orwell_1984": 24.32,
+  "reversion": 3.99,
+  "self_destruction": 21.83
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.29,
+  "benevolent_dictator": 0.31,
+  "egalitarian_utopia": -0.17,
+  "protector_god": 0.09,
+  "gatekeeper": 0.06,
+  "enslaved_god": 0.05,
+  "conquerors": 0.33,
+  "descendants": 0.21,
+  "zookeeper": 0.31,
+  "orwell_1984": 0.22,
+  "reversion": 0.14,
+  "self_destruction": 0.42
+ },
+ "factors": {
+  "F1": 76.18,
+  "F2": 48.93,
+  "F3": 43.66,
+  "F4": 22.37,
+  "F5": 66.84,
+  "F6": 45.99,
+  "F7": 33.07,
+  "F8": 57.89,
+  "F9": 41.74,
+  "F10": 20.24
+ },
+ "factor_deltas": {
+  "F1": -0.0,
+  "F2": 0.0,
+  "F3": -0.02,
+  "F4": -0.0,
+  "F5": -0.0,
+  "F6": 0.08,
+  "F7": 0.0,
+  "F8": -0.02,
+  "F9": 0.06,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": 0.85,
+  "families": {
+   "flourishing": 21.47,
+   "contained": 30.53,
+   "successors": 18.59,
+   "stalled": 16.71
+  },
+  "news_heat": 0.15,
+  "evidence": "low",
+  "event_count": 2
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": -0.01,
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.01,
+  "conquerors": 0.01,
+  "zookeeper": 0.01,
+  "reversion": -0.02,
+  "self_destruction": -0.02
+ },
+ "summary": {
+  "headline": "Anthropic adds ID and face checks for Fable 5",
+  "body": "A quiet day. An updated Anthropic privacy policy now allows collecting government ID and facial data to verify some Fable 5 users, a nudge to Surveillance that lifts 1984. New York City schools froze tech purchases amid AI backlash, nudging Reversion. Horizon Balance: +0.85.",
+  "movers_note": "1984 +0.1 and Reversion +0.1, from Anthropic's ID checks and the NYC schools freeze.",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-07-08-01",
+   "title": "Anthropic begins government-ID and biometric verification for Fable 5 access",
+   "summary": "An updated Anthropic privacy policy, tied to the export-control redeployment, took effect allowing collection of government ID and facial data to verify some users' identity for Fable 5.",
+   "category": "surveillance",
+   "factors": [
+    {
+     "id": "F6",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "D",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Identity/biometric gating of AI access normalises KYC-style monitoring; modest scale, secondary sourcing.",
+   "sources": [
+    "https://www.explainx.ai/blog/us-government-bans-fable-5-mythos-5-anthropic-export-control-2026",
+    "https://blog.buildfastwithai.com/ai-news-today-july-8-2026"
+   ],
+   "points": 0.07,
+   "contribution": {
+    "benevolent_dictator": 0.03,
+    "protector_god": -0.02,
+    "orwell_1984": 0.07
+   },
+   "factor_effect": {
+    "F6": 0.07
+   }
+  },
+  {
+   "id": "2026-07-08-02",
+   "title": "NYC schools freeze tech purchases amid AI policy backlash",
+   "summary": "New York City's schools chancellor paused education-technology purchases until a delayed AI policy is finalised, after public backlash; earlier guidance required bias reviews for all AI tools.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "local",
+   "track": "structural",
+   "region": "US",
+   "reason": "Institutional pullback from AI in largest US school system.",
+   "sources": [
+    "https://www.nydailynews.com/2026/07/08/nyc-public-schools-puts-technology-purchases-on-hold-amid-heated-debate-over-ai-policy/"
+   ],
+   "points": 0.07,
+   "contribution": {
+    "reversion": 0.07
+   },
+   "factor_effect": {
+    "F9": 0.07
+   }
+  }
+ ]
+}

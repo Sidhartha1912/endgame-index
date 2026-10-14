@@ -1,0 +1,420 @@
+{
+ "date": "2026-08-31",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 23.36,
+  "benevolent_dictator": 24.87,
+  "egalitarian_utopia": 11.16,
+  "protector_god": 19.61,
+  "gatekeeper": 20.41,
+  "enslaved_god": 41.92,
+  "conquerors": 27.54,
+  "descendants": 23.17,
+  "zookeeper": 20.73,
+  "orwell_1984": 23.19,
+  "reversion": 4.52,
+  "self_destruction": 25.33
+ },
+ "deltas": {
+  "libertarian_utopia": 0.24,
+  "benevolent_dictator": 0.22,
+  "egalitarian_utopia": 0.27,
+  "protector_god": 0.36,
+  "gatekeeper": 0.96,
+  "enslaved_god": 0.24,
+  "conquerors": -0.3,
+  "descendants": 0.03,
+  "zookeeper": -0.24,
+  "orwell_1984": 0.34,
+  "reversion": 0.2,
+  "self_destruction": -0.58
+ },
+ "targets": {
+  "libertarian_utopia": 23.36,
+  "benevolent_dictator": 24.87,
+  "egalitarian_utopia": 11.16,
+  "protector_god": 19.61,
+  "gatekeeper": 20.41,
+  "enslaved_god": 41.92,
+  "conquerors": 27.54,
+  "descendants": 23.17,
+  "zookeeper": 20.73,
+  "orwell_1984": 23.19,
+  "reversion": 4.52,
+  "self_destruction": 25.33
+ },
+ "momentum_7d": {
+  "libertarian_utopia": 0.35,
+  "benevolent_dictator": 0.18,
+  "egalitarian_utopia": 0.45,
+  "protector_god": 0.31,
+  "gatekeeper": 1.01,
+  "enslaved_god": 0.15,
+  "conquerors": -0.2,
+  "descendants": 0.09,
+  "zookeeper": -0.24,
+  "orwell_1984": 0.47,
+  "reversion": 0.22,
+  "self_destruction": -0.6
+ },
+ "factors": {
+  "F1": 80.15,
+  "F2": 51.27,
+  "F3": 39.75,
+  "F4": 25.04,
+  "F5": 66.41,
+  "F6": 45.06,
+  "F7": 32.7,
+  "F8": 60.86,
+  "F9": 43.46,
+  "F10": 20.16
+ },
+ "factor_deltas": {
+  "F1": 0.05,
+  "F2": -0.0,
+  "F3": 0.49,
+  "F4": 0.93,
+  "F5": -0.05,
+  "F6": 0.0,
+  "F7": 0.05,
+  "F8": 0.07,
+  "F9": 0.2,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -4.45,
+  "families": {
+   "flourishing": 19.75,
+   "contained": 31.17,
+   "successors": 23.81,
+   "stalled": 17.68
+  },
+  "news_heat": 2.01,
+  "evidence": "medium",
+  "event_count": 9
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "protector_god": -0.01,
+  "enslaved_god": -0.01,
+  "orwell_1984": 0.01,
+  "reversion": -0.01
+ },
+ "summary": {
+  "headline": "EU puts ChatGPT under the DSA's strictest tier; Gatekeeper jumps",
+  "body": "A bright day for coordination. The European Commission designated ChatGPT a Very Large Online Search Engine under the Digital Services Act, requiring systemic-risk assessments, mitigation and researcher data access within four months. Binding cross-border oversight raises Global Coordination and Alignment & Control, which lifts Gatekeeper (nations keeping a lid on runaway AI) and Protector God, and pulls Self-Destruction and Conquerors down. Eight smaller items, many from lower-credibility sources, barely moved things: data-centre protests, Meta's child-safety settlement and NHS AI-scribe errors added Tech Backlash; Andrew Bailey warned the G20 about AI cyber risk. Horizon Balance rose to -4.45, the best reading in two weeks.",
+  "movers_note": "Gatekeeper +1.0, Self-Destruction -0.6 and Protector God +0.4, almost entirely from the EU's DSA designation of ChatGPT (+0.99, -0.70, +0.35).",
+  "coming_up": [
+   "ChatGPT must deliver DSA systemic-risk assessments, mitigation and researcher data access within four months",
+   "Planned US-China AI talks"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-08-31-01",
+   "title": "EU designates ChatGPT a Very Large Online Search Engine under the DSA",
+   "summary": "The European Commission placed ChatGPT (with Reddit and Roblox) under the DSA's strictest tier, requiring systemic-risk assessments, mitigation and researcher data access within four months.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    },
+    {
+     "id": "F3",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "EU",
+   "reason": "First binding EU systemic-risk regime applied to a frontier chatbot.",
+   "sources": [
+    "https://digital-strategy.ec.europa.eu/en/news/commission-designates-chatgpt-reddit-roblox-under-digital-services-act",
+    "https://www.euronews.com/next/2026/08/31/eu-places-chatgpt-reddit-and-roblox-under-strictest-digital-safety-rules"
+   ],
+   "points": 1.0,
+   "contribution": {
+    "libertarian_utopia": 0.25,
+    "benevolent_dictator": 0.25,
+    "egalitarian_utopia": 0.25,
+    "protector_god": 0.35,
+    "gatekeeper": 0.99,
+    "enslaved_god": 0.25,
+    "conquerors": -0.35,
+    "zookeeper": -0.25,
+    "orwell_1984": 0.4,
+    "self_destruction": -0.7
+   },
+   "factor_effect": {
+    "F3": 0.5,
+    "F4": 0.99
+   }
+  },
+  {
+   "id": "2026-08-31-02",
+   "title": "Data-center backlash: Trump warns holdouts as ~$130B of projects face protests",
+   "summary": "Trump warned communities rejecting data centres would fall behind China, while Sam Altman acknowledged 'people hate data centers' with about $130B of projects facing protests, delays or cancellations.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "D",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "national",
+   "track": "signal",
+   "region": "US",
+   "reason": "Evidence of widespread local opposition; from newsletter digest.",
+   "sources": [
+    "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-august-31-2026/"
+   ],
+   "points": 0.01,
+   "contribution": {
+    "reversion": 0.01
+   },
+   "factor_effect": {
+    "F9": 0.01
+   }
+  },
+  {
+   "id": "2026-08-31-03",
+   "title": "Meta to pay up to $18B to settle multistate child-safety suits",
+   "summary": "Meta agreed to pay up to $18 billion over a decade to settle state child-safety lawsuits and add default teen usage limits.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "D",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Major tech accountability outcome; mostly social media, so T1. Source is a digest.",
+   "sources": [
+    "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-august-31-2026/"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "reversion": 0.04
+   },
+   "factor_effect": {
+    "F9": 0.04
+   }
+  },
+  {
+   "id": "2026-08-31-04",
+   "title": "SB Energy plans 10GW Ohio AI campus, gives OpenAI $5.5B in warrants",
+   "summary": "SoftBank-owned SB Energy granted OpenAI warrants worth about $5.5B with a 20-year lease for a planned 10GW Ohio campus powered mostly by new gas.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Further compute scale-up for one lab.",
+   "sources": [
+    "https://aiweekly.co/ai-news-today/edition/2026-08-31"
+   ],
+   "points": 0.07,
+   "contribution": {
+    "protector_god": 0.02,
+    "gatekeeper": 0.02,
+    "enslaved_god": 0.03,
+    "conquerors": 0.02,
+    "descendants": 0.03,
+    "zookeeper": 0.02,
+    "orwell_1984": -0.01,
+    "reversion": -0.03
+   },
+   "factor_effect": {
+    "F1": 0.05
+   }
+  },
+  {
+   "id": "2026-08-31-05",
+   "title": "Bank of England's Bailey warns G20 frontier AI is changing cyber risk",
+   "summary": "Bank of England Governor Andrew Bailey told G20 finance ministers that frontier AI could change financial-sector cyber risk.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "D",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "UK",
+   "reason": "Official warning; words only.",
+   "sources": [
+    "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-august-31-2026/"
+   ],
+   "points": 0.07,
+   "contribution": {
+    "libertarian_utopia": -0.04,
+    "egalitarian_utopia": -0.03,
+    "conquerors": 0.02,
+    "reversion": 0.03,
+    "self_destruction": 0.08
+   },
+   "factor_effect": {
+    "F8": 0.07
+   }
+  },
+  {
+   "id": "2026-08-31-06",
+   "title": "UK opens first competitions in £100M sovereign AI procurement scheme",
+   "summary": "The UK launched the first competitions under a £100M programme to buy AI from domestic firms.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "D",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "UK",
+   "reason": "Small sovereign-capacity push.",
+   "sources": [
+    "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-august-31-2026/"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "libertarian_utopia": 0.03,
+    "benevolent_dictator": -0.02,
+    "egalitarian_utopia": 0.02,
+    "enslaved_god": -0.03,
+    "zookeeper": -0.02,
+    "orwell_1984": -0.02
+   },
+   "factor_effect": {
+    "F5": -0.04
+   }
+  },
+  {
+   "id": "2026-08-31-07",
+   "title": "China state-media-linked account rebukes Anthropic before US-China AI talks",
+   "summary": "A CCTV-linked account criticised Anthropic ahead of planned US-China AI talks.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "D",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "China",
+   "reason": "Hostile rhetoric before bilateral talks; minor.",
+   "sources": [
+    "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-august-31-2026/"
+   ],
+   "points": 0.07,
+   "contribution": {
+    "gatekeeper": -0.05,
+    "orwell_1984": -0.03,
+    "self_destruction": 0.04
+   },
+   "factor_effect": {
+    "F4": -0.07
+   }
+  },
+  {
+   "id": "2026-08-31-08",
+   "title": "NHS watchdog: AI scribes get drug names and diagnoses wrong",
+   "summary": "Healthwatch England reported errors in AI-generated medical records, including a confused drug name and a misreported diagnosis.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "UK",
+   "reason": "Public-sector warning on AI reliability in health.",
+   "sources": [
+    "https://www.theguardian.com/society/2026/aug/31/doctors-ai-scribes-get-names-of-drugs-and-diagnoses-wrong-nhs-watchdog-warns"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "reversion": 0.14
+   },
+   "factor_effect": {
+    "F9": 0.14
+   }
+  },
+  {
+   "id": "2026-08-31-09",
+   "title": "Thailand's TH-AI Passport national AI-skills platform goes live",
+   "summary": "Thailand launched a national platform giving citizens 15+ access to 33 AI models and 96+ training courses, with free introductory access.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F7",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "D",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "Other",
+   "reason": "Public AI access and reskilling programme; single blog source.",
+   "sources": [
+    "https://www.grandlinux.com/en/blogs/ai-august-2569-roundup.html"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "egalitarian_utopia": 0.03
+   },
+   "factor_effect": {
+    "F7": 0.04
+   }
+  }
+ ]
+}

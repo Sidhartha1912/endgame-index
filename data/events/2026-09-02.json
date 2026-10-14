@@ -1,0 +1,99 @@
+[
+ {
+  "id": "2026-09-02-01",
+  "title": "Challenger: AI blamed for 116,175 US job cuts so far in 2026",
+  "summary": "US employers announced 52,881 cuts in August, 3,462 attributed to AI, bringing AI-attributed cuts to 116,175 year to date, about 22% of all cuts.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "AI-attributed layoffs continue but monthly AI share fell; T1.",
+  "sources": [
+   "https://www.challengergray.com/wp-content/uploads/2026/09/Challenger-Report-August-2026.pdf"
+  ]
+ },
+ {
+  "id": "2026-09-02-02",
+  "title": "South Korea maps $919B, 18.4GW sovereign AI data-center buildout",
+  "summary": "Reporting detailed Korea's coordinated plan for 8.4GW of AI data-centre capacity by 2029 and 18.4GW by 2035, with SK, GS and Naver allocations. Exact announcement date uncertain; reported Sep 2.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "structural",
+  "region": "Other",
+  "reason": "National compute push; partly earlier-announced, so development.",
+  "sources": [
+   "https://newsletter.semianalysis.com/p/koreas-trillion-dollar-sovereign",
+   "https://www.lightreading.com/data-centers/south-korea-plans-massive-18-4gw-ai-data-center-buildout-by-2035"
+  ]
+ },
+ {
+  "id": "2026-09-02-03",
+  "title": "DOJ files in support of OpenAI's fair-use defense in NYT case",
+  "summary": "The US Justice Department backed the view that training on copyrighted text can be fair use in the New York Times copyright suit.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Government sides with labs over creators.",
+  "sources": [
+   "https://aiweekly.co/alerts/doj-backs-openais-fair-use-defense-in-nyt-copyright-case"
+  ]
+ },
+ {
+  "id": "2026-09-02-04",
+  "title": "Axon AI drafted Texas sheriff's report on abortion-related Flock camera search",
+  "summary": "404 Media reported a Texas sheriff's report on searching Flock licence-plate cameras in an abortion-related case was written with Axon's Draft One AI.",
+  "category": "surveillance",
+  "factors": [
+   {
+    "id": "F6",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "local",
+  "track": "structural",
+  "region": "US",
+  "reason": "AI embedded in police surveillance workflow.",
+  "sources": [
+   "https://aiweekly.co/alerts/axon-draft-one-ai-wrote-texas-sheriffs-flock-abortion-report"
+  ]
+ }
+]

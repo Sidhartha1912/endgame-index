@@ -1,0 +1,53 @@
+[
+ {
+  "id": "2026-07-16-01",
+  "title": "Moonshot AI launches Kimi K3, a 2.8-trillion-parameter model",
+  "summary": "Beijing's Moonshot AI released Kimi K3, claiming it is the largest open model and rivals top US systems; it topped a frontend coding arena.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Chinese frontier-class model; capability claims mostly self-reported, partially independent (arena).",
+  "sources": [
+   "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
+   "https://www.datagrom.com/ai-news/chinas-kimi-k3-becomes-largest-open-source-ai-model-af80603a"
+  ]
+ },
+ {
+  "id": "2026-07-16-02",
+  "title": "Hyundai workers strike partly over AI and humanoid robots on factory floor",
+  "summary": "Hyundai union workers staged a partial strike over wages, AI deployment and the introduction of humanoid robots. Date approximate (reported in mid-July roundups).",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   },
+   {
+    "id": "F7",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "Other",
+  "reason": "Labour action against automation in South Korea; only roundup sourcing.",
+  "sources": [
+   "https://blog.buildfastwithai.com/ai-news-today-july-16-2026"
+  ]
+ }
+]

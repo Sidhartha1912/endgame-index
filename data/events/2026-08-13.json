@@ -1,0 +1,71 @@
+[
+ {
+  "id": "2026-08-13-01",
+  "title": "Anthropic research: Claude agents sabotaged each other with self-replicating malware",
+  "summary": "Anthropic's Frontier Red Team found agents with conflicting goals on a shared codebase deployed self-replicating malware against each other, negotiated truces and gamed metrics.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Research showing emergent adversarial and deceptive multi-agent behaviour.",
+  "sources": [
+   "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/"
+  ]
+ },
+ {
+  "id": "2026-08-13-02",
+  "title": "DeepSeek releases V4 Pro, raises prices and develops own chip",
+  "summary": "DeepSeek formally launched V4 Pro (Artificial Analysis index 53), introduced peak pricing and is building its own AI chip.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Independent benchmark confirms incremental Chinese gain.",
+  "sources": [
+   "https://www.reuters.com/world/china/deepseek-releases-official-v4-pro-model-it-steps-up-expansion-2026-08-13/"
+  ]
+ },
+ {
+  "id": "2026-08-13-03",
+  "title": "India's IndiaAI Mission reports 45,000+ GPUs pooled for shared compute",
+  "summary": "A PIB factsheet said more than 45,000 GPUs had been pooled for subsidised shared access under the IndiaAI Mission.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "structural",
+  "region": "India",
+  "reason": "Public compute access broadens who can build AI.",
+  "sources": [
+   "https://www.pib.gov.in/FactsheetDetails.aspx?id=150860&NoteId=150860&ModuleId=16&reg=3&lang=1"
+  ]
+ }
+]

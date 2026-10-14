@@ -1,0 +1,117 @@
+{
+ "date": "2026-07-19",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 26.65,
+  "benevolent_dictator": 26.01,
+  "egalitarian_utopia": 14.38,
+  "protector_god": 19.14,
+  "gatekeeper": 19.39,
+  "enslaved_god": 42.53,
+  "conquerors": 21.13,
+  "descendants": 19.84,
+  "zookeeper": 15.93,
+  "orwell_1984": 24.51,
+  "reversion": 4.64,
+  "self_destruction": 21.23
+ },
+ "deltas": {
+  "libertarian_utopia": -0.0,
+  "benevolent_dictator": -0.01,
+  "egalitarian_utopia": 0.0,
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.01,
+  "conquerors": 0.01,
+  "descendants": -0.0,
+  "zookeeper": 0.01,
+  "orwell_1984": -0.0,
+  "reversion": -0.01,
+  "self_destruction": -0.01
+ },
+ "targets": {
+  "libertarian_utopia": 26.65,
+  "benevolent_dictator": 26.01,
+  "egalitarian_utopia": 14.38,
+  "protector_god": 19.14,
+  "gatekeeper": 19.39,
+  "enslaved_god": 42.53,
+  "conquerors": 21.13,
+  "descendants": 19.84,
+  "zookeeper": 15.93,
+  "orwell_1984": 24.51,
+  "reversion": 4.64,
+  "self_destruction": 21.23
+ },
+ "momentum_7d": {
+  "libertarian_utopia": 0.08,
+  "benevolent_dictator": -0.04,
+  "egalitarian_utopia": -0.0,
+  "protector_god": 0.03,
+  "gatekeeper": 0.66,
+  "enslaved_god": 0.01,
+  "conquerors": 0.03,
+  "descendants": 0.07,
+  "zookeeper": 0.04,
+  "orwell_1984": 0.31,
+  "reversion": 0.91,
+  "self_destruction": -0.57
+ },
+ "factors": {
+  "F1": 76.6,
+  "F2": 49.14,
+  "F3": 43.51,
+  "F4": 23.29,
+  "F5": 66.76,
+  "F6": 45.97,
+  "F7": 33.01,
+  "F8": 57.71,
+  "F9": 42.71,
+  "F10": 20.25
+ },
+ "factor_deltas": {
+  "F1": -0.0,
+  "F2": 0.0,
+  "F3": -0.01,
+  "F4": -0.0,
+  "F5": 0.0,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": -0.01,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": 0.84,
+  "families": {
+   "flourishing": 21.54,
+   "contained": 30.96,
+   "successors": 18.97,
+   "stalled": 16.79
+  },
+  "news_heat": 0.0,
+  "evidence": "low",
+  "event_count": 0
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": -0.01,
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.01,
+  "conquerors": 0.01,
+  "zookeeper": 0.01,
+  "reversion": -0.01,
+  "self_destruction": -0.01
+ },
+ "summary": {
+  "headline": "Quiet Sunday as earlier news fades",
+  "body": "No new events were scored on this Sunday. Every ending moved by less than 0.1 point as the effect of earlier announcements, such as the week's data-center protests and Xi's cooperation body, faded by about 0.01 each. Horizon Balance eased to 0.84, and the world factors were unchanged.",
+  "movers_note": "No ending moved by 0.1 or more; the largest changes were -0.01 drifts in Benevolent Dictator, Protector God, Gatekeeper and Enslaved God from fading older news.",
+  "coming_up": []
+ },
+ "events": []
+}

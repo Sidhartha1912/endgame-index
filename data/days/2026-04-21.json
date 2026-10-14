@@ -1,0 +1,222 @@
+{
+ "date": "2026-04-21",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 28.76,
+  "benevolent_dictator": 20.39,
+  "egalitarian_utopia": 16.73,
+  "protector_god": 11.76,
+  "gatekeeper": 14.92,
+  "enslaved_god": 35.76,
+  "conquerors": 16.09,
+  "descendants": 12.52,
+  "zookeeper": 9.16,
+  "orwell_1984": 25.68,
+  "reversion": 6.28,
+  "self_destruction": 18.94
+ },
+ "deltas": {
+  "libertarian_utopia": -0.6,
+  "benevolent_dictator": -0.16,
+  "egalitarian_utopia": -0.55,
+  "protector_god": -0.7,
+  "gatekeeper": -0.45,
+  "enslaved_god": -0.36,
+  "conquerors": 0.71,
+  "descendants": 0.04,
+  "zookeeper": 0.43,
+  "orwell_1984": 0.52,
+  "reversion": 0.12,
+  "self_destruction": 0.76
+ },
+ "targets": {
+  "libertarian_utopia": 28.76,
+  "benevolent_dictator": 20.39,
+  "egalitarian_utopia": 16.73,
+  "protector_god": 11.76,
+  "gatekeeper": 14.92,
+  "enslaved_god": 35.76,
+  "conquerors": 16.09,
+  "descendants": 12.52,
+  "zookeeper": 9.16,
+  "orwell_1984": 25.68,
+  "reversion": 6.28,
+  "self_destruction": 18.94
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.27,
+  "benevolent_dictator": 0.34,
+  "egalitarian_utopia": -1.2,
+  "protector_god": -0.31,
+  "gatekeeper": -0.14,
+  "enslaved_god": 0.7,
+  "conquerors": 1.14,
+  "descendants": 0.51,
+  "zookeeper": 1.22,
+  "orwell_1984": 0.68,
+  "reversion": -0.22,
+  "self_destruction": 0.92
+ },
+ "factors": {
+  "F1": 68.85,
+  "F2": 45.0,
+  "F3": 41.31,
+  "F4": 25.0,
+  "F5": 62.99,
+  "F6": 45.6,
+  "F7": 34.59,
+  "F8": 55.6,
+  "F9": 40.54,
+  "F10": 20.01
+ },
+ "factor_deltas": {
+  "F1": 0.06,
+  "F2": 0.0,
+  "F3": -0.8,
+  "F4": 0.0,
+  "F5": 0.0,
+  "F6": 0.6,
+  "F7": 0.0,
+  "F8": 0.4,
+  "F9": -0.0,
+  "F10": 0.0
+ },
+ "composites": {
+  "horizon_balance": 1.94,
+  "families": {
+   "flourishing": 19.41,
+   "contained": 25.34,
+   "successors": 12.59,
+   "stalled": 16.97
+  },
+  "news_heat": 1.86,
+  "evidence": "medium",
+  "event_count": 3
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {},
+ "summary": {
+  "headline": "Unauthorized users reach Anthropic's withheld Mythos — darker endings rise",
+  "body": "The biggest single-day drop in mood so far. Bloomberg reported that a Discord group got into Claude Mythos Preview, a cyber-capable model Anthropic had deliberately withheld, through a third-party contractor's environment; Anthropic said its own systems were not affected. A restricted model leaking out weakens Alignment & Control and raises Catastrophic Risk, which lifts Self-Destruction and Conquerors and pulls down Protector God and Libertarian Utopia. In London, the High Court ruled the Met Police's live facial recognition policy lawful, though the claimants plan to appeal. That strengthens Surveillance & Control and pushes 1984 up. Alibaba also previewed its strongest model, Qwen 3.6-Max. Horizon Balance fell to +1.94, down 1.11.",
+  "movers_note": "Self-Destruction +0.8 and Conquerors +0.7 came from the Mythos unauthorized-access story (+0.76 and +0.68), which also drove Protector God -0.7; 1984 +0.5 came from the UK facial-recognition ruling (+0.54).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-04-21-01",
+   "title": "UK High Court upholds Met Police live facial recognition policy",
+   "summary": "The High Court dismissed the Thompson and Carlo (Big Brother Watch) judicial review, finding the Met's live facial recognition policy lawful; claimants plan to appeal.",
+   "category": "surveillance",
+   "factors": [
+    {
+     "id": "F6",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "UK",
+   "reason": "Court clears the way for wider police facial recognition; national precedent. Judgment dated 21 Apr per judiciary.uk summary (some coverage dated later).",
+   "sources": [
+    "https://www.judiciary.uk/wp-content/uploads/2026/04/Summary-of-judgment-Thomson-and-Carlo-v-Metropolitan-Police-Commmissioner-AC-2024-LON-001764-21-04-2026.pdf",
+    "https://www.computerweekly.com/news/366642736/UK-High-Court-dismisses-facial-recognition-judicial-review-case"
+   ],
+   "points": 0.6,
+   "contribution": {
+    "benevolent_dictator": 0.24,
+    "protector_god": -0.18,
+    "orwell_1984": 0.54
+   },
+   "factor_effect": {
+    "F6": 0.6
+   }
+  },
+  {
+   "id": "2026-04-21-02",
+   "title": "Unauthorized users accessed Anthropic's restricted Claude Mythos Preview",
+   "summary": "Bloomberg reported a Discord group gained access to the withheld cyber-capable Mythos Preview via a third-party contractor environment; Anthropic said its own systems were not affected.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": -1
+    },
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Containment failure for a model deliberately withheld for cyber-risk reasons.",
+   "sources": [
+    "https://news.bloomberglaw.com/us-law-week/anthropics-mythos-model-is-being-accessed-by-unauthorized-users",
+    "https://www.businesstoday.in/amp/technology/story/anthropics-mythos-breached-unauthorized-access-raises-security-concerns-526878-2026-04-22"
+   ],
+   "points": 0.8,
+   "contribution": {
+    "libertarian_utopia": -0.6,
+    "benevolent_dictator": -0.4,
+    "egalitarian_utopia": -0.56,
+    "protector_god": -0.56,
+    "gatekeeper": -0.48,
+    "enslaved_god": -0.4,
+    "conquerors": 0.68,
+    "zookeeper": 0.4,
+    "reversion": 0.16,
+    "self_destruction": 0.76
+   },
+   "factor_effect": {
+    "F3": -0.8,
+    "F8": 0.4
+   }
+  },
+  {
+   "id": "2026-04-21-03",
+   "title": "Alibaba releases Qwen 3.6-Max-Preview, its most powerful model",
+   "summary": "Alibaba previewed proprietary Qwen 3.6-Max aimed at coding and agentic tasks for enterprise customers.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "China",
+   "reason": "Incremental Chinese frontier model update; self-reported.",
+   "sources": [
+    "https://decrypt.co/364948/alibaba-qwen-3-6-max-preview-most-powerful-model"
+   ],
+   "points": 0.06,
+   "contribution": {
+    "protector_god": 0.03,
+    "gatekeeper": 0.03,
+    "enslaved_god": 0.04,
+    "conquerors": 0.03,
+    "descendants": 0.04,
+    "zookeeper": 0.03,
+    "orwell_1984": -0.02,
+    "reversion": -0.04
+   },
+   "factor_effect": {
+    "F1": 0.06
+   }
+  }
+ ]
+}

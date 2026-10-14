@@ -1,0 +1,280 @@
+{
+ "date": "2026-09-10",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 21.8,
+  "benevolent_dictator": 25.05,
+  "egalitarian_utopia": 9.8,
+  "protector_god": 19.88,
+  "gatekeeper": 20.47,
+  "enslaved_god": 42.67,
+  "conquerors": 30.28,
+  "descendants": 25.06,
+  "zookeeper": 23.46,
+  "orwell_1984": 23.0,
+  "reversion": 3.69,
+  "self_destruction": 26.53
+ },
+ "deltas": {
+  "libertarian_utopia": 0.2,
+  "benevolent_dictator": -0.03,
+  "egalitarian_utopia": 0.05,
+  "protector_god": 0.09,
+  "gatekeeper": 0.09,
+  "enslaved_god": -0.06,
+  "conquerors": -0.12,
+  "descendants": -0.02,
+  "zookeeper": -0.17,
+  "orwell_1984": -0.07,
+  "reversion": 0.05,
+  "self_destruction": -0.07
+ },
+ "targets": {
+  "libertarian_utopia": 21.8,
+  "benevolent_dictator": 25.05,
+  "egalitarian_utopia": 9.8,
+  "protector_god": 19.88,
+  "gatekeeper": 20.47,
+  "enslaved_god": 42.67,
+  "conquerors": 30.28,
+  "descendants": 25.06,
+  "zookeeper": 23.46,
+  "orwell_1984": 23.0,
+  "reversion": 3.69,
+  "self_destruction": 26.53
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.52,
+  "benevolent_dictator": -0.82,
+  "egalitarian_utopia": -0.68,
+  "protector_god": -0.2,
+  "gatekeeper": -0.38,
+  "enslaved_god": -0.56,
+  "conquerors": 2.09,
+  "descendants": 1.2,
+  "zookeeper": 1.4,
+  "orwell_1984": -0.71,
+  "reversion": -0.5,
+  "self_destruction": 1.24
+ },
+ "factors": {
+  "F1": 82.21,
+  "F2": 52.09,
+  "F3": 38.1,
+  "F4": 24.99,
+  "F5": 67.37,
+  "F6": 45.13,
+  "F7": 32.77,
+  "F8": 61.34,
+  "F9": 43.69,
+  "F10": 20.34
+ },
+ "factor_deltas": {
+  "F1": -0.02,
+  "F2": -0.0,
+  "F3": 0.15,
+  "F4": 0.0,
+  "F5": -0.21,
+  "F6": 0.0,
+  "F7": -0.15,
+  "F8": -0.0,
+  "F9": 0.04,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": -6.69,
+  "families": {
+   "flourishing": 19.13,
+   "contained": 31.57,
+   "successors": 26.27,
+   "stalled": 17.74
+  },
+  "news_heat": 0.85,
+  "evidence": "low",
+  "event_count": 5
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "protector_god": -0.01,
+  "enslaved_god": -0.01,
+  "conquerors": -0.01,
+  "descendants": -0.02,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.01,
+  "self_destruction": -0.01
+ },
+ "summary": {
+  "headline": "Paul Christiano joins OpenAI's safety committee; DeepSeek opens V4.1-Flash",
+  "body": "A calmer day with partial recovery. Loss-of-control researcher Paul Christiano joined the OpenAI Foundation board and its safety committee, a small boost to Alignment & Control that trimmed Conquerors and Zookeeper. DeepSeek's MIT-licensed V4.1-Flash release eased Power Concentration, helping Libertarian Utopia. But an Anthropic scenario in which labour's share of income falls from about 60% to 45% weighed on Shared Prosperity and Egalitarian Utopia, offset by Suno paying rightsholders under its new licensed model. Horizon Balance rose to -6.69; Descendants moved above Benevolent Dictator.",
+  "movers_note": "Libertarian Utopia +0.2 from DeepSeek V4.1-Flash (+0.13) and Christiano's appointment (+0.07); Zookeeper -0.2 from the same two stories (-0.08, -0.07); Conquerors -0.1 from Christiano (-0.10).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-09-10-01",
+   "title": "Paul Christiano joins OpenAI Foundation board and safety committee",
+   "summary": "Loss-of-control researcher Paul Christiano joined the OpenAI Foundation board and its Safety and Security Committee, warning the industry is not on track.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Adds safety expertise to governance.",
+   "sources": [
+    "https://aiweekly.co/alerts/paul-christiano-joins-openai-foundation-board-and-safety-committee-warns-of"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "libertarian_utopia": 0.07,
+    "benevolent_dictator": 0.07,
+    "egalitarian_utopia": 0.07,
+    "protector_god": 0.1,
+    "gatekeeper": 0.09,
+    "enslaved_god": 0.07,
+    "conquerors": -0.1,
+    "zookeeper": -0.07,
+    "self_destruction": -0.06
+   },
+   "factor_effect": {
+    "F3": 0.15
+   }
+  },
+  {
+   "id": "2026-09-10-02",
+   "title": "Anthropic scenario: AI boom could cut labour's income share to 45%",
+   "summary": "Anthropic modelled an extreme case where US GDP is 32% higher by 2030 while labour's share of income falls from about 60% to 45%.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F7",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "US",
+   "reason": "Scenario, not forecast; signal about distribution.",
+   "sources": [
+    "https://aiweekly.co/alerts/anthropic-model-sees-labor-share-at-452-in-extreme-ai-case"
+   ],
+   "points": 0.3,
+   "contribution": {
+    "egalitarian_utopia": -0.21
+   },
+   "factor_effect": {
+    "F7": -0.3
+   }
+  },
+  {
+   "id": "2026-09-10-03",
+   "title": "Massachusetts requires local approval and clean power for big data centers",
+   "summary": "Executive Order 658 blocks state permits for data centres over 25MW unless they meet a state framework, cover clean-power costs and sign community-benefit agreements.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "local",
+   "track": "structural",
+   "region": "US",
+   "reason": "State response to data-centre backlash.",
+   "sources": [
+    "https://aiweekly.co/alerts/massachusetts-orders-data-centers-over-25mw-to-bring-their-own-100-clean-power"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "reversion": 0.04
+   },
+   "factor_effect": {
+    "F9": 0.04
+   }
+  },
+  {
+   "id": "2026-09-10-04",
+   "title": "DeepSeek releases V4.1-Flash open weights with 1M context",
+   "summary": "DeepSeek posted an MIT-licensed 552B multimodal MoE model with 8B active parameters and a one-million-token context.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "Strong open-weights release; vendor benchmarks.",
+   "sources": [
+    "https://aiweekly.co/alerts/deepseek-posts-v41-flash-552b-moe-8b-active-1m-context"
+   ],
+   "points": 0.21,
+   "contribution": {
+    "libertarian_utopia": 0.13,
+    "benevolent_dictator": -0.1,
+    "egalitarian_utopia": 0.08,
+    "enslaved_god": -0.13,
+    "zookeeper": -0.08,
+    "orwell_1984": -0.08
+   },
+   "factor_effect": {
+    "F5": -0.21
+   }
+  },
+  {
+   "id": "2026-09-10-05",
+   "title": "Suno v6 launches with licensed label catalogs and rightsholder payments",
+   "summary": "Suno's new model was built with Warner Music Group, BMG and Believe, and begins paying participating rightsholders.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F7",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Revenue sharing with creators.",
+   "sources": [
+    "https://aiweekly.co/alerts/suno-launches-v6-with-warner-music-bmg-and-believe-partnerships-begins-paying"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "egalitarian_utopia": 0.1
+   },
+   "factor_effect": {
+    "F7": 0.15
+   }
+  }
+ ]
+}

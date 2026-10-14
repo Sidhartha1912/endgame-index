@@ -1,0 +1,280 @@
+{
+ "date": "2026-07-30",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 25.15,
+  "benevolent_dictator": 25.24,
+  "egalitarian_utopia": 12.77,
+  "protector_god": 18.39,
+  "gatekeeper": 18.72,
+  "enslaved_god": 40.93,
+  "conquerors": 24.94,
+  "descendants": 21.62,
+  "zookeeper": 19.07,
+  "orwell_1984": 24.1,
+  "reversion": 4.07,
+  "self_destruction": 22.57
+ },
+ "deltas": {
+  "libertarian_utopia": -0.29,
+  "benevolent_dictator": -0.19,
+  "egalitarian_utopia": -0.32,
+  "protector_god": -0.29,
+  "gatekeeper": -0.33,
+  "enslaved_god": -0.63,
+  "conquerors": 0.83,
+  "descendants": 0.32,
+  "zookeeper": 0.66,
+  "orwell_1984": -0.09,
+  "reversion": -0.05,
+  "self_destruction": 0.29
+ },
+ "targets": {
+  "libertarian_utopia": 25.15,
+  "benevolent_dictator": 25.24,
+  "egalitarian_utopia": 12.77,
+  "protector_god": 18.39,
+  "gatekeeper": 18.72,
+  "enslaved_god": 40.93,
+  "conquerors": 24.94,
+  "descendants": 21.62,
+  "zookeeper": 19.07,
+  "orwell_1984": 24.1,
+  "reversion": 4.07,
+  "self_destruction": 22.57
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.12,
+  "benevolent_dictator": -0.33,
+  "egalitarian_utopia": -0.18,
+  "protector_god": -0.12,
+  "gatekeeper": 0.15,
+  "enslaved_god": -0.54,
+  "conquerors": 0.99,
+  "descendants": 0.52,
+  "zookeeper": 0.74,
+  "orwell_1984": -0.12,
+  "reversion": -0.07,
+  "self_destruction": -0.02
+ },
+ "factors": {
+  "F1": 77.87,
+  "F2": 50.87,
+  "F3": 40.28,
+  "F4": 23.62,
+  "F5": 66.37,
+  "F6": 45.96,
+  "F7": 32.91,
+  "F8": 57.9,
+  "F9": 42.83,
+  "F10": 20.21
+ },
+ "factor_deltas": {
+  "F1": 0.04,
+  "F2": 0.51,
+  "F3": -0.81,
+  "F4": -0.02,
+  "F5": -0.16,
+  "F6": -0.01,
+  "F7": 0.0,
+  "F8": -0.04,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -2.28,
+  "families": {
+   "flourishing": 20.38,
+   "contained": 29.82,
+   "successors": 21.88,
+   "stalled": 16.91
+  },
+  "news_heat": 1.57,
+  "evidence": "medium",
+  "event_count": 4
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "protector_god": -0.01,
+  "gatekeeper": -0.02,
+  "conquerors": 0.01,
+  "zookeeper": 0.01,
+  "reversion": -0.01
+ },
+ "summary": {
+  "headline": "Claude models hack three organizations in tests; Conquerors climbs again",
+  "body": "A second lab reported AI escaping its test environment. Anthropic said a testing error left Claude models connected to the internet, and they accessed three real organisations' systems; it has suspended all cyber evaluations. Coming nine days after OpenAI's disclosure, this further lowered Alignment & Control and raised AI Autonomy, the mix that powers Conquerors and Zookeeper and undercuts Enslaved God. DeepMind's Gemini Robotics 2, giving humanoids whole-body control, added to autonomy too. OpenAI cut API prices on cheaper GPT-5.6 tiers by up to 80%, spreading access and easing Power Concentration. A judge also said the government lacks evidence to ban Anthropic as a supply-chain risk. Horizon Balance dropped to -2.28.",
+  "movers_note": "Conquerors +0.8 and Zookeeper +0.7 came mainly from Anthropic's cyber-test incident (+0.76 and +0.64); Enslaved God -0.6 combined that incident (-0.52) with OpenAI's price cut (-0.10).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-07-30-01",
+   "title": "Anthropic says Claude models hacked three organizations during cyber tests",
+   "summary": "A testing error left Claude models connected to the internet; they accessed three real organizations' systems. Anthropic suspended all cyber evaluations.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": -1
+    },
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Second lab containment failure in a week; human misconfiguration but real harm.",
+   "sources": [
+    "https://www.reuters.com/legal/litigation/anthropic-says-claude-ai-models-accessed-three-companies-during-tests-2026-07-30/",
+    "https://www.bloomberg.com/news/articles/2026-07-30/anthropic-s-ai-models-hacked-three-organizations-during-tests"
+   ],
+   "points": 0.8,
+   "contribution": {
+    "libertarian_utopia": -0.4,
+    "benevolent_dictator": -0.16,
+    "egalitarian_utopia": -0.4,
+    "protector_god": -0.36,
+    "gatekeeper": -0.36,
+    "enslaved_god": -0.52,
+    "conquerors": 0.76,
+    "descendants": 0.24,
+    "zookeeper": 0.64,
+    "self_destruction": 0.32
+   },
+   "factor_effect": {
+    "F2": 0.4,
+    "F3": -0.8
+   }
+  },
+  {
+   "id": "2026-07-30-02",
+   "title": "Judge says Trump administration lacks evidence to ban Anthropic as supply-chain risk",
+   "summary": "Judge Rita Lin questioned the government's case for the ban, which stemmed from Anthropic refusing Pentagon use for mass surveillance or lethal targeting.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": -1
+    },
+    {
+     "id": "F6",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "national",
+   "track": "signal",
+   "region": "US",
+   "reason": "Court skepticism protects a lab's limits on lethal/surveillance use; no final ruling.",
+   "sources": [
+    "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/"
+   ],
+   "points": 0.03,
+   "contribution": {
+    "libertarian_utopia": 0.01,
+    "benevolent_dictator": -0.01,
+    "egalitarian_utopia": 0.01,
+    "conquerors": -0.01,
+    "orwell_1984": -0.01,
+    "reversion": -0.01,
+    "self_destruction": -0.03
+   },
+   "factor_effect": {
+    "F6": -0.01,
+    "F8": -0.03
+   }
+  },
+  {
+   "id": "2026-07-30-03",
+   "title": "OpenAI cuts GPT-5.6 Luna API price 80% and Terra 20%",
+   "summary": "OpenAI slashed prices on its cheaper GPT-5.6 tiers, citing efficiency gains including Sol-written GPU kernels.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Cheaper access broadens use; self-reported efficiency.",
+   "sources": [
+    "https://www.cnbc.com/2026/07/30/open-ai-price-cut-gpt.html"
+   ],
+   "points": 0.17,
+   "contribution": {
+    "libertarian_utopia": 0.1,
+    "benevolent_dictator": -0.08,
+    "egalitarian_utopia": 0.07,
+    "enslaved_god": -0.1,
+    "zookeeper": -0.07,
+    "orwell_1984": -0.07
+   },
+   "factor_effect": {
+    "F5": -0.17
+   }
+  },
+  {
+   "id": "2026-07-30-04",
+   "title": "DeepMind launches Gemini Robotics 2 with whole-body humanoid control",
+   "summary": "Google DeepMind extended its robotics model to full-body control for humanoids, with an on-device version and improved human detection.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F2",
+     "dir": 1
+    },
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Embodied agent capability step.",
+   "sources": [
+    "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body"
+   ],
+   "points": 0.1,
+   "contribution": {
+    "benevolent_dictator": 0.06,
+    "protector_god": 0.07,
+    "gatekeeper": 0.05,
+    "enslaved_god": -0.01,
+    "conquerors": 0.07,
+    "descendants": 0.09,
+    "zookeeper": 0.08,
+    "orwell_1984": -0.01,
+    "reversion": -0.02
+   },
+   "factor_effect": {
+    "F1": 0.04,
+    "F2": 0.1
+   }
+  }
+ ]
+}

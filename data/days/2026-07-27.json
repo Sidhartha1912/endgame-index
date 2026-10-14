@@ -1,0 +1,201 @@
+{
+ "date": "2026-07-27",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 25.61,
+  "benevolent_dictator": 25.57,
+  "egalitarian_utopia": 13.25,
+  "protector_god": 18.9,
+  "gatekeeper": 18.9,
+  "enslaved_god": 41.71,
+  "conquerors": 23.89,
+  "descendants": 21.29,
+  "zookeeper": 18.23,
+  "orwell_1984": 23.99,
+  "reversion": 3.89,
+  "self_destruction": 22.41
+ },
+ "deltas": {
+  "libertarian_utopia": 0.2,
+  "benevolent_dictator": 0.04,
+  "egalitarian_utopia": 0.18,
+  "protector_god": 0.19,
+  "gatekeeper": 0.16,
+  "enslaved_god": 0.06,
+  "conquerors": -0.13,
+  "descendants": 0.03,
+  "zookeeper": -0.14,
+  "orwell_1984": -0.07,
+  "reversion": -0.04,
+  "self_destruction": -0.1
+ },
+ "targets": {
+  "libertarian_utopia": 25.61,
+  "benevolent_dictator": 25.57,
+  "egalitarian_utopia": 13.25,
+  "protector_god": 18.9,
+  "gatekeeper": 18.9,
+  "enslaved_god": 41.71,
+  "conquerors": 23.89,
+  "descendants": 21.29,
+  "zookeeper": 18.23,
+  "orwell_1984": 23.99,
+  "reversion": 3.89,
+  "self_destruction": 22.41
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.95,
+  "benevolent_dictator": -0.37,
+  "egalitarian_utopia": -1.07,
+  "protector_god": -0.24,
+  "gatekeeper": -0.48,
+  "enslaved_god": -0.71,
+  "conquerors": 2.65,
+  "descendants": 1.44,
+  "zookeeper": 2.34,
+  "orwell_1984": -0.46,
+  "reversion": -0.79,
+  "self_destruction": 0.8
+ },
+ "factors": {
+  "F1": 77.84,
+  "F2": 50.36,
+  "F3": 41.42,
+  "F4": 23.15,
+  "F5": 66.52,
+  "F6": 45.97,
+  "F7": 32.89,
+  "F8": 57.96,
+  "F9": 42.6,
+  "F10": 20.22
+ },
+ "factor_deltas": {
+  "F1": 0.06,
+  "F2": 0.0,
+  "F3": 0.23,
+  "F4": -0.0,
+  "F5": -0.14,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": -0.01,
+  "F9": -0.0,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -1.3,
+  "families": {
+   "flourishing": 20.83,
+   "contained": 30.31,
+   "successors": 21.14,
+   "stalled": 16.76
+  },
+  "news_heat": 0.47,
+  "evidence": "low",
+  "event_count": 2
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "conquerors": 0.01,
+  "zookeeper": 0.01,
+  "reversion": -0.01,
+  "self_destruction": -0.01
+ },
+ "summary": {
+  "headline": "Nvidia forms open AI-security alliance; Kimi K3 weights released",
+  "body": "Two stories tilted the day toward the brighter endings. Nvidia launched the Open Secure AI Alliance, a 30-plus member group including Microsoft, IBM and Hugging Face, to build open AI cybersecurity tools after the OpenAI breach; OpenAI, Google and Anthropic were absent. That is a modest boost to Alignment & Control, which helps Protector God and Gatekeeper and pulls Conquerors back. Moonshot also published the full Kimi K3 weights under a modified MIT license, letting anyone self-host a near-frontier model. Spreading capability widely reduces Power Concentration, which helps Libertarian Utopia and Egalitarian Utopia and trims 1984 and Benevolent Dictator. Horizon Balance recovered to -1.30.",
+  "movers_note": "Libertarian Utopia +0.2 came from the Nvidia alliance (+0.12) and the Kimi K3 weights (+0.09); Protector God +0.2 came mainly from the alliance (+0.17); Egalitarian Utopia +0.2 split +0.12/+0.06 between them.",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-07-27-01",
+   "title": "Nvidia launches Open Secure AI Alliance; OpenAI, Google, Anthropic absent",
+   "summary": "Nvidia formed a 30+ member coalition with Microsoft, IBM, Hugging Face and others to build open AI cybersecurity tools after the OpenAI breach.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Industry defensive coordination; modest.",
+   "sources": [
+    "https://www.cnbc.com/2026/07/27/nvidia-ai-initiative-openai-cyber-attack.html",
+    "https://blogs.nvidia.com/blog/open-secure-ai-alliance/"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "libertarian_utopia": 0.12,
+    "benevolent_dictator": 0.12,
+    "egalitarian_utopia": 0.12,
+    "protector_god": 0.17,
+    "gatekeeper": 0.14,
+    "enslaved_god": 0.12,
+    "conquerors": -0.17,
+    "zookeeper": -0.12,
+    "self_destruction": -0.1
+   },
+   "factor_effect": {
+    "F3": 0.24
+   }
+  },
+  {
+   "id": "2026-07-27-02",
+   "title": "Moonshot releases Kimi K3 open weights",
+   "summary": "Moonshot published the 2.8-trillion-parameter Kimi K3 weights under a modified MIT license, letting organisations self-host a near-frontier model.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    },
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "Strong open-weights release narrows gap to closed frontier.",
+   "sources": [
+    "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "libertarian_utopia": 0.09,
+    "benevolent_dictator": -0.07,
+    "egalitarian_utopia": 0.06,
+    "protector_god": 0.03,
+    "gatekeeper": 0.02,
+    "enslaved_god": -0.06,
+    "conquerors": 0.03,
+    "descendants": 0.03,
+    "zookeeper": -0.03,
+    "orwell_1984": -0.08,
+    "reversion": -0.03
+   },
+   "factor_effect": {
+    "F1": 0.06,
+    "F5": -0.15
+   }
+  }
+ ]
+}

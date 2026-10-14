@@ -1,0 +1,124 @@
+[
+ {
+  "id": "2026-06-01-01",
+  "title": "Florida sues OpenAI and Sam Altman over ChatGPT safety",
+  "summary": "Florida AG James Uthmeier filed the first state lawsuit against OpenAI over ChatGPT, alleging it concealed risks, aided the FSU shooter and encouraged suicides, and seeking personal liability for Altman and penalties up to billions.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   },
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "State legal backlash against a frontier lab; accountability pressure on safety.",
+  "sources": [
+   "https://www.npr.org/2026/06/01/nx-s1-5843132/openai-florida-lawsuit-safety-chatgpt",
+   "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/"
+  ]
+ },
+ {
+  "id": "2026-06-01-02",
+  "title": "Anthropic confidentially files draft S-1 for IPO",
+  "summary": "Anthropic confidentially filed a draft S-1 with the SEC after a $65B Series H at $965B post-money, with run-rate revenue reportedly ~$47B and a $1.25B/month compute deal with SpaceX.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Frontier lab scale and capital concentration; huge exclusive compute commitment.",
+  "sources": [
+   "https://www.anthropic.com/news/confidential-draft-s1-sec",
+   "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/"
+  ]
+ },
+ {
+  "id": "2026-06-01-03",
+  "title": "Nvidia unveils RTX Spark Arm superchip for Windows PCs at Computex",
+  "summary": "At Computex in Taipei, Nvidia announced RTX Spark, an Arm-based chip for Windows laptops built with Microsoft to run large local AI models.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Other",
+  "reason": "Local AI compute spreads to PCs; minor decentralising effect.",
+  "sources": [
+   "https://www.cnbc.com/2026/06/02/nvidias-new-pc-chips-are-ceos-bid-to-own-every-part-of-ai-stack.html",
+   "https://www.reuters.com/world/asia-pacific/what-are-ai-pcs-that-nvidias-jensen-huang-is-betting-2026-06-01/"
+  ]
+ },
+ {
+  "id": "2026-06-01-04",
+  "title": "Canada unveils national AI sovereignty strategy",
+  "summary": "PM Mark Carney's plan aims to cut reliance on foreign AI platforms and cloud, with domestic investment, a Canadian supercomputer, privacy protections and AI literacy.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "Other",
+  "reason": "Middle power builds sovereign capacity, diluting US-lab dominance. Exact date not confirmed (AP, week of ~May 29-Jun 5).",
+  "sources": [
+   "https://apnews.com/article/canada-carney-artificial-intelligence-d8dfba818b84ccf5947f941731829254"
+  ]
+ },
+ {
+  "id": "2026-06-01-05",
+  "title": "New York teachers' union seeks ban on student-facing AI for young children",
+  "summary": "NYSUT proposed banning student-facing AI in pre-K to grade 2 and companion chatbots for under-16s.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "local",
+  "track": "structural",
+  "region": "US",
+  "reason": "Local organised pushback.",
+  "sources": [
+   "https://yonkerstimes.com/nysut-calls-for-limits-on-screen-time-student-facing-ai-in-schools/"
+  ]
+ }
+]

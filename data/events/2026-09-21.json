@@ -1,0 +1,82 @@
+[
+ {
+  "id": "2026-09-21-01",
+  "title": "OpenAI says internal model resolved 100+ open math problems; forms IAS advisory group",
+  "summary": "OpenAI said an internal model resolved more than 100 additional open problems and set up a nine-member Advisory Group on Mathematics and AI at Princeton's IAS to assess results.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Claimed research-level capability jump; mostly company claim, advisory group confirmed by Terence Tao's blog.",
+  "sources": [
+   "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
+   "https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence/"
+  ]
+ },
+ {
+  "id": "2026-09-21-02",
+  "title": "Xiaomi open-sources 1T-parameter MiMo-V2.6-Pro under MIT license",
+  "summary": "Xiaomi released weights, code and a technical report for MiMo-V2.6-Pro-RL, a 1.02T-parameter MoE that scored 46 on Artificial Analysis' Intelligence Index, matching xAI's Grok 4.7.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   },
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Strong open-weights release from China spreads capability.",
+  "sources": [
+   "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL/blob/main/MiMo_V2_6_technical_report.pdf",
+   "https://venturebeat.com/technology/better-than-deepseek-xiaomis-mimo-v2-6-pro-debuts-as-the-top-open-weights-model-in-the-world-alongside-cheaper-v2-6-flash"
+  ]
+ },
+ {
+  "id": "2026-09-21-03",
+  "title": "UN scientific panel warns safeguards for AI agents are unravelling",
+  "summary": "The UN Independent International Scientific Panel on AI issued its first thematic brief, warning that safeguards for capable AI agents are not keeping pace and invoking a precautionary approach to loss-of-control risk.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   },
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Global",
+  "reason": "First output of UN scientific panel; authoritative global warning on control risk.",
+  "sources": [
+   "https://news.un.org/en/story/2026/09/1168380",
+   "https://www.un.org/independent-international-scientific-panel-ai/en/thematic-briefs/ai-agents-misalignment-risks"
+  ]
+ }
+]

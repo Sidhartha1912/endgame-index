@@ -1,0 +1,150 @@
+{
+ "date": "2026-04-27",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 29.3,
+  "benevolent_dictator": 20.25,
+  "egalitarian_utopia": 16.59,
+  "protector_god": 12.6,
+  "gatekeeper": 15.07,
+  "enslaved_god": 35.59,
+  "conquerors": 16.93,
+  "descendants": 13.37,
+  "zookeeper": 9.66,
+  "orwell_1984": 24.69,
+  "reversion": 5.63,
+  "self_destruction": 19.27
+ },
+ "deltas": {
+  "libertarian_utopia": 0.24,
+  "benevolent_dictator": -0.2,
+  "egalitarian_utopia": 0.16,
+  "protector_god": 0.0,
+  "gatekeeper": -0.46,
+  "enslaved_god": -0.24,
+  "conquerors": 0.0,
+  "descendants": 0.0,
+  "zookeeper": -0.16,
+  "orwell_1984": -0.42,
+  "reversion": -0.0,
+  "self_destruction": 0.33
+ },
+ "targets": {
+  "libertarian_utopia": 29.3,
+  "benevolent_dictator": 20.25,
+  "egalitarian_utopia": 16.59,
+  "protector_god": 12.6,
+  "gatekeeper": 15.07,
+  "enslaved_god": 35.59,
+  "conquerors": 16.93,
+  "descendants": 13.37,
+  "zookeeper": 9.66,
+  "orwell_1984": 24.69,
+  "reversion": 5.63,
+  "self_destruction": 19.27
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.06,
+  "benevolent_dictator": -0.3,
+  "egalitarian_utopia": -0.69,
+  "protector_god": 0.14,
+  "gatekeeper": -0.3,
+  "enslaved_god": -0.52,
+  "conquerors": 1.55,
+  "descendants": 0.89,
+  "zookeeper": 0.92,
+  "orwell_1984": -0.47,
+  "reversion": -0.53,
+  "self_destruction": 1.09
+ },
+ "factors": {
+  "F1": 69.91,
+  "F2": 45.62,
+  "F3": 41.31,
+  "F4": 24.34,
+  "F5": 61.97,
+  "F6": 45.6,
+  "F7": 33.81,
+  "F8": 55.6,
+  "F9": 40.53,
+  "F10": 19.81
+ },
+ "factor_deltas": {
+  "F1": 0.0,
+  "F2": 0.0,
+  "F3": 0.0,
+  "F4": -0.66,
+  "F5": -0.4,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": 0.0,
+  "F9": -0.0,
+  "F10": 0.0
+ },
+ "composites": {
+  "horizon_balance": 2.05,
+  "families": {
+   "flourishing": 19.69,
+   "contained": 25.33,
+   "successors": 13.32,
+   "stalled": 16.53
+  },
+  "news_heat": 1.2,
+  "evidence": "medium",
+  "event_count": 1
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {},
+ "summary": {
+  "headline": "China blocks Meta's Manus deal, deepening the US-China split",
+  "body": "One geopolitical story moved the board. Chinese authorities blocked Meta from buying Manus, a Chinese-founded AI agent startup, widening the gap between the US and Chinese AI worlds. That weakens Global Coordination, the factor that measures whether nations act together, which hurts Gatekeeper (a world that jointly caps AI) and 1984, and lifts Self-Destruction, where rivalry wins out. Because the block also stops a big company growing bigger, Power Concentration dipped, giving Libertarian Utopia a small lift. It is a reminder that rivalry can cut both ways: less cooperation, but also less consolidation. Horizon Balance rose to +2.05, up 0.11.",
+  "movers_note": "Gatekeeper -0.5, 1984 -0.4 and Self-Destruction +0.3, all from China blocking Meta's Manus acquisition (-0.46, -0.42 and +0.33).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-04-27-01",
+   "title": "China blocks Meta's acquisition of AI agent startup Manus",
+   "summary": "Chinese authorities blocked Meta from acquiring Manus, the Chinese-founded AI agent startup, deepening US-China AI decoupling.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": -1
+    },
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "State intervention against cross-border AI M&A signals rivalry over coordination; also blocks a big-tech acquisition.",
+   "sources": [
+    "https://www.bnnbloomberg.ca/business/2026/04/27/china-blocks-meta-from-acquiring-ai-startup-manus/",
+    "https://www.kunc.org/npr-news/2026-04-27/china-blocks-meta-from-acquiring-ai-startup-manus"
+   ],
+   "points": 0.8,
+   "contribution": {
+    "libertarian_utopia": 0.24,
+    "benevolent_dictator": -0.2,
+    "egalitarian_utopia": 0.16,
+    "gatekeeper": -0.46,
+    "enslaved_god": -0.24,
+    "zookeeper": -0.16,
+    "orwell_1984": -0.42,
+    "self_destruction": 0.33
+   },
+   "factor_effect": {
+    "F4": -0.66,
+    "F5": -0.4
+   }
+  }
+ ]
+}

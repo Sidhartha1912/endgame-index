@@ -1,0 +1,27 @@
+[
+ {
+  "id": "2026-06-07-01",
+  "title": "Nvidia deepens Korea ties: SK hynix memory and NAVER gigawatt AI build",
+  "summary": "Nvidia announced next-gen memory co-development with SK hynix and NAVER plans to scale AI infrastructure from 55MW to gigawatt level in South Korea; Hyundai partnership on robotics followed June 8.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Other",
+  "reason": "Compute expansion outside US.",
+  "sources": [
+   "https://nvidianews.nvidia.com/news/naver-ai-infrastructure",
+   "https://nvidianews.nvidia.com/news/sk-hynix-ai-factory",
+   "https://www.bloomberg.com/news/articles/2026-06-08/nvidia-hyundai-deepen-joint-push-into-ai-powered-robotics"
+  ]
+ }
+]

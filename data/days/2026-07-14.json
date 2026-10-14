@@ -1,0 +1,222 @@
+{
+ "date": "2026-07-14",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 26.61,
+  "benevolent_dictator": 26.07,
+  "egalitarian_utopia": 14.36,
+  "protector_god": 19.14,
+  "gatekeeper": 18.86,
+  "enslaved_god": 42.54,
+  "conquerors": 21.06,
+  "descendants": 19.77,
+  "zookeeper": 15.87,
+  "orwell_1984": 24.26,
+  "reversion": 4.22,
+  "self_destruction": 21.67
+ },
+ "deltas": {
+  "libertarian_utopia": 0.04,
+  "benevolent_dictator": 0.03,
+  "egalitarian_utopia": -0.02,
+  "protector_god": 0.04,
+  "gatekeeper": 0.14,
+  "enslaved_god": 0.03,
+  "conquerors": -0.05,
+  "descendants": -0.0,
+  "zookeeper": -0.03,
+  "orwell_1984": 0.06,
+  "reversion": 0.47,
+  "self_destruction": -0.12
+ },
+ "targets": {
+  "libertarian_utopia": 26.61,
+  "benevolent_dictator": 26.07,
+  "egalitarian_utopia": 14.36,
+  "protector_god": 19.14,
+  "gatekeeper": 18.86,
+  "enslaved_god": 42.54,
+  "conquerors": 21.06,
+  "descendants": 19.77,
+  "zookeeper": 15.87,
+  "orwell_1984": 24.26,
+  "reversion": 4.22,
+  "self_destruction": 21.67
+ },
+ "momentum_7d": {
+  "libertarian_utopia": 0.03,
+  "benevolent_dictator": 0.09,
+  "egalitarian_utopia": -0.02,
+  "protector_god": 0.19,
+  "gatekeeper": 0.25,
+  "enslaved_god": 0.07,
+  "conquerors": 0.3,
+  "descendants": 0.31,
+  "zookeeper": 0.33,
+  "orwell_1984": 0.01,
+  "reversion": 0.29,
+  "self_destruction": -0.18
+ },
+ "factors": {
+  "F1": 76.52,
+  "F2": 49.14,
+  "F3": 43.58,
+  "F4": 22.52,
+  "F5": 66.8,
+  "F6": 45.99,
+  "F7": 33.0,
+  "F8": 57.79,
+  "F9": 42.22,
+  "F10": 20.22
+ },
+ "factor_deltas": {
+  "F1": -0.0,
+  "F2": 0.0,
+  "F3": 0.06,
+  "F4": 0.15,
+  "F5": -0.0,
+  "F6": 0.0,
+  "F7": -0.09,
+  "F8": -0.02,
+  "F9": 0.47,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": 0.83,
+  "families": {
+   "flourishing": 21.54,
+   "contained": 30.7,
+   "successors": 18.9,
+   "stalled": 16.72
+  },
+  "news_heat": 0.79,
+  "evidence": "medium",
+  "event_count": 3
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": -0.01,
+  "protector_god": -0.01,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.01,
+  "zookeeper": 0.01,
+  "reversion": -0.01,
+  "self_destruction": -0.01
+ },
+ "summary": {
+  "headline": "New York pauses big data centers; Reversion ticks up",
+  "body": "A modest day with three stories. New York became the first US state to pause permits for large data centers, using an executive order on sites of 50 MW or more while regulators write standards. That is a concrete sign of Tech Backlash, the factor that feeds Reversion, the ending where people turn away from advanced technology. Separately, DeepMind's Demis Hassabis proposed an independent, industry-funded body that would review frontier models up to 30 days before release. It is only a proposal, so it counted lightly, but it nudged Global Coordination and Alignment & Control up, which helps Gatekeeper and eases Self-Destruction. A lawsuit from 26 former Meta staff, alleging AI-picked layoff targets, slightly dented Shared Prosperity. Horizon Balance edged up to 0.83.",
+  "movers_note": "Reversion +0.5 came almost entirely from New York's data-center moratorium (+0.48). Gatekeeper +0.1 and Self-Destruction -0.1 followed the Hassabis standards-body proposal (+0.15 and -0.10).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-07-14-01",
+   "title": "DeepMind's Hassabis proposes FINRA-style independent body to vet frontier AI",
+   "summary": "Demis Hassabis called for an industry-funded but independent standards body that would review frontier models up to 30 days before release.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    },
+    {
+     "id": "F3",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "US",
+   "reason": "Lab leader governance proposal; words not action, so T1 signal.",
+   "sources": [
+    "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
+    "https://www.datagrom.com/ai-news/deepmind-ceo-proposes-independent-ai-standards-body-e991213a"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "libertarian_utopia": 0.04,
+    "benevolent_dictator": 0.04,
+    "egalitarian_utopia": 0.04,
+    "protector_god": 0.05,
+    "gatekeeper": 0.15,
+    "enslaved_god": 0.04,
+    "conquerors": -0.05,
+    "zookeeper": -0.04,
+    "orwell_1984": 0.06,
+    "self_destruction": -0.1
+   },
+   "factor_effect": {
+    "F3": 0.07,
+    "F4": 0.15
+   }
+  },
+  {
+   "id": "2026-07-14-02",
+   "title": "New York becomes first US state to impose a data-center moratorium",
+   "summary": "Governor Kathy Hochul's executive order paused certain state environmental permits for data centers of 50 MW or more while regulators develop standards.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "First statewide pause on AI infrastructure; concrete backlash policy.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Opposition_to_AI_data_centers",
+    "https://siliconangle.com/2026/07/17/ai-backlash-intensifies-china-gains-us-leaders-ibm-tanks/"
+   ],
+   "points": 0.48,
+   "contribution": {
+    "reversion": 0.48
+   },
+   "factor_effect": {
+    "F9": 0.48
+   }
+  },
+  {
+   "id": "2026-07-14-03",
+   "title": "Ex-Meta staff sue, alleging AI ranking system targeted workers on leave in layoffs",
+   "summary": "26 former Meta employees allege the company used AI-generated performance data to pick layoff targets without excluding people on parental or medical leave.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F7",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "US",
+   "reason": "Allegation of AI used to cut jobs unfairly; lawsuit only.",
+   "sources": [
+    "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
+    "https://www.datagrom.com/ai-news/meta-sued-over-ai-driven-biased-layoff-targeting-b0872e76"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "egalitarian_utopia": -0.06
+   },
+   "factor_effect": {
+    "F7": -0.09
+   }
+  }
+ ]
+}

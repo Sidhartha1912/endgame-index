@@ -1,0 +1,25 @@
+[
+ {
+  "id": "2026-05-30-01",
+  "title": "Bank of England: UK banks still lack access to Anthropic's Mythos",
+  "summary": "The Bank of England said UK banks want but still lack access to Mythos to test defences against cyber threats.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "D",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "UK",
+  "reason": "Access to top cyber model concentrated in US-chosen partners.",
+  "sources": [
+   "https://techieray.substack.com/p/ctrlaireg-1-june-2026"
+  ]
+ }
+]

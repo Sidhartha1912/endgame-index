@@ -1,0 +1,123 @@
+[
+ {
+  "id": "2026-07-22-01",
+  "title": "White House accuses Moonshot of distilling Anthropic's model and evading chip curbs",
+  "summary": "OSTP Director Michael Kratsios alleged Moonshot AI distilled Anthropic's Fable to build Kimi K3 and accessed Nvidia GB300s via Thailand; Moonshot did not concede.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "China",
+  "reason": "Escalates US-China AI rivalry rhetoric; accusation only.",
+  "sources": [
+   "https://cointelegraph.com/news/chinas-moonshot-ai-distilled-anthropics-fable-to-develop-k3-white-house-official",
+   "https://blog.buildfastwithai.com/ai-news-today-july-23-2026"
+  ]
+ },
+ {
+  "id": "2026-07-22-02",
+  "title": "AMD to invest up to $5B in Anthropic with 2 GW of MI450 GPUs",
+  "summary": "AMD committed up to $5 billion to Anthropic, which will deploy up to 2 gigawatts of AMD Instinct MI450 GPUs in Helios racks.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Giant compute deal for a frontier lab.",
+  "sources": [
+   "https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal"
+  ]
+ },
+ {
+  "id": "2026-07-22-03",
+  "title": "OpenAI announces 3.2 GW 'Project Camellia' data center in Georgia",
+  "summary": "OpenAI unveiled a 1,400-acre, 3.2-gigawatt campus in Effingham County, Georgia, with power phased in 2028-2032 and reported spending of $20-30 billion.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Giant compute cluster announced.",
+  "sources": [
+   "https://www.axios.com/2026/07/22/openai-savannah-georgia-data-center-project",
+   "https://www.prnewswire.com/news-releases/georgia-power-to-serve-openai-project-in-effingham-county-302832224.html"
+  ]
+ },
+ {
+  "id": "2026-07-22-04",
+  "title": "Mistral signs multibillion-dollar Azure deal to expand European AI infrastructure",
+  "summary": "France's Mistral AI and Microsoft agreed a deal bringing Mistral models to Azure and expanding compute in Europe; Mistral targets 1 GW by 2030.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "EU",
+  "reason": "Strengthens a European alternative to US frontier labs.",
+  "sources": [
+   "https://siliconangle.com/2026/07/21/mistral-ai-strikes-multibillion-dollar-deal-microsoft-build-azure-infrastructure-europe/"
+  ]
+ },
+ {
+  "id": "2026-07-22-05",
+  "title": "Monday.com cuts about 20% of staff, tying restructuring to AI strategy",
+  "summary": "Israel-based Monday.com cut roughly 600 jobs (about 350 in Israel) under an 'AI-driven growth strategy'.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "Other",
+  "reason": "Company cites AI in sizeable layoffs.",
+  "sources": [
+   "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/"
+  ]
+ }
+]

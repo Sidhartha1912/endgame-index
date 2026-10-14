@@ -1,0 +1,25 @@
+[
+ {
+  "id": "2026-09-07-01",
+  "title": "NYT: $3B of Blackwell servers exposes gap in US chip controls",
+  "summary": "The NYT reported Inspur's US subsidiary Aivres shipped about $3B of Nvidia Blackwell servers to Southeast Asia while the parent is blacklisted.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Global",
+  "reason": "Leakage in export-control regime.",
+  "sources": [
+   "https://aiweekly.co/alerts/nyt-inspurs-us-subsidiary-aivres-shipped-3b-in-nvidia-blackwell-chips-to"
+  ]
+ }
+]
