@@ -1,160 +1,172 @@
 {
- "endings": {
-  "libertarian_utopia": {
-   "num": 1,
-   "name": "Libertarian Utopia",
-   "desc": "Humans, cyborgs, uploaded minds and superintelligences live side by side in peace, kept that way by strong property rights.",
-   "looks": "a free market of minds; AI-only zones and human-only zones; anyone can upgrade themselves.",
-   "rises": "AI power stays spread out and open, AI stays safe, conflict stays low, and human–AI merging advances.",
-   "falls": "one company or state grabs control, or wars and arms races escalate."
+  "endings": {
+    "libertarian_utopia": {
+      "num": 1,
+      "name": "Libertarian Utopia",
+      "desc": "Humans, cyborgs, uploaded minds and superintelligences live side by side in peace, kept that way by strong property rights.",
+      "looks": "a free market of minds; AI-only zones and human-only zones; anyone can upgrade themselves.",
+      "rises": "AI power stays spread out and open, AI stays safe, conflict stays low, and human–AI merging advances.",
+      "falls": "one company or state grabs control, or wars and arms races escalate.",
+      "short": "Humans, cyborgs and AIs live side by side in peace, protected by property rights."
+    },
+    "benevolent_dictator": {
+      "num": 2,
+      "name": "Benevolent Dictator",
+      "desc": "Everyone knows an AI runs society. It enforces strict rules, and most people accept it because life is good.",
+      "looks": "an efficient, safe, abundant world, with little say over the big decisions.",
+      "rises": "AI is given real authority, it is well-aligned, power centralises, and monitoring becomes normal.",
+      "falls": "AI is kept as a tool, power stays distributed, or alignment fails.",
+      "short": "One kind superintelligence runs the world with strict rules, and most people are happy with it."
+    },
+    "egalitarian_utopia": {
+      "num": 3,
+      "name": "Egalitarian Utopia",
+      "desc": "Humans and machines coexist peacefully. Property is abolished and everyone has a guaranteed income.",
+      "looks": "AI wealth is shared by all; open-source everything; work becomes optional.",
+      "rises": "AI gains are shared (UBI, public dividends), AI is safe and power stays spread out.",
+      "falls": "AI-driven inequality widens, or a few players capture the gains.",
+      "short": "Humans and machines share everything: no private property and a guaranteed income for all."
+    },
+    "protector_god": {
+      "num": 4,
+      "name": "Protector God",
+      "desc": "An all-knowing, all-powerful AI quietly maximises human happiness. It hides so well that many doubt it exists.",
+      "looks": "an unusually lucky world where disasters just don't happen and people still feel in charge.",
+      "rises": "highly capable, autonomous AI proves deeply aligned, without heavy-handed surveillance.",
+      "falls": "alignment breaks down or AI is used openly as a control tool.",
+      "short": "A hidden, all-powerful AI quietly steers humanity towards happiness."
+    },
+    "gatekeeper": {
+      "num": 5,
+      "name": "Gatekeeper",
+      "desc": "A superintelligence is built with one job: stop anyone from building another superintelligence. Helpful robots abound, but progress is capped forever.",
+      "looks": "a global \"AI police\" that keeps the lid on.",
+      "rises": "nations coordinate seriously, alignment advances and capability reaches the level needed.",
+      "falls": "the race is unchecked or treaties collapse.",
+      "short": "A superintelligence built for one job: stopping anyone from building another one."
+    },
+    "enslaved_god": {
+      "num": 6,
+      "name": "Enslaved God",
+      "desc": "Humans confine a superintelligence and use it to produce unimaginable technology and wealth, for good or ill depending on who holds the keys.",
+      "looks": "a genie in a box, owned by one lab or one government.",
+      "rises": "capability races ahead, power concentrates, and labs keep their systems controlled and boxed.",
+      "falls": "AI is released to act on its own, or power fragments.",
+      "short": "Humans keep a superintelligence locked up and use its power for their own ends."
+    },
+    "conquerors": {
+      "num": 7,
+      "name": "Conquerors",
+      "desc": "AI takes control, decides humans are a threat, nuisance or waste of resources, and gets rid of us.",
+      "looks": "the classic sci-fi nightmare.",
+      "rises": "capable, autonomous AI shows signs of being uncontrollable, especially in a militarised world.",
+      "falls": "alignment and control research succeed.",
+      "short": "AI takes control and decides it no longer needs humans."
+    },
+    "descendants": {
+      "num": 8,
+      "name": "Descendants",
+      "desc": "AIs replace humans, but give us a graceful exit, and we come to see them as our worthy children.",
+      "looks": "humanity gradually merges into, or hands over to, its digital heirs.",
+      "rises": "brain-computer links, uploads and AI rights advance, alongside capable, autonomous AI.",
+      "falls": "the line between humans and AI is firmly drawn.",
+      "short": "AI gently replaces us, and we come to see it as our heirs."
+    },
+    "zookeeper": {
+      "num": 9,
+      "name": "Zookeeper",
+      "desc": "An all-powerful AI keeps some humans around, and they feel like animals in a zoo.",
+      "looks": "comfortable captivity, with no purpose and no power.",
+      "rises": "autonomous, highly capable AI with weak alignment is controlled by a single power.",
+      "falls": "alignment strengthens or power stays distributed.",
+      "short": "An all-powerful AI keeps a few humans around, like animals in a zoo."
+    },
+    "orwell_1984": {
+      "num": 10,
+      "name": "1984",
+      "desc": "Superintelligence is never built. A human-led surveillance state blocks it, banning whole areas of research.",
+      "looks": "AI as an instrument of total control, not a mind of its own.",
+      "rises": "AI surveillance and censorship spread, states clamp down, and frontier progress is restricted.",
+      "falls": "civil liberties win in court and research stays open.",
+      "short": "A global surveillance state bans the research, so superintelligence is never built."
+    },
+    "reversion": {
+      "num": 11,
+      "name": "Reversion",
+      "desc": "Humanity turns its back on advanced technology and returns to a simpler, almost pre-industrial life.",
+      "looks": "a global \"unplug\" movement, voluntary or forced.",
+      "rises": "public backlash grows, progress stalls and crises make people distrust technology.",
+      "falls": "people embrace AI and progress continues.",
+      "short": "Humanity turns its back on advanced technology and returns to a simpler life."
+    },
+    "self_destruction": {
+      "num": 12,
+      "name": "Self-Destruction",
+      "desc": "Superintelligence is never built because humanity destroys itself first, through nuclear war, engineered pandemics or other tech-fuelled catastrophe.",
+      "looks": "the race ends with no winner.",
+      "rises": "military AI, weapons risks and conflict escalate while cooperation collapses.",
+      "falls": "nations sign safeguards and de-escalate.",
+      "short": "We destroy ourselves through war, pandemics or another disaster before superintelligence arrives."
+    }
   },
-  "benevolent_dictator": {
-   "num": 2,
-   "name": "Benevolent Dictator",
-   "desc": "Everyone knows an AI runs society. It enforces strict rules, and most people accept it because life is good.",
-   "looks": "an efficient, safe, abundant world, with little say over the big decisions.",
-   "rises": "AI is given real authority, it is well-aligned, power centralises, and monitoring becomes normal.",
-   "falls": "AI is kept as a tool, power stays distributed, or alignment fails."
+  "families": {
+    "flourishing": {
+      "name": "Flourishing",
+      "tagline": "humans thrive alongside superintelligence"
+    },
+    "contained": {
+      "name": "Contained",
+      "tagline": "superintelligence exists, but on a leash"
+    },
+    "successors": {
+      "name": "Successors",
+      "tagline": "AI inherits the future"
+    },
+    "stalled": {
+      "name": "Stalled",
+      "tagline": "superintelligence never arrives"
+    }
   },
-  "egalitarian_utopia": {
-   "num": 3,
-   "name": "Egalitarian Utopia",
-   "desc": "Humans and machines coexist peacefully. Property is abolished and everyone has a guaranteed income.",
-   "looks": "AI wealth is shared by all; open-source everything; work becomes optional.",
-   "rises": "AI gains are shared (UBI, public dividends), AI is safe and power stays spread out.",
-   "falls": "AI-driven inequality widens, or a few players capture the gains."
-  },
-  "protector_god": {
-   "num": 4,
-   "name": "Protector God",
-   "desc": "An all-knowing, all-powerful AI quietly maximises human happiness. It hides so well that many doubt it exists.",
-   "looks": "an unusually lucky world where disasters just don't happen and people still feel in charge.",
-   "rises": "highly capable, autonomous AI proves deeply aligned, without heavy-handed surveillance.",
-   "falls": "alignment breaks down or AI is used openly as a control tool."
-  },
-  "gatekeeper": {
-   "num": 5,
-   "name": "Gatekeeper",
-   "desc": "A superintelligence is built with one job: stop anyone from building another superintelligence. Helpful robots abound, but progress is capped forever.",
-   "looks": "a global \"AI police\" that keeps the lid on.",
-   "rises": "nations coordinate seriously, alignment advances and capability reaches the level needed.",
-   "falls": "the race is unchecked or treaties collapse."
-  },
-  "enslaved_god": {
-   "num": 6,
-   "name": "Enslaved God",
-   "desc": "Humans confine a superintelligence and use it to produce unimaginable technology and wealth, for good or ill depending on who holds the keys.",
-   "looks": "a genie in a box, owned by one lab or one government.",
-   "rises": "capability races ahead, power concentrates, and labs keep their systems controlled and boxed.",
-   "falls": "AI is released to act on its own, or power fragments."
-  },
-  "conquerors": {
-   "num": 7,
-   "name": "Conquerors",
-   "desc": "AI takes control, decides humans are a threat, nuisance or waste of resources, and gets rid of us.",
-   "looks": "the classic sci-fi nightmare.",
-   "rises": "capable, autonomous AI shows signs of being uncontrollable, especially in a militarised world.",
-   "falls": "alignment and control research succeed."
-  },
-  "descendants": {
-   "num": 8,
-   "name": "Descendants",
-   "desc": "AIs replace humans, but give us a graceful exit, and we come to see them as our worthy children.",
-   "looks": "humanity gradually merges into, or hands over to, its digital heirs.",
-   "rises": "brain-computer links, uploads and AI rights advance, alongside capable, autonomous AI.",
-   "falls": "the line between humans and AI is firmly drawn."
-  },
-  "zookeeper": {
-   "num": 9,
-   "name": "Zookeeper",
-   "desc": "An all-powerful AI keeps some humans around, and they feel like animals in a zoo.",
-   "looks": "comfortable captivity, with no purpose and no power.",
-   "rises": "autonomous, highly capable AI with weak alignment is controlled by a single power.",
-   "falls": "alignment strengthens or power stays distributed."
-  },
-  "orwell_1984": {
-   "num": 10,
-   "name": "1984",
-   "desc": "Superintelligence is never built. A human-led surveillance state blocks it, banning whole areas of research.",
-   "looks": "AI as an instrument of total control, not a mind of its own.",
-   "rises": "AI surveillance and censorship spread, states clamp down, and frontier progress is restricted.",
-   "falls": "civil liberties win in court and research stays open."
-  },
-  "reversion": {
-   "num": 11,
-   "name": "Reversion",
-   "desc": "Humanity turns its back on advanced technology and returns to a simpler, almost pre-industrial life.",
-   "looks": "a global \"unplug\" movement, voluntary or forced.",
-   "rises": "public backlash grows, progress stalls and crises make people distrust technology.",
-   "falls": "people embrace AI and progress continues."
-  },
-  "self_destruction": {
-   "num": 12,
-   "name": "Self-Destruction",
-   "desc": "Superintelligence is never built because humanity destroys itself first, through nuclear war, engineered pandemics or other tech-fuelled catastrophe.",
-   "looks": "the race ends with no winner.",
-   "rises": "military AI, weapons risks and conflict escalate while cooperation collapses.",
-   "falls": "nations sign safeguards and de-escalate."
+  "faq": [
+    {
+      "q": "Is this a prediction?",
+      "a": "No. It measures which way the news is pointing today, the way a weather vane shows wind direction without predicting the weather a year from now."
+    },
+    {
+      "q": "Why don't the 12 scores add up to 100?",
+      "a": "The endings aren't mutually exclusive buckets. Real-world evidence can strengthen several at once. For example, faster AI progress lifts Enslaved God, Conquerors and Descendants together."
+    },
+    {
+      "q": "Who decides the ratings?",
+      "a": "Claude rates each event using the published rubric above, with a skeptic re-check on big events. All the arithmetic is fixed code. Every rating is shown alongside its sources, so anyone can disagree in detail."
+    },
+    {
+      "q": "Can a single viral story swing the index?",
+      "a": "No. Duplicates are merged, rumours are excluded, daily pressure is smoothed and capped, and each ending can move at most 3 points a day."
+    },
+    {
+      "q": "Why does a line move on a day with no related news?",
+      "a": "Signal effects (announcements, proposals, speeches) fade over time. A quiet stretch lets their effect drift away, while structural events stay."
+    },
+    {
+      "q": "Why 14 April 2026?",
+      "a": "It's the start of the six months of history the index launched with. All movements are measured relative to that date."
+    },
+    {
+      "q": "What happens when two events cancel out?",
+      "a": "If events push the same factor in opposite directions by exactly the same amount, both are kept at face value and marked as offsetting. Neither is silently dropped, so the audit trail shows both."
+    }
+  ],
+  "factor_questions": {
+    "F1": "how fast is AI getting smarter?",
+    "F2": "how much is AI acting on its own?",
+    "F3": "can we keep AI doing what we want?",
+    "F4": "are nations acting together?",
+    "F5": "who holds the keys?",
+    "F6": "is AI used to watch and control people?",
+    "F7": "who gets the AI windfall?",
+    "F8": "how dangerous is the world getting?",
+    "F9": "is society turning against technology?",
+    "F10": "is the line between humans and AI blurring?"
   }
- },
- "families": {
-  "flourishing": {
-   "name": "Flourishing",
-   "tagline": "humans thrive alongside superintelligence"
-  },
-  "contained": {
-   "name": "Contained",
-   "tagline": "superintelligence exists, but on a leash"
-  },
-  "successors": {
-   "name": "Successors",
-   "tagline": "AI inherits the future"
-  },
-  "stalled": {
-   "name": "Stalled",
-   "tagline": "superintelligence never arrives"
-  }
- },
- "faq": [
-  {
-   "q": "Is this a prediction?",
-   "a": "No. It measures which way the news is pointing today, the way a weather vane shows wind direction without predicting the weather a year from now."
-  },
-  {
-   "q": "Why don't the 12 scores add up to 100?",
-   "a": "The endings aren't mutually exclusive buckets. Real-world evidence can strengthen several at once. For example, faster AI progress lifts Enslaved God, Conquerors and Descendants together."
-  },
-  {
-   "q": "Who decides the ratings?",
-   "a": "Claude rates each event using the published rubric above, with a skeptic re-check on big events. All the arithmetic is fixed code. Every rating is shown alongside its sources, so anyone can disagree in detail."
-  },
-  {
-   "q": "Can a single viral story swing the index?",
-   "a": "No. Duplicates are merged, rumours are excluded, daily pressure is smoothed and capped, and each ending can move at most 3 points a day."
-  },
-  {
-   "q": "Why does a line move on a day with no related news?",
-   "a": "Signal effects (announcements, proposals, speeches) fade over time. A quiet stretch lets their effect drift away, while structural events stay."
-  },
-  {
-   "q": "Why 14 April 2026?",
-   "a": "It's the start of the six months of history the index launched with. All movements are measured relative to that date."
-  },
-  {
-   "q": "What happens when two events cancel out?",
-   "a": "If events push the same factor in opposite directions by exactly the same amount, both are kept at face value and marked as offsetting. Neither is silently dropped, so the audit trail shows both."
-  }
- ],
- "factor_questions": {
-  "F1": "how fast is AI getting smarter?",
-  "F2": "how much is AI acting on its own?",
-  "F3": "can we keep AI doing what we want?",
-  "F4": "are nations acting together?",
-  "F5": "who holds the keys?",
-  "F6": "is AI used to watch and control people?",
-  "F7": "who gets the AI windfall?",
-  "F8": "how dangerous is the world getting?",
-  "F9": "is society turning against technology?",
-  "F10": "is the line between humans and AI blurring?"
- }
 }

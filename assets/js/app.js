@@ -124,14 +124,14 @@
     <section class="hero" aria-label="The twelve endings over time">
       <div class="hero-chart" id="hero-chart"></div>
       <div class="hero-title">
-        <h1>Where is AI <i>taking us?</i></h1>
-        <p><span class="d-only">Twelve possible endings for humanity and AI, re-scored every night from the news.</span><span class="m-only">Twelve endings, re-scored nightly · updated ${fmtDate(H.end).replace(/ \d{4}$/, "")} · <a class="byline" href="https://www.linkedin.com/in/sidhartha-rajput/" target="_blank" rel="noopener noreferrer">By Sidhartha Rajput</a></span></p>
+        <h1>Where Humanity is <i>heading with AI?</i></h1>
+        <p><span class="d-only">12 possible endings for humanity with AI, as per MIT research, tracked daily against news, research papers, articles and developments in AI.</span><span class="m-only">12 possible endings for humanity with AI, tracked daily · updated ${fmtDate(H.end).replace(/ \d{4}$/, "")} · <a class="byline" href="https://www.linkedin.com/in/sidhartha-rajput/" target="_blank" rel="noopener noreferrer">By Sidhartha Rajput</a></span></p>
       <div class="hero-filters" role="toolbar" aria-label="Chart options">
         <div class="seg" role="group" aria-label="Time range" id="range"><button type="button" data-r="30" aria-pressed="false">30D</button><button type="button" data-r="90" aria-pressed="false">90D</button><button type="button" data-r="all" aria-pressed="true">All</button></div>
         <span class="sep" aria-hidden="true"></span>
         <div class="seg" role="group" aria-label="Chart view" id="mode"><button type="button" data-m="families" aria-pressed="false"><span class="d-only">4 families</span><span class="m-only">Families</span></button><button type="button" data-m="endings" aria-pressed="true"><span class="d-only">12 endings</span><span class="m-only">Endings</span></button></div>
       </div>
-      <div class="hero-top3 m-only" id="top3">${sorted.slice(0, 3).map((s) => `<span class="${s.cls}"><i class="swatch"></i><b>${last(s.values).toFixed(1)}</b>${esc(s.name)}</span>`).join("")}</div>
+      <div class="hero-top3 m-only" id="top3">${sorted.slice(0, 3).map((s) => `<span class="${s.cls}" data-k="${s.key}" role="button" tabindex="0"><i class="swatch"></i><b>${last(s.values).toFixed(1)}</b>${esc(s.name)}</span>`).join("")}</div>
       </div>
       <section class="hero-card" aria-label="Horizon Balance today">
         <span class="kicker"><span class="d-only">Horizon Balance · ${weekday(H.end)}, ${fmtDate(H.end)}</span><span class="m-only">Horizon Balance · ${dShort}</span></span>
@@ -167,6 +167,15 @@
       const hb = $(".hero").getBoundingClientRect(), fb = $(".hero-filters").getBoundingClientRect(), pb = $(".hero-title p").getBoundingClientRect();
       return { x0: 0, xr: W - 268, yt: fb.bottom - hb.top + 10, yb: Hh - 105, todayTop: (!pb.height || pb.right > W - 268 - 12) ? fb.top - hb.top : pb.bottom - hb.top - 10, labels: true };
     };
+    const describe = (s) => {
+      if (S.C.endings[s.key]) return S.C.endings[s.key].short || S.C.endings[s.key].desc;
+      const m = H.families_meta[s.key];
+      return m ? `${m.tagline}. Average of ${S.series.filter((x) => x.family === s.key).map((x) => x.name).join(", ")}.` : "";
+    };
+    $$("#top3 span").forEach((sp) => sp.addEventListener("click", (ev) => {
+      const s = S.series.find((x) => x.key === sp.dataset.k); const b = sp.getBoundingClientRect();
+      ev.stopPropagation(); window.EGChart.note(s, describe(s), b.left, b.bottom + 40);
+    }));
     let chart;
     const draw = () => {
       if (chart) { chart.destroy(); S.charts = S.charts.filter((c) => c !== chart); }
@@ -176,7 +185,7 @@
         dates: H.dates.slice(start), series: src.map((s) => ({ ...s, values: s.values.slice(start) })),
         headlines: H.headlines.slice(start), markers: markers.map((m) => ({ ...m, i: m.i - start })),
         label: "Line chart of the Plausibility Index for each ending over time. Use the arrow keys to read any day.",
-        layout, onClick: (i) => (location.hash = `#/summary/${H.dates[start + i]}`),
+        layout, describe, onClick: (i) => (location.hash = `#/summary/${H.dates[start + i]}`),
       });
       S.charts.push(chart);
     };

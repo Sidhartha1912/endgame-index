@@ -762,3 +762,12 @@ body.is-home main { padding-bottom: 0; }
 body.is-home .updated-chip .sepdot, body.is-home .updated-chip .byline { display: none; }
 @media (max-width: 760px) { .hero-byline { display: none; } }
 @media (min-width: 761px) and (max-height: 500px) { .hero-byline { bottom: 60px; } }
+
+/* definitions on the end labels */
+.hero-svg .endlabel.has-def { cursor: help; outline: none; }
+.hero-svg .endlabel.has-def:hover tspan:not(.v), .hero-svg .endlabel.has-def:focus tspan:not(.v) { fill: var(--ink); text-decoration: underline; text-decoration-style: dotted; }
+.tooltip .tt-def-name { display: flex; gap: 8px; align-items: center; font: 400 18px/1.2 var(--display); color: var(--ink); }
+.tooltip .tt-def-name svg { width: 16px; height: 6px; overflow: visible; flex: none; }
+.tooltip .tt-def-name svg line { stroke-width: 2.4; }
+.tooltip .tt-def { font-size: 13px; line-height: 1.45; color: var(--ink-2); margin-top: 4px; }
+.hero-top3 span { cursor: pointer; pointer-events: auto; }

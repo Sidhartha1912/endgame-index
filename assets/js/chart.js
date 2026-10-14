@@ -259,6 +259,18 @@
     return { destroy() { ro.disconnect(); } };
   }
 
+  // small definition card, reusing the chart tooltip
+  function note(s, text, x, y) {
+    const tt = tooltip();
+    tt.innerHTML = `<div class="tt-def-name"><svg viewBox="0 0 22 8" aria-hidden="true"><line x1="1" y1="4" x2="21" y2="4" class="${s.cls}"/></svg>${esc(s.name)}</div><div class="tt-def">${esc(text)}</div>`;
+    tt.hidden = false;
+    placeTooltip(tt, x, y);
+    const r = tt.getBoundingClientRect();
+    let left = x - r.width - 14;
+    if (left < 8) left = Math.min(Math.max(8, x - r.width / 2), window.innerWidth - r.width - 8);
+    tt.style.left = left + "px";
+  }
+
   /* ------------------------------------------------------------------
      hero(container, opts) — full-bleed background chart for the home page.
      Pixel coordinates (no scaling). opts.layout(W, H) returns
@@ -270,6 +282,7 @@
       const W = container.clientWidth, H = container.clientHeight;
       if (W < 10 || H < 10) return;
       const L = opts.layout(W, H);
+      const tt = tooltip();
       const dates = opts.dates, n = dates.length, series = opts.series;
       let lo = Infinity, hi = -Infinity;
       series.forEach((s) => s.values.forEach((v) => { if (v < lo) lo = v; if (v > hi) hi = v; }));
@@ -307,6 +320,17 @@
         items.forEach(({ s, y: ly }) => {
           const t = el("text", { x: L.xr + 63, y: ly + 4, class: "endlabel" }, svg);
           t.innerHTML = `<tspan class="v">${s.values[n - 1].toFixed(1)}</tspan><tspan x="${L.xr + 101}">${esc(s.name)}</tspan>`;
+          const def = opts.describe && opts.describe(s);
+          if (def) {
+            t.classList.add("has-def");
+            t.setAttribute("tabindex", "0");
+            t.setAttribute("aria-label", `${s.name}, ${s.values[n - 1].toFixed(1)}. ${def}`);
+            const on = () => { const b = t.getBoundingClientRect(); note(s, def, b.left, b.top + b.height / 2); };
+            t.addEventListener("pointerenter", on);
+            t.addEventListener("focus", on);
+            t.addEventListener("pointerleave", () => (tt.hidden = true));
+            t.addEventListener("blur", () => (tt.hidden = true));
+          }
         });
       }
 
@@ -314,7 +338,6 @@
       const cross = el("line", { class: "crosshair", y1: L.todayTop, y2: L.yb, visibility: "hidden" }, svg);
       const dots = series.map((s) => el("circle", { r: 5, class: `hover-dot ${s.cls.replace("c-", "f-")}`, visibility: "hidden" }, svg));
       const hit = el("rect", { x: Math.max(0, L.x0), y: L.yt - 20, width: L.xr - Math.max(0, L.x0) + 6, height: ih + 40, fill: "transparent", class: "hit" }, svg);
-      const tt = tooltip();
       const show = (i, cx, cy) => {
         state.idx = i;
         cross.setAttribute("x1", x(i)); cross.setAttribute("x2", x(i)); cross.setAttribute("visibility", "visible");
@@ -366,5 +389,5 @@
     return { destroy() { ro.disconnect(); document.removeEventListener("pointerdown", outside); }, render };
   }
 
-  window.EGChart = { lines, spark, balance, hero, monotonePath, swatchSVG, fmtDate, fmtSigned, esc };
+  window.EGChart = { lines, spark, balance, hero, note, monotonePath, swatchSVG, fmtDate, fmtSigned, esc };
 })();
