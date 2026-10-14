@@ -51,7 +51,7 @@
   function monthTicks(dates) {
     const out = [];
     dates.forEach((d, i) => { if (d.endsWith("-01") || i === 0) out.push(i); });
-    if (out.length > 1 && out[1] - out[0] < 10) out.shift();
+    if (out.length > 1 && out[1] - out[0] < 24) out.shift();
     return out;
   }
 

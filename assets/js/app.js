@@ -30,7 +30,7 @@
       S.famSeries.push({ key: fam, name: H.families_meta[fam].name, family: fam, cls: "c-" + fam, dash: "", values: H.families[fam] });
     });
     $$("[data-rules-version]").forEach((n) => (n.textContent = R.version));
-    $("#updated-label").textContent = "updated " + fmtDate(H.end).replace(/ \d{4}$/, "") + " · nightly 11:59 PM IST";
+    $("#updated-label").textContent = "last updated " + fmtDate(H.end);
     window.addEventListener("hashchange", route);
     route();
   }
@@ -96,95 +96,91 @@
   }
 
   /* ================= DASHBOARD ================= */
+  const isNight = () => {
+    const m = document.querySelector('meta[name="color-scheme"]').content;
+    return m === "dark" || (m !== "light" && matchMedia("(prefers-color-scheme: dark)").matches);
+  };
   function renderDashboard() {
     const H = S.H, n = N(), li = n - 1;
-    const bal = last(H.balance), bal7 = bal - H.balance[Math.max(0, li - 7)];
+    const bal = last(H.balance), bal1 = li > 0 ? bal - H.balance[li - 1] : 0, bal7 = bal - H.balance[Math.max(0, li - 7)];
     const sorted = S.series.slice().sort((a, b) => last(b.values) - last(a.values));
     const lead = sorted[0];
     const moves7 = S.series.map((s) => ({ s, d: change(s.key, 7) })).sort((a, b) => b.d - a.d);
     const riser = moves7[0], faller = moves7[moves7.length - 1];
-    const tickerItems = H.dates.map((d, i) => ({ d, h: H.headlines[i] })).slice(-14).reverse().filter((x) => x.h);
+    const leadFam = FAMILY_ORDER.slice().sort((a, b) => last(H.families[b]) - last(H.families[a]))[0];
+    const sinceStart = S.series.map((s) => ({ s, d: last(s.values) - s.values[0] })).sort((a, b) => b.d - a.d)[0];
+    const startShort = fmtDate(H.start).replace(/ \d{4}$/, "");
+    const word = (v, up, down) => (v > 0.049 ? `${up} ${Math.abs(v).toFixed(1)}` : v < -0.049 ? `${down} ${Math.abs(v).toFixed(1)}` : "unchanged");
 
     view.innerHTML = `
     <div class="wrap">
-      <section class="hero reveal">
-        <div>
-          <div class="eyebrow"><span class="num">01</span> the index · as of ${fmtDate(H.end)}</div>
-          <h1 style="margin-top:14px">Where is AI<br><em>taking us?</em></h1>
-          <p class="lede">Every night at 11:59 PM IST, the Endgame Index reads the day's AI news and scores how strongly it points toward each of <b>12 possible endings</b> for humanity and AI, from utopia to extinction. These are not predictions. They show which way the evidence is leaning.</p>
-          <div class="hero-meta">
-            <span class="pill">${n} days tracked</span>
-            <span class="pill">${H.totals.events} events rated</span>
-            <a class="pill" href="#/scoring">rules v${esc(S.R.version)} →</a>
-          </div>
-        </div>
-        <div class="card gauge-card">
-          <div class="gauge-top">
-            <div><div class="eyebrow">horizon balance</div><div class="gauge-value mono" id="bal-val">0.0</div></div>
-            <div class="small muted" style="text-align:right"><span class="${dcls(bal7)} mono">${dtxt(bal7, 2)}</span><br>past 7 days</div>
-          </div>
-          <div class="gauge-scale" aria-hidden="true"><div class="gauge-needle" id="needle" style="left:50%"></div></div>
-          <div class="gauge-ends"><span>darker −100</span><span>0</span><span>+100 brighter</span></div>
-          <p class="small muted" style="margin-top:12px">The average of the four hopeful endings minus the average of the four bleak ones. Below zero means the news is pointing more toward the darker futures.</p>
+      <section class="scene reveal" aria-label="Horizon Balance today">
+        <canvas id="scene" aria-hidden="true"></canvas>
+        <span class="scene-meta">${esc(famName(leadFam))} horizon</span>
+        <div class="scene-card">
+          <span class="kicker">Horizon Balance · ${weekday(H.end)}, ${fmtDate(H.end)}</span>
+          <div class="bal"><b id="bal-val">0.0</b><span>${word(bal1, "up", "down")} today<br>${word(bal7, "up", "down")} this week</span></div>
+          <div><div class="gauge-scale" aria-hidden="true"><div class="gauge-needle" id="needle" style="left:50%"></div></div><div class="gauge-ends"><span>Darker futures</span><span>Brighter futures</span></div></div>
+          <h1>${esc(H.headlines[li] || "Today’s reading of the news")}</h1>
+          <div class="links"><a class="arrow-link" href="#/summary/${H.end}">Read today’s story</a><a class="arrow-link" href="#/scoring">How it’s scored</a></div>
         </div>
       </section>
 
-      <section class="stats reveal" aria-label="Headline numbers">
-        <div class="card stat"><div class="label">Leading ending</div><div class="value"><span class="swatch ${lead.cls}"></span>${esc(lead.name)}</div><div class="sub mono">${last(lead.values).toFixed(1)} / 99</div></div>
-        <div class="card stat"><div class="label">Biggest 7-day riser</div><div class="value"><span class="swatch ${riser.s.cls}"></span>${esc(riser.s.name)}</div><div class="sub mono ${dcls(riser.d)}">${dtxt(riser.d)}</div></div>
-        <div class="card stat"><div class="label">Biggest 7-day faller</div><div class="value"><span class="swatch ${faller.s.cls}"></span>${esc(faller.s.name)}</div><div class="sub mono ${dcls(faller.d)}">${dtxt(faller.d)}</div></div>
-        <div class="card stat"><div class="label">Latest update</div><div class="value mono" style="font-size:22px">${fmtDate(H.end)}</div><div class="sub">${H.event_counts[li]} events · evidence ${H.evidence[li]}</div></div>
+      <section class="statement reveal">
+        <h2>Every night we read the day’s AI news and ask which of <span class="soft">twelve possible futures</span> it moved closer.</h2>
+        <p>The twelve endings come from Max Tegmark’s <cite>Life 3.0</cite>, from utopia to extinction. Each gets a Plausibility Index from 1 to 99, rebuilt from rated news events with every source linked. It shows which way the evidence leans, not what will happen.</p>
       </section>
-    </div>
 
-    <div class="ticker reveal" id="ticker">
-      <span class="ticker-label">latest</span>
-      <div class="ticker-viewport"><div class="ticker-track">${[0, 1].map((dup) => tickerItems.map((t) => `<a class="ticker-item" href="#/summary/${t.d}" ${dup ? 'aria-hidden="true" tabindex="-1"' : ""}><span class="d">${fmtDate(t.d).replace(/ \d{4}$/, "")}</span><span>${esc(t.h)}</span></a>`).join("")).join("")}</div></div>
-      <button class="ticker-btn" type="button" id="ticker-btn" aria-pressed="false">pause</button>
-    </div>
+      <div class="movers" aria-label="Headline numbers">
+        <div><span class="label">Leading ending</span><span class="value"><span class="swatch ${lead.cls}"></span>${esc(lead.name)}</span><span class="sub">${last(lead.values).toFixed(1)} of 99</span></div>
+        <div><span class="label">Rose most this week</span><span class="value"><span class="swatch ${riser.s.cls}"></span>${esc(riser.s.name)}</span><span class="sub">${dtxt(riser.d)}</span></div>
+        <div><span class="label">Fell most this week</span><span class="value"><span class="swatch ${faller.s.cls}"></span>${esc(faller.s.name)}</span><span class="sub">${dtxt(faller.d)}</span></div>
+        <div><span class="label">Days tracked</span><span class="value">${n}</span><span class="sub">${H.totals.events} events rated</span></div>
+      </div>
 
-    <div class="wrap">
       <section class="section">
         <div class="section-head">
-          <div><div class="eyebrow"><span class="num">02</span> trend lines</div><h2 class="h2" style="margin-top:8px">The twelve endings over time</h2></div>
+          <div><h2 class="h2">Since ${startShort}, ${esc(sinceStart.s.name)} has gained the most ground.</h2></div>
           <div class="controls">
             <div class="seg" role="group" aria-label="Time range" id="range">
-              <button type="button" data-r="30" aria-pressed="false">30D</button><button type="button" data-r="90" aria-pressed="false">90D</button><button type="button" data-r="all" aria-pressed="true">All</button>
+              <button type="button" data-r="30" aria-pressed="false">30 days</button><button type="button" data-r="90" aria-pressed="false">90 days</button><button type="button" data-r="all" aria-pressed="true">All</button>
             </div>
             <div class="seg" role="group" aria-label="Chart view" id="mode">
-              <button type="button" data-m="endings" aria-pressed="true">12 endings</button><button type="button" data-m="families" aria-pressed="false">4 families</button>
+              <button type="button" data-m="families" aria-pressed="true">4 families</button><button type="button" data-m="endings" aria-pressed="false">12 endings</button>
             </div>
           </div>
         </div>
-        <div class="card chart-card">
-          <p class="small muted">Plausibility Index (1–99) per day. Hover or use the arrow keys to read any day. Click a day to open its summary. Click a name below to highlight it. ◆ marks a major event.</p>
-          <div class="chart-wrap" id="main-chart"></div>
-          <div class="legend" id="legend"></div>
-          <details class="disclose"><summary>View as table</summary><div class="table-wrap" id="score-table"></div></details>
+        <div class="chart-layout">
+          <div class="chart-aside">
+            <h3>Reading the lines</h3>
+            <p>Each line is a family of endings, averaged. Switch to twelve endings to see each one, and select a name to bring it forward.</p>
+            <p class="small dim">Hover or use the arrow keys to read any day, and click to open its summary. ◆ marks a major event.</p>
+          </div>
+          <div class="frame"><div class="chart-card"><div class="chart-wrap" id="main-chart"></div><div class="legend" id="legend"></div></div></div>
         </div>
+        <details class="disclose"><summary>View the scores as a table</summary><div class="table-wrap" id="score-table"></div></details>
       </section>
 
       <section class="section">
-        <div class="section-head"><div><div class="eyebrow"><span class="num">03</span> the twelve endings</div><h2 class="h2" style="margin-top:8px">Today's reading, ending by ending</h2></div><p class="small muted">From Max Tegmark's <cite>Life 3.0</cite>. Select a card for the full story.</p></div>
-        <div id="fam-blocks"></div>
+        <div class="section-head"><div><h2 class="h2">Where each ending stands today</h2></div><p class="small muted">Select an ending for its full story, its recipe and the news that moved it.</p></div>
+        <div class="elist" id="elist"></div>
       </section>
 
       <section class="section">
-        <div class="section-head"><div><div class="eyebrow"><span class="num">04</span> world factors</div><h2 class="h2" style="margin-top:8px">The ten forces underneath</h2></div><p class="small muted">News moves these forces; the forces move the endings. <span style="color:var(--accent)">|</span> marks the level on ${fmtDate(H.start)}.</p></div>
-        <div class="card pad"><div class="factors" id="factors"></div></div>
+        <div class="section-head"><div><h2 class="h2">The ten forces underneath</h2></div><p class="small muted">News moves these forces, and the forces move the endings. The blue tick marks where each stood on ${fmtDate(H.start)}.</p></div>
+        <div class="factors" id="factors"></div>
       </section>
     </div>`;
 
-    // gauge
+    // scene
+    const paintScene = () => { const c = $("#scene"); if (c) window.EGScene?.paint(c, { family: leadFam, night: isNight(), seed: 20261014 }); };
+    paintScene();
+    S.repaintScene = paintScene;
     countUp($("#bal-val"), bal, 1, true);
     requestAnimationFrame(() => ($("#needle").style.left = `${50 + bal / 2}%`));
 
-    // ticker pause
-    const tk = $("#ticker"), tb = $("#ticker-btn");
-    tb.addEventListener("click", () => { const p = tk.classList.toggle("paused"); tb.setAttribute("aria-pressed", p); tb.textContent = p ? "play" : "pause"; });
-
     // main chart
-    const st = { range: "all", mode: "endings", focus: null, hidden: new Set() };
+    const st = { range: "all", mode: "families", focus: null, hidden: new Set() };
     const markers = H.key_events.map((k) => ({ i: k.i, label: `${fmtDate(k.date)} — ${k.title}` }));
     let chart;
     const draw = () => {
@@ -195,7 +191,7 @@
       chart = lines($("#main-chart"), {
         dates: H.dates.slice(start), series, focus: st.focus, hidden: [...st.hidden],
         headlines: H.headlines.slice(start), markers: markers.map((m) => ({ ...m, i: m.i - start })),
-        label: "Line chart of the Plausibility Index for each ending over time",
+        label: "Line chart of the Plausibility Index over time",
         onClick: (i) => (location.hash = `#/summary/${H.dates[start + i]}`),
       });
       S.charts = S.charts.filter((c) => c !== chart); S.charts.push(chart);
@@ -205,7 +201,7 @@
       const lg = $("#legend");
       lg.innerHTML = FAMILY_ORDER.map((f) => {
         const items = src.filter((s) => s.family === f);
-        return `<div class="legend-group"><span class="gname">${esc(famName(f))}</span>${items.map((s) => `<button type="button" class="chip ${st.hidden.has(s.key) ? "off" : ""}" data-k="${s.key}" aria-pressed="${st.focus === s.key}">${swatchSVG(s.cls, s.dash)}${esc(s.name)}</button>`).join("")}</div>`;
+        return `<div class="legend-group">${st.mode === "endings" ? `<span class="gname">${esc(famName(f))}</span>` : ""}${items.map((s) => `<button type="button" class="chip ${st.hidden.has(s.key) ? "off" : ""}" data-k="${s.key}" aria-pressed="${st.focus === s.key}">${swatchSVG(s.cls, s.dash)}${esc(s.name)}</button>`).join("")}</div>`;
       }).join("") + `<button type="button" class="chip" id="reset-focus" ${st.focus || st.hidden.size ? "" : "hidden"}>Reset</button>`;
       $$(".chip[data-k]", lg).forEach((b) => {
         b.addEventListener("click", () => { st.focus = st.focus === b.dataset.k ? null : b.dataset.k; st.hidden.delete(b.dataset.k); draw(); });
@@ -218,23 +214,23 @@
     draw();
 
     // table view
-    $("#score-table").innerHTML = `<table><thead><tr><th>Ending</th><th>Family</th><th class="n">Today</th><th class="n">1 day</th><th class="n">7 days</th><th class="n">30 days</th><th class="n">Since ${fmtDate(H.start).replace(/ \d{4}$/, "")}</th></tr></thead><tbody>${sorted.map((s) => `<tr><td>${esc(s.name)}</td><td>${esc(famName(s.family))}</td><td class="n">${last(s.values).toFixed(1)}</td><td class="n">${dtxt(change(s.key, 1))}</td><td class="n">${dtxt(change(s.key, 7))}</td><td class="n">${dtxt(change(s.key, 30))}</td><td class="n">${dtxt(change(s.key, n - 1))}</td></tr>`).join("")}</tbody></table>`;
+    $("#score-table").innerHTML = `<table><thead><tr><th>Ending</th><th>Family</th><th class="n">Today</th><th class="n">1 day</th><th class="n">7 days</th><th class="n">30 days</th><th class="n">Since ${startShort}</th></tr></thead><tbody>${sorted.map((s) => `<tr><td>${esc(s.name)}</td><td>${esc(famName(s.family))}</td><td class="n">${last(s.values).toFixed(1)}</td><td class="n">${dtxt(change(s.key, 1))}</td><td class="n">${dtxt(change(s.key, 7))}</td><td class="n">${dtxt(change(s.key, 30))}</td><td class="n">${dtxt(change(s.key, n - 1))}</td></tr>`).join("")}</tbody></table>`;
 
-    // ending cards
-    $("#fam-blocks").innerHTML = FAMILY_ORDER.map((f) => `
-      <div class="fam-block">
-        <div class="fam-title"><h3><span class="swatch c-${f}" style="width:12px;height:12px"></span>${esc(famName(f))}</h3><span class="muted small">${esc(S.H.families_meta[f].tagline)}</span><span class="fam-score">family index ${last(H.families[f]).toFixed(1)}</span></div>
-        <div class="cards">${S.series.filter((s) => s.family === f).map((s) => {
-          const c = S.C.endings[s.key];
-          return `<button type="button" class="card ending ${s.cls}" data-k="${s.key}">
-            <div class="row"><span class="name">${esc(s.name)}</span><span class="num">#${String(c.num).padStart(2, "0")}</span></div>
-            <div class="row"><span class="score">${last(s.values).toFixed(1)}</span><span class="deltas"><span class="${dcls(change(s.key, 1))}" title="Change today">${dtxt(change(s.key, 1))}</span><span title="Change over 7 days">7d ${dtxt(change(s.key, 7))}</span></span></div>
-            <div class="spark-holder"></div>
-            <p class="line1">${esc(c.desc)}</p>
+    // endings list
+    $("#elist").innerHTML = FAMILY_ORDER.map((f) => `
+      <div class="efam">
+        <div class="efam-head"><h3><span class="swatch c-${f}"></span>${esc(famName(f))}</h3><p>${esc(H.families_meta[f].tagline)}</p><span class="fi">Family index ${last(H.families[f]).toFixed(1)}</span></div>
+        <div class="erows">${S.series.filter((s) => s.family === f).map((s) => {
+          const c = S.C.endings[s.key], d7 = change(s.key, 7);
+          return `<button type="button" class="erow ${s.cls}" data-k="${s.key}">
+            <span><span class="ename">${esc(s.name)}</span><span class="edesc">${esc(c.desc)}</span></span>
+            <span class="spark-holder"></span>
+            <span class="escore">${last(s.values).toFixed(1)}</span>
+            <span class="ed ${dcls(d7)}" title="Change over the past 7 days">${dtxt(d7).replace(/^[+−]/, "")} wk</span>
           </button>`;
         }).join("")}</div>
       </div>`).join("");
-    $$(".ending[data-k]").forEach((b) => {
+    $$(".erow[data-k]").forEach((b) => {
       const s = S.series.find((x) => x.key === b.dataset.k);
       spark($(".spark-holder", b), s.values.slice(-60), s.cls);
       b.addEventListener("click", () => (location.hash = `#/ending/${b.dataset.k}`));
@@ -244,9 +240,9 @@
     const base = S.R.factor_baselines;
     $("#factors").innerHTML = Object.keys(S.R.factors).map((f) => {
       const v = last(H.factors[f]), b = base[f], d = v - H.factors[f][0];
-      return `<div class="factor"><span class="fname">${esc(S.R.factors[f].name)}</span><span class="fval">${v.toFixed(1)} <span class="small ${dcls(d)} muted">${dtxt(d)}</span></span>
-        <div class="meter" role="meter" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${v.toFixed(1)}" aria-label="${esc(S.R.factors[f].name)}"><div class="fill" data-w="${v}"></div><div class="base" style="left:calc(${b}% - 1px)"></div></div>
-        <div class="fnote"><span>0 · ${esc(S.R.factors[f].low)}</span><span style="text-align:right">${esc(S.R.factors[f].high)} · 100</span></div></div>`;
+      return `<div class="factor"><span class="fname">${esc(S.R.factors[f].name)}</span><span class="fval">${v.toFixed(1)} <span class="small ${dcls(d)} dim">${dtxt(d).replace(/^[+−]/, "")}</span></span>
+        <div class="meter" role="meter" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${v.toFixed(1)}" aria-label="${esc(S.R.factors[f].name)}"><div class="fill" data-w="${v}"></div><div class="base" style="left:calc(${b}% - 0.5px)"></div></div>
+        <div class="fnote"><span>${esc(S.R.factors[f].low)}</span><span style="text-align:right">${esc(S.R.factors[f].high)}</span></div></div>`;
     }).join("");
     requestAnimationFrame(() => $$(".meter .fill").forEach((m) => (m.style.width = m.dataset.w + "%")));
   }
@@ -270,8 +266,8 @@
       </div>
       <div class="chart-wrap" id="dlg-chart"></div>
       <div class="facts"><div><b>What it looks like</b>${esc(cap(c.looks))}</div><div><b>Rises when</b>${esc(cap(c.rises))}</div><div><b>Falls when</b>${esc(cap(c.falls))}</div></div>
-      <div><div class="eyebrow" style="margin-bottom:8px">recipe · the world factors that drive it</div>${recipeHTML(sc.weights, s.cls)}</div>
-      <div><div class="eyebrow" style="margin-bottom:8px">biggest pushes · last 30 days</div><div id="dlg-pushes" class="small muted">Loading…</div></div>`;
+      <div><div class="eyebrow" style="margin-bottom:10px">Recipe: the world factors that drive it</div>${recipeHTML(sc.weights, s.cls)}</div>
+      <div><div class="eyebrow" style="margin-bottom:10px">Biggest pushes in the last 30 days</div><div id="dlg-pushes" class="small muted">Loading…</div></div>`;
     if (!dlg.open) dlg.showModal();
     $("#dlg-close").addEventListener("click", () => dlg.close());
     const ch = lines($("#dlg-chart"), { dates: S.H.dates, series: [s], endLabels: false, height: 200, headlines: S.H.headlines, label: `${s.name} over time`,
@@ -312,7 +308,7 @@
     <div class="wrap">
       <div class="day-head reveal">
         <div class="section-head">
-          <div class="date-big">Summary of the day · ${weekday(date)}, ${fmtDate(date)}</div>
+          <div class="date-big">${weekday(date)}, ${fmtDate(date)}</div>
           <div class="day-nav">
             <a class="btn" ${prev ? `href="#/summary/${prev}"` : 'aria-disabled="true"'} aria-label="Previous day">← prev</a>
             <input class="btn mono" type="date" id="day-pick" value="${date}" min="${H.start}" max="${H.end}" aria-label="Pick a date">
@@ -331,13 +327,13 @@
             ${sm.movers_note ? `<div class="movers"><b>Movers.</b> ${esc(sm.movers_note)}</div>` : ""}
           </article>
           <div>
-            <div class="section-head" style="margin:10px 0 12px"><div><div class="eyebrow"><span class="num">${String(d.events.length).padStart(2, "0")}</span> events rated today</div></div></div>
+            <div class="section-head" style="margin:32px 0 4px"><div><h2 class="h2" style="font-size:30px">${d.events.length ? `The ${d.events.length} events behind today’s moves` : "No events today"}</h2></div></div>
             <div class="events">${d.events.length ? d.events.slice().sort((a, b) => b.points - a.points).map(eventHTML).join("") : `<div class="card pad muted">No qualifying events were found for this day. Scores only drifted as earlier announcements faded.</div>`}</div>
           </div>
         </div>
         <aside class="grid">
           <div class="card pad">
-            <div class="eyebrow">horizon balance</div>
+            <div class="eyebrow">Horizon Balance</div>
             <div style="display:flex;align-items:baseline;gap:12px;margin-top:6px"><span class="gauge-value mono" style="font-size:44px">${fmtSigned(H.balance[i], 1)}</span><span class="mono ${dcls(balD)}">${dtxt(balD, 2)}</span></div>
             <dl class="kv" style="margin-top:14px">
               <dt>Evidence strength</dt><dd>${esc(d.composites.evidence)}</dd>
@@ -347,14 +343,14 @@
             </dl>
           </div>
           <div class="card pad">
-            <div class="eyebrow" style="margin-bottom:12px">how each ending moved</div>
+            <div class="eyebrow" style="margin-bottom:14px">How each ending moved</div>
             <div class="bars">${deltas.map(({ s, v }) => {
               const w = (Math.abs(v) / maxAbs) * 50;
               return `<div class="bar-row ${s.cls}"><span>${esc(s.name)}</span><div class="bar-track"><div class="bar" style="${v >= 0 ? `left:50%` : `right:50%`};width:${w}%"></div></div><span class="v ${dcls(v)}">${dtxt(v)}</span></div>`;
             }).join("")}</div>
             ${fadeTotal > 0.02 ? `<p class="small dim" style="margin-top:12px">Includes gentle drift as earlier announcements fade (21-day half-life).</p>` : ""}
           </div>
-          ${(sm.coming_up || []).length ? `<div class="card pad"><div class="eyebrow" style="margin-bottom:10px">coming up</div><ul style="margin:0;padding-left:18px">${sm.coming_up.map((c) => `<li>${esc(c)}</li>`).join("")}</ul></div>` : ""}
+          ${(sm.coming_up || []).length ? `<div class="card pad"><div class="eyebrow" style="margin-bottom:10px">Coming up</div><ul style="margin:0;padding-left:18px">${sm.coming_up.map((c) => `<li>${esc(c)}</li>`).join("")}</ul></div>` : ""}
           <div class="card pad small muted">Scores are an evidence-weighted reading of public news, not a forecast. <a href="#/scoring">How scoring works →</a></div>
         </aside>
       </div>
@@ -382,7 +378,7 @@
     view.innerHTML = `
     <div class="wrap">
       <div class="day-head reveal">
-        <div class="eyebrow"><span class="num">03</span> history</div>
+        
         <h1>${n} days of the story so far</h1>
         <p class="lede muted" style="margin-top:14px;max-width:62ch">Every night adds a new point. Read the monthly recaps for the big picture, or scroll the timeline to see what moved each day.</p>
       </div>
@@ -432,7 +428,7 @@
     const recaps = await getRecaps();
     if (!$("#recaps")) return;
     $("#recaps").innerHTML = recaps.map((r, k) => `
-      <article class="card recap"><span class="rnum">${String(k + 1).padStart(2, "0")} · ${esc(r.window)}</span><h3>${esc(r.title)}</h3><p class="clamp">${esc(r.body)}</p><button type="button" class="btn" style="align-self:flex-start">Read more</button></article>`).join("");
+      <article class="card recap"><span class="rnum">${esc(r.window.replace(/(\d{4})-(\d{2})-(\d{2})/g, (m, y, mo, d) => fmtDate(m)))}</span><h3>${esc(r.title)}</h3><p class="clamp">${esc(r.body)}</p><button type="button" class="btn" style="align-self:flex-start">Read more</button></article>`).join("");
     $$("#recaps .recap").forEach((a) => $("button", a).addEventListener("click", (ev) => { const o = a.classList.toggle("open"); ev.target.textContent = o ? "Show less" : "Read more"; }));
   }
 
@@ -445,7 +441,7 @@
     view.innerHTML = `
     <div class="wrap">
       <div class="day-head reveal">
-        <div class="eyebrow"><span class="num">04</span> scoring mechanism</div>
+        
         <h1>How the score is made</h1>
         <p class="lede muted" style="margin-top:14px;max-width:66ch">Every ending gets a <b>Plausibility Index from 1 to 99</b>: how strongly the world's AI news is pointing down that path. The scores are independent, so they don't add up to 100. They are not probabilities. Every number traces back to real, linked stories.</p>
       </div>
@@ -458,24 +454,24 @@
              ["04", "Compute", `A fixed script turns ratings into factor moves, then into the 12 endings. Max ±${D.scenario_daily_cap} points per ending per day.`],
              ["05", "Explain", "A plain-English summary, written from the computed results, with every source linked."]].map(([n, h, p]) => `<div class="card step"><span class="snum">${n}</span><h4>${h}</h4><p>${p}</p></div>`).join("")}
         </div>
-        <div class="golden">The golden rule: <b>Claude judges the news; code does the arithmetic.</b> The same news always produces the same numbers.</div>
+        <p class="golden">Claude judges the news; <b>code does the arithmetic.</b> The same news always produces the same numbers.</p>
       </section>
 
       <section class="section">
-        <div class="section-head"><div><div class="eyebrow"><span class="num">A</span> the twelve endings and their recipes</div><h2 class="h2" style="margin-top:8px">What drives each ending</h2></div><p class="small muted">Each ending is a fixed mix of 3–4 world factors. ↑ pushes it up, ↓ pushes it down.</p></div>
+        <div class="section-head"><div><h2 class="h2" style="margin-top:8px">What drives each ending</h2></div><p class="small muted">Each ending is a fixed mix of 3–4 world factors. ↑ pushes it up, ↓ pushes it down.</p></div>
         ${FAMILY_ORDER.map((f) => `<div class="fam-block"><div class="fam-title"><h3><span class="swatch c-${f}" style="width:12px;height:12px"></span>${esc(famName(f))}</h3><span class="muted small">${esc(H.families_meta[f].tagline)}</span></div>
           <div class="ending-recipes">${S.series.filter((s) => s.family === f).map((s) => `<div class="card pad ${s.cls}" style="border-left:3px solid var(--c)"><div class="row" style="display:flex;justify-content:space-between;gap:8px"><h4 style="font-size:17px">${esc(s.name)}</h4><span class="mono dim small">start ${R.scenarios[s.key].anchor} · now ${last(s.values).toFixed(1)}</span></div><p class="small muted" style="margin:6px 0 12px">${esc(C.endings[s.key].desc)}</p>${recipeHTML(R.scenarios[s.key].weights, s.cls)}</div>`).join("")}</div></div>`).join("")}
       </section>
 
       <section class="section">
-        <div class="section-head"><div><div class="eyebrow"><span class="num">B</span> the ten world factors</div><h2 class="h2" style="margin-top:8px">The forces underneath</h2></div><p class="small muted">News never moves an ending directly. It moves one of these forces.</p></div>
+        <div class="section-head"><div><h2 class="h2" style="margin-top:8px">The forces underneath</h2></div><p class="small muted">News never moves an ending directly. It moves one of these forces.</p></div>
         <div class="card pad table-wrap"><table><thead><tr><th>Factor</th><th>Question</th><th>0 means…</th><th>100 means…</th><th class="n">Start</th><th class="n">Now</th></tr></thead><tbody>
           ${Object.keys(R.factors).map((f) => `<tr><td><b>${esc(R.factors[f].name)}</b></td><td class="muted">${esc(C.factor_questions[f] || "")}</td><td>${esc(R.factors[f].low)}</td><td>${esc(R.factors[f].high)}</td><td class="n">${R.factor_baselines[f]}</td><td class="n">${last(H.factors[f]).toFixed(1)}</td></tr>`).join("")}
         </tbody></table></div>
       </section>
 
       <section class="section">
-        <div class="section-head"><div><div class="eyebrow"><span class="num">C</span> rating a news event</div><h2 class="h2" style="margin-top:8px">Score events, not articles</h2></div></div>
+        <div class="section-head"><div><h2 class="h2" style="margin-top:8px">Score events, not articles</h2></div></div>
         <div class="two-col">
           <div class="card pad"><h4 style="margin-bottom:10px">Impact tier</h4><table><tbody>${Object.entries(ER.impact_points).map(([t, p]) => `<tr><td><span class="tag tier">${t}</span></td><td>${tierTxt[t]}</td><td class="n">${p} pts</td></tr>`).join("")}</tbody></table></div>
           <div class="card pad"><h4 style="margin-bottom:10px">Source credibility</h4><table><tbody>${Object.entries(ER.credibility).map(([g, w]) => `<tr><td><span class="tag">${g}</span></td><td>${credTxt[g]}</td><td class="n">×${w}</td></tr>`).join("")}</tbody></table><p class="small dim" style="margin-top:8px">Hype guard: a company's claims about its own product count ×${ER.self_claim_multiplier} until someone independent confirms them.</p></div>
@@ -484,11 +480,11 @@
             <tr><td>Global (frontier labs, US, China, EU, UN)</td><td class="n">×${ER.scope.global}</td></tr><tr><td>National</td><td class="n">×${ER.scope.national}</td></tr><tr><td>Local / niche</td><td class="n">×${ER.scope.local}</td></tr></tbody></table></div>
           <div class="card pad"><h4 style="margin-bottom:10px">Two tracks</h4><p class="muted"><b style="color:var(--ink)">Structural</b> things actually happened: a law enacted, a model released, an incident confirmed. Their effect is permanent until reversed.</p><p class="muted" style="margin-top:10px"><b style="color:var(--ink)">Signal</b> words and intentions: announcements, proposals, speeches. Their effect fades, halving every ${D.signal_half_life_days} days.</p><p class="small dim" style="margin-top:10px">One main factor, plus an optional second factor that counts half. A deliberately skeptical second pass re-checks every T3 and T4 rating.</p></div>
         </div>
-        <div class="golden" style="margin-top:16px;font-family:var(--mono);font-size:15px">event points = tier × credibility × novelty × scope × direction</div>
+        <p class="golden" style="max-width:none">Event points = tier × credibility × novelty × scope × direction</p>
       </section>
 
       <section class="section">
-        <div class="section-head"><div><div class="eyebrow"><span class="num">D</span> from events to scores</div><h2 class="h2" style="margin-top:8px">The maths, in six steps</h2></div></div>
+        <div class="section-head"><div><h2 class="h2" style="margin-top:8px">The maths, in six steps</h2></div></div>
         <div class="card pad table-wrap"><table><thead><tr><th>Step</th><th>What happens</th><th>Why</th></tr></thead><tbody>
           <tr><td>1. Daily pressure</td><td>Each factor's event points are summed; a smoothing curve caps the day near ±${D.daily_saturation_S}.</td><td>Ten minor stories can't add up to a landmark.</td></tr>
           <tr><td>2. Edge softening</td><td>Within ${D.edge_softening_zone} points of 0 or 100, moves toward the edge shrink.</td><td>Factors approach extremes without slamming into them.</td></tr>
@@ -500,7 +496,7 @@
       </section>
 
       <section class="section">
-        <div class="section-head"><div><div class="eyebrow"><span class="num">E</span> headline indicators</div><h2 class="h2" style="margin-top:8px">Reading the dashboard</h2></div></div>
+        <div class="section-head"><div><h2 class="h2" style="margin-top:8px">Reading the dashboard</h2></div></div>
         <div class="two-col">
           <div class="card pad"><dl class="kv" style="grid-template-columns:auto 1fr;gap:12px 16px">
             <dt><b style="color:var(--ink)">Horizon Balance</b></dt><dd style="font-family:var(--font);text-align:left">Average of the four bright endings minus the four dark ones, from −100 to +100.</dd>
@@ -513,7 +509,7 @@
       </section>
 
       <section class="section">
-        <div class="section-head"><div><div class="eyebrow"><span class="num">F</span> keeping it honest</div><h2 class="h2" style="margin-top:8px">Questions people ask</h2></div></div>
+        <div class="section-head"><div><h2 class="h2" style="margin-top:8px">Questions people ask</h2></div></div>
         <div class="card pad faq">${C.faq.map((q) => `<details><summary>${esc(q.q)}</summary><p>${esc(q.a)}</p></details>`).join("")}</div>
         <div class="disclaimer">Versioned rules (currently v${esc(R.version)}): every change gets a new version number and a changelog entry, and past scores are never quietly rewritten. Read the <a href="scoring/SCORING_RULES.md">full rules</a> or the machine-readable <a href="scoring/rules.json">rules.json</a>.</div>
       </section>
@@ -525,7 +521,7 @@
     const meta = document.querySelector('meta[name="color-scheme"]');
     const sys = matchMedia("(prefers-color-scheme: dark)");
     const rendered = () => (meta.content === "light dark" ? (sys.matches ? "dark" : "light") : meta.content);
-    const apply = (v) => { meta.content = v ?? "light dark"; };
+    const apply = (v) => { meta.content = v ?? "light dark"; S.repaintScene && S.repaintScene(); };
     $("#theme-toggle").addEventListener("click", () => {
       const target = rendered() === "dark" ? "light" : "dark";
       const systemNow = sys.matches ? "dark" : "light";
@@ -533,6 +529,7 @@
       apply(target === systemNow ? null : target);
     });
     window.addEventListener("storage", (e) => { if (e.key === "color-scheme") apply(e.newValue); });
+    sys.addEventListener("change", () => S.repaintScene && S.repaintScene());
   })();
 
   boot().catch((err) => {
