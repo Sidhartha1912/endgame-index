@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<script>try{document.querySelector('meta[name="color-scheme"]').content=localStorage.getItem("color-scheme")??"light dark"}catch(e){}</script>
+<meta name="color-scheme" content="light">
+<script>try{document.querySelector('meta[name="color-scheme"]').content=localStorage.getItem("color-scheme")==="dark"?"dark":"light"}catch(e){}</script>
 <title>Endgame Index</title>
 <meta name="theme-color" content="#fdfdf9">
 <meta name="description" content="A nightly, evidence-weighted reading of AI news against Max Tegmark's 12 possible endings for humanity and AI.">
@@ -32,6 +32,7 @@
       <a href="#/summary" data-tab="summary">Summary of the day</a>
       <a href="#/history" data-tab="history">History</a>
       <a href="#/scoring" data-tab="scoring">Scoring mechanism</a>
+      <a class="byline menu-byline" href="https://www.linkedin.com/in/sidhartha-rajput/" target="_blank" rel="noopener noreferrer">By Sidhartha Rajput ↗</a>
     </nav>
     <div class="topbar-right">
       <button class="menu-btn" type="button" id="menu-btn" aria-expanded="false" aria-controls="tabs">Menu</button>
@@ -42,7 +43,7 @@
       </button>
     </div>
   </div>
-  <div class="updated-chip" aria-live="polite"><span class="dot" aria-hidden="true"></span><span id="updated-chip-text">Updated</span></div>
+  <div class="updated-chip"><span class="dot" aria-hidden="true"></span><span id="updated-chip-text">Updated</span><span class="sepdot" aria-hidden="true">·</span><a class="byline" href="https://www.linkedin.com/in/sidhartha-rajput/" target="_blank" rel="noopener noreferrer">By Sidhartha Rajput</a></div>
 </header>
 
 <main id="main" tabindex="-1">
@@ -51,20 +52,6 @@
   </div>
 </main>
 
-<footer class="footer">
-  <div class="footer-inner">
-    <div>
-      <p class="footer-statement">Twelve possible futures, read against the news every night.</p>
-      <p class="small dim" style="max-width:60ch">An evidence-weighted reading of public AI news, not a forecast. The twelve endings are the aftermath scenarios from Max Tegmark's <cite>Life 3.0</cite> (2017), used here as thought experiments. Updated nightly at 11:59 PM India time · <span id="updated-label">rules v1.2</span></p>
-    </div>
-    <div class="footer-links">
-      <a href="#/scoring">How scoring works</a>
-      <a href="scoring/SCORING_RULES.md">Full rules (v<span data-rules-version>1.2</span>)</a>
-      <a href="scoring/rules.json">rules.json</a>
-      <a href="data/history.json">Raw data</a>
-    </div>
-  </div>
-</footer>
 
 <dialog id="ending-dialog" closedby="any" aria-labelledby="dlg-title">
   <div class="dlg" id="dlg-body"></div>

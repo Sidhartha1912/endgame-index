@@ -30,7 +30,6 @@
       S.famSeries.push({ key: fam, name: H.families_meta[fam].name, family: fam, cls: "c-" + fam, dash: "", values: H.families[fam] });
     });
     $$("[data-rules-version]").forEach((n) => (n.textContent = R.version));
-    $("#updated-label").textContent = "last updated " + fmtDate(H.end);
     $("#updated-chip-text").textContent = "Updated " + fmtDate(H.end).replace(/ \d{4}$/, "");
     const tb = $(".topbar"), mb = $("#menu-btn");
     mb.addEventListener("click", () => { const o = tb.classList.toggle("open"); mb.setAttribute("aria-expanded", o); });
@@ -126,14 +125,14 @@
       <div class="hero-chart" id="hero-chart"></div>
       <div class="hero-title">
         <h1>Where is AI <i>taking us?</i></h1>
-        <p><span class="d-only">Twelve possible endings for humanity and AI, re-scored every night from the news.</span><span class="m-only">Twelve endings, re-scored every night · updated ${fmtDate(H.end).replace(/ \d{4}$/, "")}</span></p>
-      </div>
+        <p><span class="d-only">Twelve possible endings for humanity and AI, re-scored every night from the news.</span><span class="m-only">Twelve endings, re-scored nightly · updated ${fmtDate(H.end).replace(/ \d{4}$/, "")} · <a class="byline" href="https://www.linkedin.com/in/sidhartha-rajput/" target="_blank" rel="noopener noreferrer">By Sidhartha Rajput</a></span></p>
       <div class="hero-filters" role="toolbar" aria-label="Chart options">
         <div class="seg" role="group" aria-label="Time range" id="range"><button type="button" data-r="30" aria-pressed="false">30D</button><button type="button" data-r="90" aria-pressed="false">90D</button><button type="button" data-r="all" aria-pressed="true">All</button></div>
         <span class="sep" aria-hidden="true"></span>
         <div class="seg" role="group" aria-label="Chart view" id="mode"><button type="button" data-m="families" aria-pressed="false"><span class="d-only">4 families</span><span class="m-only">Families</span></button><button type="button" data-m="endings" aria-pressed="true"><span class="d-only">12 endings</span><span class="m-only">Endings</span></button></div>
       </div>
       <div class="hero-top3 m-only" id="top3">${sorted.slice(0, 3).map((s) => `<span class="${s.cls}"><i class="swatch"></i><b>${last(s.values).toFixed(1)}</b>${esc(s.name)}</span>`).join("")}</div>
+      </div>
       <section class="hero-card" aria-label="Horizon Balance today">
         <span class="kicker"><span class="d-only">Horizon Balance · ${weekday(H.end)}, ${fmtDate(H.end)}</span><span class="m-only">Horizon Balance · ${dShort}</span></span>
         <div class="bal"><b id="bal-val">0.0</b><span>${word(bal1, "up", "down")} today<br>${word(bal7, "up", "down")} this week</span></div>
@@ -159,12 +158,13 @@
     const markers = H.key_events.map((k) => ({ i: k.i, label: `${fmtDate(k.date)} — ${k.title}` }));
     const layout = (W, Hh) => {
       if (isPhone()) {
-        const f = $(".hero-filters"), c = $(".hero-card");
-        const yt = f ? f.offsetTop + f.offsetHeight + 56 : 200;
-        const yb = c ? c.offsetTop - 34 : Hh - 330;
-        return { x0: 0, xr: W - 8, yt, yb: Math.max(yt + 120, yb), todayTop: yt, labels: false };
+        const hb = $(".hero").getBoundingClientRect(), f = $(".hero-filters"), c = $(".hero-card");
+        const yt = f ? f.getBoundingClientRect().bottom - hb.top + 28 : 200;
+        const yb = c ? c.getBoundingClientRect().top - hb.top - 34 : Hh - 330;
+        return { x0: 0, xr: W - 10, yt, yb: Math.max(yt + 90, yb), todayTop: yt, labels: false };
       }
-      return { x0: 0, xr: W - 268, yt: 285, yb: Hh - 105, todayTop: 180, labels: true };
+      const hb = $(".hero").getBoundingClientRect(), fb = $(".hero-filters").getBoundingClientRect(), pb = $(".hero-title p").getBoundingClientRect();
+      return { x0: 0, xr: W - 268, yt: fb.bottom - hb.top + 10, yb: Hh - 105, todayTop: (!pb.height || pb.right > W - 268 - 12) ? fb.top - hb.top : pb.bottom - hb.top - 10, labels: true };
     };
     let chart;
     const draw = () => {
@@ -514,13 +514,12 @@
   (function theme() {
     const meta = document.querySelector('meta[name="color-scheme"]');
     const sys = matchMedia("(prefers-color-scheme: dark)");
-    const rendered = () => (meta.content === "light dark" ? (sys.matches ? "dark" : "light") : meta.content);
-    const apply = (v) => { meta.content = v ?? "light dark"; S.repaintScene && S.repaintScene(); };
+    const rendered = () => (meta.content === "dark" ? "dark" : "light");
+    const apply = (v) => { meta.content = v === "dark" ? "dark" : "light"; S.repaintScene && S.repaintScene(); };
     $("#theme-toggle").addEventListener("click", () => {
       const target = rendered() === "dark" ? "light" : "dark";
-      const systemNow = sys.matches ? "dark" : "light";
-      try { target === systemNow ? localStorage.removeItem("color-scheme") : localStorage.setItem("color-scheme", target); } catch {}
-      apply(target === systemNow ? null : target);
+      try { target === "light" ? localStorage.removeItem("color-scheme") : localStorage.setItem("color-scheme", "dark"); } catch {}
+      apply(target);
     });
     window.addEventListener("storage", (e) => { if (e.key === "color-scheme") apply(e.newValue); });
     sys.addEventListener("change", () => S.repaintScene && S.repaintScene());

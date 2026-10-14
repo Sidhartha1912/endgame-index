@@ -335,8 +335,19 @@
         return Math.max(0, Math.min(n - 1, Math.round(((ev.clientX - b.left - L.x0) / iw) * (n - 1))));
       };
       hit.addEventListener("pointermove", (ev) => show(idxFromEvent(ev), ev.clientX, ev.clientY));
-      hit.addEventListener("pointerleave", hide);
-      hit.addEventListener("click", (ev) => opts.onClick && opts.onClick(idxFromEvent(ev)));
+      hit.addEventListener("pointerleave", (ev) => { if (ev.pointerType === "mouse") hide(); });
+      state.hide = hide;
+      let tap = null;
+      hit.addEventListener("pointerdown", (ev) => { tap = ev.pointerType === "mouse" ? null : state.idx; });
+      hit.addEventListener("click", (ev) => {
+        const i = idxFromEvent(ev);
+        // touch: first tap reads the day, a second tap on the same day opens it
+        if (tap !== null || (ev.pointerType && ev.pointerType !== "mouse")) {
+          if (tap == null || Math.abs(tap - i) > Math.max(2, n / 60)) { show(i, ev.clientX, ev.clientY); tap = null; return; }
+        }
+        tap = null;
+        opts.onClick && opts.onClick(i);
+      });
       svg.addEventListener("keydown", (ev) => {
         if (ev.key === "ArrowLeft" || ev.key === "ArrowRight") {
           ev.preventDefault();
@@ -350,7 +361,9 @@
     let raf;
     const ro = new ResizeObserver(() => { cancelAnimationFrame(raf); raf = requestAnimationFrame(render); });
     ro.observe(container);
-    return { destroy() { ro.disconnect(); }, render };
+    const outside = (ev) => { if (!container.contains(ev.target) && state.hide) { state.hide(); } };
+    document.addEventListener("pointerdown", outside);
+    return { destroy() { ro.disconnect(); document.removeEventListener("pointerdown", outside); }, render };
   }
 
   window.EGChart = { lines, spark, balance, hero, monotonePath, swatchSVG, fmtDate, fmtSigned, esc };
