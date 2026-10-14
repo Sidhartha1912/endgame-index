@@ -259,5 +259,99 @@
     return { destroy() { ro.disconnect(); } };
   }
 
-  window.EGChart = { lines, spark, balance, swatchSVG, fmtDate, fmtSigned, esc };
+  /* ------------------------------------------------------------------
+     hero(container, opts) — full-bleed background chart for the home page.
+     Pixel coordinates (no scaling). opts.layout(W, H) returns
+     { x0, xr, yt, yb, todayTop, labels } and is re-read on every resize. */
+  function hero(container, opts) {
+    const state = { idx: null };
+    const render = () => {
+      container.innerHTML = "";
+      const W = container.clientWidth, H = container.clientHeight;
+      if (W < 10 || H < 10) return;
+      const L = opts.layout(W, H);
+      const dates = opts.dates, n = dates.length, series = opts.series;
+      let lo = Infinity, hi = -Infinity;
+      series.forEach((s) => s.values.forEach((v) => { if (v < lo) lo = v; if (v > hi) hi = v; }));
+      lo = Math.max(0, Math.floor((lo - 2) / 5) * 5); hi = Math.min(100, Math.ceil((hi + 2) / 5) * 5);
+      const iw = L.xr - L.x0, ih = L.yb - L.yt;
+      const x = (i) => L.x0 + (n === 1 ? iw : (i / (n - 1)) * iw);
+      const y = (v) => L.yt + ih - ((v - lo) / (hi - lo)) * ih;
+
+      const svg = el("svg", { width: W, height: H, viewBox: `0 0 ${W} ${H}`, class: "hero-svg", role: "img", tabindex: "0", "aria-label": opts.label || "Line chart" }, container);
+      const g = el("g", { class: "grid" }, svg);
+      niceTicks(lo, hi, 5).forEach((t) => {
+        if (t <= lo) return;
+        el("line", { x1: 0, x2: L.xr, y1: y(t), y2: y(t) }, g);
+        if (L.labels) { const tx = el("text", { x: L.xr + 26, y: y(t) + 4, class: "tick" }, svg); tx.textContent = t; }
+      });
+      (opts.markers || []).forEach((mk) => {
+        if (mk.i < 0 || mk.i >= n) return;
+        const ln = el("line", { class: "marker-line", x1: x(mk.i), x2: x(mk.i), y1: L.yt, y2: L.yb }, svg);
+        const t = el("title", {}, ln); t.textContent = mk.label;
+      });
+      monthTicks(dates).forEach((i) => {
+        const [, mm, dd] = dates[i].split("-").map(Number);
+        const tx = el("text", { x: x(i), y: L.yb + 22, class: "month", "text-anchor": i === 0 ? "start" : "middle" }, svg);
+        tx.textContent = dd === 1 ? MONTHS[mm - 1] : `${dd} ${MONTHS[mm - 1]}`;
+      });
+      series.forEach((s) => {
+        el("path", { d: monotonePath(s.values.map((v, i) => [x(i), y(v)])), class: `series ${s.cls}` }, svg);
+      });
+      if (L.labels) el("line", { class: "today", x1: L.xr, x2: L.xr, y1: L.todayTop, y2: L.yb }, svg);
+      series.forEach((s) => el("circle", { cx: L.xr, cy: y(s.values[n - 1]), r: 5, class: `today-dot ${s.cls.replace("c-", "f-")}` }, svg));
+      if (L.labels) {
+        const items = series.map((s) => ({ s, y: y(s.values[n - 1]) })).sort((a, b) => a.y - b.y);
+        const gap = 13;
+        for (let i = 1; i < items.length; i++) if (items[i].y - items[i - 1].y < gap) items[i].y = items[i - 1].y + gap;
+        items.forEach(({ s, y: ly }) => {
+          const t = el("text", { x: L.xr + 63, y: ly + 4, class: "endlabel" }, svg);
+          t.innerHTML = `<tspan class="v">${s.values[n - 1].toFixed(1)}</tspan><tspan x="${L.xr + 101}">${esc(s.name)}</tspan>`;
+        });
+      }
+
+      // hover layer
+      const cross = el("line", { class: "crosshair", y1: L.todayTop, y2: L.yb, visibility: "hidden" }, svg);
+      const dots = series.map((s) => el("circle", { r: 5, class: `hover-dot ${s.cls.replace("c-", "f-")}`, visibility: "hidden" }, svg));
+      const hit = el("rect", { x: Math.max(0, L.x0), y: L.yt - 20, width: L.xr - Math.max(0, L.x0) + 6, height: ih + 40, fill: "transparent", class: "hit" }, svg);
+      const tt = tooltip();
+      const show = (i, cx, cy) => {
+        state.idx = i;
+        cross.setAttribute("x1", x(i)); cross.setAttribute("x2", x(i)); cross.setAttribute("visibility", "visible");
+        series.forEach((s, k) => { dots[k].setAttribute("cx", x(i)); dots[k].setAttribute("cy", y(s.values[i])); dots[k].setAttribute("visibility", "visible"); });
+        const rows = series.map((s) => ({ s, v: s.values[i], d: i > 0 ? s.values[i] - s.values[i - 1] : 0 }));
+        const top = rows.slice().sort((a, b) => Math.abs(b.d) - Math.abs(a.d)).slice(0, 3);
+        const head = opts.headlines && opts.headlines[i];
+        tt.innerHTML = `<div class="tt-date">${new Date(dates[i] + "T12:00:00").toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short", year: "numeric" })}</div>${head ? `<div class="tt-head">${esc(head)}</div>` : ""}` +
+          top.map((r) => `<div class="tt-row"><svg viewBox="0 0 22 8" aria-hidden="true"><line x1="1" y1="4" x2="21" y2="4" class="${r.s.cls}"/></svg><span>${esc(r.s.name)}</span><span class="tt-v">${r.v.toFixed(1)}</span><span class="tt-d">${Math.abs(r.d) < 0.05 ? "0.0" : fmtSigned(r.d)}</span></div>`).join("") +
+          (series.length > 3 ? `<div class="tt-more">+ ${series.length - 3} more · click to open the day</div>` : `<div class="tt-more">Click to open the day</div>`);
+        tt.hidden = false;
+        if (cx == null) { const b = svg.getBoundingClientRect(); cx = b.left + x(i); cy = b.top + L.yt + ih / 3; }
+        placeTooltip(tt, cx, cy);
+      };
+      const hide = () => { cross.setAttribute("visibility", "hidden"); dots.forEach((d) => d.setAttribute("visibility", "hidden")); tt.hidden = true; state.idx = null; };
+      const idxFromEvent = (ev) => {
+        const b = svg.getBoundingClientRect();
+        return Math.max(0, Math.min(n - 1, Math.round(((ev.clientX - b.left - L.x0) / iw) * (n - 1))));
+      };
+      hit.addEventListener("pointermove", (ev) => show(idxFromEvent(ev), ev.clientX, ev.clientY));
+      hit.addEventListener("pointerleave", hide);
+      hit.addEventListener("click", (ev) => opts.onClick && opts.onClick(idxFromEvent(ev)));
+      svg.addEventListener("keydown", (ev) => {
+        if (ev.key === "ArrowLeft" || ev.key === "ArrowRight") {
+          ev.preventDefault();
+          show(state.idx == null ? n - 1 : Math.max(0, Math.min(n - 1, state.idx + (ev.key === "ArrowRight" ? 1 : -1))));
+        } else if (ev.key === "Escape") hide();
+        else if (ev.key === "Enter" && state.idx != null && opts.onClick) opts.onClick(state.idx);
+      });
+      svg.addEventListener("blur", hide);
+    };
+    render();
+    let raf;
+    const ro = new ResizeObserver(() => { cancelAnimationFrame(raf); raf = requestAnimationFrame(render); });
+    ro.observe(container);
+    return { destroy() { ro.disconnect(); }, render };
+  }
+
+  window.EGChart = { lines, spark, balance, hero, monotonePath, swatchSVG, fmtDate, fmtSigned, esc };
 })();

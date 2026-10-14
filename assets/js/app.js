@@ -7,7 +7,7 @@
   const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)");
 
   const FAMILY_ORDER = ["flourishing", "contained", "successors", "stalled"];
-  const DASHES = ["", "7 4", "2 3.5", "11 4 2 4"];
+  const DASHES = ["", "", "", ""];
   const BADGES = {
     landmark_day: ["◆", "Landmark day"], speed_limit: ["⏱", "Speed limit"], breakout: ["↗", "Breakout"],
     new_leader: ["♛", "New leader"], crossover: ["⤨", "Crossover"], quiet_day: ["○", "Quiet day"],
@@ -31,6 +31,14 @@
     });
     $$("[data-rules-version]").forEach((n) => (n.textContent = R.version));
     $("#updated-label").textContent = "last updated " + fmtDate(H.end);
+    $("#updated-chip-text").textContent = "Updated " + fmtDate(H.end).replace(/ \d{4}$/, "");
+    const tb = $(".topbar"), mb = $("#menu-btn");
+    mb.addEventListener("click", () => { const o = tb.classList.toggle("open"); mb.setAttribute("aria-expanded", o); });
+    document.addEventListener("click", (e) => { if (!tb.contains(e.target)) { tb.classList.remove("open"); mb.setAttribute("aria-expanded", "false"); } });
+    view.addEventListener("click", (e) => {
+      const a = e.target.closest('a[href^="#/ending/"]');
+      if (a && route.prev === "summary") { e.preventDefault(); openEnding(a.getAttribute("href").split("/")[2]); }
+    });
     window.addEventListener("hashchange", route);
     route();
   }
@@ -75,6 +83,8 @@
     const tab = ["dashboard", "summary", "history", "scoring", "ending"].includes(parts[0]) ? parts[0] : "dashboard";
     const go = () => {
       destroyCharts();
+      document.body.classList.toggle("is-home", tab === "dashboard" || tab === "ending");
+      $(".topbar").classList.remove("open"); $("#menu-btn").setAttribute("aria-expanded", "false");
       $$(".tabs a").forEach((a) => a.toggleAttribute("aria-current", false));
       const active = tab === "ending" ? "dashboard" : tab;
       $(`.tabs a[data-tab="${active}"]`)?.setAttribute("aria-current", "page");
@@ -95,156 +105,83 @@
     }
   }
 
-  /* ================= DASHBOARD ================= */
+  /* ================= DASHBOARD (full-screen chart) ================= */
   const isNight = () => {
     const m = document.querySelector('meta[name="color-scheme"]').content;
     return m === "dark" || (m !== "light" && matchMedia("(prefers-color-scheme: dark)").matches);
   };
+  const isPhone = () => matchMedia("(max-width: 760px)").matches;
   function renderDashboard() {
     const H = S.H, n = N(), li = n - 1;
     const bal = last(H.balance), bal1 = li > 0 ? bal - H.balance[li - 1] : 0, bal7 = bal - H.balance[Math.max(0, li - 7)];
-    const sorted = S.series.slice().sort((a, b) => last(b.values) - last(a.values));
-    const lead = sorted[0];
-    const moves7 = S.series.map((s) => ({ s, d: change(s.key, 7) })).sort((a, b) => b.d - a.d);
-    const riser = moves7[0], faller = moves7[moves7.length - 1];
-    const leadFam = FAMILY_ORDER.slice().sort((a, b) => last(H.families[b]) - last(H.families[a]))[0];
-    const sinceStart = S.series.map((s) => ({ s, d: last(s.values) - s.values[0] })).sort((a, b) => b.d - a.d)[0];
-    const startShort = fmtDate(H.start).replace(/ \d{4}$/, "");
     const word = (v, up, down) => (v > 0.049 ? `${up} ${Math.abs(v).toFixed(1)}` : v < -0.049 ? `${down} ${Math.abs(v).toFixed(1)}` : "unchanged");
+    const sorted = S.series.slice().sort((a, b) => last(b.values) - last(a.values));
+    const dShort = new Date(H.end + "T12:00:00").toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short" }).replace(",", "");
+    const tick = [];
+    for (let i = li; i >= Math.max(0, li - 13); i--) if (H.headlines[i]) tick.push(`<a href="#/summary/${H.dates[i]}"><time>${fmtDate(H.dates[i]).replace(/ \d{4}$/, "")}</time>${esc(H.headlines[i])}</a>`);
+    const tickHTML = tick.join("");
 
     view.innerHTML = `
-    <div class="wrap">
-      <section class="scene reveal" aria-label="Horizon Balance today">
-        <canvas id="scene" aria-hidden="true"></canvas>
-        <span class="scene-meta">${esc(famName(leadFam))} horizon</span>
-        <div class="scene-card">
-          <span class="kicker">Horizon Balance · ${weekday(H.end)}, ${fmtDate(H.end)}</span>
-          <div class="bal"><b id="bal-val">0.0</b><span>${word(bal1, "up", "down")} today<br>${word(bal7, "up", "down")} this week</span></div>
-          <div><div class="gauge-scale" aria-hidden="true"><div class="gauge-needle" id="needle" style="left:50%"></div></div><div class="gauge-ends"><span>Darker futures</span><span>Brighter futures</span></div></div>
-          <h1>${esc(H.headlines[li] || "Today’s reading of the news")}</h1>
-          <div class="links"><a class="arrow-link" href="#/summary/${H.end}">Read today’s story</a><a class="arrow-link" href="#/scoring">How it’s scored</a></div>
-        </div>
-      </section>
-
-      <section class="statement reveal">
-        <h2>Every night we read the day’s AI news and ask which of <span class="soft">twelve possible futures</span> it moved closer.</h2>
-        <p>The twelve endings come from Max Tegmark’s <cite>Life 3.0</cite>, from utopia to extinction. Each gets a Plausibility Index from 1 to 99, rebuilt from rated news events with every source linked. It shows which way the evidence leans, not what will happen.</p>
-      </section>
-
-      <div class="movers" aria-label="Headline numbers">
-        <div><span class="label">Leading ending</span><span class="value"><span class="swatch ${lead.cls}"></span>${esc(lead.name)}</span><span class="sub">${last(lead.values).toFixed(1)} of 99</span></div>
-        <div><span class="label">Rose most this week</span><span class="value"><span class="swatch ${riser.s.cls}"></span>${esc(riser.s.name)}</span><span class="sub">${dtxt(riser.d)}</span></div>
-        <div><span class="label">Fell most this week</span><span class="value"><span class="swatch ${faller.s.cls}"></span>${esc(faller.s.name)}</span><span class="sub">${dtxt(faller.d)}</span></div>
-        <div><span class="label">Days tracked</span><span class="value">${n}</span><span class="sub">${H.totals.events} events rated</span></div>
+    <section class="hero" aria-label="The twelve endings over time">
+      <div class="hero-chart" id="hero-chart"></div>
+      <div class="hero-title">
+        <h1>Where is AI <i>taking us?</i></h1>
+        <p><span class="d-only">Twelve possible endings for humanity and AI, re-scored every night from the news.</span><span class="m-only">Twelve endings, re-scored every night · updated ${fmtDate(H.end).replace(/ \d{4}$/, "")}</span></p>
       </div>
-
-      <section class="section">
-        <div class="section-head">
-          <div><h2 class="h2">Since ${startShort}, ${esc(sinceStart.s.name)} has gained the most ground.</h2></div>
-          <div class="controls">
-            <div class="seg" role="group" aria-label="Time range" id="range">
-              <button type="button" data-r="30" aria-pressed="false">30 days</button><button type="button" data-r="90" aria-pressed="false">90 days</button><button type="button" data-r="all" aria-pressed="true">All</button>
-            </div>
-            <div class="seg" role="group" aria-label="Chart view" id="mode">
-              <button type="button" data-m="families" aria-pressed="true">4 families</button><button type="button" data-m="endings" aria-pressed="false">12 endings</button>
-            </div>
-          </div>
-        </div>
-        <div class="chart-layout">
-          <div class="chart-aside">
-            <h3>Reading the lines</h3>
-            <p>Each line is a family of endings, averaged. Switch to twelve endings to see each one, and select a name to bring it forward.</p>
-            <p class="small dim">Hover or use the arrow keys to read any day, and click to open its summary. ◆ marks a major event.</p>
-          </div>
-          <div class="frame"><div class="chart-card"><div class="chart-wrap" id="main-chart"></div><div class="legend" id="legend"></div></div></div>
-        </div>
-        <details class="disclose"><summary>View the scores as a table</summary><div class="table-wrap" id="score-table"></div></details>
+      <div class="hero-filters" role="toolbar" aria-label="Chart options">
+        <div class="seg" role="group" aria-label="Time range" id="range"><button type="button" data-r="30" aria-pressed="false">30D</button><button type="button" data-r="90" aria-pressed="false">90D</button><button type="button" data-r="all" aria-pressed="true">All</button></div>
+        <span class="sep" aria-hidden="true"></span>
+        <div class="seg" role="group" aria-label="Chart view" id="mode"><button type="button" data-m="families" aria-pressed="false"><span class="d-only">4 families</span><span class="m-only">Families</span></button><button type="button" data-m="endings" aria-pressed="true"><span class="d-only">12 endings</span><span class="m-only">Endings</span></button></div>
+      </div>
+      <div class="hero-top3 m-only" id="top3">${sorted.slice(0, 3).map((s) => `<span class="${s.cls}"><i class="swatch"></i><b>${last(s.values).toFixed(1)}</b>${esc(s.name)}</span>`).join("")}</div>
+      <section class="hero-card" aria-label="Horizon Balance today">
+        <span class="kicker"><span class="d-only">Horizon Balance · ${weekday(H.end)}, ${fmtDate(H.end)}</span><span class="m-only">Horizon Balance · ${dShort}</span></span>
+        <div class="bal"><b id="bal-val">0.0</b><span>${word(bal1, "up", "down")} today<br>${word(bal7, "up", "down")} this week</span></div>
+        <div><div class="gauge-scale" aria-hidden="true"><div class="gauge-needle" id="needle" style="left:50%"></div></div><div class="gauge-ends"><span><span class="d-only">Darker futures</span><span class="m-only">Darker</span></span><span><span class="d-only">Brighter futures</span><span class="m-only">Brighter</span></span></div></div>
+        <h2 class="m-only">${esc(H.headlines[li] || "")}</h2>
+        <div class="links m-only"><a href="#/summary/${H.end}">Today’s story ›</a><a href="#/scoring">How it’s scored ›</a></div>
       </section>
+      <div class="ticker" id="ticker">
+        <span class="ticker-label">Latest</span>
+        <div class="ticker-viewport"><div class="ticker-track" style="--dur:${Math.max(40, tick.length * 7)}s">${tickHTML}<span class="ticker-dup" aria-hidden="true">${tickHTML.replace(/<a /g, '<a tabindex="-1" ')}</span></div></div>
+        <button type="button" class="ticker-pause" id="ticker-pause" aria-pressed="false">Pause</button>
+      </div>
+    </section>`;
 
-      <section class="section">
-        <div class="section-head"><div><h2 class="h2">Where each ending stands today</h2></div><p class="small muted">Select an ending for its full story, its recipe and the news that moved it.</p></div>
-        <div class="elist" id="elist"></div>
-      </section>
-
-      <section class="section">
-        <div class="section-head"><div><h2 class="h2">The ten forces underneath</h2></div><p class="small muted">News moves these forces, and the forces move the endings. The blue tick marks where each stood on ${fmtDate(H.start)}.</p></div>
-        <div class="factors" id="factors"></div>
-      </section>
-    </div>`;
-
-    // scene
-    const paintScene = () => { const c = $("#scene"); if (c) window.EGScene?.paint(c, { family: leadFam, night: isNight(), seed: 20261014 }); };
-    paintScene();
-    S.repaintScene = paintScene;
     countUp($("#bal-val"), bal, 1, true);
     requestAnimationFrame(() => ($("#needle").style.left = `${50 + bal / 2}%`));
-
-    // main chart
-    const st = { range: "all", mode: "families", focus: null, hidden: new Set() };
-    const markers = H.key_events.map((k) => ({ i: k.i, label: `${fmtDate(k.date)} — ${k.title}` }));
-    let chart;
-    const draw = () => {
-      if (chart) chart.destroy();
-      const start = st.range === "all" ? 0 : Math.max(0, n - Number(st.range));
-      const src = st.mode === "endings" ? S.series : S.famSeries;
-      const series = src.map((s) => ({ ...s, values: s.values.slice(start) }));
-      chart = lines($("#main-chart"), {
-        dates: H.dates.slice(start), series, focus: st.focus, hidden: [...st.hidden],
-        headlines: H.headlines.slice(start), markers: markers.map((m) => ({ ...m, i: m.i - start })),
-        label: "Line chart of the Plausibility Index over time",
-        onClick: (i) => (location.hash = `#/summary/${H.dates[start + i]}`),
-      });
-      S.charts = S.charts.filter((c) => c !== chart); S.charts.push(chart);
-      drawLegend(src);
-    };
-    const drawLegend = (src) => {
-      const lg = $("#legend");
-      lg.innerHTML = FAMILY_ORDER.map((f) => {
-        const items = src.filter((s) => s.family === f);
-        return `<div class="legend-group">${st.mode === "endings" ? `<span class="gname">${esc(famName(f))}</span>` : ""}${items.map((s) => `<button type="button" class="chip ${st.hidden.has(s.key) ? "off" : ""}" data-k="${s.key}" aria-pressed="${st.focus === s.key}">${swatchSVG(s.cls, s.dash)}${esc(s.name)}</button>`).join("")}</div>`;
-      }).join("") + `<button type="button" class="chip" id="reset-focus" ${st.focus || st.hidden.size ? "" : "hidden"}>Reset</button>`;
-      $$(".chip[data-k]", lg).forEach((b) => {
-        b.addEventListener("click", () => { st.focus = st.focus === b.dataset.k ? null : b.dataset.k; st.hidden.delete(b.dataset.k); draw(); });
-        b.addEventListener("dblclick", () => { st.hidden.has(b.dataset.k) ? st.hidden.delete(b.dataset.k) : st.hidden.add(b.dataset.k); st.focus = null; draw(); });
-      });
-      $("#reset-focus", lg)?.addEventListener("click", () => { st.focus = null; st.hidden.clear(); draw(); });
-    };
-    $$("#range button").forEach((b) => b.addEventListener("click", () => { st.range = b.dataset.r; $$("#range button").forEach((x) => x.setAttribute("aria-pressed", x === b)); draw(); }));
-    $$("#mode button").forEach((b) => b.addEventListener("click", () => { st.mode = b.dataset.m; st.focus = null; st.hidden.clear(); $$("#mode button").forEach((x) => x.setAttribute("aria-pressed", x === b)); draw(); }));
-    draw();
-
-    // table view
-    $("#score-table").innerHTML = `<table><thead><tr><th>Ending</th><th>Family</th><th class="n">Today</th><th class="n">1 day</th><th class="n">7 days</th><th class="n">30 days</th><th class="n">Since ${startShort}</th></tr></thead><tbody>${sorted.map((s) => `<tr><td>${esc(s.name)}</td><td>${esc(famName(s.family))}</td><td class="n">${last(s.values).toFixed(1)}</td><td class="n">${dtxt(change(s.key, 1))}</td><td class="n">${dtxt(change(s.key, 7))}</td><td class="n">${dtxt(change(s.key, 30))}</td><td class="n">${dtxt(change(s.key, n - 1))}</td></tr>`).join("")}</tbody></table>`;
-
-    // endings list
-    $("#elist").innerHTML = FAMILY_ORDER.map((f) => `
-      <div class="efam">
-        <div class="efam-head"><h3><span class="swatch c-${f}"></span>${esc(famName(f))}</h3><p>${esc(H.families_meta[f].tagline)}</p><span class="fi">Family index ${last(H.families[f]).toFixed(1)}</span></div>
-        <div class="erows">${S.series.filter((s) => s.family === f).map((s) => {
-          const c = S.C.endings[s.key], d7 = change(s.key, 7);
-          return `<button type="button" class="erow ${s.cls}" data-k="${s.key}">
-            <span><span class="ename">${esc(s.name)}</span><span class="edesc">${esc(c.desc)}</span></span>
-            <span class="spark-holder"></span>
-            <span class="escore">${last(s.values).toFixed(1)}</span>
-            <span class="ed ${dcls(d7)}" title="Change over the past 7 days">${dtxt(d7).replace(/^[+−]/, "")} wk</span>
-          </button>`;
-        }).join("")}</div>
-      </div>`).join("");
-    $$(".erow[data-k]").forEach((b) => {
-      const s = S.series.find((x) => x.key === b.dataset.k);
-      spark($(".spark-holder", b), s.values.slice(-60), s.cls);
-      b.addEventListener("click", () => (location.hash = `#/ending/${b.dataset.k}`));
+    $("#ticker-pause").addEventListener("click", (e) => {
+      const p = $("#ticker").classList.toggle("paused");
+      e.currentTarget.textContent = p ? "Play" : "Pause"; e.currentTarget.setAttribute("aria-pressed", p);
     });
 
-    // factors
-    const base = S.R.factor_baselines;
-    $("#factors").innerHTML = Object.keys(S.R.factors).map((f) => {
-      const v = last(H.factors[f]), b = base[f], d = v - H.factors[f][0];
-      return `<div class="factor"><span class="fname">${esc(S.R.factors[f].name)}</span><span class="fval">${v.toFixed(1)} <span class="small ${dcls(d)} dim">${dtxt(d).replace(/^[+−]/, "")}</span></span>
-        <div class="meter" role="meter" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${v.toFixed(1)}" aria-label="${esc(S.R.factors[f].name)}"><div class="fill" data-w="${v}"></div><div class="base" style="left:calc(${b}% - 0.5px)"></div></div>
-        <div class="fnote"><span>${esc(S.R.factors[f].low)}</span><span style="text-align:right">${esc(S.R.factors[f].high)}</span></div></div>`;
-    }).join("");
-    requestAnimationFrame(() => $$(".meter .fill").forEach((m) => (m.style.width = m.dataset.w + "%")));
+    const st = { range: "all", mode: "endings" };
+    const markers = H.key_events.map((k) => ({ i: k.i, label: `${fmtDate(k.date)} — ${k.title}` }));
+    const layout = (W, Hh) => {
+      if (isPhone()) {
+        const f = $(".hero-filters"), c = $(".hero-card");
+        const yt = f ? f.offsetTop + f.offsetHeight + 56 : 200;
+        const yb = c ? c.offsetTop - 34 : Hh - 330;
+        return { x0: 0, xr: W - 8, yt, yb: Math.max(yt + 120, yb), todayTop: yt, labels: false };
+      }
+      return { x0: 0, xr: W - 268, yt: 285, yb: Hh - 105, todayTop: 180, labels: true };
+    };
+    let chart;
+    const draw = () => {
+      if (chart) { chart.destroy(); S.charts = S.charts.filter((c) => c !== chart); }
+      const start = st.range === "all" ? 0 : Math.max(0, n - Number(st.range));
+      const src = st.mode === "endings" ? S.series : S.famSeries;
+      chart = window.EGChart.hero($("#hero-chart"), {
+        dates: H.dates.slice(start), series: src.map((s) => ({ ...s, values: s.values.slice(start) })),
+        headlines: H.headlines.slice(start), markers: markers.map((m) => ({ ...m, i: m.i - start })),
+        label: "Line chart of the Plausibility Index for each ending over time. Use the arrow keys to read any day.",
+        layout, onClick: (i) => (location.hash = `#/summary/${H.dates[start + i]}`),
+      });
+      S.charts.push(chart);
+    };
+    $$("#range button").forEach((b) => b.addEventListener("click", () => { st.range = b.dataset.r; $$("#range button").forEach((x) => x.setAttribute("aria-pressed", x === b)); draw(); }));
+    $$("#mode button").forEach((b) => b.addEventListener("click", () => { st.mode = b.dataset.m; $$("#mode button").forEach((x) => x.setAttribute("aria-pressed", x === b)); draw(); }));
+    draw();
   }
 
   /* ---------------- ending dialog ---------------- */
@@ -289,6 +226,15 @@
   }
 
   /* ================= SUMMARY ================= */
+  const TIER_WORD = { T1: "minor", T2: "notable", T3: "major", T4: "landmark" };
+  function sparkSVG(values, cls) {
+    const W = 120, Hh = 28, n = values.length;
+    let lo = Math.min(...values), hi = Math.max(...values);
+    if (hi - lo < 1.5) { const m = (hi + lo) / 2; lo = m - 0.75; hi = m + 0.75; }
+    const x = (i) => (n === 1 ? W : (i / (n - 1)) * W), y = (v) => 26 - ((v - lo) / (hi - lo)) * 22;
+    const d = window.EGChart.monotonePath(values.map((v, i) => [x(i), y(v)]));
+    return `<svg class="sspark ${cls}" width="120" height="28" viewBox="0 0 120 28" aria-hidden="true"><path d="${d}"/><circle cx="${W}" cy="${y(values[n - 1]).toFixed(1)}" r="2.5"/></svg>`;
+  }
   async function renderSummary(date) {
     const H = S.H;
     if (!date || !H.dates.includes(date)) date = H.end;
@@ -299,63 +245,111 @@
     if (location.hash.replace(/^#\/?/, "").split("/")[0] !== "summary") return;
     const sm = d.summary || {};
     const prev = i > 0 ? H.dates[i - 1] : null, next = i < N() - 1 ? H.dates[i + 1] : null;
-    const balD = i > 0 ? H.balance[i] - H.balance[i - 1] : 0;
-    const deltas = S.series.map((s) => ({ s, v: d.deltas[s.key] })).sort((a, b) => b.v - a.v);
-    const maxAbs = Math.max(0.3, ...deltas.map((x) => Math.abs(x.v)));
-    const fadeTotal = Object.values(d.fading_contribution || {}).reduce((a, b) => a + Math.abs(b), 0);
+    const balPrev = i > 0 ? H.balance[i - 1] : H.balance[i], balD = H.balance[i] - balPrev;
+    const at = (k, j) => S.H.scores[k][Math.max(0, Math.min(i, j))];
+    const d1 = (k) => (i > 0 ? at(k, i) - at(k, i - 1) : 0);
+    const d7 = (k) => at(k, i) - at(k, i - 7);
+    const famNow = FAMILY_ORDER.map((f) => ({ f, v: H.families[f][i] })).sort((a, b) => b.v - a.v);
+    const famPrev = i > 0 ? FAMILY_ORDER.slice().sort((a, b) => H.families[b][i - 1] - H.families[a][i - 1])[0] : famNow[0].f;
+    const famNote = famPrev !== famNow[0].f ? `${famName(famNow[0].f)} moved above ${famName(famPrev)} as the leading family.` : `${famName(famNow[0].f)} remains the leading family.`;
+    const short = (t) => (t.length > 46 ? t.slice(0, 44).replace(/\s+\S*$/, "") + "…" : t);
+
+    // what moved each ending today (biggest event contributions)
+    const pushes = {};
+    S.series.forEach((s) => {
+      pushes[s.key] = d.events.map((e) => ({ e, v: (e.contribution || {})[s.key] || 0 })).filter((x) => Math.abs(x.v) >= 0.01).sort((a, b) => Math.abs(b.v) - Math.abs(a.v));
+    });
+    const whyRow = (k) => {
+      const p = pushes[k];
+      if (!p.length || Math.abs(d1(k)) < 0.05) return "Little changed today";
+      return p.slice(0, 2).map((x) => `${short(x.e.title)} ${dtxt(x.v, 2)}`).join(" · ");
+    };
+    // movers: three biggest daily moves, explained from the written note when possible
+    const movers = S.series.map((s) => ({ s, v: d1(s.key) })).filter((m) => Math.abs(m.v) >= 0.05).sort((a, b) => Math.abs(b.v) - Math.abs(a.v)).slice(0, 3);
+    const noteFor = (s) => {
+      const parts = (sm.movers_note || "").split(/(?<=\.)\s+(?=[A-Z0-9])/);
+      const hit = parts.find((p) => p.startsWith(s.name + " "));
+      if (hit) { const t = hit.replace(/^[^,]*,\s*/, ""); return cap(t); }
+      const p = pushes[s.key].slice(0, 2);
+      return p.length ? `From ${p.map((x) => `${x.e.title} (${dtxt(x.v, 2)})`).join(" and ")}.` : "Earlier news fading.";
+    };
+    const tiers = {};
+    d.events.forEach((e) => (tiers[e.tier] = (tiers[e.tier] || 0) + 1));
+    const tierLine = Object.keys(tiers).sort().reverse().map((t) => `${tiers[t]} ${TIER_WORD[t] || ""} (${t})`).join(", ");
+    const fxLine = (e) => {
+      const fe = Object.entries(e.factor_effect || {}).sort((a, b) => Math.abs(b[1]) - Math.abs(a[1]));
+      return fe.length ? fe.map(([f, v]) => `${esc(S.R.factors[f]?.name || f)} ${dtxt(v, 2)}`).join(" · ") : e.factors.map((f) => `${f.dir > 0 ? "↑" : "↓"} ${esc(S.R.factors[f.id].name)}`).join(" · ");
+    };
+    const coming = (sm.coming_up || []).map((c) => { const m = c.match(/^([^:]{2,24}):\s*(.+)$/); return m ? [m[1], m[2]] : ["", c]; });
+    const fmtUpper = new Date(date + "T12:00:00").toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric" }).replace(",", "").toUpperCase();
 
     view.innerHTML = `
-    <div class="wrap">
-      <div class="day-head reveal">
-        <div class="section-head">
-          <div class="date-big">${weekday(date)}, ${fmtDate(date)}</div>
-          <div class="day-nav">
-            <a class="btn" ${prev ? `href="#/summary/${prev}"` : 'aria-disabled="true"'} aria-label="Previous day">← prev</a>
-            <input class="btn mono" type="date" id="day-pick" value="${date}" min="${H.start}" max="${H.end}" aria-label="Pick a date">
-            <a class="btn" ${next ? `href="#/summary/${next}"` : 'aria-disabled="true"'} aria-label="Next day">next →</a>
-            ${date !== H.end ? `<a class="btn" href="#/summary/${H.end}">latest</a>` : ""}
+    <div class="sum reveal">
+      <header class="sum-head">
+        <div class="sum-intro">
+          <div class="sum-date">
+            <a class="round" ${prev ? `href="#/summary/${prev}"` : 'aria-disabled="true"'} aria-label="Previous day">‹</a>
+            <span>${fmtUpper}</span>
+            <a class="round" ${next ? `href="#/summary/${next}"` : 'aria-disabled="true"'} aria-label="Next day">›</a>
+            ${date !== H.end ? `<a class="sum-latest" href="#/summary/${H.end}">Latest</a>` : ""}
           </div>
+          <h1>${esc(sm.headline || H.headlines[i] || "No summary written for this day")}</h1>
+          ${(sm.body || "").split(/\n\n+/).filter(Boolean).map((p) => `<p>${esc(p)}</p>`).join("")}
+          ${(d.badges || []).length ? `<div class="badges">${d.badges.map(badgeHTML).join("")}</div>` : ""}
         </div>
-        <h1>${esc(sm.headline || "No summary written for this day")}</h1>
-        <div class="badges" style="margin-top:16px">${(d.badges || []).map(badgeHTML).join("")}</div>
-      </div>
+        <aside class="sum-bal">
+          <div class="k">Horizon Balance</div>
+          <div class="bal"><b>${fmtSigned(H.balance[i], 1)}</b><span>${i > 0 ? `${balD > 0.049 ? "up" : balD < -0.049 ? "down" : "unchanged"}${Math.abs(balD) > 0.049 ? " " + Math.abs(balD).toFixed(1) : ""} from ${fmtSigned(balPrev, 1)}` : "first day tracked"}</span></div>
+          <div class="gauge-scale" aria-hidden="true"><div class="gauge-needle" style="left:${50 + H.balance[i] / 2}%"></div></div>
+          <div class="fams">${famNow.map(({ f, v }) => `<span class="c-${f}"><i class="swatch"></i>${esc(famName(f))}<b>${v.toFixed(1)}</b></span>`).join("")}</div>
+          <p>${esc(famNote)}</p>
+        </aside>
+      </header>
 
-      <div class="day-grid section">
-        <div class="grid">
-          <article class="card pad prose reveal">
-            ${(sm.body || "").split(/\n\n+/).map((p) => `<p>${esc(p)}</p>`).join("")}
-            ${sm.movers_note ? `<div class="movers"><b>Movers.</b> ${esc(sm.movers_note)}</div>` : ""}
-          </article>
-          <div>
-            <div class="section-head" style="margin:32px 0 4px"><div><h2 class="h2" style="font-size:30px">${d.events.length ? `The ${d.events.length} events behind today’s moves` : "No events today"}</h2></div></div>
-            <div class="events">${d.events.length ? d.events.slice().sort((a, b) => b.points - a.points).map(eventHTML).join("") : `<div class="card pad muted">No qualifying events were found for this day. Scores only drifted as earlier announcements faded.</div>`}</div>
-          </div>
-        </div>
-        <aside class="grid">
-          <div class="card pad">
-            <div class="eyebrow">Horizon Balance</div>
-            <div style="display:flex;align-items:baseline;gap:12px;margin-top:6px"><span class="gauge-value mono" style="font-size:44px">${fmtSigned(H.balance[i], 1)}</span><span class="mono ${dcls(balD)}">${dtxt(balD, 2)}</span></div>
-            <dl class="kv" style="margin-top:14px">
-              <dt>Evidence strength</dt><dd>${esc(d.composites.evidence)}</dd>
-              <dt>News heat</dt><dd>${d.composites.news_heat.toFixed(2)}</dd>
-              <dt>Events rated</dt><dd>${d.events.length}</dd>
-              <dt>Leading ending</dt><dd>${esc(S.H.scenarios[Object.entries(d.scores).sort((a, b) => b[1] - a[1])[0][0]].name)}</dd>
-            </dl>
-          </div>
-          <div class="card pad">
-            <div class="eyebrow" style="margin-bottom:14px">How each ending moved</div>
-            <div class="bars">${deltas.map(({ s, v }) => {
-              const w = (Math.abs(v) / maxAbs) * 50;
-              return `<div class="bar-row ${s.cls}"><span>${esc(s.name)}</span><div class="bar-track"><div class="bar" style="${v >= 0 ? `left:50%` : `right:50%`};width:${w}%"></div></div><span class="v ${dcls(v)}">${dtxt(v)}</span></div>`;
-            }).join("")}</div>
-            ${fadeTotal > 0.02 ? `<p class="small dim" style="margin-top:12px">Includes gentle drift as earlier announcements fade (21-day half-life).</p>` : ""}
-          </div>
-          ${(sm.coming_up || []).length ? `<div class="card pad"><div class="eyebrow" style="margin-bottom:10px">Coming up</div><ul style="margin:0;padding-left:18px">${sm.coming_up.map((c) => `<li>${esc(c)}</li>`).join("")}</ul></div>` : ""}
-          <div class="card pad small muted">Scores are an evidence-weighted reading of public news, not a forecast. <a href="#/scoring">How scoring works →</a></div>
+      ${movers.length ? `<div class="sum-movers">${movers.map(({ s, v }) => `<a class="mover ${s.cls}" href="#/ending/${s.key}"><span class="k"><i class="swatch"></i>Biggest mover</span><span class="row"><span class="n">${esc(s.name)}</span><span class="v">${dtxt(v)}</span></span><span class="why">${esc(noteFor(s))}</span></a>`).join("")}</div>` : ""}
+
+      <div class="sum-cols">
+        <section aria-labelledby="reading-h">
+          <div class="reading-head"><h2 id="reading-h">Today’s reading, <i>ending by ending</i></h2></div>
+          <div class="rrow rhead" aria-hidden="true"><span></span><span></span><span>LAST 30 DAYS</span><span>SCORE</span><span>TODAY</span><span>7 DAYS</span></div>
+          ${FAMILY_ORDER.map((f) => {
+            const items = S.series.filter((s) => s.family === f);
+            return `<div class="rfam c-${f}"><i class="swatch"></i><h3>${esc(famName(f))}</h3><span class="m">${items.length} endings · family index</span><b>${H.families[f][i].toFixed(1)}</b></div>` +
+              items.map((s) => {
+                const v1 = d1(s.key), big = Math.abs(v1) >= 0.5;
+                return `<a class="rrow ${s.cls}" href="#/ending/${s.key}">
+                  <span class="rname"><b>${esc(s.name)}</b><small>${esc(whyRow(s.key))}</small></span>
+                  <span class="rdesc" title="${esc(S.C.endings[s.key].desc)}">${esc(S.C.endings[s.key].desc)}</span>
+                  ${sparkSVG(S.H.scores[s.key].slice(Math.max(0, i - 29), i + 1), s.cls)}
+                  <span class="rs">${at(s.key, i).toFixed(1)}</span>
+                  <span class="rd ${big ? "big" : ""}">${dtxt(v1)}</span>
+                  <span class="rd">${dtxt(d7(s.key))}</span>
+                </a>`;
+              }).join("");
+          }).join("")}
+          <p class="rnote">Scores are independent 0–100 likelihood readings, so they do not add up to 100. Select any ending for its full story and evidence.</p>
+        </section>
+
+        <aside class="sum-side">
+          <section aria-labelledby="happened-h">
+            <h2 id="happened-h">What happened</h2>
+            <div class="m">${d.events.length ? `${d.events.length} ${d.events.length === 1 ? "story" : "stories"} scored · ${tierLine}` : "No qualifying events today. Scores only drifted as earlier news faded."}</div>
+            <ol class="evlist">${d.events.slice().sort((a, b) => b.points - a.points).map((e, k) => `
+              <li>
+                <span class="num">${String(k + 1).padStart(2, "0")}</span>
+                <div>
+                  <div class="tags"><span class="tier ${e.tier >= "T2" ? "hi" : ""}">${e.tier}</span><span>${esc(CATS[e.category] || e.category)}</span></div>
+                  <span class="t">${esc(e.title)}</span>
+                  <span class="fx">${fxLine(e)}</span>
+                  <span class="src">${(e.sources || []).filter((u) => /^https?:/.test(u)).map((u) => `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${esc(host(u))} ↗</a>`).join("")}</span>
+                </div>
+              </li>`).join("")}
+            </ol>
+          </section>
+          ${coming.length ? `<section class="coming" aria-labelledby="coming-h"><h3 id="coming-h">Coming up</h3>${coming.map(([w, t]) => `<div>${w ? `<span>${esc(w.toUpperCase())}</span>` : ""}${esc(cap(t))}</div>`).join("")}</section>` : ""}
         </aside>
       </div>
     </div>`;
-    $("#day-pick").addEventListener("change", (e) => { if (H.dates.includes(e.target.value)) location.hash = `#/summary/${e.target.value}`; });
   }
 
   function eventHTML(e) {
