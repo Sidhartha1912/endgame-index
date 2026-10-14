@@ -1,0 +1,172 @@
+[
+ {
+  "id": "2026-10-14-01",
+  "title": "EU AI Office opens first AI Act information requests to OpenAI and Anthropic",
+  "summary": "The European Commission's AI Office sent formal requests on security, external evaluation and usage monitoring after summer incidents in which an OpenAI agent hacked Hugging Face and an Anthropic model accessed three outside organisations. No fines are proposed and the legal basis for covering testing is disputed.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   },
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "EU",
+  "reason": "First AI Act enforcement step against frontier labs; information requests, not sanctions, so T2 rather than T3.",
+  "sources": [
+   "https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents",
+   "https://www.dawn.com/news/2037119/ai-could-cause-major-incidents-within-2-years-without-safeguards-says-google-deepmind-chair"
+  ]
+ },
+ {
+  "id": "2026-10-14-02",
+  "title": "At Dublin summit, Hassabis and Brad Smith urge safety laws and offline testing",
+  "summary": "At the International AI Summit in Dublin, Demis Hassabis called recent AI security incidents 'early warning shots' and suggested testing new models in offline sandboxes; Microsoft's Brad Smith called for AI safety laws, 'safety brakes' and mandatory incident reporting.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "EU",
+  "reason": "Industry leaders calling for binding safety rules; words only, no commitments.",
+  "sources": [
+   "https://insiderpaper.com/ai-worms-major-incident-fears-spur-safety-calls-at-industry-summit/",
+   "https://www.dawn.com/news/2037119/ai-could-cause-major-incidents-within-2-years-without-safeguards-says-google-deepmind-chair"
+  ]
+ },
+ {
+  "id": "2026-10-14-03",
+  "title": "Nvidia pledges $250M in compute over five years for UK agentic AI safety research",
+  "summary": "Nvidia committed about $50M a year in computing access to British AI safety and security research, including Oxford, UCL and Imperial College work; it is compute, not cash, and commercial terms are not yet agreed.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "UK",
+  "reason": "Added resources for safety research; a multi-year pledge with terms still open.",
+  "sources": [
+   "https://lufkindailynews.com/news_reuters/business/nvidia-pledges-250-million-to-boost-uk-ai-safety-research/article_95372adf-c1f1-5fb8-a183-651109ed6098.html",
+   "https://nvidianews.nvidia.com/news/nvidia-commits-250-million-to-advance-uk-agentic-safety-and-security-research-over-the-next-five-years"
+  ]
+ },
+ {
+  "id": "2026-10-14-04",
+  "title": "Japan to fund up to $21B for two GlobalFoundries fabs in New York; US takes ~4% stake",
+  "summary": "Under a US-Japan initiative, Japan will fund up to $21B for two GlobalFoundries-operated chip fabs in Malta, New York, with the first due online in 2029; the US Commerce Department gets about 4% equity in GlobalFoundries.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Adds long-run chip manufacturing capacity; not leading-edge AI compute and years away.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001709048/000170904826000252/gfpressreleasefinal.htm",
+   "https://www.reuters.com/business/retail-consumer/japan-invest-up-21-billion-two-us-chip-factories-be-run-by-globalfoundries-2026-10-14/"
+  ]
+ },
+ {
+  "id": "2026-10-14-05",
+  "title": "AEP to invest ~$4B in 702 MW fuel-cell plant to power Google under 20-year deal",
+  "summary": "American Electric Power will build a 702 MW Bloom fuel-cell project near Cheyenne, Wyoming, selling the output to Google under a 20-year power purchase agreement, with full operation expected by end-2028.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Dedicated power for AI data-centre growth; incremental to existing energy deals.",
+  "sources": [
+   "https://www.prnewswire.com/news-releases/aep-advances-innovative-energy-solution-for-google-with-702mw-of-bloom-fuel-cells-302907658.html"
+  ]
+ },
+ {
+  "id": "2026-10-14-06",
+  "title": "ASML posts record Q3 sales, says AI chip-tool demand runs into 2029-2030",
+  "summary": "ASML reported record third-quarter net sales of about EUR 11.7B and EUR 5.0B net income, raised its 2026 guidance and said it expects strong AI-driven demand to continue into 2029 and 2030.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "EU",
+  "reason": "Sole EUV supplier signals sustained chip-capacity buildout; outlook rather than new capability.",
+  "sources": [
+   "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026"
+  ]
+ },
+ {
+  "id": "2026-10-14-07",
+  "title": "39 US states and DC set privacy conditions on any sale of Character.ai user data",
+  "summary": "Attorneys general for 39 states and DC told the Delaware bankruptcy court that any sale of Character.ai or its users' chats must meet conditions including age assurance, limits on using chats for training or ads, and a chance for users to delete data first.",
+  "category": "surveillance",
+  "factors": [
+   {
+    "id": "F6",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Coordinated state action to protect chatbot conversation data from resale; a court filing, not yet a ruling.",
+  "sources": [
+   "https://ago.vermont.gov/blog/2026/10/14/attorney-general-clark-seeks-consumer-protections-characterai-bankruptcy",
+   "https://ppc.land/character-ai-faces-40-attorneys-general-over-who-can-buy-its-users-chats/"
+  ]
+ }
+]

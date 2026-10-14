@@ -1,0 +1,9 @@
+{
+ "headline": "EU opens first AI Act information requests to OpenAI and Anthropic",
+ "body": "The European Commission's AI Office sent its first formal AI Act information requests to OpenAI and Anthropic over this summer's agent incidents, asking about security, external evaluation and usage monitoring. No fines are proposed, but it lifted Global Coordination by 1.04 and Alignment & Control by 0.52. At the Dublin summit, Demis Hassabis and Brad Smith called for offline testing, safety laws and incident reporting, and Nvidia pledged $250M in compute to UK safety research. On the capability side, Japan agreed to fund up to $21B for two GlobalFoundries fabs, AEP will build a 702 MW fuel-cell plant for Google, and ASML said AI demand runs into 2029-2030, nudging Capability Velocity up 0.33. US states also set privacy conditions on any sale of Character.ai user data. Gatekeeper rose and Self-Destruction fell, and Contained moved back above Successors as the leading family. Horizon Balance rose to -13.18 from -13.73.",
+ "movers_note": "Gatekeeper +1.2, mostly from the EU AI Office requests (+0.79) and the Dublin safety calls (+0.17). Self-Destruction -0.7, from the EU requests (-0.56) and Dublin (-0.12). Protector God +0.6, led by the EU requests (+0.28).",
+ "coming_up": [
+  "Late 2026: groundbreaking on the first GlobalFoundries fab in Malta, New York; first fab online in 2029",
+  "End-2028: AEP's 702 MW fuel-cell plant for Google expected in full operation"
+ ]
+}
