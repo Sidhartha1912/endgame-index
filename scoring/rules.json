@@ -1,0 +1,444 @@
+{
+  "version": "1.2.0",
+  "effective_from": "2026-04-14",
+  "day_window": {
+    "timezone": "Asia/Kolkata",
+    "start": "00:00",
+    "end": "23:59"
+  },
+  "score_label": "Plausibility Index (1-99)",
+  "factors": {
+    "F1": {
+      "name": "Capability Velocity",
+      "icon": "rocket",
+      "low": "AI progress has stalled",
+      "high": "Rapid leaps toward superintelligence"
+    },
+    "F2": {
+      "name": "AI Autonomy",
+      "icon": "robot",
+      "low": "AI is a tool with humans in every loop",
+      "high": "AI agents act independently, run key systems, improve themselves"
+    },
+    "F3": {
+      "name": "Alignment & Control",
+      "icon": "shield",
+      "low": "AIs are often deceptive or uncontrollable",
+      "high": "Robust, verified human control of advanced AI"
+    },
+    "F4": {
+      "name": "Global Coordination",
+      "icon": "globe",
+      "low": "No rules, unchecked race",
+      "high": "Binding global treaties and compute governance"
+    },
+    "F5": {
+      "name": "Power Concentration",
+      "icon": "crown",
+      "low": "AI power widely distributed and open",
+      "high": "One company or state dominates AI"
+    },
+    "F6": {
+      "name": "Surveillance & Control",
+      "icon": "eye",
+      "low": "AI rarely used to control populations",
+      "high": "Pervasive AI surveillance and censorship"
+    },
+    "F7": {
+      "name": "Shared Prosperity",
+      "icon": "coins",
+      "low": "AI gains captured by a few, workers left behind",
+      "high": "AI gains broadly shared (UBI, public dividends)"
+    },
+    "F8": {
+      "name": "Catastrophic Risk",
+      "icon": "flame",
+      "low": "Stable world, low conflict",
+      "high": "Arms races, WMD misuse, major conflict"
+    },
+    "F9": {
+      "name": "Tech Backlash",
+      "icon": "hand",
+      "low": "Society broadly embraces technology",
+      "high": "Mass rejection, moratoria, de-teching"
+    },
+    "F10": {
+      "name": "Human-AI Merging",
+      "icon": "link",
+      "low": "Clear line between humans and AI",
+      "high": "Brain-computer links, uploads, AI personhood/rights"
+    }
+  },
+  "factor_baselines": {
+    "_note": "Editorial calibration of the state of the world on 2026-04-14 (see SCORING_RULES.md Part 5). Scenario movements depend on factor CHANGES; baselines set where each factor sits on its 0-100 scale.",
+    "F1": 68,
+    "F2": 45,
+    "F3": 42,
+    "F4": 25,
+    "F5": 62,
+    "F6": 45,
+    "F7": 35,
+    "F8": 55,
+    "F9": 40,
+    "F10": 20
+  },
+  "scenarios": {
+    "libertarian_utopia": {
+      "name": "Libertarian Utopia",
+      "family": "flourishing",
+      "anchor": 30,
+      "weights": {
+        "F3": 0.25,
+        "F5": -0.3,
+        "F10": 0.2,
+        "F8": -0.25
+      }
+    },
+    "benevolent_dictator": {
+      "name": "Benevolent Dictator",
+      "family": "flourishing",
+      "anchor": 20,
+      "weights": {
+        "F2": 0.3,
+        "F3": 0.25,
+        "F5": 0.25,
+        "F6": 0.2
+      }
+    },
+    "egalitarian_utopia": {
+      "name": "Egalitarian Utopia",
+      "family": "flourishing",
+      "anchor": 18,
+      "weights": {
+        "F7": 0.35,
+        "F3": 0.25,
+        "F5": -0.2,
+        "F8": -0.2
+      }
+    },
+    "protector_god": {
+      "name": "Protector God",
+      "family": "flourishing",
+      "anchor": 12,
+      "weights": {
+        "F3": 0.35,
+        "F1": 0.25,
+        "F2": 0.25,
+        "F6": -0.15
+      }
+    },
+    "gatekeeper": {
+      "name": "Gatekeeper",
+      "family": "contained",
+      "anchor": 15,
+      "weights": {
+        "F4": 0.35,
+        "F3": 0.3,
+        "F1": 0.2,
+        "F2": 0.15
+      }
+    },
+    "enslaved_god": {
+      "name": "Enslaved God",
+      "family": "contained",
+      "anchor": 35,
+      "weights": {
+        "F1": 0.3,
+        "F5": 0.3,
+        "F3": 0.25,
+        "F2": -0.15
+      }
+    },
+    "conquerors": {
+      "name": "Conquerors",
+      "family": "successors",
+      "anchor": 15,
+      "weights": {
+        "F3": -0.35,
+        "F1": 0.25,
+        "F2": 0.25,
+        "F8": 0.15
+      }
+    },
+    "descendants": {
+      "name": "Descendants",
+      "family": "successors",
+      "anchor": 12,
+      "weights": {
+        "F10": 0.4,
+        "F1": 0.3,
+        "F2": 0.3
+      }
+    },
+    "zookeeper": {
+      "name": "Zookeeper",
+      "family": "successors",
+      "anchor": 8,
+      "weights": {
+        "F2": 0.3,
+        "F1": 0.25,
+        "F3": -0.25,
+        "F5": 0.2
+      }
+    },
+    "orwell_1984": {
+      "name": "1984",
+      "family": "stalled",
+      "anchor": 25,
+      "weights": {
+        "F6": 0.45,
+        "F4": 0.2,
+        "F5": 0.2,
+        "F1": -0.15
+      }
+    },
+    "reversion": {
+      "name": "Reversion",
+      "family": "stalled",
+      "anchor": 6,
+      "weights": {
+        "F9": 0.5,
+        "F1": -0.3,
+        "F8": 0.2
+      }
+    },
+    "self_destruction": {
+      "name": "Self-Destruction",
+      "family": "stalled",
+      "anchor": 18,
+      "weights": {
+        "F8": 0.55,
+        "F4": -0.25,
+        "F3": -0.2
+      }
+    }
+  },
+  "families": {
+    "flourishing": {
+      "name": "Flourishing",
+      "tagline": "Humans thrive alongside superintelligence"
+    },
+    "contained": {
+      "name": "Contained",
+      "tagline": "Superintelligence exists, but on a leash"
+    },
+    "successors": {
+      "name": "Successors",
+      "tagline": "AI inherits the future"
+    },
+    "stalled": {
+      "name": "Stalled",
+      "tagline": "Superintelligence never arrives"
+    }
+  },
+  "composites": {
+    "family_index": "Mean of the scores of the endings in each family",
+    "horizon_balance": {
+      "description": "Headline gauge from -100 (dark) to +100 (bright)",
+      "bright": [
+        "libertarian_utopia",
+        "egalitarian_utopia",
+        "protector_god",
+        "benevolent_dictator"
+      ],
+      "dark": [
+        "conquerors",
+        "zookeeper",
+        "orwell_1984",
+        "self_destruction"
+      ],
+      "formula": "mean(bright) - mean(dark)"
+    },
+    "momentum_7d": "Score today minus score 7 days ago",
+    "news_heat": "Sum of absolute event points across all factors that day (before smoothing)",
+    "evidence_strength": {
+      "high": "At least 3 events rated T2+ from A or B sources",
+      "medium": "At least 1 event rated T2+ from A or B sources",
+      "low": "Otherwise"
+    }
+  },
+  "badges": {
+    "landmark_day": "Any T4 event scored",
+    "speed_limit": "An ending hit the 3-point daily cap (catch-up continues tomorrow)",
+    "breakout": "An ending moved 4+ points over 7 days",
+    "new_leader": "The highest-scoring ending changed",
+    "crossover": "Two endings swapped rank order",
+    "quiet_day": "News heat below 0.3"
+  },
+  "event_categories": {
+    "labs": "Labs & Models",
+    "safety": "Safety & Alignment",
+    "policy": "Policy & Treaties",
+    "military": "Military & Security",
+    "surveillance": "Surveillance & Rights",
+    "economy": "Jobs & Economy",
+    "merge": "Brain-Tech & AI Personhood",
+    "society": "Society & Public Mood"
+  },
+  "event_rating": {
+    "impact_points": {
+      "T1": 0.3,
+      "T2": 1.0,
+      "T3": 2.5,
+      "T4": 6.0
+    },
+    "credibility": {
+      "A": 1.0,
+      "B": 0.8,
+      "C": 0.5,
+      "D": 0.25,
+      "E": 0.0
+    },
+    "self_claim_multiplier": 0.7,
+    "novelty": {
+      "new": 1.0,
+      "development": 0.3,
+      "rehash": 0.0
+    },
+    "scope": {
+      "global": 1.0,
+      "national": 0.6,
+      "local": 0.3
+    },
+    "max_factors_per_event": 2,
+    "secondary_factor_share": 0.5,
+    "max_events_per_day": 25,
+    "min_events_target": 8,
+    "non_us_share_target": 0.25
+  },
+  "dynamics": {
+    "daily_saturation_S": 6.0,
+    "signal_half_life_days": 21,
+    "structural_half_life_days": null,
+    "edge_softening_zone": 30,
+    "amplifier_k": 2.0,
+    "scenario_daily_cap": 3.0,
+    "scenario_bounds": [
+      1,
+      99
+    ],
+    "factor_bounds": [
+      0,
+      100
+    ],
+    "no_change_threshold": 0.1
+  },
+  "quality": {
+    "skeptic_pass_min_tier": "T3",
+    "skeptic_rule": "If the second pass rates an event more than one tier lower, use the lower tier",
+    "cluster_rule": "Score events, not articles: all coverage of the same event is merged into one event",
+    "missed_run_rule": "Next run processes each missed day separately, in order",
+    "correction_rule": "If a scored event proves false, add a correction event of equal and opposite points (structural) on the day it is corrected; history is never rewritten",
+    "ambiguous_direction_rule": "If the direction cannot be decided, the event is logged as 'on watch' and not scored",
+    "anticipation_rule": "Scheduled or rumoured events count only on the day they actually happen",
+    "opinion_cap": "Opinion pieces max T1, unless a head of state or lab leader is announcing policy (then rated as a signal announcement)",
+    "excluded": [
+      "stock price moves on their own",
+      "fiction and speculation",
+      "product marketing without new capability",
+      "duplicate coverage"
+    ]
+  },
+  "sources": {
+    "A": [
+      "Government and regulator sites (e.g. whitehouse.gov, europa.eu, pib.gov.in, gov.uk, gov.cn)",
+      "UN, OECD, G7/G20 communiqu\u00e9s",
+      "Court filings and rulings",
+      "Peer-reviewed journals (Nature, Science)",
+      "Official lab publications, model cards and system cards (self-claim multiplier applies)"
+    ],
+    "B": [
+      "Reuters",
+      "AP",
+      "AFP",
+      "Bloomberg",
+      "Financial Times",
+      "Wall Street Journal",
+      "New York Times",
+      "The Economist",
+      "BBC",
+      "The Guardian",
+      "Nikkei Asia",
+      "South China Morning Post",
+      "The Hindu",
+      "Mint",
+      "MIT Technology Review",
+      "The Information",
+      "arXiv preprints from established labs (self-claim multiplier applies)"
+    ],
+    "C": [
+      "The Verge",
+      "TechCrunch",
+      "Wired",
+      "Ars Technica",
+      "VentureBeat",
+      "Axios",
+      "Semafor",
+      "Rest of World",
+      "Independent safety/eval org blog posts"
+    ],
+    "D": [
+      "Substack and newsletters",
+      "Podcasts",
+      "Social posts by named experts",
+      "Opinion columns"
+    ],
+    "E": [
+      "Anonymous posts",
+      "Unverified screenshots",
+      "Content farms"
+    ]
+  },
+  "search_queries": {
+    "labs": [
+      "new frontier AI model release",
+      "AI benchmark record independent evaluation",
+      "AI compute cluster datacenter announcement",
+      "AI lab funding acquisition"
+    ],
+    "safety": [
+      "AI alignment research breakthrough",
+      "AI model deception scheming evaluation",
+      "AI safety incident",
+      "AI safety institute evaluation report"
+    ],
+    "policy": [
+      "AI regulation passed law",
+      "AI treaty international agreement",
+      "AI executive order",
+      "AI Act enforcement",
+      "India AI policy"
+    ],
+    "military": [
+      "military AI autonomous weapons",
+      "AI cyberattack attributed",
+      "AI biosecurity risk",
+      "AI arms race US China"
+    ],
+    "surveillance": [
+      "AI facial recognition surveillance rollout",
+      "AI censorship law",
+      "social credit AI"
+    ],
+    "economy": [
+      "AI layoffs jobs",
+      "universal basic income AI",
+      "AI windfall tax dividend",
+      "AI productivity wages data"
+    ],
+    "merge": [
+      "brain-computer interface trial",
+      "AI personhood legal rights",
+      "whole brain emulation research"
+    ],
+    "society": [
+      "AI protest pause",
+      "public opinion poll artificial intelligence",
+      "AI moratorium call"
+    ]
+  },
+  "badge_thresholds": {
+    "breakout_7d": 4.0,
+    "quiet_heat": 0.3
+  }
+}

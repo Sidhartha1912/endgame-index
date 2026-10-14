@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<script>try{document.querySelector('meta[name="color-scheme"]').content=localStorage.getItem("color-scheme")??"light dark"}catch(e){}</script>
+<title>Endgame Index</title>
+<meta name="description" content="A nightly, evidence-weighted reading of AI news against Max Tegmark's 12 possible endings for humanity and AI.">
+<meta property="og:title" content="Endgame Index">
+<meta property="og:description" content="Which of AI's 12 possible endings did today's news move closer? Updated every night at 11:59 PM IST.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="preload" href="data/history.json" as="fetch" crossorigin>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#/dashboard" aria-label="Endgame Index home">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="13" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M3 20 C 10 20, 12 9, 16 9 S 22 17, 29 13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="16" cy="9" r="2.2" fill="currentColor"/></svg>
+      <span>endgame<b>index</b></span>
+    </a>
+    <nav class="tabs" aria-label="Sections">
+      <a href="#/dashboard" data-tab="dashboard">dashboard</a>
+      <a href="#/summary" data-tab="summary">summary of the day</a>
+      <a href="#/history" data-tab="history">history</a>
+      <a href="#/scoring" data-tab="scoring">scoring mechanism</a>
+    </nav>
+    <div class="topbar-right">
+      <span class="live-chip" title="Scores are recomputed every night at 11:59 PM India time"><span class="pulse" aria-hidden="true"></span><span id="updated-label">nightly · 11:59 PM IST</span></span>
+      <button class="theme-toggle" type="button" id="theme-toggle">
+        <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
+        <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z"/></svg>
+        <span class="sr i-sun">Switch to dark theme</span><span class="sr i-moon">Switch to light theme</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+  <div id="view" aria-live="polite">
+    <div class="loading"><span class="spinner" aria-hidden="true"></span> Loading the index…</div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <p class="footer-brand">endgame<b>index</b></p>
+      <p class="muted small">An evidence-weighted reading of public AI news, not a forecast. The 12 endings are the "aftermath scenarios" from Max Tegmark's <cite>Life 3.0</cite> (2017), used here as thought experiments.</p>
+    </div>
+    <div class="footer-links small">
+      <a href="#/scoring">How scoring works</a>
+      <a href="scoring/SCORING_RULES.md">Full rules (v<span data-rules-version>1.2</span>)</a>
+      <a href="scoring/rules.json">rules.json</a>
+      <a href="data/history.json">Raw data</a>
+    </div>
+  </div>
+</footer>
+
+<dialog id="ending-dialog" closedby="any" aria-labelledby="dlg-title">
+  <div class="dlg" id="dlg-body"></div>
+</dialog>
+
+<div class="tooltip" id="tooltip" role="presentation" hidden></div>
+
+<script src="assets/js/chart.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
