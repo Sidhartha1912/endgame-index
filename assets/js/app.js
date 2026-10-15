@@ -101,6 +101,7 @@
       if (tab === "ending" && parts[1] && S.H.scenarios[parts[1]]) openEnding(parts[1]);
     };
     const prevTab = route.prev; route.prev = tab;
+    T("page_viewed", { page: tab === "ending" ? "dashboard" : tab, ending: tab === "ending" ? parts[1] : undefined, date: tab === "summary" ? (parts[1] || "latest") : undefined, from: prevTab || "entry" });
     if (window.EGTrack) window.EGTrack.page(tab, { date: tab === "summary" ? (parts[1] || "latest") : undefined, ending: tab === "ending" ? parts[1] : undefined });
     const changedTab = prevTab && prevTab !== tab && !(prevTab === "dashboard" && tab === "ending") && !(prevTab === "ending" && tab === "dashboard");
     if (changedTab && document.startViewTransition && !reduceMotion.matches) {
@@ -201,6 +202,26 @@
     $$("#range button").forEach((b) => b.addEventListener("click", () => { st.range = b.dataset.r; T("chart_filter", { kind: "range", value: st.range }); $$("#range button").forEach((x) => x.setAttribute("aria-pressed", x === b)); draw(); }));
     $$("#mode button").forEach((b) => b.addEventListener("click", () => { st.mode = b.dataset.m; T("chart_filter", { kind: "view", value: st.mode }); $$("#mode button").forEach((x) => x.setAttribute("aria-pressed", x === b)); draw(); }));
     draw();
+    watchChartView(st);
+  }
+
+  // one "chart_viewed" event per visit once the chart has been on screen for 5 s
+  function watchChartView(st) {
+    const el = $("#hero-chart"); if (!el || !window.IntersectionObserver) return;
+    const t0 = performance.now();
+    let shown = false, timer = null, sent = false;
+    const arm = () => {
+      clearTimeout(timer);
+      if (!sent && shown && document.visibilityState === "visible") timer = setTimeout(() => {
+        if (!document.body.contains(el)) return;
+        sent = true; io.disconnect(); document.removeEventListener("visibilitychange", arm);
+        T("chart_viewed", { seconds: 5, range: st.range, mode: st.mode, ms_since_load: Math.round(performance.now() - t0) });
+      }, 5000);
+    };
+    const io = new IntersectionObserver((es) => { shown = es[0].intersectionRatio >= 0.5; arm(); }, { threshold: [0, 0.5, 1] });
+    io.observe(el);
+    document.addEventListener("visibilitychange", arm);
+    S.charts.push({ destroy() { clearTimeout(timer); io.disconnect(); document.removeEventListener("visibilitychange", arm); } });
   }
 
   /* ---------------- ending dialog ---------------- */
