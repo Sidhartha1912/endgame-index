@@ -15,6 +15,7 @@
   const CATS = { labs: "Labs & Models", safety: "Safety & Alignment", policy: "Policy & Treaties", military: "Military & Security",
     surveillance: "Surveillance & Rights", economy: "Jobs & Economy", merge: "Brain-Tech & AI Personhood", society: "Society & Public Mood" };
 
+  const T = (name, props) => window.EGTrack && window.EGTrack.event(name, props);
   const S = { H: null, R: null, C: null, recaps: null, days: new Map(), charts: [], series: [], famSeries: [] };
 
   /* ---------------- data ---------------- */
@@ -32,9 +33,14 @@
     $$("[data-rules-version]").forEach((n) => (n.textContent = R.version));
     $("#updated-chip-text").textContent = "Updated " + fmtDate(H.end).replace(/ \d{4}$/, "");
     const tb = $(".topbar"), mb = $("#menu-btn");
-    mb.addEventListener("click", () => { const o = tb.classList.toggle("open"); mb.setAttribute("aria-expanded", o); });
+    mb.addEventListener("click", () => { const o = tb.classList.toggle("open"); mb.setAttribute("aria-expanded", o); if (o) T("menu_open"); });
+    document.addEventListener("click", (e) => { const a = e.target.closest(".byline, .hero-byline"); if (a) T("byline_click", { place: a.classList.contains("hero-byline") ? "home_chart" : a.classList.contains("menu-byline") ? "menu" : a.closest(".updated-chip") ? "top_right" : "subtitle" }); });
     document.addEventListener("click", (e) => { if (!tb.contains(e.target)) { tb.classList.remove("open"); mb.setAttribute("aria-expanded", "false"); } });
     view.addEventListener("click", (e) => {
+      const r = e.target.closest(".sum-date .round, .sum-latest");
+      if (r) T("summary_day_nav", { dir: r.classList.contains("sum-latest") ? "latest" : r.getAttribute("aria-label") === "Next day" ? "next" : "prev" });
+      const ev = e.target.closest(".evlist .src a");
+      if (ev) T("source_click", { host: ev.hostname });
       const a = e.target.closest('a[href^="#/ending/"]');
       if (a && route.prev === "summary") { e.preventDefault(); openEnding(a.getAttribute("href").split("/")[2]); }
     });
@@ -95,6 +101,7 @@
       if (tab === "ending" && parts[1] && S.H.scenarios[parts[1]]) openEnding(parts[1]);
     };
     const prevTab = route.prev; route.prev = tab;
+    if (window.EGTrack) window.EGTrack.page(tab, { date: tab === "summary" ? (parts[1] || "latest") : undefined, ending: tab === "ending" ? parts[1] : undefined });
     const changedTab = prevTab && prevTab !== tab && !(prevTab === "dashboard" && tab === "ending") && !(prevTab === "ending" && tab === "dashboard");
     if (changedTab && document.startViewTransition && !reduceMotion.matches) {
       document.startViewTransition(go).finished.finally(() => { window.scrollTo(0, 0); $("#main").focus({ preventScroll: true }); });
@@ -150,6 +157,7 @@
 
     countUp($("#bal-val"), bal, 1, true);
     requestAnimationFrame(() => ($("#needle").style.left = `${50 + bal / 2}%`));
+    $$("#ticker .ticker-track a").forEach((a) => a.addEventListener("click", () => T("ticker_click", { date: a.getAttribute("href").split("/")[2] })));
     $("#ticker-pause").addEventListener("click", (e) => {
       const p = $("#ticker").classList.toggle("paused");
       e.currentTarget.textContent = p ? "Play" : "Pause"; e.currentTarget.setAttribute("aria-pressed", p);
@@ -174,7 +182,7 @@
     };
     $$("#top3 span").forEach((sp) => sp.addEventListener("click", (ev) => {
       const s = S.series.find((x) => x.key === sp.dataset.k); const b = sp.getBoundingClientRect();
-      ev.stopPropagation(); window.EGChart.note(s, describe(s), b.left, b.bottom + 40);
+      ev.stopPropagation(); window.EGChart.note(s, describe(s), b.left, b.bottom + 40); T("definition_view", { ending: s.key, place: "phone_label" });
     }));
     let chart;
     const draw = () => {
@@ -185,17 +193,19 @@
         dates: H.dates.slice(start), series: src.map((s) => ({ ...s, values: s.values.slice(start) })),
         headlines: H.headlines.slice(start), markers: markers.map((m) => ({ ...m, i: m.i - start })),
         label: "Line chart of the Plausibility Index for each ending over time. Use the arrow keys to read any day.",
-        layout, describe, onClick: (i) => (location.hash = `#/summary/${H.dates[start + i]}`),
+        layout, describe, onNote: (s) => T("definition_view", { ending: s.key, place: "chart_label", mode: st.mode }),
+        onClick: (i) => { T("chart_day_open", { date: H.dates[start + i], range: st.range, mode: st.mode }); location.hash = `#/summary/${H.dates[start + i]}`; },
       });
       S.charts.push(chart);
     };
-    $$("#range button").forEach((b) => b.addEventListener("click", () => { st.range = b.dataset.r; $$("#range button").forEach((x) => x.setAttribute("aria-pressed", x === b)); draw(); }));
-    $$("#mode button").forEach((b) => b.addEventListener("click", () => { st.mode = b.dataset.m; $$("#mode button").forEach((x) => x.setAttribute("aria-pressed", x === b)); draw(); }));
+    $$("#range button").forEach((b) => b.addEventListener("click", () => { st.range = b.dataset.r; T("chart_filter", { kind: "range", value: st.range }); $$("#range button").forEach((x) => x.setAttribute("aria-pressed", x === b)); draw(); }));
+    $$("#mode button").forEach((b) => b.addEventListener("click", () => { st.mode = b.dataset.m; T("chart_filter", { kind: "view", value: st.mode }); $$("#mode button").forEach((x) => x.setAttribute("aria-pressed", x === b)); draw(); }));
     draw();
   }
 
   /* ---------------- ending dialog ---------------- */
   async function openEnding(key) {
+    T("ending_open", { ending: key, from: route.prev });
     const dlg = $("#ending-dialog"), body = $("#dlg-body");
     const s = S.series.find((x) => x.key === key), c = S.C.endings[key], sc = S.R.scenarios[key];
     const n = N();
@@ -528,6 +538,7 @@
     const apply = (v) => { meta.content = v === "dark" ? "dark" : "light"; S.repaintScene && S.repaintScene(); };
     $("#theme-toggle").addEventListener("click", () => {
       const target = rendered() === "dark" ? "light" : "dark";
+      T("theme_toggle", { to: target });
       try { target === "light" ? localStorage.removeItem("color-scheme") : localStorage.setItem("color-scheme", "dark"); } catch {}
       apply(target);
     });

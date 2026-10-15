@@ -59,6 +59,15 @@
 
 <div class="tooltip" id="tooltip" role="presentation" hidden></div>
 
+<script>
+  /* Analytics keys (public by design). Empty = tracking off. */
+  window.EG_ANALYTICS = {
+    posthogKey: "",                          // phc_… from PostHog → Project settings
+    posthogHost: "https://us.i.posthog.com", // or https://eu.i.posthog.com
+    cloudflareToken: ""                      // token from Cloudflare → Web Analytics
+  };
+</script>
+<script src="assets/js/analytics.js"></script>
 <script src="assets/js/chart.js"></script>
 <script src="assets/js/app.js"></script>
 </body>

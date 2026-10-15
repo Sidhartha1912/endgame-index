@@ -325,7 +325,7 @@
             t.classList.add("has-def");
             t.setAttribute("tabindex", "0");
             t.setAttribute("aria-label", `${s.name}, ${s.values[n - 1].toFixed(1)}. ${def}`);
-            const on = () => { const b = t.getBoundingClientRect(); note(s, def, b.left, b.top + b.height / 2); };
+            const on = () => { const b = t.getBoundingClientRect(); note(s, def, b.left, b.top + b.height / 2); opts.onNote && opts.onNote(s); };
             t.addEventListener("pointerenter", on);
             t.addEventListener("focus", on);
             t.addEventListener("pointerleave", () => (tt.hidden = true));
