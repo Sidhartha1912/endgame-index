@@ -465,5 +465,95 @@
     return api;
   }
 
-  window.EGChart = { lines, spark, balance, hero, phone, note, monotonePath, swatchSVG, fmtDate, fmtSigned, esc };
+  /* ------------------------------------------------------------------
+     wide(container, opts) — phone full-screen landscape chart.
+     Lines + end labels; a day is picked by tap/drag (opts.onDay), a name by
+     tapping its label (opts.onLabel). opts.rotated: the stage is turned 90°
+     clockwise, so a finger moving down the screen moves forward in time. */
+  function wide(container, opts) {
+    const state = { idx: null };
+    const api = { mark() {}, destroy() { ro.disconnect(); } };
+    const render = () => {
+      container.innerHTML = "";
+      const W = container.clientWidth, H = container.clientHeight;
+      if (W < 10 || H < 10) return;
+      const n = opts.dates.length, series = opts.series, xr = W - 214, yt = 10, yb = H - 26;
+      let lo = Infinity, hi = -Infinity;
+      series.forEach((s) => s.values.forEach((v) => { if (v < lo) lo = v; if (v > hi) hi = v; }));
+      lo = Math.max(0, Math.floor((lo - 2) / 5) * 5); hi = Math.min(100, Math.ceil((hi + 2) / 5) * 5);
+      const x = (i) => (n === 1 ? xr : (i / (n - 1)) * xr);
+      const y = (v) => yt + (yb - yt) * (1 - (v - lo) / (hi - lo));
+      const svg = el("svg", { width: W, height: H, viewBox: `0 0 ${W} ${H}`, class: "ph-svg wide-svg", role: "img", tabindex: "0", "aria-label": opts.label || "Line chart" }, container);
+      const g = el("g", { class: "grid" }, svg);
+      niceTicks(lo, hi, 5).forEach((t) => {
+        if (t <= lo) return;
+        el("line", { x1: 0, x2: xr, y1: y(t), y2: y(t) }, g);
+        const tx = el("text", { x: xr + 10, y: y(t) + 4, class: "tick" }, svg); tx.textContent = t;
+      });
+      let xi = [];
+      if (n > 100) xi = monthTicks(opts.dates);
+      else { for (let j = 0; j <= 5; j++) xi.push(Math.round((j / 5) * (n - 1))); }
+      xi.forEach((i, j) => {
+        const [, mm, dd] = opts.dates[i].split("-").map(Number);
+        const anchor = n > 100 ? (i === 0 ? "start" : "middle") : (j === 0 ? "start" : j === xi.length - 1 ? "end" : "middle");
+        const tx = el("text", { x: x(i), y: yb + 20, class: "month", "text-anchor": anchor }, svg);
+        tx.textContent = n > 100 && dd === 1 ? MONTHS[mm - 1] : `${dd} ${MONTHS[mm - 1]}`;
+      });
+      el("line", { class: "today", x1: xr, x2: xr, y1: yt - 6, y2: yb }, svg);
+      const ordered = series.slice().sort((a, b) => (a.key === opts.focus) - (b.key === opts.focus));
+      ordered.forEach((s) => {
+        const p = el("path", { d: monotonePath(s.values.map((v, i) => [x(i), y(v)])), class: `series ${s.cls}` }, svg);
+        if (opts.focus) p.classList.add(s.key === opts.focus ? "hl" : "dim");
+      });
+      ordered.forEach((s) => {
+        const c = el("circle", { cx: xr, cy: y(s.values[n - 1]), r: 5, class: `today-dot ${s.cls.replace("c-", "f-")}` }, svg);
+        if (opts.focus && s.key !== opts.focus) c.classList.add("dim");
+      });
+      // end labels, spaced so none overlap; each is a tap target for focus
+      const items = series.map((s) => ({ s, y: y(s.values[n - 1]) })).sort((a, b) => a.y - b.y);
+      const gap = 14;
+      for (let i = 1; i < items.length; i++) if (items[i].y - items[i - 1].y < gap) items[i].y = items[i - 1].y + gap;
+      const over = items.length ? items[items.length - 1].y - (yb + 4) : 0;
+      if (over > 0) for (let i = items.length - 1; i >= 0; i--) { items[i].y -= over; if (i > 0 && items[i].y - items[i - 1].y < gap) items[i - 1].y = items[i].y - gap; }
+      items.forEach(({ s, y: ly }) => {
+        const gl = el("g", { class: `wlabel${opts.focus && opts.focus !== s.key ? " dim" : ""}${opts.focus === s.key ? " on" : ""}`, role: "button", tabindex: "0", "aria-label": `${s.name}, ${s.values[n - 1].toFixed(1)}. Focus this line` }, svg);
+        el("rect", { x: xr + 34, y: ly - 7, width: W - xr - 36, height: 14, fill: "transparent" }, gl);
+        const t = el("text", { x: xr + 40, y: ly + 4, class: "endlabel" }, gl);
+        t.innerHTML = `<tspan class="v">${s.values[n - 1].toFixed(1)}</tspan><tspan x="${xr + 76}">${esc(s.name)}</tspan>`;
+        const go = () => opts.onLabel && opts.onLabel(s);
+        gl.addEventListener("click", go);
+        gl.addEventListener("keydown", (ev) => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); go(); } });
+      });
+      const cross = el("line", { class: "crosshair", y1: yt - 6, y2: yb, visibility: "hidden" }, svg);
+      const dots = series.map((s) => el("circle", { r: 5, class: `hover-dot ${s.cls.replace("c-", "f-")}`, visibility: "hidden" }, svg));
+      const mark = (i) => {
+        state.idx = i;
+        if (i == null) { cross.setAttribute("visibility", "hidden"); dots.forEach((d) => d.setAttribute("visibility", "hidden")); return; }
+        cross.setAttribute("x1", x(i)); cross.setAttribute("x2", x(i)); cross.setAttribute("visibility", "visible");
+        series.forEach((s, k) => { const show = !opts.focus || opts.focus === s.key; dots[k].setAttribute("cx", x(i)); dots[k].setAttribute("cy", y(s.values[i])); dots[k].setAttribute("visibility", show ? "visible" : "hidden"); });
+      };
+      const hit = el("rect", { x: 0, y: 0, width: xr + 8, height: yb + 4, fill: "transparent", class: "hit" }, svg);
+      const idx = (ev) => {
+        const b = svg.getBoundingClientRect();
+        const along = opts.rotated ? (ev.clientY - b.top) * (W / b.height) : (ev.clientX - b.left) * (W / b.width);
+        return Math.max(0, Math.min(n - 1, Math.round((along / xr) * (n - 1))));
+      };
+      let down = false;
+      const pick = (i) => { if (i !== state.idx) { mark(i); opts.onDay && opts.onDay(i); } };
+      hit.addEventListener("pointerdown", (ev) => { down = true; try { hit.setPointerCapture(ev.pointerId); } catch (e) {} pick(idx(ev)); });
+      hit.addEventListener("pointermove", (ev) => { if (down) pick(idx(ev)); });
+      ["pointerup", "pointercancel"].forEach((t) => hit.addEventListener(t, () => (down = false)));
+      svg.addEventListener("keydown", (ev) => {
+        if (ev.key === "ArrowLeft" || ev.key === "ArrowRight") { ev.preventDefault(); pick(state.idx == null ? n - 1 : Math.max(0, Math.min(n - 1, state.idx + (ev.key === "ArrowRight" ? 1 : -1)))); }
+      });
+      if (state.idx != null) mark(state.idx);
+      api.mark = (i) => { state.idx = i; mark(i); };
+    };
+    let raf; const ro = new ResizeObserver(() => { cancelAnimationFrame(raf); raf = requestAnimationFrame(render); });
+    api.render = render;
+    render(); ro.observe(container);
+    return api;
+  }
+
+  window.EGChart = { lines, spark, balance, hero, phone, wide, note, monotonePath, swatchSVG, fmtDate, fmtSigned, esc };
 })();

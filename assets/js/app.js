@@ -45,7 +45,7 @@
       if (a && route.prev === "summary") { e.preventDefault(); openEnding(a.getAttribute("href").split("/")[2]); }
     });
     window.addEventListener("hashchange", route);
-    matchMedia("(max-width: 760px)").addEventListener("change", () => { const t = location.hash.replace(/^#\/?/, "").split("/")[0]; if (!t || t === "dashboard") { destroyCharts(); renderDashboard(); } });
+    matchMedia(PHONE_Q).addEventListener("change", () => { const t = location.hash.replace(/^#\/?/, "").split("/")[0]; if (!t || t === "dashboard") { destroyCharts(); renderDashboard(); } });
     route();
   }
   async function getDay(d) {
@@ -89,6 +89,7 @@
     const tab = ["dashboard", "summary", "history", "scoring", "ending"].includes(parts[0]) ? parts[0] : "dashboard";
     const go = () => {
       destroyCharts();
+      if (typeof LS !== "undefined" && LS.el && tab !== "dashboard") closeLandscape(true);
       document.body.classList.toggle("is-home", tab === "dashboard" || tab === "ending");
       $(".topbar").classList.remove("open"); $("#menu-btn").setAttribute("aria-expanded", "false");
       $$(".tabs a").forEach((a) => a.toggleAttribute("aria-current", false));
@@ -118,7 +119,8 @@
     const m = document.querySelector('meta[name="color-scheme"]').content;
     return m === "dark" || (m !== "light" && matchMedia("(prefers-color-scheme: dark)").matches);
   };
-  const isPhone = () => matchMedia("(max-width: 760px)").matches;
+  const PHONE_Q = "(max-width: 760px), (pointer: coarse) and (max-height: 500px)";
+  const isPhone = () => matchMedia(PHONE_Q).matches;
   function renderDashboard() {
     if (isPhone()) return renderPhoneHome();
     const H = S.H, n = N(), li = n - 1;
@@ -217,6 +219,7 @@
     for (let i = li; i >= Math.max(0, li - 13); i--) if (H.headlines[i]) tick.push(`<a href="#/summary/${H.dates[i]}"><time>${fmtDate(H.dates[i]).replace(/ \d{4}$/, "")}</time>${esc(H.headlines[i])}</a>`);
     const tickHTML = tick.join("");
     const st = { range: "all", mode: "endings", focus: null, day: null };
+    S.phoneSt = st;
     const describe = (s) => {
       if (S.C.endings[s.key]) return S.C.endings[s.key].short || S.C.endings[s.key].desc;
       const m = H.families_meta[s.key];
@@ -263,8 +266,9 @@
     let chart, start = 0, src = S.series;
     const drawChips = () => {
       const items = src.slice().sort((a, b) => last(b.values) - last(a.values));
-      $("#ph-chips").innerHTML = items.map((s) => `<button type="button" class="chip ${s.cls}${st.focus && st.focus !== s.key ? " faded" : ""}" data-k="${s.key}" aria-pressed="${st.focus === s.key}"><i class="swatch"></i><b>${last(s.values).toFixed(1)}</b>${esc(s.name)}</button>`).join("");
-      $$("#ph-chips .chip").forEach((b) => b.addEventListener("click", () => {
+      $("#ph-chips").innerHTML = `<button type="button" class="chip ph-expand" id="ph-expand" aria-label="Open the chart full screen"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M10 20H4v-6M20 4l-7 7M4 20l7-7"/></svg>Expand</button>` + items.map((s) => `<button type="button" class="chip ${s.cls}${st.focus && st.focus !== s.key ? " faded" : ""}" data-k="${s.key}" aria-pressed="${st.focus === s.key}"><i class="swatch"></i><b>${last(s.values).toFixed(1)}</b>${esc(s.name)}</button>`).join("");
+      $("#ph-expand").addEventListener("click", () => openLandscape("button"));
+      $$("#ph-chips .chip[data-k]").forEach((b) => b.addEventListener("click", () => {
         st.focus = st.focus === b.dataset.k ? null : b.dataset.k;
         if (st.focus) T("legend_focus", { ending: st.focus, mode: st.mode });
         draw(); if (st.focus) b.scrollIntoView({ block: "nearest", inline: "nearest", behavior: "smooth" });
@@ -315,7 +319,125 @@
     $$("#mode button").forEach((b) => b.addEventListener("click", () => { st.mode = b.dataset.m; st.focus = null; T("chart_filter", { kind: "view", value: st.mode }); $$("#mode button").forEach((x) => x.setAttribute("aria-pressed", x === b)); draw(); }));
     draw();
     watchChartView(st, $("#ph-chart"));
+    if (phoneLandscapeNow()) openLandscape("rotate");
   }
+  /* ================= PHONE: full-screen landscape chart (desktop never opens it) ================= */
+  const LS = { el: null, chart: null, st: null, via: null, pushed: false, native: false, hintOff: false, closing: false };
+  const isPortrait = () => window.innerHeight > window.innerWidth;
+  const phoneLandscapeNow = () => matchMedia("(pointer: coarse)").matches && !isPortrait() && window.innerHeight <= 500;
+  function openLandscape(via) {
+    if (LS.el || !S.H) return;
+    const from = S.phoneSt || {};
+    LS.via = via; LS.native = false; LS.hintOff = false;
+    LS.st = { range: from.range || "all", mode: from.mode || "endings", focus: from.focus || null, day: null };
+    const el = document.createElement("div");
+    el.className = "lsc"; el.setAttribute("role", "dialog"); el.setAttribute("aria-modal", "true"); el.setAttribute("aria-label", "Full-screen chart");
+    const b = (k, v, t) => `<button type="button" data-${k}="${v}" aria-pressed="${LS.st[k === "r" ? "range" : "mode"] === v}">${t}</button>`;
+    el.innerHTML = `
+      <div class="lsc-stage" id="lsc-stage">
+        <div class="lsc-bar">
+          <div class="lsc-title">Where Humanity is <i>heading with AI?</i></div>
+          <div class="lsc-filters" role="toolbar" aria-label="Chart options">
+            <div class="seg" id="lsc-range">${b("r", "30", "30D")}${b("r", "90", "90D")}${b("r", "all", "All")}</div><span class="sep" aria-hidden="true"></span>
+            <div class="seg" id="lsc-mode">${b("m", "families", "Families")}${b("m", "endings", "Endings")}</div>
+          </div>
+          <button type="button" class="lsc-x" aria-label="Close full-screen chart">×</button>
+        </div>
+        <div class="lsc-chart" id="lsc-chart"></div>
+        <div class="lsc-foot" id="lsc-foot" aria-live="polite"></div>
+      </div>
+      <button type="button" class="lsc-hint" id="lsc-hint" hidden><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><rect x="7" y="3" width="10" height="18" rx="2"/><path d="M3 9a9 9 0 0 1 4-5M21 15a9 9 0 0 1-4 5"/></svg>Turn your phone sideways<span>The chart is ready in landscape · tap to hide</span></button>`;
+    document.body.appendChild(el);
+    LS.el = el;
+    document.documentElement.classList.add("lsc-open");
+    $(".lsc-x", el).addEventListener("click", () => closeLandscape());
+    $("#lsc-hint", el).addEventListener("click", () => { LS.hintOff = true; $("#lsc-hint", el).hidden = true; });
+    $$("#lsc-range button", el).forEach((x) => x.addEventListener("click", () => { LS.st.range = x.dataset.r; LS.st.day = null; T("chart_filter", { kind: "range", value: LS.st.range, place: "landscape" }); $$("#lsc-range button", el).forEach((y) => y.setAttribute("aria-pressed", y === x)); drawLandscape(); }));
+    $$("#lsc-mode button", el).forEach((x) => x.addEventListener("click", () => { LS.st.mode = x.dataset.m; LS.st.focus = null; T("chart_filter", { kind: "view", value: LS.st.mode, place: "landscape" }); $$("#lsc-mode button", el).forEach((y) => y.setAttribute("aria-pressed", y === x)); drawLandscape(); }));
+    el.addEventListener("keydown", (ev) => { if (ev.key === "Escape") closeLandscape(); });
+    try { history.pushState({ lsc: 1 }, ""); LS.pushed = true; } catch (e) { LS.pushed = false; }
+    // Android Chrome: real full screen + landscape lock. iPhone: falls back to the turned layout.
+    if (via === "button" && isPortrait() && el.requestFullscreen && screen.orientation && screen.orientation.lock) {
+      el.requestFullscreen({ navigationUI: "hide" })
+        .then(() => screen.orientation.lock("landscape"))
+        .then(() => { LS.native = true; })
+        .catch(() => {})
+        .finally(() => { layoutLandscape(); T("chart_expand", { via, mode: LS.native ? "native" : isPortrait() ? "turned" : "landscape" }); });
+    } else T("chart_expand", { via, mode: isPortrait() ? "turned" : "landscape" });
+    layoutLandscape();
+    $(".lsc-x", el).focus({ preventScroll: true });
+  }
+  function closeLandscape(fromPop) {
+    if (!LS.el || LS.closing) return;
+    LS.closing = true;
+    if (LS.chart) LS.chart.destroy();
+    LS.chart = null;
+    LS.el.remove(); LS.el = null;
+    document.documentElement.classList.remove("lsc-open");
+    try { if (screen.orientation && screen.orientation.unlock) screen.orientation.unlock(); } catch (e) {}
+    if (document.fullscreenElement) document.exitFullscreen().catch(() => {});
+    if (LS.pushed && !fromPop) { LS.pushed = false; history.back(); }
+    LS.pushed = false;
+    setTimeout(() => (LS.closing = false), 50);
+  }
+  function layoutLandscape() {
+    if (!LS.el) return;
+    const stage = $("#lsc-stage", LS.el), hint = $("#lsc-hint", LS.el);
+    const turned = isPortrait();
+    LS.el.classList.toggle("turned", turned);
+    if (turned) {
+      stage.style.width = window.innerHeight + "px"; stage.style.height = window.innerWidth + "px";
+      stage.style.transform = `translateX(${window.innerWidth}px) rotate(90deg)`;
+    } else { stage.style.width = ""; stage.style.height = ""; stage.style.transform = ""; }
+    hint.hidden = !turned || LS.hintOff;
+    drawLandscape();
+  }
+  function drawLandscape() {
+    if (!LS.el) return;
+    const H = S.H, n = N(), st = LS.st;
+    if (LS.chart) LS.chart.destroy();
+    const start = st.range === "all" ? 0 : Math.max(0, n - Number(st.range));
+    const src = (st.mode === "endings" ? S.series : S.famSeries).map((s) => ({ ...s, values: s.values.slice(start) }));
+    if (st.focus && !src.some((s) => s.key === st.focus)) st.focus = null;
+    if (st.day != null && st.day >= src[0].values.length) st.day = null;
+    const describe = (s) => (S.C.endings[s.key] ? S.C.endings[s.key].short || S.C.endings[s.key].desc : H.families_meta[s.key] ? H.families_meta[s.key].tagline + "." : "");
+    const foot = () => {
+      const f = $("#lsc-foot", LS.el); if (!f) return;
+      if (st.day == null) {
+        if (st.focus) { const s = src.find((x) => x.key === st.focus); f.innerHTML = `<p class="lsc-def"><i class="${s.cls}"></i><span><b>${esc(s.name)}:</b> ${esc(describe(s))} <button type="button" id="lsc-all">Show all</button></span></p>`; $("#lsc-all", f).addEventListener("click", () => { st.focus = null; drawLandscape(); }); }
+        else f.innerHTML = `<p class="lsc-tip">Tap or drag on the chart to read a day · tap a name to focus it</p>`;
+        return;
+      }
+      const gi = start + st.day, date = H.dates[gi], i = st.day;
+      const rows = src.map((s) => ({ s, v: s.values[i], d: i > 0 ? s.values[i] - s.values[i - 1] : 0 })).sort((a, b) => Math.abs(b.d) - Math.abs(a.d));
+      const r = st.focus ? rows.find((x) => x.s.key === st.focus) : rows[0];
+      f.innerHTML = `<div class="lsc-day"><span class="d">${new Date(date + "T12:00:00").toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short" }).replace(",", "").toUpperCase()}</span><span class="h">${esc(H.headlines[gi] || "No headline for this day")}</span><span class="m ${r.s.cls}"><i class="swatch"></i>${esc(r.s.name)} <b>${r.v.toFixed(1)}</b> <em>${dtxt(r.d)}</em></span><a class="o" href="#/summary/${date}">Open ›</a></div>`;
+      $(".o", f).addEventListener("click", (ev) => { ev.preventDefault(); T("chart_day_open", { date, range: st.range, mode: st.mode, place: "landscape" }); closeLandscape(true); LS.pushed = false; location.hash = `#/summary/${date}`; });
+    };
+    LS.chart = window.EGChart.wide($("#lsc-chart", LS.el), {
+      dates: H.dates.slice(start), series: src, focus: st.focus, rotated: LS.el.classList.contains("turned"),
+      label: "Full-screen line chart of the Plausibility Index. Tap or drag to read a day; tap a name to focus its line.",
+      onDay: (i) => { const first = st.day == null; st.day = i; foot(); if (first) T("chart_day_tap", { date: H.dates[start + i], place: "landscape" }); },
+      onLabel: (s) => { st.focus = st.focus === s.key ? null : s.key; if (st.focus) T("legend_focus", { ending: st.focus, mode: st.mode, place: "landscape" }); drawLandscape(); },
+    });
+    if (st.day != null) LS.chart.mark(st.day);
+    foot();
+  }
+  window.addEventListener("popstate", () => { if (LS.el) closeLandscape(true); });
+  document.addEventListener("fullscreenchange", () => { if (!document.fullscreenElement && LS.el && LS.native) closeLandscape(); });
+  let lsRaf;
+  window.addEventListener("resize", () => {
+    cancelAnimationFrame(lsRaf);
+    lsRaf = requestAnimationFrame(() => {
+      const t = location.hash.replace(/^#\/?/, "").split("/")[0];
+      const home = !t || t === "dashboard";
+      if (LS.el) {
+        if (LS.via === "rotate" && isPortrait()) closeLandscape();
+        else layoutLandscape();
+      } else if (home && phoneLandscapeNow() && S.phoneSt) openLandscape("rotate");
+    });
+  });
+
 
 
   // one "chart_viewed" event per visit once the chart has been on screen for 5 s
