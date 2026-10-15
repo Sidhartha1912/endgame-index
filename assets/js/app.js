@@ -45,6 +45,7 @@
       if (a && route.prev === "summary") { e.preventDefault(); openEnding(a.getAttribute("href").split("/")[2]); }
     });
     window.addEventListener("hashchange", route);
+    matchMedia("(max-width: 760px)").addEventListener("change", () => { const t = location.hash.replace(/^#\/?/, "").split("/")[0]; if (!t || t === "dashboard") { destroyCharts(); renderDashboard(); } });
     route();
   }
   async function getDay(d) {
@@ -119,6 +120,7 @@
   };
   const isPhone = () => matchMedia("(max-width: 760px)").matches;
   function renderDashboard() {
+    if (isPhone()) return renderPhoneHome();
     const H = S.H, n = N(), li = n - 1;
     const bal = last(H.balance), bal1 = li > 0 ? bal - H.balance[li - 1] : 0, bal7 = bal - H.balance[Math.max(0, li - 7)];
     const word = (v, up, down) => (v > 0.049 ? `${up} ${Math.abs(v).toFixed(1)}` : v < -0.049 ? `${down} ${Math.abs(v).toFixed(1)}` : "unchanged");
@@ -205,9 +207,120 @@
     watchChartView(st);
   }
 
+    /* ================= PHONE HOME (≤ 760 px) — desktop never runs this ================= */
+  function renderPhoneHome() {
+    const H = S.H, n = N(), li = n - 1;
+    const bal = last(H.balance), bal1 = li > 0 ? bal - H.balance[li - 1] : 0, bal7 = bal - H.balance[Math.max(0, li - 7)];
+    const word = (v, up, down) => (v > 0.049 ? `${up} ${Math.abs(v).toFixed(1)}` : v < -0.049 ? `${down} ${Math.abs(v).toFixed(1)}` : "unchanged");
+    const dShort = new Date(H.end + "T12:00:00").toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short" }).replace(",", "");
+    const tick = [];
+    for (let i = li; i >= Math.max(0, li - 13); i--) if (H.headlines[i]) tick.push(`<a href="#/summary/${H.dates[i]}"><time>${fmtDate(H.dates[i]).replace(/ \d{4}$/, "")}</time>${esc(H.headlines[i])}</a>`);
+    const tickHTML = tick.join("");
+    const st = { range: "all", mode: "endings", focus: null, day: null };
+    const describe = (s) => {
+      if (S.C.endings[s.key]) return S.C.endings[s.key].short || S.C.endings[s.key].desc;
+      const m = H.families_meta[s.key];
+      return m ? `${m.tagline}. Average of ${S.series.filter((x) => x.family === s.key).map((x) => x.name).join(", ")}.` : "";
+    };
+
+    view.innerHTML = `
+    <div class="ph">
+      <section class="ph-top" aria-label="Where humanity is heading with AI">
+        <h1>Where Humanity is<br><i>heading with AI?</i></h1>
+        <p>12 possible endings for humanity with AI, tracked daily</p>
+        <div class="ph-filters" role="toolbar" aria-label="Chart options">
+          <div class="seg" role="group" aria-label="Time range" id="range"><button type="button" data-r="30" aria-pressed="false">30D</button><button type="button" data-r="90" aria-pressed="false">90D</button><button type="button" data-r="all" aria-pressed="true">All</button></div>
+          <span class="sep" aria-hidden="true"></span>
+          <div class="seg" role="group" aria-label="Chart view" id="mode"><button type="button" data-m="families" aria-pressed="false">Families</button><button type="button" data-m="endings" aria-pressed="true">Endings</button></div>
+        </div>
+      </section>
+      <div class="ph-chart" id="ph-chart"></div>
+      <div class="ph-chips" id="ph-chips" role="group" aria-label="Lines on the chart. Tap one to focus it"></div>
+      <p class="ph-def" id="ph-def" hidden></p>
+      <section class="ph-day" id="ph-day" aria-live="polite" hidden></section>
+      <section class="ph-card" aria-label="Horizon Balance today">
+        <span class="kicker">Horizon Balance · ${dShort}</span>
+        <div class="bal"><b id="bal-val">0.0</b><span>${word(bal1, "up", "down")} today<br>${word(bal7, "up", "down")} this week</span></div>
+        <div class="gauge-scale" aria-hidden="true"><div class="gauge-needle" id="needle" style="left:50%"></div></div>
+        <div class="gauge-ends"><span>Darker futures</span><span>Brighter futures</span></div>
+      </section>
+      <section class="ph-story" aria-label="Today's story">
+        <span class="kicker">TODAY’S STORY · ${fmtDate(H.end).replace(/ \d{4}$/, "").toUpperCase()}</span>
+        <h2>${esc(H.headlines[li] || "")}</h2>
+        <a href="#/summary/${H.end}">Read the day ›</a>
+      </section>
+      <footer class="ph-foot"><span>Updated ${fmtDate(H.end).replace(/ \d{4}$/, "")}</span><a class="byline" href="https://www.linkedin.com/in/sidhartha-rajput/" target="_blank" rel="noopener noreferrer">By Sidhartha Rajput</a></footer>
+      <div class="ticker ph-ticker" id="ticker">
+        <span class="ticker-label">Latest</span>
+        <div class="ticker-viewport"><div class="ticker-track" style="--dur:${Math.max(40, tick.length * 7)}s">${tickHTML}<span class="ticker-dup" aria-hidden="true">${tickHTML.replace(/<a /g, '<a tabindex="-1" ')}</span></div></div>
+      </div>
+    </div>`;
+
+    countUp($("#bal-val"), bal, 1, true);
+    requestAnimationFrame(() => ($("#needle").style.left = `${50 + bal / 2}%`));
+    $$("#ticker .ticker-track a").forEach((a) => a.addEventListener("click", () => T("ticker_click", { date: a.getAttribute("href").split("/")[2] })));
+
+    let chart, start = 0, src = S.series;
+    const drawChips = () => {
+      const items = src.slice().sort((a, b) => last(b.values) - last(a.values));
+      $("#ph-chips").innerHTML = items.map((s) => `<button type="button" class="chip ${s.cls}${st.focus && st.focus !== s.key ? " faded" : ""}" data-k="${s.key}" aria-pressed="${st.focus === s.key}"><i class="swatch"></i><b>${last(s.values).toFixed(1)}</b>${esc(s.name)}</button>`).join("");
+      $$("#ph-chips .chip").forEach((b) => b.addEventListener("click", () => {
+        st.focus = st.focus === b.dataset.k ? null : b.dataset.k;
+        if (st.focus) T("legend_focus", { ending: st.focus, mode: st.mode });
+        draw(); if (st.focus) b.scrollIntoView({ block: "nearest", inline: "nearest", behavior: "smooth" });
+      }));
+      const def = $("#ph-def");
+      if (st.focus) {
+        const s = src.find((x) => x.key === st.focus);
+        def.innerHTML = `<i class="${s.cls}"></i><span><b>${esc(s.name)}:</b> ${esc(describe(s))} <button type="button" id="ph-clear">Show all</button></span>`;
+        def.hidden = false;
+        $("#ph-clear").addEventListener("click", () => { st.focus = null; draw(); });
+      } else def.hidden = true;
+    };
+    const drawDay = () => {
+      const box = $("#ph-day"), i = st.day;
+      if (i == null) { box.hidden = true; box.innerHTML = ""; return; }
+      const gi = start + i, date = H.dates[gi];
+      let rows = src.map((s) => ({ s, v: s.values[i], d: i > 0 ? s.values[i] - s.values[i - 1] : (gi > 0 ? (S.H.scores[s.key] || H.families[s.key])[gi] - (S.H.scores[s.key] || H.families[s.key])[gi - 1] : 0) }));
+      rows.sort((a, b) => Math.abs(b.d) - Math.abs(a.d));
+      if (st.focus) { const f = rows.find((r) => r.s.key === st.focus); rows = [f, ...rows.filter((r) => r !== f)]; }
+      rows = rows.slice(0, 3);
+      box.innerHTML = `
+        <div class="ph-day-top"><span>${new Date(date + "T12:00:00").toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short", year: "numeric" }).replace(",", "").toUpperCase()}</span><button type="button" class="ph-x" aria-label="Close the day">×</button></div>
+        <h3>${esc(H.headlines[gi] || "No headline for this day")}</h3>
+        <div class="ph-moves">${rows.map((r) => `<div class="${r.s.cls}"><i class="swatch"></i><span>${esc(r.s.name)}</span><b>${r.v.toFixed(1)}</b><em>${dtxt(r.d)}</em></div>`).join("")}</div>
+        <a class="ph-open" href="#/summary/${date}">Open this day ›</a>`;
+      box.hidden = false;
+      $(".ph-x", box).addEventListener("click", () => { st.day = null; chart.mark(null); drawDay(); });
+      $(".ph-open", box).addEventListener("click", () => T("chart_day_open", { date, range: st.range, mode: st.mode, place: "phone_panel" }));
+    };
+    const draw = () => {
+      if (chart) { chart.destroy(); S.charts = S.charts.filter((c) => c !== chart); }
+      start = st.range === "all" ? 0 : Math.max(0, n - Number(st.range));
+      src = (st.mode === "endings" ? S.series : S.famSeries).map((s) => ({ ...s, values: s.values.slice(start) }));
+      if (st.focus && !src.some((s) => s.key === st.focus)) st.focus = null;
+      if (st.day != null && st.day >= src[0].values.length) st.day = null;
+      const ph = Math.round(Math.max(210, Math.min(340, window.innerHeight - 460)));
+      $("#ph-chart").style.height = ph + 30 + "px";
+      chart = window.EGChart.phone($("#ph-chart"), {
+        dates: H.dates.slice(start), series: src, focus: st.focus, height: ph,
+        label: "Line chart of the Plausibility Index for each ending over time. Tap or use the arrow keys to read a day.",
+        onDay: (i) => { const first = st.day == null && i != null; st.day = i; drawDay(); if (first) T("chart_day_tap", { date: H.dates[start + i], range: st.range, mode: st.mode }); },
+      });
+      if (st.day != null) chart.mark(st.day);
+      S.charts.push(chart);
+      drawChips(); drawDay();
+    };
+    $$("#range button").forEach((b) => b.addEventListener("click", () => { st.range = b.dataset.r; st.day = null; T("chart_filter", { kind: "range", value: st.range }); $$("#range button").forEach((x) => x.setAttribute("aria-pressed", x === b)); draw(); }));
+    $$("#mode button").forEach((b) => b.addEventListener("click", () => { st.mode = b.dataset.m; st.focus = null; T("chart_filter", { kind: "view", value: st.mode }); $$("#mode button").forEach((x) => x.setAttribute("aria-pressed", x === b)); draw(); }));
+    draw();
+    watchChartView(st, $("#ph-chart"));
+  }
+
+
   // one "chart_viewed" event per visit once the chart has been on screen for 5 s
-  function watchChartView(st) {
-    const el = $("#hero-chart"); if (!el || !window.IntersectionObserver) return;
+  function watchChartView(st, el = $("#hero-chart")) {
+    if (!el || !window.IntersectionObserver) return;
     const t0 = performance.now();
     let shown = false, timer = null, sent = false;
     const arm = () => {

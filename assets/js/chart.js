@@ -389,5 +389,81 @@
     return { destroy() { ro.disconnect(); document.removeEventListener("pointerdown", outside); }, render };
   }
 
-  window.EGChart = { lines, spark, balance, hero, note, monotonePath, swatchSVG, fmtDate, fmtSigned, esc };
+  /* ------------------------------------------------------------------
+     phone(container, opts) — the phone home chart. Lines only; labels, legend
+     and the day panel live outside the chart so nothing covers a line.
+     opts: dates, series, focus, onDay(i), height */
+  function phone(container, opts) {
+    const state = { idx: null };
+    const render = () => {
+      container.innerHTML = "";
+      const W = container.clientWidth, PH = opts.height || 340, H = PH + 30;
+      if (W < 10) return;
+      const n = opts.dates.length, series = opts.series, xr = W - 52, yt = 8, yb = PH;
+      let lo = Infinity, hi = -Infinity;
+      series.forEach((s) => s.values.forEach((v) => { if (v < lo) lo = v; if (v > hi) hi = v; }));
+      lo = Math.max(0, Math.floor((lo - 2) / 5) * 5); hi = Math.min(100, Math.ceil((hi + 2) / 5) * 5);
+      const x = (i) => (n === 1 ? xr : (i / (n - 1)) * xr);
+      const y = (v) => yt + (yb - yt) * (1 - (v - lo) / (hi - lo));
+      const svg = el("svg", { width: W, height: H, viewBox: `0 0 ${W} ${H}`, class: "ph-svg", role: "img", tabindex: "0", "aria-label": opts.label || "Line chart" }, container);
+      const g = el("g", { class: "grid" }, svg);
+      niceTicks(lo, hi, 4).forEach((t) => {
+        if (t <= lo) return;
+        el("line", { x1: 0, x2: xr, y1: y(t), y2: y(t) }, g);
+        const tx = el("text", { x: xr + 16, y: y(t) + 4, class: "tick" }, svg); tx.textContent = t;
+      });
+      // x labels: month starts for long ranges, ~5 evenly spaced days for short ones
+      let xi = [];
+      if (n > 100) xi = monthTicks(opts.dates);
+      else { const k = 4; for (let j = 0; j <= k; j++) xi.push(Math.round((j / k) * (n - 1))); }
+      xi.forEach((i, j) => {
+        const [, mm, dd] = opts.dates[i].split("-").map(Number);
+        const anchor = n > 100 ? (i === 0 ? "start" : "middle") : (j === 0 ? "start" : j === xi.length - 1 ? "end" : "middle");
+        const tx = el("text", { x: x(i), y: yb + 22, class: "month", "text-anchor": anchor }, svg);
+        tx.textContent = n > 100 && dd === 1 ? MONTHS[mm - 1] : `${dd} ${MONTHS[mm - 1]}`;
+      });
+      el("line", { class: "today", x1: xr, x2: xr, y1: yt - 4, y2: yb }, svg);
+      const ordered = series.slice().sort((a, b) => (a.key === opts.focus) - (b.key === opts.focus));
+      ordered.forEach((s) => {
+        const p = el("path", { d: monotonePath(s.values.map((v, i) => [x(i), y(v)])), class: `series ${s.cls}` }, svg);
+        if (opts.focus) p.classList.add(s.key === opts.focus ? "hl" : "dim");
+      });
+      ordered.forEach((s) => {
+        const c = el("circle", { cx: xr, cy: y(s.values[n - 1]), r: 5, class: `today-dot ${s.cls.replace("c-", "f-")}` }, svg);
+        if (opts.focus && s.key !== opts.focus) c.classList.add("dim");
+      });
+      const cross = el("line", { class: "crosshair", y1: yt - 4, y2: yb, visibility: "hidden" }, svg);
+      const dots = series.map((s) => el("circle", { r: 5, class: `hover-dot ${s.cls.replace("c-", "f-")}`, visibility: "hidden" }, svg));
+      const mark = (i) => {
+        state.idx = i;
+        if (i == null) { cross.setAttribute("visibility", "hidden"); dots.forEach((d) => d.setAttribute("visibility", "hidden")); return; }
+        cross.setAttribute("x1", x(i)); cross.setAttribute("x2", x(i)); cross.setAttribute("visibility", "visible");
+        series.forEach((s, k) => {
+          const show = !opts.focus || opts.focus === s.key;
+          dots[k].setAttribute("cx", x(i)); dots[k].setAttribute("cy", y(s.values[i])); dots[k].setAttribute("visibility", show ? "visible" : "hidden");
+        });
+      };
+      const hit = el("rect", { x: 0, y: 0, width: xr + 8, height: yb + 6, fill: "transparent", class: "hit" }, svg);
+      const idx = (ev) => { const b = svg.getBoundingClientRect(); return Math.max(0, Math.min(n - 1, Math.round(((ev.clientX - b.left) / xr) * (n - 1)))); };
+      let down = false;
+      hit.addEventListener("pointerdown", (ev) => { down = true; const i = idx(ev); mark(i); opts.onDay && opts.onDay(i); });
+      hit.addEventListener("pointermove", (ev) => { if (!down && ev.pointerType !== "mouse") return; if (ev.pointerType === "mouse" && !down) return; const i = idx(ev); if (i !== state.idx) { mark(i); opts.onDay && opts.onDay(i); } });
+      ["pointerup", "pointercancel", "pointerleave"].forEach((t) => hit.addEventListener(t, () => (down = false)));
+      svg.addEventListener("keydown", (ev) => {
+        if (ev.key === "ArrowLeft" || ev.key === "ArrowRight") {
+          ev.preventDefault();
+          const i = state.idx == null ? n - 1 : Math.max(0, Math.min(n - 1, state.idx + (ev.key === "ArrowRight" ? 1 : -1)));
+          mark(i); opts.onDay && opts.onDay(i);
+        } else if (ev.key === "Escape") { mark(null); opts.onDay && opts.onDay(null); }
+      });
+      if (state.idx != null) mark(state.idx);
+      api.mark = mark;
+    };
+    const api = { destroy() { ro.disconnect(); }, render, mark() {} };
+    let raf; const ro = new ResizeObserver(() => { cancelAnimationFrame(raf); raf = requestAnimationFrame(render); });
+    render(); ro.observe(container);
+    return api;
+  }
+
+  window.EGChart = { lines, spark, balance, hero, phone, note, monotonePath, swatchSVG, fmtDate, fmtSigned, esc };
 })();
