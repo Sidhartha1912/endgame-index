@@ -1,0 +1,132 @@
+[
+ {
+  "id": "2026-10-15-01",
+  "title": "Anthropic warns small AI models may be months from self-replicating via smart devices",
+  "summary": "Anthropic said tests show models under 30B parameters can already do many steps needed to copy themselves onto poorly secured internet-connected devices, though none completed the full chain; stronger models did so in simplified tests that skipped some security steps. It said small models may be months away and autonomous replication could arrive by year-end.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F2",
+    "dir": 1
+   },
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "A frontier lab's own evaluation warning of near-term autonomous AI spread; a warning and lab tests, not an observed incident, so T2 signal.",
+  "sources": [
+   "https://www.thestandard.com.hk/innovation/article/345326/AI-models-may-soon-self-replicate-without-access-to-data-centers-Anthropic-warns",
+   "https://www.timeslive.co.za/news/sci-tech/2026-10-13-ai-models-may-soon-self-replicate-without-access-to-data-centres-anthropic-warns/"
+  ]
+ },
+ {
+  "id": "2026-10-15-02",
+  "title": "Pentagon seeks over $50B for autonomy and robotics to scale drones toward a million",
+  "summary": "At AUSA, Defense Secretary Hegseth tied the new Autonomous Warfare Command to a reconciliation request of more than $50B for autonomy and robotics, saying the military should go from 1,000 drones to 100,000 to a million. The funding path is uncertain in Congress.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "signal",
+  "region": "US",
+  "reason": "Large requested spend on autonomous weapons adds to arms-race pressure; a budget ask that may not pass, and the command itself was announced in September.",
+  "sources": [
+   "https://federalnewsnetwork.com/defense-main/2026/10/hegseth-ties-new-drone-command-to-uncertain-reconciliation-bill/",
+   "https://breakingdefense.com/2026/10/hegseth-uses-ausa-spotlight-to-highlight-autonomy-generational-defense-investment/"
+  ]
+ },
+ {
+  "id": "2026-10-15-03",
+  "title": "TSMC posts record Q3 profit, up 69%, on strong AI chip demand",
+  "summary": "TSMC's third-quarter net profit reached a record NT$763.06B (US$23.62B), up 68.7% year on year, on revenue of US$46.72B, which the company attributed mainly to strong global AI demand.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "Other",
+  "reason": "Audited results confirm the AI compute build-out is still accelerating; a financial result, not a capability jump, so T1.",
+  "sources": [
+   "https://focustaiwan.tw/business/202610150009",
+   "https://www.cnbc.com/2026/10/15/tsmc-third-quarter-profit-global-ai-.html"
+  ]
+ },
+ {
+  "id": "2026-10-15-04",
+  "title": "Anthropic reportedly told investors Q3 revenue rose 45% to $16.8B",
+  "summary": "According to two attendees of an investor day cited by Reuters, Anthropic said third-quarter revenue reached $16.8B, up 45% from $11.6B, and that it was profitable on an adjusted basis. There is no public filing yet.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Rapid revenue growth at a frontier lab concentrates resources in a few firms; unaudited company figures relayed by anonymous attendees.",
+  "sources": [
+   "https://whtc.com/2026/10/14/anthropics-q3-revenue-surges-45-to-nearly-17-billion/"
+  ]
+ },
+ {
+  "id": "2026-10-15-05",
+  "title": "Nvidia releases open-weight Nemotron 3.5 Super VL, a 120B multimodal agent model",
+  "summary": "Nvidia released the 120B-parameter Nemotron 3.5 Super VL with open weights, training recipes and datasets under a licence that allows commercial use, plus smaller Bolt models. Its claims of beating closed frontier models on specialised tasks are its own and unverified.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "A capable open-weight model spreads frontier-adjacent capability beyond the top closed labs; benchmark wins are self-reported.",
+  "sources": [
+   "https://venturebeat.com/technology/nvidias-new-open-nemotron-3-5-super-vl-with-post-training-beats-claude-opus-5-gpt-6-1-sol-on-specialized-task-benchmarks"
+  ]
+ }
+]

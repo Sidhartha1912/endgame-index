@@ -1,0 +1,330 @@
+{
+ "date": "2026-10-15",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 17.81,
+  "benevolent_dictator": 23.54,
+  "egalitarian_utopia": 5.7,
+  "protector_god": 18.5,
+  "gatekeeper": 20.24,
+  "enslaved_god": 41.16,
+  "conquerors": 36.8,
+  "descendants": 27.75,
+  "zookeeper": 27.92,
+  "orwell_1984": 23.01,
+  "reversion": 5.78,
+  "self_destruction": 31.79
+ },
+ "deltas": {
+  "libertarian_utopia": -0.28,
+  "benevolent_dictator": 0.52,
+  "egalitarian_utopia": -0.21,
+  "protector_god": 0.5,
+  "gatekeeper": 0.32,
+  "enslaved_god": -0.08,
+  "conquerors": 0.67,
+  "descendants": 0.62,
+  "zookeeper": 0.64,
+  "orwell_1984": -0.03,
+  "reversion": 0.04,
+  "self_destruction": 0.49
+ },
+ "targets": {
+  "libertarian_utopia": 17.81,
+  "benevolent_dictator": 23.54,
+  "egalitarian_utopia": 5.7,
+  "protector_god": 18.5,
+  "gatekeeper": 20.24,
+  "enslaved_god": 41.16,
+  "conquerors": 36.8,
+  "descendants": 27.75,
+  "zookeeper": 27.92,
+  "orwell_1984": 23.01,
+  "reversion": 5.78,
+  "self_destruction": 31.79
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.5,
+  "benevolent_dictator": 0.64,
+  "egalitarian_utopia": -0.4,
+  "protector_god": 1.11,
+  "gatekeeper": 1.51,
+  "enslaved_god": 0.47,
+  "conquerors": 0.99,
+  "descendants": 0.97,
+  "zookeeper": 0.78,
+  "orwell_1984": 0.08,
+  "reversion": 0.23,
+  "self_destruction": 0.71
+ },
+ "factors": {
+  "F1": 84.73,
+  "F2": 53.64,
+  "F3": 33.33,
+  "F4": 26.65,
+  "F5": 67.09,
+  "F6": 45.38,
+  "F7": 32.33,
+  "F8": 65.13,
+  "F9": 45.77,
+  "F10": 20.66
+ },
+ "factor_deltas": {
+  "F1": 0.22,
+  "F2": 0.82,
+  "F3": -0.02,
+  "F4": 0.01,
+  "F5": 0.08,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": 0.44,
+  "F9": -0.0,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": -13.49,
+  "families": {
+   "flourishing": 16.39,
+   "contained": 30.7,
+   "successors": 30.82,
+   "stalled": 20.2
+  },
+  "news_heat": 1.98,
+  "evidence": "medium",
+  "event_count": 5
+ },
+ "badges": [
+  "crossover"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.01,
+  "protector_god": -0.03,
+  "gatekeeper": -0.02,
+  "enslaved_god": -0.03,
+  "descendants": -0.02,
+  "orwell_1984": 0.01,
+  "reversion": 0.01
+ },
+ "summary": {
+  "headline": "Anthropic warns small AI models may soon self-replicate via devices",
+  "body": "Anthropic said its tests show small AI models can already perform many of the steps needed to copy themselves onto poorly secured smart devices, and may be months away from doing it end to end. The warning lifted AI Autonomy by 0.80 and Catastrophic Risk by 0.40, pushing the Successors endings up. The Pentagon tied its new Autonomous Warfare Command to a request of more than $50B for autonomy and robotics, a smaller push on the same factors. On the capability side, TSMC reported a record 69% jump in quarterly profit on AI demand, Nvidia released the open-weight Nemotron 3.5 Super VL, and Anthropic reportedly told investors its quarterly revenue reached $16.8B. Successors moved just above Contained as the leading family. Horizon Balance fell to -13.49 from -13.18.",
+  "movers_note": "Conquerors +0.7, mostly from Anthropic's self-replication warning (+0.52) and TSMC's results (+0.08). Zookeeper +0.6, from the same warning (+0.48) and TSMC (+0.08). Descendants +0.6, from the warning (+0.48) and TSMC (+0.09).",
+  "coming_up": [
+   "Anthropic: autonomous self-replication by small models could arrive by the end of 2026 if current trends hold",
+   "Pentagon autonomy funding depends on Congress passing the reconciliation bill"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-10-15-01",
+   "title": "Anthropic warns small AI models may be months from self-replicating via smart devices",
+   "summary": "Anthropic said tests show models under 30B parameters can already do many steps needed to copy themselves onto poorly secured internet-connected devices, though none completed the full chain; stronger models did so in simplified tests that skipped some security steps. It said small models may be months away and autonomous replication could arrive by year-end.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F2",
+     "dir": 1
+    },
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "US",
+   "reason": "A frontier lab's own evaluation warning of near-term autonomous AI spread; a warning and lab tests, not an observed incident, so T2 signal.",
+   "sources": [
+    "https://www.thestandard.com.hk/innovation/article/345326/AI-models-may-soon-self-replicate-without-access-to-data-centers-Anthropic-warns",
+    "https://www.timeslive.co.za/news/sci-tech/2026-10-13-ai-models-may-soon-self-replicate-without-access-to-data-centres-anthropic-warns/"
+   ],
+   "points": 0.8,
+   "contribution": {
+    "libertarian_utopia": -0.2,
+    "benevolent_dictator": 0.48,
+    "egalitarian_utopia": -0.16,
+    "protector_god": 0.4,
+    "gatekeeper": 0.24,
+    "enslaved_god": -0.24,
+    "conquerors": 0.52,
+    "descendants": 0.48,
+    "zookeeper": 0.48,
+    "reversion": 0.16,
+    "self_destruction": 0.44
+   },
+   "factor_effect": {
+    "F2": 0.8,
+    "F8": 0.4
+   }
+  },
+  {
+   "id": "2026-10-15-02",
+   "title": "Pentagon seeks over $50B for autonomy and robotics to scale drones toward a million",
+   "summary": "At AUSA, Defense Secretary Hegseth tied the new Autonomous Warfare Command to a reconciliation request of more than $50B for autonomy and robotics, saying the military should go from 1,000 drones to 100,000 to a million. The funding path is uncertain in Congress.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    },
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "national",
+   "track": "signal",
+   "region": "US",
+   "reason": "Large requested spend on autonomous weapons adds to arms-race pressure; a budget ask that may not pass, and the command itself was announced in September.",
+   "sources": [
+    "https://federalnewsnetwork.com/defense-main/2026/10/hegseth-ties-new-drone-command-to-uncertain-reconciliation-bill/",
+    "https://breakingdefense.com/2026/10/hegseth-uses-ausa-spotlight-to-highlight-autonomy-generational-defense-investment/"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "libertarian_utopia": -0.02,
+    "benevolent_dictator": 0.01,
+    "egalitarian_utopia": -0.02,
+    "protector_god": 0.01,
+    "gatekeeper": 0.01,
+    "enslaved_god": -0.01,
+    "conquerors": 0.02,
+    "descendants": 0.01,
+    "zookeeper": 0.01,
+    "reversion": 0.02,
+    "self_destruction": 0.05
+   },
+   "factor_effect": {
+    "F2": 0.02,
+    "F8": 0.04
+   }
+  },
+  {
+   "id": "2026-10-15-03",
+   "title": "TSMC posts record Q3 profit, up 69%, on strong AI chip demand",
+   "summary": "TSMC's third-quarter net profit reached a record NT$763.06B (US$23.62B), up 68.7% year on year, on revenue of US$46.72B, which the company attributed mainly to strong global AI demand.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "Other",
+   "reason": "Audited results confirm the AI compute build-out is still accelerating; a financial result, not a capability jump, so T1.",
+   "sources": [
+    "https://focustaiwan.tw/business/202610150009",
+    "https://www.cnbc.com/2026/10/15/tsmc-third-quarter-profit-global-ai-.html"
+   ],
+   "points": 0.3,
+   "contribution": {
+    "protector_god": 0.08,
+    "gatekeeper": 0.06,
+    "enslaved_god": 0.09,
+    "conquerors": 0.08,
+    "descendants": 0.09,
+    "zookeeper": 0.08,
+    "orwell_1984": -0.05,
+    "reversion": -0.09
+   },
+   "factor_effect": {
+    "F1": 0.15
+   }
+  },
+  {
+   "id": "2026-10-15-04",
+   "title": "Anthropic reportedly told investors Q3 revenue rose 45% to $16.8B",
+   "summary": "According to two attendees of an investor day cited by Reuters, Anthropic said third-quarter revenue reached $16.8B, up 45% from $11.6B, and that it was profitable on an adjusted basis. There is no public filing yet.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "US",
+   "reason": "Rapid revenue growth at a frontier lab concentrates resources in a few firms; unaudited company figures relayed by anonymous attendees.",
+   "sources": [
+    "https://whtc.com/2026/10/14/anthropics-q3-revenue-surges-45-to-nearly-17-billion/"
+   ],
+   "points": 0.17,
+   "contribution": {
+    "libertarian_utopia": -0.1,
+    "benevolent_dictator": 0.08,
+    "egalitarian_utopia": -0.07,
+    "enslaved_god": 0.1,
+    "zookeeper": 0.07,
+    "orwell_1984": 0.07
+   },
+   "factor_effect": {
+    "F5": 0.17
+   }
+  },
+  {
+   "id": "2026-10-15-05",
+   "title": "Nvidia releases open-weight Nemotron 3.5 Super VL, a 120B multimodal agent model",
+   "summary": "Nvidia released the 120B-parameter Nemotron 3.5 Super VL with open weights, training recipes and datasets under a licence that allows commercial use, plus smaller Bolt models. Its claims of beating closed frontier models on specialised tasks are its own and unverified.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    },
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "A capable open-weight model spreads frontier-adjacent capability beyond the top closed labs; benchmark wins are self-reported.",
+   "sources": [
+    "https://venturebeat.com/technology/nvidias-new-open-nemotron-3-5-super-vl-with-post-training-beats-claude-opus-5-gpt-6-1-sol-on-specialized-task-benchmarks"
+   ],
+   "points": 0.17,
+   "contribution": {
+    "libertarian_utopia": 0.05,
+    "benevolent_dictator": -0.04,
+    "egalitarian_utopia": 0.03,
+    "protector_god": 0.04,
+    "gatekeeper": 0.03,
+    "conquerors": 0.04,
+    "descendants": 0.05,
+    "zookeeper": 0.01,
+    "orwell_1984": -0.06,
+    "reversion": -0.05
+   },
+   "factor_effect": {
+    "F1": 0.09,
+    "F5": -0.08
+   }
+  }
+ ]
+}
