@@ -45,7 +45,7 @@
       if (a && route.prev === "summary") { e.preventDefault(); openEnding(a.getAttribute("href").split("/")[2]); }
     });
     window.addEventListener("hashchange", route);
-    matchMedia(PHONE_Q).addEventListener("change", () => { const t = location.hash.replace(/^#\/?/, "").split("/")[0]; if (!t || t === "dashboard") { destroyCharts(); renderDashboard(); } });
+    matchMedia(PHONE_Q).addEventListener("change", () => { const t = location.hash.replace(/^#\/?/, "").split("/")[0]; if (!t || t === "dashboard") { destroyCharts(); renderDashboard(); } else if (t === "endings") renderEndings(); });
     route();
   }
   async function getDay(d) {
@@ -86,7 +86,7 @@
   /* ---------------- router ---------------- */
   function route() {
     const parts = location.hash.replace(/^#\/?/, "").split("/");
-    const tab = ["dashboard", "summary", "history", "scoring", "ending"].includes(parts[0]) ? parts[0] : "dashboard";
+    const tab = ["dashboard", "summary", "endings", "history", "scoring", "ending"].includes(parts[0]) ? parts[0] : "dashboard";
     const go = () => {
       destroyCharts();
       if (typeof LS !== "undefined" && LS.el && tab !== "dashboard") closeLandscape(true);
@@ -97,14 +97,15 @@
       $(`.tabs a[data-tab="${active}"]`)?.setAttribute("aria-current", "page");
       if (tab === "dashboard" || tab === "ending") renderDashboard();
       else if (tab === "summary") renderSummary(parts[1]);
+      else if (tab === "endings") renderEndings();
       else if (tab === "history") renderHistory();
       else if (tab === "scoring") renderScoring();
-      document.title = { dashboard: "Endgame Index", ending: "Endgame Index", summary: "Summary of the Day · Endgame Index", history: "History · Endgame Index", scoring: "Scoring Mechanism · Endgame Index" }[tab];
+      document.title = { dashboard: "Endgame Index", ending: "Endgame Index", summary: "Summary of the Day · Endgame Index", endings: "The 12 Endings · Endgame Index", history: "History · Endgame Index", scoring: "Scoring Mechanism · Endgame Index" }[tab];
       if (tab === "ending" && parts[1] && S.H.scenarios[parts[1]]) openEnding(parts[1]);
     };
     const prevTab = route.prev; route.prev = tab;
-    T("page_viewed", { page: tab === "ending" ? "dashboard" : tab, ending: tab === "ending" ? parts[1] : undefined, date: tab === "summary" ? (parts[1] || "latest") : undefined, from: prevTab || "entry" });
-    if (window.EGTrack) window.EGTrack.page(tab, { date: tab === "summary" ? (parts[1] || "latest") : undefined, ending: tab === "ending" ? parts[1] : undefined });
+    T("page_viewed", { page: tab === "ending" ? "dashboard" : tab, ending: tab === "ending" ? parts[1] : undefined, date: tab === "summary" ? (parts[1] || "default") : undefined, from: prevTab || "entry" });
+    if (window.EGTrack) window.EGTrack.page(tab, { date: tab === "summary" ? (parts[1] || "default") : undefined, ending: tab === "ending" ? parts[1] : undefined });
     const changedTab = prevTab && prevTab !== tab && !(prevTab === "dashboard" && tab === "ending") && !(prevTab === "ending" && tab === "dashboard");
     if (changedTab && document.startViewTransition && !reduceMotion.matches) {
       document.startViewTransition(go).finished.finally(() => { window.scrollTo(0, 0); $("#main").focus({ preventScroll: true }); });
@@ -501,6 +502,180 @@
       <div class="recipe-row ${cls}"><span>${w > 0 ? "↑" : "↓"} ${esc(S.R.factors[f].name)}</span><div><div class="rb" style="width:${Math.abs(w) * 100 / 0.55}%;opacity:${w > 0 ? 1 : 0.45}"></div></div><span class="rv">${w > 0 ? "+" : "−"}${Math.round(Math.abs(w) * 100)}%</span></div>`).join("")}</div>`;
   }
 
+  /* ================= 12 ENDINGS (explainer) ================= */
+  const GLYPH = {"libertarian_utopia": "<path d=\"M14 66H106\"/><path d=\"M45 26V66M75 26V66\" stroke-dasharray=\"3 4\" opacity=\".6\"/><g opacity=\"1\"><circle cx=\"29\" cy=\"41.6\" r=\"4.68\"/><path d=\"M20.55 59.8Q29 45.5 37.45 59.8\"/></g><circle cx=\"60\" cy=\"41.6\" r=\"4.7\"/><path d=\"M51.5 59.8Q60 45.5 68.5 59.8\"/><rect x=\"60\" y=\"36.5\" width=\"5.5\" height=\"10\" rx=\"1.5\" fill=\"currentColor\" fill-opacity=\".35\"/><circle cx=\"91\" cy=\"50\" r=\"9\" fill=\"currentColor\" fill-opacity=\"0.16\"/><circle cx=\"91\" cy=\"50\" r=\"3.06\" fill=\"currentColor\" stroke=\"none\"/>", "benevolent_dictator": "<circle cx=\"60\" cy=\"24\" r=\"11\" fill=\"currentColor\" fill-opacity=\"0.16\"/><circle cx=\"60\" cy=\"24\" r=\"3.74\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M52 10l3 4 5-5 5 5 3-4v6H52z\" fill=\"currentColor\" fill-opacity=\".35\"/><path d=\"M44 40l-10 12M60 40v12M76 40l10 12\" opacity=\".45\" stroke-dasharray=\"2 3\"/><g opacity=\"1\"><circle cx=\"24\" cy=\"58.0\" r=\"3.6\"/><path d=\"M17.5 72.0Q24 61.0 30.5 72.0\"/></g><g opacity=\"1\"><circle cx=\"42\" cy=\"58.0\" r=\"3.6\"/><path d=\"M35.5 72.0Q42 61.0 48.5 72.0\"/></g><g opacity=\"1\"><circle cx=\"60\" cy=\"58.0\" r=\"3.6\"/><path d=\"M53.5 72.0Q60 61.0 66.5 72.0\"/></g><g opacity=\"1\"><circle cx=\"78\" cy=\"58.0\" r=\"3.6\"/><path d=\"M71.5 72.0Q78 61.0 84.5 72.0\"/></g><g opacity=\"1\"><circle cx=\"96\" cy=\"58.0\" r=\"3.6\"/><path d=\"M89.5 72.0Q96 61.0 102.5 72.0\"/></g>", "egalitarian_utopia": "<path d=\"M12 70H108\"/><rect x=\"16\" y=\"54\" width=\"16\" height=\"16\" rx=\"2\" fill=\"currentColor\" fill-opacity=\".14\"/><g opacity=\"1\"><circle cx=\"24\" cy=\"31.2\" r=\"3.96\"/><path d=\"M16.85 46.6Q24 34.5 31.15 46.6\"/></g><rect x=\"40\" y=\"54\" width=\"16\" height=\"16\" rx=\"2\" fill=\"currentColor\" fill-opacity=\".14\"/><circle cx=\"48\" cy=\"38\" r=\"7\" fill=\"currentColor\" fill-opacity=\"0.16\"/><circle cx=\"48\" cy=\"38\" r=\"2.38\" fill=\"currentColor\" stroke=\"none\"/><rect x=\"64\" y=\"54\" width=\"16\" height=\"16\" rx=\"2\" fill=\"currentColor\" fill-opacity=\".14\"/><g opacity=\"1\"><circle cx=\"72\" cy=\"31.2\" r=\"3.96\"/><path d=\"M64.85 46.6Q72 34.5 79.15 46.6\"/></g><rect x=\"88\" y=\"54\" width=\"16\" height=\"16\" rx=\"2\" fill=\"currentColor\" fill-opacity=\".14\"/><circle cx=\"96\" cy=\"38\" r=\"7\" fill=\"currentColor\" fill-opacity=\"0.16\"/><circle cx=\"96\" cy=\"38\" r=\"2.38\" fill=\"currentColor\" stroke=\"none\"/>", "protector_god": "<circle cx=\"60\" cy=\"42\" r=\"32\" stroke-dasharray=\"2 5\" opacity=\".55\"/><circle cx=\"60\" cy=\"42\" r=\"22\" stroke-dasharray=\"1 6\" opacity=\".35\"/><g opacity=\"1\"><circle cx=\"46\" cy=\"43.2\" r=\"3.96\"/><path d=\"M38.85 58.6Q46 46.5 53.15 58.6\"/></g><g opacity=\"1\"><circle cx=\"60\" cy=\"39.2\" r=\"3.96\"/><path d=\"M52.85 54.6Q60 42.5 67.15 54.6\"/></g><g opacity=\"1\"><circle cx=\"74\" cy=\"43.2\" r=\"3.96\"/><path d=\"M66.85 58.6Q74 46.5 81.15 58.6\"/></g><path d=\"M88 14l2 4 4 1-4 1-2 4-2-4-4-1 4-1z\" fill=\"currentColor\" stroke=\"none\" opacity=\".7\"/>", "gatekeeper": "<path d=\"M60 10V72\"/><path d=\"M60 18h6M54 28h6M60 38h6M54 48h6M60 58h6\" opacity=\".5\"/><path d=\"M32 22l12 4v12c0 9-6 14-12 17-6-3-12-8-12-17V26z\" fill=\"currentColor\" fill-opacity=\".14\"/><circle cx=\"32\" cy=\"38\" r=\"5\" fill=\"currentColor\" fill-opacity=\"0\"/><circle cx=\"32\" cy=\"38\" r=\"1.7\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"94\" cy=\"40\" r=\"7\" fill=\"currentColor\" fill-opacity=\"0.16\"/><circle cx=\"94\" cy=\"40\" r=\"2.38\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M84 40H70\" stroke-dasharray=\"3 3\"/><path d=\"M73 33l-7 14M66 33l7 14\" stroke-width=\"2.2\"/>", "enslaved_god": "<rect x=\"38\" y=\"16\" width=\"44\" height=\"50\" rx=\"4\" fill=\"currentColor\" fill-opacity=\".06\"/><path d=\"M49 16V66M60 16V66M71 16V66\" opacity=\".7\"/><circle cx=\"60\" cy=\"41\" r=\"11\" fill=\"currentColor\" fill-opacity=\"0.16\"/><circle cx=\"60\" cy=\"41\" r=\"3.74\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"98\" cy=\"58\" r=\"5\"/><path d=\"M98 63v10M98 69h4\"/><path d=\"M20 30l8 4M18 44h9M20 58l8-4\" opacity=\".55\"/>", "conquerors": "<circle cx=\"86\" cy=\"28\" r=\"17\" fill=\"currentColor\" fill-opacity=\"0.16\"/><circle cx=\"86\" cy=\"28\" r=\"5.78\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M66 40L30 66\" opacity=\".35\" stroke-dasharray=\"3 4\"/><g opacity=\"0.8\"><circle cx=\"22\" cy=\"58.0\" r=\"3.6\"/><path d=\"M15.5 72.0Q22 61.0 28.5 72.0\"/></g><g opacity=\"0.45\"><circle cx=\"38\" cy=\"62.0\" r=\"3.6\"/><path d=\"M31.5 76.0Q38 65.0 44.5 76.0\"/></g><g opacity=\"0.18\"><circle cx=\"54\" cy=\"64.0\" r=\"3.6\"/><path d=\"M47.5 78.0Q54 67.0 60.5 78.0\"/></g>", "descendants": "<g opacity=\"1\"><circle cx=\"18\" cy=\"42.4\" r=\"4.32\"/><path d=\"M10.2 59.2Q18 46.0 25.8 59.2\"/></g><path d=\"M28 46C46 46 50 26 70 22M28 46C50 46 56 44 76 44M28 46C46 46 50 64 70 68\" /><circle cx=\"78\" cy=\"22\" r=\"6\" fill=\"currentColor\" fill-opacity=\"0.16\"/><circle cx=\"78\" cy=\"22\" r=\"2.04\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"86\" cy=\"44\" r=\"8\" fill=\"currentColor\" fill-opacity=\"0.16\"/><circle cx=\"86\" cy=\"44\" r=\"2.72\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"78\" cy=\"68\" r=\"6\" fill=\"currentColor\" fill-opacity=\"0.16\"/><circle cx=\"78\" cy=\"68\" r=\"2.04\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M100 44h8M104 40v8\" opacity=\".5\"/>", "zookeeper": "<circle cx=\"60\" cy=\"18\" r=\"10\" fill=\"currentColor\" fill-opacity=\"0.16\"/><circle cx=\"60\" cy=\"18\" r=\"3.4\" fill=\"currentColor\" stroke=\"none\"/><rect x=\"24\" y=\"40\" width=\"72\" height=\"32\" rx=\"3\" fill=\"currentColor\" fill-opacity=\".06\"/><path d=\"M36 40V72\" opacity=\".55\"/><path d=\"M48 40V72\" opacity=\".55\"/><path d=\"M60 40V72\" opacity=\".55\"/><path d=\"M72 40V72\" opacity=\".55\"/><path d=\"M84 40V72\" opacity=\".55\"/><g opacity=\"1\"><circle cx=\"42\" cy=\"56.0\" r=\"3.6\"/><path d=\"M35.5 70.0Q42 59.0 48.5 70.0\"/></g><g opacity=\"1\"><circle cx=\"78\" cy=\"56.0\" r=\"3.6\"/><path d=\"M71.5 70.0Q78 59.0 84.5 70.0\"/></g><path d=\"M52 26l-14 12M68 26l14 12\" opacity=\".35\" stroke-dasharray=\"2 3\"/>", "orwell_1984": "<path d=\"M40 22Q60 6 80 22Q60 38 40 22z\" fill=\"currentColor\" fill-opacity=\".12\"/><circle cx=\"60\" cy=\"22\" r=\"5\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M50 32L30 52M60 34v16M70 32l20 20\" opacity=\".4\" stroke-dasharray=\"2 3\"/><g opacity=\"1\"><circle cx=\"24\" cy=\"60.8\" r=\"3.24\"/><path d=\"M18.15 73.4Q24 63.5 29.85 73.4\"/></g><g opacity=\"1\"><circle cx=\"42\" cy=\"60.8\" r=\"3.24\"/><path d=\"M36.15 73.4Q42 63.5 47.85 73.4\"/></g><g opacity=\"1\"><circle cx=\"60\" cy=\"60.8\" r=\"3.24\"/><path d=\"M54.15 73.4Q60 63.5 65.85 73.4\"/></g><g opacity=\"1\"><circle cx=\"78\" cy=\"60.8\" r=\"3.24\"/><path d=\"M72.15 73.4Q78 63.5 83.85 73.4\"/></g><g opacity=\"1\"><circle cx=\"96\" cy=\"60.8\" r=\"3.24\"/><path d=\"M90.15 73.4Q96 63.5 101.85 73.4\"/></g><circle cx=\"104\" cy=\"20\" r=\"7\" opacity=\".6\"/><path d=\"M99 15l10 10\" opacity=\".6\"/>", "reversion": "<path d=\"M10 44H34\"/><rect x=\"34\" y=\"36\" width=\"12\" height=\"16\" rx=\"2\" fill=\"currentColor\" fill-opacity=\".14\"/><path d=\"M46 40h5M46 48h5\"/><path d=\"M60 38l3 4-3 4 3 4\" opacity=\".6\"/><rect x=\"68\" y=\"34\" width=\"8\" height=\"20\" rx=\"2\" opacity=\".6\"/><path d=\"M88 70V52\"/><path d=\"M88 58c0-8 6-12 14-12 0 8-6 12-14 12zM88 62c0-6-5-9-11-9 0 6 5 9 11 9z\" fill=\"currentColor\" fill-opacity=\".2\"/><path d=\"M74 70H108\"/>", "self_destruction": "<circle cx=\"60\" cy=\"42\" r=\"22\" fill=\"currentColor\" fill-opacity=\".1\"/><path d=\"M60 20l-5 12 8 6-6 10 4 16\" stroke-width=\"2\"/><path d=\"M42 30c8 4 12 4 14 2M64 46c6 2 12 0 17-4\" opacity=\".5\"/><path d=\"M92 18l6-6M98 30h8M28 18l-6-6M22 30h-8M92 66l6 6M28 66l-6 6\" opacity=\".6\"/>"};
+  const FICON = {"F1": "<path d=\"M12 3c3 2 5 6 5 10l-2 3H9l-2-3c0-4 2-8 5-10z\"/><path d=\"M9 16l-2 4M15 16l2 4\"/><circle cx=\"12\" cy=\"10\" r=\"1.6\"/>", "F2": "<rect x=\"5\" y=\"8\" width=\"14\" height=\"11\" rx=\"3\"/><path d=\"M12 8V4\"/><circle cx=\"12\" cy=\"3.5\" r=\"1\"/><circle cx=\"9.5\" cy=\"13\" r=\"1\"/><circle cx=\"14.5\" cy=\"13\" r=\"1\"/>", "F3": "<path d=\"M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z\"/><path d=\"M9 12l2 2 4-4\"/>", "F4": "<circle cx=\"12\" cy=\"12\" r=\"8\"/><path d=\"M4 12h16M12 4c3 3 3 13 0 16M12 4c-3 3-3 13 0 16\"/>", "F5": "<path d=\"M4 18h16l1-10-5 4-4-6-4 6-5-4z\"/>", "F6": "<path d=\"M3 12q9-9 18 0q-9 9-18 0z\"/><circle cx=\"12\" cy=\"12\" r=\"2.6\"/>", "F7": "<ellipse cx=\"10\" cy=\"8\" rx=\"6\" ry=\"2.5\"/><path d=\"M4 8v4c0 1.4 2.7 2.5 6 2.5M4 12v4c0 1.4 2.7 2.5 6 2.5\"/><ellipse cx=\"15\" cy=\"15\" rx=\"5\" ry=\"2\"/><path d=\"M10 15v3c0 1.1 2.2 2 5 2s5-.9 5-2v-3\"/>", "F8": "<path d=\"M12 3c1 4 6 6 6 11a6 6 0 0 1-12 0c0-3 2-4 2-6 2 1 3 2 3 4 1-3 1-6 1-9z\"/>", "F9": "<path d=\"M8 12V6a1.5 1.5 0 0 1 3 0v5M11 11V4.5a1.5 1.5 0 0 1 3 0V11M14 11V6a1.5 1.5 0 0 1 3 0v7c0 4-3 7-6 7s-5-2-6-4l-2-4a1.5 1.5 0 0 1 2.5-1.5L8 13\"/>", "F10": "<path d=\"M10 14l4-4\"/><path d=\"M8 11l-2 2a3 3 0 0 0 4 4l2-2M16 13l2-2a3 3 0 0 0-4-4l-2 2\"/>"};
+  const FSHORT = { F1: "Capability", F2: "Autonomy", F3: "Alignment", F4: "Coordination", F5: "Power in few hands", F6: "Surveillance", F7: "Shared wealth", F8: "Catastrophe risk", F9: "Backlash", F10: "Human–AI merging" };
+  const FTINY = { F1: "Capability", F2: "Autonomy", F3: "Alignment", F4: "Coordination", F5: "Power", F6: "Surveillance", F7: "Shared wealth", F8: "Catastrophe", F9: "Backlash", F10: "Merging" };
+  // x: humans in charge (0) → AI in charge (1); y: bad for humans (0) → good (1). Editorial placement.
+  const MAP_POS = { egalitarian_utopia: [.14, .84], libertarian_utopia: [.4, .95], protector_god: [.76, .82], benevolent_dictator: [.9, .66],
+    gatekeeper: [.6, .49], enslaved_god: [.2, .54], reversion: [.42, .32], descendants: [.84, .38],
+    orwell_1984: [.12, .2], self_destruction: [.36, .08], zookeeper: [.72, .2], conquerors: [.92, .08] };
+  const MAP_SIDE = { conquerors: "l", benevolent_dictator: "l", protector_god: "l", descendants: "l" };
+  const MAP_POS_PH = Object.assign({}, MAP_POS, { egalitarian_utopia: [.1, .88], protector_god: [.78, .84], libertarian_utopia: [.38, .97], benevolent_dictator: [.9, .7], gatekeeper: [.6, .56], self_destruction: [.3, .07], descendants: [.86, .4], reversion: [.36, .3] });
+  const MAP_SIDE_PH = Object.assign({}, MAP_SIDE, { conquerors: "u", zookeeper: "l" });
+  const QUESTIONS = [
+    ["Does <i>superintelligence</i> ever get built?", "stalled", "NO"],
+    ["Do humans keep it <i>on a leash?</i>", "contained", "YES"],
+    ["Is its world <i>good for us?</i>", "flourishing", "YES", "successors", "NO"],
+  ];
+  const glyphSVG = (k, w, h) => `<svg class="eg-glyph" width="${w}" height="${h}" viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${GLYPH[k]}</svg>`;
+  const ficonSVG = (f, s = 16) => `<svg class="eg-ficon" width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${FICON[f]}</svg>`;
+  function miniSpark(vals, w, h) {
+    let lo = Math.min(...vals), hi = Math.max(...vals);
+    if (hi - lo < 1.5) { const m = (hi + lo) / 2; lo = m - .75; hi = m + .75; }
+    const pts = vals.map((v, i) => [i / (vals.length - 1) * (w - 4) + 1, h - 3 - (v - lo) / (hi - lo) * (h - 6)]);
+    const [x, y] = pts[pts.length - 1];
+    return `<svg class="eg-spark" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true"><path d="${window.EGChart.monotonePath(pts)}"/><circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="2.6"/></svg>`;
+  }
+
+  function renderEndings() {
+    const H = S.H, R = S.R, C = S.C, n = N() - 1, phone = isPhone();
+    const keys = S.series.map((s) => s.key);
+    const fam = (k) => H.scenarios[k].family;
+    const now = (k) => H.scores[k][n];
+    const ser30 = (k) => H.scores[k].slice(Math.max(0, n - 29));
+    const d30 = (k) => now(k) - H.scores[k][Math.max(0, n - 29)];
+    const famOf = (f) => keys.filter((k) => fam(k) === f);
+    const mono = (v) => v.toFixed(1);
+
+    // --- map of endings
+    const POS = phone ? MAP_POS_PH : MAP_POS, SIDE = phone ? MAP_SIDE_PH : MAP_SIDE;
+    const rad = (k) => (phone ? 6 + now(k) * 0.55 : 9 + now(k) * 0.95);
+    const bubbles = keys.slice().sort((a, b) => now(b) - now(a)).map((k) => {
+      const [x, y] = POS[k], r = rad(k);
+      return `<a class="em-b c-${fam(k)}" href="#/ending/${k}" data-k="${k}" style="left:${x * 100}%;top:${(1 - y) * 100}%;width:${2 * r}px;height:${2 * r}px" aria-label="${esc(C.endings[k].name)}, ${mono(now(k))}">${r >= (phone ? 13 : 17) ? Math.round(now(k)) : ""}</a>`;
+    }).join("");
+    const labels = keys.map((k) => {
+      const [x, y] = POS[k], r = rad(k), side = SIDE[k] || "r", nm = esc(C.endings[k].name);
+      if (side === "u") return `<span class="em-l" style="right:calc(${100 - x * 100}% - ${r}px);top:calc(${(1 - y) * 100}% - ${r + 18}px)">${nm}</span>`;
+      if (side === "l") return `<span class="em-l" style="right:calc(${100 - x * 100}% + ${r + 6}px);top:${(1 - y) * 100}%">${nm}</span>`;
+      return `<span class="em-l" style="left:calc(${x * 100}% + ${r + 6}px);top:${(1 - y) * 100}%">${nm}</span>`;
+    }).join("");
+    const map = `<div class="em-card">
+      <div class="em-top"><h2>The map of endings</h2><span>${phone ? "SIZE = SCORE" : "BUBBLE SIZE = TODAY’S SCORE"}</span></div>
+      <div class="em">
+        <span class="em-y"><b class="g">GOOD FOR HUMANS ↑</b><b class="b">↓ BAD FOR HUMANS</b></span>
+        <div class="em-plot">${bubbles}${labels}</div>
+        <span class="em-x"><span>← HUMANS IN CHARGE</span><span>AI IN CHARGE →</span></span>
+      </div></div>`;
+
+    const pills = FAMILY_ORDER.map((f) => `<div class="et-pill c-${f}"><i class="swatch"></i><span><b>${esc(R.families[f].name)} <small>· ${famOf(f).length}</small></b><span>${esc(R.families[f].tagline)}</span></span></div>`).join("");
+
+    // --- decision tree (horizontal on wide screens, vertical otherwise)
+    const leafChips = (f, w, h) => famOf(f).map((k) => `<a class="et-chip" href="#/ending/${k}" data-k="${k}">${glyphSVG(k, w, h)}<span>${esc(C.endings[k].name)}</span></a>`).join("");
+    const leaf = (f, cls = "") => `<div class="et-leaf c-${f} ${cls}"><span class="et-ln"><i class="swatch"></i>${esc(R.families[f].name)}</span><div class="et-chips">${leafChips(f, 57, 38)}</div></div>`;
+    const TW = 1200, LW = 400, LH = 96, GAP = 18, lx = TW - LW;
+    const cy = [0, 1, 2, 3].map((i) => i * (LH + GAP) + LH / 2), TH = 3 * (LH + GAP) + LH;
+    const qs = [[0, 210, (cy[0] + cy[3]) / 2], [280, 210, (cy[1] + cy[3]) / 2 + 6], [530, 220, (cy[2] + cy[3]) / 2]];
+    const curve = (x1, y1, x2, y2) => { const m = (x1 + x2) / 2; return `<path d="M${x1} ${y1}C${m} ${y1} ${m} ${y2} ${x2} ${y2}"/>`; };
+    const E = qs.map((q) => q[0] + q[1]);
+    const edges = [[E[0], qs[0][2], lx, cy[0], "NO"], [E[0], qs[0][2], qs[1][0], qs[1][2], "YES"], [E[1], qs[1][2], lx, cy[1], "YES"],
+      [E[1], qs[1][2], qs[2][0], qs[2][2], "NO"], [E[2], qs[2][2], lx, cy[2], "YES"], [E[2], qs[2][2], lx, cy[3], "NO"]];
+    const treeH = `<div class="et-tree-h" style="height:${TH}px">
+      <svg width="${TW}" height="${TH}" viewBox="0 0 ${TW} ${TH}" aria-hidden="true">${edges.map((e) => curve(...e.slice(0, 4))).join("")}</svg>
+      ${qs.map((q, i) => `<div class="et-q" style="left:${q[0]}px;top:${q[2] - 39}px;width:${q[1]}px"><span>${QUESTIONS[i][0]}</span></div>`).join("")}
+      ${edges.map(([x1, y1, x2, y2, t]) => { let x = (x1 + x2) / 2 - 16, y = (y1 + y2) / 2 - 10; if (x2 === lx && x1 > 500) { x = lx - 46; y = y2 - 22; } return `<span class="et-yn" style="left:${x}px;top:${y}px">${t}</span>`; }).join("")}
+      ${["stalled", "contained", "flourishing", "successors"].map((f, i) => `<div style="position:absolute;left:${lx}px;top:${i * (LH + GAP)}px;width:${LW}px;height:${LH}px">${leaf(f)}</div>`).join("")}
+    </div>`;
+    const treeV = `<div class="et-tree-v">
+      <div class="et-q"><span>${QUESTIONS[0][0]}</span></div>${`<div class="et-vrow"><span class="et-yn">NO</span>${leaf("stalled")}</div>`}
+      <span class="et-down">YES ↓</span>
+      <div class="et-q"><span>${QUESTIONS[1][0]}</span></div><div class="et-vrow"><span class="et-yn">YES</span>${leaf("contained")}</div>
+      <span class="et-down">NO ↓</span>
+      <div class="et-q"><span>${QUESTIONS[2][0]}</span></div><div class="et-vrow"><span class="et-yn">YES</span>${leaf("flourishing")}</div><div class="et-vrow"><span class="et-yn">NO</span>${leaf("successors")}</div>
+    </div>`;
+
+    // --- ending cards
+    const recipe = (k) => Object.entries(R.scenarios[k].weights).sort((a, b) => Math.abs(b[1]) - Math.abs(a[1])).map(([f, v]) =>
+      `<div class="er-row ${v > 0 ? "up" : "down"}" title="${esc(R.factors[f].name)}: ${v > 0 ? "rising pushes this ending up" : "rising pulls this ending down"}">${ficonSVG(f, 15)}<span class="er-n">${esc(FSHORT[f])}</span><span class="er-bar"><i style="width:${(Math.abs(v) / 0.55 * 100).toFixed(0)}%"></i></span><span class="er-a">${v > 0 ? "▲" : "▼"}</span></div>`).join("");
+    const card = (k) => {
+      const e = C.endings[k], dd = d30(k), cl = dd > 0.05 ? "up" : dd < -0.05 ? "down" : "flat";
+      return `<a class="ec c-${fam(k)}" href="#/ending/${k}" data-k="${k}">
+        <div class="ec-art"><span class="ec-num">${String(e.num).padStart(2, "0")}</span>${glyphSVG(k, 138, 92)}</div>
+        <div class="ec-body">
+          <h3>${esc(e.name)}</h3>
+          <p>${esc(e.short || e.desc)}</p>
+          <div class="ec-score"><span class="ec-v"><b>${mono(now(k))}</b><small>today</small></span>${miniSpark(ser30(k), 84, 26)}<span class="ec-d ${cl}">${dd > 0.05 ? "▲" : dd < -0.05 ? "▼" : "•"} ${Math.abs(dd).toFixed(1)}<small>30 days</small></span></div>
+          <div class="ec-k">WHAT MOVES IT</div>
+          <div class="er">${recipe(k)}</div>
+          <span class="ec-more">Full story →</span>
+        </div></a>`;
+    };
+    const famSections = FAMILY_ORDER.map((f) => `<section class="ef c-${f}" data-fam="${f}" aria-label="${esc(R.families[f].name)}">
+        <header class="ef-h"><i class="swatch"></i><h3>${esc(R.families[f].name)}</h3><span>${esc(R.families[f].tagline)}</span><b>FAMILY INDEX ${mono(H.families[f][n])}</b></header>
+        <div class="ef-grid">${famOf(f).map(card).join("")}</div></section>`).join("");
+    const chips = FAMILY_ORDER.map((f, i) => `<button type="button" class="ef-chip c-${f}" data-fam="${f}" aria-pressed="${i === 0}"><i class="swatch"></i>${esc(R.families[f].name)}</button>`).join("");
+
+    // --- recipe matrix
+    const F = Object.keys(R.factors);
+    const fx = (f) => H.factors && H.factors[f] ? H.factors[f] : null;
+    const head = `<span></span>${keys.map((k) => `<span class="mx-h c-${fam(k)}"><span>${esc(C.endings[k].name)}</span><i class="swatch"></i></span>`).join("")}<span class="mx-lvh">WORLD TODAY</span>`;
+    const rows = F.map((f) => {
+      const lv = fx(f);
+      const cells = keys.map((k) => {
+        const v = R.scenarios[k].weights[f] || 0;
+        if (!v) return `<span class="mx-c"><i class="mx-dot"></i></span>`;
+        return `<span class="mx-c c-${fam(k)}" title="${esc(C.endings[k].name)} · ${esc(R.factors[f].name)}: ${v > 0 ? "pushes up" : "pulls down"}"><i class="mx-sq ${v > 0 ? "up" : "down"}" style="--s:${(0.45 + Math.abs(v) / 0.55 * 0.55).toFixed(2)}">${v > 0 ? "▲" : "▼"}</i></span>`;
+      }).join("");
+      const lvl = lv ? `<span class="mx-lv"><span class="mx-bar"><i style="width:${lv[lv.length - 1].toFixed(0)}%"></i><b style="left:${lv[0].toFixed(0)}%"></b></span><small>${lv[lv.length - 1].toFixed(0)}</small></span>` : `<span class="mx-lv"></span>`;
+      return `<span class="mx-f">${ficonSVG(f, 16)}<span class="lg">${esc(R.factors[f].name)}</span><span class="sm">${esc(FTINY[f])}</span></span>${cells}${lvl}`;
+    }).join("");
+
+    const head2 = (eb, t, sub, id) => `<div class="et-head"><span class="et-eb">${eb}</span><h2 id="${id}">${t}</h2>${sub ? `<p>${sub}</p>` : ""}</div>`;
+    view.innerHTML = `
+    <div class="et reveal">
+      <section class="et-hero">
+        <div class="et-intro">
+          <span class="et-eb">FROM MAX TEGMARK’S <i>LIFE 3.0</i></span>
+          <h1>Twelve ways the <i>AI story could end</i></h1>
+          <p>Four families, twelve futures. Here is what each one is, where it sits, and what pushes it up or down.</p>
+          <div class="et-pills">${pills}</div>
+        </div>
+        ${map}
+      </section>
+
+      <section aria-labelledby="et-tree-h">
+        ${head2("HOW THE FAMILIES SPLIT", "Three questions <i>sort all twelve</i>", "", "et-tree-h")}
+        ${treeH}${treeV}
+      </section>
+
+      <section aria-labelledby="et-cards-h">
+        ${head2("THE TWELVE, ONE BY ONE", "Meet <i>each ending</i>", "Coloured bars push an ending up, grey bars pull it down. Select a card for its full story and evidence.", "et-cards-h")}
+        <div class="ef-chips" role="group" aria-label="Show family">${chips}</div>
+        <div class="ef-wrap" data-show="flourishing">${famSections}</div>
+      </section>
+
+      <section aria-labelledby="et-mx-h">
+        ${head2("WHY THEY MOVE", "Every ending is a <i>recipe of world forces</i>", "News never moves an ending directly. It nudges ten world forces, and each ending is built from three or four of them.", "et-mx-h")}
+        <div class="et-flow"><div><span class="big">≈</span><span><b>News &amp; research</b><small>scored every night</small></span></div><span class="ar">→</span><div><span class="big">10</span><span><b>world forces</b><small>nudged up or down</small></span></div><span class="ar">→</span><div><span class="big">12</span><span><b>endings</b><small>each a fixed recipe</small></span></div></div>
+        <div class="mx-card"><div class="mx">${head}${rows}</div>
+          <div class="mx-key"><span><i class="k up"></i>Force rising pushes the ending up</span><span><i class="k down"></i>Force rising pulls it down</span><span>Bigger square = stronger pull</span><span class="mx-k-lv">World today: 0–100, tick = where it started in April</span></div>
+        </div>
+      </section>
+
+      <section aria-labelledby="et-why-h">
+        ${head2("WHY THESE TWELVE", "Where the endings <i>come from</i>", "", "et-why-h")}
+        <div class="et-why">
+          <div><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h6a2 2 0 0 1 2 2v12a2 2 0 0 0-2-2H4z"/><path d="M20 5h-6a2 2 0 0 0-2 2v12a2 2 0 0 1 2-2h6z"/></svg><span><b>From <i>Life 3.0</i></b>Max Tegmark, MIT physicist, 2017. Twelve “aftermath” scenarios for a world with superintelligent AI.</span></div>
+          <div><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 8v4M12 16h.01"/></svg><span><b>Thought experiments</b>Not predictions. Together they cover the main ways the future could go.</span></div>
+          <div><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19h16"/><path d="M6 15l4-4 3 3 5-6"/></svg><span><b>Scored independently</b>Each ending reads 1–99 on its own. The twelve do not add up to 100.</span></div>
+        </div>
+      </section>
+    </div>`;
+
+    const wrap = $(".ef-wrap", view);
+    $$(".ef-chip", view).forEach((b) => b.addEventListener("click", () => {
+      $$(".ef-chip", view).forEach((x) => x.setAttribute("aria-pressed", x === b));
+      wrap.dataset.show = b.dataset.fam;
+      T("endings_family_chip", { family: b.dataset.fam });
+    }));
+    view.querySelector(".et").addEventListener("click", (e) => {
+      const a = e.target.closest("a[data-k]");
+      if (a) T("endings_open", { ending: a.dataset.k, place: a.classList.contains("em-b") ? "map" : a.classList.contains("et-chip") ? "tree" : "card" });
+    });
+  }
+
   /* ================= SUMMARY ================= */
   const TIER_WORD = { T1: "minor", T2: "notable", T3: "major", T4: "landmark" };
   function sparkSVG(values, cls) {
@@ -511,9 +686,15 @@
     const d = window.EGChart.monotonePath(values.map((v, i) => [x(i), y(v)]));
     return `<svg class="sspark ${cls}" width="120" height="28" viewBox="0 0 120 28" aria-hidden="true"><path d="${d}"/><circle cx="${W}" cy="${y(values[n - 1]).toFixed(1)}" r="2.5"/></svg>`;
   }
+  // Summary opens on the day before yesterday (India time); falls back to the latest published day before that.
+  function defaultSummaryDate() {
+    const d = new Date(Date.now() + 5.5 * 3600e3); d.setUTCDate(d.getUTCDate() - 2);
+    const t = d.toISOString().slice(0, 10), ok = S.H.dates.filter((x) => x <= t);
+    return ok.length ? ok[ok.length - 1] : S.H.dates[0];
+  }
   async function renderSummary(date) {
     const H = S.H;
-    if (!date || !H.dates.includes(date)) date = H.end;
+    if (!date || !H.dates.includes(date)) date = defaultSummaryDate();
     const i = H.dates.indexOf(date);
     view.innerHTML = `<div class="wrap"><div class="loading"><span class="spinner"></span> Loading ${fmtDate(date)}…</div></div>`;
     let d;
