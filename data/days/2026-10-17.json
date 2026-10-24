@@ -1,0 +1,153 @@
+{
+ "date": "2026-10-17",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 17.55,
+  "benevolent_dictator": 23.35,
+  "egalitarian_utopia": 5.44,
+  "protector_god": 18.27,
+  "gatekeeper": 19.51,
+  "enslaved_god": 40.73,
+  "conquerors": 37.51,
+  "descendants": 28.03,
+  "zookeeper": 28.49,
+  "orwell_1984": 22.65,
+  "reversion": 5.89,
+  "self_destruction": 32.37
+ },
+ "deltas": {
+  "libertarian_utopia": -0.0,
+  "benevolent_dictator": -0.03,
+  "egalitarian_utopia": 0.01,
+  "protector_god": -0.04,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.03,
+  "conquerors": -0.02,
+  "descendants": -0.04,
+  "zookeeper": -0.02,
+  "orwell_1984": 0.02,
+  "reversion": 0.08,
+  "self_destruction": -0.02
+ },
+ "targets": {
+  "libertarian_utopia": 17.55,
+  "benevolent_dictator": 23.35,
+  "egalitarian_utopia": 5.44,
+  "protector_god": 18.27,
+  "gatekeeper": 19.51,
+  "enslaved_god": 40.73,
+  "conquerors": 37.51,
+  "descendants": 28.03,
+  "zookeeper": 28.49,
+  "orwell_1984": 22.65,
+  "reversion": 5.89,
+  "self_destruction": 32.37
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.74,
+  "benevolent_dictator": 0.47,
+  "egalitarian_utopia": -0.67,
+  "protector_god": 0.91,
+  "gatekeeper": 0.79,
+  "enslaved_god": 0.07,
+  "conquerors": 1.69,
+  "descendants": 1.28,
+  "zookeeper": 1.35,
+  "orwell_1984": -0.29,
+  "reversion": 0.04,
+  "self_destruction": 1.29
+ },
+ "factors": {
+  "F1": 84.87,
+  "F2": 53.99,
+  "F3": 32.64,
+  "F4": 25.98,
+  "F5": 66.96,
+  "F6": 45.38,
+  "F7": 32.35,
+  "F8": 65.1,
+  "F9": 45.98,
+  "F10": 20.65
+ },
+ "factor_deltas": {
+  "F1": -0.03,
+  "F2": -0.03,
+  "F3": -0.02,
+  "F4": 0.03,
+  "F5": -0.01,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": -0.02,
+  "F9": 0.07,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": -14.1,
+  "families": {
+   "flourishing": 16.15,
+   "contained": 30.12,
+   "successors": 31.34,
+   "stalled": 20.3
+  },
+  "news_heat": 0.07,
+  "evidence": "low",
+  "event_count": 1
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": -0.03,
+  "egalitarian_utopia": 0.01,
+  "protector_god": -0.04,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.03,
+  "conquerors": -0.02,
+  "descendants": -0.04,
+  "zookeeper": -0.02,
+  "orwell_1984": 0.02,
+  "reversion": 0.01,
+  "self_destruction": -0.02
+ },
+ "summary": {
+  "headline": "Quiet day: San Francisco signs a 45-day pause on data centers",
+  "body": "A quiet Saturday. The one qualifying story was San Francisco Mayor Daniel Lurie signing a 45-day citywide moratorium on new data centers while planners study their impact, which lifted Tech Backlash by 0.07. Reversion edged up 0.08; most other endings drifted down slightly as earlier news faded. Successors stayed the leading family. Horizon Balance held at -14.10.",
+  "movers_note": "Reversion +0.1, from the San Francisco moratorium (+0.07). Protector God and Descendants each slipped 0.04 as earlier news faded.",
+  "coming_up": [
+   "San Francisco's 45-day moratorium can be extended while long-term rules are drafted"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-10-17-01",
+   "title": "San Francisco mayor signs 45-day citywide data center moratorium",
+   "summary": "Mayor Daniel Lurie signed a 45-day pause on data center development across San Francisco after a unanimous Board vote on Oct 6. Planning will study impacts, and the pause could be extended up to 22 months.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "local",
+   "track": "structural",
+   "region": "US",
+   "reason": "An enacted local moratorium in the US tech hub is a concrete backlash step, but it is city-level and temporary, so T1.",
+   "sources": [
+    "https://sfstandard.com/2026/10/16/mayor-lurie-data-center-moratorium/"
+   ],
+   "points": 0.07,
+   "contribution": {
+    "reversion": 0.07
+   },
+   "factor_effect": {
+    "F9": 0.07
+   }
+  }
+ ]
+}

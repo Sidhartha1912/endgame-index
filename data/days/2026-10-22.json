@@ -1,0 +1,263 @@
+{
+ "date": "2026-10-22",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 16.91,
+  "benevolent_dictator": 22.97,
+  "egalitarian_utopia": 4.96,
+  "protector_god": 17.6,
+  "gatekeeper": 18.35,
+  "enslaved_god": 39.79,
+  "conquerors": 38.76,
+  "descendants": 28.35,
+  "zookeeper": 29.47,
+  "orwell_1984": 22.32,
+  "reversion": 5.92,
+  "self_destruction": 33.3
+ },
+ "deltas": {
+  "libertarian_utopia": -0.04,
+  "benevolent_dictator": 0.1,
+  "egalitarian_utopia": -0.14,
+  "protector_god": 0.1,
+  "gatekeeper": 0.08,
+  "enslaved_god": -0.05,
+  "conquerors": 0.14,
+  "descendants": 0.12,
+  "zookeeper": 0.13,
+  "orwell_1984": -0.0,
+  "reversion": 0.01,
+  "self_destruction": 0.08
+ },
+ "targets": {
+  "libertarian_utopia": 16.91,
+  "benevolent_dictator": 22.97,
+  "egalitarian_utopia": 4.96,
+  "protector_god": 17.6,
+  "gatekeeper": 18.35,
+  "enslaved_god": 39.79,
+  "conquerors": 38.76,
+  "descendants": 28.35,
+  "zookeeper": 29.47,
+  "orwell_1984": 22.32,
+  "reversion": 5.92,
+  "self_destruction": 33.3
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.89,
+  "benevolent_dictator": -0.57,
+  "egalitarian_utopia": -0.74,
+  "protector_god": -0.9,
+  "gatekeeper": -1.88,
+  "enslaved_god": -1.37,
+  "conquerors": 1.96,
+  "descendants": 0.6,
+  "zookeeper": 1.55,
+  "orwell_1984": -0.69,
+  "reversion": 0.14,
+  "self_destruction": 1.51
+ },
+ "factors": {
+  "F1": 84.86,
+  "F2": 54.58,
+  "F3": 31.28,
+  "F4": 25.24,
+  "F5": 66.85,
+  "F6": 45.38,
+  "F7": 32.59,
+  "F8": 65.12,
+  "F9": 45.98,
+  "F10": 20.61
+ },
+ "factor_deltas": {
+  "F1": 0.03,
+  "F2": 0.19,
+  "F3": -0.01,
+  "F4": 0.02,
+  "F5": -0.01,
+  "F6": 0.0,
+  "F7": -0.16,
+  "F8": 0.08,
+  "F9": -0.0,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": -15.35,
+  "families": {
+   "flourishing": 15.61,
+   "contained": 29.07,
+   "successors": 32.19,
+   "stalled": 20.51
+  },
+  "news_heat": 0.97,
+  "evidence": "low",
+  "event_count": 4
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": -0.02,
+  "protector_god": -0.03,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.02,
+  "conquerors": -0.02,
+  "descendants": -0.03,
+  "zookeeper": -0.03,
+  "orwell_1984": 0.01,
+  "reversion": 0.01,
+  "self_destruction": -0.02
+ },
+ "summary": {
+  "headline": "Anthropic previews Claude Duet; malicious LiteLLM release hits PyPI",
+  "body": "Anthropic previewed Claude Duet, a proactive agent that watches connected apps and works on its own, lifting AI Autonomy by 0.21. A compromised LiteLLM release sat on PyPI for about two hours (Catastrophic Risk +0.30), while OpenAI and PHP maintainers patched critical flaws its model had found (Catastrophic Risk -0.21). Goldman Sachs estimated AI could displace up to 9% of US workers during the transition (Shared Prosperity -0.14). Conquerors and Zookeeper rose and Egalitarian Utopia fell. Successors stayed the leading family. Horizon Balance fell to -15.35 from -15.27.",
+  "movers_note": "Egalitarian Utopia -0.1, from the LiteLLM compromise (-0.12) and the Goldman forecast (-0.10), partly offset by the PHP patches (+0.08). Conquerors +0.1, from Claude Duet (+0.10) and the LiteLLM compromise (+0.09). Zookeeper +0.1, from Claude Duet (+0.13).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-10-22-01",
+   "title": "Anthropic previews Claude Duet, a proactive agent that works across apps",
+   "summary": "Claude Duet, powered by Opus 5.5, monitors connected apps, prioritises tasks and works on its own, asking approval before certain actions. It is a research preview for US Pro/Max users via a waitlist.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "US",
+   "reason": "Moves consumer agents toward acting unprompted; it is a waitlisted preview with approval gates, so T1.",
+   "sources": [
+    "https://claude.com/resources/articles/claude-duet"
+   ],
+   "points": 0.21,
+   "contribution": {
+    "benevolent_dictator": 0.13,
+    "protector_god": 0.1,
+    "gatekeeper": 0.06,
+    "enslaved_god": -0.06,
+    "conquerors": 0.1,
+    "descendants": 0.13,
+    "zookeeper": 0.13
+   },
+   "factor_effect": {
+    "F2": 0.21
+   }
+  },
+  {
+   "id": "2026-10-22-02",
+   "title": "OpenAI and PHP maintainers patch critical flaws found by an OpenAI model",
+   "summary": "OpenAI worked with PHP maintainers and security partners to patch critical vulnerabilities its GPT Sol model found (Wiz found them separately). It released a checker and proposed a framework for disclosing AI-discovered flaws.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": -1
+    },
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "AI vulnerability discovery used for coordinated defence of widely used software; self-reported, so T1.",
+   "sources": [
+    "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/"
+   ],
+   "points": 0.21,
+   "contribution": {
+    "libertarian_utopia": 0.1,
+    "egalitarian_utopia": 0.08,
+    "protector_god": 0.03,
+    "gatekeeper": 0.02,
+    "enslaved_god": 0.03,
+    "conquerors": -0.04,
+    "descendants": 0.03,
+    "zookeeper": 0.03,
+    "orwell_1984": -0.02,
+    "reversion": -0.12,
+    "self_destruction": -0.23
+   },
+   "factor_effect": {
+    "F1": 0.05,
+    "F8": -0.21
+   }
+  },
+  {
+   "id": "2026-10-22-03",
+   "title": "Malicious LiteLLM v1.107.0 published to PyPI, live for about 2 hours",
+   "summary": "LiteLLM said its v1.107.0 release on PyPI was compromised on Oct 21 and removed after about 2 hours.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Global",
+   "reason": "A confirmed supply-chain attack on a widely used AI library; short-lived with no known impact, so T1.",
+   "sources": [
+    "https://docs.litellm.ai/blog/security-incident-oct-21-2026"
+   ],
+   "points": 0.3,
+   "contribution": {
+    "libertarian_utopia": -0.15,
+    "egalitarian_utopia": -0.12,
+    "conquerors": 0.09,
+    "reversion": 0.12,
+    "self_destruction": 0.33
+   },
+   "factor_effect": {
+    "F8": 0.3
+   }
+  },
+  {
+   "id": "2026-10-22-04",
+   "title": "Goldman Sachs: AI could displace up to 9% of US workers during the transition",
+   "summary": "Goldman economist Joseph Briggs estimates up to 9% of workers could be displaced if AI lifts productivity by 15%, plus about 3% from slower hiring. Only 23% of US establishments have built AI into workflows.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F7",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "US",
+   "reason": "A prominent bank forecast of job displacement; a projection, not an event, so T1 signal.",
+   "sources": [
+    "https://fortune.com/2026/10/22/goldman-sachs-forecast-how-many-jobs-lost-to-ai-9-percent"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "egalitarian_utopia": -0.1
+   },
+   "factor_effect": {
+    "F7": -0.14
+   }
+  }
+ ]
+}

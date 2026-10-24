@@ -1,0 +1,158 @@
+{
+ "date": "2026-10-18",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 17.55,
+  "benevolent_dictator": 23.32,
+  "egalitarian_utopia": 5.45,
+  "protector_god": 18.18,
+  "gatekeeper": 19.47,
+  "enslaved_god": 40.65,
+  "conquerors": 37.45,
+  "descendants": 27.94,
+  "zookeeper": 28.42,
+  "orwell_1984": 22.7,
+  "reversion": 5.95,
+  "self_destruction": 32.35
+ },
+ "deltas": {
+  "libertarian_utopia": -0.0,
+  "benevolent_dictator": -0.03,
+  "egalitarian_utopia": 0.01,
+  "protector_god": -0.09,
+  "gatekeeper": -0.05,
+  "enslaved_god": -0.08,
+  "conquerors": -0.06,
+  "descendants": -0.09,
+  "zookeeper": -0.07,
+  "orwell_1984": 0.04,
+  "reversion": 0.06,
+  "self_destruction": -0.02
+ },
+ "targets": {
+  "libertarian_utopia": 17.55,
+  "benevolent_dictator": 23.32,
+  "egalitarian_utopia": 5.45,
+  "protector_god": 18.18,
+  "gatekeeper": 19.47,
+  "enslaved_god": 40.65,
+  "conquerors": 37.45,
+  "descendants": 27.94,
+  "zookeeper": 28.42,
+  "orwell_1984": 22.7,
+  "reversion": 5.95,
+  "self_destruction": 32.35
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.41,
+  "benevolent_dictator": 0.37,
+  "egalitarian_utopia": -0.42,
+  "protector_god": 0.73,
+  "gatekeeper": 0.66,
+  "enslaved_god": -0.06,
+  "conquerors": 1.49,
+  "descendants": 1.2,
+  "zookeeper": 1.36,
+  "orwell_1984": -0.26,
+  "reversion": -0.22,
+  "self_destruction": 0.46
+ },
+ "factors": {
+  "F1": 84.76,
+  "F2": 53.96,
+  "F3": 32.62,
+  "F4": 26.0,
+  "F5": 66.95,
+  "F6": 45.38,
+  "F7": 32.36,
+  "F8": 65.09,
+  "F9": 45.97,
+  "F10": 20.64
+ },
+ "factor_deltas": {
+  "F1": -0.12,
+  "F2": -0.02,
+  "F3": -0.02,
+  "F4": 0.03,
+  "F5": -0.01,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": -0.01,
+  "F9": -0.0,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": -14.11,
+  "families": {
+   "flourishing": 16.12,
+   "contained": 30.06,
+   "successors": 31.27,
+   "stalled": 20.33
+  },
+  "news_heat": 0.09,
+  "evidence": "low",
+  "event_count": 1
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": -0.03,
+  "egalitarian_utopia": 0.01,
+  "protector_god": -0.04,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.03,
+  "conquerors": -0.02,
+  "descendants": -0.04,
+  "zookeeper": -0.02,
+  "orwell_1984": 0.02,
+  "reversion": 0.01,
+  "self_destruction": -0.02
+ },
+ "summary": {
+  "headline": "Quiet day: Microsoft drops a UK AI data center over grid delays",
+  "body": "Another quiet day. Microsoft pulled out as anchor tenant of Nscale's 50 MW AI data center in Loughton, England, after grid connection delays pushed power into the 2030s, trimming Capability Velocity by 0.09. Enslaved God and Descendants each slipped 0.08-0.09 and Reversion edged up, with the rest of the drift coming from earlier news fading. Successors stayed the leading family. Horizon Balance was -14.11, from -14.10.",
+  "movers_note": "Protector God -0.1 and Descendants -0.1, from the Microsoft exit (-0.04 and -0.05) and fading earlier news (-0.04 each). Enslaved God -0.1, from the Microsoft exit (-0.05) and fading news (-0.03).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-10-18-01",
+   "title": "Microsoft exits 50 MW Nscale AI data center in Essex over UK grid delays",
+   "summary": "Microsoft, the anchor tenant, pulled out of a 50 MW (scalable to 90 MW, 23,040 Nvidia GB300) Nscale site in Loughton after grid connection delays pushed power into the 2030s. Microsoft said the decision concerns a single site.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "UK",
+   "reason": "A confirmed cancellation shows power limits slowing compute build-out, but it is one site, so a small F1 drag.",
+   "sources": [
+    "https://networkworld.com/article/4238599/microsoft-exits-uk-ai-data-center-project-over-electricity-delays.html"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "protector_god": -0.04,
+    "gatekeeper": -0.04,
+    "enslaved_god": -0.05,
+    "conquerors": -0.04,
+    "descendants": -0.05,
+    "zookeeper": -0.04,
+    "orwell_1984": 0.03,
+    "reversion": 0.05
+   },
+   "factor_effect": {
+    "F1": -0.09
+   }
+  }
+ ]
+}

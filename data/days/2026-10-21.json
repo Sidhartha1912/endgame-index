@@ -1,0 +1,187 @@
+{
+ "date": "2026-10-21",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 16.95,
+  "benevolent_dictator": 22.86,
+  "egalitarian_utopia": 5.1,
+  "protector_god": 17.5,
+  "gatekeeper": 18.28,
+  "enslaved_god": 39.84,
+  "conquerors": 38.62,
+  "descendants": 28.23,
+  "zookeeper": 29.35,
+  "orwell_1984": 22.33,
+  "reversion": 5.91,
+  "self_destruction": 33.23
+ },
+ "deltas": {
+  "libertarian_utopia": 0.0,
+  "benevolent_dictator": -0.02,
+  "egalitarian_utopia": -0.0,
+  "protector_god": -0.02,
+  "gatekeeper": 0.01,
+  "enslaved_god": -0.0,
+  "conquerors": -0.01,
+  "descendants": -0.02,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.01,
+  "reversion": 0.01,
+  "self_destruction": -0.02
+ },
+ "targets": {
+  "libertarian_utopia": 16.95,
+  "benevolent_dictator": 22.86,
+  "egalitarian_utopia": 5.1,
+  "protector_god": 17.5,
+  "gatekeeper": 18.28,
+  "enslaved_god": 39.84,
+  "conquerors": 38.62,
+  "descendants": 28.23,
+  "zookeeper": 29.35,
+  "orwell_1984": 22.33,
+  "reversion": 5.91,
+  "self_destruction": 33.23
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.14,
+  "benevolent_dictator": -0.16,
+  "egalitarian_utopia": -0.81,
+  "protector_god": -0.5,
+  "gatekeeper": -1.64,
+  "enslaved_god": -1.4,
+  "conquerors": 2.49,
+  "descendants": 1.09,
+  "zookeeper": 2.07,
+  "orwell_1984": -0.72,
+  "reversion": 0.17,
+  "self_destruction": 1.93
+ },
+ "factors": {
+  "F1": 84.83,
+  "F2": 54.39,
+  "F3": 31.29,
+  "F4": 25.22,
+  "F5": 66.86,
+  "F6": 45.38,
+  "F7": 32.74,
+  "F8": 65.05,
+  "F9": 45.98,
+  "F10": 20.62
+ },
+ "factor_deltas": {
+  "F1": 0.0,
+  "F2": -0.02,
+  "F3": -0.01,
+  "F4": 0.02,
+  "F5": -0.01,
+  "F6": 0.0,
+  "F7": -0.01,
+  "F8": -0.01,
+  "F9": 0.02,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": -15.27,
+  "families": {
+   "flourishing": 15.61,
+   "contained": 29.06,
+   "successors": 32.06,
+   "stalled": 20.49
+  },
+  "news_heat": 0.08,
+  "evidence": "low",
+  "event_count": 2
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": -0.02,
+  "protector_god": -0.03,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.02,
+  "conquerors": -0.02,
+  "descendants": -0.04,
+  "zookeeper": -0.03,
+  "orwell_1984": 0.01,
+  "reversion": 0.01,
+  "self_destruction": -0.02
+ },
+ "summary": {
+  "headline": "Quiet day: Memphis rejects a data center pause but tightens rules",
+  "body": "A quiet day. Memphis City Council split 6-6 on a 12-month data center moratorium, so it failed, but passed strict siting and water rules (Tech Backlash +0.02). Envision commissioned a gigawatt-scale AI campus in Ulanqab, China (Capability Velocity +0.03). Scores barely moved. Successors stayed the leading family. Horizon Balance held at -15.27.",
+  "movers_note": "No ending moved more than 0.02. Benevolent Dictator, Protector God, Descendants and Self-Destruction each slipped 0.02 as earlier news faded.",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-10-21-01",
+   "title": "Memphis rejects data center moratorium 6-6 but passes strict siting and water rules",
+   "summary": "Memphis council deadlocked 6-6, rejecting a 12-month moratorium, but passed Ordinance 18. It bans evaporative and once-through cooling, requires closed-loop water and sets a schedule to phase out carbon electricity.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "local",
+   "track": "structural",
+   "region": "US",
+   "reason": "Follow-up to the postponed vote: no moratorium, but binding local limits on data centers, a small backlash step.",
+   "sources": [
+    "https://www.wsmv.com/2026/10/21/memphis-city-council-declines-pass-data-center-moratorium/"
+   ],
+   "points": 0.02,
+   "contribution": {
+    "reversion": 0.02
+   },
+   "factor_effect": {
+    "F9": 0.02
+   }
+  },
+  {
+   "id": "2026-10-21-02",
+   "title": "Envision commissions GW-scale AI supercomputing campus in Ulanqab, China",
+   "summary": "Envision commissioned a 120,000 sqm AI campus in Inner Mongolia designed for up to 1M accelerators and potentially more than 2 GW. It is the first step of a plan for 5 GW of desert AI capacity by 2030.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "China",
+   "reason": "Adds Chinese compute capacity; specs come from the company via trade press, so T1.",
+   "sources": [
+    "https://datacenters.economictimes.indiatimes.com/news/ai-compute-infrastructure/envision-commissions-gw-scale-ai-data-center-campus-in-china/135095922"
+   ],
+   "points": 0.06,
+   "contribution": {
+    "protector_god": 0.02,
+    "gatekeeper": 0.01,
+    "enslaved_god": 0.02,
+    "conquerors": 0.02,
+    "descendants": 0.02,
+    "zookeeper": 0.02,
+    "orwell_1984": -0.01,
+    "reversion": -0.02
+   },
+   "factor_effect": {
+    "F1": 0.03
+   }
+  }
+ ]
+}

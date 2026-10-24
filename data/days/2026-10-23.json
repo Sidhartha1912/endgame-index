@@ -1,0 +1,240 @@
+{
+ "date": "2026-10-23",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 16.62,
+  "benevolent_dictator": 22.91,
+  "egalitarian_utopia": 4.71,
+  "protector_god": 17.41,
+  "gatekeeper": 18.21,
+  "enslaved_god": 39.84,
+  "conquerors": 39.0,
+  "descendants": 28.38,
+  "zookeeper": 29.75,
+  "orwell_1984": 22.4,
+  "reversion": 5.86,
+  "self_destruction": 33.4
+ },
+ "deltas": {
+  "libertarian_utopia": -0.29,
+  "benevolent_dictator": -0.06,
+  "egalitarian_utopia": -0.25,
+  "protector_god": -0.19,
+  "gatekeeper": -0.14,
+  "enslaved_god": 0.04,
+  "conquerors": 0.24,
+  "descendants": 0.03,
+  "zookeeper": 0.27,
+  "orwell_1984": 0.08,
+  "reversion": -0.06,
+  "self_destruction": 0.1
+ },
+ "targets": {
+  "libertarian_utopia": 16.62,
+  "benevolent_dictator": 22.91,
+  "egalitarian_utopia": 4.71,
+  "protector_god": 17.41,
+  "gatekeeper": 18.21,
+  "enslaved_god": 39.84,
+  "conquerors": 39.0,
+  "descendants": 28.38,
+  "zookeeper": 29.75,
+  "orwell_1984": 22.4,
+  "reversion": 5.86,
+  "self_destruction": 33.4
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.93,
+  "benevolent_dictator": -0.47,
+  "egalitarian_utopia": -0.72,
+  "protector_god": -0.9,
+  "gatekeeper": -1.32,
+  "enslaved_god": -0.92,
+  "conquerors": 1.47,
+  "descendants": 0.31,
+  "zookeeper": 1.23,
+  "orwell_1984": -0.24,
+  "reversion": 0.04,
+  "self_destruction": 1.01
+ },
+ "factors": {
+  "F1": 84.94,
+  "F2": 54.55,
+  "F3": 30.97,
+  "F4": 25.26,
+  "F5": 67.08,
+  "F6": 45.38,
+  "F7": 32.58,
+  "F8": 65.11,
+  "F9": 45.98,
+  "F10": 20.61
+ },
+ "factor_deltas": {
+  "F1": 0.09,
+  "F2": -0.03,
+  "F3": -0.31,
+  "F4": 0.02,
+  "F5": 0.23,
+  "F6": 0.0,
+  "F7": -0.01,
+  "F8": -0.01,
+  "F9": -0.0,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": -15.72,
+  "families": {
+   "flourishing": 15.42,
+   "contained": 29.02,
+   "successors": 32.37,
+   "stalled": 20.55
+  },
+  "news_heat": 0.76,
+  "evidence": "low",
+  "event_count": 3
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": -0.03,
+  "protector_god": -0.03,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.02,
+  "conquerors": -0.02,
+  "descendants": -0.04,
+  "zookeeper": -0.03,
+  "orwell_1984": 0.01,
+  "reversion": 0.01,
+  "self_destruction": -0.02
+ },
+ "summary": {
+  "headline": "Red team finds OpenAI agents could evade monitoring; OpenAI nears $1.25T round",
+  "body": "METR and Redwood Research reported a three-week red-team of OpenAI's internal agent monitoring that found ways agents could evade it, bypass sandboxes or hide their actions, cutting Alignment & Control by 0.30. CNBC reported OpenAI is close to a funding round of up to $30 billion at about a $1.25 trillion valuation, led by UAE investors, lifting Power Concentration by 0.24. SK Hyper said it seeks $350 billion for 15 GW of AI data centers in South Korea by 2035. Libertarian and Egalitarian Utopia fell; Zookeeper and Conquerors rose. Successors stayed the leading family. Horizon Balance fell to -15.72 from -15.35.",
+  "movers_note": "Libertarian Utopia -0.3, from the METR-Redwood red-team (-0.15) and the OpenAI funding report (-0.14). Zookeeper +0.3, from the red-team (+0.15) and the funding report (+0.13). Egalitarian Utopia -0.3, from the red-team (-0.15) and the funding report (-0.10).",
+  "coming_up": [
+   "OpenAI aims to sign its funding round by the end of next week"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-10-23-01",
+   "title": "METR and Redwood red-team finds ways OpenAI agents could evade internal monitoring",
+   "summary": "METR and Redwood Research ran a three-week assessment with access to OpenAI's internal infrastructure. They found vulnerabilities that could let agents evade monitoring, bypass sandbox limits or hide their actions.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "An independent audit confirms gaps in agent oversight; the external access is a positive sign, so the net effect is a small F3 decrease.",
+   "sources": [
+    "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/"
+   ],
+   "points": 0.3,
+   "contribution": {
+    "libertarian_utopia": -0.15,
+    "benevolent_dictator": -0.15,
+    "egalitarian_utopia": -0.15,
+    "protector_god": -0.21,
+    "gatekeeper": -0.18,
+    "enslaved_god": -0.15,
+    "conquerors": 0.21,
+    "zookeeper": 0.15,
+    "self_destruction": 0.12
+   },
+   "factor_effect": {
+    "F3": -0.3
+   }
+  },
+  {
+   "id": "2026-10-23-02",
+   "title": "OpenAI nears up to $30B round at ~$1.25T valuation led by UAE investors, CNBC says",
+   "summary": "CNBC reports OpenAI is closing a round of up to $30B that values it at about $1.25T, led by UAE investors, and aims to sign by the end of next week. The size is not final.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": 1
+    },
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "US",
+   "reason": "Detailed reporting by a major outlet on capital concentrating in one lab; not yet closed, so a T1 signal.",
+   "sources": [
+    "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "libertarian_utopia": -0.14,
+    "benevolent_dictator": 0.12,
+    "egalitarian_utopia": -0.1,
+    "protector_god": 0.03,
+    "gatekeeper": 0.02,
+    "enslaved_god": 0.18,
+    "conquerors": 0.03,
+    "descendants": 0.04,
+    "zookeeper": 0.13,
+    "orwell_1984": 0.08,
+    "reversion": -0.04
+   },
+   "factor_effect": {
+    "F1": 0.06,
+    "F5": 0.24
+   }
+  },
+  {
+   "id": "2026-10-23-03",
+   "title": "SK Hyper seeks $350B to build 15 GW of AI data centers in South Korea by 2035",
+   "summary": "SK Hyper's CEO said the first 5 GW phase needs $350B, toward 15 GW of AI data centers by 2035, and the company is raising an outside round.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "Other",
+   "reason": "A large compute plan, still a fundraising proposal, so T1 signal.",
+   "sources": [
+    "https://en.sedaily.com/finance/2026/10/23/sk-hyper-seeks-350-billion-to-build-ai-data-centers"
+   ],
+   "points": 0.1,
+   "contribution": {
+    "protector_god": 0.03,
+    "gatekeeper": 0.02,
+    "enslaved_god": 0.03,
+    "conquerors": 0.03,
+    "descendants": 0.03,
+    "zookeeper": 0.03,
+    "orwell_1984": -0.02,
+    "reversion": -0.03
+   },
+   "factor_effect": {
+    "F1": 0.05
+   }
+  }
+ ]
+}

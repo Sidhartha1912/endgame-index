@@ -1,0 +1,263 @@
+{
+ "date": "2026-10-19",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 17.59,
+  "benevolent_dictator": 23.25,
+  "egalitarian_utopia": 5.76,
+  "protector_god": 18.2,
+  "gatekeeper": 19.5,
+  "enslaved_god": 40.66,
+  "conquerors": 37.5,
+  "descendants": 27.98,
+  "zookeeper": 28.44,
+  "orwell_1984": 22.65,
+  "reversion": 5.89,
+  "self_destruction": 32.33
+ },
+ "deltas": {
+  "libertarian_utopia": 0.04,
+  "benevolent_dictator": -0.06,
+  "egalitarian_utopia": 0.31,
+  "protector_god": 0.02,
+  "gatekeeper": 0.04,
+  "enslaved_god": 0.01,
+  "conquerors": 0.05,
+  "descendants": 0.04,
+  "zookeeper": 0.02,
+  "orwell_1984": -0.05,
+  "reversion": -0.07,
+  "self_destruction": -0.02
+ },
+ "targets": {
+  "libertarian_utopia": 17.59,
+  "benevolent_dictator": 23.25,
+  "egalitarian_utopia": 5.76,
+  "protector_god": 18.2,
+  "gatekeeper": 19.5,
+  "enslaved_god": 40.66,
+  "conquerors": 37.5,
+  "descendants": 27.98,
+  "zookeeper": 28.44,
+  "orwell_1984": 22.65,
+  "reversion": 5.89,
+  "self_destruction": 32.33
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.25,
+  "benevolent_dictator": 0.41,
+  "egalitarian_utopia": 0.01,
+  "protector_god": 0.81,
+  "gatekeeper": 0.79,
+  "enslaved_god": -0.1,
+  "conquerors": 1.2,
+  "descendants": 1.06,
+  "zookeeper": 1.1,
+  "orwell_1984": -0.26,
+  "reversion": -0.1,
+  "self_destruction": 0.29
+ },
+ "factors": {
+  "F1": 84.85,
+  "F2": 53.94,
+  "F3": 32.6,
+  "F4": 26.03,
+  "F5": 66.88,
+  "F6": 45.38,
+  "F7": 32.77,
+  "F8": 65.07,
+  "F9": 45.97,
+  "F10": 20.63
+ },
+ "factor_deltas": {
+  "F1": 0.1,
+  "F2": -0.02,
+  "F3": -0.02,
+  "F4": 0.03,
+  "F5": -0.07,
+  "F6": 0.0,
+  "F7": 0.41,
+  "F8": -0.01,
+  "F9": -0.0,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": -14.03,
+  "families": {
+   "flourishing": 16.2,
+   "contained": 30.08,
+   "successors": 31.31,
+   "stalled": 20.29
+  },
+  "news_heat": 1.3,
+  "evidence": "medium",
+  "event_count": 4
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": -0.03,
+  "egalitarian_utopia": 0.01,
+  "protector_god": -0.04,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.02,
+  "conquerors": -0.01,
+  "descendants": -0.04,
+  "zookeeper": -0.02,
+  "orwell_1984": 0.01,
+  "reversion": 0.01,
+  "self_destruction": -0.02
+ },
+ "summary": {
+  "headline": "Anthropic pledges 5% of its shares to a fund for AI's economic impact",
+  "body": "Anthropic announced it will put 5% of its shares into a new Public Benefit Fund for AI's economic and labour impacts, subject to stockholder approval, which lifted Shared Prosperity by 0.70. The same day its own study showed entry-level workers fell from 27% to 9% of its technical hires, cutting Shared Prosperity by 0.30. Meta described its gigawatt-scale Prometheus supercluster (Capability Velocity +0.11) and DeepSeek released the open-weight V4.1-Flash-1017 update. Egalitarian Utopia rose 0.31, the day's only notable move. Successors stayed the leading family. Horizon Balance rose to -14.03 from -14.11.",
+  "movers_note": "Egalitarian Utopia +0.3, from Anthropic's Public Benefit Fund (+0.49), partly offset by its entry-level hiring study (-0.21). Reversion -0.1, mostly from Meta's Prometheus supercluster (-0.06). Benevolent Dictator -0.1, from fading earlier news (-0.03) and the DeepSeek open-weight release (-0.03).",
+  "coming_up": [
+   "Anthropic's Public Benefit Fund needs stockholder approval"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-10-19-01",
+   "title": "Anthropic plans to put 5% of its shares in a Public Benefit Fund for AI's economic impacts",
+   "summary": "Anthropic said it will commit 5% of its shares to a new Public Benefit Fund LLC to address AI's economic and labour impacts, subject to stockholder approval; the board may add 2% for each 50% rise in value. With founder pledges, about 20% of shares would go to the public good.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F7",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "US",
+   "reason": "A large equity commitment from a frontier lab to share the windfall; still an announcement pending approval, so T2 signal.",
+   "sources": [
+    "https://www.anthropic.com/news/public-benefit-fund"
+   ],
+   "points": 0.7,
+   "contribution": {
+    "egalitarian_utopia": 0.49
+   },
+   "factor_effect": {
+    "F7": 0.7
+   }
+  },
+  {
+   "id": "2026-10-19-02",
+   "title": "Anthropic study: entry-level share of its technical hires fell from 27% to 9%",
+   "summary": "Anthropic's research on its own workforce found entry-level workers fell from 27% to 9% of technical hires since early 2025, as work shifted toward supervising agents.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F7",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Measured data show AI shrinking entry-level hiring, but only at one firm, so T1.",
+   "sources": [
+    "https://www.anthropic.com/research/employment-at-anthropic"
+   ],
+   "points": 0.3,
+   "contribution": {
+    "egalitarian_utopia": -0.21
+   },
+   "factor_effect": {
+    "F7": -0.3
+   }
+  },
+  {
+   "id": "2026-10-19-03",
+   "title": "DeepSeek releases open-weight V4.1-Flash-1017 with an 8x smaller KV cache",
+   "summary": "DeepSeek published V4.1-Flash-1017 open weights on Hugging Face. It reports better reasoning, coding, agentic and visual benchmarks and a KV cache of 890 bytes per token, about 1/8 of V4-Flash.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    },
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "An incremental update to the already-scored V4.1 Flash; open weights spread capability; benchmarks are self-reported, so T1.",
+   "sources": [
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+   ],
+   "points": 0.06,
+   "contribution": {
+    "libertarian_utopia": 0.04,
+    "benevolent_dictator": -0.03,
+    "egalitarian_utopia": 0.03,
+    "protector_god": 0.01,
+    "gatekeeper": 0.01,
+    "enslaved_god": -0.03,
+    "conquerors": 0.01,
+    "descendants": 0.01,
+    "zookeeper": -0.02,
+    "orwell_1984": -0.03,
+    "reversion": -0.01
+   },
+   "factor_effect": {
+    "F1": 0.02,
+    "F5": -0.06
+   }
+  },
+  {
+   "id": "2026-10-19-04",
+   "title": "Meta details Prometheus gigawatt-scale supercluster, scaling toward ~1M GPUs",
+   "summary": "A Meta engineering post describes Prometheus, a gigawatt-scale supercluster that trains its Muse models, with plans to scale toward roughly one million GPUs.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "US",
+   "reason": "A large compute build-out, but described by Meta itself and partly a plan, so a small F1 step.",
+   "sources": [
+    "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/"
+   ],
+   "points": 0.21,
+   "contribution": {
+    "protector_god": 0.05,
+    "gatekeeper": 0.04,
+    "enslaved_god": 0.06,
+    "conquerors": 0.05,
+    "descendants": 0.06,
+    "zookeeper": 0.05,
+    "orwell_1984": -0.03,
+    "reversion": -0.06
+   },
+   "factor_effect": {
+    "F1": 0.11
+   }
+  }
+ ]
+}
