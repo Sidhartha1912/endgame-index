@@ -1,0 +1,98 @@
+[
+ {
+  "id": "2026-10-22-01",
+  "title": "Anthropic previews Claude Duet, a proactive agent that works across apps",
+  "summary": "Claude Duet, powered by Opus 5.5, monitors connected apps, prioritises tasks and works on its own, asking approval before certain actions. It is a research preview for US Pro/Max users via a waitlist.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Moves consumer agents toward acting unprompted; it is a waitlisted preview with approval gates, so T1.",
+  "sources": [
+   "https://claude.com/resources/articles/claude-duet"
+  ]
+ },
+ {
+  "id": "2026-10-22-02",
+  "title": "OpenAI and PHP maintainers patch critical flaws found by an OpenAI model",
+  "summary": "OpenAI worked with PHP maintainers and security partners to patch critical vulnerabilities its GPT Sol model found (Wiz found them separately). It released a checker and proposed a framework for disclosing AI-discovered flaws.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": -1
+   },
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "AI vulnerability discovery used for coordinated defence of widely used software; self-reported, so T1.",
+  "sources": [
+   "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/"
+  ]
+ },
+ {
+  "id": "2026-10-22-03",
+  "title": "Malicious LiteLLM v1.107.0 published to PyPI, live for about 2 hours",
+  "summary": "LiteLLM said its v1.107.0 release on PyPI was compromised on Oct 21 and removed after about 2 hours.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Global",
+  "reason": "A confirmed supply-chain attack on a widely used AI library; short-lived with no known impact, so T1.",
+  "sources": [
+   "https://docs.litellm.ai/blog/security-incident-oct-21-2026"
+  ]
+ },
+ {
+  "id": "2026-10-22-04",
+  "title": "Goldman Sachs: AI could displace up to 9% of US workers during the transition",
+  "summary": "Goldman economist Joseph Briggs estimates up to 9% of workers could be displaced if AI lifts productivity by 15%, plus about 3% from slower hiring. Only 23% of US establishments have built AI into workflows.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "US",
+  "reason": "A prominent bank forecast of job displacement; a projection, not an event, so T1 signal.",
+  "sources": [
+   "https://fortune.com/2026/10/22/goldman-sachs-forecast-how-many-jobs-lost-to-ai-9-percent"
+  ]
+ }
+]

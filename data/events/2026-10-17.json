@@ -1,0 +1,25 @@
+[
+ {
+  "id": "2026-10-17-01",
+  "title": "San Francisco mayor signs 45-day citywide data center moratorium",
+  "summary": "Mayor Daniel Lurie signed a 45-day pause on data center development across San Francisco after a unanimous Board vote on Oct 6. Planning will study impacts, and the pause could be extended up to 22 months.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "local",
+  "track": "structural",
+  "region": "US",
+  "reason": "An enacted local moratorium in the US tech hub is a concrete backlash step, but it is city-level and temporary, so T1.",
+  "sources": [
+   "https://sfstandard.com/2026/10/16/mayor-lurie-data-center-moratorium/"
+  ]
+ }
+]

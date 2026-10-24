@@ -1,0 +1,25 @@
+[
+ {
+  "id": "2026-10-18-01",
+  "title": "Microsoft exits 50 MW Nscale AI data center in Essex over UK grid delays",
+  "summary": "Microsoft, the anchor tenant, pulled out of a 50 MW (scalable to 90 MW, 23,040 Nvidia GB300) Nscale site in Loughton after grid connection delays pushed power into the 2030s. Microsoft said the decision concerns a single site.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "UK",
+  "reason": "A confirmed cancellation shows power limits slowing compute build-out, but it is one site, so a small F1 drag.",
+  "sources": [
+   "https://networkworld.com/article/4238599/microsoft-exits-uk-ai-data-center-project-over-electricity-delays.html"
+  ]
+ }
+]

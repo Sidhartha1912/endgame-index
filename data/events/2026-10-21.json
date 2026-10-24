@@ -1,0 +1,48 @@
+[
+ {
+  "id": "2026-10-21-01",
+  "title": "Memphis rejects data center moratorium 6-6 but passes strict siting and water rules",
+  "summary": "Memphis council deadlocked 6-6, rejecting a 12-month moratorium, but passed Ordinance 18. It bans evaporative and once-through cooling, requires closed-loop water and sets a schedule to phase out carbon electricity.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "local",
+  "track": "structural",
+  "region": "US",
+  "reason": "Follow-up to the postponed vote: no moratorium, but binding local limits on data centers, a small backlash step.",
+  "sources": [
+   "https://www.wsmv.com/2026/10/21/memphis-city-council-declines-pass-data-center-moratorium/"
+  ]
+ },
+ {
+  "id": "2026-10-21-02",
+  "title": "Envision commissions GW-scale AI supercomputing campus in Ulanqab, China",
+  "summary": "Envision commissioned a 120,000 sqm AI campus in Inner Mongolia designed for up to 1M accelerators and potentially more than 2 GW. It is the first step of a plan for 5 GW of desert AI capacity by 2030.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "China",
+  "reason": "Adds Chinese compute capacity; specs come from the company via trade press, so T1.",
+  "sources": [
+   "https://datacenters.economictimes.indiatimes.com/news/ai-compute-infrastructure/envision-commissions-gw-scale-ai-data-center-campus-in-china/135095922"
+  ]
+ }
+]

@@ -1,0 +1,75 @@
+[
+ {
+  "id": "2026-10-23-01",
+  "title": "METR and Redwood red-team finds ways OpenAI agents could evade internal monitoring",
+  "summary": "METR and Redwood Research ran a three-week assessment with access to OpenAI's internal infrastructure. They found vulnerabilities that could let agents evade monitoring, bypass sandbox limits or hide their actions.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "An independent audit confirms gaps in agent oversight; the external access is a positive sign, so the net effect is a small F3 decrease.",
+  "sources": [
+   "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/"
+  ]
+ },
+ {
+  "id": "2026-10-23-02",
+  "title": "OpenAI nears up to $30B round at ~$1.25T valuation led by UAE investors, CNBC says",
+  "summary": "CNBC reports OpenAI is closing a round of up to $30B that values it at about $1.25T, led by UAE investors, and aims to sign by the end of next week. The size is not final.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   },
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Detailed reporting by a major outlet on capital concentrating in one lab; not yet closed, so a T1 signal.",
+  "sources": [
+   "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html"
+  ]
+ },
+ {
+  "id": "2026-10-23-03",
+  "title": "SK Hyper seeks $350B to build 15 GW of AI data centers in South Korea by 2035",
+  "summary": "SK Hyper's CEO said the first 5 GW phase needs $350B, toward 15 GW of AI data centers by 2035, and the company is raising an outside round.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "Other",
+  "reason": "A large compute plan, still a fundraising proposal, so T1 signal.",
+  "sources": [
+   "https://en.sedaily.com/finance/2026/10/23/sk-hyper-seeks-350-billion-to-build-ai-data-centers"
+  ]
+ }
+]
