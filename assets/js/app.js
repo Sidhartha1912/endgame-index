@@ -19,7 +19,7 @@
   const S = { H: null, R: null, C: null, recaps: null, days: new Map(), charts: [], series: [], famSeries: [] };
 
   /* ---------------- data ---------------- */
-  const getJSON = (u) => fetch(u, { cache: "no-cache" }).then((r) => { if (!r.ok) throw new Error(u + " " + r.status); return r.json(); });
+  const getJSON = (u) => fetch(u).then((r) => { if (!r.ok) throw new Error(u + " " + r.status); return r.json(); });
   async function boot() {
     const [H, R, C] = await Promise.all([getJSON("data/history.json"), getJSON("scoring/rules.json"), getJSON("data/content.json")]);
     S.H = H; S.R = R; S.C = C;
@@ -91,6 +91,7 @@
       destroyCharts();
       if (typeof LS !== "undefined" && LS.el && tab !== "dashboard") closeLandscape(true);
       document.body.classList.toggle("is-home", tab === "dashboard" || tab === "ending");
+      document.documentElement.classList.toggle("home", tab === "dashboard" || tab === "ending");
       $(".topbar").classList.remove("open"); $("#menu-btn").setAttribute("aria-expanded", "false");
       $$(".tabs a").forEach((a) => a.toggleAttribute("aria-current", false));
       const active = tab === "ending" ? "dashboard" : tab;
