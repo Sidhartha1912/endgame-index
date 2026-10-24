@@ -1,0 +1,6 @@
+{
+ "headline": "Anthropic previews Claude Duet; malicious LiteLLM release hits PyPI",
+ "body": "Anthropic previewed Claude Duet, a proactive agent that watches connected apps and works on its own, lifting AI Autonomy by 0.21. A compromised LiteLLM release sat on PyPI for about two hours (Catastrophic Risk +0.30), while OpenAI and PHP maintainers patched critical flaws its model had found (Catastrophic Risk -0.21). Goldman Sachs estimated AI could displace up to 9% of US workers during the transition (Shared Prosperity -0.14). Conquerors and Zookeeper rose and Egalitarian Utopia fell. Successors stayed the leading family. Horizon Balance fell to -15.35 from -15.27.",
+ "movers_note": "Egalitarian Utopia -0.1, from the LiteLLM compromise (-0.12) and the Goldman forecast (-0.10), partly offset by the PHP patches (+0.08). Conquerors +0.1, from Claude Duet (+0.10) and the LiteLLM compromise (+0.09). Zookeeper +0.1, from Claude Duet (+0.13).",
+ "coming_up": []
+}
