@@ -12,13 +12,17 @@
 <meta property="og:description" content="Which of AI's 12 possible endings did today's news move closer? Updated every night at 11:59 PM IST.">
 <meta property="og:type" content="website">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap">
+<script>/* home routes get their layout before any script or data loads */document.documentElement.classList.toggle("home",/^#?\/?(dashboard\/?|ending\/.*)?$/.test(location.hash))</script>
+<link rel="preload" href="assets/fonts/instrument-serif.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/instrument-serif-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/geist.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/css/styles.css">
 <link rel="preload" href="data/history.json" as="fetch" crossorigin>
+<link rel="preload" href="scoring/rules.json" as="fetch" crossorigin>
+<link rel="preload" href="data/content.json" as="fetch" crossorigin>
 </head>
 <body>
+<script>if(document.documentElement.classList.contains("home"))document.body.classList.add("is-home")</script>
 <a class="skip" href="#main">Skip to content</a>
 
 <header class="topbar">
@@ -44,12 +48,17 @@
       </button>
     </div>
   </div>
-  <div class="updated-chip"><span class="dot" aria-hidden="true"></span><span id="updated-chip-text">Updated</span><span class="sepdot" aria-hidden="true">·</span><a class="byline" href="https://www.linkedin.com/in/sidhartha-rajput/" target="_blank" rel="noopener noreferrer">By Sidhartha Rajput</a></div>
+  <div class="updated-chip"><span class="dot" aria-hidden="true"></span><span id="updated-chip-text">Updated <span style="visibility:hidden">00 Oct</span></span><span class="sepdot" aria-hidden="true">·</span><a class="byline" href="https://www.linkedin.com/in/sidhartha-rajput/" target="_blank" rel="noopener noreferrer">By Sidhartha Rajput</a></div>
 </header>
 
 <main id="main" tabindex="-1">
   <div id="view" aria-live="polite">
-    <div class="loading"><span class="spinner" aria-hidden="true"></span> Loading the index…</div>
+    <!-- Shown instantly on the home page while scripts and data load; replaced by the live page. -->
+    <div class="boot-home">
+      <section class="hero shell-d"><div class="hero-chart"></div><div class="hero-title"><h1>Where Humanity is <i>heading with AI?</i></h1><p><span class="d-only">12 possible endings for humanity with AI, as per MIT research, tracked daily against news, research papers, articles and developments in AI.</span></p><div class="hero-filters" inert><div class="seg"><button type="button" aria-pressed="false">30D</button><button type="button" aria-pressed="false">90D</button><button type="button" aria-pressed="true">All</button></div><span class="sep" aria-hidden="true"></span><div class="seg"><button type="button" aria-pressed="false"><span class="d-only">4 families</span><span class="m-only">Families</span></button><button type="button" aria-pressed="true"><span class="d-only">12 endings</span><span class="m-only">Endings</span></button></div></div></div></section>
+      <div class="ph shell-p"><section class="ph-top"><h1>Where Humanity is<br><i>heading with AI?</i></h1><p>12 possible endings for humanity with AI, tracked daily</p><div class="ph-filters" inert><div class="seg"><button type="button" aria-pressed="false">30D</button><button type="button" aria-pressed="false">90D</button><button type="button" aria-pressed="true">All</button></div><span class="sep" aria-hidden="true"></span><div class="seg"><button type="button" aria-pressed="false">Families</button><button type="button" aria-pressed="true">Endings</button></div></div></section><div class="ph-chart"></div></div>
+    </div>
+    <div class="loading boot-other"><span class="spinner" aria-hidden="true"></span> Loading the index…</div>
   </div>
 </main>
 
