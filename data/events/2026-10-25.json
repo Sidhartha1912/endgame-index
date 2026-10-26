@@ -1,0 +1,30 @@
+[
+ {
+  "id": "2026-10-25-01",
+  "title": "Musk says SpaceX closed $40B GPU debt, warns neoclouds face shakeout",
+  "summary": "Elon Musk said on X that SpaceX closed about $40 billion of mostly callable debt to buy GPUs arriving in Q1-Q2 2027, citing its investment-grade rating and Starlink revenue. He said debt markets have largely shut for firms dependent on AI data-center revenue and predicted most of the 200+ neoclouds will fail or consolidate.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": true,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "More frontier compute financing (F1 up), while credit tightening favours a few large players over smaller clouds (F5 up). The closing is Musk's own claim; talks were reported earlier in October.",
+  "sources": [
+   "https://www.thestar.com.my/tech/tech-news/2026/10/26/musk-says-spacex-raised-40-billion-in-debt-for-gpus",
+   "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html"
+  ]
+ }
+]

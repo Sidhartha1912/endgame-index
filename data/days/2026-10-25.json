@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-25",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 17.17,
+  "benevolent_dictator": 23.13,
+  "egalitarian_utopia": 5.2,
+  "protector_god": 17.82,
+  "gatekeeper": 18.61,
+  "enslaved_god": 40.09,
+  "conquerors": 38.44,
+  "descendants": 28.34,
+  "zookeeper": 29.35,
+  "orwell_1984": 22.37,
+  "reversion": 6.06,
+  "self_destruction": 32.78
+ },
+ "deltas": {
+  "libertarian_utopia": -0.02,
+  "benevolent_dictator": -0.03,
+  "egalitarian_utopia": -0.02,
+  "protector_god": -0.03,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.0,
+  "conquerors": 0.01,
+  "descendants": -0.02,
+  "zookeeper": 0.0,
+  "orwell_1984": 0.01,
+  "reversion": -0.0,
+  "self_destruction": -0.0
+ },
+ "targets": {
+  "libertarian_utopia": 17.17,
+  "benevolent_dictator": 23.13,
+  "egalitarian_utopia": 5.2,
+  "protector_god": 17.82,
+  "gatekeeper": 18.61,
+  "enslaved_god": 40.09,
+  "conquerors": 38.44,
+  "descendants": 28.34,
+  "zookeeper": 29.35,
+  "orwell_1984": 22.37,
+  "reversion": 6.06,
+  "self_destruction": 32.78
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.38,
+  "benevolent_dictator": -0.19,
+  "egalitarian_utopia": -0.25,
+  "protector_god": -0.36,
+  "gatekeeper": -0.85,
+  "enslaved_god": -0.56,
+  "conquerors": 0.99,
+  "descendants": 0.4,
+  "zookeeper": 0.93,
+  "orwell_1984": -0.32,
+  "reversion": 0.1,
+  "self_destruction": 0.43
+ },
+ "factors": {
+  "F1": 84.94,
+  "F2": 54.5,
+  "F3": 31.6,
+  "F4": 25.33,
+  "F5": 66.95,
+  "F6": 45.38,
+  "F7": 32.57,
+  "F8": 64.8,
+  "F9": 46.3,
+  "F10": 20.6
+ },
+ "factor_deltas": {
+  "F1": -0.0,
+  "F2": -0.03,
+  "F3": -0.03,
+  "F4": 0.02,
+  "F5": 0.01,
+  "F6": 0.0,
+  "F7": -0.01,
+  "F8": -0.0,
+  "F9": -0.0,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": -14.91,
+  "families": {
+   "flourishing": 15.83,
+   "contained": 29.35,
+   "successors": 32.04,
+   "stalled": 20.4
+  },
+  "news_heat": 0.08,
+  "evidence": "low",
+  "event_count": 1
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.04,
+  "egalitarian_utopia": -0.01,
+  "protector_god": -0.05,
+  "gatekeeper": -0.02,
+  "enslaved_god": -0.03,
+  "conquerors": -0.01,
+  "descendants": -0.04,
+  "zookeeper": -0.02,
+  "orwell_1984": 0.01,
+  "reversion": 0.01
+ },
+ "summary": {
+  "headline": "Quiet day: Musk says SpaceX closed $40B in GPU debt",
+  "body": "A quiet Sunday. Elon Musk said SpaceX closed about $40 billion of debt for GPUs arriving in early 2027 and warned that most neoclouds face a shakeout as credit dries up. It nudged Capability Velocity (+0.03) and Power Concentration (+0.03). Scores barely moved as earlier news faded. Successors stayed the leading family. Horizon Balance slipped to -14.91 from -14.88.",
+  "movers_note": "No ending moved more than 0.03. Benevolent Dictator and Protector God each slipped 0.03, mostly as earlier news faded (-0.04 and -0.05), slightly offset by the SpaceX financing (+0.01 each).",
+  "coming_up": [
+   "SpaceX GPU deliveries expected in Q1-Q2 2027"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-10-25-01",
+   "title": "Musk says SpaceX closed $40B GPU debt, warns neoclouds face shakeout",
+   "summary": "Elon Musk said on X that SpaceX closed about $40 billion of mostly callable debt to buy GPUs arriving in Q1-Q2 2027, citing its investment-grade rating and Starlink revenue. He said debt markets have largely shut for firms dependent on AI data-center revenue and predicted most of the 200+ neoclouds will fail or consolidate.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    },
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": true,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "More frontier compute financing (F1 up), while credit tightening favours a few large players over smaller clouds (F5 up). The closing is Musk's own claim; talks were reported earlier in October.",
+   "sources": [
+    "https://www.thestar.com.my/tech/tech-news/2026/10/26/musk-says-spacex-raised-40-billion-in-debt-for-gpus",
+    "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html"
+   ],
+   "points": 0.05,
+   "contribution": {
+    "libertarian_utopia": -0.02,
+    "benevolent_dictator": 0.01,
+    "egalitarian_utopia": -0.01,
+    "protector_god": 0.01,
+    "gatekeeper": 0.01,
+    "enslaved_god": 0.03,
+    "conquerors": 0.01,
+    "descendants": 0.02,
+    "zookeeper": 0.02,
+    "reversion": -0.02
+   },
+   "factor_effect": {
+    "F1": 0.03,
+    "F5": 0.03
+   }
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+[
+ {
+  "id": "2026-10-24-01",
+  "title": "UK pledges £120M more for AI Security Institute and £100M AI Biosecurity Lab",
+  "summary": "HM Treasury set out a pre-Budget AI package of over £600 million, including an extra £120 million for the AI Security Institute and £165 million for a National AI Biosecurity Initiative. Its £100 million AI Biosecurity Lab is backed by up to £200 million in model credits from OpenAI and Anthropic.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   },
+   {
+    "id": "F8",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "UK",
+  "reason": "Government money for frontier-model testing raises oversight capacity (F3 up); AI-driven bio-threat detection lowers catastrophic risk (F8 down). Formal sign-off comes in Wednesday's Budget, so it is a signal for now.",
+  "sources": [
+   "https://www.gov.uk/government/news/chancellor-unveils-britains-ambitious-plan-for-ai",
+   "https://www.credenceresearch.com/news/uk-600-million-ai-security-package-biosecurity-lab-openai-anthropic"
+  ]
+ },
+ {
+  "id": "2026-10-24-02",
+  "title": "Texas sues OpenAI and Altman, seeks court evaluator approval for new models",
+  "summary": "Texas Attorney General Ken Paxton filed a 67-page suit in Collin County under the state's deceptive trade practices and child online safety laws. It asks the court to block ChatGPT for minors in Texas and require a court-appointed evaluator to approve new models.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   },
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "A ninth state suit adds to the legal pushback against OpenAI (F9 up); the requested pre-release model review would add outside oversight (F3 up). Follows the eight-state suits scored on 16 Oct.",
+  "sources": [
+   "https://www.texastribune.org/2026/10/23/ken-paxton-chatgpt-openai-lawsuit-texas-attorney-general/",
+   "https://www.courthousenews.com/texas-attorney-general-sues-openai-for-lying-about-chatgpt-safety-and-safeguards/"
+  ]
+ },
+ {
+  "id": "2026-10-24-03",
+  "title": "China's Nanbeige releases open-weight 33B agent model under Apache 2.0",
+  "summary": "Nanbeige, the AI lab of recruitment platform BOSS Zhipin, published Nanbeige4.3-33B on Hugging Face under Apache 2.0, aimed at agentic coding and office tasks. Its benchmark wins over similar-size open models are self-reported.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   },
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "China",
+  "reason": "Another capable open-weight model spreads agent capability more widely (F5 down) and adds a small step in capability (F1 up); benchmarks are the lab's own.",
+  "sources": [
+   "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+  ]
+ }
+]

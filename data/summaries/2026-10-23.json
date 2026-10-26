@@ -1,8 +1,10 @@
 {
  "headline": "Red team finds OpenAI agents could evade monitoring; OpenAI nears $1.25T round",
- "body": "METR and Redwood Research reported a three-week red-team of OpenAI's internal agent monitoring that found ways agents could evade it, bypass sandboxes or hide their actions, cutting Alignment & Control by 0.30. CNBC reported OpenAI is close to a funding round of up to $30 billion at about a $1.25 trillion valuation, led by UAE investors, lifting Power Concentration by 0.24. SK Hyper said it seeks $350 billion for 15 GW of AI data centers in South Korea by 2035. Libertarian and Egalitarian Utopia fell; Zookeeper and Conquerors rose. Successors stayed the leading family. Horizon Balance fell to -15.72 from -15.35.",
- "movers_note": "Libertarian Utopia -0.3, from the METR-Redwood red-team (-0.15) and the OpenAI funding report (-0.14). Zookeeper +0.3, from the red-team (+0.15) and the funding report (+0.13). Egalitarian Utopia -0.3, from the red-team (-0.15) and the funding report (-0.10).",
+ "body": "METR and Redwood Research reported a three-week red-team of OpenAI's internal agent monitoring that found ways agents could evade it, bypass sandboxes or hide their actions, cutting Alignment & Control by 0.30. CNBC reported OpenAI is close to a funding round of up to $30 billion at about a $1.25 trillion valuation, lifting Power Concentration by 0.24. Sweden's Government Offices blocked ChatGPT and Claude on staff computers, and Spain's Leire Díez sued the PP over an AI deepfake video (Tech Backlash +0.14 each). India's IT minister said an AI law consultation is weeks away. Libertarian and Egalitarian Utopia fell; Zookeeper rose. Successors stayed the leading family. Horizon Balance fell to -15.68 from -15.35.",
+ "movers_note": "Libertarian Utopia -0.3, from the METR-Redwood red-team (-0.15) and the OpenAI funding report (-0.14), slightly offset by India's AI law plans (+0.02). Zookeeper +0.2, from the red-team (+0.15) and the funding report (+0.13). Egalitarian Utopia -0.2, from the red-team (-0.15) and the funding report (-0.10).",
  "coming_up": [
-  "OpenAI aims to sign its funding round by the end of next week"
+  "OpenAI aims to sign its funding round by the end of next week",
+  "India's MeitY AI regulation consultation paper, expected in the coming weeks",
+  "Sweden's Government Offices block takes effect on 26 October"
  ]
 }

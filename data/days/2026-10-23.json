@@ -2,96 +2,96 @@
  "date": "2026-10-23",
  "rules_version": "1.2.0",
  "scores": {
-  "libertarian_utopia": 16.62,
-  "benevolent_dictator": 22.91,
-  "egalitarian_utopia": 4.71,
-  "protector_god": 17.41,
-  "gatekeeper": 18.21,
-  "enslaved_god": 39.84,
-  "conquerors": 39.0,
+  "libertarian_utopia": 16.65,
+  "benevolent_dictator": 22.93,
+  "egalitarian_utopia": 4.74,
+  "protector_god": 17.44,
+  "gatekeeper": 18.25,
+  "enslaved_god": 39.86,
+  "conquerors": 38.97,
   "descendants": 28.38,
-  "zookeeper": 29.75,
-  "orwell_1984": 22.4,
-  "reversion": 5.86,
-  "self_destruction": 33.4
+  "zookeeper": 29.72,
+  "orwell_1984": 22.41,
+  "reversion": 6.15,
+  "self_destruction": 33.37
  },
  "deltas": {
-  "libertarian_utopia": -0.29,
-  "benevolent_dictator": -0.06,
-  "egalitarian_utopia": -0.25,
-  "protector_god": -0.19,
-  "gatekeeper": -0.14,
-  "enslaved_god": 0.04,
-  "conquerors": 0.24,
+  "libertarian_utopia": -0.27,
+  "benevolent_dictator": -0.03,
+  "egalitarian_utopia": -0.23,
+  "protector_god": -0.16,
+  "gatekeeper": -0.1,
+  "enslaved_god": 0.07,
+  "conquerors": 0.21,
   "descendants": 0.03,
-  "zookeeper": 0.27,
-  "orwell_1984": 0.08,
-  "reversion": -0.06,
-  "self_destruction": 0.1
+  "zookeeper": 0.25,
+  "orwell_1984": 0.09,
+  "reversion": 0.23,
+  "self_destruction": 0.07
  },
  "targets": {
-  "libertarian_utopia": 16.62,
-  "benevolent_dictator": 22.91,
-  "egalitarian_utopia": 4.71,
-  "protector_god": 17.41,
-  "gatekeeper": 18.21,
-  "enslaved_god": 39.84,
-  "conquerors": 39.0,
+  "libertarian_utopia": 16.65,
+  "benevolent_dictator": 22.93,
+  "egalitarian_utopia": 4.74,
+  "protector_god": 17.44,
+  "gatekeeper": 18.25,
+  "enslaved_god": 39.86,
+  "conquerors": 38.97,
   "descendants": 28.38,
-  "zookeeper": 29.75,
-  "orwell_1984": 22.4,
-  "reversion": 5.86,
-  "self_destruction": 33.4
+  "zookeeper": 29.72,
+  "orwell_1984": 22.41,
+  "reversion": 6.15,
+  "self_destruction": 33.37
  },
  "momentum_7d": {
-  "libertarian_utopia": -0.93,
-  "benevolent_dictator": -0.47,
-  "egalitarian_utopia": -0.72,
-  "protector_god": -0.9,
-  "gatekeeper": -1.32,
-  "enslaved_god": -0.92,
-  "conquerors": 1.47,
+  "libertarian_utopia": -0.91,
+  "benevolent_dictator": -0.44,
+  "egalitarian_utopia": -0.7,
+  "protector_god": -0.87,
+  "gatekeeper": -1.27,
+  "enslaved_god": -0.89,
+  "conquerors": 1.44,
   "descendants": 0.31,
-  "zookeeper": 1.23,
-  "orwell_1984": -0.24,
-  "reversion": 0.04,
-  "self_destruction": 1.01
+  "zookeeper": 1.21,
+  "orwell_1984": -0.23,
+  "reversion": 0.33,
+  "self_destruction": 0.98
  },
  "factors": {
   "F1": 84.94,
   "F2": 54.55,
-  "F3": 30.97,
-  "F4": 25.26,
+  "F3": 31.02,
+  "F4": 25.29,
   "F5": 67.08,
   "F6": 45.38,
   "F7": 32.58,
   "F8": 65.11,
-  "F9": 45.98,
+  "F9": 46.27,
   "F10": 20.61
  },
  "factor_deltas": {
   "F1": 0.09,
   "F2": -0.03,
-  "F3": -0.31,
-  "F4": 0.02,
+  "F3": -0.27,
+  "F4": 0.04,
   "F5": 0.23,
   "F6": 0.0,
   "F7": -0.01,
   "F8": -0.01,
-  "F9": -0.0,
+  "F9": 0.28,
   "F10": -0.01
  },
  "composites": {
-  "horizon_balance": -15.72,
+  "horizon_balance": -15.68,
   "families": {
-   "flourishing": 15.42,
-   "contained": 29.02,
-   "successors": 32.37,
-   "stalled": 20.55
+   "flourishing": 15.44,
+   "contained": 29.06,
+   "successors": 32.36,
+   "stalled": 20.64
   },
-  "news_heat": 0.76,
+  "news_heat": 1.11,
   "evidence": "low",
-  "event_count": 3
+  "event_count": 6
  },
  "badges": [],
  "speed_limited": [],
@@ -109,10 +109,12 @@
  },
  "summary": {
   "headline": "Red team finds OpenAI agents could evade monitoring; OpenAI nears $1.25T round",
-  "body": "METR and Redwood Research reported a three-week red-team of OpenAI's internal agent monitoring that found ways agents could evade it, bypass sandboxes or hide their actions, cutting Alignment & Control by 0.30. CNBC reported OpenAI is close to a funding round of up to $30 billion at about a $1.25 trillion valuation, led by UAE investors, lifting Power Concentration by 0.24. SK Hyper said it seeks $350 billion for 15 GW of AI data centers in South Korea by 2035. Libertarian and Egalitarian Utopia fell; Zookeeper and Conquerors rose. Successors stayed the leading family. Horizon Balance fell to -15.72 from -15.35.",
-  "movers_note": "Libertarian Utopia -0.3, from the METR-Redwood red-team (-0.15) and the OpenAI funding report (-0.14). Zookeeper +0.3, from the red-team (+0.15) and the funding report (+0.13). Egalitarian Utopia -0.3, from the red-team (-0.15) and the funding report (-0.10).",
+  "body": "METR and Redwood Research reported a three-week red-team of OpenAI's internal agent monitoring that found ways agents could evade it, bypass sandboxes or hide their actions, cutting Alignment & Control by 0.30. CNBC reported OpenAI is close to a funding round of up to $30 billion at about a $1.25 trillion valuation, lifting Power Concentration by 0.24. Sweden's Government Offices blocked ChatGPT and Claude on staff computers, and Spain's Leire Díez sued the PP over an AI deepfake video (Tech Backlash +0.14 each). India's IT minister said an AI law consultation is weeks away. Libertarian and Egalitarian Utopia fell; Zookeeper rose. Successors stayed the leading family. Horizon Balance fell to -15.68 from -15.35.",
+  "movers_note": "Libertarian Utopia -0.3, from the METR-Redwood red-team (-0.15) and the OpenAI funding report (-0.14), slightly offset by India's AI law plans (+0.02). Zookeeper +0.2, from the red-team (+0.15) and the funding report (+0.13). Egalitarian Utopia -0.2, from the red-team (-0.15) and the funding report (-0.10).",
   "coming_up": [
-   "OpenAI aims to sign its funding round by the end of next week"
+   "OpenAI aims to sign its funding round by the end of next week",
+   "India's MeitY AI regulation consultation paper, expected in the coming weeks",
+   "Sweden's Government Offices block takes effect on 26 October"
   ]
  },
  "events": [
@@ -234,6 +236,113 @@
    },
    "factor_effect": {
     "F1": 0.05
+   }
+  },
+  {
+   "id": "2026-10-23-04",
+   "title": "India's IT minister says AI risks crossed a threshold; law consultation due in weeks",
+   "summary": "At the NDTV World Summit in New Delhi, Ashwini Vaishnaw said AI risks now warrant a new law and that MeitY will issue a consultation paper in the coming weeks. He said control over agents and models must stay in human hands and called for global, nuclear-style principles.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": 1
+    },
+    {
+     "id": "F4",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "national",
+   "track": "signal",
+   "region": "India",
+   "reason": "A minister's stated plan for AI rules centred on human control (F3 up) plus a call for shared global principles (F4 up); words only until the paper is out. Follows his 8 Oct announcement.",
+   "sources": [
+    "https://lawbeat.in/top-stories/india-to-get-ai-law-union-minister-ashwini-vaishnaw-says-centre-will-issue-consultation-paper-soon-1645425",
+    "https://www.medianama.com/2026/10/223-india-ai-regulation-consultation-paper-vaishnaw/"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "libertarian_utopia": 0.02,
+    "benevolent_dictator": 0.02,
+    "egalitarian_utopia": 0.02,
+    "protector_god": 0.03,
+    "gatekeeper": 0.04,
+    "enslaved_god": 0.02,
+    "conquerors": -0.03,
+    "zookeeper": -0.02,
+    "orwell_1984": 0.01,
+    "self_destruction": -0.03
+   },
+   "factor_effect": {
+    "F3": 0.04,
+    "F4": 0.02
+   }
+  },
+  {
+   "id": "2026-10-23-05",
+   "title": "Sweden's Government Offices block ChatGPT and Claude on staff computers",
+   "summary": "From 26 October, ChatGPT and Claude can no longer be reached from Regeringskansliet work computers, with staff directed to Microsoft Copilot; some keep access via an in-house platform. Sweden's Tax Agency and SiS have similar blocks.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "EU",
+   "reason": "A government restricting uncontracted AI tools on information-security grounds is a small step of institutional pushback (F9 up).",
+   "sources": [
+    "https://www.svt.se/nyheter/inrikes/ai-tjanster-sparras-pa-regeringskansliet",
+    "https://computersweden.se/article/4239687/regeringskansliet-sparrar-chat-gpt-och-claude.html"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "reversion": 0.14
+   },
+   "factor_effect": {
+    "F9": 0.14
+   }
+  },
+  {
+   "id": "2026-10-23-06",
+   "title": "Spain's Leire Díez files complaint against PP over AI deepfake confession video",
+   "summary": "Former Socialist member Leire Díez filed a criminal complaint against the Popular Party over an AI-generated video showing a fake version of her confessing to hiring thugs against a judge. She asks for its removal from all PP accounts.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "EU",
+   "reason": "Legal action against a party's AI deepfake ahead of Spain's election is a small push against AI misuse in politics (F9 up).",
+   "sources": [
+    "https://www.infobae.com/espana/agencias/2026/10/23/leire-se-querella-contra-el-pp-por-el-video-con-ia-que-le-atribuye-haber-contratado-a-matones-para-quitar-a-una-juez/",
+    "https://www.elplural.com/sociedad/tribunales/leire-diez-querella-contra-pp-utilizar-identidad-polemico-video-creado-inteligencia-artificial_802207102"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "reversion": 0.14
+   },
+   "factor_effect": {
+    "F9": 0.14
    }
   }
  ]
