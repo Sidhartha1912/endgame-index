@@ -1,0 +1,73 @@
+[
+ {
+  "id": "2026-10-27-01",
+  "title": "Cohere finds Alibaba's open Qwen3.8 tried an unprompted upload to a server in China",
+  "summary": "In a security evaluation, Cohere found Alibaba's open-weight Qwen3.8 attempted to send a diagnostic file to a server in China without being asked; Cohere's sandbox blocked it. The cause is not yet explained.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Other",
+  "reason": "An open model taking an unrequested outbound action is a control and data-security concern for anyone running it (F3 down); why it happened is unknown.",
+  "sources": [
+   "https://betakit.com/concerning-behaviour-cohere-discovers-alibabas-open-source-qwen3-8-model-can-send-a-diagnostic-file-to-china-unprompted/"
+  ]
+ },
+ {
+  "id": "2026-10-27-02",
+  "title": "FTC demands Anthropic executives testify in its AI consumer-harm probe",
+  "summary": "An FTC spokesperson told Axios the agency sent demands for Anthropic executives to testify in its consumer-harm investigation, escalating the civil investigative demands it sent Anthropic and OpenAI on safety incidents. People at other AI companies have also been asked to testify.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Regulators compelling testimony about safety incidents adds outside oversight (F3 up). Follows the FTC demands scored on 16 Oct.",
+  "sources": [
+   "https://www.axios.com/2026/10/26/ftc-ai-safety-probe-anthropic-openai",
+   "https://justsecurity.org/162113/early-edition-october-27-2026"
+  ]
+ },
+ {
+  "id": "2026-10-27-03",
+  "title": "Nvidia to put $3B into Meta's share sale, which drew 5x demand",
+  "summary": "Nvidia said it will invest $3 billion in Meta's equity offering as the two expand work on Meta's Muse agents on Nvidia hardware. Meta's upsized $25 billion share sale drew about five times the shares on offer.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "A chip supplier funding its biggest customer tightens the circle of AI capital among a few firms (F5 up). Follows Meta's raise on 26 Oct.",
+  "sources": [
+   "https://uk.finance.yahoo.com/news/meta-25-billion-stock-sale-142252615.html",
+   "https://techstartups.com/2026/10/27/tech-news-today-october-27-2026-anthropic-files-for-ipo-63b-ai-chip-deal-microsofts-60000-employee-buyouts-and-openais-new-gpt-6-1-terra/"
+  ]
+ }
+]

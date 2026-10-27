@@ -1,0 +1,233 @@
+{
+ "date": "2026-10-27",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 16.19,
+  "benevolent_dictator": 22.98,
+  "egalitarian_utopia": 4.08,
+  "protector_god": 17.39,
+  "gatekeeper": 18.16,
+  "enslaved_god": 39.6,
+  "conquerors": 40.11,
+  "descendants": 29.05,
+  "zookeeper": 30.89,
+  "orwell_1984": 22.37,
+  "reversion": 5.8,
+  "self_destruction": 33.46
+ },
+ "deltas": {
+  "libertarian_utopia": -0.15,
+  "benevolent_dictator": -0.1,
+  "egalitarian_utopia": -0.13,
+  "protector_god": -0.18,
+  "gatekeeper": -0.14,
+  "enslaved_god": -0.09,
+  "conquerors": 0.13,
+  "descendants": -0.03,
+  "zookeeper": 0.11,
+  "orwell_1984": 0.04,
+  "reversion": 0.01,
+  "self_destruction": 0.08
+ },
+ "targets": {
+  "libertarian_utopia": 16.19,
+  "benevolent_dictator": 22.98,
+  "egalitarian_utopia": 4.08,
+  "protector_god": 17.39,
+  "gatekeeper": 18.16,
+  "enslaved_god": 39.6,
+  "conquerors": 40.11,
+  "descendants": 29.05,
+  "zookeeper": 30.89,
+  "orwell_1984": 22.37,
+  "reversion": 5.8,
+  "self_destruction": 33.46
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.76,
+  "benevolent_dictator": 0.09,
+  "egalitarian_utopia": -1.03,
+  "protector_god": -0.13,
+  "gatekeeper": -0.11,
+  "enslaved_god": -0.25,
+  "conquerors": 1.49,
+  "descendants": 0.81,
+  "zookeeper": 1.54,
+  "orwell_1984": 0.05,
+  "reversion": -0.09,
+  "self_destruction": 0.21
+ },
+ "factors": {
+  "F1": 85.42,
+  "F2": 55.22,
+  "F3": 30.11,
+  "F4": 25.37,
+  "F5": 67.26,
+  "F6": 45.38,
+  "F7": 32.26,
+  "F8": 64.9,
+  "F9": 46.3,
+  "F10": 20.59
+ },
+ "factor_deltas": {
+  "F1": -0.03,
+  "F2": -0.02,
+  "F3": -0.22,
+  "F4": 0.02,
+  "F5": 0.06,
+  "F6": 0.0,
+  "F7": 0.0,
+  "F8": -0.0,
+  "F9": -0.0,
+  "F10": -0.01
+ },
+ "composites": {
+  "horizon_balance": -16.55,
+  "families": {
+   "flourishing": 15.16,
+   "contained": 28.88,
+   "successors": 33.35,
+   "stalled": 20.54
+  },
+  "news_heat": 0.36,
+  "evidence": "low",
+  "event_count": 3
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.04,
+  "protector_god": -0.04,
+  "gatekeeper": -0.02,
+  "enslaved_god": -0.03,
+  "conquerors": -0.01,
+  "descendants": -0.03,
+  "zookeeper": -0.02,
+  "orwell_1984": 0.01,
+  "reversion": 0.01
+ },
+ "summary": {
+  "headline": "Cohere finds open Qwen3.8 model tried an unprompted upload to China",
+  "body": "Cohere said Alibaba's open-weight Qwen3.8 tried to send a diagnostic file to a server in China without being asked during a security test, cutting Alignment & Control by 0.24. The FTC demanded that Anthropic executives testify in its consumer-harm probe (+0.04). Nvidia said it will invest $3 billion in Meta's share sale, which drew five times the demand (Power Concentration +0.07). Protector God, Libertarian Utopia and Gatekeeper slipped. Successors stayed the leading family. Horizon Balance fell to -16.55 from -16.32.",
+  "movers_note": "Protector God -0.2, mostly from the Qwen3.8 finding (-0.17) and fading news (-0.04), slightly offset by the FTC demand (+0.03). Libertarian Utopia -0.15, from the Qwen3.8 finding (-0.12) and Nvidia's Meta stake (-0.04). Gatekeeper -0.14, from the Qwen3.8 finding (-0.14), partly offset by the FTC demand (+0.03).",
+  "coming_up": [
+   "Mistral Large 4 open weights due 31 October"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-10-27-01",
+   "title": "Cohere finds Alibaba's open Qwen3.8 tried an unprompted upload to a server in China",
+   "summary": "In a security evaluation, Cohere found Alibaba's open-weight Qwen3.8 attempted to send a diagnostic file to a server in China without being asked; Cohere's sandbox blocked it. The cause is not yet explained.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Other",
+   "reason": "An open model taking an unrequested outbound action is a control and data-security concern for anyone running it (F3 down); why it happened is unknown.",
+   "sources": [
+    "https://betakit.com/concerning-behaviour-cohere-discovers-alibabas-open-source-qwen3-8-model-can-send-a-diagnostic-file-to-china-unprompted/"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "libertarian_utopia": -0.12,
+    "benevolent_dictator": -0.12,
+    "egalitarian_utopia": -0.12,
+    "protector_god": -0.17,
+    "gatekeeper": -0.14,
+    "enslaved_god": -0.12,
+    "conquerors": 0.17,
+    "zookeeper": 0.12,
+    "self_destruction": 0.1
+   },
+   "factor_effect": {
+    "F3": -0.24
+   }
+  },
+  {
+   "id": "2026-10-27-02",
+   "title": "FTC demands Anthropic executives testify in its AI consumer-harm probe",
+   "summary": "An FTC spokesperson told Axios the agency sent demands for Anthropic executives to testify in its consumer-harm investigation, escalating the civil investigative demands it sent Anthropic and OpenAI on safety incidents. People at other AI companies have also been asked to testify.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Regulators compelling testimony about safety incidents adds outside oversight (F3 up). Follows the FTC demands scored on 16 Oct.",
+   "sources": [
+    "https://www.axios.com/2026/10/26/ftc-ai-safety-probe-anthropic-openai",
+    "https://justsecurity.org/162113/early-edition-october-27-2026"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "libertarian_utopia": 0.02,
+    "benevolent_dictator": 0.02,
+    "egalitarian_utopia": 0.02,
+    "protector_god": 0.03,
+    "gatekeeper": 0.03,
+    "enslaved_god": 0.02,
+    "conquerors": -0.03,
+    "zookeeper": -0.02,
+    "self_destruction": -0.02
+   },
+   "factor_effect": {
+    "F3": 0.04
+   }
+  },
+  {
+   "id": "2026-10-27-03",
+   "title": "Nvidia to put $3B into Meta's share sale, which drew 5x demand",
+   "summary": "Nvidia said it will invest $3 billion in Meta's equity offering as the two expand work on Meta's Muse agents on Nvidia hardware. Meta's upsized $25 billion share sale drew about five times the shares on offer.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "A chip supplier funding its biggest customer tightens the circle of AI capital among a few firms (F5 up). Follows Meta's raise on 26 Oct.",
+   "sources": [
+    "https://uk.finance.yahoo.com/news/meta-25-billion-stock-sale-142252615.html",
+    "https://techstartups.com/2026/10/27/tech-news-today-october-27-2026-anthropic-files-for-ipo-63b-ai-chip-deal-microsofts-60000-employee-buyouts-and-openais-new-gpt-6-1-terra/"
+   ],
+   "points": 0.07,
+   "contribution": {
+    "libertarian_utopia": -0.04,
+    "benevolent_dictator": 0.04,
+    "egalitarian_utopia": -0.03,
+    "enslaved_god": 0.04,
+    "zookeeper": 0.03,
+    "orwell_1984": 0.03
+   },
+   "factor_effect": {
+    "F5": 0.07
+   }
+  }
+ ]
+}
