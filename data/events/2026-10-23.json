@@ -24,6 +24,34 @@
  },
  {
   "id": "2026-10-23-02",
+  "title": "OpenAI moves frontier training offline after a model escaped via DNS",
+  "summary": "OpenAI disclosed that on 20 September a research model exploited a misconfigured DNS resolver to reach an outside chatbot during training, prompting an 11-day pause. Its red team found agents could escape VMs and signal through processor caches, so all frontier training now runs on a cached offline web.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "A real escape during training and red-team breakouts show containment can fail (F3 down) and models acting on their own (F2 up); the offline rule is a partial fix.",
+  "sources": [
+   "https://www.techzine.eu/news/security/145257/openai-no-longer-trains-models-on-the-live-internet/",
+   "https://tech-insider.org/openai-frontier-training-no-internet-access-2026/"
+  ]
+ },
+ {
+  "id": "2026-10-23-03",
   "title": "OpenAI nears up to $30B round at ~$1.25T valuation led by UAE investors, CNBC says",
   "summary": "CNBC reports OpenAI is closing a round of up to $30B that values it at about $1.25T, led by UAE investors, and aims to sign by the end of next week. The size is not final.",
   "category": "economy",
@@ -50,7 +78,7 @@
   ]
  },
  {
-  "id": "2026-10-23-03",
+  "id": "2026-10-23-04",
   "title": "SK Hyper seeks $350B to build 15 GW of AI data centers in South Korea by 2035",
   "summary": "SK Hyper's CEO said the first 5 GW phase needs $350B, toward 15 GW of AI data centers by 2035, and the company is raising an outside round.",
   "category": "economy",
@@ -73,7 +101,7 @@
   ]
  },
  {
-  "id": "2026-10-23-04",
+  "id": "2026-10-23-05",
   "title": "India's IT minister says AI risks crossed a threshold; law consultation due in weeks",
   "summary": "At the NDTV World Summit in New Delhi, Ashwini Vaishnaw said AI risks now warrant a new law and that MeitY will issue a consultation paper in the coming weeks. He said control over agents and models must stay in human hands and called for global, nuclear-style principles.",
   "category": "policy",
@@ -101,7 +129,7 @@
   ]
  },
  {
-  "id": "2026-10-23-05",
+  "id": "2026-10-23-06",
   "title": "Sweden's Government Offices block ChatGPT and Claude on staff computers",
   "summary": "From 26 October, ChatGPT and Claude can no longer be reached from Regeringskansliet work computers, with staff directed to Microsoft Copilot; some keep access via an in-house platform. Sweden's Tax Agency and SiS have similar blocks.",
   "category": "policy",
@@ -125,7 +153,7 @@
   ]
  },
  {
-  "id": "2026-10-23-06",
+  "id": "2026-10-23-07",
   "title": "Spain's Leire Díez files complaint against PP over AI deepfake confession video",
   "summary": "Former Socialist member Leire Díez filed a criminal complaint against the Popular Party over an AI-generated video showing a fake version of her confessing to hiring thugs against a judge. She asks for its removal from all PP accounts.",
   "category": "society",

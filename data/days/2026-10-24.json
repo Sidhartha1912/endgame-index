@@ -2,18 +2,18 @@
  "date": "2026-10-24",
  "rules_version": "1.2.0",
  "scores": {
-  "libertarian_utopia": 17.19,
-  "benevolent_dictator": 23.15,
-  "egalitarian_utopia": 5.22,
-  "protector_god": 17.86,
-  "gatekeeper": 18.63,
-  "enslaved_god": 40.09,
-  "conquerors": 38.43,
-  "descendants": 28.36,
-  "zookeeper": 29.35,
+  "libertarian_utopia": 16.8,
+  "benevolent_dictator": 23.0,
+  "egalitarian_utopia": 4.82,
+  "protector_god": 17.51,
+  "gatekeeper": 18.27,
+  "enslaved_god": 39.57,
+  "conquerors": 39.19,
+  "descendants": 28.6,
+  "zookeeper": 29.98,
   "orwell_1984": 22.36,
   "reversion": 6.06,
-  "self_destruction": 32.78
+  "self_destruction": 33.09
  },
  "deltas": {
   "libertarian_utopia": 0.54,
@@ -30,37 +30,37 @@
   "self_destruction": -0.6
  },
  "targets": {
-  "libertarian_utopia": 17.19,
-  "benevolent_dictator": 23.15,
-  "egalitarian_utopia": 5.22,
-  "protector_god": 17.86,
-  "gatekeeper": 18.63,
-  "enslaved_god": 40.09,
-  "conquerors": 38.43,
-  "descendants": 28.36,
-  "zookeeper": 29.35,
+  "libertarian_utopia": 16.8,
+  "benevolent_dictator": 23.0,
+  "egalitarian_utopia": 4.82,
+  "protector_god": 17.51,
+  "gatekeeper": 18.27,
+  "enslaved_god": 39.57,
+  "conquerors": 39.19,
+  "descendants": 28.6,
+  "zookeeper": 29.98,
   "orwell_1984": 22.36,
   "reversion": 6.06,
-  "self_destruction": 32.78
+  "self_destruction": 33.09
  },
  "momentum_7d": {
-  "libertarian_utopia": -0.36,
-  "benevolent_dictator": -0.19,
-  "egalitarian_utopia": -0.22,
-  "protector_god": -0.41,
-  "gatekeeper": -0.89,
-  "enslaved_god": -0.64,
-  "conquerors": 0.93,
-  "descendants": 0.33,
-  "zookeeper": 0.86,
+  "libertarian_utopia": -0.76,
+  "benevolent_dictator": -0.35,
+  "egalitarian_utopia": -0.62,
+  "protector_god": -0.76,
+  "gatekeeper": -1.24,
+  "enslaved_god": -1.15,
+  "conquerors": 1.68,
+  "descendants": 0.57,
+  "zookeeper": 1.49,
   "orwell_1984": -0.29,
   "reversion": 0.17,
-  "self_destruction": 0.41
+  "self_destruction": 0.72
  },
  "factors": {
   "F1": 84.94,
-  "F2": 54.52,
-  "F3": 31.63,
+  "F2": 54.92,
+  "F3": 30.84,
   "F4": 25.31,
   "F5": 66.94,
   "F6": 45.38,
@@ -82,23 +82,26 @@
   "F10": -0.01
  },
  "composites": {
-  "horizon_balance": -14.88,
+  "horizon_balance": -15.63,
   "families": {
-   "flourishing": 15.85,
-   "contained": 29.36,
-   "successors": 32.05,
-   "stalled": 20.4
+   "flourishing": 15.53,
+   "contained": 28.92,
+   "successors": 32.59,
+   "stalled": 20.5
   },
   "news_heat": 1.15,
   "evidence": "medium",
   "event_count": 3
  },
- "badges": [],
+ "badges": [
+  "new_leader",
+  "crossover"
+ ],
  "speed_limited": [],
  "fading_contribution": {
   "libertarian_utopia": 0.01,
   "benevolent_dictator": -0.03,
-  "protector_god": -0.04,
+  "protector_god": -0.03,
   "gatekeeper": -0.01,
   "enslaved_god": -0.02,
   "conquerors": -0.02,
@@ -110,7 +113,7 @@
  },
  "summary": {
   "headline": "UK adds £120M for AI testing and launches an AI biosecurity lab",
-  "body": "Britain's Treasury set out a pre-Budget AI package of over £600 million, including £120 million more for the AI Security Institute and a £100 million AI Biosecurity Lab backed by up to £200 million in OpenAI and Anthropic credits. It lifted Alignment & Control (+0.6) and cut Catastrophic Risk (-0.3). Texas became the ninth state to sue OpenAI, asking for a court-appointed evaluator to approve new models (Tech Backlash +0.04). China's Nanbeige released an open-weight 33B agent model (Power Concentration -0.13). The dark endings fell most: Self-Destruction and Conquerors both dropped, while Libertarian Utopia and Egalitarian Utopia rose. Successors stayed the leading family. Horizon Balance rose to -14.88 from -15.68.",
+  "body": "Britain's Treasury set out a pre-Budget AI package of over £600 million, including £120 million more for the AI Security Institute and a £100 million AI Biosecurity Lab backed by up to £200 million in OpenAI and Anthropic credits. It lifted Alignment & Control (+0.6) and cut Catastrophic Risk (-0.3). Texas became the ninth state to sue OpenAI, asking for a court-appointed evaluator to approve new models (Tech Backlash +0.04). China's Nanbeige released an open-weight 33B agent model (Power Concentration -0.13). The dark endings fell most: Self-Destruction and Conquerors both dropped, while Libertarian Utopia and Egalitarian Utopia rose. Successors stayed the leading family. Horizon Balance rose to -15.63 from -16.43.",
   "movers_note": "Self-Destruction -0.6, mostly from the UK AI security package (-0.57) and the Texas suit (-0.01). Libertarian Utopia +0.5, from the UK package (+0.45) and Nanbeige's open model (+0.08). Conquerors -0.5, mostly from the UK package (-0.51).",
   "coming_up": [
    "UK Budget on Wednesday 28 October formally confirms the AI package"

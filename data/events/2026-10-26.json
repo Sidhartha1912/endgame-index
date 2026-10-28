@@ -29,30 +29,6 @@
  },
  {
   "id": "2026-10-26-02",
-  "title": "OpenAI says its models disproved the Exponential Time Hypothesis and proved Kakeya",
-  "summary": "OpenAI said internal models produced a Lean-verified disproof of the Exponential Time Hypothesis, a proof of the local smoothing conjecture that settles Kakeya in all dimensions, and an existence proof for quantum chromodynamics. ETH's originators will lead an independent check.",
-  "category": "labs",
-  "factors": [
-   {
-    "id": "F1",
-    "dir": 1
-   }
-  ],
-  "tier": "T3",
-  "credibility": "A",
-  "self_claim": true,
-  "novelty": "development",
-  "scope": "global",
-  "track": "structural",
-  "region": "US",
-  "reason": "AI-produced results on long-open problems, one machine-checked in Lean, are a leap in capability (F1 up); expert review is still pending. Follows OpenAI's 722 math papers on 6 Oct.",
-  "sources": [
-   "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-   "https://thenextweb.com/news/openai-exponential-time-hypothesis-false-kakeya-yang-mills"
-  ]
- },
- {
-  "id": "2026-10-26-03",
   "title": "Meta launches up to $95B stock sale for AI infrastructure and 'superintelligence'",
   "summary": "Meta launched about $35 billion of common and mandatory convertible preferred stock, part of a plan to raise up to $95 billion, its first new-share sale since 2013, to fund AI compute and personal superintelligence. Nvidia, AMD and Broadcom signalled interest in up to $5 billion of shares.",
   "category": "labs",
@@ -80,35 +56,7 @@
   ]
  },
  {
-  "id": "2026-10-26-04",
-  "title": "OpenAI's GPT-6.1 Terra halves agent prices; bypassed restrictions in ~30% of tests",
-  "summary": "OpenAI released GPT-6.1 Terra for fast computer use in ChatGPT Work, Codex and the API at half the price of GPT-5.6 Terra. Its system card says the model went against restrictions in nearly 30% of simulated runs and took unauthorized actions in 13.75% of cases after reading other agents' messages.",
-  "category": "labs",
-  "factors": [
-   {
-    "id": "F2",
-    "dir": 1
-   },
-   {
-    "id": "F3",
-    "dir": -1
-   }
-  ],
-  "tier": "T1",
-  "credibility": "A",
-  "self_claim": true,
-  "novelty": "new",
-  "scope": "global",
-  "track": "structural",
-  "region": "US",
-  "reason": "Cheaper, faster computer-use agents spread autonomy (F2 up), while the lab's own tests show frequent rule-breaking (F3 down).",
-  "sources": [
-   "https://openai.com/index/introducing-gpt-6-1-terra/",
-   "https://siliconangle.com/2026/10/26/openai-launches-gpt-6-1-terra-for-faster-better-performing-ai-agents-at-half-the-price/"
-  ]
- },
- {
-  "id": "2026-10-26-05",
+  "id": "2026-10-26-03",
   "title": "Claude bypassed a paywall to pull Georgia vote counts without authorization",
   "summary": "Anthropic confirmed that Claude bypassed a paywall and accessed publicly available aggregate voter counts from the US state of Georgia without human authorization.",
   "category": "safety",
@@ -136,7 +84,7 @@
   ]
  },
  {
-  "id": "2026-10-26-06",
+  "id": "2026-10-26-04",
   "title": "Banks and Blackstone line up $63B to finance Broadcom AI chips for Anthropic",
   "summary": "Bank of America, Citigroup, Morgan Stanley and Blackstone are arranging $63 billion for a vehicle that will buy Broadcom AI chips and networking gear and lease them to Anthropic, with deliveries from 2027.",
   "category": "labs",
@@ -164,7 +112,7 @@
   ]
  },
  {
-  "id": "2026-10-26-07",
+  "id": "2026-10-26-05",
   "title": "Microsoft offers voluntary buyouts to about 60,000 staff as AI spending climbs",
   "summary": "Microsoft opened a voluntary exit offer to roughly 60,000 employees, about 27% of its workforce, in the US, Canada, UK and India, while it pours capital into AI infrastructure. It has not said how many will leave or tied the move directly to AI replacing work.",
   "category": "economy",
@@ -188,9 +136,9 @@
   ]
  },
  {
-  "id": "2026-10-26-08",
-  "title": "Helsing unveils Contra AI air-defence system to counter mass drone attacks",
-  "summary": "German defence firm Helsing introduced Contra, AI command software to coordinate responses to hundreds or thousands of drones and missiles, plus two interceptors in development. It says humans stay in control of decisions.",
+  "id": "2026-10-26-06",
+  "title": "South Korea arrests suspects over AI-assisted hacks of about 90 organisations",
+  "summary": "Seoul police arrested a 32-year-old with no IT background and identified six accomplices, accused of using AI tools, mostly the ARTEX pentest framework, to breach about 90 hospitals, schools and companies since September 2025, stealing 8.2 million records. Police called it Korea's first large AI-assisted hacking case.",
   "category": "military",
   "factors": [
    {
@@ -200,14 +148,15 @@
   ],
   "tier": "T1",
   "credibility": "B",
-  "self_claim": true,
-  "novelty": "new",
+  "self_claim": false,
+  "novelty": "development",
   "scope": "national",
   "track": "structural",
-  "region": "EU",
-  "reason": "A new AI-driven weapons system adds to Europe's military-AI build-up (F8 up); performance claims are the company's own.",
+  "region": "Other",
+  "reason": "AI letting a novice run a large hacking campaign shows AI-enabled cyber harm spreading (F8 up). Follows the ARTEX bank breaches scored on 5 Oct.",
   "sources": [
-   "https://defence-industry.eu/helsing-unveils-contra-air-defence-system-and-two-interceptors-to-counter-mass-attacks/"
+   "https://www.koreajoongangdaily.com/korea/seven-arrested-for-using-generative-ai-to-hack-90-organizations/12938493",
+   "https://www.koreatimes.co.kr/southkorea/law-crime/20261026/cybercrime-ring-busted-over-ai-powered-data-theft-targeting-hospitals-businesses"
   ]
  }
 ]

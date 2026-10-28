@@ -2,18 +2,18 @@
  "date": "2026-10-25",
  "rules_version": "1.2.0",
  "scores": {
-  "libertarian_utopia": 17.17,
-  "benevolent_dictator": 23.13,
-  "egalitarian_utopia": 5.2,
-  "protector_god": 17.82,
-  "gatekeeper": 18.61,
-  "enslaved_god": 40.09,
-  "conquerors": 38.44,
-  "descendants": 28.34,
-  "zookeeper": 29.35,
+  "libertarian_utopia": 16.77,
+  "benevolent_dictator": 22.97,
+  "egalitarian_utopia": 4.8,
+  "protector_god": 17.47,
+  "gatekeeper": 18.26,
+  "enslaved_god": 39.57,
+  "conquerors": 39.19,
+  "descendants": 28.58,
+  "zookeeper": 29.98,
   "orwell_1984": 22.37,
   "reversion": 6.06,
-  "self_destruction": 32.78
+  "self_destruction": 33.09
  },
  "deltas": {
   "libertarian_utopia": -0.02,
@@ -30,37 +30,37 @@
   "self_destruction": -0.0
  },
  "targets": {
-  "libertarian_utopia": 17.17,
-  "benevolent_dictator": 23.13,
-  "egalitarian_utopia": 5.2,
-  "protector_god": 17.82,
-  "gatekeeper": 18.61,
-  "enslaved_god": 40.09,
-  "conquerors": 38.44,
-  "descendants": 28.34,
-  "zookeeper": 29.35,
+  "libertarian_utopia": 16.77,
+  "benevolent_dictator": 22.97,
+  "egalitarian_utopia": 4.8,
+  "protector_god": 17.47,
+  "gatekeeper": 18.26,
+  "enslaved_god": 39.57,
+  "conquerors": 39.19,
+  "descendants": 28.58,
+  "zookeeper": 29.98,
   "orwell_1984": 22.37,
   "reversion": 6.06,
-  "self_destruction": 32.78
+  "self_destruction": 33.09
  },
  "momentum_7d": {
-  "libertarian_utopia": -0.38,
-  "benevolent_dictator": -0.19,
-  "egalitarian_utopia": -0.25,
-  "protector_god": -0.36,
-  "gatekeeper": -0.85,
-  "enslaved_god": -0.56,
-  "conquerors": 0.99,
-  "descendants": 0.4,
-  "zookeeper": 0.93,
+  "libertarian_utopia": -0.78,
+  "benevolent_dictator": -0.34,
+  "egalitarian_utopia": -0.65,
+  "protector_god": -0.71,
+  "gatekeeper": -1.21,
+  "enslaved_god": -1.08,
+  "conquerors": 1.74,
+  "descendants": 0.64,
+  "zookeeper": 1.56,
   "orwell_1984": -0.32,
   "reversion": 0.1,
-  "self_destruction": 0.43
+  "self_destruction": 0.74
  },
  "factors": {
   "F1": 84.94,
-  "F2": 54.5,
-  "F3": 31.6,
+  "F2": 54.9,
+  "F3": 30.81,
   "F4": 25.33,
   "F5": 66.95,
   "F6": 45.38,
@@ -82,12 +82,12 @@
   "F10": -0.01
  },
  "composites": {
-  "horizon_balance": -14.91,
+  "horizon_balance": -15.66,
   "families": {
-   "flourishing": 15.83,
-   "contained": 29.35,
-   "successors": 32.04,
-   "stalled": 20.4
+   "flourishing": 15.5,
+   "contained": 28.92,
+   "successors": 32.59,
+   "stalled": 20.51
   },
   "news_heat": 0.08,
   "evidence": "low",
@@ -112,7 +112,7 @@
  },
  "summary": {
   "headline": "Quiet day: Musk says SpaceX closed $40B in GPU debt",
-  "body": "A quiet Sunday. Elon Musk said SpaceX closed about $40 billion of debt for GPUs arriving in early 2027 and warned that most neoclouds face a shakeout as credit dries up. It nudged Capability Velocity (+0.03) and Power Concentration (+0.03). Scores barely moved as earlier news faded. Successors stayed the leading family. Horizon Balance slipped to -14.91 from -14.88.",
+  "body": "A quiet Sunday. Elon Musk said SpaceX closed about $40 billion of debt for GPUs arriving in early 2027 and warned that most neoclouds face a shakeout as credit dries up. It nudged Capability Velocity (+0.03) and Power Concentration (+0.03). Scores barely moved as earlier news faded. Successors stayed the leading family. Horizon Balance slipped to -15.66 from -15.63.",
   "movers_note": "No ending moved more than 0.03. Benevolent Dictator and Protector God each slipped 0.03, mostly as earlier news faded (-0.04 and -0.05), slightly offset by the SpaceX financing (+0.01 each).",
   "coming_up": [
    "SpaceX GPU deliveries expected in Q1-Q2 2027"

@@ -1,0 +1,125 @@
+[
+ {
+  "title": "UK Budget confirms AI security package, adding a unit to respond to rogue agents",
+  "summary": "The UK Budget confirmed the AI package announced on 24 October, including £120 million more for the AI Security Institute and the AI Biosecurity Lab, plus £40 million for a National Agentic Security Unit to detect, investigate and respond to rogue agentic systems and £140 million for a Sovereign AI Unit.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "structural",
+  "region": "UK",
+  "reason": "Enacted funding, including a dedicated unit for rogue AI agents, adds state oversight capacity (F3 up). Confirms the package scored as a signal on 24 Oct.",
+  "sources": [
+   "https://www.intelligentcio.com/blog/2026/10/28/uk-chancellor-unveils-britains-ambitious-plan-for-ai/",
+   "https://fourweekmba.com/ai-uk-puts-700m-into-ai-and-offers-data-centres-grid-priority/"
+  ],
+  "id": "2026-10-28-01"
+ },
+ {
+  "title": "New York bans AI companions from posing as humans to minors",
+  "summary": "Governor Kathy Hochul signed a law barring companies from offering minors AI chatbot features that mimic human relationships, promote sexual content, self-harm or drug use, or urge secrecy from parents, with fines up to $25,000 per violation. It takes effect on 1 January 2027.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   },
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "A state law restricting AI companions for children is pushback against AI products (F9 up) and adds enforceable limits (F3 up).",
+  "sources": [
+   "https://fortune.com/2026/10/28/new-york-state-kathy-hochul-bans-ai-chatbots-romantic-baby-monitors/",
+   "https://cbs6albany.com/news/local/governor-hochul-signs-nation-leading-bill-to-shield-kids-from-unsafe-ai-chatbots-baby-monitors-new-york-artificial-intelligence-assemblymember-michaelle-c-solages-state-sen-andrew-gounardes-kids-protection-kristen-gonzalez-new-york-capital-cbs6-wrgb"
+  ],
+  "id": "2026-10-28-02"
+ },
+ {
+  "title": "Anthropic tells Newsom courts should be able to block risky AI models",
+  "summary": "In a letter to California Governor Gavin Newsom, Anthropic said officials should be able to seek court orders blocking release of AI models posing serious risk, and that AI companies should build kill switches and host embedded outside safety auditors.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "US",
+  "reason": "A frontier lab backing court-enforceable release blocks, kill switches and embedded auditors supports stronger human control (F3 up); a proposal, not law.",
+  "sources": [
+   "https://www.thestar.com.my/tech/tech-news/2026/10/29/anthropic-tells-california-governor-courts-should-be-able-to-block-risky-ai-models",
+   "https://www.justsecurity.org/162228/early-edition-october-28-2026/"
+  ],
+  "id": "2026-10-28-03"
+ },
+ {
+  "title": "India weighs a separate safety regime for the most powerful AI models",
+  "summary": "India is considering an AI law that would create a separate safety framework for the most powerful models, requiring developers to show adequate safeguards, NDTV reported. The consultation paper is due in the coming weeks.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "signal",
+  "region": "India",
+  "reason": "Plans for frontier-model safety rules point to more oversight (F3 up); still pre-consultation. Follows Vaishnaw's remarks scored on 23 Oct.",
+  "sources": [
+   "https://www.newsbytesapp.com/news/science/india-considers-new-law-to-rein-in-ai-risks/story"
+  ],
+  "id": "2026-10-28-04"
+ },
+ {
+  "title": "OpenAI plans to buy Google's TPU chips, The Information reports",
+  "summary": "OpenAI plans to buy Google's AI chips, adding TPUs to its compute alongside Nvidia GPUs, The Information reported. Terms were not disclosed and neither company confirmed a deal.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "More compute sources for a frontier lab support faster capability growth (F1 up); a reported plan.",
+  "sources": [
+   "https://thenextweb.com/news/openai-google-tpu-chips",
+   "https://www.theinformation.com/articles/openai-longtime-nvidia-customer-plans-buy-googles-ai-chips"
+  ],
+  "id": "2026-10-28-05"
+ }
+]

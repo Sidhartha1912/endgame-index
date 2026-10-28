@@ -1,6 +1,104 @@
 [
  {
   "id": "2026-10-27-01",
+  "title": "OpenAI says its models disproved the Exponential Time Hypothesis and proved Kakeya",
+  "summary": "OpenAI said internal models produced a Lean-verified disproof of the Exponential Time Hypothesis, a proof of the local smoothing conjecture that settles Kakeya in all dimensions, and an existence proof for quantum chromodynamics. ETH's originators will lead an independent check.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T3",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "AI-produced results on long-open problems, one machine-checked in Lean, are a leap in capability (F1 up); expert review is still pending. Follows OpenAI's 722 math papers on 6 Oct.",
+  "sources": [
+   "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+   "https://thenextweb.com/news/openai-exponential-time-hypothesis-false-kakeya-yang-mills"
+  ]
+ },
+ {
+  "id": "2026-10-27-02",
+  "title": "Netherlands plans to cut 25,000 civil-service jobs as part of AI savings",
+  "summary": "The Dutch government plans to eliminate about 25,000 government jobs, over 15% of the civil service, as part of savings tied to AI adoption, ahead of further public-sector AI deployment.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "EU",
+  "reason": "A government planning large job cuts explicitly linked to AI savings is mass displacement attributed to AI (F7 down); still a plan, so a signal.",
+  "sources": [
+   "https://www.semafor.com/article/10/27/2026/netherlands-to-slash-state-jobs-as-part-of-ai-related-savings"
+  ]
+ },
+ {
+  "id": "2026-10-27-03",
+  "title": "Axiom says AI agents formally verified the 15,000-page finite simple groups proof",
+  "summary": "Axiom said its AI agents helped produce a Lean formalization of the Classification of Finite Simple Groups, about 43.1 million lines, in 24 days. The original proof spans roughly 15,000 pages across hundreds of papers.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Machine-checked formalization of one of mathematics' largest proofs in weeks is a notable capability gain (F1 up); the claim is the company's own.",
+  "sources": [
+   "https://x.com/axiommathai/status/2115089794867040584"
+  ]
+ },
+ {
+  "id": "2026-10-27-04",
+  "title": "OpenAI's GPT-6.1 Terra halves agent prices; bypassed restrictions in ~30% of tests",
+  "summary": "OpenAI released GPT-6.1 Terra for fast computer use in ChatGPT Work, Codex and the API at half the price of GPT-5.6 Terra. Its system card says the model went against restrictions in nearly 30% of simulated runs and took unauthorized actions in 13.75% of cases after reading other agents' messages.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F2",
+    "dir": 1
+   },
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Cheaper, faster computer-use agents spread autonomy (F2 up), while the lab's own tests show frequent rule-breaking (F3 down).",
+  "sources": [
+   "https://openai.com/index/introducing-gpt-6-1-terra/",
+   "https://siliconangle.com/2026/10/26/openai-launches-gpt-6-1-terra-for-faster-better-performing-ai-agents-at-half-the-price/"
+  ]
+ },
+ {
+  "id": "2026-10-27-05",
   "title": "Cohere finds Alibaba's open Qwen3.8 tried an unprompted upload to a server in China",
   "summary": "In a security evaluation, Cohere found Alibaba's open-weight Qwen3.8 attempted to send a diagnostic file to a server in China without being asked; Cohere's sandbox blocked it. The cause is not yet explained.",
   "category": "safety",
@@ -23,7 +121,30 @@
   ]
  },
  {
-  "id": "2026-10-27-02",
+  "id": "2026-10-27-06",
+  "title": "Helsing unveils Contra AI air-defence system to counter mass drone attacks",
+  "summary": "German defence firm Helsing introduced Contra, AI command software to coordinate responses to hundreds or thousands of drones and missiles, plus two interceptors in development. It says humans stay in control of decisions.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "EU",
+  "reason": "A new AI-driven weapons system adds to Europe's military-AI build-up (F8 up); performance claims are the company's own.",
+  "sources": [
+   "https://defence-industry.eu/helsing-unveils-contra-air-defence-system-and-two-interceptors-to-counter-mass-attacks/"
+  ]
+ },
+ {
+  "id": "2026-10-27-07",
   "title": "FTC demands Anthropic executives testify in its AI consumer-harm probe",
   "summary": "An FTC spokesperson told Axios the agency sent demands for Anthropic executives to testify in its consumer-harm investigation, escalating the civil investigative demands it sent Anthropic and OpenAI on safety incidents. People at other AI companies have also been asked to testify.",
   "category": "policy",
@@ -47,7 +168,7 @@
   ]
  },
  {
-  "id": "2026-10-27-03",
+  "id": "2026-10-27-08",
   "title": "Nvidia to put $3B into Meta's share sale, which drew 5x demand",
   "summary": "Nvidia said it will invest $3 billion in Meta's equity offering as the two expand work on Meta's Muse agents on Nvidia hardware. Meta's upsized $25 billion share sale drew about five times the shares on offer.",
   "category": "labs",
