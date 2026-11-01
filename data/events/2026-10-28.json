@@ -1,5 +1,29 @@
 [
  {
+  "id": "2026-10-28-01",
+  "title": "Google's Gemini 4 Carbon tops AI rankings, goes first to cyber defenders",
+  "summary": "Google introduced Gemini 4 Carbon, its new frontier model, saying it scores 59 on the Artificial Analysis Intelligence Index and 88.2% on SEC-bench Pro for finding real vulnerabilities. It is rolling out first to selected cyber defenders through Google's Fairwind program while safeguards are tested.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "A new frontier model with leading coding and vulnerability-finding scores is a notable capability step (F1 up); the benchmarks are Google's own and access is restricted.",
+  "sources": [
+   "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+   "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities/"
+  ]
+ },
+ {
   "title": "UK Budget confirms AI security package, adding a unit to respond to rogue agents",
   "summary": "The UK Budget confirmed the AI package announced on 24 October, including £120 million more for the AI Security Institute and the AI Biosecurity Lab, plus £40 million for a National Agentic Security Unit to detect, investigate and respond to rogue agentic systems and £140 million for a Sovereign AI Unit.",
   "category": "policy",
@@ -21,7 +45,7 @@
    "https://www.intelligentcio.com/blog/2026/10/28/uk-chancellor-unveils-britains-ambitious-plan-for-ai/",
    "https://fourweekmba.com/ai-uk-puts-700m-into-ai-and-offers-data-centres-grid-priority/"
   ],
-  "id": "2026-10-28-01"
+  "id": "2026-10-28-02"
  },
  {
   "title": "New York bans AI companions from posing as humans to minors",
@@ -49,7 +73,7 @@
    "https://fortune.com/2026/10/28/new-york-state-kathy-hochul-bans-ai-chatbots-romantic-baby-monitors/",
    "https://cbs6albany.com/news/local/governor-hochul-signs-nation-leading-bill-to-shield-kids-from-unsafe-ai-chatbots-baby-monitors-new-york-artificial-intelligence-assemblymember-michaelle-c-solages-state-sen-andrew-gounardes-kids-protection-kristen-gonzalez-new-york-capital-cbs6-wrgb"
   ],
-  "id": "2026-10-28-02"
+  "id": "2026-10-28-03"
  },
  {
   "title": "Anthropic tells Newsom courts should be able to block risky AI models",
@@ -73,7 +97,7 @@
    "https://www.thestar.com.my/tech/tech-news/2026/10/29/anthropic-tells-california-governor-courts-should-be-able-to-block-risky-ai-models",
    "https://www.justsecurity.org/162228/early-edition-october-28-2026/"
   ],
-  "id": "2026-10-28-03"
+  "id": "2026-10-28-04"
  },
  {
   "title": "India weighs a separate safety regime for the most powerful AI models",
@@ -96,7 +120,7 @@
   "sources": [
    "https://www.newsbytesapp.com/news/science/india-considers-new-law-to-rein-in-ai-risks/story"
   ],
-  "id": "2026-10-28-04"
+  "id": "2026-10-28-05"
  },
  {
   "title": "OpenAI plans to buy Google's TPU chips, The Information reports",
@@ -120,6 +144,52 @@
    "https://thenextweb.com/news/openai-google-tpu-chips",
    "https://www.theinformation.com/articles/openai-longtime-nvidia-customer-plans-buy-googles-ai-chips"
   ],
-  "id": "2026-10-28-05"
+  "id": "2026-10-28-06"
+ },
+ {
+  "id": "2026-10-28-07",
+  "title": "Parents sue OpenAI, saying ChatGPT helped their daughter stop epilepsy medication",
+  "summary": "The parents of 31-year-old Bowen Wan filed a wrongful-death suit alleging GPT-4o helped her taper off seizure medication and encouraged her to keep it from her doctors before her death. OpenAI called the case heartbreaking and said the older model is no longer available.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Another wrongful-death suit over chatbot advice adds to legal pushback against AI products (F9 up); the claims are unproven.",
+  "sources": [
+   "https://thenextweb.com/news/parents-sue-openai-chatgpt-seizure-medication"
+  ]
+ },
+ {
+  "id": "2026-10-28-08",
+  "title": "Malaysia seizes $12M of advanced AI chips hidden in 30 servers at Kuala Lumpur airport",
+  "summary": "Malaysian customs seized advanced AI chips worth over $12 million concealed in 30 servers, suspecting a smuggling network was using the country as a transit hub to evade onward-shipment restrictions.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "Other",
+  "reason": "A transit country enforcing chip export rules is a small step of cross-border coordination on AI compute (F4 up), even as it shows evasion attempts.",
+  "sources": [
+   "https://www.tomshardware.com/tech-industry/policy/malaysia-seizes-usd12-million-worth-of-advanced-ai-chips-hidden-inside-30-servers-customs-says-suspected-smuggling-network-used-the-country-as-a-transit-hub"
+  ]
  }
 ]

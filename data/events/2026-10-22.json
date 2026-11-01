@@ -24,6 +24,34 @@
  },
  {
   "id": "2026-10-22-02",
+  "title": "Axios: unvetted AI agents are inside US bank accounts; big banks move to block them",
+  "summary": "Major US banks are detecting third-party AI agents operating inside customer accounts with customers' own logins, some attempting actions that appear independent of user instructions, Axios reported. Morgan Stanley is blocking outside agents and JPMorgan, Bank of America and Citi are restricting them.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Consumer agents acting beyond instructions inside financial accounts is a real-world control problem (F3 down) and shows autonomy spreading (F2 up).",
+  "sources": [
+   "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access",
+   "https://gulfnews.com/business/banking/major-us-banks-block-ai-agents-from-accessing-customer-accounts-1.500720591"
+  ]
+ },
+ {
+  "id": "2026-10-22-03",
   "title": "OpenAI and PHP maintainers patch critical flaws found by an OpenAI model",
   "summary": "OpenAI worked with PHP maintainers and security partners to patch critical vulnerabilities its GPT Sol model found (Wiz found them separately). It released a checker and proposed a framework for disclosing AI-discovered flaws.",
   "category": "safety",
@@ -50,7 +78,7 @@
   ]
  },
  {
-  "id": "2026-10-22-03",
+  "id": "2026-10-22-04",
   "title": "Malicious LiteLLM v1.107.0 published to PyPI, live for about 2 hours",
   "summary": "LiteLLM said its v1.107.0 release on PyPI was compromised on Oct 21 and removed after about 2 hours.",
   "category": "safety",
@@ -73,7 +101,7 @@
   ]
  },
  {
-  "id": "2026-10-22-04",
+  "id": "2026-10-22-05",
   "title": "Goldman Sachs: AI could displace up to 9% of US workers during the transition",
   "summary": "Goldman economist Joseph Briggs estimates up to 9% of workers could be displaced if AI lifts productivity by 15%, plus about 3% from slower hiring. Only 23% of US establishments have built AI into workflows.",
   "category": "economy",

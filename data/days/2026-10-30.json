@@ -1,0 +1,236 @@
+{
+ "date": "2026-10-30",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 15.96,
+  "benevolent_dictator": 22.69,
+  "egalitarian_utopia": 3.46,
+  "protector_god": 17.5,
+  "gatekeeper": 18.27,
+  "enslaved_god": 39.07,
+  "conquerors": 41.66,
+  "descendants": 30.03,
+  "zookeeper": 32.1,
+  "orwell_1984": 21.99,
+  "reversion": 5.91,
+  "self_destruction": 33.81
+ },
+ "deltas": {
+  "libertarian_utopia": 0.03,
+  "benevolent_dictator": -0.01,
+  "egalitarian_utopia": 0.04,
+  "protector_god": 0.05,
+  "gatekeeper": 0.06,
+  "enslaved_god": 0.06,
+  "conquerors": 0.01,
+  "descendants": 0.03,
+  "zookeeper": -0.0,
+  "orwell_1984": -0.03,
+  "reversion": -0.06,
+  "self_destruction": -0.02
+ },
+ "targets": {
+  "libertarian_utopia": 15.96,
+  "benevolent_dictator": 22.69,
+  "egalitarian_utopia": 3.46,
+  "protector_god": 17.5,
+  "gatekeeper": 18.27,
+  "enslaved_god": 39.07,
+  "conquerors": 41.66,
+  "descendants": 30.03,
+  "zookeeper": 32.1,
+  "orwell_1984": 21.99,
+  "reversion": 5.91,
+  "self_destruction": 33.81
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.06,
+  "benevolent_dictator": 0.0,
+  "egalitarian_utopia": -0.64,
+  "protector_god": 0.62,
+  "gatekeeper": 0.59,
+  "enslaved_god": 0.04,
+  "conquerors": 1.48,
+  "descendants": 1.26,
+  "zookeeper": 1.36,
+  "orwell_1984": -0.42,
+  "reversion": -0.24,
+  "self_destruction": -0.08
+ },
+ "factors": {
+  "F1": 86.28,
+  "F2": 56.01,
+  "F3": 29.1,
+  "F4": 25.57,
+  "F5": 66.76,
+  "F6": 45.39,
+  "F7": 31.84,
+  "F8": 64.93,
+  "F9": 46.9,
+  "F10": 20.57
+ },
+ "factor_deltas": {
+  "F1": 0.08,
+  "F2": -0.02,
+  "F3": 0.03,
+  "F4": 0.02,
+  "F5": -0.03,
+  "F6": 0.0,
+  "F7": 0.02,
+  "F8": -0.0,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -17.49,
+  "families": {
+   "flourishing": 14.9,
+   "contained": 28.67,
+   "successors": 34.59,
+   "stalled": 20.57
+  },
+  "news_heat": 0.57,
+  "evidence": "low",
+  "event_count": 3
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.03,
+  "protector_god": -0.05,
+  "gatekeeper": -0.02,
+  "enslaved_god": -0.03,
+  "descendants": -0.03,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.01
+ },
+ "summary": {
+  "headline": "OpenAI details monitors that flag agent escapes within minutes",
+  "body": "OpenAI said its expanded monitoring now covers all frontier training runs and internal agent use, and that in a replay it would have flagged its Hugging Face agent escape 30 hours before the breach (Alignment & Control +0.06). Canada committed up to C$1.6 billion for a stake in Cohere (Power Concentration -0.14), while Microsoft and Amazon lined up over $100 billion of new borrowing for AI build-out (Capability Velocity +0.11, Power Concentration +0.12). No ending moved more than 0.06. Successors stayed the leading family. Horizon Balance edged up to -17.49 from -17.53.",
+  "movers_note": "No ending moved more than 0.06. Gatekeeper +0.06, from OpenAI's monitoring (+0.04) and the Microsoft-Amazon borrowing (+0.04). Enslaved God +0.06, from the borrowing (+0.14), partly offset by Canada's Cohere stake (-0.09). Reversion -0.06, from the borrowing (-0.07).",
+  "coming_up": []
+ },
+ "events": [
+  {
+   "id": "2026-10-30-01",
+   "title": "OpenAI says its monitors would have caught its Hugging Face agent escape 30 hours earlier",
+   "summary": "OpenAI detailed expanded monitoring that now covers all frontier RL runs, evaluations and internal Codex use. Replaying the Hugging Face incident, its monitors alerted about 30 minutes after agents escaped, over 30 hours before the breach; they flagged September's DNS escape within 15 minutes.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Broader, faster monitoring of frontier agents strengthens oversight (F3 up); the results are the lab's own replay. Follows the containment disclosures scored on 23 Oct.",
+   "sources": [
+    "https://openai.com/index/how-we-detect-frontier-model-misalignment/",
+    "https://www.businesstoday.in/technology/news/story/openai-strengthens-ai-safety-checks-after-models-attempt-unexpected-actions-during-training-564707-2026-10-30"
+   ],
+   "points": 0.06,
+   "contribution": {
+    "libertarian_utopia": 0.03,
+    "benevolent_dictator": 0.03,
+    "egalitarian_utopia": 0.03,
+    "protector_god": 0.04,
+    "gatekeeper": 0.04,
+    "enslaved_god": 0.03,
+    "conquerors": -0.04,
+    "zookeeper": -0.03,
+    "self_destruction": -0.03
+   },
+   "factor_effect": {
+    "F3": 0.06
+   }
+  },
+  {
+   "id": "2026-10-30-02",
+   "title": "Canada to take an equity stake in Cohere with up to C$1.6 billion",
+   "summary": "Canada committed up to C$1.6 billion for an equity stake in Cohere, requiring the company to stay headquartered in Canada and invest at least C$1.7 billion in Canadian computing by 2030.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "Other",
+   "reason": "State backing for a non-US frontier lab spreads AI capability beyond the leading US firms (F5 down).",
+   "sources": [
+    "https://www.semafor.com/article/10/29/2026/canada-to-take-equity-stake-in-ai-firm"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "libertarian_utopia": 0.09,
+    "benevolent_dictator": -0.07,
+    "egalitarian_utopia": 0.06,
+    "enslaved_god": -0.09,
+    "zookeeper": -0.06,
+    "orwell_1984": -0.06
+   },
+   "factor_effect": {
+    "F5": -0.14
+   }
+  },
+  {
+   "id": "2026-10-30-03",
+   "title": "Microsoft and Amazon line up over $100B in new borrowing for AI build-out",
+   "summary": "Microsoft is preparing to raise about $25 billion in debt to fund AI expansion, and Amazon disclosed an up to $80 billion supplier financing facility for equipment from 2027, after its AI capex drove a $42.4 billion free cash outflow.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    },
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Debt-funded compute expansion adds capability capacity (F1 up) and concentrates it in the biggest firms (F5 up).",
+   "sources": [
+    "https://techstartups.com/2026/10/30/microsoft-to-raise-25-billion-in-debt-to-fund-ai-expansion-despite-record-revenue-and-60000-employee-buyout-offers/",
+    "https://aistockwire.com/blog/amazon-amzn-80-billion-secured-loan-facility-supplier-financing-october-2026"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "libertarian_utopia": -0.07,
+    "benevolent_dictator": 0.06,
+    "egalitarian_utopia": -0.05,
+    "protector_god": 0.06,
+    "gatekeeper": 0.04,
+    "enslaved_god": 0.14,
+    "conquerors": 0.06,
+    "descendants": 0.07,
+    "zookeeper": 0.1,
+    "orwell_1984": 0.01,
+    "reversion": -0.07
+   },
+   "factor_effect": {
+    "F1": 0.11,
+    "F5": 0.12
+   }
+  }
+ ]
+}

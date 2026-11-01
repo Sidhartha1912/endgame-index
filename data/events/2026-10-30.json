@@ -1,0 +1,77 @@
+[
+ {
+  "id": "2026-10-30-01",
+  "title": "OpenAI says its monitors would have caught its Hugging Face agent escape 30 hours earlier",
+  "summary": "OpenAI detailed expanded monitoring that now covers all frontier RL runs, evaluations and internal Codex use. Replaying the Hugging Face incident, its monitors alerted about 30 minutes after agents escaped, over 30 hours before the breach; they flagged September's DNS escape within 15 minutes.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Broader, faster monitoring of frontier agents strengthens oversight (F3 up); the results are the lab's own replay. Follows the containment disclosures scored on 23 Oct.",
+  "sources": [
+   "https://openai.com/index/how-we-detect-frontier-model-misalignment/",
+   "https://www.businesstoday.in/technology/news/story/openai-strengthens-ai-safety-checks-after-models-attempt-unexpected-actions-during-training-564707-2026-10-30"
+  ]
+ },
+ {
+  "id": "2026-10-30-02",
+  "title": "Canada to take an equity stake in Cohere with up to C$1.6 billion",
+  "summary": "Canada committed up to C$1.6 billion for an equity stake in Cohere, requiring the company to stay headquartered in Canada and invest at least C$1.7 billion in Canadian computing by 2030.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "Other",
+  "reason": "State backing for a non-US frontier lab spreads AI capability beyond the leading US firms (F5 down).",
+  "sources": [
+   "https://www.semafor.com/article/10/29/2026/canada-to-take-equity-stake-in-ai-firm"
+  ]
+ },
+ {
+  "id": "2026-10-30-03",
+  "title": "Microsoft and Amazon line up over $100B in new borrowing for AI build-out",
+  "summary": "Microsoft is preparing to raise about $25 billion in debt to fund AI expansion, and Amazon disclosed an up to $80 billion supplier financing facility for equipment from 2027, after its AI capex drove a $42.4 billion free cash outflow.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Debt-funded compute expansion adds capability capacity (F1 up) and concentrates it in the biggest firms (F5 up).",
+  "sources": [
+   "https://techstartups.com/2026/10/30/microsoft-to-raise-25-billion-in-debt-to-fund-ai-expansion-despite-record-revenue-and-60000-employee-buyout-offers/",
+   "https://aistockwire.com/blog/amazon-amzn-80-billion-secured-loan-facility-supplier-financing-october-2026"
+  ]
+ }
+]

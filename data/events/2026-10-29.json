@@ -1,0 +1,146 @@
+[
+ {
+  "id": "2026-10-29-01",
+  "title": "Mistral releases open weights for Large 4, a 1-trillion-parameter model",
+  "summary": "French lab Mistral released the weights of Large 4, its 1-trillion-parameter multimodal model aimed at software development and defensive cybersecurity, so organisations can run it on their own infrastructure.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   },
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "EU",
+  "reason": "A near-frontier open-weight model spreads advanced capability beyond a few labs (F5 down) and adds capability (F1 up). Follows the preview scored on 6 Oct.",
+  "sources": [
+   "https://mistral.ai/news/mistral-large-4-oss/",
+   "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/"
+  ]
+ },
+ {
+  "id": "2026-10-29-02",
+  "title": "DeepSeek and Moonshot reportedly built latest models using OpenAI's Astra outputs",
+  "summary": "The Information reported that China's DeepSeek and Moonshot AI relied on outputs from OpenAI's GPT-6 Astra when developing models released this month, a technique known as distillation.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "China",
+  "reason": "Distilling a US frontier model into Chinese models narrows the lead of the top labs (F5 down); a single-source report.",
+  "sources": [
+   "https://www.tradingview.com/news/reuters.com,2026:newsml_P8N3P10CQ:0-moonshot-ai-and-deepseek-relied-outputs-from-openai-s-astra-when-developing-their-latest-models-released-this-month-the-information/"
+  ]
+ },
+ {
+  "id": "2026-10-29-03",
+  "title": "GitHub: AI agents opened over 40% of pull requests in September, up from 17%",
+  "summary": "GitHub's Octoverse report says coding agents originated more than 40% of pull requests in September, up from 17% in March. It also launched Copilot Fusion, a model-routing system for coding agents.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Agents now starting a large share of real code changes shows autonomy spreading through software work (F2 up).",
+  "sources": [
+   "https://thenextweb.com/news/github-universe-copilot-fusion-octoverse-agents"
+  ]
+ },
+ {
+  "id": "2026-10-29-04",
+  "title": "Swing-state polls find voters want AI safety measures ahead of the midterms",
+  "summary": "Polling in competitive US states found voters want more AI safeguards, and supported reasonable regulation even if it could affect US technological competitiveness, Semafor reported.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "US",
+  "reason": "Voter demand for AI safeguards is growing public unease with the technology (F9 up).",
+  "sources": [
+   "https://www.semafor.com/article/10/29/2026/voters-in-key-states-want-ai-safety-measures-poll-finds",
+   "https://www.semafor.com/article/10/29/2026/ai-disillusionment-puts-regulation-at-forefront-ahead-of-midterms"
+  ]
+ },
+ {
+  "id": "2026-10-29-05",
+  "title": "Finnish police open criminal probe into Google's AI data-center site clearing",
+  "summary": "Police in Finland opened a criminal investigation into whether Google's subsidiary broke environmental laws by clearing about 815 acres of forest for a planned data center near Muhos without required reviews.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "structural",
+  "region": "EU",
+  "reason": "Criminal scrutiny of an AI data-center build is institutional pushback (F9 up). Follows Finland's halt order on Google sites scored on 7 Oct.",
+  "sources": [
+   "https://www.justsecurity.org/162627/early-edition-october-30-2026/"
+  ]
+ },
+ {
+  "id": "2026-10-29-06",
+  "title": "House Democrats propose a resolution opposing bailouts for failing AI firms",
+  "summary": "Representatives Greg Casar and Maxine Waters introduced a resolution opposing federal rescues of insolvent AI companies and efforts to shield executives from the consequences of reckless conduct.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "US",
+  "reason": "Lawmakers pre-emptively rejecting AI bailouts reflects political backlash against the industry (F9 up); non-binding.",
+  "sources": [
+   "https://www.aol.com/articles/house-dems-want-ai-firms-204933000.html"
+  ]
+ }
+]

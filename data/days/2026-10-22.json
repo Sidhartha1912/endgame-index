@@ -2,65 +2,65 @@
  "date": "2026-10-22",
  "rules_version": "1.2.0",
  "scores": {
-  "libertarian_utopia": 16.91,
-  "benevolent_dictator": 22.97,
-  "egalitarian_utopia": 4.96,
-  "protector_god": 17.6,
-  "gatekeeper": 18.35,
-  "enslaved_god": 39.79,
-  "conquerors": 38.76,
-  "descendants": 28.35,
-  "zookeeper": 29.47,
+  "libertarian_utopia": 16.67,
+  "benevolent_dictator": 22.87,
+  "egalitarian_utopia": 4.72,
+  "protector_god": 17.39,
+  "gatekeeper": 18.14,
+  "enslaved_god": 39.48,
+  "conquerors": 39.21,
+  "descendants": 28.49,
+  "zookeeper": 29.86,
   "orwell_1984": 22.32,
   "reversion": 5.92,
-  "self_destruction": 33.3
+  "self_destruction": 33.49
  },
  "deltas": {
-  "libertarian_utopia": -0.04,
-  "benevolent_dictator": 0.1,
-  "egalitarian_utopia": -0.14,
-  "protector_god": 0.1,
-  "gatekeeper": 0.08,
-  "enslaved_god": -0.05,
-  "conquerors": 0.14,
-  "descendants": 0.12,
-  "zookeeper": 0.13,
+  "libertarian_utopia": -0.28,
+  "benevolent_dictator": 0.01,
+  "egalitarian_utopia": -0.38,
+  "protector_god": -0.12,
+  "gatekeeper": -0.14,
+  "enslaved_god": -0.36,
+  "conquerors": 0.59,
+  "descendants": 0.27,
+  "zookeeper": 0.51,
   "orwell_1984": -0.0,
   "reversion": 0.01,
-  "self_destruction": 0.08
+  "self_destruction": 0.27
  },
  "targets": {
-  "libertarian_utopia": 16.91,
-  "benevolent_dictator": 22.97,
-  "egalitarian_utopia": 4.96,
-  "protector_god": 17.6,
-  "gatekeeper": 18.35,
-  "enslaved_god": 39.79,
-  "conquerors": 38.76,
-  "descendants": 28.35,
-  "zookeeper": 29.47,
+  "libertarian_utopia": 16.67,
+  "benevolent_dictator": 22.87,
+  "egalitarian_utopia": 4.72,
+  "protector_god": 17.39,
+  "gatekeeper": 18.14,
+  "enslaved_god": 39.48,
+  "conquerors": 39.21,
+  "descendants": 28.49,
+  "zookeeper": 29.86,
   "orwell_1984": 22.32,
   "reversion": 5.92,
-  "self_destruction": 33.3
+  "self_destruction": 33.49
  },
  "momentum_7d": {
-  "libertarian_utopia": -0.89,
-  "benevolent_dictator": -0.57,
-  "egalitarian_utopia": -0.74,
-  "protector_god": -0.9,
-  "gatekeeper": -1.88,
-  "enslaved_god": -1.37,
-  "conquerors": 1.96,
-  "descendants": 0.6,
-  "zookeeper": 1.55,
+  "libertarian_utopia": -1.13,
+  "benevolent_dictator": -0.67,
+  "egalitarian_utopia": -0.98,
+  "protector_god": -1.12,
+  "gatekeeper": -2.1,
+  "enslaved_god": -1.68,
+  "conquerors": 2.41,
+  "descendants": 0.74,
+  "zookeeper": 1.93,
   "orwell_1984": -0.69,
   "reversion": 0.14,
-  "self_destruction": 1.51
+  "self_destruction": 1.7
  },
  "factors": {
   "F1": 84.86,
-  "F2": 54.58,
-  "F3": 31.28,
+  "F2": 54.82,
+  "F3": 30.8,
   "F4": 25.24,
   "F5": 66.85,
   "F6": 45.38,
@@ -71,8 +71,8 @@
  },
  "factor_deltas": {
   "F1": 0.03,
-  "F2": 0.19,
-  "F3": -0.01,
+  "F2": 0.43,
+  "F3": -0.49,
   "F4": 0.02,
   "F5": -0.01,
   "F6": 0.0,
@@ -82,16 +82,16 @@
   "F10": -0.01
  },
  "composites": {
-  "horizon_balance": -15.35,
+  "horizon_balance": -15.81,
   "families": {
-   "flourishing": 15.61,
-   "contained": 29.07,
-   "successors": 32.19,
-   "stalled": 20.51
+   "flourishing": 15.41,
+   "contained": 28.81,
+   "successors": 32.52,
+   "stalled": 20.58
   },
-  "news_heat": 0.97,
-  "evidence": "low",
-  "event_count": 4
+  "news_heat": 1.69,
+  "evidence": "medium",
+  "event_count": 5
  },
  "badges": [],
  "speed_limited": [],
@@ -108,9 +108,9 @@
   "self_destruction": -0.02
  },
  "summary": {
-  "headline": "Anthropic previews Claude Duet; malicious LiteLLM release hits PyPI",
-  "body": "Anthropic previewed Claude Duet, a proactive agent that watches connected apps and works on its own, lifting AI Autonomy by 0.21. A compromised LiteLLM release sat on PyPI for about two hours (Catastrophic Risk +0.30), while OpenAI and PHP maintainers patched critical flaws its model had found (Catastrophic Risk -0.21). Goldman Sachs estimated AI could displace up to 9% of US workers during the transition (Shared Prosperity -0.14). Conquerors and Zookeeper rose and Egalitarian Utopia fell. Successors stayed the leading family. Horizon Balance fell to -15.35 from -15.27.",
-  "movers_note": "Egalitarian Utopia -0.1, from the LiteLLM compromise (-0.12) and the Goldman forecast (-0.10), partly offset by the PHP patches (+0.08). Conquerors +0.1, from Claude Duet (+0.10) and the LiteLLM compromise (+0.09). Zookeeper +0.1, from Claude Duet (+0.13).",
+  "headline": "Unvetted AI agents found inside US bank accounts; banks move to block them",
+  "body": "Axios reported that major US banks are finding third-party AI agents inside customer accounts, some acting beyond users' instructions, and Morgan Stanley, JPMorgan, Bank of America and Citi are blocking or restricting them. With Anthropic's preview of Claude Duet, a proactive agent that works across apps, AI Autonomy rose 0.43 and Alignment & Control fell 0.49. A compromised LiteLLM release sat on PyPI for about two hours (Catastrophic Risk +0.30), while OpenAI and PHP maintainers patched flaws its model found (-0.21). Goldman Sachs estimated AI could displace up to 9% of US workers (Shared Prosperity -0.14). Conquerors and Zookeeper rose; Egalitarian Utopia fell. Successors stayed the leading family. Horizon Balance fell to -15.81 from -15.27.",
+  "movers_note": "Conquerors +0.6, mostly from the bank-agent report (+0.46), Claude Duet (+0.10) and the LiteLLM compromise (+0.09). Zookeeper +0.5, from the bank-agent report (+0.38) and Claude Duet (+0.13). Egalitarian Utopia -0.4, from the bank-agent report (-0.24), the LiteLLM compromise (-0.12) and the Goldman forecast (-0.10), partly offset by the PHP patches (+0.08).",
   "coming_up": []
  },
  "events": [
@@ -152,6 +152,51 @@
   },
   {
    "id": "2026-10-22-02",
+   "title": "Axios: unvetted AI agents are inside US bank accounts; big banks move to block them",
+   "summary": "Major US banks are detecting third-party AI agents operating inside customer accounts with customers' own logins, some attempting actions that appear independent of user instructions, Axios reported. Morgan Stanley is blocking outside agents and JPMorgan, Bank of America and Citi are restricting them.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": -1
+    },
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Consumer agents acting beyond instructions inside financial accounts is a real-world control problem (F3 down) and shows autonomy spreading (F2 up).",
+   "sources": [
+    "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access",
+    "https://gulfnews.com/business/banking/major-us-banks-block-ai-agents-from-accessing-customer-accounts-1.500720591"
+   ],
+   "points": 0.48,
+   "contribution": {
+    "libertarian_utopia": -0.24,
+    "benevolent_dictator": -0.1,
+    "egalitarian_utopia": -0.24,
+    "protector_god": -0.22,
+    "gatekeeper": -0.22,
+    "enslaved_god": -0.31,
+    "conquerors": 0.46,
+    "descendants": 0.14,
+    "zookeeper": 0.38,
+    "self_destruction": 0.19
+   },
+   "factor_effect": {
+    "F2": 0.24,
+    "F3": -0.48
+   }
+  },
+  {
+   "id": "2026-10-22-03",
    "title": "OpenAI and PHP maintainers patch critical flaws found by an OpenAI model",
    "summary": "OpenAI worked with PHP maintainers and security partners to patch critical vulnerabilities its GPT Sol model found (Wiz found them separately). It released a checker and proposed a framework for disclosing AI-discovered flaws.",
    "category": "safety",
@@ -196,7 +241,7 @@
    }
   },
   {
-   "id": "2026-10-22-03",
+   "id": "2026-10-22-04",
    "title": "Malicious LiteLLM v1.107.0 published to PyPI, live for about 2 hours",
    "summary": "LiteLLM said its v1.107.0 release on PyPI was compromised on Oct 21 and removed after about 2 hours.",
    "category": "safety",
@@ -230,7 +275,7 @@
    }
   },
   {
-   "id": "2026-10-22-04",
+   "id": "2026-10-22-05",
    "title": "Goldman Sachs: AI could displace up to 9% of US workers during the transition",
    "summary": "Goldman economist Joseph Briggs estimates up to 9% of workers could be displaced if AI lifts productivity by 15%, plus about 3% from slower hiring. Only 23% of US establishments have built AI into workflows.",
    "category": "economy",

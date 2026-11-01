@@ -1,0 +1,155 @@
+{
+ "date": "2026-10-31",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 15.87,
+  "benevolent_dictator": 22.66,
+  "egalitarian_utopia": 3.4,
+  "protector_god": 17.45,
+  "gatekeeper": 18.25,
+  "enslaved_god": 39.04,
+  "conquerors": 41.69,
+  "descendants": 30.0,
+  "zookeeper": 32.08,
+  "orwell_1984": 22.0,
+  "reversion": 5.97,
+  "self_destruction": 33.96
+ },
+ "deltas": {
+  "libertarian_utopia": -0.08,
+  "benevolent_dictator": -0.03,
+  "egalitarian_utopia": -0.06,
+  "protector_god": -0.04,
+  "gatekeeper": -0.02,
+  "enslaved_god": -0.03,
+  "conquerors": 0.04,
+  "descendants": -0.03,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.01,
+  "reversion": 0.06,
+  "self_destruction": 0.16
+ },
+ "targets": {
+  "libertarian_utopia": 15.87,
+  "benevolent_dictator": 22.66,
+  "egalitarian_utopia": 3.4,
+  "protector_god": 17.45,
+  "gatekeeper": 18.25,
+  "enslaved_god": 39.04,
+  "conquerors": 41.69,
+  "descendants": 30.0,
+  "zookeeper": 32.08,
+  "orwell_1984": 22.0,
+  "reversion": 5.97,
+  "self_destruction": 33.96
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.68,
+  "benevolent_dictator": -0.24,
+  "egalitarian_utopia": -1.18,
+  "protector_god": 0.16,
+  "gatekeeper": 0.19,
+  "enslaved_god": -0.22,
+  "conquerors": 2.05,
+  "descendants": 1.25,
+  "zookeeper": 1.72,
+  "orwell_1984": -0.36,
+  "reversion": -0.09,
+  "self_destruction": 0.68
+ },
+ "factors": {
+  "F1": 86.25,
+  "F2": 55.99,
+  "F3": 29.07,
+  "F4": 25.58,
+  "F5": 66.75,
+  "F6": 45.39,
+  "F7": 31.86,
+  "F8": 65.08,
+  "F9": 46.89,
+  "F10": 20.57
+ },
+ "factor_deltas": {
+  "F1": -0.03,
+  "F2": -0.02,
+  "F3": -0.03,
+  "F4": 0.02,
+  "F5": -0.01,
+  "F6": 0.0,
+  "F7": 0.02,
+  "F8": 0.14,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -17.59,
+  "families": {
+   "flourishing": 14.85,
+   "contained": 28.64,
+   "successors": 34.59,
+   "stalled": 20.65
+  },
+  "news_heat": 0.14,
+  "evidence": "low",
+  "event_count": 1
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.03,
+  "protector_god": -0.04,
+  "gatekeeper": -0.02,
+  "enslaved_god": -0.03,
+  "descendants": -0.03,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.01
+ },
+ "summary": {
+  "headline": "Quiet day: Google in talks to join Pentagon's Golden Dome programme",
+  "body": "A quiet Saturday. Bloomberg reported Google is in talks with the Pentagon to help secure data for the $185 billion Golden Dome missile-defense programme, which plans heavy use of AI and autonomy, lifting Catastrophic Risk by 0.14. Self-Destruction rose slightly. Successors stayed the leading family. Horizon Balance slipped to -17.59 from -17.49.",
+  "movers_note": "Self-Destruction +0.16, from Google's Golden Dome talks (+0.16). Libertarian Utopia -0.08, from the Golden Dome talks (-0.07). Egalitarian Utopia -0.06, from the Golden Dome talks (-0.06).",
+  "coming_up": [
+   "US midterm elections on 3 November"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-10-31-01",
+   "title": "Google in talks with the Pentagon to work on Golden Dome missile-defense data security",
+   "summary": "Alphabet's Google is in talks with the US Defense Department to help secure the data underpinning the $185 billion Golden Dome missile-defense programme, which plans heavy use of AI and autonomy, Bloomberg reported.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "US",
+   "reason": "A frontier AI company moving into a major military programme deepens military-AI integration (F8 up); still talks.",
+   "sources": [
+    "https://finance.yahoo.com/technology/ai/articles/alphabet-talks-join-trump-golden-211555344.html",
+    "https://thenextweb.com/news/google-golden-dome-pentagon-data-security-talks"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "libertarian_utopia": -0.07,
+    "egalitarian_utopia": -0.06,
+    "conquerors": 0.04,
+    "reversion": 0.06,
+    "self_destruction": 0.16
+   },
+   "factor_effect": {
+    "F8": 0.14
+   }
+  }
+ ]
+}

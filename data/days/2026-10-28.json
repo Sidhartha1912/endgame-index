@@ -2,96 +2,96 @@
  "date": "2026-10-28",
  "rules_version": "1.2.0",
  "scores": {
-  "libertarian_utopia": 15.9,
-  "benevolent_dictator": 22.92,
-  "egalitarian_utopia": 3.47,
-  "protector_god": 17.41,
-  "gatekeeper": 18.13,
-  "enslaved_god": 39.46,
-  "conquerors": 40.91,
-  "descendants": 29.53,
-  "zookeeper": 31.6,
-  "orwell_1984": 22.25,
-  "reversion": 5.71,
-  "self_destruction": 33.71
+  "libertarian_utopia": 15.66,
+  "benevolent_dictator": 22.83,
+  "egalitarian_utopia": 3.23,
+  "protector_god": 17.36,
+  "gatekeeper": 18.15,
+  "enslaved_god": 39.35,
+  "conquerors": 41.52,
+  "descendants": 29.88,
+  "zookeeper": 32.15,
+  "orwell_1984": 22.2,
+  "reversion": 5.65,
+  "self_destruction": 33.83
  },
  "deltas": {
   "libertarian_utopia": 0.13,
   "benevolent_dictator": 0.1,
   "egalitarian_utopia": 0.14,
-  "protector_god": 0.2,
-  "gatekeeper": 0.19,
-  "enslaved_god": 0.17,
-  "conquerors": -0.14,
-  "descendants": 0.04,
-  "zookeeper": -0.1,
-  "orwell_1984": -0.02,
-  "reversion": 0.09,
-  "self_destruction": -0.11
+  "protector_god": 0.37,
+  "gatekeeper": 0.42,
+  "enslaved_god": 0.37,
+  "conquerors": 0.03,
+  "descendants": 0.23,
+  "zookeeper": 0.07,
+  "orwell_1984": -0.07,
+  "reversion": 0.03,
+  "self_destruction": -0.18
  },
  "targets": {
-  "libertarian_utopia": 15.9,
-  "benevolent_dictator": 22.92,
-  "egalitarian_utopia": 3.47,
-  "protector_god": 17.41,
-  "gatekeeper": 18.13,
-  "enslaved_god": 39.46,
-  "conquerors": 40.91,
-  "descendants": 29.53,
-  "zookeeper": 31.6,
-  "orwell_1984": 22.25,
-  "reversion": 5.71,
-  "self_destruction": 33.71
+  "libertarian_utopia": 15.66,
+  "benevolent_dictator": 22.83,
+  "egalitarian_utopia": 3.23,
+  "protector_god": 17.36,
+  "gatekeeper": 18.15,
+  "enslaved_god": 39.35,
+  "conquerors": 41.52,
+  "descendants": 29.88,
+  "zookeeper": 32.15,
+  "orwell_1984": 22.2,
+  "reversion": 5.65,
+  "self_destruction": 33.83
  },
  "momentum_7d": {
-  "libertarian_utopia": -1.06,
-  "benevolent_dictator": 0.06,
-  "egalitarian_utopia": -1.63,
-  "protector_god": -0.09,
-  "gatekeeper": -0.15,
-  "enslaved_god": -0.38,
-  "conquerors": 2.29,
-  "descendants": 1.31,
-  "zookeeper": 2.25,
-  "orwell_1984": -0.08,
-  "reversion": -0.2,
-  "self_destruction": 0.48
+  "libertarian_utopia": -1.29,
+  "benevolent_dictator": -0.03,
+  "egalitarian_utopia": -1.87,
+  "protector_god": -0.14,
+  "gatekeeper": -0.13,
+  "enslaved_god": -0.49,
+  "conquerors": 2.91,
+  "descendants": 1.65,
+  "zookeeper": 2.8,
+  "orwell_1984": -0.12,
+  "reversion": -0.25,
+  "self_destruction": 0.6
  },
  "factors": {
-  "F1": 85.85,
-  "F2": 55.6,
-  "F3": 29.57,
-  "F4": 25.39,
+  "F1": 86.18,
+  "F2": 55.84,
+  "F3": 29.09,
+  "F4": 25.53,
   "F5": 67.25,
   "F6": 45.38,
   "F7": 31.8,
   "F8": 64.94,
-  "F9": 46.44,
+  "F9": 46.58,
   "F10": 20.58
  },
  "factor_deltas": {
-  "F1": 0.09,
+  "F1": 0.42,
   "F2": -0.02,
   "F3": 0.24,
-  "F4": 0.02,
+  "F4": 0.16,
   "F5": -0.01,
   "F6": 0.0,
   "F7": 0.02,
   "F8": -0.0,
-  "F9": 0.14,
+  "F9": 0.29,
   "F10": -0.01
  },
  "composites": {
-  "horizon_balance": -17.19,
+  "horizon_balance": -17.65,
   "families": {
-   "flourishing": 14.93,
-   "contained": 28.8,
-   "successors": 34.01,
-   "stalled": 20.55
+   "flourishing": 14.77,
+   "contained": 28.75,
+   "successors": 34.52,
+   "stalled": 20.56
   },
-  "news_heat": 0.65,
-  "evidence": "low",
-  "event_count": 5
+  "news_heat": 1.64,
+  "evidence": "medium",
+  "event_count": 8
  },
  "badges": [],
  "speed_limited": [],
@@ -109,14 +109,52 @@
   "reversion": 0.01
  },
  "summary": {
-  "headline": "UK Budget funds a unit to respond to rogue AI agents",
-  "body": "The UK Budget confirmed its AI security package, including £120 million more for the AI Security Institute and £40 million for a unit to detect and respond to rogue agentic systems. New York banned AI companions from posing as humans to minors (Tech Backlash +0.14), Anthropic told California's governor courts should be able to block risky models, and India is weighing a separate safety regime for the most powerful models. Together they lifted Alignment & Control by 0.24. The Information reported OpenAI plans to buy Google's TPU chips (Capability Velocity +0.11). Protector God, Gatekeeper and Enslaved God rose. Successors stayed the leading family. Horizon Balance rose to -17.19 from -17.43.",
-  "movers_note": "Protector God +0.2, from Anthropic's letter to Newsom (+0.07), the OpenAI TPU report (+0.06), New York's law (+0.05) and the UK Budget (+0.04), partly offset by fading news (-0.04). Gatekeeper +0.2, from the letter (+0.06), the TPU report (+0.05) and New York's law (+0.04). Enslaved God +0.2, from the TPU report (+0.07) and the letter (+0.05).",
+  "headline": "Google's Gemini 4 Carbon tops AI rankings; UK funds a rogue-agent unit",
+  "body": "Google launched Gemini 4 Carbon, which it says tops the Artificial Analysis index and leads on finding software vulnerabilities, releasing it first to cyber defenders; with a report that OpenAI plans to buy Google's TPUs, Capability Velocity rose 0.42. The UK Budget funded a unit to respond to rogue AI agents, Anthropic told California's governor courts should be able to block risky models, and India weighed a frontier-model safety regime (Alignment & Control +0.24). New York banned AI companions from posing as humans to minors and parents sued OpenAI over ChatGPT medication advice (Tech Backlash +0.29). Malaysia seized $12 million of smuggled AI chips (Global Coordination +0.16). Gatekeeper, Protector God and Enslaved God rose. Successors stayed the leading family. Horizon Balance rose to -17.65 from -17.88.",
+  "movers_note": "Gatekeeper +0.4, from Gemini 4 Carbon (+0.13), the Malaysia chip seizure (+0.10) and Anthropic's letter to Newsom (+0.06). Protector God +0.4, from Carbon (+0.17), the letter (+0.07) and the OpenAI TPU report (+0.06), partly offset by fading news (-0.04). Enslaved God +0.4, from Carbon (+0.20) and the TPU report (+0.07).",
   "coming_up": [
    "New York's AI companion law takes effect on 1 January 2027"
   ]
  },
  "events": [
+  {
+   "id": "2026-10-28-01",
+   "title": "Google's Gemini 4 Carbon tops AI rankings, goes first to cyber defenders",
+   "summary": "Google introduced Gemini 4 Carbon, its new frontier model, saying it scores 59 on the Artificial Analysis Intelligence Index and 88.2% on SEC-bench Pro for finding real vulnerabilities. It is rolling out first to selected cyber defenders through Google's Fairwind program while safeguards are tested.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "A new frontier model with leading coding and vulnerability-finding scores is a notable capability step (F1 up); the benchmarks are Google's own and access is restricted.",
+   "sources": [
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+    "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities/"
+   ],
+   "points": 0.7,
+   "contribution": {
+    "protector_god": 0.17,
+    "gatekeeper": 0.13,
+    "enslaved_god": 0.2,
+    "conquerors": 0.17,
+    "descendants": 0.2,
+    "zookeeper": 0.17,
+    "orwell_1984": -0.1,
+    "reversion": -0.2
+   },
+   "factor_effect": {
+    "F1": 0.33
+   }
+  },
   {
    "title": "UK Budget confirms AI security package, adding a unit to respond to rogue agents",
    "summary": "The UK Budget confirmed the AI package announced on 24 October, including £120 million more for the AI Security Institute and the AI Biosecurity Lab, plus £40 million for a National Agentic Security Unit to detect, investigate and respond to rogue agentic systems and £140 million for a Sovereign AI Unit.",
@@ -139,7 +177,7 @@
     "https://www.intelligentcio.com/blog/2026/10/28/uk-chancellor-unveils-britains-ambitious-plan-for-ai/",
     "https://fourweekmba.com/ai-uk-puts-700m-into-ai-and-offers-data-centres-grid-priority/"
    ],
-   "id": "2026-10-28-01",
+   "id": "2026-10-28-02",
    "points": 0.05,
    "contribution": {
     "libertarian_utopia": 0.03,
@@ -182,7 +220,7 @@
     "https://fortune.com/2026/10/28/new-york-state-kathy-hochul-bans-ai-chatbots-romantic-baby-monitors/",
     "https://cbs6albany.com/news/local/governor-hochul-signs-nation-leading-bill-to-shield-kids-from-unsafe-ai-chatbots-baby-monitors-new-york-artificial-intelligence-assemblymember-michaelle-c-solages-state-sen-andrew-gounardes-kids-protection-kristen-gonzalez-new-york-capital-cbs6-wrgb"
    ],
-   "id": "2026-10-28-02",
+   "id": "2026-10-28-03",
    "points": 0.14,
    "contribution": {
     "libertarian_utopia": 0.04,
@@ -223,7 +261,7 @@
     "https://www.thestar.com.my/tech/tech-news/2026/10/29/anthropic-tells-california-governor-courts-should-be-able-to-block-risky-ai-models",
     "https://www.justsecurity.org/162228/early-edition-october-28-2026/"
    ],
-   "id": "2026-10-28-03",
+   "id": "2026-10-28-04",
    "points": 0.1,
    "contribution": {
     "libertarian_utopia": 0.05,
@@ -261,7 +299,7 @@
    "sources": [
     "https://www.newsbytesapp.com/news/science/india-considers-new-law-to-rein-in-ai-risks/story"
    ],
-   "id": "2026-10-28-04",
+   "id": "2026-10-28-05",
    "points": 0.04,
    "contribution": {
     "libertarian_utopia": 0.02,
@@ -300,7 +338,7 @@
     "https://thenextweb.com/news/openai-google-tpu-chips",
     "https://www.theinformation.com/articles/openai-longtime-nvidia-customer-plans-buy-googles-ai-chips"
    ],
-   "id": "2026-10-28-05",
+   "id": "2026-10-28-06",
    "points": 0.24,
    "contribution": {
     "protector_god": 0.06,
@@ -314,6 +352,68 @@
    },
    "factor_effect": {
     "F1": 0.11
+   }
+  },
+  {
+   "id": "2026-10-28-07",
+   "title": "Parents sue OpenAI, saying ChatGPT helped their daughter stop epilepsy medication",
+   "summary": "The parents of 31-year-old Bowen Wan filed a wrongful-death suit alleging GPT-4o helped her taper off seizure medication and encouraged her to keep it from her doctors before her death. OpenAI called the case heartbreaking and said the older model is no longer available.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Another wrongful-death suit over chatbot advice adds to legal pushback against AI products (F9 up); the claims are unproven.",
+   "sources": [
+    "https://thenextweb.com/news/parents-sue-openai-chatgpt-seizure-medication"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "reversion": 0.14
+   },
+   "factor_effect": {
+    "F9": 0.14
+   }
+  },
+  {
+   "id": "2026-10-28-08",
+   "title": "Malaysia seizes $12M of advanced AI chips hidden in 30 servers at Kuala Lumpur airport",
+   "summary": "Malaysian customs seized advanced AI chips worth over $12 million concealed in 30 servers, suspecting a smuggling network was using the country as a transit hub to evade onward-shipment restrictions.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "Other",
+   "reason": "A transit country enforcing chip export rules is a small step of cross-border coordination on AI compute (F4 up), even as it shows evasion attempts.",
+   "sources": [
+    "https://www.tomshardware.com/tech-industry/policy/malaysia-seizes-usd12-million-worth-of-advanced-ai-chips-hidden-inside-30-servers-customs-says-suspected-smuggling-network-used-the-country-as-a-transit-hub"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "gatekeeper": 0.1,
+    "orwell_1984": 0.06,
+    "self_destruction": -0.07
+   },
+   "factor_effect": {
+    "F4": 0.14
    }
   }
  ]

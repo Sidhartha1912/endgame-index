@@ -1,0 +1,327 @@
+{
+ "date": "2026-10-29",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 15.92,
+  "benevolent_dictator": 22.7,
+  "egalitarian_utopia": 3.42,
+  "protector_god": 17.44,
+  "gatekeeper": 18.21,
+  "enslaved_god": 39.01,
+  "conquerors": 41.65,
+  "descendants": 30.0,
+  "zookeeper": 32.1,
+  "orwell_1984": 22.02,
+  "reversion": 5.97,
+  "self_destruction": 33.83
+ },
+ "deltas": {
+  "libertarian_utopia": 0.26,
+  "benevolent_dictator": -0.13,
+  "egalitarian_utopia": 0.18,
+  "protector_god": 0.08,
+  "gatekeeper": 0.06,
+  "enslaved_god": -0.34,
+  "conquerors": 0.12,
+  "descendants": 0.12,
+  "zookeeper": -0.05,
+  "orwell_1984": -0.18,
+  "reversion": 0.32,
+  "self_destruction": 0.0
+ },
+ "targets": {
+  "libertarian_utopia": 15.92,
+  "benevolent_dictator": 22.7,
+  "egalitarian_utopia": 3.42,
+  "protector_god": 17.44,
+  "gatekeeper": 18.21,
+  "enslaved_god": 39.01,
+  "conquerors": 41.65,
+  "descendants": 30.0,
+  "zookeeper": 32.1,
+  "orwell_1984": 22.02,
+  "reversion": 5.97,
+  "self_destruction": 33.83
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.75,
+  "benevolent_dictator": -0.17,
+  "egalitarian_utopia": -1.3,
+  "protector_god": 0.06,
+  "gatekeeper": 0.07,
+  "enslaved_god": -0.47,
+  "conquerors": 2.44,
+  "descendants": 1.5,
+  "zookeeper": 2.24,
+  "orwell_1984": -0.3,
+  "reversion": 0.05,
+  "self_destruction": 0.34
+ },
+ "factors": {
+  "F1": 86.2,
+  "F2": 56.03,
+  "F3": 29.06,
+  "F4": 25.55,
+  "F5": 66.79,
+  "F6": 45.38,
+  "F7": 31.82,
+  "F8": 64.94,
+  "F9": 46.91,
+  "F10": 20.58
+ },
+ "factor_deltas": {
+  "F1": 0.02,
+  "F2": 0.19,
+  "F3": -0.03,
+  "F4": 0.02,
+  "F5": -0.46,
+  "F6": 0.0,
+  "F7": 0.02,
+  "F8": -0.0,
+  "F9": 0.33,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -17.53,
+  "families": {
+   "flourishing": 14.87,
+   "contained": 28.61,
+   "successors": 34.58,
+   "stalled": 20.61
+  },
+  "news_heat": 1.1,
+  "evidence": "medium",
+  "event_count": 6
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.04,
+  "protector_god": -0.05,
+  "gatekeeper": -0.02,
+  "enslaved_god": -0.03,
+  "descendants": -0.03,
+  "zookeeper": -0.02,
+  "orwell_1984": 0.01,
+  "reversion": 0.01
+ },
+ "summary": {
+  "headline": "Mistral opens its 1-trillion-parameter Large 4 model",
+  "body": "Mistral released the weights of Large 4, a 1-trillion-parameter model aimed at coding and cyber defence, and The Information reported DeepSeek and Moonshot built their latest models using OpenAI's Astra outputs; together they cut Power Concentration by 0.46. GitHub said agents opened over 40% of pull requests in September (AI Autonomy +0.19). Swing-state polls found voters want AI safeguards, House Democrats proposed opposing AI bailouts and Finnish police opened a criminal probe into Google's data-center site (Tech Backlash +0.33). Enslaved God fell; Reversion and Libertarian Utopia rose. Successors stayed the leading family. Horizon Balance rose to -17.53 from -17.65.",
+  "movers_note": "Enslaved God -0.3, from the DeepSeek-Moonshot distillation report (-0.14), Mistral's open weights (-0.10) and GitHub's agent figures (-0.06). Reversion +0.3, from the swing-state polls (+0.14), the House bailout resolution (+0.14) and the Finnish probe (+0.04). Libertarian Utopia +0.3, from the distillation report (+0.14) and Mistral's release (+0.13).",
+  "coming_up": [
+   "US midterm elections on 3 November"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-10-29-01",
+   "title": "Mistral releases open weights for Large 4, a 1-trillion-parameter model",
+   "summary": "French lab Mistral released the weights of Large 4, its 1-trillion-parameter multimodal model aimed at software development and defensive cybersecurity, so organisations can run it on their own infrastructure.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    },
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "EU",
+   "reason": "A near-frontier open-weight model spreads advanced capability beyond a few labs (F5 down) and adds capability (F1 up). Follows the preview scored on 6 Oct.",
+   "sources": [
+    "https://mistral.ai/news/mistral-large-4-oss/",
+    "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/"
+   ],
+   "points": 0.21,
+   "contribution": {
+    "libertarian_utopia": 0.13,
+    "benevolent_dictator": -0.1,
+    "egalitarian_utopia": 0.08,
+    "protector_god": 0.02,
+    "gatekeeper": 0.02,
+    "enslaved_god": -0.1,
+    "conquerors": 0.02,
+    "descendants": 0.03,
+    "zookeeper": -0.06,
+    "orwell_1984": -0.1,
+    "reversion": -0.03
+   },
+   "factor_effect": {
+    "F1": 0.05,
+    "F5": -0.21
+   }
+  },
+  {
+   "id": "2026-10-29-02",
+   "title": "DeepSeek and Moonshot reportedly built latest models using OpenAI's Astra outputs",
+   "summary": "The Information reported that China's DeepSeek and Moonshot AI relied on outputs from OpenAI's GPT-6 Astra when developing models released this month, a technique known as distillation.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "China",
+   "reason": "Distilling a US frontier model into Chinese models narrows the lead of the top labs (F5 down); a single-source report.",
+   "sources": [
+    "https://www.tradingview.com/news/reuters.com,2026:newsml_P8N3P10CQ:0-moonshot-ai-and-deepseek-relied-outputs-from-openai-s-astra-when-developing-their-latest-models-released-this-month-the-information/"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "libertarian_utopia": 0.14,
+    "benevolent_dictator": -0.12,
+    "egalitarian_utopia": 0.1,
+    "enslaved_god": -0.14,
+    "zookeeper": -0.1,
+    "orwell_1984": -0.1
+   },
+   "factor_effect": {
+    "F5": -0.24
+   }
+  },
+  {
+   "id": "2026-10-29-03",
+   "title": "GitHub: AI agents opened over 40% of pull requests in September, up from 17%",
+   "summary": "GitHub's Octoverse report says coding agents originated more than 40% of pull requests in September, up from 17% in March. It also launched Copilot Fusion, a model-routing system for coding agents.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Agents now starting a large share of real code changes shows autonomy spreading through software work (F2 up).",
+   "sources": [
+    "https://thenextweb.com/news/github-universe-copilot-fusion-octoverse-agents"
+   ],
+   "points": 0.21,
+   "contribution": {
+    "benevolent_dictator": 0.13,
+    "protector_god": 0.1,
+    "gatekeeper": 0.06,
+    "enslaved_god": -0.06,
+    "conquerors": 0.1,
+    "descendants": 0.13,
+    "zookeeper": 0.13
+   },
+   "factor_effect": {
+    "F2": 0.21
+   }
+  },
+  {
+   "id": "2026-10-29-04",
+   "title": "Swing-state polls find voters want AI safety measures ahead of the midterms",
+   "summary": "Polling in competitive US states found voters want more AI safeguards, and supported reasonable regulation even if it could affect US technological competitiveness, Semafor reported.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "US",
+   "reason": "Voter demand for AI safeguards is growing public unease with the technology (F9 up).",
+   "sources": [
+    "https://www.semafor.com/article/10/29/2026/voters-in-key-states-want-ai-safety-measures-poll-finds",
+    "https://www.semafor.com/article/10/29/2026/ai-disillusionment-puts-regulation-at-forefront-ahead-of-midterms"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "reversion": 0.14
+   },
+   "factor_effect": {
+    "F9": 0.14
+   }
+  },
+  {
+   "id": "2026-10-29-05",
+   "title": "Finnish police open criminal probe into Google's AI data-center site clearing",
+   "summary": "Police in Finland opened a criminal investigation into whether Google's subsidiary broke environmental laws by clearing about 815 acres of forest for a planned data center near Muhos without required reviews.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "national",
+   "track": "structural",
+   "region": "EU",
+   "reason": "Criminal scrutiny of an AI data-center build is institutional pushback (F9 up). Follows Finland's halt order on Google sites scored on 7 Oct.",
+   "sources": [
+    "https://www.justsecurity.org/162627/early-edition-october-30-2026/"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "reversion": 0.04
+   },
+   "factor_effect": {
+    "F9": 0.04
+   }
+  },
+  {
+   "id": "2026-10-29-06",
+   "title": "House Democrats propose a resolution opposing bailouts for failing AI firms",
+   "summary": "Representatives Greg Casar and Maxine Waters introduced a resolution opposing federal rescues of insolvent AI companies and efforts to shield executives from the consequences of reckless conduct.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "US",
+   "reason": "Lawmakers pre-emptively rejecting AI bailouts reflects political backlash against the industry (F9 up); non-binding.",
+   "sources": [
+    "https://www.aol.com/articles/house-dems-want-ai-firms-204933000.html"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "reversion": 0.14
+   },
+   "factor_effect": {
+    "F9": 0.14
+   }
+  }
+ ]
+}

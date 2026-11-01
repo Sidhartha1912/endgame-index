@@ -1,0 +1,26 @@
+[
+ {
+  "id": "2026-10-31-01",
+  "title": "Google in talks with the Pentagon to work on Golden Dome missile-defense data security",
+  "summary": "Alphabet's Google is in talks with the US Defense Department to help secure the data underpinning the $185 billion Golden Dome missile-defense programme, which plans heavy use of AI and autonomy, Bloomberg reported.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "US",
+  "reason": "A frontier AI company moving into a major military programme deepens military-AI integration (F8 up); still talks.",
+  "sources": [
+   "https://finance.yahoo.com/technology/ai/articles/alphabet-talks-join-trump-golden-211555344.html",
+   "https://thenextweb.com/news/google-golden-dome-pentagon-data-security-talks"
+  ]
+ }
+]
