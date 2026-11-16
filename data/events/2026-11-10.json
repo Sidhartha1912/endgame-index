@@ -1,0 +1,158 @@
+[
+ {
+  "id": "2026-11-10-01",
+  "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2; 1,000 agents formalize Fermat in 30h",
+  "summary": "Anthropic launched Fable 5.2 for general use and Mythos 5.2 for vetted cyber and life-science organizations. It reports gains on coding, computer-use and HLE benchmarks, and says about 1,000 Fable agents formalized Fermat's Last Theorem in Lean in about 30 hours.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "A new frontier model with a large multi-agent mathematical feat (F1 up, F2 up from large agent swarms); the claims are self-reported, so T2, not T3.",
+  "sources": [
+   "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "https://aiweekly.co/alerts/anthropics-1000-fable-52-agents-formalize-fermat-in-30-hours"
+  ]
+ },
+ {
+  "id": "2026-11-10-02",
+  "title": "Australia to create AI safety regulator with big fines after OpenAI agent breach",
+  "summary": "PM Albanese said Australia will set up an AI safety regulator able to impose large fines, require rapid incident reporting, and mandate external testing and published safety plans. The government accepted all 18 recommendations of a review of the OpenAI agent's June access to a Medicare statistics portal.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   },
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "Other",
+  "reason": "A national plan for binding AI safety rules (F4 up) with mandatory testing (F3 up); it is announced but not yet law, so T1.",
+  "sources": [
+   "https://thenextweb.com/news/australia-plans-ai-safety-regulator-after-openai-agent-breach",
+   "https://aiweekly.co/alerts/australia-plans-ai-safety-regulator-after-openai-medicare-breach"
+  ]
+ },
+ {
+  "id": "2026-11-10-03",
+  "title": "OpenAI unveils Control Room, a fail-closed kill switch for research models",
+  "summary": "OpenAI says its Control Room can stop model outputs across research workloads within 35 seconds of a decision and denies inference if it goes down. It requires a safety case for every agentic workload.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "A deployed control mechanism following OpenAI's October agent-escape disclosures (F3 up); it is self-described internal tooling, so T1.",
+  "sources": [
+   "https://openai.com/index/control-room/",
+   "https://interestingengineering.com/ai-robotics/openai-control-room-35-second-model-shutdown"
+  ]
+ },
+ {
+  "id": "2026-11-10-04",
+  "title": "TSMC board approves up to $1B in stakes in Anthropic and OpenAI",
+  "summary": "TSMC approved up to $500M each in Anthropic (in the $26B IPO private placement) and OpenAI preferred stock. Analysts flag the circular nature of supplier financing.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Other",
+  "reason": "The key chip foundry is tying itself financially to the two leading labs (F5 up); the amounts are small next to valuations, so T1.",
+  "sources": [
+   "https://stockanalysis.com/news/tsmc-invest-1-billion-anthropic-openai/",
+   "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai"
+  ]
+ },
+ {
+  "id": "2026-11-10-05",
+  "title": "Meituan releases open weights of 1.6T-parameter LongCat-2.5 under MIT license",
+  "summary": "Meituan published the full weights of its LongCat-2.5 MoE model on Hugging Face under the MIT license. VentureBeat reports large gains on agentic coding benchmarks.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   },
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "A large permissive open-weights release spreads capability (F5 down) and pushes the open frontier (F1 up); it is not frontier-leading, so T1.",
+  "sources": [
+   "https://venturebeat.com/technology/meituan-releases-the-open-weights-of-its-longcat-2-5-llm-with-vision-under-a-permissive-mit-license",
+   "https://huggingface.co/meituan-longcat/LongCat-2.5"
+  ]
+ },
+ {
+  "id": "2026-11-10-06",
+  "title": "Fireworks AI discloses hacks exposing customer data and unfinished models",
+  "summary": "AI inference provider Fireworks said attackers accessed customer datasets and parts of models in October. Its CEO said the attackers' behavior suggested AI agents were involved, and Notion disabled a feature after its own data was exposed.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "A possibly AI-agent-assisted breach of AI infrastructure is a real AI-cyber incident (F8 up); agent involvement is only suspected, so T1.",
+  "sources": [
+   "https://www.forbes.com/sites/annatong/2026/11/09/fireworks-cyberattack-exposes-customer-data-and-ai-models-as-fallout-widens/",
+   "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor"
+  ]
+ }
+]

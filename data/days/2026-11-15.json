@@ -1,0 +1,223 @@
+{
+ "date": "2026-11-15",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 13.87,
+  "benevolent_dictator": 23.16,
+  "egalitarian_utopia": 1.78,
+  "protector_god": 18.31,
+  "gatekeeper": 19.67,
+  "enslaved_god": 39.38,
+  "conquerors": 44.3,
+  "descendants": 31.59,
+  "zookeeper": 33.64,
+  "orwell_1984": 22.23,
+  "reversion": 7.51,
+  "self_destruction": 37.53
+ },
+ "deltas": {
+  "libertarian_utopia": -0.08,
+  "benevolent_dictator": -0.03,
+  "egalitarian_utopia": -0.06,
+  "protector_god": -0.03,
+  "gatekeeper": 0.13,
+  "enslaved_god": -0.02,
+  "conquerors": 0.06,
+  "descendants": -0.01,
+  "zookeeper": 0.01,
+  "orwell_1984": 0.09,
+  "reversion": 0.05,
+  "self_destruction": 0.06
+ },
+ "targets": {
+  "libertarian_utopia": 13.87,
+  "benevolent_dictator": 23.16,
+  "egalitarian_utopia": 1.78,
+  "protector_god": 18.31,
+  "gatekeeper": 19.67,
+  "enslaved_god": 39.38,
+  "conquerors": 44.3,
+  "descendants": 31.59,
+  "zookeeper": 33.64,
+  "orwell_1984": 22.23,
+  "reversion": 7.51,
+  "self_destruction": 37.53
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.16,
+  "benevolent_dictator": 0.31,
+  "egalitarian_utopia": -0.94,
+  "protector_god": 0.1,
+  "gatekeeper": 0.37,
+  "enslaved_god": -0.36,
+  "conquerors": 1.77,
+  "descendants": 0.92,
+  "zookeeper": 1.39,
+  "orwell_1984": 0.27,
+  "reversion": 0.23,
+  "self_destruction": 1.41
+ },
+ "factors": {
+  "F1": 87.63,
+  "F2": 57.03,
+  "F3": 28.63,
+  "F4": 26.76,
+  "F5": 66.82,
+  "F6": 45.54,
+  "F7": 31.97,
+  "F8": 68.7,
+  "F9": 47.81,
+  "F10": 20.75
+ },
+ "factor_deltas": {
+  "F1": -0.01,
+  "F2": -0.01,
+  "F3": -0.04,
+  "F4": 0.22,
+  "F5": -0.01,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": 0.14,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -20.15,
+  "families": {
+   "flourishing": 14.28,
+   "contained": 29.52,
+   "successors": 36.51,
+   "stalled": 22.42
+  },
+  "news_heat": 0.45,
+  "evidence": "low",
+  "event_count": 3
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.03,
+  "protector_god": -0.05,
+  "gatekeeper": -0.05,
+  "enslaved_god": -0.04,
+  "descendants": -0.03,
+  "zookeeper": -0.01,
+  "self_destruction": 0.01
+ },
+ "summary": {
+  "headline": "China calls for AI cooperation with the US ahead of APEC",
+  "body": "A quiet Sunday. China called for AI cooperation with the US ahead of the APEC summit in Shenzhen, lifting Global Coordination by 0.22. The US disrupted North Korea's 'FaceStealer' deepfake-call scheme, tied to more than $400 million in crypto theft, nudging Catastrophic Risk up. OpenAI credited GPT-6 Astra with a proof step toward a lattice definition of the Standard Model. Gatekeeper and 1984 rose slightly. Horizon Balance slipped to -20.15 from -20.04.",
+  "movers_note": "Gatekeeper +0.13, from China's cooperation call (+0.17). 1984 +0.09, from the cooperation call (+0.10). Libertarian Utopia -0.08, from the FaceStealer scheme (-0.07).",
+  "coming_up": [
+   "APEC CEO Summit, Shenzhen, 17-18 Nov",
+   "Trump-Xi meeting, around 19 Nov",
+   "Anthropic IPO pricing around 18 Nov"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-11-15-01",
+   "title": "China calls for AI cooperation with US ahead of Shenzhen APEC summit",
+   "summary": "Beijing publicly called for AI cooperation with Washington ahead of the APEC leaders' week in Shenzhen, where Trump and Xi are due to meet.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "China",
+   "reason": "Diplomatic words favouring US-China AI cooperation; signal only, T1.",
+   "sources": [
+    "https://www.scmp.com/news/china/diplomacy/article/3374484/china-calls-ai-cooperation-us-ahead-shenzhen-apec-summit"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "gatekeeper": 0.17,
+    "orwell_1984": 0.1,
+    "self_destruction": -0.12
+   },
+   "factor_effect": {
+    "F4": 0.24
+   }
+  },
+  {
+   "id": "2026-11-15-02",
+   "title": "US disrupts North Korean 'FaceStealer' deepfake-call scheme tied to $400M+ crypto theft",
+   "summary": "The US Justice Department disrupted a North Korean campaign that used deepfake video calls to compromise targets, linked to over $400M in cryptocurrency theft.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Reveals the scale of state-backed AI-enabled (deepfake) cyber theft, raising catastrophic/cyber risk despite the takedown; T1.",
+   "sources": [
+    "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "libertarian_utopia": -0.07,
+    "egalitarian_utopia": -0.06,
+    "conquerors": 0.04,
+    "reversion": 0.06,
+    "self_destruction": 0.16
+   },
+   "factor_effect": {
+    "F8": 0.15
+   }
+  },
+  {
+   "id": "2026-11-15-03",
+   "title": "OpenAI credits GPT-6 Astra with proof step toward defining lattice Standard Model",
+   "summary": "An OpenAI science post says GPT-6 Astra produced a proof related to a lattice definition of the Standard Model of particle physics.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Another self-reported AI science result following earlier OpenAI math claims; unverified externally, so T1.",
+   "sources": [
+    "https://openai.com/index/step-toward-defining-the-standard-model/"
+   ],
+   "points": 0.06,
+   "contribution": {
+    "protector_god": 0.01,
+    "gatekeeper": 0.01,
+    "enslaved_god": 0.02,
+    "conquerors": 0.01,
+    "descendants": 0.02,
+    "zookeeper": 0.01,
+    "orwell_1984": -0.01,
+    "reversion": -0.02
+   },
+   "factor_effect": {
+    "F1": 0.03
+   }
+  }
+ ]
+}

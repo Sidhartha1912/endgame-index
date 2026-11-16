@@ -1,0 +1,165 @@
+[
+ {
+  "id": "2026-11-03-01",
+  "title": "UK NCSC: AI-powered ransomware attack on UK critical infrastructure 'highly likely' by 2028",
+  "summary": "The NCSC's State of the Cyber Nation report says hostile AI use will very likely scale up ransomware, social engineering and exploitation within two years. CEO Richard Horne urges firms to fix basic security underinvestment.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "UK",
+  "reason": "An official threat assessment raises expected AI cyber risk to infrastructure; a forecast, not an attack, so T1.",
+  "sources": [
+   "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years"
+  ]
+ },
+ {
+  "id": "2026-11-03-02",
+  "title": "Brazil court bars Meta from using news content to train AI without authorization",
+  "summary": "A São Paulo judge granted publishers' associations ANJ, ABERT and ANER an injunction suspending Meta's new terms and barring unauthorized collection of members' content, including for AI training. Non-compliance carries daily fines of up to R$1M.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "Other",
+  "reason": "A court curbing a big lab's free use of training data checks platform power; a preliminary national ruling, so T1.",
+  "sources": [
+   "https://www.anj.org.br/justica-proibe-meta-de-usar-conteudo-jornalistico-sem-autorizacao-apos-acao-de-anj-abert-e-aner/"
+  ]
+ },
+ {
+  "id": "2026-11-03-03",
+  "title": "Ibero-American countries form AI Alliance in Madrid on data, models and compute",
+  "summary": "Meeting in Madrid, Ibero-American countries agreed a voluntary AI Alliance covering a federated data space, Spanish- and Portuguese-language models and pooled compute, plus a Madrid Declaration on human-centred AI. It goes to the Ibero-American Summit on 4–5 Nov for adoption.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "EU",
+  "reason": "Regional multilateral AI cooperation framework; voluntary and not yet adopted, so T1.",
+  "sources": [
+   "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/transformacion-digital-y-funcion-publica/Paginas/2026/031126-alianza-iberoamericana-ia.aspx"
+  ]
+ },
+ {
+  "id": "2026-11-03-04",
+  "title": "OpenAI hires ex-US Army Secretary Dan Driscoll for national security role",
+  "summary": "OpenAI named Dan Driscoll Senior Counselor for National Security Modernization, a new role advising on how AI can strengthen national and cyber security.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Frontier lab deepens military ties via a senior defense hire; a personnel move, not a contract, so T1.",
+  "sources": [
+   "https://openai.com/index/dan-driscoll-joins-openai/",
+   "https://kuwaittimes.com/article/52912/world/openai-hires-former-us-army-secretary-for-national-security-role/"
+  ]
+ },
+ {
+  "id": "2026-11-03-05",
+  "title": "Binance: $6.3B theft began with fake job interview and hijacked internal AI tools",
+  "summary": "Binance's post-mortem says attackers compromised an engineer via a fake recruiting test, then used compromised internal AI tools to reach developer systems before draining hot wallets on 29 Oct. The FBI attributes the attack to North Korea's TraderTraitor group.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Global",
+  "reason": "State-linked hackers exploited enterprise AI tooling in a record theft, a real AI-assisted cyber incident; AI was one link in the chain, so T1.",
+  "sources": [
+   "https://www.androidheadlines.com/2026/11/binance-crypto-hack-fake-job-interviews.html",
+   "https://en.yna.co.kr/view/AEN20261104000400315"
+  ]
+ },
+ {
+  "id": "2026-11-03-06",
+  "title": "Reuters: OpenAI staff warned for years about internal security lapses",
+  "summary": "Citing five people, Reuters reports employees flagged broad monorepo access and unreviewed internal research tools, some before ChatGPT launched. OpenAI says sensitive work is separated and reviews now run regularly.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Weak security culture at a frontier lab weakens control over models and weights; follows October disclosures, so T1 development.",
+  "sources": [
+   "https://www.reuters.com/business/openai-employees-warned-about-operational-security-lapses-years-sources-say-2026-11-03/"
+  ]
+ },
+ {
+  "id": "2026-11-03-07",
+  "title": "Drax, Brookfield and Radiant plan £20B, 1GW+ AI data centre in North Yorkshire",
+  "summary": "Drax plans a data centre at its biomass power station of up to 100MW by early 2028 and over 1GW later. The £20B figure is aspirational, and the project still needs planning approval and a tenant.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "UK",
+  "reason": "Proposed large UK compute capacity; uncommitted plan, so a T1 signal.",
+  "sources": [
+   "https://www.theregister.com/on-prem/2026/11/03/drax-wants-to-feed-britains-ai-habit-with-20b-datacenter-at-biomass-power-station/5307237"
+  ]
+ }
+]

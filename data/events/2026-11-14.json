@@ -1,0 +1,27 @@
+[
+ {
+  "id": "2026-11-14-01",
+  "title": "EU leaders hold first dedicated AI summit in Dublin; no formal conclusions",
+  "summary": "At an informal European Council in Dublin, briefed by Mistral's Arthur Mensch and Geoffrey Hinton, leaders discussed AI competitiveness, sovereignty and safety; von der Leyen said at least EUR 500B is needed for tech sovereignty and Costa said the AI Act should inform G7, G20 and UN talks. The informal format produced no conclusions, and the session was overshadowed by a Ukraine envoy row.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "EU",
+  "reason": "Leader-level EU attention and pushing AI Act norms into G7/G20/UN is a mild coordination signal; no decisions taken, so T1 signal.",
+  "sources": [
+   "https://eualive.net/eu-leaders-hold-first-high-level-ai-talks-in-dublin/",
+   "https://www.euronews.com/2026/11/13/ukraine-envoy-row-hijacks-eu-leaders-first-ai-summit",
+   "https://english.news.cn/20261114/28e9a81021724234ad09d5f86aaea9a6/c.html"
+  ]
+ }
+]

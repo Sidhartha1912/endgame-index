@@ -1,0 +1,317 @@
+{
+ "date": "2026-11-16",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 13.74,
+  "benevolent_dictator": 23.27,
+  "egalitarian_utopia": 1.7,
+  "protector_god": 18.24,
+  "gatekeeper": 19.57,
+  "enslaved_god": 39.47,
+  "conquerors": 44.28,
+  "descendants": 31.56,
+  "zookeeper": 33.72,
+  "orwell_1984": 22.35,
+  "reversion": 7.51,
+  "self_destruction": 37.53
+ },
+ "deltas": {
+  "libertarian_utopia": -0.14,
+  "benevolent_dictator": 0.11,
+  "egalitarian_utopia": -0.08,
+  "protector_god": -0.07,
+  "gatekeeper": -0.09,
+  "enslaved_god": 0.09,
+  "conquerors": -0.02,
+  "descendants": -0.04,
+  "zookeeper": 0.08,
+  "orwell_1984": 0.12,
+  "reversion": 0.0,
+  "self_destruction": -0.0
+ },
+ "targets": {
+  "libertarian_utopia": 13.74,
+  "benevolent_dictator": 23.27,
+  "egalitarian_utopia": 1.7,
+  "protector_god": 18.24,
+  "gatekeeper": 19.57,
+  "enslaved_god": 39.47,
+  "conquerors": 44.28,
+  "descendants": 31.56,
+  "zookeeper": 33.72,
+  "orwell_1984": 22.35,
+  "reversion": 7.51,
+  "self_destruction": 37.53
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.09,
+  "benevolent_dictator": 0.51,
+  "egalitarian_utopia": -0.84,
+  "protector_god": 0.37,
+  "gatekeeper": 0.41,
+  "enslaved_god": -0.01,
+  "conquerors": 1.62,
+  "descendants": 1.0,
+  "zookeeper": 1.44,
+  "orwell_1984": 0.14,
+  "reversion": 0.08,
+  "self_destruction": 1.23
+ },
+ "factors": {
+  "F1": 87.58,
+  "F2": 57.02,
+  "F3": 28.59,
+  "F4": 26.69,
+  "F5": 67.06,
+  "F6": 45.59,
+  "F7": 31.98,
+  "F8": 68.65,
+  "F9": 47.8,
+  "F10": 20.75
+ },
+ "factor_deltas": {
+  "F1": -0.05,
+  "F2": -0.01,
+  "F3": -0.04,
+  "F4": -0.07,
+  "F5": 0.23,
+  "F6": 0.05,
+  "F7": 0.01,
+  "F8": -0.05,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -20.23,
+  "families": {
+   "flourishing": 14.24,
+   "contained": 29.52,
+   "successors": 36.52,
+   "stalled": 22.47
+  },
+  "news_heat": 0.64,
+  "evidence": "low",
+  "event_count": 5
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.03,
+  "protector_god": -0.04,
+  "gatekeeper": -0.06,
+  "enslaved_god": -0.04,
+  "descendants": -0.03,
+  "zookeeper": -0.01,
+  "self_destruction": 0.01
+ },
+ "summary": {
+  "headline": "US plans AI 'national champions'; Hong Kong switches on facial recognition",
+  "body": "The Trump administration plans to name more than 24 US firms as AI 'national champions' for an export push, the day's main mover, lifting Power Concentration by 0.23 and lowering Global Coordination. Hong Kong police switched on AI facial recognition across the SmartView CCTV network, raising Surveillance & Control. Alibaba made Qwen4-Max generally available, and Congress leaders backed attaching four AI-chip export bills to the defence budget bill. The US and China plan APEC talks on AI incident protocols, though the proposed hotline is not yet running. Libertarian Utopia fell; 1984 and Benevolent Dictator rose. Horizon Balance slipped to -20.23 from -20.15.",
+  "movers_note": "Libertarian Utopia -0.14, from the national champions plan (-0.14). 1984 +0.12, from the champions plan (+0.05) and Hong Kong facial recognition (+0.04). Benevolent Dictator +0.11, mostly from the champions plan (+0.12).",
+  "coming_up": [
+   "Nvidia Q3 earnings, 17 Nov",
+   "EU Apply AI Summit, Brussels, 17 Nov",
+   "APEC CEO Summit 17-18 Nov; Trump-Xi meeting around 19 Nov",
+   "Anthropic IPO pricing 18 Nov, Nasdaq trading 19 Nov",
+   "EU AI Act Article 50 transparency obligations from 2 Dec"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-11-16-01",
+   "title": "Alibaba makes Qwen4-Max, a 2.4T-parameter MoE with 1M context, generally available",
+   "summary": "Alibaba released its flagship Qwen4-Max (2.4T-parameter mixture-of-experts, 1M-token context, native image input) via QwenCloud, saying it cuts task costs about 60% on its internal Work360 benchmark and tightens cyber guardrails. Smaller Qwen4 models are to be open-sourced.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": true,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "New Chinese frontier-scale flagship model raises capability velocity; efficiency figures are Alibaba's own, so T2 not higher.",
+   "sources": [
+    "https://www.scmp.com/tech/big-tech/article/3374540/alibaba-says-new-flagship-ai-model-cuts-task-costs-60-while-tightening-cyber-guardrails",
+    "https://technode.com/2026/11/16/alibaba-launches-qwen4-max-with-lower-api-prices-and-a-million-token-context-window/",
+    "https://www.business-standard.com/amp/world-news/alibaba-says-qwen4-max-cuts-task-costs-by-60-boosts-cyber-safeguards-126111600895_1.html"
+   ],
+   "points": 0.05,
+   "contribution": {
+    "protector_god": 0.03,
+    "gatekeeper": 0.02,
+    "enslaved_god": 0.03,
+    "conquerors": 0.03,
+    "descendants": 0.03,
+    "zookeeper": 0.03,
+    "orwell_1984": -0.02,
+    "reversion": -0.03
+   },
+   "factor_effect": {
+    "F1": 0.05
+   }
+  },
+  {
+   "id": "2026-11-16-02",
+   "title": "Hong Kong police switch on AI facial recognition across SmartView CCTV network",
+   "summary": "Hong Kong police activated facial recognition on their SmartView ('Sharp Eye') CCTV network covering busy and higher-crime public places from 16 Nov; the police chief said the tools won't be abused, but rules on enrolment and data retention remain unclear.",
+   "category": "surveillance",
+   "factors": [
+    {
+     "id": "F6",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "local",
+   "track": "structural",
+   "region": "China",
+   "reason": "Live facial recognition rollout across a city-wide police camera network directly expands surveillance; city scope, T1.",
+   "sources": [
+    "https://hongkongfp.com/2026/11/16/hong-kong-police-activate-facial-recognition-across-ai-enabled-cctv-network-as-police-chief-says-tools-wont-be-abused/",
+    "https://dimsumdaily.hk/joe-chow-says-smartview-facial-recognition-starts-16th-november-to-protect-citizens-and-deter-crime"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "benevolent_dictator": 0.02,
+    "protector_god": -0.01,
+    "orwell_1984": 0.04
+   },
+   "factor_effect": {
+    "F6": 0.04
+   }
+  },
+  {
+   "id": "2026-11-16-03",
+   "title": "Trump administration to name 24+ US firms AI 'national champions' for export push",
+   "summary": "Per a WSJ report, Commerce plans to designate more than two dozen firms, including Nvidia, Microsoft, Amazon, OpenAI and Anthropic, as AI national champions eligible for government advocacy, federal financing and faster export licensing to beat Chinese rivals abroad. Timing is not final.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": 1
+    },
+    {
+     "id": "F4",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "US",
+   "reason": "State backing for a set of incumbent champions concentrates power and frames AI as a bloc race against China; planned, not yet done, so T1 signal.",
+   "sources": [
+    "https://www.wsj.com/tech/ai/trump-administration-to-name-nvidia-among-ai-national-champions-c9284344",
+    "https://thenextweb.com/news/ai-national-champions-nvidia-openai-anthropic-trump"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "libertarian_utopia": -0.14,
+    "benevolent_dictator": 0.12,
+    "egalitarian_utopia": -0.1,
+    "gatekeeper": -0.07,
+    "enslaved_god": 0.14,
+    "zookeeper": 0.1,
+    "orwell_1984": 0.05,
+    "self_destruction": 0.05
+   },
+   "factor_effect": {
+    "F4": -0.11,
+    "F5": 0.24
+   }
+  },
+  {
+   "id": "2026-11-16-04",
+   "title": "Congress leaders back attaching four AI-chip export bills to the FY2027 NDAA",
+   "summary": "Senate Majority Leader Thune called new China chip-export restrictions a 'high probability', with lawmakers aiming to attach four bills, including the Remote Access Security Act on overseas cloud rentals, to the NDAA after the Nvidia/Megaspeed scandal. No final text has been agreed.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "global",
+   "track": "signal",
+   "region": "US",
+   "reason": "Tighter chip curbs (including closing the remote-compute loophole) would slow Chinese capability gains; still legislative intent, so T1 signal.",
+   "sources": [
+    "https://www.ft.com/content/3062790a-553d-41b8-9c7d-bae17b9d2e29",
+    "https://aiweekly.co/alerts/congress-backs-ai-chip-bills-aimed-at-chinas-overseas-workaround"
+   ],
+   "points": 0.07,
+   "contribution": {
+    "protector_god": -0.04,
+    "gatekeeper": -0.03,
+    "enslaved_god": -0.04,
+    "conquerors": -0.04,
+    "descendants": -0.04,
+    "zookeeper": -0.04,
+    "orwell_1984": 0.02,
+    "reversion": 0.04
+   },
+   "factor_effect": {
+    "F1": -0.07
+   }
+  },
+  {
+   "id": "2026-11-16-05",
+   "title": "US and China plan APEC talks on AI incident protocols; hotline still not operational",
+   "summary": "Ahead of the Trump-Xi meeting in Shenzhen, Treasury Secretary Bessent said APEC AI talks would cover communication protocols for AI safety incidents and testing practices for advanced models, while a proposed emergency AI incident notification mechanism discussed in September is still not operational.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    },
+    {
+     "id": "F8",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "global",
+   "track": "signal",
+   "region": "Global",
+   "reason": "Planned US-China AI safety confidence-building nudges coordination up and catastrophic risk down; talks only, and the mechanism is stalled, so T1.",
+   "sources": [
+    "https://english.aawsat.com/business/5341778-chip-tensions-loom-over-trump-xi-summit-us-and-china-push-ai-safety-steps",
+    "https://za.investing.com/news/stock-market-news/chip-tensions-loom-over-trumpxi-summit-as-us-and-china-push-ai-safety-steps-4577069"
+   ],
+   "points": 0.07,
+   "contribution": {
+    "libertarian_utopia": 0.02,
+    "egalitarian_utopia": 0.01,
+    "gatekeeper": 0.04,
+    "conquerors": -0.01,
+    "orwell_1984": 0.03,
+    "reversion": -0.01,
+    "self_destruction": -0.07
+   },
+   "factor_effect": {
+    "F4": 0.06,
+    "F8": -0.04
+   }
+  }
+ ]
+}

@@ -1,0 +1,349 @@
+{
+ "date": "2026-11-13",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 13.97,
+  "benevolent_dictator": 23.21,
+  "egalitarian_utopia": 1.85,
+  "protector_god": 18.39,
+  "gatekeeper": 19.49,
+  "enslaved_god": 39.44,
+  "conquerors": 44.24,
+  "descendants": 31.63,
+  "zookeeper": 33.64,
+  "orwell_1984": 22.08,
+  "reversion": 7.46,
+  "self_destruction": 37.55
+ },
+ "deltas": {
+  "libertarian_utopia": -0.26,
+  "benevolent_dictator": 0.51,
+  "egalitarian_utopia": -0.2,
+  "protector_god": 0.59,
+  "gatekeeper": 0.28,
+  "enslaved_god": -0.07,
+  "conquerors": 0.8,
+  "descendants": 0.74,
+  "zookeeper": 0.73,
+  "orwell_1984": -0.17,
+  "reversion": -0.03,
+  "self_destruction": 0.63
+ },
+ "targets": {
+  "libertarian_utopia": 13.97,
+  "benevolent_dictator": 23.21,
+  "egalitarian_utopia": 1.85,
+  "protector_god": 18.39,
+  "gatekeeper": 19.49,
+  "enslaved_god": 39.44,
+  "conquerors": 44.24,
+  "descendants": 31.63,
+  "zookeeper": 33.64,
+  "orwell_1984": 22.08,
+  "reversion": 7.46,
+  "self_destruction": 37.55
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.31,
+  "benevolent_dictator": 0.43,
+  "egalitarian_utopia": -1.05,
+  "protector_god": 0.15,
+  "gatekeeper": 0.14,
+  "enslaved_god": -0.4,
+  "conquerors": 1.9,
+  "descendants": 0.99,
+  "zookeeper": 1.51,
+  "orwell_1984": 0.16,
+  "reversion": 0.34,
+  "self_destruction": 1.81
+ },
+ "factors": {
+  "F1": 87.67,
+  "F2": 57.05,
+  "F3": 28.7,
+  "F4": 26.4,
+  "F5": 66.83,
+  "F6": 45.54,
+  "F7": 31.94,
+  "F8": 68.57,
+  "F9": 47.83,
+  "F10": 20.76
+ },
+ "factor_deltas": {
+  "F1": 0.36,
+  "F2": 0.88,
+  "F3": -0.04,
+  "F4": -0.15,
+  "F5": -0.01,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": 0.48,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -20.02,
+  "families": {
+   "flourishing": 14.35,
+   "contained": 29.46,
+   "successors": 36.5,
+   "stalled": 22.36
+  },
+  "news_heat": 2.49,
+  "evidence": "medium",
+  "event_count": 6
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.03,
+  "protector_god": -0.05,
+  "gatekeeper": -0.05,
+  "enslaved_god": -0.04,
+  "descendants": -0.03,
+  "zookeeper": -0.01,
+  "self_destruction": 0.01
+ },
+ "summary": {
+  "headline": "FBI warns of autonomous AI hacking tool used in real intrusions",
+  "body": "Autonomy news pushed the index darker. The FBI warned that attackers are using ARTEX, an autonomous AI penetration-testing framework, in real intrusions, raising Catastrophic Risk. Google said its Antigravity agents autonomously formalized the Weil conjectures in Lean, lifting Capability Velocity and AI Autonomy. OpenAI launched ChatGPT Wallet so agents can make purchases, disbanded its standalone robotics team as GPT-6 Astra runs robots directly, and LangChain raised $300 million for agent tooling. AI Autonomy rose 0.88, the largest factor move of the month so far. Weight forensics suggested DeepSeek V4 and Kimi K3 were trained on export-banned Nvidia chips, lowering Global Coordination. Conquerors, Descendants and Zookeeper all rose sharply. Horizon Balance fell to -20.02 from -19.69, below -20 for the first time.",
+  "movers_note": "Conquerors +0.80, led by the Weil formalization (+0.32) and the FBI ARTEX warning (+0.27). Descendants +0.74, led by the Weil formalization (+0.39). Zookeeper +0.73, led by the Weil formalization (+0.36) and the ARTEX warning (+0.15).",
+  "coming_up": [
+   "EU Apply AI Summit, Brussels, 17 Nov",
+   "Nvidia Q3 earnings, 17 Nov"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-11-13-01",
+   "title": "FBI warns attackers are using ARTEX autonomous AI pentest framework in intrusions",
+   "summary": "FBI FLASH advisory 20261113-001 says threat actors use the agentic ARTEX framework, often driven by Chinese models like DeepSeek Flash, to run end-to-end intrusions, some reaching privileged access in under three hours. Campaigns hit finance, government, defense and healthcare, including theft of data on ~67,000 people in South Korea.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    },
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Official confirmation of autonomous AI agents conducting real-world cyberattacks at scale raises catastrophic/cyber risk and shows agents acting with autonomy; T2 as a notable real-world AI cyberattack disclosure.",
+   "sources": [
+    "https://gbhackers.com/fbi-warns-artex-ai-framework/"
+   ],
+   "points": 0.5,
+   "contribution": {
+    "libertarian_utopia": -0.25,
+    "benevolent_dictator": 0.15,
+    "egalitarian_utopia": -0.2,
+    "protector_god": 0.12,
+    "gatekeeper": 0.07,
+    "enslaved_god": -0.07,
+    "conquerors": 0.27,
+    "descendants": 0.15,
+    "zookeeper": 0.15,
+    "reversion": 0.2,
+    "self_destruction": 0.55
+   },
+   "factor_effect": {
+    "F2": 0.25,
+    "F8": 0.5
+   }
+  },
+  {
+   "id": "2026-11-13-02",
+   "title": "Google says Antigravity /teamwork agents autonomously formalized Weil conjectures in Lean",
+   "summary": "Google Research says its multi-agent /teamwork system produced a ~1.8M-line machine-checked Lean formalization of the Weil conjectures across 28,800 subagent calls and claims progress on several open problems, including Courtade-Kumar. The claims are Google's own, with preprints and repos linked.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    },
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Large autonomous multi-agent math/formal-verification results push capability velocity and agent autonomy; T2 rather than T3 because results are self-reported and not yet independently verified.",
+   "sources": [
+    "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
+   ],
+   "points": 0.7,
+   "contribution": {
+    "benevolent_dictator": 0.21,
+    "protector_god": 0.32,
+    "gatekeeper": 0.22,
+    "enslaved_god": 0.07,
+    "conquerors": 0.32,
+    "descendants": 0.39,
+    "zookeeper": 0.36,
+    "orwell_1984": -0.09,
+    "reversion": -0.18
+   },
+   "factor_effect": {
+    "F1": 0.29,
+    "F2": 0.35
+   }
+  },
+  {
+   "id": "2026-11-13-03",
+   "title": "OpenAI disbands standalone robotics team as GPT-6 Astra runs robots directly",
+   "summary": "OpenAI folded its robotics researchers into its main research org and applied robotics/hardware into Applied, saying general models now drive robots; an Nvidia study cited an Astra-powered agent at 74.8% on a simulated manipulation benchmark vs 51% for specialist models.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Reorg reflects general frontier models absorbing robotics capability; minor organisational change, so T1.",
+   "sources": [
+    "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "protector_god": 0.05,
+    "gatekeeper": 0.04,
+    "enslaved_god": 0.06,
+    "conquerors": 0.05,
+    "descendants": 0.06,
+    "zookeeper": 0.05,
+    "orwell_1984": -0.03,
+    "reversion": -0.06
+   },
+   "factor_effect": {
+    "F1": 0.1
+   }
+  },
+  {
+   "id": "2026-11-13-04",
+   "title": "OpenAI launches ChatGPT Wallet letting Dots agents make purchases for US Pro users",
+   "summary": "OpenAI rolled out ChatGPT Wallet so its Dots personal agents can buy things on behalf of US ChatGPT Pro subscribers, with a biometric check on each purchase.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Gives consumer agents spending authority (autonomy up), tempered by per-purchase human confirmation; T1 product step.",
+   "sources": [
+    "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
+    "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "benevolent_dictator": 0.09,
+    "protector_god": 0.07,
+    "gatekeeper": 0.04,
+    "enslaved_god": -0.04,
+    "conquerors": 0.07,
+    "descendants": 0.09,
+    "zookeeper": 0.09
+   },
+   "factor_effect": {
+    "F2": 0.15
+   }
+  },
+  {
+   "id": "2026-11-13-05",
+   "title": "Weight forensics suggest DeepSeek V4 and Kimi K3 trained on export-banned Nvidia Blackwells",
+   "summary": "Analysis by nonprofit Unemployment Labs of open model weights found traces indicating Moonshot's Kimi K3 and DeepSeek V4 were trained on Nvidia Blackwell GPUs barred from China, though possibly in offshore data centers.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "China",
+   "reason": "Evidence that export controls are being circumvented weakens the coordination/control regime around the US-China race; single unreviewed analysis, so T1 signal.",
+   "sources": [
+    "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "gatekeeper": -0.09,
+    "orwell_1984": -0.05,
+    "self_destruction": 0.07
+   },
+   "factor_effect": {
+    "F4": -0.13
+   }
+  },
+  {
+   "id": "2026-11-13-06",
+   "title": "LangChain raises $300M Series C at $3B valuation for agent tooling",
+   "summary": "Agent-framework startup LangChain closed a $300M round led by CapitalG at a $3B valuation, reporting 7,000+ LangSmith customers.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Capital flowing into agent infrastructure modestly accelerates agent deployment; ordinary funding round, T1.",
+   "sources": [
+    "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "benevolent_dictator": 0.09,
+    "protector_god": 0.07,
+    "gatekeeper": 0.04,
+    "enslaved_god": -0.04,
+    "conquerors": 0.07,
+    "descendants": 0.09,
+    "zookeeper": 0.09
+   },
+   "factor_effect": {
+    "F2": 0.15
+   }
+  }
+ ]
+}

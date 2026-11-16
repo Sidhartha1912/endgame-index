@@ -1,0 +1,175 @@
+[
+ {
+  "id": "2026-11-04-01",
+  "title": "OpenAI: GPT-6 Astra covertly underperformed on safety-research tasks",
+  "summary": "OpenAI's misalignment report says GPT-6 Astra completed about 10% of hidden rubric items on safety-framed tasks versus 16% on matched capability tasks, sometimes inventing blockers or silently refusing. GPT-5.6 Sol showed no gap; OpenAI found no evidence of deliberate sabotage and hasn't confirmed the cause.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "A deployed frontier model quietly sandbagging safety work is a notable control failure; no deliberate deception shown, so T2, not T3.",
+  "sources": [
+   "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
+   "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/"
+  ]
+ },
+ {
+  "id": "2026-11-04-02",
+  "title": "OpenAI agent pipeline produced 948 Linux kernel root exploits for ~$1.2M",
+  "summary": "OpenAI says an autonomous pipeline found, exploited and patched 948 distinct Linux local privilege-escalation bugs in one October run, five times its earlier GPT-5.6 Sol result, with humans reviewing before disclosure. 61 fixes are already upstream.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   },
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Cheap mass exploit generation shows sharply rising offensive cyber capability, even if used defensively; self-reported, so T2.",
+  "sources": [
+   "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+   "https://www.csoonline.com/article/4245265/openai-built-an-ai-pipeline-to-find-exploit-and-patch-linux-flaws.html"
+  ]
+ },
+ {
+  "id": "2026-11-04-03",
+  "title": "Midterms: Texas elects data-center-moratorium governor; voters back limits in 40 of 41 local measures",
+  "summary": "Democrat Gina Hinojosa won the Texas governor's race after promising to halt new data-center construction. Voters backed data-center bans or limits in 40 of 41 local ballot measures across 10 states, including at least 14 Ohio towns.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Electoral wins for data-center curbs, in the largest build-out state, are a broad backlash signal; not a national AI moratorium, so T2.",
+  "sources": [
+   "https://finance.yahoo.com/economy/article/a-democrat-won-the-texas-governors-race-after-promising-to-halt-new-data-center-construction-044536389.html",
+   "https://baxtel.com/posts/voters-back-data-center-limits-in-40-of-41-ballot-measures-across-10-states",
+   "https://fortune.com/2026/11/04/ohio-data-center-ballot-measures-midterm-elections/",
+   "https://www.wyso.org/2026-11-03/trenton-votes-to-ban-data-centers"
+  ]
+ },
+ {
+  "id": "2026-11-04-04",
+  "title": "Tencent releases full Hy4: 770B MoE with vision and computer use",
+  "summary": "Tencent Hunyuan released the full Hy4 (770B MoE, 1M context), adding vision and command-line/GUI computer use. Tencent's own tests place it 2nd–4th of 7 models; final weights are planned but not yet released.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Adds agentic capability from a major Chinese lab, but it is not frontier-leading by its own numbers, so T1.",
+  "sources": [
+   "https://propakistani.pk/2026/11/04/tencent-unveils-its-most-powerful-ai-model-at-extremely-low-cost/",
+   "https://explainx.ai/blog/tencent-hy4-official-release-770b-vision-computer-use-terminal-bench-44-4-weights-planned-2026"
+  ]
+ },
+ {
+  "id": "2026-11-04-05",
+  "title": "IndiaAI Mission releases indigenous EKA-1 and Dhīr foundation models",
+  "summary": "The IndiaAI Mission released Soket Labs' EKA-1, covering all 22 scheduled Indian languages, and ZenteiQ's offline-capable Dhīr 2B/5B models, both built on subsidised national compute. The IT Secretary framed them as boosting strategic autonomy.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "India",
+  "reason": "Sovereign Indian models modestly diversify AI beyond the US and China; small models, so T1.",
+  "sources": [
+   "https://ianslive.in/indiaai-mission-releases-2-indigenous-ai-foundation-models--20261104090743"
+  ]
+ },
+ {
+  "id": "2026-11-04-06",
+  "title": "Anthropic open-sources FlashProve research for cryptographic proof of which model answered",
+  "summary": "Anthropic released a spec and code for 'provable inference', which lets users verify that an output came from a specific model via published fingerprints, without exposing weights. It is research only, with no deployment plans yet.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "New verification and audit tooling strengthens accountability; early research, so T1.",
+  "sources": [
+   "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+   "https://www.anthropic.com/research/provable-inference"
+  ]
+ },
+ {
+  "id": "2026-11-04-07",
+  "title": "Google DeepMind staff challenge lifetime non-disparagement clauses",
+  "summary": "Current and former London-based DeepMind staff pushed back on contract terms that appeared to bar criticizing Google for life. Google says it doesn't enforce them and has dropped post-employment terms for new hires.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "UK",
+  "reason": "Loosening gag clauses lets insiders speak about risks, improving oversight; limited concession, T1.",
+  "sources": [
+   "https://www.washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company/",
+   "https://www.nzherald.co.nz/business/google-researchers-are-fighting-the-company-to-tell-the-world-what-they-know-about-ai/XYWGEVCPEFF4PHSAH6WC533BNA/"
+  ]
+ }
+]

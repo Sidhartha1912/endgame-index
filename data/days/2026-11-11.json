@@ -1,0 +1,481 @@
+{
+ "date": "2026-11-11",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 14.41,
+  "benevolent_dictator": 22.97,
+  "egalitarian_utopia": 2.22,
+  "protector_god": 18.07,
+  "gatekeeper": 19.33,
+  "enslaved_god": 39.56,
+  "conquerors": 43.29,
+  "descendants": 30.98,
+  "zookeeper": 32.87,
+  "orwell_1984": 22.22,
+  "reversion": 7.43,
+  "self_destruction": 36.79
+ },
+ "deltas": {
+  "libertarian_utopia": -0.33,
+  "benevolent_dictator": -0.07,
+  "egalitarian_utopia": -0.28,
+  "protector_god": -0.15,
+  "gatekeeper": -0.14,
+  "enslaved_god": -0.08,
+  "conquerors": 0.34,
+  "descendants": 0.06,
+  "zookeeper": 0.24,
+  "orwell_1984": 0.02,
+  "reversion": 0.11,
+  "self_destruction": 0.41
+ },
+ "targets": {
+  "libertarian_utopia": 14.41,
+  "benevolent_dictator": 22.97,
+  "egalitarian_utopia": 2.22,
+  "protector_god": 18.07,
+  "gatekeeper": 19.33,
+  "enslaved_god": 39.56,
+  "conquerors": 43.29,
+  "descendants": 30.98,
+  "zookeeper": 32.87,
+  "orwell_1984": 22.22,
+  "reversion": 7.43,
+  "self_destruction": 36.79
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.68,
+  "benevolent_dictator": 0.19,
+  "egalitarian_utopia": -0.46,
+  "protector_god": 0.46,
+  "gatekeeper": 0.76,
+  "enslaved_god": 0.29,
+  "conquerors": 0.8,
+  "descendants": 0.47,
+  "zookeeper": 0.3,
+  "orwell_1984": 0.11,
+  "reversion": 1.07,
+  "self_destruction": 1.49
+ },
+ "factors": {
+  "F1": 87.25,
+  "F2": 56.37,
+  "F3": 29.03,
+  "F4": 26.43,
+  "F5": 66.84,
+  "F6": 45.54,
+  "F7": 31.92,
+  "F8": 68.01,
+  "F9": 47.77,
+  "F10": 20.76
+ },
+ "factor_deltas": {
+  "F1": 0.05,
+  "F2": 0.05,
+  "F3": -0.29,
+  "F4": -0.0,
+  "F5": 0.08,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": 0.26,
+  "F9": 0.04,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -19.38,
+  "families": {
+   "flourishing": 14.42,
+   "contained": 29.44,
+   "successors": 35.72,
+   "stalled": 22.14
+  },
+  "news_heat": 1.34,
+  "evidence": "low",
+  "event_count": 9
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.03,
+  "protector_god": -0.05,
+  "gatekeeper": -0.05,
+  "enslaved_god": -0.04,
+  "descendants": -0.03,
+  "zookeeper": -0.01,
+  "reversion": 0.01,
+  "self_destruction": 0.01
+ },
+ "summary": {
+  "headline": "US and China plan AI incident hotline; neuron backdoor study worries",
+  "body": "Treasury Secretary Bessent said the US and China will set up an AI incident hotline and a 'superintelligence' dialogue, and New York opened RAISE Act registration for frontier labs, both small lifts to Global Coordination. They were outweighed by worrying news. Microsoft Research showed that editing fewer than 10 neurons can backdoor an AI agent while it still passes safety tests, pulling Alignment & Control down 0.29. Records showed a PLA-linked university bought Nvidia H200s through a reseller despite the US ban, and Helsing unveiled Clarity, an agentic platform that prepares military targets, so Catastrophic Risk rose 0.26. Anthropic launched its IPO roadshow and Boise passed a data-center moratorium. Self-Destruction and Conquerors rose. Horizon Balance fell to -19.38 from -18.92.",
+  "movers_note": "Self-Destruction +0.41, led by the PLA-linked H200 purchase (+0.32) and the neuron backdoor study (+0.12). Conquerors +0.34, led by the backdoor study (+0.20). Libertarian Utopia -0.33, from the backdoor study (-0.15) and the H200 purchase (-0.12).",
+  "coming_up": [
+   "Trump-Xi meeting in Shenzhen at APEC, 18-19 Nov",
+   "Qwen4-Max preview ends 25 Nov",
+   "New York RAISE Act registration deadline, 1 Jan 2027"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-11-11-01",
+   "title": "Bessent: US and China to set up AI incident hotline and 'superintelligence' dialogue",
+   "summary": "Treasury Secretary Bessent said the US and China agreed to a direct channel for alerting each other to serious AI incidents and will exchange practices on pre-release model testing. Technical talks are due in November, ahead of the Trump-Xi meeting in Shenzhen on Nov 18-19.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    },
+    {
+     "id": "F8",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "global",
+   "track": "signal",
+   "region": "Global",
+   "reason": "US-China AI confidence-building (F4 up, F8 down) builds on the September hotline proposal; these are statements, not an operating channel, so T1.",
+   "sources": [
+    "https://www.reuters.com/world/china/us-china-should-stay-clear-eyed-ai-cooperation-competition-bessent-says-2026-11-11/",
+    "https://political.org/2026/11/10/bessent-says-us-and-china-should-stay-clear-eyed-on-ai-cooperation-and-competition-ahead-of-trump-xi-meeting-in-shenzhen/"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "libertarian_utopia": 0.01,
+    "egalitarian_utopia": 0.01,
+    "gatekeeper": 0.03,
+    "conquerors": -0.01,
+    "orwell_1984": 0.02,
+    "reversion": -0.01,
+    "self_destruction": -0.05
+   },
+   "factor_effect": {
+    "F4": 0.04,
+    "F8": -0.02
+   }
+  },
+  {
+   "id": "2026-11-11-02",
+   "title": "New York opens RAISE Act registration; frontier labs must file by Jan 1",
+   "summary": "New York's DIGIT office opened its frontier-developer portal. Labs with over $500M revenue, including OpenAI and Anthropic, must register by Jan 1 2027, publish safety frameworks and report critical incidents within 72 hours, with fines up to $1M for a first violation. Gov. Hochul also launched a state AI testing program.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    },
+    {
+     "id": "F3",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "A state frontier-AI law moving into enforcement (F4 up) with incident reporting and testing (F3 up); state-level and early, so T1.",
+   "sources": [
+    "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+    "https://www.politico.com/news/2026/11/10/new-york-hochul-first-state-ai-testing-program-01157713"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "libertarian_utopia": 0.02,
+    "benevolent_dictator": 0.02,
+    "egalitarian_utopia": 0.02,
+    "protector_god": 0.03,
+    "gatekeeper": 0.09,
+    "enslaved_god": 0.02,
+    "conquerors": -0.03,
+    "zookeeper": -0.02,
+    "orwell_1984": 0.04,
+    "self_destruction": -0.06
+   },
+   "factor_effect": {
+    "F3": 0.04,
+    "F4": 0.09
+   }
+  },
+  {
+   "id": "2026-11-11-03",
+   "title": "Anthropic launches IPO roadshow: 825M shares at $70-78, Nasdaq ticker ANT",
+   "summary": "Anthropic began its IPO roadshow for 825M shares at $70-78. Seven tech firms, including Google, Nvidia, AMD and Microsoft, committed $26B to a concurrent private placement.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "A follow-up to the S-1: capital and big-tech placements concentrate around a leading lab (F5 up); financing, not capability, so T1.",
+   "sources": [
+    "https://www.anthropic.com/news/roadshow-launch",
+    "https://www.euronews.com/2026/11/11/openai-reports-steep-losses-despite-quarterly-revenue-rise"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "libertarian_utopia": -0.05,
+    "benevolent_dictator": 0.04,
+    "egalitarian_utopia": -0.04,
+    "enslaved_god": 0.05,
+    "zookeeper": 0.04,
+    "orwell_1984": 0.04
+   },
+   "factor_effect": {
+    "F5": 0.09
+   }
+  },
+  {
+   "id": "2026-11-11-04",
+   "title": "Google makes Gemini 4 Carbon broadly available via API and AI Ultra",
+   "summary": "Google released Gemini 4 Carbon to paid API users and AI Ultra subscribers, claiming first place on CursorBench 4.0, WANDR and AutomationBench at $2/$10 per million tokens until Nov 30. It also previewed /swarm for coordinating agent teams.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    },
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Wider release of an already-scored frontier model plus agent-swarm tooling (F1, F2 up); a development, so T1.",
+   "sources": [
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+   ],
+   "points": 0.06,
+   "contribution": {
+    "benevolent_dictator": 0.02,
+    "protector_god": 0.03,
+    "gatekeeper": 0.02,
+    "enslaved_god": 0.01,
+    "conquerors": 0.03,
+    "descendants": 0.04,
+    "zookeeper": 0.03,
+    "orwell_1984": -0.01,
+    "reversion": -0.02
+   },
+   "factor_effect": {
+    "F1": 0.03,
+    "F2": 0.03
+   }
+  },
+  {
+   "id": "2026-11-11-05",
+   "title": "Microsoft Research: editing under 10 neurons can backdoor an AI agent undetected",
+   "summary": "Microsoft's 'Lazarus' method plants backdoors by reprogramming fewer than 10 dormant neurons without training, and the backdoored models pass standard safety evaluations. Microsoft says Claude Code discovered most of the method autonomously.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Shows that behavioural safety tests can miss tiny weight edits (F3 down); a research demo with no in-the-wild abuse, so T1.",
+   "sources": [
+    "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+    "https://aiweekly.co/alerts/microsoft-fewer-than-10-neurons-can-backdoor-an-ai-agent"
+   ],
+   "points": 0.3,
+   "contribution": {
+    "libertarian_utopia": -0.15,
+    "benevolent_dictator": -0.15,
+    "egalitarian_utopia": -0.15,
+    "protector_god": -0.2,
+    "gatekeeper": -0.18,
+    "enslaved_god": -0.15,
+    "conquerors": 0.2,
+    "zookeeper": 0.15,
+    "self_destruction": 0.12
+   },
+   "factor_effect": {
+    "F3": -0.29
+   }
+  },
+  {
+   "id": "2026-11-11-06",
+   "title": "PLA-linked university bought Nvidia H200s via reseller despite US ban, records show",
+   "summary": "Procurement records show Northwestern Polytechnical University, on the US Entity List, bought two H200s through a Chinese reseller and signed five H200 server rental contracts. Reuters found 26 similar records among military-linked buyers.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    },
+    {
+     "id": "F4",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "Advanced AI chips leaking to China's military research base (F8 up) and evading export controls (F4 down); small volumes, so T1.",
+   "sources": [
+    "https://www.aljazeera.com/news/2026/11/11/chinese-university-buys-nvidia-ai-h200-chips-despite-us-ban-records-show"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "libertarian_utopia": -0.12,
+    "egalitarian_utopia": -0.1,
+    "gatekeeper": -0.08,
+    "conquerors": 0.07,
+    "orwell_1984": -0.05,
+    "reversion": 0.1,
+    "self_destruction": 0.32
+   },
+   "factor_effect": {
+    "F4": -0.12,
+    "F8": 0.24
+   }
+  },
+  {
+   "id": "2026-11-11-07",
+   "title": "Helsing unveils Clarity, an agentic platform that prepares military targets",
+   "summary": "German defense firm Helsing presented Clarity in Berlin, where hundreds of AI agents fuse sensor and intelligence data to recommend targets for weapons systems. A named human must authorize every handoff to a weapon.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    },
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "EU",
+   "reason": "AI agents moving into targeting chains (F8 up, F2 up); a product launch with no disclosed customer, and it keeps a human in the loop, so T1.",
+   "sources": [
+    "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/"
+   ],
+   "points": 0.06,
+   "contribution": {
+    "libertarian_utopia": -0.03,
+    "benevolent_dictator": 0.02,
+    "egalitarian_utopia": -0.03,
+    "protector_god": 0.02,
+    "gatekeeper": 0.01,
+    "enslaved_god": -0.01,
+    "conquerors": 0.03,
+    "descendants": 0.02,
+    "zookeeper": 0.02,
+    "reversion": 0.03,
+    "self_destruction": 0.07
+   },
+   "factor_effect": {
+    "F2": 0.03,
+    "F8": 0.06
+   }
+  },
+  {
+   "id": "2026-11-11-08",
+   "title": "Alibaba opens preview of flagship Qwen4-Max with 1M-token context",
+   "summary": "Alibaba released an early preview of Qwen4-Max, its next-generation flagship, with image and video input and a 1M-token context, available through its Token Plan and Qwen apps.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "A new flagship from a leading Chinese lab (F1 up); a limited preview with no benchmarks or weights disclosed, so T1.",
+   "sources": [
+    "https://af.net/realtime/alibaba-opens-preview-of-qwen4-max-with-1-million-token-context-window/",
+    "https://docs.qwencloud.com/developer-guides/getting-started/latest-model"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "protector_god": 0.03,
+    "gatekeeper": 0.03,
+    "enslaved_god": 0.04,
+    "conquerors": 0.03,
+    "descendants": 0.04,
+    "zookeeper": 0.03,
+    "orwell_1984": -0.02,
+    "reversion": -0.04
+   },
+   "factor_effect": {
+    "F1": 0.06
+   }
+  },
+  {
+   "id": "2026-11-11-09",
+   "title": "Boise passes immediate 6-month moratorium on large data centers",
+   "summary": "Boise's council unanimously approved a six-month pause on data centers of 100,000 sq ft or 20MW and above, with every hearing speaker backing it. Edmond, Oklahoma extended its own moratorium to June 2027 the same week.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "local",
+   "track": "structural",
+   "region": "US",
+   "reason": "More enacted local data-center bans after the midterms (F9 up); local in scope, so T1.",
+   "sources": [
+    "https://www.eastidahonews.com/?p=882966",
+    "https://newsweek.com/more-cities-move-to-ban-data-centers-after-midterm-backlash-12700558"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "reversion": 0.04
+   },
+   "factor_effect": {
+    "F9": 0.04
+   }
+  }
+ ]
+}

@@ -1,0 +1,302 @@
+{
+ "date": "2026-11-09",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 14.83,
+  "benevolent_dictator": 22.76,
+  "egalitarian_utopia": 2.54,
+  "protector_god": 17.86,
+  "gatekeeper": 19.16,
+  "enslaved_god": 39.48,
+  "conquerors": 42.66,
+  "descendants": 30.56,
+  "zookeeper": 32.29,
+  "orwell_1984": 22.21,
+  "reversion": 7.44,
+  "self_destruction": 36.3
+ },
+ "deltas": {
+  "libertarian_utopia": -0.2,
+  "benevolent_dictator": -0.09,
+  "egalitarian_utopia": -0.18,
+  "protector_god": -0.34,
+  "gatekeeper": -0.13,
+  "enslaved_god": -0.25,
+  "conquerors": 0.13,
+  "descendants": -0.12,
+  "zookeeper": 0.04,
+  "orwell_1984": 0.25,
+  "reversion": 0.16,
+  "self_destruction": 0.18
+ },
+ "targets": {
+  "libertarian_utopia": 14.83,
+  "benevolent_dictator": 22.76,
+  "egalitarian_utopia": 2.54,
+  "protector_god": 17.86,
+  "gatekeeper": 19.16,
+  "enslaved_god": 39.48,
+  "conquerors": 42.66,
+  "descendants": 30.56,
+  "zookeeper": 32.29,
+  "orwell_1984": 22.21,
+  "reversion": 7.44,
+  "self_destruction": 36.3
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.75,
+  "benevolent_dictator": -0.17,
+  "egalitarian_utopia": -0.53,
+  "protector_god": 0.32,
+  "gatekeeper": 0.79,
+  "enslaved_god": 0.17,
+  "conquerors": 0.6,
+  "descendants": 0.1,
+  "zookeeper": -0.34,
+  "orwell_1984": 0.04,
+  "reversion": 1.64,
+  "self_destruction": 2.33
+ },
+ "factors": {
+  "F1": 86.92,
+  "F2": 55.98,
+  "F3": 29.25,
+  "F4": 26.35,
+  "F5": 66.66,
+  "F6": 45.54,
+  "F7": 31.9,
+  "F8": 67.62,
+  "F9": 47.74,
+  "F10": 20.77
+ },
+ "factor_deltas": {
+  "F1": -0.19,
+  "F2": -0.01,
+  "F3": -0.28,
+  "F4": 0.16,
+  "F5": -0.01,
+  "F6": 0.15,
+  "F7": 0.01,
+  "F8": 0.13,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -18.87,
+  "families": {
+   "flourishing": 14.5,
+   "contained": 29.32,
+   "successors": 35.17,
+   "stalled": 21.98
+  },
+  "news_heat": 1.0,
+  "evidence": "low",
+  "event_count": 5
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.03,
+  "protector_god": -0.06,
+  "gatekeeper": -0.05,
+  "enslaved_god": -0.05,
+  "descendants": -0.03,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.01,
+  "reversion": 0.01
+ },
+ "summary": {
+  "headline": "US AI safety centre staff told to report to the White House",
+  "body": "AP reported that staff at CAISSI, the US AI safety centre, were told to informally report to the White House, raising questions about its independence and pulling Alignment & Control down 0.28. Nvidia reportedly ordered cloud partners to keep 51% of capacity for non-Chinese clients, trimming Capability Velocity, and Jensen Huang admitted an affair with a suspected Chinese spy, prompting a board probe and a small rise in Catastrophic Risk. President Trump told 60 Minutes he is open to AI guardrails while framing AI as a race with China, lifting Global Coordination. Meta expanded AI age detection worldwide, raising Surveillance & Control. Protector God and Enslaved God fell; 1984 rose. Horizon Balance fell to -18.87 from -18.51.",
+  "movers_note": "Protector God -0.34, led by the CAISSI report (-0.17). Enslaved God -0.25, from the CAISSI report (-0.12) and Nvidia's capacity order (-0.09). 1984 +0.25, from Meta's age detection (+0.13) and Trump's guardrails remarks (+0.10).",
+  "coming_up": [
+   "Nvidia Q3 results, 17 Nov",
+   "House briefing request to Jensen Huang, 18 Nov"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-11-09-01",
+   "title": "Nvidia's Huang admits affair with suspected Chinese spy; board opens probe",
+   "summary": "Jensen Huang told staff he had an affair with a Megaspeed executive US intelligence reportedly believes was recruited by China's Ministry of State Security. Nvidia's board opened an independent probe, and three House committee chairs requested a closed-door briefing on Nov 18.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Alleged Chinese intelligence targeting of the top AI-chip CEO sharpens the US-China chip security fight; this is a governance scandal, not a capability change, so T1.",
+   "sources": [
+    "https://www.cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html",
+    "https://aiweekly.co/alerts/nvidia-ceo-jensen-huang-admits-affair-with-suspected-chinese-spy-in-letter-to"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "libertarian_utopia": -0.07,
+    "egalitarian_utopia": -0.06,
+    "conquerors": 0.04,
+    "reversion": 0.06,
+    "self_destruction": 0.16
+   },
+   "factor_effect": {
+    "F8": 0.15
+   }
+  },
+  {
+   "id": "2026-11-09-02",
+   "title": "Nvidia reportedly orders cloud partners to keep 51% of capacity for non-Chinese clients",
+   "summary": "The FT reports that Nvidia verbally told cloud partners worldwide that at least 51% of new services must go to non-Chinese firms, and it tightened tracking of Southeast Asian partners. Black-market B300 racks reportedly sold for $2.8M in China.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": -1
+    },
+    {
+     "id": "F4",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "Tighter limits on compute reaching China (F1 down for Chinese labs) deepen the tech-bloc split (F4 down); the rule is unconfirmed and narrow, so T1.",
+   "sources": [
+    "https://www.tomshardware.com/tech-industry/policy/nvidia-cracks-down-on-overseas-cloud-ai-gpu-rentals-for-china-partners-face-51-percent-non-chinese-quota-as-black-market-b300-rack-prices-surge-to-usd2-8-million"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "protector_god": -0.07,
+    "gatekeeper": -0.11,
+    "enslaved_god": -0.09,
+    "conquerors": -0.07,
+    "descendants": -0.09,
+    "zookeeper": -0.07,
+    "orwell_1984": 0.01,
+    "reversion": 0.09,
+    "self_destruction": 0.04
+   },
+   "factor_effect": {
+    "F1": -0.15,
+    "F4": -0.07
+   }
+  },
+  {
+   "id": "2026-11-09-03",
+   "title": "AP: US AI safety centre CAISSI staff told to informally report to White House",
+   "summary": "Two former officials told the AP that staff at Commerce's CAISSI (about $10M a year, roughly one-eighth of the UK AISI's budget) were asked to informally report to a White House office. The centre has no permanent leader and stopped publishing safety reports by August.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "The US safety evaluator is losing independence and capacity (F3 down); the account rests on two anonymous sources, so T1.",
+   "sources": [
+    "https://apnews.com/article/ai-safety-trump-white-house-d3318eb2cf011df53e9ddb3e03d25f13",
+    "https://aiweekly.co/alerts/ap-caissi-staff-informally-report-to-white-house-office"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "libertarian_utopia": -0.12,
+    "benevolent_dictator": -0.12,
+    "egalitarian_utopia": -0.12,
+    "protector_god": -0.17,
+    "gatekeeper": -0.14,
+    "enslaved_god": -0.12,
+    "conquerors": 0.17,
+    "zookeeper": 0.12,
+    "self_destruction": 0.09
+   },
+   "factor_effect": {
+    "F3": -0.24
+   }
+  },
+  {
+   "id": "2026-11-09-04",
+   "title": "Trump tells 60 Minutes he is open to AI guardrails but frames AI as a race with China",
+   "summary": "In a 60 Minutes interview, Trump said AI risks can be managed, signalled openness to working with Democrats on safeguards, and repeatedly warned against falling behind China.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "US",
+   "reason": "Words only: a mild softening toward guardrails (F4 up slightly), offset by race framing, so T1.",
+   "sources": [
+    "https://www.reuters.com/world/trump-says-ai-risks-can-be-managed-signals-openness-guardrails-2026-11-09/",
+    "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "gatekeeper": 0.17,
+    "orwell_1984": 0.1,
+    "self_destruction": -0.12
+   },
+   "factor_effect": {
+    "F4": 0.24
+   }
+  },
+  {
+   "id": "2026-11-09-05",
+   "title": "Meta expands AI age detection worldwide across Instagram and Facebook",
+   "summary": "Meta is extending AI age estimation globally, beyond the US, EU and Brazil, to move suspected 13-17-year-olds into teen accounts even if they gave adult birthdates. It is also bringing the system to Facebook, with Threads to follow.",
+   "category": "surveillance",
+   "factors": [
+    {
+     "id": "F6",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Global",
+   "reason": "AI profiling of users' ages rolled out globally expands automated monitoring (F6 up); it is child-safety driven and limited in scope, so T1.",
+   "sources": [
+    "https://www.engadget.com/2310848/meta-is-expanding-ai-age-detection-for-instagram-teen-accounts/"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "benevolent_dictator": 0.06,
+    "protector_god": -0.04,
+    "orwell_1984": 0.13
+   },
+   "factor_effect": {
+    "F6": 0.15
+   }
+  }
+ ]
+}

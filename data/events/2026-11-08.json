@@ -1,0 +1,26 @@
+[
+ {
+  "id": "2026-11-08-01",
+  "title": "DeepSeek's Harness agent app hits 1.54 million daily users",
+  "summary": "DeepSeek said its open-source agent app Harness, launched Aug 13, reached 1.54 million daily active users and processes about 92 trillion tokens a day, with ~35,000 user plugins; a plugin marketplace is planned.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Fast mass adoption of autonomous agents in China expands agent use (F2 up); company-reported usage figures, T1.",
+  "sources": [
+   "https://www.deccanchronicle.com/technology/deepseeks-ai-agent-platform-hits-154-million-daily-users-2002883",
+   "https://scmp.com/tech/big-tech/article/3373757/can-deepseek-challenge-openai-anthropic-ai-agents-harness-adoption-takes"
+  ]
+ }
+]

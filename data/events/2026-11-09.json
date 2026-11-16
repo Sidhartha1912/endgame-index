@@ -1,0 +1,124 @@
+[
+ {
+  "id": "2026-11-09-01",
+  "title": "Nvidia's Huang admits affair with suspected Chinese spy; board opens probe",
+  "summary": "Jensen Huang told staff he had an affair with a Megaspeed executive US intelligence reportedly believes was recruited by China's Ministry of State Security. Nvidia's board opened an independent probe, and three House committee chairs requested a closed-door briefing on Nov 18.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Alleged Chinese intelligence targeting of the top AI-chip CEO sharpens the US-China chip security fight; this is a governance scandal, not a capability change, so T1.",
+  "sources": [
+   "https://www.cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html",
+   "https://aiweekly.co/alerts/nvidia-ceo-jensen-huang-admits-affair-with-suspected-chinese-spy-in-letter-to"
+  ]
+ },
+ {
+  "id": "2026-11-09-02",
+  "title": "Nvidia reportedly orders cloud partners to keep 51% of capacity for non-Chinese clients",
+  "summary": "The FT reports that Nvidia verbally told cloud partners worldwide that at least 51% of new services must go to non-Chinese firms, and it tightened tracking of Southeast Asian partners. Black-market B300 racks reportedly sold for $2.8M in China.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": -1
+   },
+   {
+    "id": "F4",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Tighter limits on compute reaching China (F1 down for Chinese labs) deepen the tech-bloc split (F4 down); the rule is unconfirmed and narrow, so T1.",
+  "sources": [
+   "https://www.tomshardware.com/tech-industry/policy/nvidia-cracks-down-on-overseas-cloud-ai-gpu-rentals-for-china-partners-face-51-percent-non-chinese-quota-as-black-market-b300-rack-prices-surge-to-usd2-8-million"
+  ]
+ },
+ {
+  "id": "2026-11-09-03",
+  "title": "AP: US AI safety centre CAISSI staff told to informally report to White House",
+  "summary": "Two former officials told the AP that staff at Commerce's CAISSI (about $10M a year, roughly one-eighth of the UK AISI's budget) were asked to informally report to a White House office. The centre has no permanent leader and stopped publishing safety reports by August.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "The US safety evaluator is losing independence and capacity (F3 down); the account rests on two anonymous sources, so T1.",
+  "sources": [
+   "https://apnews.com/article/ai-safety-trump-white-house-d3318eb2cf011df53e9ddb3e03d25f13",
+   "https://aiweekly.co/alerts/ap-caissi-staff-informally-report-to-white-house-office"
+  ]
+ },
+ {
+  "id": "2026-11-09-04",
+  "title": "Trump tells 60 Minutes he is open to AI guardrails but frames AI as a race with China",
+  "summary": "In a 60 Minutes interview, Trump said AI risks can be managed, signalled openness to working with Democrats on safeguards, and repeatedly warned against falling behind China.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Words only: a mild softening toward guardrails (F4 up slightly), offset by race framing, so T1.",
+  "sources": [
+   "https://www.reuters.com/world/trump-says-ai-risks-can-be-managed-signals-openness-guardrails-2026-11-09/",
+   "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai"
+  ]
+ },
+ {
+  "id": "2026-11-09-05",
+  "title": "Meta expands AI age detection worldwide across Instagram and Facebook",
+  "summary": "Meta is extending AI age estimation globally, beyond the US, EU and Brazil, to move suspected 13-17-year-olds into teen accounts even if they gave adult birthdates. It is also bringing the system to Facebook, with Threads to follow.",
+  "category": "surveillance",
+  "factors": [
+   {
+    "id": "F6",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Global",
+  "reason": "AI profiling of users' ages rolled out globally expands automated monitoring (F6 up); it is child-safety driven and limited in scope, so T1.",
+  "sources": [
+   "https://www.engadget.com/2310848/meta-is-expanding-ai-age-detection-for-instagram-teen-accounts/"
+  ]
+ }
+]

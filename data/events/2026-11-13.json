@@ -1,0 +1,149 @@
+[
+ {
+  "id": "2026-11-13-01",
+  "title": "FBI warns attackers are using ARTEX autonomous AI pentest framework in intrusions",
+  "summary": "FBI FLASH advisory 20261113-001 says threat actors use the agentic ARTEX framework, often driven by Chinese models like DeepSeek Flash, to run end-to-end intrusions, some reaching privileged access in under three hours. Campaigns hit finance, government, defense and healthcare, including theft of data on ~67,000 people in South Korea.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Official confirmation of autonomous AI agents conducting real-world cyberattacks at scale raises catastrophic/cyber risk and shows agents acting with autonomy; T2 as a notable real-world AI cyberattack disclosure.",
+  "sources": [
+   "https://gbhackers.com/fbi-warns-artex-ai-framework/"
+  ]
+ },
+ {
+  "id": "2026-11-13-02",
+  "title": "Google says Antigravity /teamwork agents autonomously formalized Weil conjectures in Lean",
+  "summary": "Google Research says its multi-agent /teamwork system produced a ~1.8M-line machine-checked Lean formalization of the Weil conjectures across 28,800 subagent calls and claims progress on several open problems, including Courtade-Kumar. The claims are Google's own, with preprints and repos linked.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Large autonomous multi-agent math/formal-verification results push capability velocity and agent autonomy; T2 rather than T3 because results are self-reported and not yet independently verified.",
+  "sources": [
+   "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
+  ]
+ },
+ {
+  "id": "2026-11-13-03",
+  "title": "OpenAI disbands standalone robotics team as GPT-6 Astra runs robots directly",
+  "summary": "OpenAI folded its robotics researchers into its main research org and applied robotics/hardware into Applied, saying general models now drive robots; an Nvidia study cited an Astra-powered agent at 74.8% on a simulated manipulation benchmark vs 51% for specialist models.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Reorg reflects general frontier models absorbing robotics capability; minor organisational change, so T1.",
+  "sources": [
+   "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/"
+  ]
+ },
+ {
+  "id": "2026-11-13-04",
+  "title": "OpenAI launches ChatGPT Wallet letting Dots agents make purchases for US Pro users",
+  "summary": "OpenAI rolled out ChatGPT Wallet so its Dots personal agents can buy things on behalf of US ChatGPT Pro subscribers, with a biometric check on each purchase.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Gives consumer agents spending authority (autonomy up), tempered by per-purchase human confirmation; T1 product step.",
+  "sources": [
+   "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
+   "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
+  ]
+ },
+ {
+  "id": "2026-11-13-05",
+  "title": "Weight forensics suggest DeepSeek V4 and Kimi K3 trained on export-banned Nvidia Blackwells",
+  "summary": "Analysis by nonprofit Unemployment Labs of open model weights found traces indicating Moonshot's Kimi K3 and DeepSeek V4 were trained on Nvidia Blackwell GPUs barred from China, though possibly in offshore data centers.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "China",
+  "reason": "Evidence that export controls are being circumvented weakens the coordination/control regime around the US-China race; single unreviewed analysis, so T1 signal.",
+  "sources": [
+   "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
+  ]
+ },
+ {
+  "id": "2026-11-13-06",
+  "title": "LangChain raises $300M Series C at $3B valuation for agent tooling",
+  "summary": "Agent-framework startup LangChain closed a $300M round led by CapitalG at a $3B valuation, reporting 7,000+ LangSmith customers.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Capital flowing into agent infrastructure modestly accelerates agent deployment; ordinary funding round, T1.",
+  "sources": [
+   "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
+  ]
+ }
+]

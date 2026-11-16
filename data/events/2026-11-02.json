@@ -1,0 +1,154 @@
+[
+ {
+  "id": "2026-11-02-01",
+  "title": "Anthropic S-1/A says Claude may 'imminently' hit its RSP threshold for AI-driven acceleration",
+  "summary": "Anthropic's amended IPO filing says it may imminently meet its Responsible Scaling Policy threshold for dramatically accelerated progress attributable to AI, though no model has yet been designated as crossing it. The filing also discloses about $17B in Q3 revenue and $895.4B in compute commitments.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "development",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "A lab's own legal filing warns of near-term recursive acceleration, alongside huge compute concentration; a claim rather than a verified leap, so T2.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm",
+   "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+   "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
+  ]
+ },
+ {
+  "id": "2026-11-02-02",
+  "title": "Meituan launches LongCat-2.5, 1.6T-parameter multimodal agent model trained on Chinese chips",
+  "summary": "Meituan released LongCat-2.5, a 1.6-trillion-parameter MoE (about 48B active) for long-horizon agent work, which it says was trained on domestic Chinese accelerators. Meituan claims it beats GPT-5.6-Sol on 20 of 27 shared tests; no independent evaluation yet, and weights are planned but not out.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Large Chinese model on domestic hardware adds capability velocity; self-reported, sub-frontier, so T1.",
+  "sources": [
+   "https://technode.com/2026/11/02/meituan-launches-longcat-2-5-multimodal-ai-model-for-extended-coding-tasks/",
+   "https://longcat.ai/blog/longcat-2.5"
+  ]
+ },
+ {
+  "id": "2026-11-02-03",
+  "title": "Marvell agrees to buy Lumentum in ~$115B all-stock AI connectivity deal",
+  "summary": "Marvell will acquire optical-component maker Lumentum in an all-stock deal valued at about $115B, targeting AI data-center connectivity. Closing is targeted for the first half of 2028.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Mega-merger consolidates the AI networking supply chain; pending approval and not a lab, so T1.",
+  "sources": [
+   "https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity",
+   "https://www.cnbc.com/2026/11/02/marvell-to-buy-lumentum-in-115-billion-deal-in-ai-data-center-bet-.html"
+  ]
+ },
+ {
+  "id": "2026-11-02-04",
+  "title": "Abu Dhabi signs four OpenAI deals, incl. machine-readable government rules",
+  "summary": "Abu Dhabi and OpenAI will convert a set of government policies into machine-readable form so AI can check permit compliance, with officials keeping final decisions. Mubadala, Inception42 and ADNOC also signed deals to adopt OpenAI's frontier models and Frontier agent platform.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F2",
+    "dir": 1
+   },
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "Other",
+  "reason": "Government hands AI agents a role in regulatory compliance and ties a state to one US lab; humans keep final say, so T1.",
+  "sources": [
+   "https://www.mediaoffice.abudhabi/en/crown-prince-news/khaled-bin-mohamed-bin-zayed-meets-sam-altman-and-witnesses-signing-of-agreements-with-openai/",
+   "https://www.thenationalnews.com/news/uae/2026/11/02/abu-dhabi-agrees-openai-deals-to-boost-government-services-and-education"
+  ]
+ },
+ {
+  "id": "2026-11-02-05",
+  "title": "Germany publishes 'KI-Nation 2030' plan with 18 key AI measures",
+  "summary": "The federal AI Taskforce report, released at the Digital Summit in Berlin, sets 2030 goals including sovereign infrastructure, access to frontier AI and 'safe and controllable AI'. It names no specific figures.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "EU",
+  "reason": "National strategy aimed at faster AI adoption and frontier access; a plan without figures, so a T1 signal.",
+  "sources": [
+   "https://www.bmds.bund.de/aktuelles/pressemitteilungen/detail/bundesregierung-formuliert-zielbild-fuer-ki-nation-deutschland-2030"
+  ]
+ },
+ {
+  "id": "2026-11-02-06",
+  "title": "SUSE to cut about 10% of staff, CEO memo citing AI and automation",
+  "summary": "Linux company SUSE is cutting roughly 190 of its 1,900+ jobs; CEO Dirk-Peter van Leeuwen told staff that AI and automation have greatly reduced the need for some roles.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F7",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "EU",
+  "reason": "Layoffs explicitly attributed to AI reduce shared prosperity; small scale, T1.",
+  "sources": [
+   "https://thenextweb.com/news/suse-job-cuts-10-percent-ai-automation",
+   "https://phoronix.com/news/SUSE-Layoffs-10p-AI"
+  ]
+ }
+]

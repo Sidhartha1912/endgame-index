@@ -1,0 +1,361 @@
+{
+ "date": "2026-11-10",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 14.74,
+  "benevolent_dictator": 23.05,
+  "egalitarian_utopia": 2.49,
+  "protector_god": 18.22,
+  "gatekeeper": 19.46,
+  "enslaved_god": 39.64,
+  "conquerors": 42.96,
+  "descendants": 30.92,
+  "zookeeper": 32.63,
+  "orwell_1984": 22.2,
+  "reversion": 7.32,
+  "self_destruction": 36.38
+ },
+ "deltas": {
+  "libertarian_utopia": -0.09,
+  "benevolent_dictator": 0.29,
+  "egalitarian_utopia": -0.05,
+  "protector_god": 0.35,
+  "gatekeeper": 0.31,
+  "enslaved_god": 0.16,
+  "conquerors": 0.3,
+  "descendants": 0.37,
+  "zookeeper": 0.35,
+  "orwell_1984": -0.01,
+  "reversion": -0.12,
+  "self_destruction": 0.08
+ },
+ "targets": {
+  "libertarian_utopia": 14.74,
+  "benevolent_dictator": 23.05,
+  "egalitarian_utopia": 2.49,
+  "protector_god": 18.22,
+  "gatekeeper": 19.46,
+  "enslaved_god": 39.64,
+  "conquerors": 42.96,
+  "descendants": 30.92,
+  "zookeeper": 32.63,
+  "orwell_1984": 22.2,
+  "reversion": 7.32,
+  "self_destruction": 36.38
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.58,
+  "benevolent_dictator": 0.25,
+  "egalitarian_utopia": -0.36,
+  "protector_god": 0.75,
+  "gatekeeper": 1.02,
+  "enslaved_god": 0.45,
+  "conquerors": 0.65,
+  "descendants": 0.47,
+  "zookeeper": 0.03,
+  "orwell_1984": 0.01,
+  "reversion": 1.29,
+  "self_destruction": 1.79
+ },
+ "factors": {
+  "F1": 87.2,
+  "F2": 56.32,
+  "F3": 29.32,
+  "F4": 26.43,
+  "F5": 66.76,
+  "F6": 45.54,
+  "F7": 31.91,
+  "F8": 67.75,
+  "F9": 47.73,
+  "F10": 20.77
+ },
+ "factor_deltas": {
+  "F1": 0.28,
+  "F2": 0.34,
+  "F3": 0.07,
+  "F4": 0.08,
+  "F5": 0.1,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": 0.13,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -18.92,
+  "families": {
+   "flourishing": 14.62,
+   "contained": 29.55,
+   "successors": 35.5,
+   "stalled": 21.97
+  },
+  "news_heat": 1.62,
+  "evidence": "medium",
+  "event_count": 6
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.03,
+  "protector_god": -0.05,
+  "gatekeeper": -0.05,
+  "enslaved_god": -0.04,
+  "descendants": -0.03,
+  "zookeeper": -0.01,
+  "reversion": 0.01,
+  "self_destruction": 0.01
+ },
+ "summary": {
+  "headline": "Anthropic's Claude 5.2 agents formalize Fermat's Last Theorem in 30 hours",
+  "body": "Anthropic released Claude Fable 5.2 and Mythos 5.2 and said 1,000 agents formalized Fermat's Last Theorem in about 30 hours. That was the day's main event, lifting Capability Velocity and AI Autonomy, which rose 0.34. TSMC approved up to $1 billion in stakes in Anthropic and OpenAI, nudging Power Concentration up. Safety news was modestly positive: Australia plans an AI safety regulator with large fines after an OpenAI agent breached a Medicare portal, and OpenAI unveiled Control Room, a fail-closed kill switch for research models. Fireworks AI disclosed hacks it suspects involved AI agents. Descendants, Protector God and Zookeeper all rose. Horizon Balance fell to -18.92 from -18.87.",
+  "movers_note": "Descendants +0.37, mostly from the Claude 5.2 release (+0.39). Protector God +0.35, mostly from Claude 5.2 (+0.33). Zookeeper +0.35, mostly from Claude 5.2 (+0.36).",
+  "coming_up": [
+   "ChatGPT Advanced and Standard Voice retire, 11 Dec"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-11-10-01",
+   "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2; 1,000 agents formalize Fermat in 30h",
+   "summary": "Anthropic launched Fable 5.2 for general use and Mythos 5.2 for vetted cyber and life-science organizations. It reports gains on coding, computer-use and HLE benchmarks, and says about 1,000 Fable agents formalized Fermat's Last Theorem in Lean in about 30 hours.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    },
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "A new frontier model with a large multi-agent mathematical feat (F1 up, F2 up from large agent swarms); the claims are self-reported, so T2, not T3.",
+   "sources": [
+    "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "https://aiweekly.co/alerts/anthropics-1000-fable-52-agents-formalize-fermat-in-30-hours"
+   ],
+   "points": 0.7,
+   "contribution": {
+    "benevolent_dictator": 0.21,
+    "protector_god": 0.33,
+    "gatekeeper": 0.23,
+    "enslaved_god": 0.08,
+    "conquerors": 0.33,
+    "descendants": 0.39,
+    "zookeeper": 0.36,
+    "orwell_1984": -0.09,
+    "reversion": -0.18
+   },
+   "factor_effect": {
+    "F1": 0.3,
+    "F2": 0.35
+   }
+  },
+  {
+   "id": "2026-11-10-02",
+   "title": "Australia to create AI safety regulator with big fines after OpenAI agent breach",
+   "summary": "PM Albanese said Australia will set up an AI safety regulator able to impose large fines, require rapid incident reporting, and mandate external testing and published safety plans. The government accepted all 18 recommendations of a review of the OpenAI agent's June access to a Medicare statistics portal.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    },
+    {
+     "id": "F3",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "Other",
+   "reason": "A national plan for binding AI safety rules (F4 up) with mandatory testing (F3 up); it is announced but not yet law, so T1.",
+   "sources": [
+    "https://thenextweb.com/news/australia-plans-ai-safety-regulator-after-openai-agent-breach",
+    "https://aiweekly.co/alerts/australia-plans-ai-safety-regulator-after-openai-medicare-breach"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "libertarian_utopia": 0.02,
+    "benevolent_dictator": 0.02,
+    "egalitarian_utopia": 0.02,
+    "protector_god": 0.03,
+    "gatekeeper": 0.09,
+    "enslaved_god": 0.02,
+    "conquerors": -0.03,
+    "zookeeper": -0.02,
+    "orwell_1984": 0.04,
+    "self_destruction": -0.06
+   },
+   "factor_effect": {
+    "F3": 0.04,
+    "F4": 0.09
+   }
+  },
+  {
+   "id": "2026-11-10-03",
+   "title": "OpenAI unveils Control Room, a fail-closed kill switch for research models",
+   "summary": "OpenAI says its Control Room can stop model outputs across research workloads within 35 seconds of a decision and denies inference if it goes down. It requires a safety case for every agentic workload.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "A deployed control mechanism following OpenAI's October agent-escape disclosures (F3 up); it is self-described internal tooling, so T1.",
+   "sources": [
+    "https://openai.com/index/control-room/",
+    "https://interestingengineering.com/ai-robotics/openai-control-room-35-second-model-shutdown"
+   ],
+   "points": 0.06,
+   "contribution": {
+    "libertarian_utopia": 0.03,
+    "benevolent_dictator": 0.03,
+    "egalitarian_utopia": 0.03,
+    "protector_god": 0.04,
+    "gatekeeper": 0.04,
+    "enslaved_god": 0.03,
+    "conquerors": -0.04,
+    "zookeeper": -0.03,
+    "self_destruction": -0.03
+   },
+   "factor_effect": {
+    "F3": 0.06
+   }
+  },
+  {
+   "id": "2026-11-10-04",
+   "title": "TSMC board approves up to $1B in stakes in Anthropic and OpenAI",
+   "summary": "TSMC approved up to $500M each in Anthropic (in the $26B IPO private placement) and OpenAI preferred stock. Analysts flag the circular nature of supplier financing.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Other",
+   "reason": "The key chip foundry is tying itself financially to the two leading labs (F5 up); the amounts are small next to valuations, so T1.",
+   "sources": [
+    "https://stockanalysis.com/news/tsmc-invest-1-billion-anthropic-openai/",
+    "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "libertarian_utopia": -0.09,
+    "benevolent_dictator": 0.07,
+    "egalitarian_utopia": -0.06,
+    "enslaved_god": 0.09,
+    "zookeeper": 0.06,
+    "orwell_1984": 0.06
+   },
+   "factor_effect": {
+    "F5": 0.15
+   }
+  },
+  {
+   "id": "2026-11-10-05",
+   "title": "Meituan releases open weights of 1.6T-parameter LongCat-2.5 under MIT license",
+   "summary": "Meituan published the full weights of its LongCat-2.5 MoE model on Hugging Face under the MIT license. VentureBeat reports large gains on agentic coding benchmarks.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    },
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "A large permissive open-weights release spreads capability (F5 down) and pushes the open frontier (F1 up); it is not frontier-leading, so T1.",
+   "sources": [
+    "https://venturebeat.com/technology/meituan-releases-the-open-weights-of-its-longcat-2-5-llm-with-vision-under-a-permissive-mit-license",
+    "https://huggingface.co/meituan-longcat/LongCat-2.5"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "libertarian_utopia": 0.03,
+    "benevolent_dictator": -0.02,
+    "egalitarian_utopia": 0.02,
+    "enslaved_god": -0.02,
+    "descendants": 0.01,
+    "zookeeper": -0.01,
+    "orwell_1984": -0.02,
+    "reversion": -0.01
+   },
+   "factor_effect": {
+    "F1": 0.01,
+    "F5": -0.04
+   }
+  },
+  {
+   "id": "2026-11-10-06",
+   "title": "Fireworks AI discloses hacks exposing customer data and unfinished models",
+   "summary": "AI inference provider Fireworks said attackers accessed customer datasets and parts of models in October. Its CEO said the attackers' behavior suggested AI agents were involved, and Notion disabled a feature after its own data was exposed.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "A possibly AI-agent-assisted breach of AI infrastructure is a real AI-cyber incident (F8 up); agent involvement is only suspected, so T1.",
+   "sources": [
+    "https://www.forbes.com/sites/annatong/2026/11/09/fireworks-cyberattack-exposes-customer-data-and-ai-models-as-fallout-widens/",
+    "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "libertarian_utopia": -0.07,
+    "egalitarian_utopia": -0.06,
+    "conquerors": 0.04,
+    "reversion": 0.06,
+    "self_destruction": 0.16
+   },
+   "factor_effect": {
+    "F8": 0.15
+   }
+  }
+ ]
+}

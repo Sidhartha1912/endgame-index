@@ -1,0 +1,71 @@
+[
+ {
+  "id": "2026-11-15-01",
+  "title": "China calls for AI cooperation with US ahead of Shenzhen APEC summit",
+  "summary": "Beijing publicly called for AI cooperation with Washington ahead of the APEC leaders' week in Shenzhen, where Trump and Xi are due to meet.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "China",
+  "reason": "Diplomatic words favouring US-China AI cooperation; signal only, T1.",
+  "sources": [
+   "https://www.scmp.com/news/china/diplomacy/article/3374484/china-calls-ai-cooperation-us-ahead-shenzhen-apec-summit"
+  ]
+ },
+ {
+  "id": "2026-11-15-02",
+  "title": "US disrupts North Korean 'FaceStealer' deepfake-call scheme tied to $400M+ crypto theft",
+  "summary": "The US Justice Department disrupted a North Korean campaign that used deepfake video calls to compromise targets, linked to over $400M in cryptocurrency theft.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Reveals the scale of state-backed AI-enabled (deepfake) cyber theft, raising catastrophic/cyber risk despite the takedown; T1.",
+  "sources": [
+   "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/"
+  ]
+ },
+ {
+  "id": "2026-11-15-03",
+  "title": "OpenAI credits GPT-6 Astra with proof step toward defining lattice Standard Model",
+  "summary": "An OpenAI science post says GPT-6 Astra produced a proof related to a lattice definition of the Standard Model of particle physics.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Another self-reported AI science result following earlier OpenAI math claims; unverified externally, so T1.",
+  "sources": [
+   "https://openai.com/index/step-toward-defining-the-standard-model/"
+  ]
+ }
+]

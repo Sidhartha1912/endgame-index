@@ -1,0 +1,8 @@
+{
+  "headline": "Anthropic's Claude 5.2 agents formalize Fermat's Last Theorem in 30 hours",
+  "body": "Anthropic released Claude Fable 5.2 and Mythos 5.2 and said 1,000 agents formalized Fermat's Last Theorem in about 30 hours. That was the day's main event, lifting Capability Velocity and AI Autonomy, which rose 0.34. TSMC approved up to $1 billion in stakes in Anthropic and OpenAI, nudging Power Concentration up. Safety news was modestly positive: Australia plans an AI safety regulator with large fines after an OpenAI agent breached a Medicare portal, and OpenAI unveiled Control Room, a fail-closed kill switch for research models. Fireworks AI disclosed hacks it suspects involved AI agents. Descendants, Protector God and Zookeeper all rose. Horizon Balance fell to -18.92 from -18.87.",
+  "movers_note": "Descendants +0.37, mostly from the Claude 5.2 release (+0.39). Protector God +0.35, mostly from Claude 5.2 (+0.33). Zookeeper +0.35, mostly from Claude 5.2 (+0.36).",
+  "coming_up": [
+    "ChatGPT Advanced and Standard Voice retire, 11 Dec"
+  ]
+}

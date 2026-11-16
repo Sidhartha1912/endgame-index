@@ -1,0 +1,367 @@
+{
+ "date": "2026-11-03",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 15.31,
+  "benevolent_dictator": 22.79,
+  "egalitarian_utopia": 2.85,
+  "protector_god": 17.47,
+  "gatekeeper": 18.45,
+  "enslaved_god": 39.19,
+  "conquerors": 42.31,
+  "descendants": 30.45,
+  "zookeeper": 32.61,
+  "orwell_1984": 22.19,
+  "reversion": 6.03,
+  "self_destruction": 34.6
+ },
+ "deltas": {
+  "libertarian_utopia": -0.27,
+  "benevolent_dictator": -0.13,
+  "egalitarian_utopia": -0.22,
+  "protector_god": -0.07,
+  "gatekeeper": 0.08,
+  "enslaved_god": -0.13,
+  "conquerors": 0.25,
+  "descendants": -0.01,
+  "zookeeper": -0.02,
+  "orwell_1984": 0.01,
+  "reversion": 0.23,
+  "self_destruction": 0.63
+ },
+ "targets": {
+  "libertarian_utopia": 15.31,
+  "benevolent_dictator": 22.79,
+  "egalitarian_utopia": 2.85,
+  "protector_god": 17.47,
+  "gatekeeper": 18.45,
+  "enslaved_god": 39.19,
+  "conquerors": 42.31,
+  "descendants": 30.45,
+  "zookeeper": 32.61,
+  "orwell_1984": 22.19,
+  "reversion": 6.03,
+  "self_destruction": 34.6
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.22,
+  "benevolent_dictator": 0.06,
+  "egalitarian_utopia": -0.24,
+  "protector_god": 0.48,
+  "gatekeeper": 0.72,
+  "enslaved_god": 0.21,
+  "conquerors": 0.81,
+  "descendants": 0.8,
+  "zookeeper": 0.53,
+  "orwell_1984": -0.08,
+  "reversion": 0.41,
+  "self_destruction": 0.59
+ },
+ "factors": {
+  "F1": 86.51,
+  "F2": 56.18,
+  "F3": 28.78,
+  "F4": 25.89,
+  "F5": 67.08,
+  "F6": 45.39,
+  "F7": 31.81,
+  "F8": 65.69,
+  "F9": 46.86,
+  "F10": 20.79
+ },
+ "factor_deltas": {
+  "F1": 0.01,
+  "F2": -0.02,
+  "F3": -0.09,
+  "F4": 0.19,
+  "F5": -0.15,
+  "F6": 0.0,
+  "F7": 0.02,
+  "F8": 0.62,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -18.32,
+  "families": {
+   "flourishing": 14.61,
+   "contained": 28.82,
+   "successors": 35.12,
+   "stalled": 20.94
+  },
+  "news_heat": 1.12,
+  "evidence": "low",
+  "event_count": 7
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.03,
+  "protector_god": -0.04,
+  "gatekeeper": -0.02,
+  "enslaved_god": -0.03,
+  "conquerors": -0.01,
+  "descendants": -0.03,
+  "zookeeper": -0.02,
+  "orwell_1984": 0.01,
+  "reversion": 0.01
+ },
+ "summary": {
+  "headline": "OpenAI hires ex-Army Secretary as AI security warnings mount",
+  "body": "Security stories dominated. OpenAI hired former US Army Secretary Dan Driscoll for a national security role, the day's largest single push to Catastrophic Risk. The UK's NCSC said an AI-powered ransomware attack on UK critical infrastructure is 'highly likely' by 2028, and Binance said its $6.3 billion theft began with a fake job interview and hijacked internal AI tools. Together Catastrophic Risk rose 0.62. On the other side, Ibero-American countries formed an AI Alliance in Madrid, lifting Global Coordination, and a Brazilian court barred Meta from training AI on news content without permission, easing Power Concentration. Self-Destruction was the biggest mover; Libertarian Utopia fell. Horizon Balance fell to -18.32 from -17.93.",
+  "movers_note": "Self-Destruction +0.63, led by OpenAI's Driscoll hire (+0.33), the NCSC warning (+0.20) and the Binance theft (+0.16). Libertarian Utopia -0.27, mainly from the Driscoll hire (-0.15). Conquerors +0.25, spread across the Driscoll hire (+0.09) and the NCSC warning (+0.05).",
+  "coming_up": [
+   "Ibero-American Summit, 4-5 Nov",
+   "UNESCO AI Climate Institute launch, 16 Nov"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-11-03-01",
+   "title": "UK NCSC: AI-powered ransomware attack on UK critical infrastructure 'highly likely' by 2028",
+   "summary": "The NCSC's State of the Cyber Nation report says hostile AI use will very likely scale up ransomware, social engineering and exploitation within two years. CEO Richard Horne urges firms to fix basic security underinvestment.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "UK",
+   "reason": "An official threat assessment raises expected AI cyber risk to infrastructure; a forecast, not an attack, so T1.",
+   "sources": [
+    "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years"
+   ],
+   "points": 0.18,
+   "contribution": {
+    "libertarian_utopia": -0.09,
+    "egalitarian_utopia": -0.07,
+    "conquerors": 0.05,
+    "reversion": 0.07,
+    "self_destruction": 0.2
+   },
+   "factor_effect": {
+    "F8": 0.18
+   }
+  },
+  {
+   "id": "2026-11-03-02",
+   "title": "Brazil court bars Meta from using news content to train AI without authorization",
+   "summary": "A São Paulo judge granted publishers' associations ANJ, ABERT and ANER an injunction suspending Meta's new terms and barring unauthorized collection of members' content, including for AI training. Non-compliance carries daily fines of up to R$1M.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "Other",
+   "reason": "A court curbing a big lab's free use of training data checks platform power; a preliminary national ruling, so T1.",
+   "sources": [
+    "https://www.anj.org.br/justica-proibe-meta-de-usar-conteudo-jornalistico-sem-autorizacao-apos-acao-de-anj-abert-e-aner/"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "libertarian_utopia": 0.09,
+    "benevolent_dictator": -0.07,
+    "egalitarian_utopia": 0.06,
+    "enslaved_god": -0.09,
+    "zookeeper": -0.06,
+    "orwell_1984": -0.06
+   },
+   "factor_effect": {
+    "F5": -0.14
+   }
+  },
+  {
+   "id": "2026-11-03-03",
+   "title": "Ibero-American countries form AI Alliance in Madrid on data, models and compute",
+   "summary": "Meeting in Madrid, Ibero-American countries agreed a voluntary AI Alliance covering a federated data space, Spanish- and Portuguese-language models and pooled compute, plus a Madrid Declaration on human-centred AI. It goes to the Ibero-American Summit on 4–5 Nov for adoption.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "EU",
+   "reason": "Regional multilateral AI cooperation framework; voluntary and not yet adopted, so T1.",
+   "sources": [
+    "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/transformacion-digital-y-funcion-publica/Paginas/2026/031126-alianza-iberoamericana-ia.aspx"
+   ],
+   "points": 0.18,
+   "contribution": {
+    "gatekeeper": 0.13,
+    "orwell_1984": 0.07,
+    "self_destruction": -0.09
+   },
+   "factor_effect": {
+    "F4": 0.18
+   }
+  },
+  {
+   "id": "2026-11-03-04",
+   "title": "OpenAI hires ex-US Army Secretary Dan Driscoll for national security role",
+   "summary": "OpenAI named Dan Driscoll Senior Counselor for National Security Modernization, a new role advising on how AI can strengthen national and cyber security.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Frontier lab deepens military ties via a senior defense hire; a personnel move, not a contract, so T1.",
+   "sources": [
+    "https://openai.com/index/dan-driscoll-joins-openai/",
+    "https://kuwaittimes.com/article/52912/world/openai-hires-former-us-army-secretary-for-national-security-role/"
+   ],
+   "points": 0.3,
+   "contribution": {
+    "libertarian_utopia": -0.15,
+    "egalitarian_utopia": -0.12,
+    "conquerors": 0.09,
+    "reversion": 0.12,
+    "self_destruction": 0.33
+   },
+   "factor_effect": {
+    "F8": 0.3
+   }
+  },
+  {
+   "id": "2026-11-03-05",
+   "title": "Binance: $6.3B theft began with fake job interview and hijacked internal AI tools",
+   "summary": "Binance's post-mortem says attackers compromised an engineer via a fake recruiting test, then used compromised internal AI tools to reach developer systems before draining hot wallets on 29 Oct. The FBI attributes the attack to North Korea's TraderTraitor group.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Global",
+   "reason": "State-linked hackers exploited enterprise AI tooling in a record theft, a real AI-assisted cyber incident; AI was one link in the chain, so T1.",
+   "sources": [
+    "https://www.androidheadlines.com/2026/11/binance-crypto-hack-fake-job-interviews.html",
+    "https://en.yna.co.kr/view/AEN20261104000400315"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "libertarian_utopia": -0.07,
+    "egalitarian_utopia": -0.06,
+    "conquerors": 0.04,
+    "reversion": 0.06,
+    "self_destruction": 0.16
+   },
+   "factor_effect": {
+    "F8": 0.15
+   }
+  },
+  {
+   "id": "2026-11-03-06",
+   "title": "Reuters: OpenAI staff warned for years about internal security lapses",
+   "summary": "Citing five people, Reuters reports employees flagged broad monorepo access and unreviewed internal research tools, some before ChatGPT launched. OpenAI says sensitive work is separated and reviews now run regularly.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Weak security culture at a frontier lab weakens control over models and weights; follows October disclosures, so T1 development.",
+   "sources": [
+    "https://www.reuters.com/business/openai-employees-warned-about-operational-security-lapses-years-sources-say-2026-11-03/"
+   ],
+   "points": 0.07,
+   "contribution": {
+    "libertarian_utopia": -0.03,
+    "benevolent_dictator": -0.03,
+    "egalitarian_utopia": -0.03,
+    "protector_god": -0.05,
+    "gatekeeper": -0.04,
+    "enslaved_god": -0.03,
+    "conquerors": 0.05,
+    "zookeeper": 0.03,
+    "self_destruction": 0.03
+   },
+   "factor_effect": {
+    "F3": -0.07
+   }
+  },
+  {
+   "id": "2026-11-03-07",
+   "title": "Drax, Brookfield and Radiant plan £20B, 1GW+ AI data centre in North Yorkshire",
+   "summary": "Drax plans a data centre at its biomass power station of up to 100MW by early 2028 and over 1GW later. The £20B figure is aspirational, and the project still needs planning approval and a tenant.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "UK",
+   "reason": "Proposed large UK compute capacity; uncommitted plan, so a T1 signal.",
+   "sources": [
+    "https://www.theregister.com/on-prem/2026/11/03/drax-wants-to-feed-britains-ai-habit-with-20b-datacenter-at-biomass-power-station/5307237"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "protector_god": 0.02,
+    "gatekeeper": 0.02,
+    "enslaved_god": 0.02,
+    "conquerors": 0.02,
+    "descendants": 0.02,
+    "zookeeper": 0.02,
+    "orwell_1984": -0.01,
+    "reversion": -0.02
+   },
+   "factor_effect": {
+    "F1": 0.04
+   }
+  }
+ ]
+}

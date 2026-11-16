@@ -1,0 +1,228 @@
+{
+ "date": "2026-11-07",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 15.04,
+  "benevolent_dictator": 22.78,
+  "egalitarian_utopia": 2.73,
+  "protector_god": 18.18,
+  "gatekeeper": 19.29,
+  "enslaved_god": 39.83,
+  "conquerors": 42.44,
+  "descendants": 30.61,
+  "zookeeper": 32.16,
+  "orwell_1984": 21.95,
+  "reversion": 7.27,
+  "self_destruction": 36.12
+ },
+ "deltas": {
+  "libertarian_utopia": -0.23,
+  "benevolent_dictator": 0.0,
+  "egalitarian_utopia": -0.17,
+  "protector_god": -0.06,
+  "gatekeeper": -0.05,
+  "enslaved_god": -0.01,
+  "conquerors": 0.11,
+  "descendants": -0.04,
+  "zookeeper": 0.02,
+  "orwell_1984": 0.04,
+  "reversion": 0.15,
+  "self_destruction": 0.39
+ },
+ "targets": {
+  "libertarian_utopia": 15.04,
+  "benevolent_dictator": 22.78,
+  "egalitarian_utopia": 2.73,
+  "protector_god": 18.18,
+  "gatekeeper": 19.29,
+  "enslaved_god": 39.83,
+  "conquerors": 42.44,
+  "descendants": 30.61,
+  "zookeeper": 32.16,
+  "orwell_1984": 21.95,
+  "reversion": 7.27,
+  "self_destruction": 36.12
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.83,
+  "benevolent_dictator": 0.13,
+  "egalitarian_utopia": -0.68,
+  "protector_god": 0.73,
+  "gatekeeper": 1.05,
+  "enslaved_god": 0.79,
+  "conquerors": 0.74,
+  "descendants": 0.61,
+  "zookeeper": 0.07,
+  "orwell_1984": -0.05,
+  "reversion": 1.3,
+  "self_destruction": 2.16
+ },
+ "factors": {
+  "F1": 87.15,
+  "F2": 55.83,
+  "F3": 29.58,
+  "F4": 26.2,
+  "F5": 66.68,
+  "F6": 45.39,
+  "F7": 31.87,
+  "F8": 67.5,
+  "F9": 47.76,
+  "F10": 20.78
+ },
+ "factor_deltas": {
+  "F1": -0.04,
+  "F2": -0.01,
+  "F3": -0.05,
+  "F4": -0.01,
+  "F5": 0.06,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": 0.33,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -18.49,
+  "families": {
+   "flourishing": 14.68,
+   "contained": 29.56,
+   "successors": 35.07,
+   "stalled": 21.78
+  },
+  "news_heat": 0.42,
+  "evidence": "low",
+  "event_count": 3
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.02,
+  "benevolent_dictator": -0.03,
+  "egalitarian_utopia": -0.01,
+  "protector_god": -0.06,
+  "gatekeeper": -0.05,
+  "enslaved_god": -0.05,
+  "descendants": -0.04,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.01,
+  "reversion": 0.01,
+  "self_destruction": 0.01
+ },
+ "summary": {
+  "headline": "Tencent scientist warns AI biology skills near a harm threshold",
+  "body": "A quieter Saturday. Tencent's chief AI scientist warned that AI biology skills are near a 'can do harm' threshold, and Google DeepMind said AI found new weaknesses in legacy 1024-bit RSA. Both raised Catastrophic Risk, which rose 0.33. OpenAI closed an $11 billion first tranche at a $1.25 trillion valuation, below its earlier target, nudging Power Concentration up. Self-Destruction rose and the two utopias slipped. Horizon Balance fell to -18.49 from -18.23.",
+  "movers_note": "Self-Destruction +0.39, from the Tencent warning (+0.26) and the RSA finding (+0.12). Libertarian Utopia -0.23, mainly from the Tencent warning (-0.12). Egalitarian Utopia -0.17, mainly from the Tencent warning (-0.10).",
+  "coming_up": [
+   "Edinburgh march against AI data centres, 14 Nov",
+   "Hong Kong police facial recognition switch-on, 16 Nov"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-11-07-01",
+   "title": "OpenAI closes $11B first tranche at $1.25T valuation, below its earlier target",
+   "summary": "OpenAI raised about $11 billion from investors including Coatue and T. Rowe Price at a $1.25 trillion valuation, the first close of a round that may reach $20 billion, after cutting its target from at least $30 billion at about $1.4 trillion.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "More capital to a leading lab concentrates power (F5 up), but the cut target signals investor caution; a development of the scored ~$30B round, T1.",
+   "sources": [
+    "https://www.reuters.com/business/openai-secures-11-billion-funding-125-trillion-valuation-bloomberg-news-reports-2026-11-06/",
+    "https://nairametrics.com/2026/11/07/openai-secures-11-billion-in-fresh-funding-at-1-25-trillion-valuation/"
+   ],
+   "points": 0.07,
+   "contribution": {
+    "libertarian_utopia": -0.04,
+    "benevolent_dictator": 0.04,
+    "egalitarian_utopia": -0.03,
+    "enslaved_god": 0.04,
+    "zookeeper": 0.03,
+    "orwell_1984": 0.03
+   },
+   "factor_effect": {
+    "F5": 0.07
+   }
+  },
+  {
+   "id": "2026-11-07-02",
+   "title": "Tencent's chief AI scientist warns AI biology skills near a 'can do harm' threshold",
+   "summary": "Speaking in Hong Kong, Tencent chief AI scientist Yao Shunyu said AI cyber abilities already pose risks, biology capabilities will soon cross a harm threshold that may be harder to manage than cyber, and Chinese open-model releasers must take safety seriously.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "China",
+   "reason": "A senior Chinese lab leader flagging near-term bio-misuse capability is a risk signal (F8 up); words, not an incident, so T1.",
+   "sources": [
+    "https://scmp.com/tech/big-tech/article/3373697/ai-will-soon-master-biology-unleashing-new-safety-risks-tencent-ai-chief-warns",
+    "https://thenextweb.com/news/tencent-yao-shunyu-ai-biology-risk-hy4"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "libertarian_utopia": -0.12,
+    "egalitarian_utopia": -0.1,
+    "conquerors": 0.07,
+    "reversion": 0.1,
+    "self_destruction": 0.26
+   },
+   "factor_effect": {
+    "F8": 0.24
+   }
+  },
+  {
+   "id": "2026-11-07-03",
+   "title": "Google DeepMind says AI found new weaknesses in legacy 1024-bit RSA",
+   "summary": "DeepMind reported AI-assisted attacks on legacy 1024-bit RSA, including a theoretical ~1,600x signature-forgery efficiency gain and a padding-attack result, while stating 2048-bit and larger keys remain secure; no peer-reviewed paper yet.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Global",
+   "reason": "AI-driven cryptanalysis of deployed (if legacy) crypto shows offensive security capability (F8 up); legacy keys only and not peer reviewed, so T1.",
+   "sources": [
+    "https://x.com/GoogleDeepMind/status/2118755418675765656",
+    "https://fourweekmba.com/ai-deepmind-ai-agents-find-2-weaknesses-in-legacy-1024-bit-rsa/"
+   ],
+   "points": 0.1,
+   "contribution": {
+    "libertarian_utopia": -0.05,
+    "egalitarian_utopia": -0.04,
+    "conquerors": 0.03,
+    "reversion": 0.04,
+    "self_destruction": 0.12
+   },
+   "factor_effect": {
+    "F8": 0.1
+   }
+  }
+ ]
+}

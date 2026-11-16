@@ -1,0 +1,176 @@
+[
+ {
+  "id": "2026-11-05-01",
+  "title": "US Justice Department launches Super Intelligence Task Force",
+  "summary": "The DOJ created a task force to investigate and prosecute unlawful uses of advanced AI by foreign governments, criminal groups and fraudsters, and to press companies to keep misuse safeguards; reporting says it will also challenge some state AI laws.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": -1
+   },
+   {
+    "id": "F4",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Federal enforcement against AI misuse trims misuse risk (F8 down), but its role in challenging state AI laws weakens the regulatory patchwork (F4 down); an enforcement unit, not a law, so T1.",
+  "sources": [
+   "https://justice.gov/opa/pr/department-justice-launches-super-intelligence-task-force",
+   "https://interestingengineering.com/ai-robotics/us-launches-super-intelligence-task-force"
+  ]
+ },
+ {
+  "id": "2026-11-05-02",
+  "title": "About 600,000 Nvidia H200s stuck in Hong Kong as Beijing withholds import approval",
+  "summary": "Reuters reported roughly 600,000 H200 chips waiting in Hong Kong because Beijing has approved only small batches (about 10,000 each for a few big firms), pushing grey-market eight-GPU server prices above $900,000.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Beijing's own import throttling constrains Chinese access to frontier compute (F1 down slightly); part of the US-China chip contest, not a policy shift, so T1.",
+  "sources": [
+   "https://www.thestandard.com.hk/innovation/article/347673/Nvidia-chips-pile-up-in-Hong-Kong-as-China-withholds-import-approval",
+   "https://stockanalysis.com/news/nvidia-h200-chips-pile-up-hong-kong/"
+  ]
+ },
+ {
+  "id": "2026-11-05-03",
+  "title": "Moonshot releases Kimi K3.1 Pro, a 2.8-trillion-parameter open-weight model",
+  "summary": "China's Moonshot AI put Kimi K3.1 Pro (2.8T total, ~104B active parameters, 1M-token context) on Hugging Face under a custom licence, with self-reported strong coding and agent benchmark scores.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   },
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Near-frontier open weights spread capability beyond a few labs (F5 down) and add capability (F1 up); an incremental K3 update with self-reported benchmarks, so T1.",
+  "sources": [
+   "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+   "https://aiweekly.co/alerts/moonshot-ships-kimi-k31-pro-28t-moe-with-1m-context"
+  ]
+ },
+ {
+  "id": "2026-11-05-04",
+  "title": "Baidu open-sources ERNIE 5.5 Flash Base, a 280B-parameter foundation model",
+  "summary": "Baidu released open weights for ERNIE 5.5 Flash Base (280B total, 14B active, trained on 33.5T tokens) before instruction tuning, so developers can post-train their own versions.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "China",
+  "reason": "Another large open-weight base model from a major Chinese lab spreads capability (F5 down); mid-tier model, T1.",
+  "sources": [
+   "https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model/",
+   "https://ernie.baidu.com/release/ernie-5-5-flash-base/"
+  ]
+ },
+ {
+  "id": "2026-11-05-05",
+  "title": "Frontier Model Forum publishes jailbreak rating framework for cyber threats",
+  "summary": "The FMF released v1.0 of a framework that scores cyber jailbreaks on capability gain, scope, ease of deployment and ease of discovery, backed by AWS, Anthropic, Google DeepMind, Microsoft and OpenAI; comments are open until Dec 21.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Global",
+  "reason": "A shared industry method for rating safeguard bypasses improves evaluation practice (F3 up); preliminary and voluntary, so T1.",
+  "sources": [
+   "https://www.frontiermodelforum.org/updates/introducing-the-fmf-jailbreak-rating-framework-for-frontier-cyber-threats/"
+  ]
+ },
+ {
+  "id": "2026-11-05-06",
+  "title": "Microsoft: attackers use agentic AI tool to harvest GitHub secrets and breach cloud tenants",
+  "summary": "Microsoft Threat Intelligence said threat actors are using the agentic offensive framework ARTEX to mine public GitHub repos for credentials; in one case an agent went from finding secrets to exfiltrating Azure Key Vault data in five minutes.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Global",
+  "reason": "Documented real-world use of autonomous AI agents in cyberattacks raises AI cyber risk (F8 up); a single campaign, so T1.",
+  "sources": [
+   "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/"
+  ]
+ },
+ {
+  "id": "2026-11-05-07",
+  "title": "Google plans $17B Wyoming AI data center powered by 702MW gas fuel cells",
+  "summary": "Google announced its first Wyoming data center, a long-term $17 billion investment taking over a Crusoe project, tied to a planned 702MW natural-gas fuel-cell development with carbon capture; Google says it will cover incremental power costs.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Large new compute build-out adds capacity (F1 up); one site among many hyperscaler projects, T1.",
+  "sources": [
+   "https://www.bloomberg.com/news/articles/2026-11-05/google-plans-to-spend-17-billion-on-wyoming-data-center",
+   "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/"
+  ]
+ }
+]

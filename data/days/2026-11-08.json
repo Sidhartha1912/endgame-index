@@ -1,0 +1,158 @@
+{
+ "date": "2026-11-08",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 15.03,
+  "benevolent_dictator": 22.85,
+  "egalitarian_utopia": 2.72,
+  "protector_god": 18.21,
+  "gatekeeper": 19.29,
+  "enslaved_god": 39.74,
+  "conquerors": 42.52,
+  "descendants": 30.68,
+  "zookeeper": 32.25,
+  "orwell_1984": 21.96,
+  "reversion": 7.28,
+  "self_destruction": 36.12
+ },
+ "deltas": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": 0.07,
+  "egalitarian_utopia": -0.0,
+  "protector_god": 0.03,
+  "gatekeeper": -0.0,
+  "enslaved_god": -0.1,
+  "conquerors": 0.08,
+  "descendants": 0.07,
+  "zookeeper": 0.09,
+  "orwell_1984": 0.01,
+  "reversion": 0.01,
+  "self_destruction": 0.0
+ },
+ "targets": {
+  "libertarian_utopia": 15.03,
+  "benevolent_dictator": 22.85,
+  "egalitarian_utopia": 2.72,
+  "protector_god": 18.21,
+  "gatekeeper": 19.29,
+  "enslaved_god": 39.74,
+  "conquerors": 42.52,
+  "descendants": 30.68,
+  "zookeeper": 32.25,
+  "orwell_1984": 21.96,
+  "reversion": 7.28,
+  "self_destruction": 36.12
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.85,
+  "benevolent_dictator": 0.25,
+  "egalitarian_utopia": -0.61,
+  "protector_god": 0.83,
+  "gatekeeper": 1.04,
+  "enslaved_god": 0.77,
+  "conquerors": 0.66,
+  "descendants": 0.44,
+  "zookeeper": 0.03,
+  "orwell_1984": -0.07,
+  "reversion": 1.35,
+  "self_destruction": 2.15
+ },
+ "factors": {
+  "F1": 87.11,
+  "F2": 55.99,
+  "F3": 29.53,
+  "F4": 26.19,
+  "F5": 66.67,
+  "F6": 45.39,
+  "F7": 31.88,
+  "F8": 67.48,
+  "F9": 47.75,
+  "F10": 20.77
+ },
+ "factor_deltas": {
+  "F1": -0.04,
+  "F2": 0.16,
+  "F3": -0.04,
+  "F4": -0.01,
+  "F5": -0.01,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": -0.02,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -18.51,
+  "families": {
+   "flourishing": 14.7,
+   "contained": 29.51,
+   "successors": 35.15,
+   "stalled": 21.79
+  },
+  "news_heat": 0.17,
+  "evidence": "low",
+  "event_count": 1
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.03,
+  "protector_god": -0.06,
+  "gatekeeper": -0.05,
+  "enslaved_god": -0.05,
+  "descendants": -0.03,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.01,
+  "reversion": 0.01
+ },
+ "summary": {
+  "headline": "Quiet day: DeepSeek's Harness agent app hits 1.54 million users",
+  "body": "A quiet Sunday with one event. DeepSeek's Harness agent app reached 1.54 million daily users, lifting AI Autonomy by 0.16. Zookeeper and Conquerors edged up and Enslaved God slipped. Horizon Balance was almost unchanged at -18.51, from -18.49.",
+  "movers_note": "Enslaved God -0.10, partly from the Harness milestone (-0.05). Zookeeper +0.09, from Harness (+0.10). Conquerors +0.08, from Harness (+0.08).",
+  "coming_up": [
+   "Meta shuts down the Conductor cloud service, 20 Nov"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-11-08-01",
+   "title": "DeepSeek's Harness agent app hits 1.54 million daily users",
+   "summary": "DeepSeek said its open-source agent app Harness, launched Aug 13, reached 1.54 million daily active users and processes about 92 trillion tokens a day, with ~35,000 user plugins; a plugin marketplace is planned.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "Fast mass adoption of autonomous agents in China expands agent use (F2 up); company-reported usage figures, T1.",
+   "sources": [
+    "https://www.deccanchronicle.com/technology/deepseeks-ai-agent-platform-hits-154-million-daily-users-2002883",
+    "https://scmp.com/tech/big-tech/article/3373757/can-deepseek-challenge-openai-anthropic-ai-agents-harness-adoption-takes"
+   ],
+   "points": 0.17,
+   "contribution": {
+    "benevolent_dictator": 0.1,
+    "protector_god": 0.08,
+    "gatekeeper": 0.05,
+    "enslaved_god": -0.05,
+    "conquerors": 0.08,
+    "descendants": 0.1,
+    "zookeeper": 0.1
+   },
+   "factor_effect": {
+    "F2": 0.17
+   }
+  }
+ ]
+}

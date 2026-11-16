@@ -1,0 +1,155 @@
+{
+ "date": "2026-11-14",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 13.96,
+  "benevolent_dictator": 23.18,
+  "egalitarian_utopia": 1.85,
+  "protector_god": 18.34,
+  "gatekeeper": 19.54,
+  "enslaved_god": 39.4,
+  "conquerors": 44.24,
+  "descendants": 31.61,
+  "zookeeper": 33.64,
+  "orwell_1984": 22.14,
+  "reversion": 7.46,
+  "self_destruction": 37.48
+ },
+ "deltas": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.03,
+  "egalitarian_utopia": -0.0,
+  "protector_god": -0.05,
+  "gatekeeper": 0.05,
+  "enslaved_god": -0.04,
+  "conquerors": 0.0,
+  "descendants": -0.03,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.06,
+  "reversion": 0.0,
+  "self_destruction": -0.07
+ },
+ "targets": {
+  "libertarian_utopia": 13.96,
+  "benevolent_dictator": 23.18,
+  "egalitarian_utopia": 1.85,
+  "protector_god": 18.34,
+  "gatekeeper": 19.54,
+  "enslaved_god": 39.4,
+  "conquerors": 44.24,
+  "descendants": 31.61,
+  "zookeeper": 33.64,
+  "orwell_1984": 22.14,
+  "reversion": 7.46,
+  "self_destruction": 37.48
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.08,
+  "benevolent_dictator": 0.4,
+  "egalitarian_utopia": -0.88,
+  "protector_god": 0.16,
+  "gatekeeper": 0.25,
+  "enslaved_god": -0.43,
+  "conquerors": 1.8,
+  "descendants": 0.99,
+  "zookeeper": 1.48,
+  "orwell_1984": 0.19,
+  "reversion": 0.19,
+  "self_destruction": 1.36
+ },
+ "factors": {
+  "F1": 87.63,
+  "F2": 57.04,
+  "F3": 28.67,
+  "F4": 26.54,
+  "F5": 66.83,
+  "F6": 45.54,
+  "F7": 31.96,
+  "F8": 68.56,
+  "F9": 47.82,
+  "F10": 20.75
+ },
+ "factor_deltas": {
+  "F1": -0.03,
+  "F2": -0.01,
+  "F3": -0.04,
+  "F4": 0.13,
+  "F5": -0.01,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": -0.01,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -20.04,
+  "families": {
+   "flourishing": 14.33,
+   "contained": 29.47,
+   "successors": 36.49,
+   "stalled": 22.36
+  },
+  "news_heat": 0.15,
+  "evidence": "low",
+  "event_count": 1
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.03,
+  "protector_god": -0.05,
+  "gatekeeper": -0.05,
+  "enslaved_god": -0.04,
+  "descendants": -0.03,
+  "zookeeper": -0.01,
+  "self_destruction": 0.01
+ },
+ "summary": {
+  "headline": "Quiet day: EU leaders hold first AI summit in Dublin",
+  "body": "A quiet Saturday. EU leaders held their first dedicated AI summit in Dublin, though it ended without formal conclusions, lifting Global Coordination by 0.13. Self-Destruction edged down and 1984 edged up. Horizon Balance was almost unchanged at -20.04, from -20.02.",
+  "movers_note": "Self-Destruction -0.07, from the Dublin summit (-0.07). 1984 +0.06, from the summit (+0.06). Protector God -0.05, from older signals fading.",
+  "coming_up": [
+   "European Council, 26-27 Nov",
+   "EU leaders' retreat revisits AI, 5 Feb 2027"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-11-14-01",
+   "title": "EU leaders hold first dedicated AI summit in Dublin; no formal conclusions",
+   "summary": "At an informal European Council in Dublin, briefed by Mistral's Arthur Mensch and Geoffrey Hinton, leaders discussed AI competitiveness, sovereignty and safety; von der Leyen said at least EUR 500B is needed for tech sovereignty and Costa said the AI Act should inform G7, G20 and UN talks. The informal format produced no conclusions, and the session was overshadowed by a Ukraine envoy row.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "EU",
+   "reason": "Leader-level EU attention and pushing AI Act norms into G7/G20/UN is a mild coordination signal; no decisions taken, so T1 signal.",
+   "sources": [
+    "https://eualive.net/eu-leaders-hold-first-high-level-ai-talks-in-dublin/",
+    "https://www.euronews.com/2026/11/13/ukraine-envoy-row-hijacks-eu-leaders-first-ai-summit",
+    "https://english.news.cn/20261114/28e9a81021724234ad09d5f86aaea9a6/c.html"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "gatekeeper": 0.1,
+    "orwell_1984": 0.06,
+    "self_destruction": -0.07
+   },
+   "factor_effect": {
+    "F4": 0.15
+   }
+  }
+ ]
+}

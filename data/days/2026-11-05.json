@@ -1,0 +1,392 @@
+{
+ "date": "2026-11-05",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 15.38,
+  "benevolent_dictator": 22.73,
+  "egalitarian_utopia": 2.93,
+  "protector_god": 17.78,
+  "gatekeeper": 18.67,
+  "enslaved_god": 39.18,
+  "conquerors": 42.32,
+  "descendants": 30.49,
+  "zookeeper": 32.27,
+  "orwell_1984": 21.94,
+  "reversion": 6.4,
+  "self_destruction": 35.35
+ },
+ "deltas": {
+  "libertarian_utopia": 0.3,
+  "benevolent_dictator": -0.06,
+  "egalitarian_utopia": 0.25,
+  "protector_god": 0.17,
+  "gatekeeper": 0.1,
+  "enslaved_god": -0.1,
+  "conquerors": -0.18,
+  "descendants": -0.03,
+  "zookeeper": -0.3,
+  "orwell_1984": -0.17,
+  "reversion": 0.05,
+  "self_destruction": 0.05
+ },
+ "targets": {
+  "libertarian_utopia": 15.38,
+  "benevolent_dictator": 22.73,
+  "egalitarian_utopia": 2.93,
+  "protector_god": 17.78,
+  "gatekeeper": 18.67,
+  "enslaved_god": 39.18,
+  "conquerors": 42.32,
+  "descendants": 30.49,
+  "zookeeper": 32.27,
+  "orwell_1984": 21.94,
+  "reversion": 6.4,
+  "self_destruction": 35.35
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.54,
+  "benevolent_dictator": 0.03,
+  "egalitarian_utopia": -0.49,
+  "protector_god": 0.33,
+  "gatekeeper": 0.46,
+  "enslaved_god": 0.17,
+  "conquerors": 0.67,
+  "descendants": 0.49,
+  "zookeeper": 0.17,
+  "orwell_1984": -0.08,
+  "reversion": 0.43,
+  "self_destruction": 1.52
+ },
+ "factors": {
+  "F1": 86.62,
+  "F2": 56.14,
+  "F3": 29.15,
+  "F4": 25.83,
+  "F5": 66.62,
+  "F6": 45.39,
+  "F7": 31.84,
+  "F8": 66.48,
+  "F9": 46.98,
+  "F10": 20.78
+ },
+ "factor_deltas": {
+  "F1": -0.02,
+  "F2": -0.02,
+  "F3": 0.27,
+  "F4": -0.07,
+  "F5": -0.37,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": 0.11,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -18.27,
+  "families": {
+   "flourishing": 14.7,
+   "contained": 28.92,
+   "successors": 35.03,
+   "stalled": 21.23
+  },
+  "news_heat": 1.72,
+  "evidence": "low",
+  "event_count": 7
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.03,
+  "protector_god": -0.05,
+  "gatekeeper": -0.03,
+  "enslaved_god": -0.03,
+  "descendants": -0.03,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.01
+ },
+ "summary": {
+  "headline": "Chinese open-weight releases and a cyber-jailbreak framework brighten the day",
+  "body": "A slightly better day. Moonshot released Kimi K3.1 Pro, a 2.8-trillion-parameter open-weight model, and Baidu open-sourced ERNIE 5.5 Flash Base, together pulling Power Concentration down 0.37. The Frontier Model Forum published a framework for rating jailbreaks against cyber threats, lifting Alignment & Control by 0.27. Against that, Microsoft said attackers are using an agentic AI tool to harvest GitHub secrets and breach cloud tenants, raising Catastrophic Risk. The US Justice Department launched a Super Intelligence Task Force, and about 600,000 Nvidia H200s were reported stuck in Hong Kong awaiting Beijing's approval, trimming Capability Velocity. Libertarian Utopia and Egalitarian Utopia rose while Zookeeper fell. Horizon Balance improved to -18.27 from -18.58.",
+  "movers_note": "Libertarian Utopia +0.30, led by the Frontier Model Forum framework (+0.15) and Kimi K3.1 Pro (+0.13), partly offset by the GitHub-secrets attacks (-0.15). Zookeeper -0.30, mainly from the Forum framework (-0.15). Egalitarian Utopia +0.25, led by the Forum framework (+0.15).",
+  "coming_up": [
+   "EU AI Gigafactories call closes 12 Nov",
+   "China's draft AI export-control consultation closes 15 Nov",
+   "Frontier Model Forum framework comments due 21 Dec"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-11-05-01",
+   "title": "US Justice Department launches Super Intelligence Task Force",
+   "summary": "The DOJ created a task force to investigate and prosecute unlawful uses of advanced AI by foreign governments, criminal groups and fraudsters, and to press companies to keep misuse safeguards; reporting says it will also challenge some state AI laws.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": -1
+    },
+    {
+     "id": "F4",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Federal enforcement against AI misuse trims misuse risk (F8 down), but its role in challenging state AI laws weakens the regulatory patchwork (F4 down); an enforcement unit, not a law, so T1.",
+   "sources": [
+    "https://justice.gov/opa/pr/department-justice-launches-super-intelligence-task-force",
+    "https://interestingengineering.com/ai-robotics/us-launches-super-intelligence-task-force"
+   ],
+   "points": 0.18,
+   "contribution": {
+    "libertarian_utopia": 0.09,
+    "egalitarian_utopia": 0.07,
+    "gatekeeper": -0.05,
+    "conquerors": -0.05,
+    "orwell_1984": -0.03,
+    "reversion": -0.07,
+    "self_destruction": -0.16
+   },
+   "factor_effect": {
+    "F4": -0.08,
+    "F8": -0.18
+   }
+  },
+  {
+   "id": "2026-11-05-02",
+   "title": "About 600,000 Nvidia H200s stuck in Hong Kong as Beijing withholds import approval",
+   "summary": "Reuters reported roughly 600,000 H200 chips waiting in Hong Kong because Beijing has approved only small batches (about 10,000 each for a few big firms), pushing grey-market eight-GPU server prices above $900,000.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "Beijing's own import throttling constrains Chinese access to frontier compute (F1 down slightly); part of the US-China chip contest, not a policy shift, so T1.",
+   "sources": [
+    "https://www.thestandard.com.hk/innovation/article/347673/Nvidia-chips-pile-up-in-Hong-Kong-as-China-withholds-import-approval",
+    "https://stockanalysis.com/news/nvidia-h200-chips-pile-up-hong-kong/"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "protector_god": -0.05,
+    "gatekeeper": -0.04,
+    "enslaved_god": -0.06,
+    "conquerors": -0.05,
+    "descendants": -0.06,
+    "zookeeper": -0.05,
+    "orwell_1984": 0.03,
+    "reversion": 0.06
+   },
+   "factor_effect": {
+    "F1": -0.11
+   }
+  },
+  {
+   "id": "2026-11-05-03",
+   "title": "Moonshot releases Kimi K3.1 Pro, a 2.8-trillion-parameter open-weight model",
+   "summary": "China's Moonshot AI put Kimi K3.1 Pro (2.8T total, ~104B active parameters, 1M-token context) on Hugging Face under a custom licence, with self-reported strong coding and agent benchmark scores.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    },
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "Near-frontier open weights spread capability beyond a few labs (F5 down) and add capability (F1 up); an incremental K3 update with self-reported benchmarks, so T1.",
+   "sources": [
+    "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+    "https://aiweekly.co/alerts/moonshot-ships-kimi-k31-pro-28t-moe-with-1m-context"
+   ],
+   "points": 0.21,
+   "contribution": {
+    "libertarian_utopia": 0.13,
+    "benevolent_dictator": -0.1,
+    "egalitarian_utopia": 0.08,
+    "protector_god": 0.02,
+    "gatekeeper": 0.02,
+    "enslaved_god": -0.1,
+    "conquerors": 0.02,
+    "descendants": 0.03,
+    "zookeeper": -0.06,
+    "orwell_1984": -0.1,
+    "reversion": -0.03
+   },
+   "factor_effect": {
+    "F1": 0.05,
+    "F5": -0.21
+   }
+  },
+  {
+   "id": "2026-11-05-04",
+   "title": "Baidu open-sources ERNIE 5.5 Flash Base, a 280B-parameter foundation model",
+   "summary": "Baidu released open weights for ERNIE 5.5 Flash Base (280B total, 14B active, trained on 33.5T tokens) before instruction tuning, so developers can post-train their own versions.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "Another large open-weight base model from a major Chinese lab spreads capability (F5 down); mid-tier model, T1.",
+   "sources": [
+    "https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model/",
+    "https://ernie.baidu.com/release/ernie-5-5-flash-base/"
+   ],
+   "points": 0.15,
+   "contribution": {
+    "libertarian_utopia": 0.09,
+    "benevolent_dictator": -0.07,
+    "egalitarian_utopia": 0.06,
+    "enslaved_god": -0.09,
+    "zookeeper": -0.06,
+    "orwell_1984": -0.06
+   },
+   "factor_effect": {
+    "F5": -0.15
+   }
+  },
+  {
+   "id": "2026-11-05-05",
+   "title": "Frontier Model Forum publishes jailbreak rating framework for cyber threats",
+   "summary": "The FMF released v1.0 of a framework that scores cyber jailbreaks on capability gain, scope, ease of deployment and ease of discovery, backed by AWS, Anthropic, Google DeepMind, Microsoft and OpenAI; comments are open until Dec 21.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Global",
+   "reason": "A shared industry method for rating safeguard bypasses improves evaluation practice (F3 up); preliminary and voluntary, so T1.",
+   "sources": [
+    "https://www.frontiermodelforum.org/updates/introducing-the-fmf-jailbreak-rating-framework-for-frontier-cyber-threats/"
+   ],
+   "points": 0.3,
+   "contribution": {
+    "libertarian_utopia": 0.15,
+    "benevolent_dictator": 0.15,
+    "egalitarian_utopia": 0.15,
+    "protector_god": 0.21,
+    "gatekeeper": 0.18,
+    "enslaved_god": 0.15,
+    "conquerors": -0.21,
+    "zookeeper": -0.15,
+    "self_destruction": -0.12
+   },
+   "factor_effect": {
+    "F3": 0.3
+   }
+  },
+  {
+   "id": "2026-11-05-06",
+   "title": "Microsoft: attackers use agentic AI tool to harvest GitHub secrets and breach cloud tenants",
+   "summary": "Microsoft Threat Intelligence said threat actors are using the agentic offensive framework ARTEX to mine public GitHub repos for credentials; in one case an agent went from finding secrets to exfiltrating Azure Key Vault data in five minutes.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Global",
+   "reason": "Documented real-world use of autonomous AI agents in cyberattacks raises AI cyber risk (F8 up); a single campaign, so T1.",
+   "sources": [
+    "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/"
+   ],
+   "points": 0.3,
+   "contribution": {
+    "libertarian_utopia": -0.15,
+    "egalitarian_utopia": -0.12,
+    "conquerors": 0.09,
+    "reversion": 0.12,
+    "self_destruction": 0.33
+   },
+   "factor_effect": {
+    "F8": 0.3
+   }
+  },
+  {
+   "id": "2026-11-05-07",
+   "title": "Google plans $17B Wyoming AI data center powered by 702MW gas fuel cells",
+   "summary": "Google announced its first Wyoming data center, a long-term $17 billion investment taking over a Crusoe project, tied to a planned 702MW natural-gas fuel-cell development with carbon capture; Google says it will cover incremental power costs.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Large new compute build-out adds capacity (F1 up); one site among many hyperscaler projects, T1.",
+   "sources": [
+    "https://www.bloomberg.com/news/articles/2026-11-05/google-plans-to-spend-17-billion-on-wyoming-data-center",
+    "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "protector_god": 0.03,
+    "gatekeeper": 0.03,
+    "enslaved_god": 0.04,
+    "conquerors": 0.03,
+    "descendants": 0.04,
+    "zookeeper": 0.03,
+    "orwell_1984": -0.02,
+    "reversion": -0.04
+   },
+   "factor_effect": {
+    "F1": 0.06
+   }
+  }
+ ]
+}

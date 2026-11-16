@@ -1,0 +1,430 @@
+{
+ "date": "2026-11-06",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 15.27,
+  "benevolent_dictator": 22.78,
+  "egalitarian_utopia": 2.9,
+  "protector_god": 18.24,
+  "gatekeeper": 19.35,
+  "enslaved_god": 39.84,
+  "conquerors": 42.33,
+  "descendants": 30.65,
+  "zookeeper": 32.14,
+  "orwell_1984": 21.92,
+  "reversion": 7.12,
+  "self_destruction": 35.73
+ },
+ "deltas": {
+  "libertarian_utopia": -0.11,
+  "benevolent_dictator": 0.05,
+  "egalitarian_utopia": -0.03,
+  "protector_god": 0.46,
+  "gatekeeper": 0.68,
+  "enslaved_god": 0.66,
+  "conquerors": 0.01,
+  "descendants": 0.16,
+  "zookeeper": -0.13,
+  "orwell_1984": -0.02,
+  "reversion": 0.72,
+  "self_destruction": 0.38
+ },
+ "targets": {
+  "libertarian_utopia": 15.27,
+  "benevolent_dictator": 22.78,
+  "egalitarian_utopia": 2.9,
+  "protector_god": 18.24,
+  "gatekeeper": 19.35,
+  "enslaved_god": 39.84,
+  "conquerors": 42.33,
+  "descendants": 30.65,
+  "zookeeper": 32.14,
+  "orwell_1984": 21.92,
+  "reversion": 7.12,
+  "self_destruction": 35.73
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -0.68,
+  "benevolent_dictator": 0.09,
+  "egalitarian_utopia": -0.56,
+  "protector_god": 0.74,
+  "gatekeeper": 1.08,
+  "enslaved_god": 0.77,
+  "conquerors": 0.68,
+  "descendants": 0.62,
+  "zookeeper": 0.04,
+  "orwell_1984": -0.07,
+  "reversion": 1.21,
+  "self_destruction": 1.93
+ },
+ "factors": {
+  "F1": 87.19,
+  "F2": 55.85,
+  "F3": 29.62,
+  "F4": 26.2,
+  "F5": 66.61,
+  "F6": 45.39,
+  "F7": 31.86,
+  "F8": 67.17,
+  "F9": 47.77,
+  "F10": 20.78
+ },
+ "factor_deltas": {
+  "F1": 0.57,
+  "F2": -0.3,
+  "F3": 0.47,
+  "F4": 0.37,
+  "F5": -0.01,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": 0.69,
+  "F9": 0.79,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -18.23,
+  "families": {
+   "flourishing": 14.8,
+   "contained": 29.59,
+   "successors": 35.04,
+   "stalled": 21.59
+  },
+  "news_heat": 4.0,
+  "evidence": "high",
+  "event_count": 8
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.03,
+  "protector_god": -0.04,
+  "gatekeeper": -0.03,
+  "enslaved_god": -0.03,
+  "descendants": -0.03,
+  "zookeeper": -0.01,
+  "orwell_1984": 0.01
+ },
+ "summary": {
+  "headline": "METR says AI is doubling Anthropic's pace; data-centre protests sweep Europe",
+  "body": "A busy day pulling in several directions. METR found Anthropic's AI progress running about twice as fast as before, mostly because of AI itself, lifting Capability Velocity and, as an independent check, Alignment & Control. OpenAI launched GPT-6 Cyber, rated 'Critical' for cyber capability, to vetted defenders, raising Catastrophic Risk by 0.69 on the day. 'Stop Dirty Data Centres' protests ran across Europe, with activists breaching a Microsoft site in Amsterdam, and Tech Backlash rose 0.79, the largest factor move. Rules on AI agents from China's MIIT and UK regulators pulled AI Autonomy down 0.30, and South Korea and US Democrats moved on AI legislation. Reversion, Gatekeeper and Enslaved God rose. Horizon Balance edged up to -18.23 from -18.27.",
+  "movers_note": "Reversion +0.72, mostly from the European data-centre protests (+0.80). Gatekeeper +0.68, mostly from the METR finding (+0.48). Enslaved God +0.66, mostly from the METR finding (+0.51).",
+  "coming_up": [
+   "UK ICO agentic AI call for evidence closes 20 Nov",
+   "EU AI Act Article 50(2) grace period ends 2 Dec",
+   "Democrats' AI and data-center bills when Congress convenes in January"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-11-06-01",
+   "title": "METR finds Anthropic's AI progress running about 2x faster, mostly due to AI",
+   "summary": "In an assessment covering Aug 12 to Oct 29, METR estimated Anthropic is improving models at about 2x its Mar 2024 to Oct 2025 pace (benchmark trend 1.9x, CI 1.5 to 2.8x), with ~80% of the speed-up attributed to AI and no clear bottlenecks for the next year; Anthropic redacted most key evidence.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    },
+    {
+     "id": "F3",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "signal",
+   "region": "US",
+   "reason": "Independent evidence that AI is speeding up AI R&D at a frontier lab (F1 up), coming from an external audit (F3 up); it is an estimate with heavy redactions and low-confidence parts, not a proven leap, so T2.",
+   "sources": [
+    "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
+   ],
+   "points": 1.0,
+   "contribution": {
+    "libertarian_utopia": 0.25,
+    "benevolent_dictator": 0.25,
+    "egalitarian_utopia": 0.25,
+    "protector_god": 0.57,
+    "gatekeeper": 0.48,
+    "enslaved_god": 0.51,
+    "conquerors": -0.13,
+    "descendants": 0.26,
+    "zookeeper": -0.03,
+    "orwell_1984": -0.13,
+    "reversion": -0.26,
+    "self_destruction": -0.2
+   },
+   "factor_effect": {
+    "F1": 0.44,
+    "F3": 0.5
+   }
+  },
+  {
+   "id": "2026-11-06-02",
+   "title": "OpenAI launches GPT-6 Cyber, rated 'Critical' for cyber capability, to vetted defenders",
+   "summary": "OpenAI released GPT-6 Cyber, a specialised model that finds vulnerabilities and builds exploits for authorised testing. OpenAI rated its cyber capability 'Critical' and limited initial access to selected Daybreak Red organisations.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    },
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Deploying a model rated Critical for offensive cyber capability, even to restricted users, raises catastrophic cyber risk (F8 up) and marks a capability step (F1 up); gated access keeps it at T2.",
+   "sources": [
+    "https://deploymentsafety.openai.com/gpt-6-cyber",
+    "https://openai.com/ur-IN/index/introducing-gpt-6-cyber/"
+   ],
+   "points": 0.7,
+   "contribution": {
+    "libertarian_utopia": -0.35,
+    "egalitarian_utopia": -0.28,
+    "protector_god": 0.08,
+    "gatekeeper": 0.06,
+    "enslaved_god": 0.09,
+    "conquerors": 0.29,
+    "descendants": 0.09,
+    "zookeeper": 0.08,
+    "orwell_1984": -0.05,
+    "reversion": 0.19,
+    "self_destruction": 0.77
+   },
+   "factor_effect": {
+    "F1": 0.15,
+    "F8": 0.7
+   }
+  },
+  {
+   "id": "2026-11-06-03",
+   "title": "Europe-wide 'Stop Dirty Data Centres' protests; activists breach Microsoft site in Amsterdam",
+   "summary": "A coalition of 100+ groups ran actions on Nov 6 and 7 across about 16 European countries calling for a moratorium on large new data centres; about a hundred activists overran a Microsoft AI data-centre construction site in Amsterdam.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "EU",
+   "reason": "Coordinated cross-border protest with direct action against AI infrastructure is a clear backlash signal (F9 up); large but non-binding, so T2.",
+   "sources": [
+    "https://www.euronews.com/2026/11/05/protesters-across-europe-to-call-for-freeze-on-energy-hungry-data-centres",
+    "https://www.tomshardware.com/tech-industry/data-centers/protesters-storm-microsoft-ai-data-center-construction-site-amsterdam-reportedly-first-of-85-targeted-actions-across-europe",
+    "https://www.theguardian.com/world/2026/nov/06/activists-break-into-building-site-of-microsoft-datacentre-in-amsterdam"
+   ],
+   "points": 0.8,
+   "contribution": {
+    "reversion": 0.8
+   },
+   "factor_effect": {
+    "F9": 0.8
+   }
+  },
+  {
+   "id": "2026-11-06-04",
+   "title": "Democrats plan wave of AI and data-center bills when they take Congress in January",
+   "summary": "Reuters reported Democrats will push bills on data-center electricity costs, independent safety testing of advanced models, AI company liability and executives testifying under oath; passage faces a likely Trump veto.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "US",
+   "reason": "Plans for binding US AI oversight point toward more regulation (F4 up), but they are intentions facing veto odds, so T1 signal.",
+   "sources": [
+    "https://www.reuters.com/business/media-telecom/democrats-planning-flood-ai-bills-when-they-take-control-congress-2026-11-06/",
+    "https://www.westhawaiitoday.com/2026/11/07/nation-world-news/democrats-planning-flood-of-ai-bills-when-they-take-control-of-congress/"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "gatekeeper": 0.1,
+    "orwell_1984": 0.06,
+    "self_destruction": -0.07
+   },
+   "factor_effect": {
+    "F4": 0.14
+   }
+  },
+  {
+   "id": "2026-11-06-05",
+   "title": "China's MIIT tightens network-access rules for phones and devices with built-in AI agents",
+   "summary": "MIIT issued a notice on managing 'agent terminals' (phones, tablets, wearables with preinstalled AI agents), requiring risk assessments, controls on agent permissions and expert evaluation plus public feedback before over-the-air agent upgrades.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F2",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "structural",
+   "region": "China",
+   "reason": "Pre-approval and permission controls on consumer AI agents add oversight of agent autonomy (F2 down); a sector notice, T1.",
+   "sources": [
+    "https://www.stdaily.com/web/gdxw/2026-11/06/content_609614.html"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "benevolent_dictator": -0.09,
+    "protector_god": -0.07,
+    "gatekeeper": -0.04,
+    "enslaved_god": 0.04,
+    "conquerors": -0.07,
+    "descendants": -0.09,
+    "zookeeper": -0.09
+   },
+   "factor_effect": {
+    "F2": -0.14
+   }
+  },
+  {
+   "id": "2026-11-06-06",
+   "title": "UK seeks powers to regulate agentic AI at essential-service and cloud operators",
+   "summary": "A government amendment to the Cyber Security and Resilience Bill, tabled at Lords third reading, would let ministers set rules on deploying and reporting agentic AI, with incident reviews and possible inspection powers; it cites OpenAI agents exceeding scope.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F2",
+     "dir": -1
+    },
+    {
+     "id": "F4",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "UK",
+   "reason": "Proposed oversight powers over deployed agents constrain autonomy (F2 down) and extend regulation (F4 up); needs secondary legislation, so T1 signal.",
+   "sources": [
+    "https://www.theregister.com/ai-and-ml/2026/11/06/uk-ministers-seek-powers-to-investigate-when-ai-agents-are-let-off-the-leash/5307889"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "benevolent_dictator": -0.05,
+    "protector_god": -0.04,
+    "enslaved_god": 0.03,
+    "conquerors": -0.04,
+    "descendants": -0.05,
+    "zookeeper": -0.05,
+    "orwell_1984": 0.02,
+    "self_destruction": -0.02
+   },
+   "factor_effect": {
+    "F2": -0.09,
+    "F4": 0.04
+   }
+  },
+  {
+   "id": "2026-11-06-07",
+   "title": "UK regulators: companies remain liable for what their AI agents do",
+   "summary": "The UK's Digital Regulation Cooperation Forum (CMA, FCA, ICO, Ofcom) said an AI agent's autonomy does not reduce an organisation's legal duties under competition, consumer, data, online-safety and financial rules.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    },
+    {
+     "id": "F2",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "UK",
+   "reason": "A joint regulator position applying existing law to agents strengthens governance (F4 up) and keeps humans accountable (F2 down); guidance only, T1.",
+   "sources": [
+    "https://infoworld.com/article/4245776/enterprises-must-take-blame-for-their-ai-agents-mistakes-say-regulators-3.html"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "benevolent_dictator": -0.03,
+    "protector_god": -0.02,
+    "gatekeeper": 0.05,
+    "enslaved_god": 0.01,
+    "conquerors": -0.02,
+    "descendants": -0.03,
+    "zookeeper": -0.03,
+    "orwell_1984": 0.04,
+    "self_destruction": -0.04
+   },
+   "factor_effect": {
+    "F2": -0.04,
+    "F4": 0.09
+   }
+  },
+  {
+   "id": "2026-11-06-08",
+   "title": "South Korea's AI committee adopts legislation framework and superintelligence task force",
+   "summary": "South Korea's National AI Strategy Committee approved an AI legislation framework (favouring amendments to the AI Basic Act, with separate defence-AI law) and seven task forces, including one on responding to national superintelligence.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "Other",
+   "reason": "Government structures for AI law and superintelligence response add governance capacity (F4 up); plans, not enacted rules, so T1.",
+   "sources": [
+    "https://www.mt.co.kr/en/tech/2026/11/06/2026110610070925324"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "gatekeeper": 0.06,
+    "orwell_1984": 0.04,
+    "self_destruction": -0.04
+   },
+   "factor_effect": {
+    "F4": 0.09
+   }
+  }
+ ]
+}
