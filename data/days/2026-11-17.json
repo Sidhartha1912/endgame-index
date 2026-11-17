@@ -1,0 +1,123 @@
+{
+ "date": "2026-11-17",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 13.73,
+  "benevolent_dictator": 23.24,
+  "egalitarian_utopia": 1.7,
+  "protector_god": 18.21,
+  "gatekeeper": 19.53,
+  "enslaved_god": 39.45,
+  "conquerors": 44.29,
+  "descendants": 31.54,
+  "zookeeper": 33.73,
+  "orwell_1984": 22.34,
+  "reversion": 7.5,
+  "self_destruction": 37.54
+ },
+ "deltas": {
+  "libertarian_utopia": -0.0,
+  "benevolent_dictator": -0.03,
+  "egalitarian_utopia": -0.0,
+  "protector_god": -0.04,
+  "gatekeeper": -0.05,
+  "enslaved_god": -0.04,
+  "conquerors": 0.0,
+  "descendants": -0.02,
+  "zookeeper": -0.01,
+  "orwell_1984": -0.01,
+  "reversion": 0.0,
+  "self_destruction": 0.01
+ },
+ "targets": {
+  "libertarian_utopia": 13.73,
+  "benevolent_dictator": 23.24,
+  "egalitarian_utopia": 1.7,
+  "protector_god": 18.21,
+  "gatekeeper": 19.53,
+  "enslaved_god": 39.45,
+  "conquerors": 44.29,
+  "descendants": 31.54,
+  "zookeeper": 33.73,
+  "orwell_1984": 22.34,
+  "reversion": 7.5,
+  "self_destruction": 37.54
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.0,
+  "benevolent_dictator": 0.19,
+  "egalitarian_utopia": -0.79,
+  "protector_god": -0.01,
+  "gatekeeper": 0.07,
+  "enslaved_god": -0.19,
+  "conquerors": 1.33,
+  "descendants": 0.62,
+  "zookeeper": 1.09,
+  "orwell_1984": 0.14,
+  "reversion": 0.19,
+  "self_destruction": 1.16
+ },
+ "factors": {
+  "F1": 87.57,
+  "F2": 57.01,
+  "F3": 28.56,
+  "F4": 26.66,
+  "F5": 67.04,
+  "F6": 45.59,
+  "F7": 31.99,
+  "F8": 68.64,
+  "F9": 47.79,
+  "F10": 20.75
+ },
+ "factor_deltas": {
+  "F1": -0.03,
+  "F2": -0.01,
+  "F3": -0.03,
+  "F4": -0.03,
+  "F5": -0.01,
+  "F6": 0.0,
+  "F7": 0.01,
+  "F8": -0.01,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -20.26,
+  "families": {
+   "flourishing": 14.22,
+   "contained": 29.49,
+   "successors": 36.52,
+   "stalled": 22.46
+  },
+  "news_heat": 0.0,
+  "evidence": "low",
+  "event_count": 0
+ },
+ "badges": [
+  "quiet_day"
+ ],
+ "speed_limited": [],
+ "fading_contribution": {
+  "benevolent_dictator": -0.03,
+  "protector_god": -0.04,
+  "gatekeeper": -0.05,
+  "enslaved_god": -0.04,
+  "descendants": -0.02,
+  "zookeeper": -0.01,
+  "orwell_1984": -0.01,
+  "self_destruction": 0.01
+ },
+ "summary": {
+  "headline": "Quiet start to the day; no qualifying AI events yet",
+  "body": "No new events met the scoring bar in the India-time window so far, so the endings barely moved and Horizon Balance stands at -20.26. Most of the stories circulating on 17 November, including the US Commerce rule on remote access to AI chips and new model launches from Tencent and Nvidia, were published on 16 November and are scored on that day. South Korea is tightening exam checks, including inspecting glasses and collecting smart devices, after a top exam scorer admitted cheating with a hidden camera and AI. That is on watch, as it is too early to say whether it signals wider public pushback. Nvidia earnings and the Anthropic IPO pricing are still ahead.",
+  "movers_note": "No movers today; all changes are within 0.1 as earlier events fade.",
+  "coming_up": [
+   "Nvidia Q3 earnings, 17 Nov",
+   "EU Apply AI Summit, Brussels, 17 Nov",
+   "APEC CEO Summit 17-18 Nov; Trump-Xi meeting around 19 Nov",
+   "Anthropic IPO pricing 18 Nov, Nasdaq trading 19 Nov",
+   "EU AI Act Article 50 transparency obligations from 2 Dec"
+  ]
+ },
+ "events": []
+}

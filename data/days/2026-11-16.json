@@ -5,60 +5,60 @@
   "libertarian_utopia": 13.74,
   "benevolent_dictator": 23.27,
   "egalitarian_utopia": 1.7,
-  "protector_god": 18.24,
-  "gatekeeper": 19.57,
-  "enslaved_god": 39.47,
-  "conquerors": 44.28,
-  "descendants": 31.56,
-  "zookeeper": 33.72,
-  "orwell_1984": 22.35,
-  "reversion": 7.51,
+  "protector_god": 18.25,
+  "gatekeeper": 19.58,
+  "enslaved_god": 39.49,
+  "conquerors": 44.29,
+  "descendants": 31.57,
+  "zookeeper": 33.74,
+  "orwell_1984": 22.34,
+  "reversion": 7.5,
   "self_destruction": 37.53
  },
  "deltas": {
   "libertarian_utopia": -0.14,
   "benevolent_dictator": 0.11,
   "egalitarian_utopia": -0.08,
-  "protector_god": -0.07,
+  "protector_god": -0.06,
   "gatekeeper": -0.09,
-  "enslaved_god": 0.09,
-  "conquerors": -0.02,
-  "descendants": -0.04,
-  "zookeeper": 0.08,
+  "enslaved_god": 0.11,
+  "conquerors": -0.01,
+  "descendants": -0.03,
+  "zookeeper": 0.09,
   "orwell_1984": 0.12,
-  "reversion": 0.0,
+  "reversion": -0.01,
   "self_destruction": -0.0
  },
  "targets": {
   "libertarian_utopia": 13.74,
   "benevolent_dictator": 23.27,
   "egalitarian_utopia": 1.7,
-  "protector_god": 18.24,
-  "gatekeeper": 19.57,
-  "enslaved_god": 39.47,
-  "conquerors": 44.28,
-  "descendants": 31.56,
-  "zookeeper": 33.72,
-  "orwell_1984": 22.35,
-  "reversion": 7.51,
+  "protector_god": 18.25,
+  "gatekeeper": 19.58,
+  "enslaved_god": 39.49,
+  "conquerors": 44.29,
+  "descendants": 31.57,
+  "zookeeper": 33.74,
+  "orwell_1984": 22.34,
+  "reversion": 7.5,
   "self_destruction": 37.53
  },
  "momentum_7d": {
   "libertarian_utopia": -1.09,
   "benevolent_dictator": 0.51,
   "egalitarian_utopia": -0.84,
-  "protector_god": 0.37,
-  "gatekeeper": 0.41,
-  "enslaved_god": -0.01,
-  "conquerors": 1.62,
-  "descendants": 1.0,
-  "zookeeper": 1.44,
-  "orwell_1984": 0.14,
-  "reversion": 0.08,
+  "protector_god": 0.38,
+  "gatekeeper": 0.42,
+  "enslaved_god": 0.0,
+  "conquerors": 1.63,
+  "descendants": 1.01,
+  "zookeeper": 1.45,
+  "orwell_1984": 0.13,
+  "reversion": 0.06,
   "self_destruction": 1.23
  },
  "factors": {
-  "F1": 87.58,
+  "F1": 87.6,
   "F2": 57.02,
   "F3": 28.59,
   "F4": 26.69,
@@ -70,7 +70,7 @@
   "F10": 20.75
  },
  "factor_deltas": {
-  "F1": -0.05,
+  "F1": -0.03,
   "F2": -0.01,
   "F3": -0.04,
   "F4": -0.07,
@@ -82,16 +82,16 @@
   "F10": -0.0
  },
  "composites": {
-  "horizon_balance": -20.23,
+  "horizon_balance": -20.24,
   "families": {
    "flourishing": 14.24,
-   "contained": 29.52,
-   "successors": 36.52,
-   "stalled": 22.47
+   "contained": 29.53,
+   "successors": 36.53,
+   "stalled": 22.46
   },
-  "news_heat": 0.64,
-  "evidence": "low",
-  "event_count": 5
+  "news_heat": 0.95,
+  "evidence": "medium",
+  "event_count": 7
  },
  "badges": [],
  "speed_limited": [],
@@ -107,7 +107,7 @@
  },
  "summary": {
   "headline": "US plans AI 'national champions'; Hong Kong switches on facial recognition",
-  "body": "The Trump administration plans to name more than 24 US firms as AI 'national champions' for an export push, the day's main mover, lifting Power Concentration by 0.23 and lowering Global Coordination. Hong Kong police switched on AI facial recognition across the SmartView CCTV network, raising Surveillance & Control. Alibaba made Qwen4-Max generally available, and Congress leaders backed attaching four AI-chip export bills to the defence budget bill. The US and China plan APEC talks on AI incident protocols, though the proposed hotline is not yet running. Libertarian Utopia fell; 1984 and Benevolent Dictator rose. Horizon Balance slipped to -20.23 from -20.15.",
+  "body": "The Trump administration plans to name more than 24 US firms as AI 'national champions' for an export push, the day's main mover, lifting Power Concentration by 0.23 and lowering Global Coordination. Hong Kong police switched on AI facial recognition across the SmartView CCTV network, raising Surveillance & Control. Alibaba made Qwen4-Max generally available, and Congress leaders backed attaching four AI-chip export bills to the defence budget bill. The US and China plan APEC talks on AI incident protocols, though the proposed hotline is not yet running. Libertarian Utopia fell; 1984 and Benevolent Dictator rose. Two further items: the US Commerce Department issued an interim rule curbing remote access to advanced AI chips, and Tencent released its low-priced Hy4 flash model. Horizon Balance slipped to -20.24 from -20.15.",
   "movers_note": "Libertarian Utopia -0.14, from the national champions plan (-0.14). 1984 +0.12, from the champions plan (+0.05) and Hong Kong facial recognition (+0.04). Benevolent Dictator +0.11, mostly from the champions plan (+0.12).",
   "coming_up": [
    "Nvidia Q3 earnings, 17 Nov",
@@ -144,17 +144,17 @@
    ],
    "points": 0.05,
    "contribution": {
-    "protector_god": 0.03,
-    "gatekeeper": 0.02,
-    "enslaved_god": 0.03,
-    "conquerors": 0.03,
-    "descendants": 0.03,
-    "zookeeper": 0.03,
-    "orwell_1984": -0.02,
-    "reversion": -0.03
+    "protector_god": 0.01,
+    "gatekeeper": 0.01,
+    "enslaved_god": 0.01,
+    "conquerors": 0.01,
+    "descendants": 0.01,
+    "zookeeper": 0.01,
+    "orwell_1984": -0.01,
+    "reversion": -0.01
    },
    "factor_effect": {
-    "F1": 0.05
+    "F1": 0.02
    }
   },
   {
@@ -258,17 +258,17 @@
    ],
    "points": 0.07,
    "contribution": {
-    "protector_god": -0.04,
-    "gatekeeper": -0.03,
-    "enslaved_god": -0.04,
-    "conquerors": -0.04,
-    "descendants": -0.04,
-    "zookeeper": -0.04,
-    "orwell_1984": 0.02,
-    "reversion": 0.04
+    "protector_god": -0.01,
+    "gatekeeper": -0.01,
+    "enslaved_god": -0.02,
+    "conquerors": -0.01,
+    "descendants": -0.02,
+    "zookeeper": -0.01,
+    "orwell_1984": 0.01,
+    "reversion": 0.02
    },
    "factor_effect": {
-    "F1": -0.07
+    "F1": -0.03
    }
   },
   {
@@ -311,6 +311,80 @@
    "factor_effect": {
     "F4": 0.06,
     "F8": -0.04
+   }
+  },
+  {
+   "id": "2026-11-16-06",
+   "title": "US Commerce interim rule curbs remote access to advanced AI chips via third countries",
+   "summary": "The US Commerce Department issued an interim rule limiting other countries' remote access to advanced AI chips through data centres in third countries, and added licence requirements for chip exports to Brazil, Indonesia, Malaysia, Singapore and Thailand.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": -1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "Binding export-control rule closes a remote-access loophole, slightly slowing capability spread; unilateral, so T2 and no coordination credit.",
+   "sources": [
+    "https://www.cbsnews.com/news/nvidia-jensen-huang-commerce-department-limit-remote-access-ai-chips/"
+   ],
+   "points": 0.14,
+   "contribution": {
+    "protector_god": -0.03,
+    "gatekeeper": -0.02,
+    "enslaved_god": -0.04,
+    "conquerors": -0.03,
+    "descendants": -0.04,
+    "zookeeper": -0.03,
+    "orwell_1984": 0.02,
+    "reversion": 0.04
+   },
+   "factor_effect": {
+    "F1": -0.06
+   }
+  },
+  {
+   "id": "2026-11-16-07",
+   "title": "Tencent releases Hy4 flash, a 224B-parameter MoE with 1M context, at very low prices",
+   "summary": "Tencent released Hy4 flash (224B total, 12B active parameters, multimodal, 1M-token context), priced about US$0.07 per million input tokens. Speed and benchmark claims are Tencent's own.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "China",
+   "reason": "Another Chinese frontier-scale cheap model nudges capability velocity; performance figures are self-reported, so T1.",
+   "sources": [
+    "https://www.tencent.com/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows/"
+   ],
+   "points": 0.17,
+   "contribution": {
+    "protector_god": 0.03,
+    "gatekeeper": 0.03,
+    "enslaved_god": 0.04,
+    "conquerors": 0.03,
+    "descendants": 0.04,
+    "zookeeper": 0.03,
+    "orwell_1984": -0.02,
+    "reversion": -0.04
+   },
+   "factor_effect": {
+    "F1": 0.07
    }
   }
  ]

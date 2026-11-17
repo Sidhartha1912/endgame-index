@@ -1,131 +1,177 @@
 [
- {
-  "id": "2026-11-16-01",
-  "title": "Alibaba makes Qwen4-Max, a 2.4T-parameter MoE with 1M context, generally available",
-  "summary": "Alibaba released its flagship Qwen4-Max (2.4T-parameter mixture-of-experts, 1M-token context, native image input) via QwenCloud, saying it cuts task costs about 60% on its internal Work360 benchmark and tightens cyber guardrails. Smaller Qwen4 models are to be open-sourced.",
-  "category": "labs",
-  "factors": [
-   {
-    "id": "F1",
-    "dir": 1
-   }
-  ],
-  "tier": "T1",
-  "credibility": "B",
-  "self_claim": true,
-  "novelty": "development",
-  "scope": "global",
-  "track": "structural",
-  "region": "China",
-  "reason": "New Chinese frontier-scale flagship model raises capability velocity; efficiency figures are Alibaba's own, so T2 not higher.",
-  "sources": [
-   "https://www.scmp.com/tech/big-tech/article/3374540/alibaba-says-new-flagship-ai-model-cuts-task-costs-60-while-tightening-cyber-guardrails",
-   "https://technode.com/2026/11/16/alibaba-launches-qwen4-max-with-lower-api-prices-and-a-million-token-context-window/",
-   "https://www.business-standard.com/amp/world-news/alibaba-says-qwen4-max-cuts-task-costs-by-60-boosts-cyber-safeguards-126111600895_1.html"
-  ]
- },
- {
-  "id": "2026-11-16-02",
-  "title": "Hong Kong police switch on AI facial recognition across SmartView CCTV network",
-  "summary": "Hong Kong police activated facial recognition on their SmartView ('Sharp Eye') CCTV network covering busy and higher-crime public places from 16 Nov; the police chief said the tools won't be abused, but rules on enrolment and data retention remain unclear.",
-  "category": "surveillance",
-  "factors": [
-   {
-    "id": "F6",
-    "dir": 1
-   }
-  ],
-  "tier": "T1",
-  "credibility": "C",
-  "self_claim": false,
-  "novelty": "new",
-  "scope": "local",
-  "track": "structural",
-  "region": "China",
-  "reason": "Live facial recognition rollout across a city-wide police camera network directly expands surveillance; city scope, T1.",
-  "sources": [
-   "https://hongkongfp.com/2026/11/16/hong-kong-police-activate-facial-recognition-across-ai-enabled-cctv-network-as-police-chief-says-tools-wont-be-abused/",
-   "https://dimsumdaily.hk/joe-chow-says-smartview-facial-recognition-starts-16th-november-to-protect-citizens-and-deter-crime"
-  ]
- },
- {
-  "id": "2026-11-16-03",
-  "title": "Trump administration to name 24+ US firms AI 'national champions' for export push",
-  "summary": "Per a WSJ report, Commerce plans to designate more than two dozen firms, including Nvidia, Microsoft, Amazon, OpenAI and Anthropic, as AI national champions eligible for government advocacy, federal financing and faster export licensing to beat Chinese rivals abroad. Timing is not final.",
-  "category": "policy",
-  "factors": [
-   {
-    "id": "F5",
-    "dir": 1
-   },
-   {
-    "id": "F4",
-    "dir": -1
-   }
-  ],
-  "tier": "T1",
-  "credibility": "B",
-  "self_claim": false,
-  "novelty": "new",
-  "scope": "global",
-  "track": "signal",
-  "region": "US",
-  "reason": "State backing for a set of incumbent champions concentrates power and frames AI as a bloc race against China; planned, not yet done, so T1 signal.",
-  "sources": [
-   "https://www.wsj.com/tech/ai/trump-administration-to-name-nvidia-among-ai-national-champions-c9284344",
-   "https://thenextweb.com/news/ai-national-champions-nvidia-openai-anthropic-trump"
-  ]
- },
- {
-  "id": "2026-11-16-04",
-  "title": "Congress leaders back attaching four AI-chip export bills to the FY2027 NDAA",
-  "summary": "Senate Majority Leader Thune called new China chip-export restrictions a 'high probability', with lawmakers aiming to attach four bills, including the Remote Access Security Act on overseas cloud rentals, to the NDAA after the Nvidia/Megaspeed scandal. No final text has been agreed.",
-  "category": "policy",
-  "factors": [
-   {
-    "id": "F1",
-    "dir": -1
-   }
-  ],
-  "tier": "T1",
-  "credibility": "B",
-  "self_claim": false,
-  "novelty": "development",
-  "scope": "global",
-  "track": "signal",
-  "region": "US",
-  "reason": "Tighter chip curbs (including closing the remote-compute loophole) would slow Chinese capability gains; still legislative intent, so T1 signal.",
-  "sources": [
-   "https://www.ft.com/content/3062790a-553d-41b8-9c7d-bae17b9d2e29",
-   "https://aiweekly.co/alerts/congress-backs-ai-chip-bills-aimed-at-chinas-overseas-workaround"
-  ]
- },
- {
-  "id": "2026-11-16-05",
-  "title": "US and China plan APEC talks on AI incident protocols; hotline still not operational",
-  "summary": "Ahead of the Trump-Xi meeting in Shenzhen, Treasury Secretary Bessent said APEC AI talks would cover communication protocols for AI safety incidents and testing practices for advanced models, while a proposed emergency AI incident notification mechanism discussed in September is still not operational.",
-  "category": "policy",
-  "factors": [
-   {
-    "id": "F4",
-    "dir": 1
-   },
-   {
-    "id": "F8",
-    "dir": -1
-   }
-  ],
-  "tier": "T1",
-  "credibility": "B",
-  "self_claim": false,
-  "novelty": "development",
-  "scope": "global",
-  "track": "signal",
-  "region": "Global",
-  "reason": "Planned US-China AI safety confidence-building nudges coordination up and catastrophic risk down; talks only, and the mechanism is stalled, so T1.",
-  "sources": [
-   "https://english.aawsat.com/business/5341778-chip-tensions-loom-over-trump-xi-summit-us-and-china-push-ai-safety-steps",
-   "https://za.investing.com/news/stock-market-news/chip-tensions-loom-over-trumpxi-summit-as-us-and-china-push-ai-safety-steps-4577069"
-  ]
- }
+  {
+    "id": "2026-11-16-01",
+    "title": "Alibaba makes Qwen4-Max, a 2.4T-parameter MoE with 1M context, generally available",
+    "summary": "Alibaba released its flagship Qwen4-Max (2.4T-parameter mixture-of-experts, 1M-token context, native image input) via QwenCloud, saying it cuts task costs about 60% on its internal Work360 benchmark and tightens cyber guardrails. Smaller Qwen4 models are to be open-sourced.",
+    "category": "labs",
+    "factors": [
+      {
+        "id": "F1",
+        "dir": 1
+      }
+    ],
+    "tier": "T1",
+    "credibility": "B",
+    "self_claim": true,
+    "novelty": "development",
+    "scope": "global",
+    "track": "structural",
+    "region": "China",
+    "reason": "New Chinese frontier-scale flagship model raises capability velocity; efficiency figures are Alibaba's own, so T2 not higher.",
+    "sources": [
+      "https://www.scmp.com/tech/big-tech/article/3374540/alibaba-says-new-flagship-ai-model-cuts-task-costs-60-while-tightening-cyber-guardrails",
+      "https://technode.com/2026/11/16/alibaba-launches-qwen4-max-with-lower-api-prices-and-a-million-token-context-window/",
+      "https://www.business-standard.com/amp/world-news/alibaba-says-qwen4-max-cuts-task-costs-by-60-boosts-cyber-safeguards-126111600895_1.html"
+    ]
+  },
+  {
+    "id": "2026-11-16-02",
+    "title": "Hong Kong police switch on AI facial recognition across SmartView CCTV network",
+    "summary": "Hong Kong police activated facial recognition on their SmartView ('Sharp Eye') CCTV network covering busy and higher-crime public places from 16 Nov; the police chief said the tools won't be abused, but rules on enrolment and data retention remain unclear.",
+    "category": "surveillance",
+    "factors": [
+      {
+        "id": "F6",
+        "dir": 1
+      }
+    ],
+    "tier": "T1",
+    "credibility": "C",
+    "self_claim": false,
+    "novelty": "new",
+    "scope": "local",
+    "track": "structural",
+    "region": "China",
+    "reason": "Live facial recognition rollout across a city-wide police camera network directly expands surveillance; city scope, T1.",
+    "sources": [
+      "https://hongkongfp.com/2026/11/16/hong-kong-police-activate-facial-recognition-across-ai-enabled-cctv-network-as-police-chief-says-tools-wont-be-abused/",
+      "https://dimsumdaily.hk/joe-chow-says-smartview-facial-recognition-starts-16th-november-to-protect-citizens-and-deter-crime"
+    ]
+  },
+  {
+    "id": "2026-11-16-03",
+    "title": "Trump administration to name 24+ US firms AI 'national champions' for export push",
+    "summary": "Per a WSJ report, Commerce plans to designate more than two dozen firms, including Nvidia, Microsoft, Amazon, OpenAI and Anthropic, as AI national champions eligible for government advocacy, federal financing and faster export licensing to beat Chinese rivals abroad. Timing is not final.",
+    "category": "policy",
+    "factors": [
+      {
+        "id": "F5",
+        "dir": 1
+      },
+      {
+        "id": "F4",
+        "dir": -1
+      }
+    ],
+    "tier": "T1",
+    "credibility": "B",
+    "self_claim": false,
+    "novelty": "new",
+    "scope": "global",
+    "track": "signal",
+    "region": "US",
+    "reason": "State backing for a set of incumbent champions concentrates power and frames AI as a bloc race against China; planned, not yet done, so T1 signal.",
+    "sources": [
+      "https://www.wsj.com/tech/ai/trump-administration-to-name-nvidia-among-ai-national-champions-c9284344",
+      "https://thenextweb.com/news/ai-national-champions-nvidia-openai-anthropic-trump"
+    ]
+  },
+  {
+    "id": "2026-11-16-04",
+    "title": "Congress leaders back attaching four AI-chip export bills to the FY2027 NDAA",
+    "summary": "Senate Majority Leader Thune called new China chip-export restrictions a 'high probability', with lawmakers aiming to attach four bills, including the Remote Access Security Act on overseas cloud rentals, to the NDAA after the Nvidia/Megaspeed scandal. No final text has been agreed.",
+    "category": "policy",
+    "factors": [
+      {
+        "id": "F1",
+        "dir": -1
+      }
+    ],
+    "tier": "T1",
+    "credibility": "B",
+    "self_claim": false,
+    "novelty": "development",
+    "scope": "global",
+    "track": "signal",
+    "region": "US",
+    "reason": "Tighter chip curbs (including closing the remote-compute loophole) would slow Chinese capability gains; still legislative intent, so T1 signal.",
+    "sources": [
+      "https://www.ft.com/content/3062790a-553d-41b8-9c7d-bae17b9d2e29",
+      "https://aiweekly.co/alerts/congress-backs-ai-chip-bills-aimed-at-chinas-overseas-workaround"
+    ]
+  },
+  {
+    "id": "2026-11-16-05",
+    "title": "US and China plan APEC talks on AI incident protocols; hotline still not operational",
+    "summary": "Ahead of the Trump-Xi meeting in Shenzhen, Treasury Secretary Bessent said APEC AI talks would cover communication protocols for AI safety incidents and testing practices for advanced models, while a proposed emergency AI incident notification mechanism discussed in September is still not operational.",
+    "category": "policy",
+    "factors": [
+      {
+        "id": "F4",
+        "dir": 1
+      },
+      {
+        "id": "F8",
+        "dir": -1
+      }
+    ],
+    "tier": "T1",
+    "credibility": "B",
+    "self_claim": false,
+    "novelty": "development",
+    "scope": "global",
+    "track": "signal",
+    "region": "Global",
+    "reason": "Planned US-China AI safety confidence-building nudges coordination up and catastrophic risk down; talks only, and the mechanism is stalled, so T1.",
+    "sources": [
+      "https://english.aawsat.com/business/5341778-chip-tensions-loom-over-trump-xi-summit-us-and-china-push-ai-safety-steps",
+      "https://za.investing.com/news/stock-market-news/chip-tensions-loom-over-trumpxi-summit-as-us-and-china-push-ai-safety-steps-4577069"
+    ]
+  },
+  {
+    "id": "2026-11-16-06",
+    "title": "US Commerce interim rule curbs remote access to advanced AI chips via third countries",
+    "summary": "The US Commerce Department issued an interim rule limiting other countries' remote access to advanced AI chips through data centres in third countries, and added licence requirements for chip exports to Brazil, Indonesia, Malaysia, Singapore and Thailand.",
+    "category": "policy",
+    "factors": [
+      {
+        "id": "F1",
+        "dir": -1
+      }
+    ],
+    "tier": "T2",
+    "credibility": "B",
+    "self_claim": false,
+    "novelty": "development",
+    "scope": "national",
+    "track": "structural",
+    "region": "US",
+    "reason": "Binding export-control rule closes a remote-access loophole, slightly slowing capability spread; unilateral, so T2 and no coordination credit.",
+    "sources": [
+      "https://www.cbsnews.com/news/nvidia-jensen-huang-commerce-department-limit-remote-access-ai-chips/"
+    ]
+  },
+  {
+    "id": "2026-11-16-07",
+    "title": "Tencent releases Hy4 flash, a 224B-parameter MoE with 1M context, at very low prices",
+    "summary": "Tencent released Hy4 flash (224B total, 12B active parameters, multimodal, 1M-token context), priced about US$0.07 per million input tokens. Speed and benchmark claims are Tencent's own.",
+    "category": "labs",
+    "factors": [
+      {
+        "id": "F1",
+        "dir": 1
+      }
+    ],
+    "tier": "T1",
+    "credibility": "B",
+    "self_claim": true,
+    "novelty": "new",
+    "scope": "global",
+    "track": "structural",
+    "region": "China",
+    "reason": "Another Chinese frontier-scale cheap model nudges capability velocity; performance figures are self-reported, so T1.",
+    "sources": [
+      "https://www.tencent.com/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows/"
+    ]
+  }
 ]
