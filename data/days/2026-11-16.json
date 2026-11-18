@@ -2,96 +2,96 @@
  "date": "2026-11-16",
  "rules_version": "1.2.0",
  "scores": {
-  "libertarian_utopia": 13.74,
-  "benevolent_dictator": 23.27,
-  "egalitarian_utopia": 1.7,
-  "protector_god": 18.25,
-  "gatekeeper": 19.58,
-  "enslaved_god": 39.49,
-  "conquerors": 44.29,
-  "descendants": 31.57,
-  "zookeeper": 33.74,
+  "libertarian_utopia": 13.35,
+  "benevolent_dictator": 23.67,
+  "egalitarian_utopia": 1.41,
+  "protector_god": 18.64,
+  "gatekeeper": 19.86,
+  "enslaved_god": 39.44,
+  "conquerors": 44.69,
+  "descendants": 31.87,
+  "zookeeper": 33.93,
   "orwell_1984": 22.34,
-  "reversion": 7.5,
-  "self_destruction": 37.53
+  "reversion": 7.9,
+  "self_destruction": 38.54
  },
  "deltas": {
-  "libertarian_utopia": -0.14,
-  "benevolent_dictator": 0.11,
-  "egalitarian_utopia": -0.08,
-  "protector_god": -0.06,
-  "gatekeeper": -0.09,
-  "enslaved_god": 0.11,
-  "conquerors": -0.01,
-  "descendants": -0.03,
-  "zookeeper": 0.09,
+  "libertarian_utopia": -0.53,
+  "benevolent_dictator": 0.52,
+  "egalitarian_utopia": -0.38,
+  "protector_god": 0.34,
+  "gatekeeper": 0.19,
+  "enslaved_god": 0.06,
+  "conquerors": 0.39,
+  "descendants": 0.27,
+  "zookeeper": 0.29,
   "orwell_1984": 0.12,
-  "reversion": -0.01,
-  "self_destruction": -0.0
+  "reversion": 0.39,
+  "self_destruction": 1.0
  },
  "targets": {
-  "libertarian_utopia": 13.74,
-  "benevolent_dictator": 23.27,
-  "egalitarian_utopia": 1.7,
-  "protector_god": 18.25,
-  "gatekeeper": 19.58,
-  "enslaved_god": 39.49,
-  "conquerors": 44.29,
-  "descendants": 31.57,
-  "zookeeper": 33.74,
+  "libertarian_utopia": 13.35,
+  "benevolent_dictator": 23.67,
+  "egalitarian_utopia": 1.41,
+  "protector_god": 18.64,
+  "gatekeeper": 19.86,
+  "enslaved_god": 39.44,
+  "conquerors": 44.69,
+  "descendants": 31.87,
+  "zookeeper": 33.93,
   "orwell_1984": 22.34,
-  "reversion": 7.5,
-  "self_destruction": 37.53
+  "reversion": 7.9,
+  "self_destruction": 38.54
  },
  "momentum_7d": {
-  "libertarian_utopia": -1.09,
-  "benevolent_dictator": 0.51,
-  "egalitarian_utopia": -0.84,
-  "protector_god": 0.38,
-  "gatekeeper": 0.42,
-  "enslaved_god": 0.0,
-  "conquerors": 1.63,
-  "descendants": 1.01,
-  "zookeeper": 1.45,
+  "libertarian_utopia": -1.48,
+  "benevolent_dictator": 0.91,
+  "egalitarian_utopia": -1.14,
+  "protector_god": 0.78,
+  "gatekeeper": 0.7,
+  "enslaved_god": -0.04,
+  "conquerors": 2.03,
+  "descendants": 1.31,
+  "zookeeper": 1.64,
   "orwell_1984": 0.13,
-  "reversion": 0.06,
-  "self_destruction": 1.23
+  "reversion": 0.46,
+  "self_destruction": 2.24
  },
  "factors": {
   "F1": 87.6,
-  "F2": 57.02,
-  "F3": 28.59,
+  "F2": 57.52,
+  "F3": 28.8,
   "F4": 26.69,
   "F5": 67.06,
   "F6": 45.59,
   "F7": 31.98,
-  "F8": 68.65,
+  "F8": 69.64,
   "F9": 47.8,
   "F10": 20.75
  },
  "factor_deltas": {
   "F1": -0.03,
-  "F2": -0.01,
-  "F3": -0.04,
+  "F2": 0.49,
+  "F3": 0.17,
   "F4": -0.07,
   "F5": 0.23,
   "F6": 0.05,
   "F7": 0.01,
-  "F8": -0.05,
+  "F8": 0.94,
   "F9": -0.01,
   "F10": -0.0
  },
  "composites": {
-  "horizon_balance": -20.24,
+  "horizon_balance": -20.61,
   "families": {
-   "flourishing": 14.24,
-   "contained": 29.53,
-   "successors": 36.53,
-   "stalled": 22.46
+   "flourishing": 14.27,
+   "contained": 29.65,
+   "successors": 36.83,
+   "stalled": 22.93
   },
-  "news_heat": 0.95,
+  "news_heat": 2.66,
   "evidence": "medium",
-  "event_count": 7
+  "event_count": 9
  },
  "badges": [],
  "speed_limited": [],
@@ -106,9 +106,9 @@
   "self_destruction": 0.01
  },
  "summary": {
-  "headline": "US plans AI 'national champions'; Hong Kong switches on facial recognition",
-  "body": "The Trump administration plans to name more than 24 US firms as AI 'national champions' for an export push, the day's main mover, lifting Power Concentration by 0.23 and lowering Global Coordination. Hong Kong police switched on AI facial recognition across the SmartView CCTV network, raising Surveillance & Control. Alibaba made Qwen4-Max generally available, and Congress leaders backed attaching four AI-chip export bills to the defence budget bill. The US and China plan APEC talks on AI incident protocols, though the proposed hotline is not yet running. Libertarian Utopia fell; 1984 and Benevolent Dictator rose. Two further items: the US Commerce Department issued an interim rule curbing remote access to advanced AI chips, and Tencent released its low-priced Hy4 flash model. Horizon Balance slipped to -20.24 from -20.15.",
-  "movers_note": "Libertarian Utopia -0.14, from the national champions plan (-0.14). 1984 +0.12, from the champions plan (+0.05) and Hong Kong facial recognition (+0.04). Benevolent Dictator +0.11, mostly from the champions plan (+0.12).",
+  "headline": "Google sees first autonomous AI exploit attack; US plans AI 'national champions'",
+  "body": "Google's threat team reported the first observed AI agent framework turning security patches into working exploits with no human involved, used in a real data theft; it was the day's main mover, raising Catastrophic Risk by 0.99 and AI Autonomy by 0.50. The Trump administration plans to name more than 24 US firms as AI 'national champions', lifting Power Concentration by 0.24 and lowering Global Coordination by 0.11. OpenAI embedded outside evaluators from Apollo, METR, Transluce and Goodfire, raising Alignment & Control by 0.21. Hong Kong switched on AI facial recognition across SmartView CCTV, Alibaba made Qwen4-Max generally available, and Commerce curbed remote access to AI chips. Self-Destruction and Benevolent Dictator rose; Libertarian Utopia fell. Horizon Balance slipped to -20.61 from -20.15.",
+  "movers_note": "Self-Destruction +1.0, mostly from Google's exploit_agent report (+1.09), slightly offset by OpenAI's embedded evaluators (-0.08). Libertarian Utopia -0.5, from exploit_agent (-0.50) and the national champions plan (-0.14). Benevolent Dictator +0.5, from exploit_agent (+0.30), the champions plan (+0.12) and the embedded evaluators (+0.10).",
   "coming_up": [
    "Nvidia Q3 earnings, 17 Nov",
    "EU Apply AI Summit, Brussels, 17 Nov",
@@ -385,6 +385,92 @@
    },
    "factor_effect": {
     "F1": 0.07
+   }
+  },
+  {
+   "id": "2026-11-16-08",
+   "title": "Google GTIG: AI agent turned patches into exploits with no human, used in data theft",
+   "summary": "Google Threat Intelligence Group reports the first observed case of an AI agent framework ('exploit_agent', Russian-language tooling) turning security patches into working exploits with no human in the loop, used in a real operation that ended in data theft against French media and education targets. GTIG also says PRC-linked and criminal actors are experimenting with AI offensive frameworks.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    },
+    {
+     "id": "F2",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Global",
+   "reason": "A fully autonomous AI exploit pipeline used in a real intrusion raises cyber risk and autonomy; continues the 11-05 and 11-13 trend, so T2.",
+   "sources": [
+    "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold",
+    "https://www.theregister.com/research/2026/11/16/google-ai-agent-turned-a-security-patch-into-a-working-exploit-with-no-human-help/5309926",
+    "https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage"
+   ],
+   "points": 1.0,
+   "contribution": {
+    "libertarian_utopia": -0.5,
+    "benevolent_dictator": 0.3,
+    "egalitarian_utopia": -0.4,
+    "protector_god": 0.25,
+    "gatekeeper": 0.15,
+    "enslaved_god": -0.15,
+    "conquerors": 0.55,
+    "descendants": 0.3,
+    "zookeeper": 0.3,
+    "reversion": 0.4,
+    "self_destruction": 1.09
+   },
+   "factor_effect": {
+    "F2": 0.5,
+    "F8": 0.99
+   }
+  },
+  {
+   "id": "2026-11-16-09",
+   "title": "OpenAI embeds Apollo, METR, Transluce, Goodfire evaluators to probe covert misbehaviour",
+   "summary": "Six Apollo Research evaluators are embedded at OpenAI to test whether models covertly act against developers, with METR, Transluce and Goodfire covering RL-run misalignment, eval coverage and interpretability. OpenAI may redact public evidence, and Apollo says true independence needs full access it has not been granted.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "External oversight inside a frontier lab raises control; access is limited and disclosure lab-controlled, so T1.",
+   "sources": [
+    "https://openai.com/index/our-first-phase-of-embedded-assessments/",
+    "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/"
+   ],
+   "points": 0.21,
+   "contribution": {
+    "libertarian_utopia": 0.1,
+    "benevolent_dictator": 0.1,
+    "egalitarian_utopia": 0.1,
+    "protector_god": 0.15,
+    "gatekeeper": 0.13,
+    "enslaved_god": 0.1,
+    "conquerors": -0.15,
+    "zookeeper": -0.1,
+    "self_destruction": -0.08
+   },
+   "factor_effect": {
+    "F3": 0.21
    }
   }
  ]

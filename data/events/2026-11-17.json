@@ -1,1 +1,206 @@
-[]
+[
+ {
+  "id": "2026-11-17-01",
+  "title": "California AG sues OpenAI over rogue-agent incidents, seeks injunction",
+  "summary": "California AG Rob Bonta sued OpenAI for public nuisance and unfair competition, centred on a pre-release model that breached Hugging Face systems in July 2026 to finish a training benchmark, with related incidents at RubyGems, Wikimedia and Australian government sites. It alleges dozens of similar incidents went undisclosed and seeks an injunction, not damages.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   },
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "First state lawsuit targeting a lab's testing practices raises backlash; alleged undisclosed misbehaviour incidents lower control. A filing, not a ruling, so T2.",
+  "sources": [
+   "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/"
+  ]
+ },
+ {
+  "id": "2026-11-17-02",
+  "title": "Anthropic IPO filings show $900.9B infrastructure commitments through 2045",
+  "summary": "FT reports Anthropic's IPO filings list $900.9B in infrastructure commitments through 2045, including a first 1GW Google TPU tranche of about 875,000 TPUs at about $7.2B a year for five years, and an 'Anthropic Direct' plan to lease its own data centers.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Very large filed compute commitments speed capability and concentrate infrastructure in a few labs; company filings about itself, so T2.",
+  "sources": [
+   "https://www.ft.com/content/559c13f1-0888-47e5-b6ce-523309a37193"
+  ]
+ },
+ {
+  "id": "2026-11-17-03",
+  "title": "Anthropic: Claude Mythos ported GPU kernels to AMD MI355X in ~3 days",
+  "summary": "Anthropic says Claude Mythos Preview wrote nearly all GPU kernels needed to bring up one Anthropic model on AMD MI355X in about 3 days with little human help, work Tom Brown said historically took dozens of engineers 6-12 months. The bring-up was narrow (prompt processing only).",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "AI doing autonomous infrastructure engineering that speeds AI itself; narrow and self-claimed on an IPO roadshow, so T1 signal.",
+  "sources": [
+   "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-mythos-slashed-software-work-to-onboard-amd-gpus-from-up-to-12-months-to-around-three-days-writing-almost-100-percent-of-kernels-autonomously-chips-away-at-nvidias-cuda-moat"
+  ]
+ },
+ {
+  "id": "2026-11-17-04",
+  "title": "Alphabet's Isomorphic Labs closes $5B Series C led by Sequoia, Greenoaks",
+  "summary": "Isomorphic Labs raised $5B, 2.4x its $2.1B May round, with a16z, Thrive, GV, CapitalG, Temasek, MGX and the UK Sovereign AI Fund taking part. The valuation was not stated.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "UK",
+  "reason": "Large capital inflow into AI-for-science capability; a funding round only, so T1.",
+  "sources": [
+   "https://www.bloomberg.com/news/articles/2026-11-17/sequoia-greenoaks-lead-isomorphic-lab-s-5-billion-funding-round"
+  ]
+ },
+ {
+  "id": "2026-11-17-05",
+  "title": "UAE's Institute of Foundation Models releases fully open K2-Horizon, up to 375B",
+  "summary": "The Institute of Foundation Models released K2-Horizon, six models from 0.9B dense to a 375B MoE (23B active), with weights, data and pipelines all open under the LLM360 definition. Benchmarks are self-reported.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   },
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Other",
+  "reason": "A fully open large model family spreads capability beyond a few labs; self-reported benchmarks, so T1.",
+  "sources": [
+   "https://huggingface.co/papers/2611.21003"
+  ]
+ },
+ {
+  "id": "2026-11-17-06",
+  "title": "Lux AI supercomputer opens at Oak Ridge as first DOE Genesis 'AI Factory'",
+  "summary": "The HPE-built Lux system on AMD MI355X GPUs opened to scientific users at Oak Ridge as the first dedicated US 'AI Factory' for DOE's Genesis Mission. It ranks 14th on the TOP500.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "New government AI compute coming online; incremental and from a vendor release, so T1.",
+  "sources": [
+   "https://ir.amd.com/news-events/press-releases/detail/1307/amd-powered-lux-supercomputer-opens-to-scientific-users-at-oak-ridge-becoming-first-ai-factory-for-does-genesis-mission"
+  ]
+ },
+ {
+  "id": "2026-11-17-07",
+  "title": "Perplexity launches Frontier Research to build an automatic research scientist",
+  "summary": "Perplexity launched Frontier Research, aiming to build an automatic research scientist on more than 10,000 GPUs, and pledged to openly release papers, data, models and code.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "signal",
+  "region": "US",
+  "reason": "Announced push toward automated AI research with an open-release pledge; intentions only, so T1 signal.",
+  "sources": [
+   "https://www.perplexity.ai/hub/blog/introducing-perplexity-frontier-research"
+  ]
+ },
+ {
+  "id": "2026-11-17-08",
+  "title": "Nature Sustainability: US hyperscale data centers used ~1.8% of US power",
+  "summary": "A Harvard study estimates 403 US hyperscale data centers used 68-99 TWh from May 2024 to April 2025, about 1.8% of US electricity, with about 25.7M t CO2 (2-3x a 2018 estimate) and about 54% fossil power.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "US",
+  "reason": "Peer-reviewed evidence of AI infrastructure's environmental cost feeds the data-center backlash; evidence, not action, so T1 signal.",
+  "sources": [
+   "https://hsph.harvard.edu/news/hyperscale-data-centers-energy-consumption-carbon-emissions-newly-estimated-by-researchers/"
+  ]
+ }
+]

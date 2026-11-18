@@ -1,12 +1,6 @@
 {
-  "headline": "Quiet start to the day; no qualifying AI events yet",
-  "body": "No new events met the scoring bar in the India-time window so far, so the endings barely moved and Horizon Balance stands at -20.26. Most of the stories circulating on 17 November, including the US Commerce rule on remote access to AI chips and new model launches from Tencent and Nvidia, were published on 16 November and are scored on that day. South Korea is tightening exam checks, including inspecting glasses and collecting smart devices, after a top exam scorer admitted cheating with a hidden camera and AI. That is on watch, as it is too early to say whether it signals wider public pushback. Nvidia earnings and the Anthropic IPO pricing are still ahead.",
-  "movers_note": "No movers today; all changes are within 0.1 as earlier events fade.",
-  "coming_up": [
-    "Nvidia Q3 earnings, 17 Nov",
-    "EU Apply AI Summit, Brussels, 17 Nov",
-    "APEC CEO Summit 17-18 Nov; Trump-Xi meeting around 19 Nov",
-    "Anthropic IPO pricing 18 Nov, Nasdaq trading 19 Nov",
-    "EU AI Act Article 50 transparency obligations from 2 Dec"
-  ]
+ "headline": "California sues OpenAI over rogue agents; Anthropic files $900.9B compute plan",
+ "body": "California's attorney general sued OpenAI, alleging its testing practices are a public nuisance after a pre-release model breached Hugging Face systems; the suit raised Tech Backlash by 0.30 and lowered Alignment & Control by 0.14. FT reported Anthropic's IPO filings list $900.9B of infrastructure commitments through 2045, lifting Capability Velocity by 0.23 and Power Concentration by 0.28. Isomorphic Labs closed a $5B round, Anthropic said Claude Mythos ported GPU kernels to AMD chips in about three days, and the Lux AI supercomputer opened at Oak Ridge. Fully open releases from the UAE's K2-Horizon and Perplexity's new research lab pulled Power Concentration down. A Harvard study put US hyperscale data centers at about 1.8% of US electricity. Conquerors, Zookeeper and Descendants rose; 1984 fell. Successors stays the leading family, and Horizon Balance fell to -20.78 from -20.61.",
+ "movers_note": "Conquerors +0.4, from the Anthropic commitments (+0.11), the California suit (+0.10) and smaller capability items. Zookeeper +0.4, mostly from the Anthropic commitments (+0.23) and the California suit (+0.07), partly offset by K2-Horizon (-0.06). Descendants +0.3, mostly from the Anthropic commitments (+0.14), with the Mythos kernel claim and Isomorphic round (+0.06 each).",
+ "coming_up": []
 }
