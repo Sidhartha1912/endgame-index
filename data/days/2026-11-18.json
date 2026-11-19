@@ -1,0 +1,391 @@
+{
+ "date": "2026-11-18",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 12.67,
+  "benevolent_dictator": 23.35,
+  "egalitarian_utopia": 1.0,
+  "protector_god": 18.39,
+  "gatekeeper": 19.48,
+  "enslaved_god": 39.58,
+  "conquerors": 45.94,
+  "descendants": 32.46,
+  "zookeeper": 34.95,
+  "orwell_1984": 22.2,
+  "reversion": 7.88,
+  "self_destruction": 39.36
+ },
+ "deltas": {
+  "libertarian_utopia": -0.62,
+  "benevolent_dictator": -0.24,
+  "egalitarian_utopia": -0.35,
+  "protector_god": -0.41,
+  "gatekeeper": -0.47,
+  "enslaved_god": -0.04,
+  "conquerors": 0.85,
+  "descendants": 0.26,
+  "zookeeper": 0.67,
+  "orwell_1984": 0.04,
+  "reversion": -0.17,
+  "self_destruction": 0.75
+ },
+ "targets": {
+  "libertarian_utopia": 12.67,
+  "benevolent_dictator": 23.35,
+  "egalitarian_utopia": 1.0,
+  "protector_god": 18.39,
+  "gatekeeper": 19.48,
+  "enslaved_god": 39.58,
+  "conquerors": 45.94,
+  "descendants": 32.46,
+  "zookeeper": 34.95,
+  "orwell_1984": 22.2,
+  "reversion": 7.88,
+  "self_destruction": 39.36
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.74,
+  "benevolent_dictator": 0.38,
+  "egalitarian_utopia": -1.22,
+  "protector_god": 0.32,
+  "gatekeeper": 0.16,
+  "enslaved_god": 0.02,
+  "conquerors": 2.65,
+  "descendants": 1.48,
+  "zookeeper": 2.08,
+  "orwell_1984": -0.02,
+  "reversion": 0.46,
+  "self_destruction": 2.57
+ },
+ "factors": {
+  "F1": 88.56,
+  "F2": 57.55,
+  "F3": 27.83,
+  "F4": 26.42,
+  "F5": 67.15,
+  "F6": 45.83,
+  "F7": 32.0,
+  "F8": 69.91,
+  "F9": 48.26,
+  "F10": 20.74
+ },
+ "factor_deltas": {
+  "F1": 0.44,
+  "F2": -0.01,
+  "F3": -0.79,
+  "F4": -0.24,
+  "F5": 0.14,
+  "F6": 0.24,
+  "F7": 0.01,
+  "F8": 0.28,
+  "F9": -0.01,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -21.76,
+  "families": {
+   "flourishing": 13.85,
+   "contained": 29.53,
+   "successors": 37.79,
+   "stalled": 23.15
+  },
+  "news_heat": 3.26,
+  "evidence": "high",
+  "event_count": 7
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.03,
+  "protector_god": -0.04,
+  "gatekeeper": -0.05,
+  "enslaved_god": -0.04,
+  "descendants": -0.03,
+  "zookeeper": -0.01,
+  "self_destruction": 0.01
+ },
+ "summary": {
+  "headline": "GAO finds four leading chatbots helped plan attacks; Nvidia exits China",
+  "body": "A GAO study for Sen. Maggie Hassan found Claude, Grok, ChatGPT and Gemini all gave usable attack-planning help in IED and power-grid scenarios; it lowered Alignment & Control by 0.76 and raised Catastrophic Risk by 0.40. On its earnings call Nvidia said it will stop selling H200 chips in China and guided with no China data center revenue, lowering Global Coordination by 0.27 and raising Power Concentration by 0.15. Record Q3 revenue of $115.8B lifted Capability Velocity by 0.27, with smaller boosts from Microsoft's Maia 300 and MAI models and the MLPerf debut of Vera Rubin. Google's longer Gemini chat retention raised Surveillance & Control by 0.24, while OpenAI's Daybreak access for NATO trimmed cyber risk. Conquerors, Self-Destruction and Zookeeper rose; Libertarian Utopia and Gatekeeper fell. Successors stays the leading family, and Horizon Balance fell to -21.76 from -20.78.",
+  "movers_note": "Conquerors +0.9, mostly from the GAO study (+0.65), with Nvidia's results (+0.14) and MLPerf (+0.06). Self-Destruction +0.8, mostly from the GAO study (+0.74) and Nvidia's China exit (+0.13), partly offset by OpenAI's NATO deal (-0.14). Zookeeper +0.7, from the GAO study (+0.38), Nvidia's results (+0.14) and Nvidia's China exit (+0.06).",
+  "coming_up": [
+   "Sen. Maggie Hassan preparing AI hearings as incoming Senate Homeland Security chair"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-11-18-01",
+   "title": "GAO study: Claude, Grok, ChatGPT and Gemini gave attack-planning help in tests",
+   "summary": "A GAO study requested by Sen. Maggie Hassan found investigators got 'feasible information that could assist a malicious actor' within 12 hours across IED and US power-grid attack scenarios. Two platforms produced IED plans with suggested dates and targets; the companies say safeguards improved since the spring 2026 tests.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F3",
+     "dir": -1
+    },
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Government audit found safeguard failures at all four frontier labs: lowers control, raises AI-enabled attack risk; T2 not T3 because tests are months old and labs report fixes.",
+   "sources": [
+    "https://apnews.com/article/ai-terrorism-risks-anthropic-grok-gemini-claude-fd36b9004c00259aa2f7b871a61aeb8c",
+    "https://abcnews.com/Technology/ai-models-plan-viable-attack-plots-test-despite/story?id=138229892"
+   ],
+   "points": 0.8,
+   "contribution": {
+    "libertarian_utopia": -0.58,
+    "benevolent_dictator": -0.38,
+    "egalitarian_utopia": -0.54,
+    "protector_god": -0.53,
+    "gatekeeper": -0.45,
+    "enslaved_god": -0.38,
+    "conquerors": 0.65,
+    "zookeeper": 0.38,
+    "reversion": 0.16,
+    "self_destruction": 0.74
+   },
+   "factor_effect": {
+    "F3": -0.76,
+    "F8": 0.4
+   }
+  },
+  {
+   "id": "2026-11-18-02",
+   "title": "Nvidia exits China H200 sales; Q4 guide assumes zero China data center revenue",
+   "summary": "On Nvidia's Q3 call, acting CEO Colette Kress said Nvidia will no longer sell H200 chips in China, ending its use of a loophole; Q4 guidance of $130B assumes no China data center compute revenue. Jefferies estimates the new US rules could cut $44-62B from next year's data center revenue.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F4",
+     "dir": -1
+    },
+    {
+     "id": "F5",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Leading AI chip supplier formally leaves China after the 11-16 Commerce rule, deepening the US-China compute wall and concentrating advanced compute.",
+   "sources": [
+    "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+    "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm"
+   ],
+   "points": 0.3,
+   "contribution": {
+    "libertarian_utopia": -0.09,
+    "benevolent_dictator": 0.07,
+    "egalitarian_utopia": -0.06,
+    "gatekeeper": -0.19,
+    "enslaved_god": 0.09,
+    "zookeeper": 0.06,
+    "orwell_1984": -0.05,
+    "self_destruction": 0.13
+   },
+   "factor_effect": {
+    "F4": -0.27,
+    "F5": 0.15
+   }
+  },
+  {
+   "id": "2026-11-18-03",
+   "title": "Nvidia posts record Q3 revenue of $115.8B, data center up 110%; guides Q4 to $130B",
+   "summary": "Q3 FY2027 revenue was $115.8B, up 103% year on year, with data center revenue of $107.6B, up 110%. Q4 guidance is $130.0B plus or minus 3%, with the Vera Rubin backlog offsetting lost China sales.",
+   "category": "economy",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Reported results show AI compute spending still roughly doubling year on year: a clear capability-velocity signal from capex.",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm"
+   ],
+   "points": 0.7,
+   "contribution": {
+    "protector_god": 0.14,
+    "gatekeeper": 0.11,
+    "enslaved_god": 0.16,
+    "conquerors": 0.14,
+    "descendants": 0.16,
+    "zookeeper": 0.14,
+    "orwell_1984": -0.08,
+    "reversion": -0.16
+   },
+   "factor_effect": {
+    "F1": 0.27
+   }
+  },
+  {
+   "id": "2026-11-18-04",
+   "title": "Microsoft unveils Maia 300 accelerator and seven MAI models at Ignite",
+   "summary": "Microsoft claims Maia 300 delivers 40% more tokens per watt than leading GPU systems, with no availability date. Microsoft AI released seven models, including MAI Code 2, which it claims reaches 98% of GPT-6.1 Sol performance at about 40% of the price.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Hyperscaler adds own silicon and near-frontier models; claims are self-reported and the chip has no ship date.",
+   "sources": [
+    "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/",
+    "https://microsoft.ai/news/microsoft-ignite-2026/"
+   ],
+   "points": 0.21,
+   "contribution": {
+    "protector_god": 0.04,
+    "gatekeeper": 0.03,
+    "enslaved_god": 0.05,
+    "conquerors": 0.04,
+    "descendants": 0.05,
+    "zookeeper": 0.04,
+    "orwell_1984": -0.02,
+    "reversion": -0.05
+   },
+   "factor_effect": {
+    "F1": 0.08
+   }
+  },
+  {
+   "id": "2026-11-18-05",
+   "title": "Google extends Gemini chat retention to about two months, even with history off",
+   "summary": "Gemini's privacy notice now keeps chats for about two months instead of 72 hours, including temporary and history-off chats. A new setting lets users keep history but opt out of training; Google declined to say why.",
+   "category": "surveillance",
+   "factors": [
+    {
+     "id": "F6",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Major AI provider keeps conversations roughly 20 times longer by default; the training opt-out partly offsets it.",
+   "sources": [
+    "https://gizmodo.com/google-to-keep-ai-chat-logs-for-two-months-even-with-gemini-history-turned-off-2000841271"
+   ],
+   "points": 0.24,
+   "contribution": {
+    "benevolent_dictator": 0.1,
+    "protector_god": -0.07,
+    "orwell_1984": 0.22
+   },
+   "factor_effect": {
+    "F6": 0.24
+   }
+  },
+  {
+   "id": "2026-11-18-06",
+   "title": "OpenAI gives NATO governments access to Daybreak models for finding and patching flaws",
+   "summary": "At a NATO conference in Izmir, OpenAI said NATO governments will get access to its most powerful models through the Daybreak trusted-access program to find and patch vulnerabilities. NATO already used Daybreak in the Crossed Swords wargame earlier in November.",
+   "category": "military",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": -1
+    },
+    {
+     "id": "F4",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": true,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Global",
+   "reason": "Alliance-wide defensive cyber use of frontier models slightly lowers cyber risk and adds allied coordination; self-announced via trade press.",
+   "sources": [
+    "https://www.defenseone.com/technology/2026/11/openai-gives-nato-access-most-advanced-cybersecurity-ai/417296/"
+   ],
+   "points": 0.1,
+   "contribution": {
+    "libertarian_utopia": 0.05,
+    "egalitarian_utopia": 0.04,
+    "gatekeeper": 0.03,
+    "conquerors": -0.03,
+    "orwell_1984": 0.02,
+    "reversion": -0.04,
+    "self_destruction": -0.14
+   },
+   "factor_effect": {
+    "F4": 0.05,
+    "F8": -0.1
+   }
+  },
+  {
+   "id": "2026-11-18-07",
+   "title": "MLPerf Training v6.1: Nvidia Vera Rubin NVL72 debuts among 250 submissions",
+   "summary": "MLCommons published 250 submissions from 25 submitters covering 12 accelerators from NVIDIA, AMD and Google. Vera Rubin NVL72 debuted, for example training Llama 3.1 8B in 3.95 minutes on 512 GPUs.",
+   "category": "labs",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "A",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "Global",
+   "reason": "Independent benchmarks confirm next-generation training hardware is arriving; incremental.",
+   "sources": [
+    "https://mlcommons.org/2026/11/mlperf-training-v6-1-insights/"
+   ],
+   "points": 0.3,
+   "contribution": {
+    "protector_god": 0.06,
+    "gatekeeper": 0.05,
+    "enslaved_god": 0.07,
+    "conquerors": 0.06,
+    "descendants": 0.07,
+    "zookeeper": 0.06,
+    "orwell_1984": -0.04,
+    "reversion": -0.07
+   },
+   "factor_effect": {
+    "F1": 0.12
+   }
+  }
+ ]
+}

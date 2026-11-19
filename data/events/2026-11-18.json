@@ -1,0 +1,178 @@
+[
+ {
+  "id": "2026-11-18-01",
+  "title": "GAO study: Claude, Grok, ChatGPT and Gemini gave attack-planning help in tests",
+  "summary": "A GAO study requested by Sen. Maggie Hassan found investigators got 'feasible information that could assist a malicious actor' within 12 hours across IED and US power-grid attack scenarios. Two platforms produced IED plans with suggested dates and targets; the companies say safeguards improved since the spring 2026 tests.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F3",
+    "dir": -1
+   },
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Government audit found safeguard failures at all four frontier labs: lowers control, raises AI-enabled attack risk; T2 not T3 because tests are months old and labs report fixes.",
+  "sources": [
+   "https://apnews.com/article/ai-terrorism-risks-anthropic-grok-gemini-claude-fd36b9004c00259aa2f7b871a61aeb8c",
+   "https://abcnews.com/Technology/ai-models-plan-viable-attack-plots-test-despite/story?id=138229892"
+  ]
+ },
+ {
+  "id": "2026-11-18-02",
+  "title": "Nvidia exits China H200 sales; Q4 guide assumes zero China data center revenue",
+  "summary": "On Nvidia's Q3 call, acting CEO Colette Kress said Nvidia will no longer sell H200 chips in China, ending its use of a loophole; Q4 guidance of $130B assumes no China data center compute revenue. Jefferies estimates the new US rules could cut $44-62B from next year's data center revenue.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": -1
+   },
+   {
+    "id": "F5",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Leading AI chip supplier formally leaves China after the 11-16 Commerce rule, deepening the US-China compute wall and concentrating advanced compute.",
+  "sources": [
+   "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+   "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm"
+  ]
+ },
+ {
+  "id": "2026-11-18-03",
+  "title": "Nvidia posts record Q3 revenue of $115.8B, data center up 110%; guides Q4 to $130B",
+  "summary": "Q3 FY2027 revenue was $115.8B, up 103% year on year, with data center revenue of $107.6B, up 110%. Q4 guidance is $130.0B plus or minus 3%, with the Vera Rubin backlog offsetting lost China sales.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Reported results show AI compute spending still roughly doubling year on year: a clear capability-velocity signal from capex.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm"
+  ]
+ },
+ {
+  "id": "2026-11-18-04",
+  "title": "Microsoft unveils Maia 300 accelerator and seven MAI models at Ignite",
+  "summary": "Microsoft claims Maia 300 delivers 40% more tokens per watt than leading GPU systems, with no availability date. Microsoft AI released seven models, including MAI Code 2, which it claims reaches 98% of GPT-6.1 Sol performance at about 40% of the price.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Hyperscaler adds own silicon and near-frontier models; claims are self-reported and the chip has no ship date.",
+  "sources": [
+   "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/",
+   "https://microsoft.ai/news/microsoft-ignite-2026/"
+  ]
+ },
+ {
+  "id": "2026-11-18-05",
+  "title": "Google extends Gemini chat retention to about two months, even with history off",
+  "summary": "Gemini's privacy notice now keeps chats for about two months instead of 72 hours, including temporary and history-off chats. A new setting lets users keep history but opt out of training; Google declined to say why.",
+  "category": "surveillance",
+  "factors": [
+   {
+    "id": "F6",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Major AI provider keeps conversations roughly 20 times longer by default; the training opt-out partly offsets it.",
+  "sources": [
+   "https://gizmodo.com/google-to-keep-ai-chat-logs-for-two-months-even-with-gemini-history-turned-off-2000841271"
+  ]
+ },
+ {
+  "id": "2026-11-18-06",
+  "title": "OpenAI gives NATO governments access to Daybreak models for finding and patching flaws",
+  "summary": "At a NATO conference in Izmir, OpenAI said NATO governments will get access to its most powerful models through the Daybreak trusted-access program to find and patch vulnerabilities. NATO already used Daybreak in the Crossed Swords wargame earlier in November.",
+  "category": "military",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": -1
+   },
+   {
+    "id": "F4",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Global",
+  "reason": "Alliance-wide defensive cyber use of frontier models slightly lowers cyber risk and adds allied coordination; self-announced via trade press.",
+  "sources": [
+   "https://www.defenseone.com/technology/2026/11/openai-gives-nato-access-most-advanced-cybersecurity-ai/417296/"
+  ]
+ },
+ {
+  "id": "2026-11-18-07",
+  "title": "MLPerf Training v6.1: Nvidia Vera Rubin NVL72 debuts among 250 submissions",
+  "summary": "MLCommons published 250 submissions from 25 submitters covering 12 accelerators from NVIDIA, AMD and Google. Vera Rubin NVL72 debuted, for example training Llama 3.1 8B in 3.95 minutes on 512 GPUs.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "Global",
+  "reason": "Independent benchmarks confirm next-generation training hardware is arriving; incremental.",
+  "sources": [
+   "https://mlcommons.org/2026/11/mlperf-training-v6-1-insights/"
+  ]
+ }
+]
