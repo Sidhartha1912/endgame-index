@@ -12,6 +12,36 @@
   let ph = null;
   const queue = [];
 
+  /* Where this visit came from, worked out once per page load (before the app rewrites
+     old #/ links). Sent with every event as super properties, so AI-assistant, search and
+     social visits can be compared directly. */
+  const fresh = (() => {
+    const q = new URLSearchParams(location.search);
+    const utm = (q.get("utm_source") || "").toLowerCase();
+    let ref = "";
+    try { ref = document.referrer ? new URL(document.referrer).hostname.replace(/^www\./, "") : ""; } catch (e) { /* ignore */ }
+    if (ref === location.hostname) ref = "";
+    const src = utm || ref;
+    const AI = /chatgpt|openai|perplexity|claude\.ai|gemini\.google|bard\.google|copilot\.microsoft|copilot\.cloud|you\.com|phind|deepseek|grok\.com|meta\.ai|poe\.com|mistral\.ai|kagi\.com\/assistant/;
+    const SEARCH = /(^|\.)google\.|bing\.com|duckduckgo|yahoo\.|yandex|ecosia|search\.brave|baidu|naver|startpage|kagi\.com/;
+    const SOCIAL = /linkedin|lnkd\.in|(^|\.)t\.co$|twitter|(^|\.)x\.com$|facebook|reddit|ycombinator|medium\.com|threads|bsky|whatsapp|telegram|instagram|youtube|substack/;
+    return {
+      entry_source_type: !src ? "direct" : AI.test(src) ? "ai_assistant" : SEARCH.test(src) ? "search" : SOCIAL.test(src) ? "social" : "other",
+      entry_source: src || "direct",
+      entry_campaign: q.get("utm_campaign") || undefined,
+      landing_path: location.pathname,
+      landing_legacy_hash: location.hash.startsWith("#/") || undefined,
+    };
+  })();
+  // a page load that came from another page of this site continues the same visit
+  let entry = fresh, newEntry = true;
+  try {
+    const internal = document.referrer && new URL(document.referrer).hostname === location.hostname;
+    const prev = JSON.parse(sessionStorage.getItem("eg_entry") || "null");
+    if (internal && prev && fresh.entry_source_type === "direct") { entry = prev; newEntry = false; }
+    else sessionStorage.setItem("eg_entry", JSON.stringify(fresh));
+  } catch (e) { /* storage blocked: treat every load as an entry */ }
+
   function startPostHog() {
     // official PostHog loader (stub queues calls until the library arrives)
     !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset identify alias set_config".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
@@ -26,6 +56,9 @@
     });
     ph = window.posthog;
     ph.register({ app: "endgame-index", screen: matchMedia("(max-width: 760px)").matches ? "phone" : "desktop" });
+    // per-visit context on every event; first-ever source kept on the person
+    if (ph.register_for_session) ph.register_for_session(entry); else ph.register(entry);
+    ph.register_once({ first_source_type: entry.entry_source_type, first_source: entry.entry_source, first_landing_path: entry.landing_path });
     queue.splice(0).forEach(([n, p]) => safe(() => ph.capture(n, p)));
   }
   function startCloudflare() {
@@ -46,6 +79,7 @@
 
   const safe = (fn) => { try { fn(); } catch (e) { /* analytics must never break the page */ } };
   const send = (name, props) => { if (!usePH) return; if (ph) safe(() => ph.capture(name, props)); else if (queue.length < 50) queue.push([name, props]); };
+  if (newEntry) send("site_entry", Object.assign({}, entry));
   window.EGTrack = {
     event(name, props) { send(name, props || {}); },
     page(tab, props) { send("$pageview", Object.assign({ $current_url: location.href, tab }, props || {})); },

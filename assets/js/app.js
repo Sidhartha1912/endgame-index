@@ -39,9 +39,9 @@
   // old #/ links (shared before the move to real paths) keep working
   function legacyHash() {
     if (!location.hash.startsWith("#/")) return;
-    const [a, b] = location.hash.slice(2).split("/");
+    const [a, b] = location.hash.slice(2).split(/[?&]/)[0].split("/");
     const url = a === "summary" ? (b ? dayURL(b) : "/day/") : a === "ending" && b ? endURL(b) : ["endings", "history", "scoring"].includes(a) ? `/${a}/` : "/";
-    history.replaceState(null, "", url);
+    history.replaceState(null, "", url + location.search);
   }
 
   /* ---------------- data ---------------- */
@@ -70,6 +70,17 @@
       const a = e.target.closest('a[href^="/endings/"]');
       const k = a && KEY(a.getAttribute("href").split("/")[2]);
       if (a && k && S.H.scenarios[k] && ["summary", "dashboard", "endings"].includes(route.prev)) { e.preventDefault(); openEnding(k); }
+    });
+    // downloads, footer and outbound links (event sources and bylines have their own events)
+    document.addEventListener("click", (e) => {
+      const a = e.target.closest("a[href]");
+      if (!a) return;
+      const u = new URL(a.href, location.href), same = u.origin === location.origin;
+      const place = a.closest(".site-foot") ? "footer" : a.closest(".static-page") ? "page_text" : a.closest(".topbar, .updated-chip") ? "nav" : a.closest("dialog") ? "ending_dialog" : "app";
+      const page = route.prev === "static" ? location.pathname.split("/")[1] || "home" : route.prev || "entry";
+      if (same && /^\/data\/(endgame-index-daily\.csv|history\.json)$/.test(u.pathname)) T("data_download", { format: u.pathname.endsWith(".csv") ? "csv" : "json", place, page });
+      else if (place === "footer") T("footer_click", { target: same ? (u.pathname.split("/")[1] || "home") : /creativecommons/.test(u.hostname) ? "licence" : "author" });
+      else if (!same && !a.closest(".evlist .src, .sources, .src, .byline, .hero-byline")) T("outbound_click", { host: u.hostname.replace(/^www\./, ""), place, page });
     });
     // in-app navigation between real paths, without a full page load
     document.addEventListener("click", (e) => {
@@ -130,7 +141,9 @@
       // pages that exist only as pre-rendered HTML (about, 404): leave them as they are
       route.prev = tab; route.path = location.pathname;
       document.body.classList.remove("is-home"); document.documentElement.classList.remove("home");
-      if (window.EGTrack) window.EGTrack.page(location.pathname.split("/")[1] || "static");
+      const name = /^Page not found/.test(document.title) ? "not_found" : location.pathname.split("/")[1] || "static";
+      T("page_viewed", { page: name, path: location.pathname, from: "entry" });
+      if (window.EGTrack) window.EGTrack.page(name);
       return;
     }
     route.path = location.pathname;
@@ -509,7 +522,7 @@
 
   /* ---------------- ending dialog ---------------- */
   async function openEnding(key) {
-    T("ending_open", { ending: key, from: route.prev });
+    T("ending_open", { ending: key, from: route.prev === "ending" ? "direct_link" : route.prev });
     const dlg = $("#ending-dialog"), body = $("#dlg-body");
     const s = S.series.find((x) => x.key === key), c = S.C.endings[key], sc = S.R.scenarios[key];
     const n = N();
@@ -851,6 +864,12 @@
         </aside>
       </div>
     </div>`;
+    const evl = $(".evlist", view);
+    if (evl && "IntersectionObserver" in window) {
+      const io = new IntersectionObserver((en) => { if (en.some((x) => x.isIntersecting)) { io.disconnect(); T("summary_events_seen", { date, events: d.events.length, is_latest: date === H.end }); } }, { threshold: 0.15 });
+      io.observe(evl);
+      S.charts.push({ destroy() { io.disconnect(); } });
+    }
   }
 
   function eventHTML(e) {

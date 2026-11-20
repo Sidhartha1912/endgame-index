@@ -8,6 +8,7 @@ A nightly, evidence-weighted reading of AI news against Max Tegmark's 12 possibl
 
 | Path | Purpose |
 |---|---|
+| `TRACKING.md` | The analytics tracking plan: every PostHog event and property |
 | `assets/`, `templates/` | The website app (Dashboard, Summary of the Day, 12 Endings, History, Scoring Mechanism) and the page frame used for every pre-rendered page |
 | `index.html`, `day/`, `endings/`, `history/`, `scoring/index.html`, `about/`, `og/`, `sitemap.xml`, `robots.txt`, `llms.txt` | Pre-rendered pages, share images and crawl files. **Generated** by `scripts/build_pages.py` every night; do not edit by hand |
 | `data/events/` | Rated news events, one file per day (**the nightly input**) |
