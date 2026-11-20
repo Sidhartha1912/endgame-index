@@ -377,9 +377,11 @@ class Site:
         R = self.R
         vis, bc = self.crumbs([("Home", "/"), ("Scoring mechanism", None)])
         factors = "".join(f'<dt>{e(f["name"])}</dt><dd>{e(self.C["factor_questions"].get(k, "")).capitalize()} 0 = {e(f["low"])}; 100 = {e(f["high"])}.</dd>' for k, f in self.F.items())
-        recipes = "".join(
-            f'<tr><td>{self.ending_link(k)}</td><td>{", ".join(f"{e(self.F[f]["name"])} {"+" if w > 0 else "−"}{abs(w):.2f}" for f, w in sorted(s["weights"].items(), key=lambda x: -abs(x[1])))}</td></tr>'
-            for k, s in sorted(self.SC.items(), key=lambda x: self.C["endings"][x[0]]["num"]))
+        def recipe_txt(weights):
+            return ", ".join("{} {}{:.2f}".format(e(self.F[f]["name"]), "+" if w > 0 else "−", abs(w))
+                             for f, w in sorted(weights.items(), key=lambda x: -abs(x[1])))
+        recipes = "".join(f'<tr><td>{self.ending_link(k)}</td><td>{recipe_txt(s["weights"])}</td></tr>'
+                          for k, s in sorted(self.SC.items(), key=lambda x: self.C["endings"][x[0]]["num"]))
         ER, D = R["event_rating"], R["dynamics"]
         faq = "".join(f'<h3 style="margin-top:22px">{e(q["q"])}</h3><div class="prose" style="margin-top:6px"><p>{e(q["a"])}</p></div>' for q in self.C["faq"])
         view = f'''
