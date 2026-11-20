@@ -1105,3 +1105,39 @@ html.home .boot-other { display: none; }
 .loading { min-height: 100vh; box-sizing: border-box; }
 /* Full-screen landscape chart: hide the page behind it so rotating the phone does not move anything. */
 html.lsc-open body > :not(.lsc) { visibility: hidden; }
+
+/* ==========================================================================
+   Pre-rendered pages (what search engines and AI crawlers read; the app
+   replaces them with the interactive view once scripts load)
+   ========================================================================== */
+.ph-top .ph-h1 { margin: 0; font-family: var(--display); font-weight: 400; color: var(--ink); font-size: 34px; line-height: 1.04; letter-spacing: -0.02em; text-wrap: balance; }
+@media (max-width: 359px) { .ph-top .ph-h1 { font-size: 30px; } }
+
+.static-page { padding-top: 40px; padding-bottom: 24px; }
+.static-page .crumbs { font-size: 14px; color: var(--ink-3); display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 18px; }
+.static-page .crumbs a { color: var(--ink-3); }
+.static-page h1 { font-size: clamp(34px, 4.4vw, 52px); max-width: 22ch; }
+.static-page .kicker { font-size: 14px; color: var(--ink-3); margin: 0 0 12px; }
+.static-page h2 { font-size: clamp(26px, 3vw, 34px); margin: 44px 0 14px; }
+.static-page h3 { font-family: var(--font); font-size: 17px; font-weight: 500; letter-spacing: -0.01em; margin: 0 0 4px; }
+.static-page .prose { max-width: var(--measure); margin-top: 18px; }
+.static-page .prose p { margin: 0; }
+.static-page table { max-width: 820px; margin-top: 8px; }
+.static-page .evs { list-style: none; padding: 0; margin: 0; max-width: 820px; display: grid; gap: 22px; }
+.static-page .evs p { margin: 4px 0 0; }
+.static-page .meta { font-size: 13.5px; color: var(--ink-3); }
+.static-page .meta a { margin-right: 10px; }
+.static-page .pager { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 36px; font-size: 15px; }
+.static-page dl { display: grid; grid-template-columns: max-content 1fr; gap: 8px 20px; max-width: 820px; }
+.static-page dt { color: var(--ink-3); }
+.static-page dd { margin: 0; }
+.static-page ul.plain { padding-left: 18px; max-width: var(--measure); }
+.static-page ul.plain li + li { margin-top: 6px; }
+.home-static { padding-top: 24px; }
+
+.site-foot { border-top: 1px solid var(--line); font-size: 13.5px; color: var(--ink-3); }
+.site-foot-inner { display: flex; flex-wrap: wrap; gap: 10px 24px; justify-content: space-between; padding-block: 18px 22px; }
+.site-foot nav { display: flex; flex-wrap: wrap; gap: 6px 18px; }
+.site-foot a { color: var(--ink-3); }
+@media (max-width: 760px) { body.is-home .site-foot { display: none; } }
+.static-page .prose p + p { margin-top: 14px; }

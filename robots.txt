@@ -1,0 +1,5 @@
+# Endgame Index: everything is public. Search engines and AI crawlers are welcome.
+User-agent: *
+Allow: /
+
+Sitemap: https://endgameindex.com/sitemap.xml

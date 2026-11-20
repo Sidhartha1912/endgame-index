@@ -8,6 +8,10 @@
 | `days/YYYY-MM-DD.json` | Full computed record for each day: scores, changes, World Factors, Horizon Balance, families, badges, and every event with its contribution to each ending. **Generated — do not edit by hand.** |
 | `history.json` | Compact time series for the dashboard chart. **Generated.** |
 
+| `endgame-index-daily.csv` | Open data: one row per day with the Horizon Balance, all 12 ending scores, the 10 World Factors, family averages, event count and headline. **Generated** by `scripts/build_pages.py`. |
+
+**Licence:** the data is free to reuse under [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/). Please credit "Endgame Index by Sidhartha Rajput" with a link to https://endgameindex.com.
+
 Regenerate everything with:
 
 ```

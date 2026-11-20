@@ -68,14 +68,18 @@ Read `data/days/DATE.json` and write `data/summaries/DATE.json`:
 - Use only facts that appear in the day file, and keep every number matching it.
 - Keep the tone calm and clear, with no hype and no emojis.
 
-## 6. Recompute, validate, publish
+## 6. Recompute, build pages, validate, publish
 ```
 python3 scripts/compute.py
+python3 scripts/build_pages.py
 python3 scripts/validate.py
-git add data && git commit -m "Nightly update DATE" && git push
+git add -A data day endings history scoring about og index.html 404.html sitemap.xml robots.txt llms.txt && git commit -m "Nightly update DATE" && git push
+python3 scripts/indexnow.py
 ```
 
+- `build_pages.py` writes the pre-rendered pages (home, `/day/DATE/`, endings, history, scoring, about), the share image `og/DATE.png`, `sitemap.xml`, `llms.txt` and the CSV download. Search engines and AI crawlers read these; never edit the generated HTML by hand. To change the page frame, edit `templates/shell.html` (and `templates/home-boot.html` for the home skeleton), then rebuild.
 - If `validate.py` fails, fix the data and run it again. Never push data that fails validation.
+- `indexnow.py` tells Bing/Copilot which pages changed; if it cannot connect it just prints a note.
 - GitHub Pages republishes within a few minutes.
 
 ## Monthly recap (on the 14th of each month)

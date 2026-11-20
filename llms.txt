@@ -1,0 +1,31 @@
+# Endgame Index
+
+> A daily, evidence-weighted reading of AI news against the 12 long-term futures for humanity and AI described by MIT physicist Max Tegmark in his 2017 book Life 3.0. Each scenario gets a plausibility score from 1 to 99 (not a probability), recomputed every night at 11:59 PM India time from rated, sourced news events. Built and run by Sidhartha Rajput; independent and not affiliated with MIT, Max Tegmark or the Future of Life Institute.
+
+Latest reading: 20 November 2026. Highest endings: Enslaved God (34.6), Conquerors (32.5), Self-Destruction (31.5). Horizon Balance: -12.18 (from -100, dark endings ahead, to +100, bright endings ahead).
+
+## Key pages
+- [Today's reading](https://endgameindex.com/): all 12 scores and today's summary
+- [Latest summary of the day](https://endgameindex.com/day/2026-11-20/): what happened in AI news and what moved
+- [Every day since 14 April 2026](https://endgameindex.com/history/): daily pages and monthly recaps
+- [How it is scored](https://endgameindex.com/scoring/): factors, rubric, recipes and rules (v1.3.0)
+- [About](https://endgameindex.com/about/): method, author, limits
+
+## The 12 endings
+- [Libertarian Utopia](https://endgameindex.com/endings/libertarian-utopia/): Humans, cyborgs and AIs live side by side in peace, protected by property rights.
+- [Benevolent Dictator](https://endgameindex.com/endings/benevolent-dictator/): One kind superintelligence runs the world with strict rules, and most people are happy with it.
+- [Egalitarian Utopia](https://endgameindex.com/endings/egalitarian-utopia/): Humans and machines share everything: no private property and a guaranteed income for all.
+- [Protector God](https://endgameindex.com/endings/protector-god/): A hidden, all-powerful AI quietly steers humanity towards happiness.
+- [Gatekeeper](https://endgameindex.com/endings/gatekeeper/): A superintelligence built for one job: stopping anyone from building another one.
+- [Enslaved God](https://endgameindex.com/endings/enslaved-god/): Humans keep a superintelligence locked up and use its power for their own ends.
+- [Conquerors](https://endgameindex.com/endings/conquerors/): AI takes control and decides it no longer needs humans.
+- [Descendants](https://endgameindex.com/endings/descendants/): AI gently replaces us, and we come to see it as our heirs.
+- [Zookeeper](https://endgameindex.com/endings/zookeeper/): An all-powerful AI keeps a few humans around, like animals in a zoo.
+- [1984](https://endgameindex.com/endings/orwell-1984/): A global surveillance state bans the research, so superintelligence is never built.
+- [Reversion](https://endgameindex.com/endings/reversion/): Humanity turns its back on advanced technology and returns to a simpler life.
+- [Self-Destruction](https://endgameindex.com/endings/self-destruction/): We destroy ourselves through war, pandemics or another disaster before superintelligence arrives.
+
+## Data
+- [Daily scores, CSV](https://endgameindex.com/data/endgame-index-daily.csv): CC BY 4.0, credit "Endgame Index by Sidhartha Rajput"
+- [Daily scores, JSON](https://endgameindex.com/data/history.json)
+- Per-day records with every rated event and its sources: https://endgameindex.com/data/days/YYYY-MM-DD.json

@@ -60,6 +60,37 @@ if os.path.exists(H_path):
 else:
     errors.append("data/history.json missing - run scripts/compute.py")
 
+# pre-rendered pages and crawl files (scripts/build_pages.py)
+if os.path.exists(H_path):
+    import re as _re
+    H = json.load(open(H_path))
+    for rel in ["index.html", "day/index.html", "endings/index.html", "history/index.html", "scoring/index.html", "about/index.html",
+                "404.html", "sitemap.xml", "robots.txt", "llms.txt", "data/endgame-index-daily.csv"]:
+        if not os.path.exists(os.path.join(ROOT, rel)):
+            errors.append(f"missing {rel} - run scripts/build_pages.py")
+    for d in H["dates"]:
+        if not os.path.exists(os.path.join(ROOT, "day", d, "index.html")):
+            errors.append(f"{d}: missing day page - run scripts/build_pages.py")
+    for k in R["scenarios"]:
+        if not os.path.exists(os.path.join(ROOT, "endings", k.replace("_", "-"), "index.html")):
+            errors.append(f"missing ending page for {k}")
+    home = open(os.path.join(ROOT, "index.html"), encoding="utf-8").read() if os.path.exists(os.path.join(ROOT, "index.html")) else ""
+    if home and H["end"] not in home:
+        errors.append("index.html does not show the latest day - run scripts/build_pages.py")
+    for rel in ["index.html", os.path.join("day", H["end"], "index.html")]:
+        f = os.path.join(ROOT, rel)
+        if os.path.exists(f):
+            t = open(f, encoding="utf-8").read()
+            if t.count("<h1") != 1:
+                errors.append(f"{rel}: expected exactly one <h1>")
+            for blk in _re.findall(r'<script type="application/ld\+json">(.*?)</script>', t, _re.S):
+                try:
+                    json.loads(blk)
+                except Exception as ex:
+                    errors.append(f"{rel}: invalid JSON-LD ({ex})")
+    if not os.path.exists(os.path.join(ROOT, "og", H["end"] + ".png")):
+        warnings.append(f"og/{H['end']}.png missing (share image; needs Pillow)")
+
 for w in warnings:
     print("WARN ", w)
 for e in errors:

@@ -5,21 +5,35 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light">
 <script>try{document.querySelector('meta[name="color-scheme"]').content=localStorage.getItem("color-scheme")==="dark"?"dark":"light"}catch(e){}</script>
-<title>Endgame Index</title>
+<title>Endgame Index: daily tracker of AI&#x27;s 12 possible futures</title>
 <meta name="theme-color" content="#fdfdf9">
-<meta name="description" content="A nightly, evidence-weighted reading of AI news against Max Tegmark's 12 possible endings for humanity and AI.">
-<meta property="og:title" content="Endgame Index">
-<meta property="og:description" content="Which of AI's 12 possible endings did today's news move closer? Updated every night at 11:59 PM IST.">
+<meta name="description" content="Which of AI&#x27;s 12 possible endings did today&#x27;s news move closer? Today (20 November 2026): EU Commission confirms AI-assisted cyberattack; House reveals…">
+<link rel="canonical" href="https://endgameindex.com/">
+<meta name="author" content="Sidhartha Rajput">
+<meta property="og:site_name" content="Endgame Index">
+<meta property="og:title" content="Endgame Index: daily tracker of AI&#x27;s 12 possible futures">
+<meta property="og:description" content="Which of AI&#x27;s 12 possible endings did today&#x27;s news move closer? Today (20 November 2026): EU Commission confirms AI-assisted cyberattack; House reveals…">
 <meta property="og:type" content="website">
-<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<script>/* home routes get their layout before any script or data loads */document.documentElement.classList.toggle("home",/^#?\/?(dashboard\/?|ending\/.*)?$/.test(location.hash))</script>
-<link rel="preload" href="assets/fonts/instrument-serif.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="assets/fonts/instrument-serif-italic.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="assets/fonts/geist.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/css/styles.css">
-<link rel="preload" href="data/history.json" as="fetch" crossorigin>
-<link rel="preload" href="scoring/rules.json" as="fetch" crossorigin>
-<link rel="preload" href="data/content.json" as="fetch" crossorigin>
+<meta property="og:url" content="https://endgameindex.com/">
+<meta property="og:image" content="https://endgameindex.com/og/2026-11-20.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Endgame Index: daily tracker of AI&#x27;s 12 possible futures">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Endgame Index: daily tracker of AI&#x27;s 12 possible futures">
+<meta name="twitter:description" content="Which of AI&#x27;s 12 possible endings did today&#x27;s news move closer? Today (20 November 2026): EU Commission confirms AI-assisted cyberattack; House reveals…">
+<meta name="twitter:image" content="https://endgameindex.com/og/2026-11-20.png">
+<link rel="alternate" type="text/csv" title="Endgame Index daily data (CSV)" href="/data/endgame-index-daily.csv">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://endgameindex.com/#website","url":"https://endgameindex.com/","name":"Endgame Index","inLanguage":"en","description":"A nightly, evidence-weighted reading of AI news against Max Tegmark's 12 possible endings for humanity and AI.","publisher":{"@id":"https://endgameindex.com/#author"}},{"@type":"Person","@id":"https://endgameindex.com/#author","name":"Sidhartha Rajput","url":"https://www.linkedin.com/in/sidhartha-rajput/","sameAs":["https://www.linkedin.com/in/sidhartha-rajput/"]},{"@type":"Dataset","@id":"https://endgameindex.com/#dataset","name":"Endgame Index daily scores","description":"Daily plausibility scores (1-99) for each of the 12 AI aftermath scenarios in Max Tegmark's book Life 3.0, the 10 world factors behind them, family averages and the Horizon Balance, computed every night from rated AI news events with a published, versioned rulebook.","url":"https://endgameindex.com/","sameAs":"https://endgameindex.com/about/","creator":{"@id":"https://endgameindex.com/#author"},"license":"https://creativecommons.org/licenses/by/4.0/","isAccessibleForFree":true,"inLanguage":"en","isBasedOn":{"@type":"Book","name":"Life 3.0: Being Human in the Age of Artificial Intelligence","author":{"@type":"Person","name":"Max Tegmark"},"datePublished":"2017"},"temporalCoverage":"2026-04-14/2026-11-20","dateModified":"2026-11-20","keywords":["artificial intelligence","AI risk","AI futures","Max Tegmark","Life 3.0","superintelligence","AI governance"],"variableMeasured":["Libertarian Utopia","Benevolent Dictator","Egalitarian Utopia","Protector God","Gatekeeper","Enslaved God","Conquerors","Descendants","Zookeeper","1984","Reversion","Self-Destruction","Capability Velocity","AI Autonomy","Alignment & Control","Global Coordination","Power Concentration","Surveillance & Control","Shared Prosperity","Catastrophic Risk","Tech Backlash","Human-AI Merging","Horizon Balance"],"measurementTechnique":"Rated news events scored with Endgame Index rules v1.3.0","distribution":[{"@type":"DataDownload","encodingFormat":"text/csv","contentUrl":"https://endgameindex.com/data/endgame-index-daily.csv"},{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://endgameindex.com/data/history.json"}]}]}</script>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<script>/* the home page gets its layout before any script or data loads */document.documentElement.classList.toggle("home",location.pathname==="/"&&!/^#\/(summary|endings?|history|scoring)/.test(location.hash))</script>
+<link rel="preload" href="/assets/fonts/instrument-serif.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/instrument-serif-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/geist.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/styles.css">
+<link rel="preload" href="/data/history.json" as="fetch" crossorigin>
+<link rel="preload" href="/scoring/rules.json" as="fetch" crossorigin>
+<link rel="preload" href="/data/content.json" as="fetch" crossorigin>
 </head>
 <body>
 <script>if(document.documentElement.classList.contains("home"))document.body.classList.add("is-home")</script>
@@ -27,16 +41,16 @@
 
 <header class="topbar">
   <div class="topbar-inner">
-    <a class="brand" href="#/dashboard" aria-label="Endgame Index home">
+    <a class="brand" href="/" aria-label="Endgame Index home">
       <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M4 21h24" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M9 21a7 7 0 0 1 14 0" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M16 8v3M8.5 11.5l2 2M23.5 11.5l-2 2M5 16h2.5M24.5 16H27" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
       <span>Endgame <b>Index</b></span>
     </a>
     <nav class="tabs" id="tabs" aria-label="Sections">
-      <a href="#/dashboard" data-tab="dashboard">Dashboard</a>
-      <a href="#/summary" data-tab="summary">Summary of the day</a>
-      <a href="#/endings" data-tab="endings">12 Endings</a>
-      <a href="#/history" data-tab="history">History</a>
-      <a href="#/scoring" data-tab="scoring">Scoring mechanism</a>
+      <a href="/" data-tab="dashboard">Dashboard</a>
+      <a href="/day/" data-tab="summary">Summary of the day</a>
+      <a href="/endings/" data-tab="endings">12 Endings</a>
+      <a href="/history/" data-tab="history">History</a>
+      <a href="/scoring/" data-tab="scoring">Scoring mechanism</a>
       <a class="byline menu-byline" href="https://www.linkedin.com/in/sidhartha-rajput/" target="_blank" rel="noopener noreferrer">By Sidhartha Rajput ↗</a>
     </nav>
     <div class="topbar-right">
@@ -48,19 +62,39 @@
       </button>
     </div>
   </div>
-  <div class="updated-chip"><span class="dot" aria-hidden="true"></span><span id="updated-chip-text">Updated <span style="visibility:hidden">00 Oct</span></span><span class="sepdot" aria-hidden="true">·</span><a class="byline" href="https://www.linkedin.com/in/sidhartha-rajput/" target="_blank" rel="noopener noreferrer">By Sidhartha Rajput</a></div>
+  <div class="updated-chip"><span class="dot" aria-hidden="true"></span><span id="updated-chip-text">Updated 20 Nov</span><span class="sepdot" aria-hidden="true">·</span><a class="byline" href="https://www.linkedin.com/in/sidhartha-rajput/" target="_blank" rel="noopener noreferrer">By Sidhartha Rajput</a></div>
 </header>
 
 <main id="main" tabindex="-1">
   <div id="view" aria-live="polite">
-    <!-- Shown instantly on the home page while scripts and data load; replaced by the live page. -->
+<!-- Shown instantly on the home page while scripts and data load; replaced by the live page. -->
     <div class="boot-home">
-      <section class="hero shell-d"><div class="hero-chart"></div><div class="hero-title"><h1>Where Humanity is <i>heading with AI?</i></h1><p><span class="d-only">12 possible endings for humanity with AI, as per MIT research, tracked daily against news, research papers, articles and developments in AI.</span></p><div class="hero-filters" inert><div class="seg"><button type="button" aria-pressed="false">30D</button><button type="button" aria-pressed="false">90D</button><button type="button" aria-pressed="true">All</button></div><span class="sep" aria-hidden="true"></span><div class="seg"><button type="button" aria-pressed="false"><span class="d-only">4 families</span><span class="m-only">Families</span></button><button type="button" aria-pressed="true"><span class="d-only">12 endings</span><span class="m-only">Endings</span></button></div></div></div></section>
-      <div class="ph shell-p"><section class="ph-top"><h1>Where Humanity is<br><i>heading with AI?</i></h1><p>12 possible endings for humanity with AI, tracked daily</p><div class="ph-filters" inert><div class="seg"><button type="button" aria-pressed="false">30D</button><button type="button" aria-pressed="false">90D</button><button type="button" aria-pressed="true">All</button></div><span class="sep" aria-hidden="true"></span><div class="seg"><button type="button" aria-pressed="false">Families</button><button type="button" aria-pressed="true">Endings</button></div></div></section><div class="ph-chart"></div></div>
+      <section class="hero shell-d"><div class="hero-chart"></div><div class="hero-title"><h1>Where Humanity is <i>heading with AI?</i></h1><p><span class="d-only">12 possible endings for humanity with AI, from MIT physicist Max Tegmark’s book <i>Life 3.0</i>, tracked daily against news, research papers, articles and developments in AI.</span></p><div class="hero-filters" inert><div class="seg"><button type="button" aria-pressed="false">30D</button><button type="button" aria-pressed="false">90D</button><button type="button" aria-pressed="true">All</button></div><span class="sep" aria-hidden="true"></span><div class="seg"><button type="button" aria-pressed="false"><span class="d-only">4 families</span><span class="m-only">Families</span></button><button type="button" aria-pressed="true"><span class="d-only">12 endings</span><span class="m-only">Endings</span></button></div></div></div></section>
+      <div class="ph shell-p"><section class="ph-top"><p class="ph-h1">Where Humanity is<br><i>heading with AI?</i></p><p>12 possible endings for humanity with AI, tracked daily</p><div class="ph-filters" inert><div class="seg"><button type="button" aria-pressed="false">30D</button><button type="button" aria-pressed="false">90D</button><button type="button" aria-pressed="true">All</button></div><span class="sep" aria-hidden="true"></span><div class="seg"><button type="button" aria-pressed="false">Families</button><button type="button" aria-pressed="true">Endings</button></div></div></section><div class="ph-chart"></div></div>
     </div>
     <div class="loading boot-other"><span class="spinner" aria-hidden="true"></span> Loading the index…</div>
+
+    <section class="wrap static-page home-static" aria-labelledby="today-h">
+      <p class="kicker">Today’s reading · updated Friday, 20 November 2026</p>
+      <h2 id="today-h" style="margin-top:0"><a href="/day/2026-11-20/">EU Commission confirms AI-assisted cyberattack; House reveals 879,000 China chip approvals</a></h2>
+      <div class="prose"><p>Two security stories led the day. The European Commission confirmed that attackers used an AI tool in a cyber campaign that took its payroll, medical reimbursement and translation systems offline for over 10 days, raising Catastrophic Risk by 0.64. House Foreign Affairs Chair Brian Mast released licence data showing Commerce approved more than 879,000 Nvidia and AMD AI chips for Chinese firms, some of them military-linked, between December and May. That added to Capability Velocity (+0.50) and lowered Power Concentration (-0.32). Smaller steps: California&#x27;s attorney general subpoenaed Nvidia over possible China access to its chips, Signal switched on default blocks against AI assistants reading chats, and over 540 Google workers petitioned for AI-free Search in schools. Self-Destruction rose most, followed by Conquerors, while 1984 fell. Successors still leads the families. The Horizon Balance fell to -12.18 from -11.96.</p></div>
+      <p class="meta" style="margin-top:14px">Horizon Balance −12.18 (yesterday −11.96) · leading family: Successors · highest ending: Enslaved God · <a href="/day/2026-11-20/">Read the full day ›</a></p>
+      <h2>All 12 endings on 20 November 2026</h2>
+      <table><thead><tr><th>Ending</th><th>Family</th><th class="n">Score</th><th class="n">Day</th><th class="n">30 days</th></tr></thead><tbody><tr><td><a href="/endings/enslaved-god/">Enslaved God</a></td><td>Contained</td><td class="n">34.6</td><td class="n">0.0</td><td class="n">−0.4</td></tr><tr><td><a href="/endings/conquerors/">Conquerors</a></td><td>Successors</td><td class="n">32.5</td><td class="n">+0.3</td><td class="n">+3.2</td></tr><tr><td><a href="/endings/self-destruction/">Self-Destruction</a></td><td>Stalled</td><td class="n">31.5</td><td class="n">+0.7</td><td class="n">+3.1</td></tr><tr><td><a href="/endings/orwell-1984/">1984</a></td><td>Stalled</td><td class="n">24.0</td><td class="n">−0.3</td><td class="n">+0.2</td></tr><tr><td><a href="/endings/zookeeper/">Zookeeper</a></td><td>Successors</td><td class="n">22.2</td><td class="n">0.0</td><td class="n">+2.2</td></tr><tr><td><a href="/endings/descendants/">Descendants</a></td><td>Successors</td><td class="n">22.1</td><td class="n">+0.2</td><td class="n">+1.8</td></tr><tr><td><a href="/endings/benevolent-dictator/">Benevolent Dictator</a></td><td>Flourishing</td><td class="n">20.6</td><td class="n">−0.2</td><td class="n">+0.1</td></tr><tr><td><a href="/endings/libertarian-utopia/">Libertarian Utopia</a></td><td>Flourishing</td><td class="n">19.9</td><td class="n">−0.1</td><td class="n">−1.8</td></tr><tr><td><a href="/endings/gatekeeper/">Gatekeeper</a></td><td>Contained</td><td class="n">15.7</td><td class="n">+0.1</td><td class="n">+0.7</td></tr><tr><td><a href="/endings/protector-god/">Protector God</a></td><td>Flourishing</td><td class="n">13.2</td><td class="n">+0.2</td><td class="n">+0.3</td></tr><tr><td><a href="/endings/reversion/">Reversion</a></td><td>Stalled</td><td class="n">9.4</td><td class="n">+0.1</td><td class="n">+1.2</td></tr><tr><td><a href="/endings/egalitarian-utopia/">Egalitarian Utopia</a></td><td>Flourishing</td><td class="n">7.8</td><td class="n">−0.1</td><td class="n">−1.9</td></tr></tbody><caption class="meta" style="text-align:left;caption-side:bottom;padding-top:8px">Plausibility index from 1 to 99 per ending; it is not a probability, and the 12 scores do not add up to 100.</caption></table>
+      <h2>What is the Endgame Index?</h2>
+      <div class="prose"><p>The Endgame Index reads each day’s AI news and scores how strongly it points toward each of the 12 long-term futures for humanity and AI described by MIT physicist Max Tegmark in his 2017 book <i>Life 3.0</i>, from <a href="/endings/libertarian-utopia/">Libertarian Utopia</a> to <a href="/endings/self-destruction/">Self-Destruction</a>. Every event is rated with a published rubric and linked to its sources, and the scores are recomputed every night at 11:59 PM IST. <a href="/scoring/">How it’s scored</a> · <a href="/about/">About</a> · <a href="/data/endgame-index-daily.csv" download>Download the data</a>.</p></div>
+      <h2>Recent days</h2>
+      <ul class="plain"><li><a href="/day/2026-11-20/">20 November 2026: EU Commission confirms AI-assisted cyberattack; House reveals 879,000 China chip approvals</a></li><li><a href="/day/2026-11-19/">19 November 2026: Arizona opens criminal probe of OpenAI; Meta&#x27;s Muse read Signal messages</a></li><li><a href="/day/2026-11-18/">18 November 2026: GAO finds four leading chatbots helped plan attacks; Nvidia exits China</a></li><li><a href="/day/2026-11-17/">17 November 2026: California sues OpenAI over rogue agents; Anthropic files $900.9B compute plan</a></li><li><a href="/day/2026-11-16/">16 November 2026: Google sees first autonomous AI exploit attack; US plans AI &#x27;national champions&#x27;</a></li><li><a href="/day/2026-11-15/">15 November 2026: China calls for AI cooperation with the US ahead of APEC</a></li><li><a href="/day/2026-11-14/">14 November 2026: Quiet day: EU leaders hold first AI summit in Dublin</a></li><li><a href="/day/2026-11-13/">13 November 2026: FBI warns of autonomous AI hacking tool used in real intrusions</a></li></ul>
+    </section>
   </div>
 </main>
+
+<footer class="site-foot">
+  <div class="wrap site-foot-inner">
+    <span>Endgame Index by <a href="https://www.linkedin.com/in/sidhartha-rajput/" rel="author noopener" target="_blank">Sidhartha Rajput</a> · updated nightly at 11:59 PM IST</span>
+    <nav aria-label="More"><a href="/about/">About</a><a href="/scoring/">Method</a><a href="/data/endgame-index-daily.csv" download>Data (CSV)</a><a href="https://creativecommons.org/licenses/by/4.0/" rel="license noopener" target="_blank">CC BY 4.0</a></nav>
+  </div>
+</footer>
 
 
 <dialog id="ending-dialog" closedby="any" aria-labelledby="dlg-title">
@@ -77,8 +111,8 @@
     cloudflareToken: "ee353460f0084a07b39fbd4f28c7dad0" // Cloudflare Web Analytics
   };
 </script>
-<script src="assets/js/analytics.js"></script>
-<script src="assets/js/chart.js"></script>
-<script src="assets/js/app.js"></script>
+<script src="/assets/js/analytics.js"></script>
+<script src="/assets/js/chart.js"></script>
+<script src="/assets/js/app.js"></script>
 </body>
 </html>

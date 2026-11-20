@@ -72,7 +72,7 @@
           const src = (e.sources || []).slice(0, 3).map((x) => describe(x.node)).join(" | ");
           send("layout_shift", {
             value: +e.value.toFixed(4), window_total: +win.toFixed(4), at_ms: Math.round(e.startTime), sources: src,
-            page: (location.hash.replace(/^#\/?/, "").split("/")[0]) || "dashboard",
+            page: location.pathname.split("/")[1] || "dashboard",
             viewport: innerWidth + "x" + innerHeight, orientation: innerWidth > innerHeight ? "landscape" : "portrait",
             landscape_chart: document.documentElement.classList.contains("lsc-open"),
           });

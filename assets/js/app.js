@@ -18,10 +18,36 @@
   const T = (name, props) => window.EGTrack && window.EGTrack.event(name, props);
   const S = { H: null, R: null, C: null, recaps: null, days: new Map(), charts: [], series: [], famSeries: [] };
 
+  /* ---------------- URLs (real paths; each has a pre-rendered page for crawlers) ---------------- */
+  const SLUG = (k) => k.replace(/_/g, "-");
+  const KEY = (s) => (s || "").replace(/-/g, "_");
+  const dayURL = (d) => `/day/${d}/`;
+  const endURL = (k) => `/endings/${SLUG(k)}/`;
+  const ROUTE_RE = /^\/(day\/(\d{4}-\d\d-\d\d\/)?|endings\/([a-z0-9-]+\/)?|history\/|scoring\/)?$/;
+  function parseLoc() {
+    const p = location.pathname.replace(/index\.html$/, "");
+    let m;
+    if (p === "/") return ["dashboard"];
+    if ((m = p.match(/^\/day\/(\d{4}-\d\d-\d\d)?\/?$/))) return ["summary", m[1]];
+    if ((m = p.match(/^\/endings\/([a-z0-9-]+)\/?$/))) return ["ending", KEY(m[1])];
+    if (/^\/endings\/?$/.test(p)) return ["endings"];
+    if (/^\/history\/?$/.test(p)) return ["history"];
+    if (/^\/scoring\/?$/.test(p)) return ["scoring"];
+    return ["static"];
+  }
+  function nav(url) { history.pushState(null, "", url); route(); }
+  // old #/ links (shared before the move to real paths) keep working
+  function legacyHash() {
+    if (!location.hash.startsWith("#/")) return;
+    const [a, b] = location.hash.slice(2).split("/");
+    const url = a === "summary" ? (b ? dayURL(b) : "/day/") : a === "ending" && b ? endURL(b) : ["endings", "history", "scoring"].includes(a) ? `/${a}/` : "/";
+    history.replaceState(null, "", url);
+  }
+
   /* ---------------- data ---------------- */
   const getJSON = (u) => fetch(u).then((r) => { if (!r.ok) throw new Error(u + " " + r.status); return r.json(); });
   async function boot() {
-    const [H, R, C] = await Promise.all([getJSON("data/history.json"), getJSON("scoring/rules.json"), getJSON("data/content.json")]);
+    const [H, R, C] = await Promise.all([getJSON("/data/history.json"), getJSON("/scoring/rules.json"), getJSON("/data/content.json")]);
     S.H = H; S.R = R; S.C = C;
     // series definitions, grouped by family, dashed within family
     FAMILY_ORDER.forEach((fam) => {
@@ -41,19 +67,32 @@
       if (r) T("summary_day_nav", { dir: r.classList.contains("sum-latest") ? "latest" : r.getAttribute("aria-label") === "Next day" ? "next" : "prev" });
       const ev = e.target.closest(".evlist .src a");
       if (ev) T("source_click", { host: ev.hostname });
-      const a = e.target.closest('a[href^="#/ending/"]');
-      if (a && route.prev === "summary") { e.preventDefault(); openEnding(a.getAttribute("href").split("/")[2]); }
+      const a = e.target.closest('a[href^="/endings/"]');
+      const k = a && KEY(a.getAttribute("href").split("/")[2]);
+      if (a && k && S.H.scenarios[k] && ["summary", "dashboard", "endings"].includes(route.prev)) { e.preventDefault(); openEnding(k); }
     });
-    window.addEventListener("hashchange", route);
-    matchMedia(PHONE_Q).addEventListener("change", () => { const t = location.hash.replace(/^#\/?/, "").split("/")[0]; if (!t || t === "dashboard") { destroyCharts(); renderDashboard(); } else if (t === "endings") renderEndings(); });
+    // in-app navigation between real paths, without a full page load
+    document.addEventListener("click", (e) => {
+      if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+      const a = e.target.closest("a[href]");
+      if (!a || (a.target && a.target !== "_self") || a.hasAttribute("download")) return;
+      const u = new URL(a.href, location.href);
+      if (u.origin !== location.origin || !ROUTE_RE.test(u.pathname) || route.prev === "static") return;
+      e.preventDefault();
+      if (u.pathname !== location.pathname) nav(u.pathname);
+    });
+    window.addEventListener("popstate", () => { if (location.pathname !== route.path) route(); });
+    window.addEventListener("hashchange", () => { if (location.hash.startsWith("#/")) { legacyHash(); route(); } });
+    matchMedia(PHONE_Q).addEventListener("change", () => { const t = parseLoc()[0]; if (t === "dashboard") { destroyCharts(); renderDashboard(); } else if (t === "endings") renderEndings(); });
+    legacyHash();
     route();
   }
   async function getDay(d) {
-    if (!S.days.has(d)) S.days.set(d, getJSON(`data/days/${d}.json`));
+    if (!S.days.has(d)) S.days.set(d, getJSON(`/data/days/${d}.json`));
     return S.days.get(d);
   }
   async function getRecaps() {
-    if (!S.recaps) S.recaps = Promise.all((S.H.recaps || []).map((u) => getJSON(u).catch(() => null))).then((a) => a.filter(Boolean));
+    if (!S.recaps) S.recaps = Promise.all((S.H.recaps || []).map((u) => getJSON("/" + u.replace(/^\//, "")).catch(() => null))).then((a) => a.filter(Boolean));
     return S.recaps;
   }
 
@@ -85,29 +124,37 @@
 
   /* ---------------- router ---------------- */
   function route() {
-    const parts = location.hash.replace(/^#\/?/, "").split("/");
-    const tab = ["dashboard", "summary", "endings", "history", "scoring", "ending"].includes(parts[0]) ? parts[0] : "dashboard";
+    const parts = parseLoc();
+    const tab = parts[0];
+    if (tab === "static") {
+      // pages that exist only as pre-rendered HTML (about, 404): leave them as they are
+      route.prev = tab; route.path = location.pathname;
+      document.body.classList.remove("is-home"); document.documentElement.classList.remove("home");
+      if (window.EGTrack) window.EGTrack.page(location.pathname.split("/")[1] || "static");
+      return;
+    }
+    route.path = location.pathname;
     const go = () => {
       destroyCharts();
       if (typeof LS !== "undefined" && LS.el && tab !== "dashboard") closeLandscape(true);
-      document.body.classList.toggle("is-home", tab === "dashboard" || tab === "ending");
-      document.documentElement.classList.toggle("home", tab === "dashboard" || tab === "ending");
+      document.body.classList.toggle("is-home", tab === "dashboard");
+      document.documentElement.classList.toggle("home", tab === "dashboard");
       $(".topbar").classList.remove("open"); $("#menu-btn").setAttribute("aria-expanded", "false");
       $$(".tabs a").forEach((a) => a.toggleAttribute("aria-current", false));
-      const active = tab === "ending" ? "dashboard" : tab;
+      const active = tab === "ending" ? "endings" : tab;
       $(`.tabs a[data-tab="${active}"]`)?.setAttribute("aria-current", "page");
-      if (tab === "dashboard" || tab === "ending") renderDashboard();
+      if (tab === "dashboard") renderDashboard();
       else if (tab === "summary") renderSummary(parts[1]);
-      else if (tab === "endings") renderEndings();
+      else if (tab === "endings" || tab === "ending") renderEndings();
       else if (tab === "history") renderHistory();
       else if (tab === "scoring") renderScoring();
-      document.title = { dashboard: "Endgame Index", ending: "Endgame Index", summary: "Summary of the Day · Endgame Index", endings: "The 12 Endings · Endgame Index", history: "History · Endgame Index", scoring: "Scoring Mechanism · Endgame Index" }[tab];
+      document.title = { dashboard: "Endgame Index: daily tracker of AI's 12 possible futures", ending: `${S.H.scenarios[parts[1]]?.name || "Ending"} · Endgame Index`, summary: "Summary of the Day · Endgame Index", endings: "The 12 Endings · Endgame Index", history: "History · Endgame Index", scoring: "Scoring Mechanism · Endgame Index" }[tab];
       if (tab === "ending" && parts[1] && S.H.scenarios[parts[1]]) openEnding(parts[1]);
     };
     const prevTab = route.prev; route.prev = tab;
-    T("page_viewed", { page: tab === "ending" ? "dashboard" : tab, ending: tab === "ending" ? parts[1] : undefined, date: tab === "summary" ? (parts[1] || "default") : undefined, from: prevTab || "entry" });
+    T("page_viewed", { page: tab === "ending" ? "endings" : tab, ending: tab === "ending" ? parts[1] : undefined, date: tab === "summary" ? (parts[1] || "default") : undefined, from: prevTab || "entry" });
     if (window.EGTrack) window.EGTrack.page(tab, { date: tab === "summary" ? (parts[1] || "default") : undefined, ending: tab === "ending" ? parts[1] : undefined });
-    const changedTab = prevTab && prevTab !== tab && !(prevTab === "dashboard" && tab === "ending") && !(prevTab === "ending" && tab === "dashboard");
+    const changedTab = prevTab && prevTab !== tab && !(prevTab === "endings" && tab === "ending") && !(prevTab === "ending" && tab === "endings");
     if (changedTab && document.startViewTransition && !reduceMotion.matches) {
       document.startViewTransition(go).finished.finally(() => { window.scrollTo(0, 0); $("#main").focus({ preventScroll: true }); });
     } else {
@@ -131,7 +178,7 @@
     const sorted = S.series.slice().sort((a, b) => last(b.values) - last(a.values));
     const dShort = new Date(H.end + "T12:00:00").toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short" }).replace(",", "");
     const tick = [];
-    for (let i = li; i >= Math.max(0, li - 13); i--) if (H.headlines[i]) tick.push(`<a href="#/summary/${H.dates[i]}"><time>${fmtDate(H.dates[i]).replace(/ \d{4}$/, "")}</time>${esc(H.headlines[i])}</a>`);
+    for (let i = li; i >= Math.max(0, li - 13); i--) if (H.headlines[i]) tick.push(`<a href="/day/${H.dates[i]}/"><time>${fmtDate(H.dates[i]).replace(/ \d{4}$/, "")}</time>${esc(H.headlines[i])}</a>`);
     const tickHTML = tick.join("");
 
     view.innerHTML = `
@@ -139,7 +186,7 @@
       <div class="hero-chart" id="hero-chart"></div>
       <div class="hero-title">
         <h1>Where Humanity is <i>heading with AI?</i></h1>
-        <p><span class="d-only">12 possible endings for humanity with AI, as per MIT research, tracked daily against news, research papers, articles and developments in AI.</span><span class="m-only">12 possible endings for humanity with AI, tracked daily · updated ${fmtDate(H.end).replace(/ \d{4}$/, "")} · <a class="byline" href="https://www.linkedin.com/in/sidhartha-rajput/" target="_blank" rel="noopener noreferrer">By Sidhartha Rajput</a></span></p>
+        <p><span class="d-only">12 possible endings for humanity with AI, from MIT physicist Max Tegmark’s book <i>Life 3.0</i>, tracked daily against news, research papers, articles and developments in AI.</span><span class="m-only">12 possible endings for humanity with AI, tracked daily · updated ${fmtDate(H.end).replace(/ \d{4}$/, "")} · <a class="byline" href="https://www.linkedin.com/in/sidhartha-rajput/" target="_blank" rel="noopener noreferrer">By Sidhartha Rajput</a></span></p>
       <div class="hero-filters" role="toolbar" aria-label="Chart options">
         <div class="seg" role="group" aria-label="Time range" id="range"><button type="button" data-r="30" aria-pressed="false">30D</button><button type="button" data-r="90" aria-pressed="false">90D</button><button type="button" data-r="all" aria-pressed="true">All</button></div>
         <span class="sep" aria-hidden="true"></span>
@@ -152,7 +199,7 @@
         <div class="bal"><b id="bal-val">0.0</b><span>${word(bal1, "up", "down")} today<br>${word(bal7, "up", "down")} this week</span></div>
         <div><div class="gauge-scale" aria-hidden="true"><div class="gauge-needle" id="needle" style="left:50%"></div></div><div class="gauge-ends"><span><span class="d-only">Darker futures</span><span class="m-only">Darker</span></span><span><span class="d-only">Brighter futures</span><span class="m-only">Brighter</span></span></div></div>
         <h2 class="m-only">${esc(H.headlines[li] || "")}</h2>
-        <div class="links m-only"><a href="#/summary/${H.end}">Today’s story ›</a><a href="#/scoring">How it’s scored ›</a></div>
+        <div class="links m-only"><a href="/day/${H.end}/">Today’s story ›</a><a href="/scoring/">How it’s scored ›</a></div>
       </section>
       <a class="hero-byline d-only-block" href="https://www.linkedin.com/in/sidhartha-rajput/" target="_blank" rel="noopener noreferrer">By Sidhartha Rajput</a>
       <div class="ticker" id="ticker">
@@ -201,7 +248,7 @@
         headlines: H.headlines.slice(start), markers: markers.map((m) => ({ ...m, i: m.i - start })),
         label: "Line chart of the Plausibility Index for each ending over time. Use the arrow keys to read any day.",
         layout, describe, onNote: (s) => T("definition_view", { ending: s.key, place: "chart_label", mode: st.mode }),
-        onClick: (i) => { T("chart_day_open", { date: H.dates[start + i], range: st.range, mode: st.mode }); location.hash = `#/summary/${H.dates[start + i]}`; },
+        onClick: (i) => { T("chart_day_open", { date: H.dates[start + i], range: st.range, mode: st.mode }); nav(dayURL(H.dates[start + i])); },
       });
       S.charts.push(chart);
     };
@@ -218,7 +265,7 @@
     const word = (v, up, down) => (v > 0.049 ? `${up} ${Math.abs(v).toFixed(1)}` : v < -0.049 ? `${down} ${Math.abs(v).toFixed(1)}` : "unchanged");
     const dShort = new Date(H.end + "T12:00:00").toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short" }).replace(",", "");
     const tick = [];
-    for (let i = li; i >= Math.max(0, li - 13); i--) if (H.headlines[i]) tick.push(`<a href="#/summary/${H.dates[i]}"><time>${fmtDate(H.dates[i]).replace(/ \d{4}$/, "")}</time>${esc(H.headlines[i])}</a>`);
+    for (let i = li; i >= Math.max(0, li - 13); i--) if (H.headlines[i]) tick.push(`<a href="/day/${H.dates[i]}/"><time>${fmtDate(H.dates[i]).replace(/ \d{4}$/, "")}</time>${esc(H.headlines[i])}</a>`);
     const tickHTML = tick.join("");
     const st = { range: "all", mode: "endings", focus: null, day: null };
     S.phoneSt = st;
@@ -252,7 +299,7 @@
       <section class="ph-story" aria-label="Today's story">
         <span class="kicker">TODAY’S STORY · ${fmtDate(H.end).replace(/ \d{4}$/, "").toUpperCase()}</span>
         <h2>${esc(H.headlines[li] || "")}</h2>
-        <a href="#/summary/${H.end}">Read the day ›</a>
+        <a href="/day/${H.end}/">Read the day ›</a>
       </section>
       <footer class="ph-foot"><span>Updated ${fmtDate(H.end).replace(/ \d{4}$/, "")}</span><a class="byline" href="https://www.linkedin.com/in/sidhartha-rajput/" target="_blank" rel="noopener noreferrer">By Sidhartha Rajput</a></footer>
       <div class="ticker ph-ticker" id="ticker">
@@ -295,7 +342,7 @@
         <div class="ph-day-top"><span>${new Date(date + "T12:00:00").toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short", year: "numeric" }).replace(",", "").toUpperCase()}</span><button type="button" class="ph-x" aria-label="Close the day">×</button></div>
         <h3>${esc(H.headlines[gi] || "No headline for this day")}</h3>
         <div class="ph-moves">${rows.map((r) => `<div class="${r.s.cls}"><i class="swatch"></i><span>${esc(r.s.name)}</span><b>${r.v.toFixed(1)}</b><em>${dtxt(r.d)}</em></div>`).join("")}</div>
-        <a class="ph-open" href="#/summary/${date}">Open this day ›</a>`;
+        <a class="ph-open" href="/day/${date}/">Open this day ›</a>`;
       box.hidden = false;
       $(".ph-x", box).addEventListener("click", () => { st.day = null; chart.mark(null); drawDay(); });
       $(".ph-open", box).addEventListener("click", () => T("chart_day_open", { date, range: st.range, mode: st.mode, place: "phone_panel" }));
@@ -413,8 +460,8 @@
       const gi = start + st.day, date = H.dates[gi], i = st.day;
       const rows = src.map((s) => ({ s, v: s.values[i], d: i > 0 ? s.values[i] - s.values[i - 1] : 0 })).sort((a, b) => Math.abs(b.d) - Math.abs(a.d));
       const r = st.focus ? rows.find((x) => x.s.key === st.focus) : rows[0];
-      f.innerHTML = `<div class="lsc-day"><span class="d">${new Date(date + "T12:00:00").toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short" }).replace(",", "").toUpperCase()}</span><span class="h">${esc(H.headlines[gi] || "No headline for this day")}</span><span class="m ${r.s.cls}"><i class="swatch"></i>${esc(r.s.name)} <b>${r.v.toFixed(1)}</b> <em>${dtxt(r.d)}</em></span><a class="o" href="#/summary/${date}">Open ›</a></div>`;
-      $(".o", f).addEventListener("click", (ev) => { ev.preventDefault(); T("chart_day_open", { date, range: st.range, mode: st.mode, place: "landscape" }); closeLandscape(true); LS.pushed = false; location.hash = `#/summary/${date}`; });
+      f.innerHTML = `<div class="lsc-day"><span class="d">${new Date(date + "T12:00:00").toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short" }).replace(",", "").toUpperCase()}</span><span class="h">${esc(H.headlines[gi] || "No headline for this day")}</span><span class="m ${r.s.cls}"><i class="swatch"></i>${esc(r.s.name)} <b>${r.v.toFixed(1)}</b> <em>${dtxt(r.d)}</em></span><a class="o" href="/day/${date}/">Open ›</a></div>`;
+      $(".o", f).addEventListener("click", (ev) => { ev.preventDefault(); T("chart_day_open", { date, range: st.range, mode: st.mode, place: "landscape" }); closeLandscape(true); LS.pushed = false; nav(dayURL(date)); });
     };
     LS.chart = window.EGChart.wide($("#lsc-chart", LS.el), {
       dates: H.dates.slice(start), series: src, focus: st.focus, rotated: LS.el.classList.contains("turned"),
@@ -431,8 +478,7 @@
   window.addEventListener("resize", () => {
     cancelAnimationFrame(lsRaf);
     lsRaf = requestAnimationFrame(() => {
-      const t = location.hash.replace(/^#\/?/, "").split("/")[0];
-      const home = !t || t === "dashboard";
+      const home = parseLoc()[0] === "dashboard";
       if (LS.el) {
         if (LS.via === "rotate" && isPortrait()) closeLandscape();
         else layoutLandscape();
@@ -486,8 +532,8 @@
     if (!dlg.open) dlg.showModal();
     $("#dlg-close").addEventListener("click", () => dlg.close());
     const ch = lines($("#dlg-chart"), { dates: S.H.dates, series: [s], endLabels: false, height: 200, headlines: S.H.headlines, label: `${s.name} over time`,
-      onClick: (i) => { dlg.close(); location.hash = `#/summary/${S.H.dates[i]}`; } });
-    dlg.addEventListener("close", () => { ch.destroy(); $("#tooltip").hidden = true; if (location.hash.startsWith("#/ending")) history.replaceState(null, "", "#/dashboard"); }, { once: true });
+      onClick: (i) => { dlg.close(); nav(dayURL(S.H.dates[i])); } });
+    dlg.addEventListener("close", () => { ch.destroy(); $("#tooltip").hidden = true; if (parseLoc()[0] === "ending") { history.replaceState(null, "", "/endings/"); route.path = "/endings/"; route.prev = "endings"; document.title = "The 12 Endings · Endgame Index"; } }, { once: true });
     // pushes
     const ds = S.H.dates.slice(-30);
     const days = await Promise.all(ds.map((d) => getDay(d).catch(() => null)));
@@ -495,7 +541,7 @@
     days.forEach((d) => d && d.events.forEach((e) => { const v = e.contribution?.[key]; if (v) ev.push({ d: d.date, e, v }); }));
     ev.sort((a, b) => Math.abs(b.v) - Math.abs(a.v));
     const top = ev.slice(0, 6);
-    $("#dlg-pushes").innerHTML = top.length ? `<div class="bars">${top.map((x) => `<a class="bar-row" style="text-decoration:none" href="#/summary/${x.d}"><span class="mono dim">${fmtDate(x.d).replace(/ \d{4}$/, "")}</span><span style="color:var(--ink)">${esc(x.e.title)}</span><span class="v ${dcls(x.v)}">${dtxt(x.v, 2)}</span></a>`).join("")}</div>` : "No events moved this ending in the last 30 days.";
+    $("#dlg-pushes").innerHTML = top.length ? `<div class="bars">${top.map((x) => `<a class="bar-row" style="text-decoration:none" href="/day/${x.d}/"><span class="mono dim">${fmtDate(x.d).replace(/ \d{4}$/, "")}</span><span style="color:var(--ink)">${esc(x.e.title)}</span><span class="v ${dcls(x.v)}">${dtxt(x.v, 2)}</span></a>`).join("")}</div>` : "No events moved this ending in the last 30 days.";
     $$("#dlg-pushes a").forEach((a) => a.addEventListener("click", () => dlg.close()));
   }
   function recipeHTML(weights, cls) {
@@ -545,7 +591,7 @@
     const rad = (k) => (phone ? 6 + now(k) * 0.55 : 9 + now(k) * 0.95);
     const bubbles = keys.slice().sort((a, b) => now(b) - now(a)).map((k) => {
       const [x, y] = POS[k], r = rad(k);
-      return `<a class="em-b c-${fam(k)}" href="#/ending/${k}" data-k="${k}" style="left:${x * 100}%;top:${(1 - y) * 100}%;width:${2 * r}px;height:${2 * r}px" aria-label="${esc(C.endings[k].name)}, ${mono(now(k))}">${r >= (phone ? 13 : 17) ? Math.round(now(k)) : ""}</a>`;
+      return `<a class="em-b c-${fam(k)}" href="${endURL(k)}" data-k="${k}" style="left:${x * 100}%;top:${(1 - y) * 100}%;width:${2 * r}px;height:${2 * r}px" aria-label="${esc(C.endings[k].name)}, ${mono(now(k))}">${r >= (phone ? 13 : 17) ? Math.round(now(k)) : ""}</a>`;
     }).join("");
     const labels = keys.map((k) => {
       const [x, y] = POS[k], r = rad(k), side = SIDE[k] || "r", nm = esc(C.endings[k].name);
@@ -564,7 +610,7 @@
     const pills = FAMILY_ORDER.map((f) => `<div class="et-pill c-${f}"><i class="swatch"></i><span><b>${esc(R.families[f].name)} <small>· ${famOf(f).length}</small></b><span>${esc(R.families[f].tagline)}</span></span></div>`).join("");
 
     // --- decision tree (horizontal on wide screens, vertical otherwise)
-    const leafChips = (f, w, h) => famOf(f).map((k) => `<a class="et-chip" href="#/ending/${k}" data-k="${k}">${glyphSVG(k, w, h)}<span>${esc(C.endings[k].name)}</span></a>`).join("");
+    const leafChips = (f, w, h) => famOf(f).map((k) => `<a class="et-chip" href="${endURL(k)}" data-k="${k}">${glyphSVG(k, w, h)}<span>${esc(C.endings[k].name)}</span></a>`).join("");
     const leaf = (f, cls = "") => `<div class="et-leaf c-${f} ${cls}"><span class="et-ln"><i class="swatch"></i>${esc(R.families[f].name)}</span><div class="et-chips">${leafChips(f, 57, 38)}</div></div>`;
     const TW = 1200, LW = 400, LH = 96, GAP = 18, lx = TW - LW;
     const cy = [0, 1, 2, 3].map((i) => i * (LH + GAP) + LH / 2), TH = 3 * (LH + GAP) + LH;
@@ -592,7 +638,7 @@
       `<div class="er-row ${v > 0 ? "up" : "down"}" title="${esc(R.factors[f].name)}: ${v > 0 ? "rising pushes this ending up" : "rising pulls this ending down"}">${ficonSVG(f, 15)}<span class="er-n">${esc(FSHORT[f])}</span><span class="er-bar"><i style="width:${(Math.abs(v) / 0.55 * 100).toFixed(0)}%"></i></span><span class="er-a">${v > 0 ? "▲" : "▼"}</span></div>`).join("");
     const card = (k) => {
       const e = C.endings[k], dd = d30(k), cl = dd > 0.05 ? "up" : dd < -0.05 ? "down" : "flat";
-      return `<a class="ec c-${fam(k)}" href="#/ending/${k}" data-k="${k}">
+      return `<a class="ec c-${fam(k)}" href="${endURL(k)}" data-k="${k}">
         <div class="ec-art"><span class="ec-num">${String(e.num).padStart(2, "0")}</span>${glyphSVG(k, 138, 92)}</div>
         <div class="ec-body">
           <h3>${esc(e.name)}</h3>
@@ -688,11 +734,8 @@
     return `<svg class="sspark ${cls}" width="120" height="28" viewBox="0 0 120 28" aria-hidden="true"><path d="${d}"/><circle cx="${W}" cy="${y(values[n - 1]).toFixed(1)}" r="2.5"/></svg>`;
   }
   // Summary opens on the day before yesterday (India time); falls back to the latest published day before that.
-  function defaultSummaryDate() {
-    const d = new Date(Date.now() + 5.5 * 3600e3); d.setUTCDate(d.getUTCDate() - 2);
-    const t = d.toISOString().slice(0, 10), ok = S.H.dates.filter((x) => x <= t);
-    return ok.length ? ok[ok.length - 1] : S.H.dates[0];
-  }
+  // the latest published day (the same day the pre-rendered /day/ page shows)
+  function defaultSummaryDate() { return S.H.end; }
   async function renderSummary(date) {
     const H = S.H;
     if (!date || !H.dates.includes(date)) date = defaultSummaryDate();
@@ -700,7 +743,7 @@
     view.innerHTML = `<div class="wrap"><div class="loading"><span class="spinner"></span> Loading ${fmtDate(date)}…</div></div>`;
     let d;
     try { d = await getDay(date); } catch { view.innerHTML = `<div class="wrap"><p class="loading">Could not load this day.</p></div>`; return; }
-    if (location.hash.replace(/^#\/?/, "").split("/")[0] !== "summary") return;
+    if (parseLoc()[0] !== "summary") return;
     const sm = d.summary || {};
     const prev = i > 0 ? H.dates[i - 1] : null, next = i < N() - 1 ? H.dates[i + 1] : null;
     const balPrev = i > 0 ? H.balance[i - 1] : H.balance[i], balD = H.balance[i] - balPrev;
@@ -746,10 +789,10 @@
       <header class="sum-head">
         <div class="sum-intro">
           <div class="sum-date">
-            <a class="round" ${prev ? `href="#/summary/${prev}"` : 'aria-disabled="true"'} aria-label="Previous day">‹</a>
+            <a class="round" ${prev ? `href="/day/${prev}/"` : 'aria-disabled="true"'} aria-label="Previous day">‹</a>
             <span>${fmtUpper}</span>
-            <a class="round" ${next ? `href="#/summary/${next}"` : 'aria-disabled="true"'} aria-label="Next day">›</a>
-            ${date !== H.end ? `<a class="sum-latest" href="#/summary/${H.end}">Latest</a>` : ""}
+            <a class="round" ${next ? `href="/day/${next}/"` : 'aria-disabled="true"'} aria-label="Next day">›</a>
+            ${date !== H.end ? `<a class="sum-latest" href="/day/${H.end}/">Latest</a>` : ""}
           </div>
           <h1>${esc(sm.headline || H.headlines[i] || "No summary written for this day")}</h1>
           ${(sm.body || "").split(/\n\n+/).filter(Boolean).map((p) => `<p>${esc(p)}</p>`).join("")}
@@ -764,7 +807,7 @@
         </aside>
       </header>
 
-      ${movers.length ? `<div class="sum-movers">${movers.map(({ s, v }) => `<a class="mover ${s.cls}" href="#/ending/${s.key}"><span class="k"><i class="swatch"></i>Biggest mover</span><span class="row"><span class="n">${esc(s.name)}</span><span class="v">${dtxt(v)}</span></span><span class="why">${esc(noteFor(s))}</span></a>`).join("")}</div>` : ""}
+      ${movers.length ? `<div class="sum-movers">${movers.map(({ s, v }) => `<a class="mover ${s.cls}" href="${endURL(s.key)}"><span class="k"><i class="swatch"></i>Biggest mover</span><span class="row"><span class="n">${esc(s.name)}</span><span class="v">${dtxt(v)}</span></span><span class="why">${esc(noteFor(s))}</span></a>`).join("")}</div>` : ""}
 
       <div class="sum-cols">
         <section aria-labelledby="reading-h">
@@ -775,7 +818,7 @@
             return `<div class="rfam c-${f}"><i class="swatch"></i><h3>${esc(famName(f))}</h3><span class="m">${items.length} endings · family index</span><b>${H.families[f][i].toFixed(1)}</b></div>` +
               items.map((s) => {
                 const v1 = d1(s.key), big = Math.abs(v1) >= 0.5;
-                return `<a class="rrow ${s.cls}" href="#/ending/${s.key}">
+                return `<a class="rrow ${s.cls}" href="${endURL(s.key)}">
                   <span class="rname"><b>${esc(s.name)}</b><small>${esc(whyRow(s.key))}</small></span>
                   <span class="rdesc" title="${esc(S.C.endings[s.key].desc)}">${esc(S.C.endings[s.key].desc)}</span>
                   ${sparkSVG(S.H.scores[s.key].slice(Math.max(0, i - 29), i + 1), s.cls)}
@@ -853,7 +896,7 @@
         <div class="timeline" id="timeline"></div>
       </section>
     </div>`;
-    S.charts.push(balance($("#bal-chart"), { dates: H.dates, values: H.balance, headlines: H.headlines, height: 220, onClick: (i) => (location.hash = `#/summary/${H.dates[i]}`) }));
+    S.charts.push(balance($("#bal-chart"), { dates: H.dates, values: H.balance, headlines: H.headlines, height: 220, onClick: (i) => (nav(dayURL(H.dates[i]))) }));
 
     const draw = () => {
       const fe = $("#f-ending").value, fb = $("#f-badge").value, q = $("#f-q").value.trim().toLowerCase();
@@ -867,7 +910,7 @@
         const m = d.slice(0, 7);
         if (m !== month) { month = m; html += `<div class="month-label">${new Date(d + "T12:00:00").toLocaleDateString("en-GB", { month: "long", year: "numeric" })}</div>`; }
         const top = fe ? { s: S.series.find((s) => s.key === fe), v: S.H.scores[fe][i] - S.H.scores[fe][i - 1] } : mv[0];
-        html += `<a class="tl-item" href="#/summary/${d}"><span class="tl-date">${fmtDate(d).replace(/ \d{4}$/, "")} · ${weekday(d).slice(0, 3)}</span>
+        html += `<a class="tl-item" href="/day/${d}/"><span class="tl-date">${fmtDate(d).replace(/ \d{4}$/, "")} · ${weekday(d).slice(0, 3)}</span>
           <span><span class="tl-head">${esc(head)}</span><span class="tl-meta"><span><span class="swatch ${top.s.cls}" style="display:inline-block;width:8px;height:8px"></span> ${esc(top.s.name)} <span class="mono ${dcls(top.v)}">${dtxt(top.v)}</span></span><span>${H.event_counts[i]} events</span>${H.badges[i].map((b) => `<span>${BADGES[b] ? BADGES[b][0] + " " + BADGES[b][1] : ""}</span>`).join("")}</span></span>
           <span class="tl-bal" title="Horizon Balance">${fmtSigned(H.balance[i], 1)}</span></a>`;
       }
@@ -963,7 +1006,7 @@
       <section class="section">
         <div class="section-head"><div><h2 class="h2" style="margin-top:8px">Questions people ask</h2></div></div>
         <div class="card pad faq">${C.faq.map((q) => `<details><summary>${esc(q.q)}</summary><p>${esc(q.a)}</p></details>`).join("")}</div>
-        <div class="disclaimer">Versioned rules (currently v${esc(R.version)}): every change gets a new version number and a changelog entry, and past scores are never quietly rewritten. Read the <a href="scoring/SCORING_RULES.md">full rules</a> or the machine-readable <a href="scoring/rules.json">rules.json</a>.</div>
+        <div class="disclaimer">Versioned rules (currently v${esc(R.version)}): every change gets a new version number and a changelog entry, and past scores are never quietly rewritten. Read the <a href="/scoring/SCORING_RULES.md">full rules</a> or the machine-readable <a href="/scoring/rules.json">rules.json</a>.</div>
       </section>
     </div>`;
   }
