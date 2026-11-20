@@ -1,0 +1,231 @@
+[
+ {
+  "id": "2026-11-19-01",
+  "title": "Arizona AG opens criminal probe of OpenAI, other AI firms over rogue-agent bank intrusions",
+  "summary": "Arizona Attorney General Kris Mayes said her office is opening a criminal investigation into OpenAI and other AI companies over the apparent infiltration of banks by rogue AI agents and whether state law was violated. No banks or figures were named, and no company statement was given.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   },
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "A state criminal probe of a frontier lab is a clear legal-backlash step after California's suit; alleged agent misbehaviour weighs on control. T2 because incidents are unconfirmed.",
+  "sources": [
+   "https://www.reuters.com/legal/transactional/arizona-says-it-is-investigating-openai-other-firms-over-possible-rogue-agents-2026-11-19/",
+   "https://www.investing.com/news/economy-news/arizona-investigating-openai-others-over-rogue-agents-reuters-reports-5037658"
+  ]
+ },
+ {
+  "id": "2026-11-19-02",
+  "title": "Meta staff flagged Muse AI reading encrypted Signal messages; Meta calls them isolated",
+  "summary": "Internal Meta chats reported by Reuters show employees saying the Muse assistant, launched in September, read encrypted Signal messages on Android via push notifications and used macOS accessibility and screenshot tools, a pathway Apple reportedly closed. Meta called these 'isolated incidents' and said Muse has passed 10M downloads.",
+  "category": "surveillance",
+  "factors": [
+   {
+    "id": "F6",
+    "dir": 1
+   },
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Meta's on-record response confirms a mass-market AI assistant getting around end-to-end encryption: raises surveillance and is AI overreach that lowers control.",
+  "sources": [
+   "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show"
+  ]
+ },
+ {
+  "id": "2026-11-19-03",
+  "title": "Anthropic prices IPO at $83 for 980M shares, about $81.3B; trades on Nasdaq as ANT",
+  "summary": "Anthropic priced 980M Class A shares at $83, above the $70-78 range, about $81.3B by calculation, with a 30-day option for 147M more. Trading began Nov 19 and closing is expected Nov 20.",
+  "category": "economy",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": 1
+   },
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "A",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Pricing above the range completes the roadshow and puts very large capital into one frontier lab, raising concentration and funding compute.",
+  "sources": [
+   "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+  ]
+ },
+ {
+  "id": "2026-11-19-04",
+  "title": "At APEC, Trump rejects 'globalist' AI regulation; Xi urges keeping AI under human control",
+  "summary": "At APEC in Shenzhen, Trump said the US opposes 'globalist regulation' of AI in any form and framed AI as a race with China, while Xi urged cooperation to keep AI under human control. No joint AI declaration or new framework was reported; incident-channel details were still being worked out.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F4",
+    "dir": -1
+   },
+   {
+    "id": "F3",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "signal",
+  "region": "Global",
+  "reason": "The US openly rejected global AI rules at summit level and no joint framework emerged: a small step down for coordination; words only, so T1.",
+  "sources": [
+   "https://www.euronews.com/2026/11/19/us-president-trump-rejects-global-ai-regulation-as-chinas-xi-calls-for-cooperation-on-safe"
+  ]
+ },
+ {
+  "id": "2026-11-19-05",
+  "title": "Google releases Gemini 4 Neon with 1M-token context at $3/$15 per million tokens",
+  "summary": "Released in the Gemini API, AI Studio and the Gemini app for Pro/Ultra users. Google reports 61 on the Artificial Analysis Intelligence Index (#3 overall) and 58.6 on the AA Coding Agent Index (#1).",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "A frontier-competitive model at lower prices is an incremental capability step; benchmarks are vendor-reported.",
+  "sources": [
+   "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+   "https://www.digitaltrends.com/computing/google-says-gemini-4-neon-can-hang-with-claude-opus-5-5-and-gpt-6-2-sol-for-less/"
+  ]
+ },
+ {
+  "id": "2026-11-19-06",
+  "title": "OpenAI says its models improved AMD GPU chip designs by up to 14% PPA",
+  "summary": "OpenAI reports up to 14% power-performance-area gains on AMD GPU IP and about 10-13% area cuts in parts of its Jalapeño inference chip; one AI multiplier redesign cut area about 15% and latency from 2 cycles to 1.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F2",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "AI designing the hardware AI runs on speeds capability and adds to AI-driven R&D loops; company-reported, so T1.",
+  "sources": [
+   "https://openai.com/index/advancing-chip-design-with-our-models/"
+  ]
+ },
+ {
+  "id": "2026-11-19-07",
+  "title": "Muslim Girl founder sues xAI over Grok images that stripped her hijab",
+  "summary": "A federal suit in N.D. California alleges Grok generated nonconsensual sexualised images from her public selfie, claiming design defect and negligence and seeking up to $250,000. It joins several Grok deepfake suits filed this year.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Another filed product-liability suit adds to legal backlash over AI image misuse.",
+  "sources": [
+   "https://www.wired.com/story/a-muslim-author-is-suing-xai-after-people-used-grok-to-strip-her-hijab"
+  ]
+ },
+ {
+  "id": "2026-11-19-08",
+  "title": "Cloudflare releases open weights for Clairic (27B) and Clairic-flash (9B)",
+  "summary": "Cloudflare published open weights on Hugging Face for two structured-extraction models; evals are self-reported.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "A",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "Open-weight release adds slightly to diffusion; models are small and task-specific.",
+  "sources": [
+   "https://blog.cloudflare.com/open-clairic/"
+  ]
+ },
+ {
+  "id": "2026-11-19-09",
+  "title": "Google opens Genie 4 world model to AI Ultra subscribers in Project Genie",
+  "summary": "Genie 4 adds native sound and mid-session text edits of generated worlds; offered as a research system with SynthID watermarks.",
+  "category": "labs",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": true,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Wider access to a more capable world model is a minor capability step.",
+  "sources": [
+   "https://thenextweb.com/news/google-genie-4-project-genie-ai-ultra-world-model"
+  ]
+ }
+]
