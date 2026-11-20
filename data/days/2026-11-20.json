@@ -1,0 +1,306 @@
+{
+ "date": "2026-11-20",
+ "rules_version": "1.2.0",
+ "scores": {
+  "libertarian_utopia": 12.08,
+  "benevolent_dictator": 23.23,
+  "egalitarian_utopia": 1.0,
+  "protector_god": 18.0,
+  "gatekeeper": 19.21,
+  "enslaved_god": 39.38,
+  "conquerors": 46.96,
+  "descendants": 32.82,
+  "zookeeper": 35.51,
+  "orwell_1984": 22.55,
+  "reversion": 8.65,
+  "self_destruction": 40.55
+ },
+ "deltas": {
+  "libertarian_utopia": -0.16,
+  "benevolent_dictator": -0.25,
+  "egalitarian_utopia": 0.0,
+  "protector_god": 0.13,
+  "gatekeeper": 0.06,
+  "enslaved_god": -0.1,
+  "conquerors": 0.39,
+  "descendants": 0.15,
+  "zookeeper": -0.02,
+  "orwell_1984": -0.32,
+  "reversion": 0.31,
+  "self_destruction": 0.9
+ },
+ "targets": {
+  "libertarian_utopia": 12.08,
+  "benevolent_dictator": 23.23,
+  "egalitarian_utopia": 1.0,
+  "protector_god": 18.0,
+  "gatekeeper": 19.21,
+  "enslaved_god": 39.38,
+  "conquerors": 46.96,
+  "descendants": 32.82,
+  "zookeeper": 35.51,
+  "orwell_1984": 22.55,
+  "reversion": 8.65,
+  "self_destruction": 40.55
+ },
+ "momentum_7d": {
+  "libertarian_utopia": -1.89,
+  "benevolent_dictator": 0.02,
+  "egalitarian_utopia": -0.85,
+  "protector_god": -0.39,
+  "gatekeeper": -0.27,
+  "enslaved_god": -0.06,
+  "conquerors": 2.72,
+  "descendants": 1.18,
+  "zookeeper": 1.87,
+  "orwell_1984": 0.47,
+  "reversion": 1.19,
+  "self_destruction": 3.0
+ },
+ "factors": {
+  "F1": 89.08,
+  "F2": 57.63,
+  "F3": 27.15,
+  "F4": 26.29,
+  "F5": 66.91,
+  "F6": 46.55,
+  "F7": 32.01,
+  "F8": 70.69,
+  "F9": 49.02,
+  "F10": 20.74
+ },
+ "factor_deltas": {
+  "F1": 0.27,
+  "F2": -0.01,
+  "F3": -0.03,
+  "F4": -0.04,
+  "F5": -0.41,
+  "F6": -0.07,
+  "F7": 0.01,
+  "F8": 0.78,
+  "F9": 0.16,
+  "F10": -0.0
+ },
+ "composites": {
+  "horizon_balance": -22.81,
+  "families": {
+   "flourishing": 13.58,
+   "contained": 29.29,
+   "successors": 38.43,
+   "stalled": 23.92
+  },
+  "news_heat": 2.26,
+  "evidence": "medium",
+  "event_count": 5
+ },
+ "badges": [],
+ "speed_limited": [],
+ "fading_contribution": {
+  "libertarian_utopia": -0.01,
+  "benevolent_dictator": -0.03,
+  "protector_god": -0.04,
+  "gatekeeper": -0.05,
+  "enslaved_god": -0.04,
+  "descendants": -0.03,
+  "zookeeper": -0.01,
+  "self_destruction": 0.01
+ },
+ "summary": {
+  "headline": "EU Commission confirms AI-assisted cyberattack; House reveals 879,000 China chip approvals",
+  "body": "Two security stories led the day. The European Commission confirmed that attackers used an AI tool in a cyber campaign that took its payroll, medical reimbursement and translation systems offline for over 10 days, raising Catastrophic Risk by 0.80. House Foreign Affairs Chair Brian Mast released licence data showing Commerce approved more than 879,000 Nvidia and AMD AI chips for Chinese firms, some of them military-linked, between December and May. That added to Capability Velocity (+0.30) and lowered Power Concentration (-0.40). Smaller steps: California's attorney general subpoenaed Nvidia over possible China access to its chips, Signal switched on default blocks against AI assistants reading chats, and over 540 Google workers petitioned for AI-free Search in schools. Self-Destruction rose most, followed by Conquerors, while 1984 fell. Successors still leads the families. The Horizon Balance fell to -22.81 from -22.51.",
+  "movers_note": "Self-Destruction +0.9, almost entirely from the EU Commission cyberattack (+0.87), plus the Nvidia subpoena (+0.01). Conquerors +0.4, from the cyberattack (+0.24) and the China chip approvals data (+0.15). 1984 -0.3, mostly from the chip approvals data (-0.25) and Signal's AI-assistant blocks (-0.06).",
+  "coming_up": [
+   "Commission investigation into the AI-assisted cyberattack continues, including possible staff data exposure",
+   "Jensen Huang has agreed to testify before the House and Senate"
+  ]
+ },
+ "events": [
+  {
+   "id": "2026-11-20-01",
+   "title": "House panel data: Commerce approved 879,000+ Nvidia/AMD AI chips for Chinese firms",
+   "summary": "House Foreign Affairs Chair Brian Mast released BIS licence data showing that from Dec 2025 to May 2026 BIS approved more than 879,000 Nvidia H200 and equivalent AMD AI chips for Chinese firms, out of 3.4 million requested. Recipients include Alibaba, Tencent, ByteDance and Baidu, plus four military-backed firms or entities on the DoD Chinese military company list, according to Reuters; two of the firms were flagged as suspected smuggling fronts.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F1",
+     "dir": 1
+    },
+    {
+     "id": "F5",
+     "dir": -1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "Government licence data confirms a large flow of frontier compute to China, including military-linked firms. That speeds capability and spreads it beyond US firms. T2 because these are past approvals now disclosed, not a new policy.",
+   "sources": [
+    "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
+    "https://aiweekly.co/ai-news-today"
+   ],
+   "points": 0.8,
+   "contribution": {
+    "libertarian_utopia": 0.24,
+    "benevolent_dictator": -0.2,
+    "egalitarian_utopia": 0.16,
+    "protector_god": 0.15,
+    "gatekeeper": 0.12,
+    "enslaved_god": -0.06,
+    "conquerors": 0.15,
+    "descendants": 0.18,
+    "zookeeper": -0.01,
+    "orwell_1984": -0.25,
+    "reversion": -0.18
+   },
+   "factor_effect": {
+    "F1": 0.3,
+    "F5": -0.4
+   }
+  },
+  {
+   "id": "2026-11-20-02",
+   "title": "European Commission confirms AI-assisted cyberattack that disrupted services for 10+ days",
+   "summary": "A Commission spokesperson confirmed attackers used an AI tool in a campaign detected Oct 22, forcing systems including Sysper payroll and MyPMO offline for over 10 days. The attack is largely contained, with no attribution or ransom demand; researchers link it to the ARTEX framework, but the Commission did not name the tool.",
+   "category": "safety",
+   "factors": [
+    {
+     "id": "F8",
+     "dir": 1
+    }
+   ],
+   "tier": "T2",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "global",
+   "track": "structural",
+   "region": "EU",
+   "reason": "A major government body has confirmed an AI-enabled attack against it, with real disruption. This is a new named victim incident after the Nov 13 FBI warning. T2 because it was contained and there is no confirmed data breach.",
+   "sources": [
+    "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/",
+    "https://www.scworld.com/brief/cyberattack-disrupts-european-commission-services"
+   ],
+   "points": 0.8,
+   "contribution": {
+    "libertarian_utopia": -0.4,
+    "egalitarian_utopia": -0.32,
+    "conquerors": 0.24,
+    "reversion": 0.32,
+    "self_destruction": 0.87
+   },
+   "factor_effect": {
+    "F8": 0.8
+   }
+  },
+  {
+   "id": "2026-11-20-03",
+   "title": "California AG subpoenas Nvidia over possible China access to chips and confidential data",
+   "summary": "California AG Rob Bonta issued an investigative subpoena to Nvidia, probing whether China obtained its advanced chips or confidential information and whether Nvidia misled investors or the public. It follows Jensen Huang's resignation over an affair with a suspected Chinese spy; Colette Kress is interim CEO.",
+   "category": "policy",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    },
+    {
+     "id": "F4",
+     "dir": -1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "national",
+   "track": "structural",
+   "region": "US",
+   "reason": "A state legal action against the leading AI chipmaker, linked to US-China tech rivalry. T1 because it is an investigative step in a known story, not charges.",
+   "sources": [
+    "https://www.cbsnews.com/sanfrancisco/news/california-nvidia-subpoena-jensen-huang-affair-alleged-chinese-spy/"
+   ],
+   "points": 0.04,
+   "contribution": {
+    "gatekeeper": -0.01,
+    "orwell_1984": -0.01,
+    "reversion": 0.04,
+    "self_destruction": 0.01
+   },
+   "factor_effect": {
+    "F4": -0.02,
+    "F9": 0.04
+   }
+  },
+  {
+   "id": "2026-11-20-04",
+   "title": "Signal turns on default blocks against AI assistants reading chats",
+   "summary": "Signal is turning on by default settings that block screenshots and screen access, and shows pop-ups when an AI assistant tries to read the screen. It names Siri AI, Gemini Intelligence, Microsoft Recall and Meta's Muse, and urges Apple, Google and Microsoft to give developers firmer blocking tools.",
+   "category": "surveillance",
+   "factors": [
+    {
+     "id": "F6",
+     "dir": -1
+    },
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "B",
+   "self_claim": false,
+   "novelty": "development",
+   "scope": "global",
+   "track": "structural",
+   "region": "US",
+   "reason": "A concrete privacy protection deployed against screen-reading AI agents, plus public pushback against those agents. This follows the Meta Muse story scored Nov 19. T1 because Signal itself calls the protections incomplete.",
+   "sources": [
+    "https://www.timeslive.co.za/news/sci-tech/2026-11-20-signal-restricts-screenshots-to-block-ai-agents-from-reading-messages/"
+   ],
+   "points": 0.07,
+   "contribution": {
+    "benevolent_dictator": -0.03,
+    "protector_god": 0.02,
+    "orwell_1984": -0.06,
+    "reversion": 0.04
+   },
+   "factor_effect": {
+    "F6": -0.07,
+    "F9": 0.04
+   }
+  },
+  {
+   "id": "2026-11-20-05",
+   "title": "540+ Google workers petition to let schools turn off AI in Search",
+   "summary": "More than 540 Alphabet Workers Union members petitioned for schools to be able to disable AI features in Google Search without losing Search. NYC, LA and Chicago districts are reportedly weighing alternatives.",
+   "category": "society",
+   "factors": [
+    {
+     "id": "F9",
+     "dir": 1
+    }
+   ],
+   "tier": "T1",
+   "credibility": "C",
+   "self_claim": false,
+   "novelty": "new",
+   "scope": "national",
+   "track": "signal",
+   "region": "US",
+   "reason": "Internal and institutional resistance to AI in search for schools. T1 because it is a petition reported by trade press, with no change made yet.",
+   "sources": [
+    "https://gizmodo.com/google-employees-petition-to-let-schools-use-search-without-ai-2000842549"
+   ],
+   "points": 0.09,
+   "contribution": {
+    "reversion": 0.09
+   },
+   "factor_effect": {
+    "F9": 0.09
+   }
+  }
+ ]
+}

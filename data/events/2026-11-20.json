@@ -1,0 +1,131 @@
+[
+ {
+  "id": "2026-11-20-01",
+  "title": "House panel data: Commerce approved 879,000+ Nvidia/AMD AI chips for Chinese firms",
+  "summary": "House Foreign Affairs Chair Brian Mast released BIS licence data showing that from Dec 2025 to May 2026 BIS approved more than 879,000 Nvidia H200 and equivalent AMD AI chips for Chinese firms, out of 3.4 million requested. Recipients include Alibaba, Tencent, ByteDance and Baidu, plus four military-backed firms or entities on the DoD Chinese military company list, according to Reuters; two of the firms were flagged as suspected smuggling fronts.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F1",
+    "dir": 1
+   },
+   {
+    "id": "F5",
+    "dir": -1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "Government licence data confirms a large flow of frontier compute to China, including military-linked firms. That speeds capability and spreads it beyond US firms. T2 because these are past approvals now disclosed, not a new policy.",
+  "sources": [
+   "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
+   "https://aiweekly.co/ai-news-today"
+  ]
+ },
+ {
+  "id": "2026-11-20-02",
+  "title": "European Commission confirms AI-assisted cyberattack that disrupted services for 10+ days",
+  "summary": "A Commission spokesperson confirmed attackers used an AI tool in a campaign detected Oct 22, forcing systems including Sysper payroll and MyPMO offline for over 10 days. The attack is largely contained, with no attribution or ransom demand; researchers link it to the ARTEX framework, but the Commission did not name the tool.",
+  "category": "safety",
+  "factors": [
+   {
+    "id": "F8",
+    "dir": 1
+   }
+  ],
+  "tier": "T2",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "global",
+  "track": "structural",
+  "region": "EU",
+  "reason": "A major government body has confirmed an AI-enabled attack against it, with real disruption. This is a new named victim incident after the Nov 13 FBI warning. T2 because it was contained and there is no confirmed data breach.",
+  "sources": [
+   "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/",
+   "https://www.scworld.com/brief/cyberattack-disrupts-european-commission-services"
+  ]
+ },
+ {
+  "id": "2026-11-20-03",
+  "title": "California AG subpoenas Nvidia over possible China access to chips and confidential data",
+  "summary": "California AG Rob Bonta issued an investigative subpoena to Nvidia, probing whether China obtained its advanced chips or confidential information and whether Nvidia misled investors or the public. It follows Jensen Huang's resignation over an affair with a suspected Chinese spy; Colette Kress is interim CEO.",
+  "category": "policy",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   },
+   {
+    "id": "F4",
+    "dir": -1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "national",
+  "track": "structural",
+  "region": "US",
+  "reason": "A state legal action against the leading AI chipmaker, linked to US-China tech rivalry. T1 because it is an investigative step in a known story, not charges.",
+  "sources": [
+   "https://www.cbsnews.com/sanfrancisco/news/california-nvidia-subpoena-jensen-huang-affair-alleged-chinese-spy/"
+  ]
+ },
+ {
+  "id": "2026-11-20-04",
+  "title": "Signal turns on default blocks against AI assistants reading chats",
+  "summary": "Signal is turning on by default settings that block screenshots and screen access, and shows pop-ups when an AI assistant tries to read the screen. It names Siri AI, Gemini Intelligence, Microsoft Recall and Meta's Muse, and urges Apple, Google and Microsoft to give developers firmer blocking tools.",
+  "category": "surveillance",
+  "factors": [
+   {
+    "id": "F6",
+    "dir": -1
+   },
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "B",
+  "self_claim": false,
+  "novelty": "development",
+  "scope": "global",
+  "track": "structural",
+  "region": "US",
+  "reason": "A concrete privacy protection deployed against screen-reading AI agents, plus public pushback against those agents. This follows the Meta Muse story scored Nov 19. T1 because Signal itself calls the protections incomplete.",
+  "sources": [
+   "https://www.timeslive.co.za/news/sci-tech/2026-11-20-signal-restricts-screenshots-to-block-ai-agents-from-reading-messages/"
+  ]
+ },
+ {
+  "id": "2026-11-20-05",
+  "title": "540+ Google workers petition to let schools turn off AI in Search",
+  "summary": "More than 540 Alphabet Workers Union members petitioned for schools to be able to disable AI features in Google Search without losing Search. NYC, LA and Chicago districts are reportedly weighing alternatives.",
+  "category": "society",
+  "factors": [
+   {
+    "id": "F9",
+    "dir": 1
+   }
+  ],
+  "tier": "T1",
+  "credibility": "C",
+  "self_claim": false,
+  "novelty": "new",
+  "scope": "national",
+  "track": "signal",
+  "region": "US",
+  "reason": "Internal and institutional resistance to AI in search for schools. T1 because it is a petition reported by trade press, with no change made yet.",
+  "sources": [
+   "https://gizmodo.com/google-employees-petition-to-let-schools-use-search-without-ai-2000842549"
+  ]
+ }
+]

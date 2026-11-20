@@ -1,0 +1,9 @@
+{
+ "headline": "EU Commission confirms AI-assisted cyberattack; House reveals 879,000 China chip approvals",
+ "body": "Two security stories led the day. The European Commission confirmed that attackers used an AI tool in a cyber campaign that took its payroll, medical reimbursement and translation systems offline for over 10 days, raising Catastrophic Risk by 0.80. House Foreign Affairs Chair Brian Mast released licence data showing Commerce approved more than 879,000 Nvidia and AMD AI chips for Chinese firms, some of them military-linked, between December and May. That added to Capability Velocity (+0.30) and lowered Power Concentration (-0.40). Smaller steps: California's attorney general subpoenaed Nvidia over possible China access to its chips, Signal switched on default blocks against AI assistants reading chats, and over 540 Google workers petitioned for AI-free Search in schools. Self-Destruction rose most, followed by Conquerors, while 1984 fell. Successors still leads the families. The Horizon Balance fell to -22.81 from -22.51.",
+ "movers_note": "Self-Destruction +0.9, almost entirely from the EU Commission cyberattack (+0.87), plus the Nvidia subpoena (+0.01). Conquerors +0.4, from the cyberattack (+0.24) and the China chip approvals data (+0.15). 1984 -0.3, mostly from the chip approvals data (-0.25) and Signal's AI-assistant blocks (-0.06).",
+ "coming_up": [
+  "Commission investigation into the AI-assisted cyberattack continues, including possible staff data exposure",
+  "Jensen Huang has agreed to testify before the House and Senate"
+ ]
+}
