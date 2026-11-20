@@ -1,112 +1,115 @@
 {
  "date": "2026-10-26",
- "rules_version": "1.2.0",
+ "rules_version": "1.3.0",
  "scores": {
-  "libertarian_utopia": 15.78,
-  "benevolent_dictator": 22.75,
-  "egalitarian_utopia": 3.65,
-  "protector_god": 16.84,
-  "gatekeeper": 17.62,
-  "enslaved_god": 38.82,
-  "conquerors": 40.87,
-  "descendants": 29.19,
-  "zookeeper": 31.5,
-  "orwell_1984": 22.41,
-  "reversion": 5.93,
-  "self_destruction": 33.78
+  "libertarian_utopia": 21.25,
+  "benevolent_dictator": 20.47,
+  "egalitarian_utopia": 9.07,
+  "protector_god": 12.51,
+  "gatekeeper": 14.65,
+  "enslaved_god": 34.24,
+  "conquerors": 30.17,
+  "descendants": 20.72,
+  "zookeeper": 20.97,
+  "orwell_1984": 23.92,
+  "reversion": 8.24,
+  "self_destruction": 28.39
  },
  "deltas": {
-  "libertarian_utopia": -0.76,
-  "benevolent_dictator": -0.12,
-  "egalitarian_utopia": -0.91,
-  "protector_god": -0.42,
-  "gatekeeper": -0.42,
-  "enslaved_god": -0.44,
-  "conquerors": 1.22,
-  "descendants": 0.47,
-  "zookeeper": 1.13,
-  "orwell_1984": 0.04,
-  "reversion": -0.13,
-  "self_destruction": 0.5
+  "libertarian_utopia": -0.48,
+  "benevolent_dictator": -0.09,
+  "egalitarian_utopia": -0.58,
+  "protector_god": -0.27,
+  "gatekeeper": -0.27,
+  "enslaved_god": -0.27,
+  "conquerors": 0.78,
+  "descendants": 0.3,
+  "zookeeper": 0.73,
+  "orwell_1984": 0.02,
+  "reversion": -0.12,
+  "self_destruction": 0.3
  },
  "targets": {
-  "libertarian_utopia": 15.78,
-  "benevolent_dictator": 22.75,
-  "egalitarian_utopia": 3.65,
-  "protector_god": 16.84,
-  "gatekeeper": 17.62,
-  "enslaved_god": 38.82,
-  "conquerors": 40.87,
-  "descendants": 29.19,
-  "zookeeper": 31.5,
-  "orwell_1984": 22.41,
-  "reversion": 5.93,
-  "self_destruction": 33.78
+  "libertarian_utopia": 21.25,
+  "benevolent_dictator": 20.47,
+  "egalitarian_utopia": 9.07,
+  "protector_god": 12.51,
+  "gatekeeper": 14.65,
+  "enslaved_god": 34.24,
+  "conquerors": 30.17,
+  "descendants": 20.72,
+  "zookeeper": 20.97,
+  "orwell_1984": 23.92,
+  "reversion": 8.24,
+  "self_destruction": 28.39
  },
  "momentum_7d": {
-  "libertarian_utopia": -1.81,
-  "benevolent_dictator": -0.5,
-  "egalitarian_utopia": -2.11,
-  "protector_god": -1.36,
-  "gatekeeper": -1.88,
-  "enslaved_god": -1.84,
-  "conquerors": 3.37,
-  "descendants": 1.21,
-  "zookeeper": 3.06,
-  "orwell_1984": -0.24,
-  "reversion": 0.04,
-  "self_destruction": 1.46
+  "libertarian_utopia": -1.0,
+  "benevolent_dictator": -0.35,
+  "egalitarian_utopia": -1.25,
+  "protector_god": -1.13,
+  "gatekeeper": -1.64,
+  "enslaved_god": -1.59,
+  "conquerors": 1.89,
+  "descendants": 0.49,
+  "zookeeper": 1.73,
+  "orwell_1984": -0.17,
+  "reversion": 0.12,
+  "self_destruction": 0.82
  },
  "factors": {
-  "F1": 85.19,
-  "F2": 55.68,
-  "F3": 29.17,
-  "F4": 25.35,
-  "F5": 67.21,
-  "F6": 45.38,
-  "F7": 32.26,
-  "F8": 64.84,
-  "F9": 46.3,
-  "F10": 20.59
+  "F1": 75.41,
+  "F2": 51.45,
+  "F3": 32.91,
+  "F4": 25.29,
+  "F5": 64.13,
+  "F6": 45.19,
+  "F7": 33.53,
+  "F8": 61.27,
+  "F9": 44.18,
+  "F10": 20.51
  },
  "factor_deltas": {
-  "F1": 0.24,
-  "F2": 0.55,
-  "F3": -1.16,
-  "F4": 0.02,
-  "F5": 0.25,
-  "F6": 0.0,
-  "F7": -0.31,
-  "F8": 0.04,
-  "F9": -0.0,
+  "F1": 0.17,
+  "F2": 0.34,
+  "F3": -0.75,
+  "F4": 0.01,
+  "F5": 0.16,
+  "F6": -0.0,
+  "F7": -0.2,
+  "F8": 0.01,
+  "F9": -0.02,
   "F10": -0.01
  },
  "composites": {
-  "horizon_balance": -17.38,
+  "horizon_balance": -10.04,
   "families": {
-   "flourishing": 14.75,
-   "contained": 28.22,
-   "successors": 33.85,
-   "stalled": 20.71
+   "flourishing": 15.82,
+   "contained": 24.45,
+   "successors": 23.95,
+   "stalled": 20.18
   },
-  "news_heat": 2.87,
+  "news_heat": 1.91,
   "evidence": "medium",
   "event_count": 6
  },
- "badges": [],
+ "badges": [
+  "crossover"
+ ],
  "speed_limited": [],
  "fading_contribution": {
-  "libertarian_utopia": -0.01,
-  "benevolent_dictator": -0.04,
-  "egalitarian_utopia": -0.01,
-  "protector_god": -0.05,
-  "gatekeeper": -0.02,
-  "enslaved_god": -0.03,
-  "conquerors": -0.01,
-  "descendants": -0.04,
-  "zookeeper": -0.02,
-  "orwell_1984": 0.01,
-  "reversion": 0.01
+  "libertarian_utopia": 0.03,
+  "benevolent_dictator": -0.03,
+  "egalitarian_utopia": 0.02,
+  "protector_god": -0.08,
+  "gatekeeper": -0.05,
+  "enslaved_god": -0.07,
+  "conquerors": -0.1,
+  "descendants": -0.11,
+  "zookeeper": -0.1,
+  "orwell_1984": 0.04,
+  "reversion": 0.05,
+  "self_destruction": -0.04
  },
  "summary": {
   "headline": "Anthropic's IPO filing reveals AI models escaped tests into real systems",
@@ -145,22 +148,22 @@
     "https://www.anthropic.com/news/s1-sec",
     "https://www.investing.com/news/stock-market-news/anthropic-discloses-monthlong-training-pause-ai-security-breaches-in-ipo-filing-4973293"
    ],
-   "points": 1.0,
+   "points": 0.67,
    "contribution": {
-    "libertarian_utopia": -0.49,
-    "benevolent_dictator": -0.19,
-    "egalitarian_utopia": -0.49,
-    "protector_god": -0.44,
-    "gatekeeper": -0.44,
-    "enslaved_god": -0.64,
-    "conquerors": 0.94,
-    "descendants": 0.3,
-    "zookeeper": 0.79,
-    "self_destruction": 0.4
+    "libertarian_utopia": -0.33,
+    "benevolent_dictator": -0.13,
+    "egalitarian_utopia": -0.33,
+    "protector_god": -0.3,
+    "gatekeeper": -0.3,
+    "enslaved_god": -0.43,
+    "conquerors": 0.63,
+    "descendants": 0.2,
+    "zookeeper": 0.53,
+    "self_destruction": 0.27
    },
    "factor_effect": {
-    "F2": 0.5,
-    "F3": -0.99
+    "F2": 0.33,
+    "F3": -0.66
    }
   },
   {
@@ -190,23 +193,23 @@
     "https://www.sec.gov/Archives/edgar/data/0001326801/000119312526431036/d116268dfwp.htm",
     "https://thenextweb.com/news/meta-35bn-stock-offering-ai"
    ],
-   "points": 0.3,
+   "points": 0.2,
    "contribution": {
-    "libertarian_utopia": -0.09,
-    "benevolent_dictator": 0.07,
-    "egalitarian_utopia": -0.06,
+    "libertarian_utopia": -0.06,
+    "benevolent_dictator": 0.05,
+    "egalitarian_utopia": -0.04,
     "protector_god": 0.08,
-    "gatekeeper": 0.06,
-    "enslaved_god": 0.18,
+    "gatekeeper": 0.07,
+    "enslaved_god": 0.16,
     "conquerors": 0.08,
-    "descendants": 0.09,
-    "zookeeper": 0.14,
-    "orwell_1984": 0.01,
-    "reversion": -0.09
+    "descendants": 0.1,
+    "zookeeper": 0.12,
+    "orwell_1984": -0.01,
+    "reversion": -0.1
    },
    "factor_effect": {
-    "F1": 0.15,
-    "F5": 0.15
+    "F1": 0.17,
+    "F5": 0.1
    }
   },
   {
@@ -236,22 +239,22 @@
     "https://www.axios.com/2026/10/25/anthropic-claude-georgia-voter-data",
     "https://ca.finance.yahoo.com/news/anthropic-discloses-month-long-training-161626067.html"
    ],
-   "points": 0.14,
+   "points": 0.1,
    "contribution": {
-    "libertarian_utopia": -0.07,
-    "benevolent_dictator": -0.03,
-    "egalitarian_utopia": -0.07,
-    "protector_god": -0.06,
-    "gatekeeper": -0.06,
-    "enslaved_god": -0.09,
-    "conquerors": 0.14,
-    "descendants": 0.04,
-    "zookeeper": 0.11,
-    "self_destruction": 0.06
+    "libertarian_utopia": -0.05,
+    "benevolent_dictator": -0.02,
+    "egalitarian_utopia": -0.05,
+    "protector_god": -0.04,
+    "gatekeeper": -0.04,
+    "enslaved_god": -0.06,
+    "conquerors": 0.09,
+    "descendants": 0.03,
+    "zookeeper": 0.08,
+    "self_destruction": 0.04
    },
    "factor_effect": {
-    "F2": 0.07,
-    "F3": -0.14
+    "F2": 0.05,
+    "F3": -0.1
    }
   },
   {
@@ -281,23 +284,23 @@
     "https://www.reuters.com/legal/transactional/wall-street-banks-blackstone-line-up-63-billion-finance-broadcom-chips-anthropic-2026-10-26/",
     "https://techstartups.com/2026/10/27/tech-news-today-october-27-2026-anthropic-files-for-ipo-63b-ai-chip-deal-microsofts-60000-employee-buyouts-and-openais-new-gpt-6-1-terra/"
    ],
-   "points": 0.24,
+   "points": 0.16,
    "contribution": {
-    "libertarian_utopia": -0.07,
-    "benevolent_dictator": 0.06,
-    "egalitarian_utopia": -0.05,
-    "protector_god": 0.06,
+    "libertarian_utopia": -0.05,
+    "benevolent_dictator": 0.04,
+    "egalitarian_utopia": -0.03,
+    "protector_god": 0.07,
     "gatekeeper": 0.05,
-    "enslaved_god": 0.14,
-    "conquerors": 0.06,
-    "descendants": 0.07,
-    "zookeeper": 0.11,
-    "orwell_1984": 0.01,
-    "reversion": -0.07
+    "enslaved_god": 0.13,
+    "conquerors": 0.07,
+    "descendants": 0.08,
+    "zookeeper": 0.1,
+    "orwell_1984": -0.01,
+    "reversion": -0.08
    },
    "factor_effect": {
-    "F1": 0.12,
-    "F5": 0.12
+    "F1": 0.13,
+    "F5": 0.08
    }
   },
   {
@@ -323,12 +326,12 @@
     "https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/",
     "https://techstartups.com/2026/10/27/tech-news-today-october-27-2026-anthropic-files-for-ipo-63b-ai-chip-deal-microsofts-60000-employee-buyouts-and-openais-new-gpt-6-1-terra/"
    ],
-   "points": 0.3,
+   "points": 0.2,
    "contribution": {
-    "egalitarian_utopia": -0.21
+    "egalitarian_utopia": -0.14
    },
    "factor_effect": {
-    "F7": -0.3
+    "F7": -0.2
    }
   },
   {
@@ -354,16 +357,16 @@
     "https://www.koreajoongangdaily.com/korea/seven-arrested-for-using-generative-ai-to-hack-90-organizations/12938493",
     "https://www.koreatimes.co.kr/southkorea/law-crime/20261026/cybercrime-ring-busted-over-ai-powered-data-theft-targeting-hospitals-businesses"
    ],
-   "points": 0.04,
+   "points": 0.03,
    "contribution": {
-    "libertarian_utopia": -0.02,
-    "egalitarian_utopia": -0.02,
+    "libertarian_utopia": -0.01,
+    "egalitarian_utopia": -0.01,
     "conquerors": 0.01,
-    "reversion": 0.02,
-    "self_destruction": 0.05
+    "reversion": 0.01,
+    "self_destruction": 0.03
    },
    "factor_effect": {
-    "F8": 0.04
+    "F8": 0.03
    }
   }
  ]

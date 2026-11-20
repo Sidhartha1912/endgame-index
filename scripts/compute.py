@@ -54,6 +54,10 @@ def main():
         end = dt.date.fromisoformat(sys.argv[sys.argv.index("--end") + 1])
 
     decay = 0.5 ** (1.0 / D["signal_half_life_days"])
+    sdecay = 0.5 ** (1.0 / D["structural_half_life_days"]) if D.get("structural_half_life_days") else 1.0
+    rate_f = set(D.get("rate_factors", []))
+    rdecay = 0.5 ** (1.0 / D["rate_factor_half_life_days"]) if rate_f else 1.0
+    vref = D.get("volume_reference_events")
     S, z, k, cap = D["daily_saturation_S"], D["edge_softening_zone"], D["amplifier_k"], D["scenario_daily_cap"]
     lo, hi = D["scenario_bounds"]
     tier_rank = {"T1": 1, "T2": 2, "T3": 3, "T4": 4}
@@ -80,20 +84,25 @@ def main():
         prev = dict(disp)
         F_prev = {f: base[f] + sig[f] + struc[f] for f in FACT}
 
-        # 1. fading of signal effects
+        # 1. fading: signal effects, structural effects (slowly) and rate factors
         fade = {}
         for f in FACT:
             new = sig[f] * decay
-            fade[f] = new - sig[f]
+            sd = rdecay if f in rate_f else sdecay
+            nst = struc[f] * sd
+            fade[f] = (new - sig[f]) + (nst - struc[f])
             sig[f] = new
+            struc[f] = nst
 
         # 2. event points
         per_ev = []
         tot = {f: 0.0 for f in FACT}
         heat = 0.0
+        # volume normalisation: a day with more than vref events shares the weight of vref events
+        vol = min(1.0, vref / len(events)) if (vref and events) else 1.0
         for i, e in enumerate(events):
             e.setdefault("id", f"{ds}-{i + 1:02d}")
-            mult = (E["impact_points"][e["tier"]] * E["credibility"][e["credibility"]]
+            mult = vol * (E["impact_points"][e["tier"]] * E["credibility"][e["credibility"]]
                     * (E["self_claim_multiplier"] if e.get("self_claim") else 1.0)
                     * E["novelty"][e["novelty"]] * E["scope"][e["scope"]])
             pts = {}

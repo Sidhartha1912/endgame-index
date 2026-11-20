@@ -1,109 +1,113 @@
 {
  "date": "2026-07-20",
- "rules_version": "1.2.0",
+ "rules_version": "1.3.0",
  "scores": {
-  "libertarian_utopia": 26.56,
-  "benevolent_dictator": 25.94,
-  "egalitarian_utopia": 14.32,
-  "protector_god": 19.14,
-  "gatekeeper": 19.39,
-  "enslaved_god": 42.43,
-  "conquerors": 21.25,
-  "descendants": 19.85,
-  "zookeeper": 15.89,
-  "orwell_1984": 24.45,
-  "reversion": 4.67,
-  "self_destruction": 21.6
+  "libertarian_utopia": 27.61,
+  "benevolent_dictator": 24.33,
+  "egalitarian_utopia": 15.42,
+  "protector_god": 16.13,
+  "gatekeeper": 17.66,
+  "enslaved_god": 39.15,
+  "conquerors": 18.08,
+  "descendants": 16.19,
+  "zookeeper": 12.22,
+  "orwell_1984": 25.44,
+  "reversion": 6.83,
+  "self_destruction": 20.55
  },
  "deltas": {
-  "libertarian_utopia": -0.08,
+  "libertarian_utopia": -0.06,
   "benevolent_dictator": -0.07,
-  "egalitarian_utopia": -0.06,
-  "protector_god": 0.0,
-  "gatekeeper": -0.0,
-  "enslaved_god": -0.1,
-  "conquerors": 0.12,
-  "descendants": 0.01,
-  "zookeeper": -0.04,
-  "orwell_1984": -0.06,
-  "reversion": 0.04,
-  "self_destruction": 0.37
+  "egalitarian_utopia": -0.04,
+  "protector_god": -0.04,
+  "gatekeeper": -0.03,
+  "enslaved_god": -0.13,
+  "conquerors": 0.06,
+  "descendants": -0.03,
+  "zookeeper": -0.07,
+  "orwell_1984": -0.04,
+  "reversion": 0.05,
+  "self_destruction": 0.29
  },
  "targets": {
-  "libertarian_utopia": 26.56,
-  "benevolent_dictator": 25.94,
-  "egalitarian_utopia": 14.32,
-  "protector_god": 19.14,
-  "gatekeeper": 19.39,
-  "enslaved_god": 42.43,
-  "conquerors": 21.25,
-  "descendants": 19.85,
-  "zookeeper": 15.89,
-  "orwell_1984": 24.45,
-  "reversion": 4.67,
-  "self_destruction": 21.6
+  "libertarian_utopia": 27.61,
+  "benevolent_dictator": 24.33,
+  "egalitarian_utopia": 15.42,
+  "protector_god": 16.13,
+  "gatekeeper": 17.66,
+  "enslaved_god": 39.15,
+  "conquerors": 18.08,
+  "descendants": 16.19,
+  "zookeeper": 12.22,
+  "orwell_1984": 25.44,
+  "reversion": 6.83,
+  "self_destruction": 20.55
  },
  "momentum_7d": {
-  "libertarian_utopia": -0.01,
-  "benevolent_dictator": -0.1,
-  "egalitarian_utopia": -0.06,
-  "protector_god": 0.04,
-  "gatekeeper": 0.67,
-  "enslaved_god": -0.09,
-  "conquerors": 0.14,
-  "descendants": 0.08,
-  "zookeeper": -0.01,
-  "orwell_1984": 0.25,
-  "reversion": 0.92,
-  "self_destruction": -0.18
+  "libertarian_utopia": 0.08,
+  "benevolent_dictator": -0.2,
+  "egalitarian_utopia": 0.02,
+  "protector_god": -0.22,
+  "gatekeeper": 0.49,
+  "enslaved_god": -0.37,
+  "conquerors": -0.13,
+  "descendants": -0.22,
+  "zookeeper": -0.28,
+  "orwell_1984": 0.34,
+  "reversion": 1.1,
+  "self_destruction": -0.33
  },
  "factors": {
-  "F1": 76.6,
-  "F2": 49.17,
-  "F3": 43.5,
-  "F4": 23.28,
-  "F5": 66.61,
-  "F6": 45.97,
-  "F7": 33.04,
-  "F8": 58.04,
-  "F9": 42.62,
-  "F10": 20.24
+  "F1": 71.85,
+  "F2": 47.83,
+  "F3": 43.43,
+  "F4": 24.16,
+  "F5": 65.28,
+  "F6": 45.69,
+  "F7": 33.57,
+  "F8": 57.45,
+  "F9": 42.15,
+  "F10": 20.22
  },
  "factor_deltas": {
-  "F1": -0.0,
-  "F2": 0.02,
-  "F3": -0.01,
+  "F1": -0.06,
+  "F2": 0.01,
+  "F3": -0.02,
   "F4": -0.0,
-  "F5": -0.15,
-  "F6": 0.0,
+  "F5": -0.13,
+  "F6": -0.0,
   "F7": 0.03,
-  "F8": 0.33,
-  "F9": -0.1,
+  "F8": 0.26,
+  "F9": -0.09,
   "F10": -0.0
  },
  "composites": {
-  "horizon_balance": 0.69,
+  "horizon_balance": 1.8,
   "families": {
-   "flourishing": 21.49,
-   "contained": 30.91,
-   "successors": 19.0,
-   "stalled": 16.91
+   "flourishing": 20.87,
+   "contained": 28.4,
+   "successors": 15.49,
+   "stalled": 17.61
   },
-  "news_heat": 0.63,
+  "news_heat": 0.51,
   "evidence": "low",
   "event_count": 5
  },
  "badges": [],
  "speed_limited": [],
  "fading_contribution": {
-  "benevolent_dictator": -0.01,
-  "protector_god": -0.01,
-  "gatekeeper": -0.01,
-  "enslaved_god": -0.01,
-  "conquerors": 0.01,
-  "zookeeper": 0.01,
-  "reversion": -0.01,
-  "self_destruction": -0.01
+  "libertarian_utopia": 0.01,
+  "benevolent_dictator": -0.02,
+  "egalitarian_utopia": 0.01,
+  "protector_god": -0.05,
+  "gatekeeper": -0.04,
+  "enslaved_god": -0.05,
+  "conquerors": -0.03,
+  "descendants": -0.05,
+  "zookeeper": -0.03,
+  "orwell_1984": 0.01,
+  "reversion": 0.01,
+  "self_destruction": -0.02
  },
  "summary": {
   "headline": "Pentagon AI war-data contract lifts Self-Destruction",
@@ -135,12 +139,12 @@
     "https://siliconangle.com/2026/07/20/anthropic-settles-authors-publishers-1-5-billion-landmark-copyright-case/",
     "https://www.datagrom.com/ai-news/anthropic-pays-15b-in-historic-copyright-settlement-cd4b1293"
    ],
-   "points": 0.03,
+   "points": 0.02,
    "contribution": {
     "egalitarian_utopia": 0.02
    },
    "factor_effect": {
-    "F7": 0.03
+    "F7": 0.02
    }
   },
   {
@@ -165,12 +169,12 @@
    "sources": [
     "https://nypost.com/2026/07/20/business/most-american-voters-have-favorable-view-of-ai-despite-media-focus-on-controversies-poll/"
    ],
-   "points": 0.09,
+   "points": 0.07,
    "contribution": {
-    "reversion": -0.09
+    "reversion": -0.07
    },
    "factor_effect": {
-    "F9": -0.09
+    "F9": -0.07
    }
   },
   {
@@ -195,17 +199,17 @@
    "sources": [
     "https://siliconangle.com/2026/07/20/hugging-face-uses-open-weights-z-ai-glm-5-2-defend-attacker-commercial-frontier-model-refusal/"
    ],
-   "points": 0.15,
+   "points": 0.12,
    "contribution": {
-    "libertarian_utopia": 0.09,
-    "benevolent_dictator": -0.07,
-    "egalitarian_utopia": 0.06,
-    "enslaved_god": -0.09,
-    "zookeeper": -0.06,
-    "orwell_1984": -0.06
+    "libertarian_utopia": 0.07,
+    "benevolent_dictator": -0.06,
+    "egalitarian_utopia": 0.05,
+    "enslaved_god": -0.07,
+    "zookeeper": -0.05,
+    "orwell_1984": -0.05
    },
    "factor_effect": {
-    "F5": -0.15
+    "F5": -0.12
    }
   },
   {
@@ -230,16 +234,16 @@
    "sources": [
     "https://federalnewsnetwork.com/defense-news/2026/07/accenture-wins-821m-pentagon-ai-data-platform-contract/"
    ],
-   "points": 0.3,
+   "points": 0.24,
    "contribution": {
-    "libertarian_utopia": -0.15,
-    "egalitarian_utopia": -0.12,
-    "conquerors": 0.09,
-    "reversion": 0.12,
-    "self_destruction": 0.33
+    "libertarian_utopia": -0.12,
+    "egalitarian_utopia": -0.1,
+    "conquerors": 0.07,
+    "reversion": 0.1,
+    "self_destruction": 0.26
    },
    "factor_effect": {
-    "F8": 0.3
+    "F8": 0.24
    }
   },
   {
@@ -272,15 +276,15 @@
    "contribution": {
     "libertarian_utopia": -0.02,
     "benevolent_dictator": 0.01,
-    "egalitarian_utopia": -0.02,
+    "egalitarian_utopia": -0.01,
     "protector_god": 0.01,
     "gatekeeper": 0.01,
     "enslaved_god": -0.01,
     "conquerors": 0.02,
     "descendants": 0.01,
     "zookeeper": 0.01,
-    "reversion": 0.02,
-    "self_destruction": 0.05
+    "reversion": 0.01,
+    "self_destruction": 0.04
    },
    "factor_effect": {
     "F2": 0.02,

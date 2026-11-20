@@ -1,109 +1,113 @@
 {
  "date": "2026-11-16",
- "rules_version": "1.2.0",
+ "rules_version": "1.3.0",
  "scores": {
-  "libertarian_utopia": 13.35,
-  "benevolent_dictator": 23.67,
-  "egalitarian_utopia": 1.41,
-  "protector_god": 18.64,
-  "gatekeeper": 19.86,
-  "enslaved_god": 39.44,
-  "conquerors": 44.69,
-  "descendants": 31.87,
-  "zookeeper": 33.93,
-  "orwell_1984": 22.34,
-  "reversion": 7.9,
-  "self_destruction": 38.54
+  "libertarian_utopia": 20.45,
+  "benevolent_dictator": 20.96,
+  "egalitarian_utopia": 8.33,
+  "protector_god": 13.22,
+  "gatekeeper": 15.86,
+  "enslaved_god": 34.31,
+  "conquerors": 31.15,
+  "descendants": 21.44,
+  "zookeeper": 21.28,
+  "orwell_1984": 24.2,
+  "reversion": 9.38,
+  "self_destruction": 30.34
  },
  "deltas": {
-  "libertarian_utopia": -0.53,
-  "benevolent_dictator": 0.52,
-  "egalitarian_utopia": -0.38,
-  "protector_god": 0.34,
-  "gatekeeper": 0.19,
-  "enslaved_god": 0.06,
-  "conquerors": 0.39,
-  "descendants": 0.27,
-  "zookeeper": 0.29,
-  "orwell_1984": 0.12,
-  "reversion": 0.39,
-  "self_destruction": 1.0
+  "libertarian_utopia": -0.2,
+  "benevolent_dictator": 0.22,
+  "egalitarian_utopia": -0.13,
+  "protector_god": 0.09,
+  "gatekeeper": 0.04,
+  "enslaved_god": -0.03,
+  "conquerors": 0.07,
+  "descendants": 0.03,
+  "zookeeper": 0.03,
+  "orwell_1984": 0.08,
+  "reversion": 0.21,
+  "self_destruction": 0.4
  },
  "targets": {
-  "libertarian_utopia": 13.35,
-  "benevolent_dictator": 23.67,
-  "egalitarian_utopia": 1.41,
-  "protector_god": 18.64,
-  "gatekeeper": 19.86,
-  "enslaved_god": 39.44,
-  "conquerors": 44.69,
-  "descendants": 31.87,
-  "zookeeper": 33.93,
-  "orwell_1984": 22.34,
-  "reversion": 7.9,
-  "self_destruction": 38.54
+  "libertarian_utopia": 20.45,
+  "benevolent_dictator": 20.96,
+  "egalitarian_utopia": 8.33,
+  "protector_god": 13.22,
+  "gatekeeper": 15.86,
+  "enslaved_god": 34.31,
+  "conquerors": 31.15,
+  "descendants": 21.44,
+  "zookeeper": 21.28,
+  "orwell_1984": 24.2,
+  "reversion": 9.38,
+  "self_destruction": 30.34
  },
  "momentum_7d": {
-  "libertarian_utopia": -1.48,
-  "benevolent_dictator": 0.91,
-  "egalitarian_utopia": -1.14,
-  "protector_god": 0.78,
-  "gatekeeper": 0.7,
+  "libertarian_utopia": -0.57,
+  "benevolent_dictator": 0.49,
+  "egalitarian_utopia": -0.39,
+  "protector_god": 0.41,
+  "gatekeeper": 0.5,
   "enslaved_god": -0.04,
-  "conquerors": 2.03,
-  "descendants": 1.31,
-  "zookeeper": 1.64,
-  "orwell_1984": 0.13,
-  "reversion": 0.46,
-  "self_destruction": 2.24
+  "conquerors": 0.73,
+  "descendants": 0.5,
+  "zookeeper": 0.58,
+  "orwell_1984": 0.16,
+  "reversion": 0.17,
+  "self_destruction": 0.84
  },
  "factors": {
-  "F1": 87.6,
-  "F2": 57.52,
-  "F3": 28.8,
-  "F4": 26.69,
-  "F5": 67.06,
-  "F6": 45.59,
-  "F7": 31.98,
-  "F8": 69.64,
-  "F9": 47.8,
-  "F10": 20.75
+  "F1": 75.79,
+  "F2": 52.09,
+  "F3": 33.25,
+  "F4": 26.23,
+  "F5": 63.89,
+  "F6": 45.32,
+  "F7": 33.44,
+  "F8": 63.6,
+  "F9": 44.62,
+  "F10": 20.63
  },
  "factor_deltas": {
-  "F1": -0.03,
-  "F2": 0.49,
-  "F3": 0.17,
-  "F4": -0.07,
-  "F5": 0.23,
-  "F6": 0.05,
+  "F1": -0.14,
+  "F2": 0.19,
+  "F3": 0.11,
+  "F4": -0.04,
+  "F5": 0.1,
+  "F6": 0.02,
   "F7": 0.01,
-  "F8": 0.94,
-  "F9": -0.01,
+  "F8": 0.39,
+  "F9": -0.02,
   "F10": -0.0
  },
  "composites": {
-  "horizon_balance": -20.61,
+  "horizon_balance": -11.0,
   "families": {
-   "flourishing": 14.27,
-   "contained": 29.65,
-   "successors": 36.83,
-   "stalled": 22.93
+   "flourishing": 15.74,
+   "contained": 25.08,
+   "successors": 24.62,
+   "stalled": 21.31
   },
-  "news_heat": 2.66,
+  "news_heat": 1.18,
   "evidence": "medium",
   "event_count": 9
  },
  "badges": [],
  "speed_limited": [],
  "fading_contribution": {
-  "libertarian_utopia": -0.01,
-  "benevolent_dictator": -0.03,
-  "protector_god": -0.04,
-  "gatekeeper": -0.06,
-  "enslaved_god": -0.04,
-  "descendants": -0.03,
-  "zookeeper": -0.01,
-  "self_destruction": 0.01
+  "libertarian_utopia": 0.03,
+  "benevolent_dictator": -0.02,
+  "egalitarian_utopia": 0.03,
+  "protector_god": -0.08,
+  "gatekeeper": -0.07,
+  "enslaved_god": -0.07,
+  "conquerors": -0.11,
+  "descendants": -0.11,
+  "zookeeper": -0.1,
+  "orwell_1984": 0.03,
+  "reversion": 0.04,
+  "self_destruction": -0.04
  },
  "summary": {
   "headline": "Google sees first autonomous AI exploit attack; US plans AI 'national champions'",
@@ -142,7 +146,7 @@
     "https://technode.com/2026/11/16/alibaba-launches-qwen4-max-with-lower-api-prices-and-a-million-token-context-window/",
     "https://www.business-standard.com/amp/world-news/alibaba-says-qwen4-max-cuts-task-costs-by-60-boosts-cyber-safeguards-126111600895_1.html"
    ],
-   "points": 0.05,
+   "points": 0.02,
    "contribution": {
     "protector_god": 0.01,
     "gatekeeper": 0.01,
@@ -180,14 +184,14 @@
     "https://hongkongfp.com/2026/11/16/hong-kong-police-activate-facial-recognition-across-ai-enabled-cctv-network-as-police-chief-says-tools-wont-be-abused/",
     "https://dimsumdaily.hk/joe-chow-says-smartview-facial-recognition-starts-16th-november-to-protect-citizens-and-deter-crime"
    ],
-   "points": 0.04,
+   "points": 0.02,
    "contribution": {
-    "benevolent_dictator": 0.02,
+    "benevolent_dictator": 0.01,
     "protector_god": -0.01,
-    "orwell_1984": 0.04
+    "orwell_1984": 0.02
    },
    "factor_effect": {
-    "F6": 0.04
+    "F6": 0.02
    }
   },
   {
@@ -217,20 +221,20 @@
     "https://www.wsj.com/tech/ai/trump-administration-to-name-nvidia-among-ai-national-champions-c9284344",
     "https://thenextweb.com/news/ai-national-champions-nvidia-openai-anthropic-trump"
    ],
-   "points": 0.24,
+   "points": 0.11,
    "contribution": {
-    "libertarian_utopia": -0.14,
-    "benevolent_dictator": 0.12,
-    "egalitarian_utopia": -0.1,
-    "gatekeeper": -0.07,
-    "enslaved_god": 0.14,
-    "zookeeper": 0.1,
-    "orwell_1984": 0.05,
-    "self_destruction": 0.05
+    "libertarian_utopia": -0.06,
+    "benevolent_dictator": 0.05,
+    "egalitarian_utopia": -0.04,
+    "gatekeeper": -0.03,
+    "enslaved_god": 0.06,
+    "zookeeper": 0.04,
+    "orwell_1984": 0.02,
+    "self_destruction": 0.02
    },
    "factor_effect": {
-    "F4": -0.11,
-    "F5": 0.24
+    "F4": -0.05,
+    "F5": 0.11
    }
   },
   {
@@ -256,7 +260,7 @@
     "https://www.ft.com/content/3062790a-553d-41b8-9c7d-bae17b9d2e29",
     "https://aiweekly.co/alerts/congress-backs-ai-chip-bills-aimed-at-chinas-overseas-workaround"
    ],
-   "points": 0.07,
+   "points": 0.03,
    "contribution": {
     "protector_god": -0.01,
     "gatekeeper": -0.01,
@@ -298,19 +302,18 @@
     "https://english.aawsat.com/business/5341778-chip-tensions-loom-over-trump-xi-summit-us-and-china-push-ai-safety-steps",
     "https://za.investing.com/news/stock-market-news/chip-tensions-loom-over-trumpxi-summit-as-us-and-china-push-ai-safety-steps-4577069"
    ],
-   "points": 0.07,
+   "points": 0.03,
    "contribution": {
-    "libertarian_utopia": 0.02,
+    "libertarian_utopia": 0.01,
     "egalitarian_utopia": 0.01,
-    "gatekeeper": 0.04,
-    "conquerors": -0.01,
-    "orwell_1984": 0.03,
+    "gatekeeper": 0.02,
+    "orwell_1984": 0.01,
     "reversion": -0.01,
-    "self_destruction": -0.07
+    "self_destruction": -0.03
    },
    "factor_effect": {
-    "F4": 0.06,
-    "F8": -0.04
+    "F4": 0.03,
+    "F8": -0.02
    }
   },
   {
@@ -335,19 +338,19 @@
    "sources": [
     "https://www.cbsnews.com/news/nvidia-jensen-huang-commerce-department-limit-remote-access-ai-chips/"
    ],
-   "points": 0.14,
+   "points": 0.06,
    "contribution": {
     "protector_god": -0.03,
     "gatekeeper": -0.02,
-    "enslaved_god": -0.04,
+    "enslaved_god": -0.03,
     "conquerors": -0.03,
-    "descendants": -0.04,
+    "descendants": -0.03,
     "zookeeper": -0.03,
     "orwell_1984": 0.02,
-    "reversion": 0.04
+    "reversion": 0.03
    },
    "factor_effect": {
-    "F1": -0.06
+    "F1": -0.05
    }
   },
   {
@@ -372,10 +375,10 @@
    "sources": [
     "https://www.tencent.com/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows/"
    ],
-   "points": 0.17,
+   "points": 0.07,
    "contribution": {
     "protector_god": 0.03,
-    "gatekeeper": 0.03,
+    "gatekeeper": 0.02,
     "enslaved_god": 0.04,
     "conquerors": 0.03,
     "descendants": 0.04,
@@ -384,7 +387,7 @@
     "reversion": -0.04
    },
    "factor_effect": {
-    "F1": 0.07
+    "F1": 0.06
    }
   },
   {
@@ -415,23 +418,23 @@
     "https://www.theregister.com/research/2026/11/16/google-ai-agent-turned-a-security-patch-into-a-working-exploit-with-no-human-help/5309926",
     "https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage"
    ],
-   "points": 1.0,
+   "points": 0.44,
    "contribution": {
-    "libertarian_utopia": -0.5,
-    "benevolent_dictator": 0.3,
-    "egalitarian_utopia": -0.4,
-    "protector_god": 0.25,
-    "gatekeeper": 0.15,
-    "enslaved_god": -0.15,
-    "conquerors": 0.55,
-    "descendants": 0.3,
-    "zookeeper": 0.3,
-    "reversion": 0.4,
-    "self_destruction": 1.09
+    "libertarian_utopia": -0.22,
+    "benevolent_dictator": 0.13,
+    "egalitarian_utopia": -0.18,
+    "protector_god": 0.11,
+    "gatekeeper": 0.07,
+    "enslaved_god": -0.07,
+    "conquerors": 0.24,
+    "descendants": 0.13,
+    "zookeeper": 0.13,
+    "reversion": 0.18,
+    "self_destruction": 0.49
    },
    "factor_effect": {
-    "F2": 0.5,
-    "F8": 0.99
+    "F2": 0.22,
+    "F8": 0.44
    }
   },
   {
@@ -457,20 +460,20 @@
     "https://openai.com/index/our-first-phase-of-embedded-assessments/",
     "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/"
    ],
-   "points": 0.21,
+   "points": 0.09,
    "contribution": {
-    "libertarian_utopia": 0.1,
-    "benevolent_dictator": 0.1,
-    "egalitarian_utopia": 0.1,
-    "protector_god": 0.15,
-    "gatekeeper": 0.13,
-    "enslaved_god": 0.1,
-    "conquerors": -0.15,
-    "zookeeper": -0.1,
-    "self_destruction": -0.08
+    "libertarian_utopia": 0.05,
+    "benevolent_dictator": 0.05,
+    "egalitarian_utopia": 0.05,
+    "protector_god": 0.07,
+    "gatekeeper": 0.06,
+    "enslaved_god": 0.05,
+    "conquerors": -0.07,
+    "zookeeper": -0.05,
+    "self_destruction": -0.04
    },
    "factor_effect": {
-    "F3": 0.21
+    "F3": 0.09
    }
   }
  ]

@@ -1,104 +1,112 @@
 {
  "date": "2026-05-19",
- "rules_version": "1.2.0",
+ "rules_version": "1.3.0",
  "scores": {
-  "libertarian_utopia": 28.55,
-  "benevolent_dictator": 22.12,
-  "egalitarian_utopia": 15.62,
-  "protector_god": 14.62,
-  "gatekeeper": 16.07,
-  "enslaved_god": 37.33,
-  "conquerors": 18.15,
-  "descendants": 15.46,
-  "zookeeper": 11.39,
-  "orwell_1984": 24.45,
-  "reversion": 5.22,
-  "self_destruction": 20.46
+  "libertarian_utopia": 28.66,
+  "benevolent_dictator": 21.82,
+  "egalitarian_utopia": 15.82,
+  "protector_god": 13.92,
+  "gatekeeper": 15.59,
+  "enslaved_god": 36.71,
+  "conquerors": 17.39,
+  "descendants": 14.54,
+  "zookeeper": 10.59,
+  "orwell_1984": 24.71,
+  "reversion": 5.75,
+  "self_destruction": 20.26
  },
  "deltas": {
-  "libertarian_utopia": -0.01,
-  "benevolent_dictator": 0.7,
-  "egalitarian_utopia": -0.04,
-  "protector_god": 0.82,
-  "gatekeeper": 0.58,
-  "enslaved_god": 0.4,
-  "conquerors": 0.62,
-  "descendants": 1.06,
-  "zookeeper": 0.85,
-  "orwell_1984": -0.07,
-  "reversion": -0.39,
-  "self_destruction": -0.06
+  "libertarian_utopia": -0.0,
+  "benevolent_dictator": 0.46,
+  "egalitarian_utopia": -0.02,
+  "protector_god": 0.54,
+  "gatekeeper": 0.38,
+  "enslaved_god": 0.26,
+  "conquerors": 0.4,
+  "descendants": 0.69,
+  "zookeeper": 0.55,
+  "orwell_1984": -0.05,
+  "reversion": -0.26,
+  "self_destruction": -0.05
  },
  "targets": {
-  "libertarian_utopia": 28.55,
-  "benevolent_dictator": 22.12,
-  "egalitarian_utopia": 15.62,
-  "protector_god": 14.62,
-  "gatekeeper": 16.07,
-  "enslaved_god": 37.33,
-  "conquerors": 18.15,
-  "descendants": 15.46,
-  "zookeeper": 11.39,
-  "orwell_1984": 24.45,
-  "reversion": 5.22,
-  "self_destruction": 20.46
+  "libertarian_utopia": 28.66,
+  "benevolent_dictator": 21.82,
+  "egalitarian_utopia": 15.82,
+  "protector_god": 13.92,
+  "gatekeeper": 15.59,
+  "enslaved_god": 36.71,
+  "conquerors": 17.39,
+  "descendants": 14.54,
+  "zookeeper": 10.59,
+  "orwell_1984": 24.71,
+  "reversion": 5.75,
+  "self_destruction": 20.26
  },
  "momentum_7d": {
-  "libertarian_utopia": -0.63,
-  "benevolent_dictator": 1.27,
-  "egalitarian_utopia": -0.43,
-  "protector_god": 0.87,
-  "gatekeeper": 0.59,
-  "enslaved_god": 0.94,
-  "conquerors": 0.72,
-  "descendants": 1.15,
-  "zookeeper": 1.35,
-  "orwell_1984": 0.32,
-  "reversion": -0.43,
-  "self_destruction": -0.04
+  "libertarian_utopia": -0.6,
+  "benevolent_dictator": 1.01,
+  "egalitarian_utopia": -0.37,
+  "protector_god": 0.49,
+  "gatekeeper": 0.34,
+  "enslaved_god": 0.68,
+  "conquerors": 0.38,
+  "descendants": 0.65,
+  "zookeeper": 0.94,
+  "orwell_1984": 0.4,
+  "reversion": -0.21,
+  "self_destruction": -0.08
  },
  "factors": {
-  "F1": 71.49,
-  "F2": 46.97,
+  "F1": 70.41,
+  "F2": 46.61,
   "F3": 42.1,
-  "F4": 23.6,
-  "F5": 63.29,
-  "F6": 45.6,
-  "F7": 33.21,
-  "F8": 56.64,
-  "F9": 40.66,
-  "F10": 20.23
+  "F4": 23.69,
+  "F5": 63.17,
+  "F6": 45.54,
+  "F7": 33.34,
+  "F8": 56.5,
+  "F9": 40.6,
+  "F10": 20.15
  },
  "factor_deltas": {
-  "F1": 0.64,
-  "F2": 0.8,
-  "F3": 0.15,
-  "F4": -0.0,
-  "F5": 0.3,
-  "F6": 0.0,
+  "F1": 0.41,
+  "F2": 0.53,
+  "F3": 0.1,
+  "F4": 0.0,
+  "F5": 0.2,
+  "F6": -0.0,
   "F7": 0.01,
-  "F8": 0.0,
+  "F8": -0.01,
   "F9": -0.01,
-  "F10": 0.24
+  "F10": 0.16
  },
  "composites": {
-  "horizon_balance": 1.61,
+  "horizon_balance": 1.82,
   "families": {
-   "flourishing": 20.23,
-   "contained": 26.7,
-   "successors": 15.0,
-   "stalled": 16.71
+   "flourishing": 20.06,
+   "contained": 26.15,
+   "successors": 14.17,
+   "stalled": 16.91
   },
-  "news_heat": 2.15,
+  "news_heat": 1.44,
   "evidence": "medium",
   "event_count": 6
  },
- "badges": [
-  "crossover"
- ],
+ "badges": [],
  "speed_limited": [],
  "fading_contribution": {
-  "reversion": -0.01
+  "benevolent_dictator": -0.01,
+  "egalitarian_utopia": 0.01,
+  "protector_god": -0.02,
+  "gatekeeper": -0.01,
+  "enslaved_god": -0.02,
+  "conquerors": -0.02,
+  "descendants": -0.02,
+  "zookeeper": -0.02,
+  "orwell_1984": 0.01,
+  "reversion": 0.01,
+  "self_destruction": -0.01
  },
  "summary": {
   "headline": "Google I/O pushes agents and models forward; Descendants climbs",
@@ -134,19 +142,19 @@
     "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/",
     "https://techcabal.com/2026/05/19/everything-announced-at-the-google-i-o-2026/"
    ],
-   "points": 0.56,
+   "points": 0.37,
    "contribution": {
-    "protector_god": 0.27,
-    "gatekeeper": 0.22,
-    "enslaved_god": 0.33,
-    "conquerors": 0.27,
-    "descendants": 0.33,
-    "zookeeper": 0.27,
-    "orwell_1984": -0.16,
-    "reversion": -0.33
+    "protector_god": 0.19,
+    "gatekeeper": 0.15,
+    "enslaved_god": 0.22,
+    "conquerors": 0.19,
+    "descendants": 0.22,
+    "zookeeper": 0.19,
+    "orwell_1984": -0.11,
+    "reversion": -0.22
    },
    "factor_effect": {
-    "F1": 0.54
+    "F1": 0.37
    }
   },
   {
@@ -172,18 +180,18 @@
     "https://9to5google.com/2026/05/19/google-io-2026-news/",
     "https://techcabal.com/2026/05/19/everything-announced-at-the-google-i-o-2026/"
    ],
-   "points": 0.8,
+   "points": 0.53,
    "contribution": {
-    "benevolent_dictator": 0.48,
-    "protector_god": 0.4,
-    "gatekeeper": 0.24,
-    "enslaved_god": -0.24,
-    "conquerors": 0.4,
-    "descendants": 0.48,
-    "zookeeper": 0.48
+    "benevolent_dictator": 0.32,
+    "protector_god": 0.27,
+    "gatekeeper": 0.16,
+    "enslaved_god": -0.16,
+    "conquerors": 0.27,
+    "descendants": 0.32,
+    "zookeeper": 0.32
    },
    "factor_effect": {
-    "F2": 0.8
+    "F2": 0.53
    }
   },
   {
@@ -208,19 +216,19 @@
    "sources": [
     "https://techcabal.com/2026/05/19/everything-announced-at-the-google-i-o-2026/"
    ],
-   "points": 0.1,
+   "points": 0.07,
    "contribution": {
-    "protector_god": 0.05,
-    "gatekeeper": 0.04,
-    "enslaved_god": 0.06,
-    "conquerors": 0.05,
-    "descendants": 0.06,
-    "zookeeper": 0.05,
-    "orwell_1984": -0.03,
-    "reversion": -0.06
+    "protector_god": 0.03,
+    "gatekeeper": 0.03,
+    "enslaved_god": 0.04,
+    "conquerors": 0.03,
+    "descendants": 0.04,
+    "zookeeper": 0.03,
+    "orwell_1984": -0.02,
+    "reversion": -0.04
    },
    "factor_effect": {
-    "F1": 0.1
+    "F1": 0.07
    }
   },
   {
@@ -245,13 +253,13 @@
    "sources": [
     "https://www.macrumors.com/2026/05/19/google-io-2026-roundup/"
    ],
-   "points": 0.24,
+   "points": 0.16,
    "contribution": {
-    "libertarian_utopia": 0.1,
-    "descendants": 0.19
+    "libertarian_utopia": 0.06,
+    "descendants": 0.13
    },
    "factor_effect": {
-    "F10": 0.24
+    "F10": 0.16
    }
   },
   {
@@ -276,20 +284,20 @@
    "sources": [
     "https://techcabal.com/2026/05/19/everything-announced-at-the-google-i-o-2026/"
    ],
-   "points": 0.15,
+   "points": 0.1,
    "contribution": {
-    "libertarian_utopia": 0.07,
-    "benevolent_dictator": 0.07,
-    "egalitarian_utopia": 0.07,
-    "protector_god": 0.1,
-    "gatekeeper": 0.09,
-    "enslaved_god": 0.07,
-    "conquerors": -0.1,
-    "zookeeper": -0.07,
-    "self_destruction": -0.06
+    "libertarian_utopia": 0.05,
+    "benevolent_dictator": 0.05,
+    "egalitarian_utopia": 0.05,
+    "protector_god": 0.07,
+    "gatekeeper": 0.06,
+    "enslaved_god": 0.05,
+    "conquerors": -0.07,
+    "zookeeper": -0.05,
+    "self_destruction": -0.04
    },
    "factor_effect": {
-    "F3": 0.15
+    "F3": 0.1
    }
   },
   {
@@ -314,17 +322,17 @@
    "sources": [
     "https://kpmg.com/xx/en/media/press-releases/2026/05/kpmg-and-anthropic-sign-global-alliance-and-launch-digital-gateway-powered-by-claude.html"
    ],
-   "points": 0.3,
+   "points": 0.2,
    "contribution": {
-    "libertarian_utopia": -0.18,
-    "benevolent_dictator": 0.15,
-    "egalitarian_utopia": -0.12,
-    "enslaved_god": 0.18,
-    "zookeeper": 0.12,
-    "orwell_1984": 0.12
+    "libertarian_utopia": -0.12,
+    "benevolent_dictator": 0.1,
+    "egalitarian_utopia": -0.08,
+    "enslaved_god": 0.12,
+    "zookeeper": 0.08,
+    "orwell_1984": 0.08
    },
    "factor_effect": {
-    "F5": 0.3
+    "F5": 0.2
    }
   }
  ]

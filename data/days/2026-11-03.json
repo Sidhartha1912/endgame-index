@@ -1,111 +1,115 @@
 {
  "date": "2026-11-03",
- "rules_version": "1.2.0",
+ "rules_version": "1.3.0",
  "scores": {
-  "libertarian_utopia": 15.31,
-  "benevolent_dictator": 22.79,
-  "egalitarian_utopia": 2.85,
-  "protector_god": 17.47,
-  "gatekeeper": 18.45,
-  "enslaved_god": 39.19,
-  "conquerors": 42.31,
-  "descendants": 30.45,
-  "zookeeper": 32.61,
-  "orwell_1984": 22.19,
-  "reversion": 6.03,
-  "self_destruction": 34.6
+  "libertarian_utopia": 21.23,
+  "benevolent_dictator": 20.46,
+  "egalitarian_utopia": 8.82,
+  "protector_god": 12.8,
+  "gatekeeper": 15.1,
+  "enslaved_god": 34.4,
+  "conquerors": 30.58,
+  "descendants": 21.23,
+  "zookeeper": 21.22,
+  "orwell_1984": 23.85,
+  "reversion": 8.29,
+  "self_destruction": 28.61
  },
  "deltas": {
-  "libertarian_utopia": -0.27,
-  "benevolent_dictator": -0.13,
-  "egalitarian_utopia": -0.22,
-  "protector_god": -0.07,
-  "gatekeeper": 0.08,
-  "enslaved_god": -0.13,
-  "conquerors": 0.25,
-  "descendants": -0.01,
-  "zookeeper": -0.02,
-  "orwell_1984": 0.01,
-  "reversion": 0.23,
-  "self_destruction": 0.63
+  "libertarian_utopia": -0.12,
+  "benevolent_dictator": -0.08,
+  "egalitarian_utopia": -0.1,
+  "protector_god": -0.08,
+  "gatekeeper": 0.01,
+  "enslaved_god": -0.12,
+  "conquerors": 0.05,
+  "descendants": -0.09,
+  "zookeeper": -0.1,
+  "orwell_1984": 0.03,
+  "reversion": 0.17,
+  "self_destruction": 0.32
  },
  "targets": {
-  "libertarian_utopia": 15.31,
-  "benevolent_dictator": 22.79,
-  "egalitarian_utopia": 2.85,
-  "protector_god": 17.47,
-  "gatekeeper": 18.45,
-  "enslaved_god": 39.19,
-  "conquerors": 42.31,
-  "descendants": 30.45,
-  "zookeeper": 32.61,
-  "orwell_1984": 22.19,
-  "reversion": 6.03,
-  "self_destruction": 34.6
+  "libertarian_utopia": 21.23,
+  "benevolent_dictator": 20.46,
+  "egalitarian_utopia": 8.82,
+  "protector_god": 12.8,
+  "gatekeeper": 15.1,
+  "enslaved_god": 34.4,
+  "conquerors": 30.58,
+  "descendants": 21.23,
+  "zookeeper": 21.22,
+  "orwell_1984": 23.85,
+  "reversion": 8.29,
+  "self_destruction": 28.61
  },
  "momentum_7d": {
-  "libertarian_utopia": -0.22,
-  "benevolent_dictator": 0.06,
-  "egalitarian_utopia": -0.24,
-  "protector_god": 0.48,
-  "gatekeeper": 0.72,
-  "enslaved_god": 0.21,
-  "conquerors": 0.81,
-  "descendants": 0.8,
-  "zookeeper": 0.53,
-  "orwell_1984": -0.08,
-  "reversion": 0.41,
-  "self_destruction": 0.59
+  "libertarian_utopia": 0.07,
+  "benevolent_dictator": 0.01,
+  "egalitarian_utopia": 0.01,
+  "protector_god": 0.16,
+  "gatekeeper": 0.36,
+  "enslaved_god": 0.01,
+  "conquerors": 0.08,
+  "descendants": 0.25,
+  "zookeeper": -0.05,
+  "orwell_1984": 0.04,
+  "reversion": 0.28,
+  "self_destruction": 0.15
  },
  "factors": {
-  "F1": 86.51,
-  "F2": 56.18,
-  "F3": 28.78,
-  "F4": 25.89,
-  "F5": 67.08,
-  "F6": 45.39,
-  "F7": 31.81,
-  "F8": 65.69,
-  "F9": 46.86,
-  "F10": 20.79
+  "F1": 75.88,
+  "F2": 51.57,
+  "F3": 32.9,
+  "F4": 25.62,
+  "F5": 63.99,
+  "F6": 45.19,
+  "F7": 33.31,
+  "F8": 61.62,
+  "F9": 44.37,
+  "F10": 20.7
  },
  "factor_deltas": {
-  "F1": 0.01,
-  "F2": -0.02,
-  "F3": -0.09,
-  "F4": 0.19,
-  "F5": -0.15,
-  "F6": 0.0,
-  "F7": 0.02,
-  "F8": 0.62,
-  "F9": -0.01,
-  "F10": -0.0
+  "F1": -0.1,
+  "F2": -0.04,
+  "F3": -0.02,
+  "F4": 0.11,
+  "F5": -0.09,
+  "F6": -0.0,
+  "F7": 0.01,
+  "F8": 0.33,
+  "F9": -0.02,
+  "F10": -0.01
  },
  "composites": {
-  "horizon_balance": -18.32,
+  "horizon_balance": -10.24,
   "families": {
-   "flourishing": 14.61,
-   "contained": 28.82,
-   "successors": 35.12,
-   "stalled": 20.94
+   "flourishing": 15.83,
+   "contained": 24.75,
+   "successors": 24.34,
+   "stalled": 20.25
   },
-  "news_heat": 1.12,
+  "news_heat": 0.64,
   "evidence": "low",
   "event_count": 7
  },
- "badges": [],
+ "badges": [
+  "crossover"
+ ],
  "speed_limited": [],
  "fading_contribution": {
-  "libertarian_utopia": -0.01,
-  "benevolent_dictator": -0.03,
-  "protector_god": -0.04,
-  "gatekeeper": -0.02,
-  "enslaved_god": -0.03,
-  "conquerors": -0.01,
-  "descendants": -0.03,
-  "zookeeper": -0.02,
-  "orwell_1984": 0.01,
-  "reversion": 0.01
+  "libertarian_utopia": 0.03,
+  "benevolent_dictator": -0.02,
+  "egalitarian_utopia": 0.03,
+  "protector_god": -0.08,
+  "gatekeeper": -0.05,
+  "enslaved_god": -0.07,
+  "conquerors": -0.11,
+  "descendants": -0.11,
+  "zookeeper": -0.11,
+  "orwell_1984": 0.04,
+  "reversion": 0.05,
+  "self_destruction": -0.04
  },
  "summary": {
   "headline": "OpenAI hires ex-Army Secretary as AI security warnings mount",
@@ -139,16 +143,16 @@
    "sources": [
     "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years"
    ],
-   "points": 0.18,
+   "points": 0.1,
    "contribution": {
-    "libertarian_utopia": -0.09,
-    "egalitarian_utopia": -0.07,
-    "conquerors": 0.05,
-    "reversion": 0.07,
-    "self_destruction": 0.2
+    "libertarian_utopia": -0.05,
+    "egalitarian_utopia": -0.04,
+    "conquerors": 0.03,
+    "reversion": 0.04,
+    "self_destruction": 0.11
    },
    "factor_effect": {
-    "F8": 0.18
+    "F8": 0.1
    }
   },
   {
@@ -173,17 +177,17 @@
    "sources": [
     "https://www.anj.org.br/justica-proibe-meta-de-usar-conteudo-jornalistico-sem-autorizacao-apos-acao-de-anj-abert-e-aner/"
    ],
-   "points": 0.14,
+   "points": 0.08,
    "contribution": {
-    "libertarian_utopia": 0.09,
-    "benevolent_dictator": -0.07,
-    "egalitarian_utopia": 0.06,
-    "enslaved_god": -0.09,
-    "zookeeper": -0.06,
-    "orwell_1984": -0.06
+    "libertarian_utopia": 0.05,
+    "benevolent_dictator": -0.04,
+    "egalitarian_utopia": 0.03,
+    "enslaved_god": -0.05,
+    "zookeeper": -0.03,
+    "orwell_1984": -0.03
    },
    "factor_effect": {
-    "F5": -0.14
+    "F5": -0.08
    }
   },
   {
@@ -208,14 +212,14 @@
    "sources": [
     "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/transformacion-digital-y-funcion-publica/Paginas/2026/031126-alianza-iberoamericana-ia.aspx"
    ],
-   "points": 0.18,
+   "points": 0.1,
    "contribution": {
-    "gatekeeper": 0.13,
-    "orwell_1984": 0.07,
-    "self_destruction": -0.09
+    "gatekeeper": 0.07,
+    "orwell_1984": 0.04,
+    "self_destruction": -0.05
    },
    "factor_effect": {
-    "F4": 0.18
+    "F4": 0.1
    }
   },
   {
@@ -241,16 +245,16 @@
     "https://openai.com/index/dan-driscoll-joins-openai/",
     "https://kuwaittimes.com/article/52912/world/openai-hires-former-us-army-secretary-for-national-security-role/"
    ],
-   "points": 0.3,
+   "points": 0.17,
    "contribution": {
-    "libertarian_utopia": -0.15,
-    "egalitarian_utopia": -0.12,
-    "conquerors": 0.09,
-    "reversion": 0.12,
-    "self_destruction": 0.33
+    "libertarian_utopia": -0.09,
+    "egalitarian_utopia": -0.07,
+    "conquerors": 0.05,
+    "reversion": 0.07,
+    "self_destruction": 0.19
    },
    "factor_effect": {
-    "F8": 0.3
+    "F8": 0.17
    }
   },
   {
@@ -276,16 +280,16 @@
     "https://www.androidheadlines.com/2026/11/binance-crypto-hack-fake-job-interviews.html",
     "https://en.yna.co.kr/view/AEN20261104000400315"
    ],
-   "points": 0.15,
+   "points": 0.09,
    "contribution": {
-    "libertarian_utopia": -0.07,
-    "egalitarian_utopia": -0.06,
-    "conquerors": 0.04,
-    "reversion": 0.06,
-    "self_destruction": 0.16
+    "libertarian_utopia": -0.04,
+    "egalitarian_utopia": -0.03,
+    "conquerors": 0.03,
+    "reversion": 0.03,
+    "self_destruction": 0.09
    },
    "factor_effect": {
-    "F8": 0.15
+    "F8": 0.09
    }
   },
   {
@@ -310,20 +314,20 @@
    "sources": [
     "https://www.reuters.com/business/openai-employees-warned-about-operational-security-lapses-years-sources-say-2026-11-03/"
    ],
-   "points": 0.07,
+   "points": 0.04,
    "contribution": {
-    "libertarian_utopia": -0.03,
-    "benevolent_dictator": -0.03,
-    "egalitarian_utopia": -0.03,
-    "protector_god": -0.05,
-    "gatekeeper": -0.04,
-    "enslaved_god": -0.03,
-    "conquerors": 0.05,
-    "zookeeper": 0.03,
-    "self_destruction": 0.03
+    "libertarian_utopia": -0.02,
+    "benevolent_dictator": -0.02,
+    "egalitarian_utopia": -0.02,
+    "protector_god": -0.03,
+    "gatekeeper": -0.02,
+    "enslaved_god": -0.02,
+    "conquerors": 0.03,
+    "zookeeper": 0.02,
+    "self_destruction": 0.02
    },
    "factor_effect": {
-    "F3": -0.07
+    "F3": -0.04
    }
   },
   {
@@ -348,7 +352,7 @@
    "sources": [
     "https://www.theregister.com/on-prem/2026/11/03/drax-wants-to-feed-britains-ai-habit-with-20b-datacenter-at-biomass-power-station/5307237"
    ],
-   "points": 0.09,
+   "points": 0.05,
    "contribution": {
     "protector_god": 0.02,
     "gatekeeper": 0.02,

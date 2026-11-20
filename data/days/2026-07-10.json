@@ -1,93 +1,93 @@
 {
  "date": "2026-07-10",
- "rules_version": "1.2.0",
+ "rules_version": "1.3.0",
  "scores": {
-  "libertarian_utopia": 26.56,
-  "benevolent_dictator": 26.06,
-  "egalitarian_utopia": 14.37,
-  "protector_god": 19.13,
-  "gatekeeper": 18.75,
-  "enslaved_god": 42.54,
-  "conquerors": 21.09,
-  "descendants": 19.78,
-  "zookeeper": 15.88,
-  "orwell_1984": 24.2,
-  "reversion": 3.75,
-  "self_destruction": 21.83
+  "libertarian_utopia": 27.49,
+  "benevolent_dictator": 24.61,
+  "egalitarian_utopia": 15.36,
+  "protector_god": 16.5,
+  "gatekeeper": 17.27,
+  "enslaved_god": 39.68,
+  "conquerors": 18.3,
+  "descendants": 16.55,
+  "zookeeper": 12.62,
+  "orwell_1984": 25.06,
+  "reversion": 5.63,
+  "self_destruction": 20.94
  },
  "deltas": {
-  "libertarian_utopia": 0.0,
-  "benevolent_dictator": -0.01,
-  "egalitarian_utopia": 0.0,
-  "protector_god": 0.08,
-  "gatekeeper": 0.06,
-  "enslaved_god": 0.1,
-  "conquerors": 0.09,
-  "descendants": 0.1,
-  "zookeeper": 0.1,
+  "libertarian_utopia": 0.01,
+  "benevolent_dictator": -0.02,
+  "egalitarian_utopia": 0.01,
+  "protector_god": 0.05,
+  "gatekeeper": 0.05,
+  "enslaved_god": 0.07,
+  "conquerors": 0.07,
+  "descendants": 0.08,
+  "zookeeper": 0.07,
   "orwell_1984": -0.05,
-  "reversion": -0.12,
-  "self_destruction": -0.01
+  "reversion": -0.11,
+  "self_destruction": -0.02
  },
  "targets": {
-  "libertarian_utopia": 26.56,
-  "benevolent_dictator": 26.06,
-  "egalitarian_utopia": 14.37,
-  "protector_god": 19.13,
-  "gatekeeper": 18.75,
-  "enslaved_god": 42.54,
-  "conquerors": 21.09,
-  "descendants": 19.78,
-  "zookeeper": 15.88,
-  "orwell_1984": 24.2,
-  "reversion": 3.75,
-  "self_destruction": 21.83
+  "libertarian_utopia": 27.49,
+  "benevolent_dictator": 24.61,
+  "egalitarian_utopia": 15.36,
+  "protector_god": 16.5,
+  "gatekeeper": 17.27,
+  "enslaved_god": 39.68,
+  "conquerors": 18.3,
+  "descendants": 16.55,
+  "zookeeper": 12.62,
+  "orwell_1984": 25.06,
+  "reversion": 5.63,
+  "self_destruction": 20.94
  },
  "momentum_7d": {
-  "libertarian_utopia": -0.11,
-  "benevolent_dictator": 0.15,
-  "egalitarian_utopia": -0.07,
-  "protector_god": 0.27,
-  "gatekeeper": 0.27,
-  "enslaved_god": -0.13,
-  "conquerors": 0.7,
-  "descendants": 0.54,
-  "zookeeper": 0.49,
-  "orwell_1984": -0.0,
-  "reversion": -0.06,
-  "self_destruction": 0.42
+  "libertarian_utopia": -0.06,
+  "benevolent_dictator": 0.03,
+  "egalitarian_utopia": -0.02,
+  "protector_god": -0.0,
+  "gatekeeper": 0.08,
+  "enslaved_god": -0.39,
+  "conquerors": 0.42,
+  "descendants": 0.21,
+  "zookeeper": 0.19,
+  "orwell_1984": 0.08,
+  "reversion": 0.15,
+  "self_destruction": 0.36
  },
  "factors": {
-  "F1": 76.52,
-  "F2": 49.13,
-  "F3": 43.57,
-  "F4": 22.37,
-  "F5": 66.81,
-  "F6": 45.99,
-  "F7": 33.08,
-  "F8": 57.86,
-  "F9": 41.72,
-  "F10": 20.23
+  "F1": 72.39,
+  "F2": 47.92,
+  "F3": 43.53,
+  "F4": 23.18,
+  "F5": 65.59,
+  "F6": 45.74,
+  "F7": 33.57,
+  "F8": 57.41,
+  "F9": 41.3,
+  "F10": 20.21
  },
  "factor_deltas": {
-  "F1": 0.18,
-  "F2": 0.0,
+  "F1": 0.14,
+  "F2": -0.01,
   "F3": -0.02,
-  "F4": -0.0,
-  "F5": -0.0,
-  "F6": 0.0,
-  "F7": 0.0,
-  "F8": -0.02,
+  "F4": 0.01,
+  "F5": -0.02,
+  "F6": -0.0,
+  "F7": 0.01,
+  "F8": -0.03,
   "F9": -0.01,
   "F10": -0.0
  },
  "composites": {
-  "horizon_balance": 0.78,
+  "horizon_balance": 1.76,
   "families": {
-   "flourishing": 21.53,
-   "contained": 30.64,
-   "successors": 18.91,
-   "stalled": 16.59
+   "flourishing": 20.99,
+   "contained": 28.48,
+   "successors": 15.82,
+   "stalled": 17.21
   },
   "news_heat": 0.22,
   "evidence": "low",
@@ -98,14 +98,18 @@
  ],
  "speed_limited": [],
  "fading_contribution": {
-  "benevolent_dictator": -0.01,
-  "protector_god": -0.01,
-  "gatekeeper": -0.01,
-  "enslaved_god": -0.01,
-  "conquerors": 0.01,
-  "zookeeper": 0.01,
-  "reversion": -0.01,
-  "self_destruction": -0.01
+  "libertarian_utopia": 0.01,
+  "benevolent_dictator": -0.02,
+  "egalitarian_utopia": 0.01,
+  "protector_god": -0.05,
+  "gatekeeper": -0.04,
+  "enslaved_god": -0.05,
+  "conquerors": -0.03,
+  "descendants": -0.05,
+  "zookeeper": -0.04,
+  "orwell_1984": 0.01,
+  "reversion": 0.02,
+  "self_destruction": -0.02
  },
  "summary": {
   "headline": "Chipmakers boom: SK Hynix record listing, TSMC record quarter",
@@ -139,7 +143,7 @@
    "points": 0.07,
    "contribution": {
     "protector_god": 0.03,
-    "gatekeeper": 0.02,
+    "gatekeeper": 0.03,
     "enslaved_god": 0.04,
     "conquerors": 0.03,
     "descendants": 0.04,
@@ -148,7 +152,7 @@
     "reversion": -0.04
    },
    "factor_effect": {
-    "F1": 0.06
+    "F1": 0.07
    }
   },
   {
@@ -175,17 +179,17 @@
    ],
    "points": 0.15,
    "contribution": {
-    "protector_god": 0.06,
-    "gatekeeper": 0.05,
-    "enslaved_god": 0.07,
-    "conquerors": 0.06,
-    "descendants": 0.07,
-    "zookeeper": 0.06,
+    "protector_god": 0.07,
+    "gatekeeper": 0.06,
+    "enslaved_god": 0.08,
+    "conquerors": 0.07,
+    "descendants": 0.08,
+    "zookeeper": 0.07,
     "orwell_1984": -0.04,
-    "reversion": -0.07
+    "reversion": -0.08
    },
    "factor_effect": {
-    "F1": 0.12
+    "F1": 0.14
    }
   }
  ]

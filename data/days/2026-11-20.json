@@ -1,114 +1,118 @@
 {
  "date": "2026-11-20",
- "rules_version": "1.2.0",
+ "rules_version": "1.3.0",
  "scores": {
-  "libertarian_utopia": 12.08,
-  "benevolent_dictator": 23.23,
-  "egalitarian_utopia": 1.0,
-  "protector_god": 18.0,
-  "gatekeeper": 19.21,
-  "enslaved_god": 39.38,
-  "conquerors": 46.96,
-  "descendants": 32.82,
-  "zookeeper": 35.51,
-  "orwell_1984": 22.55,
-  "reversion": 8.65,
-  "self_destruction": 40.55
+  "libertarian_utopia": 19.87,
+  "benevolent_dictator": 20.59,
+  "egalitarian_utopia": 7.81,
+  "protector_god": 13.16,
+  "gatekeeper": 15.72,
+  "enslaved_god": 34.58,
+  "conquerors": 32.48,
+  "descendants": 22.15,
+  "zookeeper": 22.17,
+  "orwell_1984": 24.02,
+  "reversion": 9.42,
+  "self_destruction": 31.48
  },
  "deltas": {
-  "libertarian_utopia": -0.16,
-  "benevolent_dictator": -0.25,
-  "egalitarian_utopia": 0.0,
-  "protector_god": 0.13,
-  "gatekeeper": 0.06,
-  "enslaved_god": -0.1,
-  "conquerors": 0.39,
-  "descendants": 0.15,
-  "zookeeper": -0.02,
-  "orwell_1984": -0.32,
-  "reversion": 0.31,
-  "self_destruction": 0.9
+  "libertarian_utopia": -0.09,
+  "benevolent_dictator": -0.2,
+  "egalitarian_utopia": -0.09,
+  "protector_god": 0.19,
+  "gatekeeper": 0.12,
+  "enslaved_god": 0.03,
+  "conquerors": 0.32,
+  "descendants": 0.18,
+  "zookeeper": 0.01,
+  "orwell_1984": -0.31,
+  "reversion": 0.14,
+  "self_destruction": 0.67
  },
  "targets": {
-  "libertarian_utopia": 12.08,
-  "benevolent_dictator": 23.23,
-  "egalitarian_utopia": 1.0,
-  "protector_god": 18.0,
-  "gatekeeper": 19.21,
-  "enslaved_god": 39.38,
-  "conquerors": 46.96,
-  "descendants": 32.82,
-  "zookeeper": 35.51,
-  "orwell_1984": 22.55,
-  "reversion": 8.65,
-  "self_destruction": 40.55
+  "libertarian_utopia": 19.87,
+  "benevolent_dictator": 20.59,
+  "egalitarian_utopia": 7.81,
+  "protector_god": 13.16,
+  "gatekeeper": 15.72,
+  "enslaved_god": 34.58,
+  "conquerors": 32.48,
+  "descendants": 22.15,
+  "zookeeper": 22.17,
+  "orwell_1984": 24.02,
+  "reversion": 9.42,
+  "self_destruction": 31.48
  },
  "momentum_7d": {
-  "libertarian_utopia": -1.89,
-  "benevolent_dictator": 0.02,
-  "egalitarian_utopia": -0.85,
-  "protector_god": -0.39,
-  "gatekeeper": -0.27,
-  "enslaved_god": -0.06,
-  "conquerors": 2.72,
-  "descendants": 1.18,
-  "zookeeper": 1.87,
-  "orwell_1984": 0.47,
-  "reversion": 1.19,
-  "self_destruction": 3.0
+  "libertarian_utopia": -0.79,
+  "benevolent_dictator": -0.18,
+  "egalitarian_utopia": -0.65,
+  "protector_god": -0.1,
+  "gatekeeper": 0.05,
+  "enslaved_god": 0.12,
+  "conquerors": 1.25,
+  "descendants": 0.55,
+  "zookeeper": 0.74,
+  "orwell_1984": 0.1,
+  "reversion": 0.38,
+  "self_destruction": 1.42
  },
  "factors": {
-  "F1": 89.08,
-  "F2": 57.63,
-  "F3": 27.15,
-  "F4": 26.29,
-  "F5": 66.91,
-  "F6": 46.55,
-  "F7": 32.01,
-  "F8": 70.69,
-  "F9": 49.02,
-  "F10": 20.74
+  "F1": 77.06,
+  "F2": 52.03,
+  "F3": 32.49,
+  "F4": 25.98,
+  "F5": 63.67,
+  "F6": 45.75,
+  "F7": 33.47,
+  "F8": 64.24,
+  "F9": 45.17,
+  "F10": 20.62
  },
  "factor_deltas": {
-  "F1": 0.27,
-  "F2": -0.01,
-  "F3": -0.03,
-  "F4": -0.04,
-  "F5": -0.41,
-  "F6": -0.07,
+  "F1": 0.35,
+  "F2": -0.03,
+  "F3": 0.02,
+  "F4": -0.03,
+  "F5": -0.33,
+  "F6": -0.06,
   "F7": 0.01,
-  "F8": 0.78,
-  "F9": 0.16,
+  "F8": 0.6,
+  "F9": 0.11,
   "F10": -0.0
  },
  "composites": {
-  "horizon_balance": -22.81,
+  "horizon_balance": -12.18,
   "families": {
-   "flourishing": 13.58,
-   "contained": 29.29,
-   "successors": 38.43,
-   "stalled": 23.92
+   "flourishing": 15.36,
+   "contained": 25.15,
+   "successors": 25.6,
+   "stalled": 21.64
   },
-  "news_heat": 2.26,
+  "news_heat": 1.81,
   "evidence": "medium",
   "event_count": 5
  },
  "badges": [],
  "speed_limited": [],
  "fading_contribution": {
-  "libertarian_utopia": -0.01,
-  "benevolent_dictator": -0.03,
-  "protector_god": -0.04,
-  "gatekeeper": -0.05,
-  "enslaved_god": -0.04,
-  "descendants": -0.03,
-  "zookeeper": -0.01,
-  "self_destruction": 0.01
+  "libertarian_utopia": 0.04,
+  "benevolent_dictator": -0.02,
+  "egalitarian_utopia": 0.04,
+  "protector_god": -0.08,
+  "gatekeeper": -0.07,
+  "enslaved_god": -0.08,
+  "conquerors": -0.12,
+  "descendants": -0.11,
+  "zookeeper": -0.11,
+  "orwell_1984": 0.03,
+  "reversion": 0.05,
+  "self_destruction": -0.04
  },
  "summary": {
   "headline": "EU Commission confirms AI-assisted cyberattack; House reveals 879,000 China chip approvals",
-  "body": "Two security stories led the day. The European Commission confirmed that attackers used an AI tool in a cyber campaign that took its payroll, medical reimbursement and translation systems offline for over 10 days, raising Catastrophic Risk by 0.80. House Foreign Affairs Chair Brian Mast released licence data showing Commerce approved more than 879,000 Nvidia and AMD AI chips for Chinese firms, some of them military-linked, between December and May. That added to Capability Velocity (+0.30) and lowered Power Concentration (-0.40). Smaller steps: California's attorney general subpoenaed Nvidia over possible China access to its chips, Signal switched on default blocks against AI assistants reading chats, and over 540 Google workers petitioned for AI-free Search in schools. Self-Destruction rose most, followed by Conquerors, while 1984 fell. Successors still leads the families. The Horizon Balance fell to -22.81 from -22.51.",
-  "movers_note": "Self-Destruction +0.9, almost entirely from the EU Commission cyberattack (+0.87), plus the Nvidia subpoena (+0.01). Conquerors +0.4, from the cyberattack (+0.24) and the China chip approvals data (+0.15). 1984 -0.3, mostly from the chip approvals data (-0.25) and Signal's AI-assistant blocks (-0.06).",
+  "body": "Two security stories led the day. The European Commission confirmed that attackers used an AI tool in a cyber campaign that took its payroll, medical reimbursement and translation systems offline for over 10 days, raising Catastrophic Risk by 0.64. House Foreign Affairs Chair Brian Mast released licence data showing Commerce approved more than 879,000 Nvidia and AMD AI chips for Chinese firms, some of them military-linked, between December and May. That added to Capability Velocity (+0.50) and lowered Power Concentration (-0.32). Smaller steps: California's attorney general subpoenaed Nvidia over possible China access to its chips, Signal switched on default blocks against AI assistants reading chats, and over 540 Google workers petitioned for AI-free Search in schools. Self-Destruction rose most, followed by Conquerors, while 1984 fell. Successors still leads the families. The Horizon Balance fell to -12.18 from -11.96.",
+  "movers_note": "Self-Destruction +0.7, almost entirely from the EU Commission cyberattack (+0.70), plus the Nvidia subpoena (+0.01). Conquerors +0.3, from the China chip approvals data (+0.25) and the cyberattack (+0.19), partly offset by fading (-0.12). 1984 -0.3, mostly from the chip approvals data (-0.28) and Signal's AI-assistant blocks (-0.05).",
   "coming_up": [
    "Commission investigation into the AI-assisted cyberattack continues, including possible staff data exposure",
    "Jensen Huang has agreed to testify before the House and Senate"
@@ -142,23 +146,23 @@
     "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
     "https://aiweekly.co/ai-news-today"
    ],
-   "points": 0.8,
+   "points": 0.64,
    "contribution": {
-    "libertarian_utopia": 0.24,
-    "benevolent_dictator": -0.2,
-    "egalitarian_utopia": 0.16,
-    "protector_god": 0.15,
-    "gatekeeper": 0.12,
-    "enslaved_god": -0.06,
-    "conquerors": 0.15,
-    "descendants": 0.18,
-    "zookeeper": -0.01,
-    "orwell_1984": -0.25,
-    "reversion": -0.18
+    "libertarian_utopia": 0.19,
+    "benevolent_dictator": -0.16,
+    "egalitarian_utopia": 0.13,
+    "protector_god": 0.25,
+    "gatekeeper": 0.2,
+    "enslaved_god": 0.11,
+    "conquerors": 0.25,
+    "descendants": 0.3,
+    "zookeeper": 0.12,
+    "orwell_1984": -0.28,
+    "reversion": -0.3
    },
    "factor_effect": {
-    "F1": 0.3,
-    "F5": -0.4
+    "F1": 0.5,
+    "F5": -0.32
    }
   },
   {
@@ -184,16 +188,16 @@
     "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/",
     "https://www.scworld.com/brief/cyberattack-disrupts-european-commission-services"
    ],
-   "points": 0.8,
+   "points": 0.64,
    "contribution": {
-    "libertarian_utopia": -0.4,
-    "egalitarian_utopia": -0.32,
-    "conquerors": 0.24,
-    "reversion": 0.32,
-    "self_destruction": 0.87
+    "libertarian_utopia": -0.32,
+    "egalitarian_utopia": -0.26,
+    "conquerors": 0.19,
+    "reversion": 0.26,
+    "self_destruction": 0.7
    },
    "factor_effect": {
-    "F8": 0.8
+    "F8": 0.64
    }
   },
   {
@@ -222,16 +226,16 @@
    "sources": [
     "https://www.cbsnews.com/sanfrancisco/news/california-nvidia-subpoena-jensen-huang-affair-alleged-chinese-spy/"
    ],
-   "points": 0.04,
+   "points": 0.03,
    "contribution": {
     "gatekeeper": -0.01,
     "orwell_1984": -0.01,
-    "reversion": 0.04,
+    "reversion": 0.03,
     "self_destruction": 0.01
    },
    "factor_effect": {
-    "F4": -0.02,
-    "F9": 0.04
+    "F4": -0.01,
+    "F9": 0.03
    }
   },
   {
@@ -260,16 +264,16 @@
    "sources": [
     "https://www.timeslive.co.za/news/sci-tech/2026-11-20-signal-restricts-screenshots-to-block-ai-agents-from-reading-messages/"
    ],
-   "points": 0.07,
+   "points": 0.06,
    "contribution": {
-    "benevolent_dictator": -0.03,
+    "benevolent_dictator": -0.02,
     "protector_god": 0.02,
-    "orwell_1984": -0.06,
-    "reversion": 0.04
+    "orwell_1984": -0.05,
+    "reversion": 0.03
    },
    "factor_effect": {
-    "F6": -0.07,
-    "F9": 0.04
+    "F6": -0.06,
+    "F9": 0.03
    }
   },
   {
@@ -294,12 +298,12 @@
    "sources": [
     "https://gizmodo.com/google-employees-petition-to-let-schools-use-search-without-ai-2000842549"
    ],
-   "points": 0.09,
+   "points": 0.07,
    "contribution": {
-    "reversion": 0.09
+    "reversion": 0.07
    },
    "factor_effect": {
-    "F9": 0.09
+    "F9": 0.07
    }
   }
  ]

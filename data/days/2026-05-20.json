@@ -1,95 +1,95 @@
 {
  "date": "2026-05-20",
- "rules_version": "1.2.0",
+ "rules_version": "1.3.0",
  "scores": {
-  "libertarian_utopia": 28.28,
-  "benevolent_dictator": 22.92,
-  "egalitarian_utopia": 15.24,
-  "protector_god": 16.14,
-  "gatekeeper": 17.19,
-  "enslaved_god": 38.33,
-  "conquerors": 20.06,
-  "descendants": 17.54,
-  "zookeeper": 13.48,
-  "orwell_1984": 24.01,
-  "reversion": 3.94,
-  "self_destruction": 20.56
+  "libertarian_utopia": 28.45,
+  "benevolent_dictator": 22.45,
+  "egalitarian_utopia": 15.53,
+  "protector_god": 15.17,
+  "gatekeeper": 16.52,
+  "enslaved_god": 37.55,
+  "conquerors": 18.95,
+  "descendants": 16.24,
+  "zookeeper": 12.29,
+  "orwell_1984": 24.33,
+  "reversion": 4.68,
+  "self_destruction": 20.33
  },
  "deltas": {
-  "libertarian_utopia": -0.27,
-  "benevolent_dictator": 0.8,
-  "egalitarian_utopia": -0.38,
-  "protector_god": 1.52,
-  "gatekeeper": 1.12,
-  "enslaved_god": 1.0,
-  "conquerors": 1.91,
-  "descendants": 2.08,
-  "zookeeper": 2.08,
-  "orwell_1984": -0.44,
-  "reversion": -1.28,
-  "self_destruction": 0.1
+  "libertarian_utopia": -0.21,
+  "benevolent_dictator": 0.63,
+  "egalitarian_utopia": -0.3,
+  "protector_god": 1.25,
+  "gatekeeper": 0.93,
+  "enslaved_god": 0.84,
+  "conquerors": 1.56,
+  "descendants": 1.71,
+  "zookeeper": 1.7,
+  "orwell_1984": -0.38,
+  "reversion": -1.07,
+  "self_destruction": 0.07
  },
  "targets": {
-  "libertarian_utopia": 28.28,
-  "benevolent_dictator": 22.92,
-  "egalitarian_utopia": 15.24,
-  "protector_god": 16.14,
-  "gatekeeper": 17.19,
-  "enslaved_god": 38.33,
-  "conquerors": 20.06,
-  "descendants": 17.54,
-  "zookeeper": 13.48,
-  "orwell_1984": 24.01,
-  "reversion": 3.94,
-  "self_destruction": 20.56
+  "libertarian_utopia": 28.45,
+  "benevolent_dictator": 22.45,
+  "egalitarian_utopia": 15.53,
+  "protector_god": 15.17,
+  "gatekeeper": 16.52,
+  "enslaved_god": 37.55,
+  "conquerors": 18.95,
+  "descendants": 16.24,
+  "zookeeper": 12.29,
+  "orwell_1984": 24.33,
+  "reversion": 4.68,
+  "self_destruction": 20.33
  },
  "momentum_7d": {
-  "libertarian_utopia": -0.89,
-  "benevolent_dictator": 2.07,
-  "egalitarian_utopia": -0.82,
-  "protector_god": 2.4,
-  "gatekeeper": 1.72,
-  "enslaved_god": 1.94,
-  "conquerors": 2.62,
-  "descendants": 3.23,
-  "zookeeper": 3.43,
-  "orwell_1984": -0.13,
-  "reversion": -1.7,
-  "self_destruction": 0.06
+  "libertarian_utopia": -0.81,
+  "benevolent_dictator": 1.65,
+  "egalitarian_utopia": -0.67,
+  "protector_god": 1.76,
+  "gatekeeper": 1.28,
+  "enslaved_god": 1.54,
+  "conquerors": 1.96,
+  "descendants": 2.38,
+  "zookeeper": 2.66,
+  "orwell_1984": 0.02,
+  "reversion": -1.28,
+  "self_destruction": -0.0
  },
  "factors": {
-  "F1": 73.74,
-  "F2": 48.2,
-  "F3": 41.86,
-  "F4": 23.6,
-  "F5": 63.54,
-  "F6": 45.75,
-  "F7": 32.97,
-  "F8": 56.64,
-  "F9": 40.73,
-  "F10": 20.22
+  "F1": 72.28,
+  "F2": 47.6,
+  "F3": 41.9,
+  "F4": 23.7,
+  "F5": 63.36,
+  "F6": 45.65,
+  "F7": 33.16,
+  "F8": 56.49,
+  "F9": 40.65,
+  "F10": 20.15
  },
  "factor_deltas": {
-  "F1": 2.25,
-  "F2": 1.23,
-  "F3": -0.24,
-  "F4": -0.0,
-  "F5": 0.24,
-  "F6": 0.15,
-  "F7": -0.23,
-  "F8": 0.0,
-  "F9": 0.07,
+  "F1": 1.87,
+  "F2": 0.98,
+  "F3": -0.2,
+  "F4": 0.0,
+  "F5": 0.19,
+  "F6": 0.12,
+  "F7": -0.18,
+  "F8": -0.01,
+  "F9": 0.05,
   "F10": -0.01
  },
  "composites": {
-  "horizon_balance": 1.12,
+  "horizon_balance": 1.42,
   "families": {
-   "flourishing": 20.64,
-   "contained": 27.76,
-   "successors": 17.03,
-   "stalled": 16.17
+   "flourishing": 20.4,
+   "contained": 27.04,
+   "successors": 15.83,
+   "stalled": 16.45
   },
-  "news_heat": 4.7,
+  "news_heat": 3.76,
   "evidence": "medium",
   "event_count": 5
  },
@@ -98,9 +98,17 @@
  ],
  "speed_limited": [],
  "fading_contribution": {
-  "libertarian_utopia": -0.01,
-  "descendants": -0.01,
-  "reversion": -0.01
+  "benevolent_dictator": -0.01,
+  "egalitarian_utopia": 0.01,
+  "protector_god": -0.02,
+  "gatekeeper": -0.02,
+  "enslaved_god": -0.02,
+  "conquerors": -0.02,
+  "descendants": -0.03,
+  "zookeeper": -0.02,
+  "orwell_1984": 0.01,
+  "reversion": 0.01,
+  "self_destruction": -0.01
  },
  "summary": {
   "headline": "OpenAI model disproves an Erdos conjecture; AI-takeover endings jump",
@@ -132,12 +140,12 @@
     "https://finance.yahoo.com/sectors/technology/articles/meta-layoffs-2026-8-000-114209703.html",
     "https://www.kxan.com/news/meta-layoffs-begin-as-company-cuts-8k-jobs-in-latest-ai-push/"
    ],
-   "points": 0.24,
+   "points": 0.19,
    "contribution": {
-    "egalitarian_utopia": -0.17
+    "egalitarian_utopia": -0.13
    },
    "factor_effect": {
-    "F7": -0.24
+    "F7": -0.19
    }
   },
   {
@@ -166,16 +174,16 @@
    "sources": [
     "https://www.eweek.com/news/meta-employee-tracking-ai-layoffs-neuron/"
    ],
-   "points": 0.15,
+   "points": 0.12,
    "contribution": {
-    "benevolent_dictator": 0.06,
+    "benevolent_dictator": 0.05,
     "protector_god": -0.04,
-    "orwell_1984": 0.13,
-    "reversion": 0.07
+    "orwell_1984": 0.11,
+    "reversion": 0.06
    },
    "factor_effect": {
-    "F6": 0.15,
-    "F9": 0.07
+    "F6": 0.12,
+    "F9": 0.06
    }
   },
   {
@@ -205,21 +213,21 @@
     "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
     "https://interestingengineering.com/ai-robotics/openai-paul-erdos-geometry-problem-cracked"
    ],
-   "points": 2.5,
+   "points": 2.0,
    "contribution": {
-    "benevolent_dictator": 0.74,
-    "protector_god": 1.74,
-    "gatekeeper": 1.27,
-    "enslaved_god": 0.98,
-    "conquerors": 1.74,
-    "descendants": 2.09,
-    "zookeeper": 1.86,
-    "orwell_1984": -0.67,
-    "reversion": -1.35
+    "benevolent_dictator": 0.59,
+    "protector_god": 1.45,
+    "gatekeeper": 1.06,
+    "enslaved_god": 0.85,
+    "conquerors": 1.45,
+    "descendants": 1.74,
+    "zookeeper": 1.55,
+    "orwell_1984": -0.57,
+    "reversion": -1.14
    },
    "factor_effect": {
-    "F1": 2.25,
-    "F2": 1.23
+    "F1": 1.91,
+    "F2": 0.99
    }
   },
   {
@@ -244,17 +252,17 @@
    "sources": [
     "https://www.cnbc.com/2026/05/20/anthropic-revenue-explosive-growth-ipo-profitable-quarter.html"
    ],
-   "points": 0.24,
+   "points": 0.19,
    "contribution": {
-    "libertarian_utopia": -0.14,
-    "benevolent_dictator": 0.12,
-    "egalitarian_utopia": -0.1,
-    "enslaved_god": 0.14,
-    "zookeeper": 0.1,
-    "orwell_1984": 0.1
+    "libertarian_utopia": -0.12,
+    "benevolent_dictator": 0.1,
+    "egalitarian_utopia": -0.08,
+    "enslaved_god": 0.12,
+    "zookeeper": 0.08,
+    "orwell_1984": 0.08
    },
    "factor_effect": {
-    "F5": 0.24
+    "F5": 0.19
    }
   },
   {
@@ -279,20 +287,20 @@
    "sources": [
     "https://time.com/article/2026/05/22/anthropic-claude-code-jack-clark-ai-safety/"
    ],
-   "points": 0.24,
+   "points": 0.19,
    "contribution": {
-    "libertarian_utopia": -0.12,
-    "benevolent_dictator": -0.12,
-    "egalitarian_utopia": -0.12,
-    "protector_god": -0.17,
-    "gatekeeper": -0.14,
-    "enslaved_god": -0.12,
-    "conquerors": 0.17,
-    "zookeeper": 0.12,
-    "self_destruction": 0.1
+    "libertarian_utopia": -0.1,
+    "benevolent_dictator": -0.1,
+    "egalitarian_utopia": -0.1,
+    "protector_god": -0.13,
+    "gatekeeper": -0.12,
+    "enslaved_god": -0.1,
+    "conquerors": 0.13,
+    "zookeeper": 0.1,
+    "self_destruction": 0.08
    },
    "factor_effect": {
-    "F3": -0.24
+    "F3": -0.19
    }
   }
  ]

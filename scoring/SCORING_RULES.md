@@ -267,12 +267,12 @@ Each event gets a **category** for the website: Labs & Models · Safety & Alignm
 | **Credibility** | A Primary · B Major outlet · C Tech press · D Opinion/blog · E Rumour | 1.0 · 0.8 · 0.5 · 0.25 · 0 (excluded) |
 | **Novelty** | New · Development on a known story · Rehash | 1.0 · 0.3 · 0 |
 | **Scope** | Global (frontier labs, US, China, EU, UN) · National · Local/niche | 1.0 · 0.6 · 0.3 |
-| **Track** | Structural (it happened) · Signal (words and intentions) | Permanent · fades with a 21-day half-life |
+| **Track** | Structural (it happened) · Signal (words and intentions) | Long-lasting (half-life 180 days) · fades with a 21-day half-life |
 
 > **Event points = Tier × Credibility × Novelty × Scope × Direction**
 >
 > *Example:* the EU fines a frontier lab under the AI Act. Reported by Reuters (B), it is new, global and structural, rated T3, with Global Coordination as the main factor and Alignment as the secondary.
-> → 2.5 × 0.8 × 1.0 × 1.0 = **+2.0** to Global Coordination and **+1.0** to Alignment, both permanent.
+> → 2.5 × 0.8 × 1.0 × 1.0 = **+2.0** to Global Coordination and **+1.0** to Alignment, both long-lasting.
 
 ### Step 3: Source credibility guide
 
@@ -306,9 +306,9 @@ Every **T3 or T4** event is rated a second time by a deliberately skeptical revi
 
 | Step | What happens | Why |
 |---|---|---|
-| **1. Daily pressure** | Add up each factor's event points. A smoothing curve caps the total near ±6. | Ten minor stories can't add up to a landmark. |
+| **1. Daily pressure** | Add up each factor's event points. On a day with more than 4 events, every event's points are scaled so the day counts as 4 events. A smoothing curve caps the total near ±6. | Ten minor stories can't add up to a landmark. |
 | **2. Edge softening** | Within 30 points of 0 or 100, moves toward the edge shrink gradually. | Factors approach the extremes without slamming into them. |
-| **3. Memory** | Structural effects stay; signal effects halve every 21 days. | Actions outweigh words; old talk fades. |
+| **3. Memory** | Signal effects halve every 21 days; structural effects halve every 180 days. Capability Velocity measures pace, so its effects halve every 45 days. | Actions outweigh words; old talk fades; a steady pace is not acceleration. |
 | **4. Ending target** | Target = starting level + 2 × (change in the ending's factor recipe since 14 April 2026) | Each ending follows its factors. |
 | **5. Speed limit** | The score shown moves **at most ±3 points per day** toward its target. | Big shocks play out over days, not in one jump, and nothing is lost. |
 | **6. Bounds** | Scores stay in 1–99; moves under 0.1 show as "no change". | No false certainty, no noise. |
@@ -427,7 +427,7 @@ Claude rates each event using the published rubric above, with a skeptic re-chec
 No. Duplicates are merged, rumours are excluded, daily pressure is smoothed and capped, and each ending can move at most 3 points a day.
 
 **Why does a line move on a day with no related news?**
-Signal effects (announcements, proposals, speeches) fade over time. A quiet stretch lets their effect drift away, while structural events stay.
+Signal effects (announcements, proposals, speeches) fade over time. A quiet stretch lets their effect drift away. Structural events fade too, but far more slowly.
 
 **Why 14 April 2026?**
 It's the start of the six months of history the index launched with. All movements are measured relative to that date.
@@ -444,7 +444,7 @@ Each day is saved as one record like this:
 ```json
 {
   "date": "2026-10-14",
-  "rules_version": "1.2.0",
+  "rules_version": "1.3.0",
   "scores": { "gatekeeper": 18.2, "enslaved_god": 36.1, "...": 0 },
   "deltas": { "gatekeeper": 1.4, "enslaved_god": 0.3, "...": 0 },
   "factors": { "F1": 52.3, "F4": 54.6, "...": 0 },

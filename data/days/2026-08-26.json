@@ -1,107 +1,113 @@
 {
  "date": "2026-08-26",
- "rules_version": "1.2.0",
+ "rules_version": "1.3.0",
  "scores": {
-  "libertarian_utopia": 23.13,
-  "benevolent_dictator": 24.66,
-  "egalitarian_utopia": 10.86,
-  "protector_god": 19.28,
-  "gatekeeper": 19.46,
-  "enslaved_god": 41.71,
-  "conquerors": 27.82,
-  "descendants": 23.16,
-  "zookeeper": 20.96,
-  "orwell_1984": 22.83,
-  "reversion": 4.35,
-  "self_destruction": 25.92
+  "libertarian_utopia": 25.13,
+  "benevolent_dictator": 22.52,
+  "egalitarian_utopia": 12.91,
+  "protector_god": 14.76,
+  "gatekeeper": 16.79,
+  "enslaved_god": 36.94,
+  "conquerors": 22.63,
+  "descendants": 17.6,
+  "zookeeper": 15.4,
+  "orwell_1984": 24.58,
+  "reversion": 7.08,
+  "self_destruction": 23.36
  },
  "deltas": {
   "libertarian_utopia": 0.12,
-  "benevolent_dictator": -0.01,
+  "benevolent_dictator": -0.02,
   "egalitarian_utopia": 0.14,
-  "protector_god": -0.01,
-  "gatekeeper": 0.05,
-  "enslaved_god": -0.05,
-  "conquerors": 0.07,
-  "descendants": 0.08,
-  "zookeeper": -0.01,
-  "orwell_1984": 0.1,
-  "reversion": -0.09,
-  "self_destruction": -0.0
+  "protector_god": -0.03,
+  "gatekeeper": 0.02,
+  "enslaved_god": -0.06,
+  "conquerors": 0.02,
+  "descendants": 0.03,
+  "zookeeper": -0.05,
+  "orwell_1984": 0.08,
+  "reversion": -0.07,
+  "self_destruction": -0.02
  },
  "targets": {
-  "libertarian_utopia": 23.13,
-  "benevolent_dictator": 24.66,
-  "egalitarian_utopia": 10.86,
-  "protector_god": 19.28,
-  "gatekeeper": 19.46,
-  "enslaved_god": 41.71,
-  "conquerors": 27.82,
-  "descendants": 23.16,
-  "zookeeper": 20.96,
-  "orwell_1984": 22.83,
-  "reversion": 4.35,
-  "self_destruction": 25.92
+  "libertarian_utopia": 25.13,
+  "benevolent_dictator": 22.52,
+  "egalitarian_utopia": 12.91,
+  "protector_god": 14.76,
+  "gatekeeper": 16.79,
+  "enslaved_god": 36.94,
+  "conquerors": 22.63,
+  "descendants": 17.6,
+  "zookeeper": 15.4,
+  "orwell_1984": 24.58,
+  "reversion": 7.08,
+  "self_destruction": 23.36
  },
  "momentum_7d": {
-  "libertarian_utopia": -0.68,
-  "benevolent_dictator": -0.04,
-  "egalitarian_utopia": -0.47,
-  "protector_god": 0.42,
-  "gatekeeper": 0.4,
-  "enslaved_god": 0.15,
-  "conquerors": 0.55,
-  "descendants": 0.21,
-  "zookeeper": 0.04,
-  "orwell_1984": -0.34,
-  "reversion": 0.61,
-  "self_destruction": 1.69
+  "libertarian_utopia": -0.33,
+  "benevolent_dictator": -0.07,
+  "egalitarian_utopia": -0.17,
+  "protector_god": 0.08,
+  "gatekeeper": 0.1,
+  "enslaved_god": -0.09,
+  "conquerors": 0.04,
+  "descendants": -0.16,
+  "zookeeper": -0.31,
+  "orwell_1984": -0.13,
+  "reversion": 0.58,
+  "self_destruction": 1.03
  },
  "factors": {
-  "F1": 80.11,
-  "F2": 51.27,
-  "F3": 39.29,
-  "F4": 24.08,
-  "F5": 66.47,
-  "F6": 45.05,
-  "F7": 32.59,
-  "F8": 60.8,
-  "F9": 43.29,
-  "F10": 20.16
+  "F1": 72.89,
+  "F2": 49.26,
+  "F3": 39.35,
+  "F4": 25.21,
+  "F5": 64.67,
+  "F6": 44.88,
+  "F7": 33.44,
+  "F8": 59.0,
+  "F9": 42.41,
+  "F10": 20.13
  },
  "factor_deltas": {
-  "F1": 0.13,
-  "F2": -0.0,
-  "F3": -0.01,
-  "F4": 0.01,
-  "F5": -0.21,
-  "F6": 0.24,
-  "F7": 0.09,
-  "F8": -0.0,
-  "F9": -0.01,
+  "F1": 0.07,
+  "F2": -0.02,
+  "F3": 0.0,
+  "F4": 0.0,
+  "F5": -0.18,
+  "F6": 0.2,
+  "F7": 0.08,
+  "F8": -0.02,
+  "F9": -0.02,
   "F10": -0.0
  },
  "composites": {
-  "horizon_balance": -4.9,
+  "horizon_balance": -2.66,
   "families": {
-   "flourishing": 19.48,
-   "contained": 30.58,
-   "successors": 23.98,
-   "stalled": 17.7
+   "flourishing": 18.83,
+   "contained": 26.87,
+   "successors": 18.54,
+   "stalled": 18.34
   },
-  "news_heat": 0.74,
+  "news_heat": 0.59,
   "evidence": "low",
   "event_count": 5
  },
  "badges": [],
  "speed_limited": [],
  "fading_contribution": {
+  "libertarian_utopia": 0.02,
   "benevolent_dictator": -0.01,
-  "protector_god": -0.01,
-  "enslaved_god": -0.01,
-  "conquerors": 0.01,
-  "orwell_1984": 0.01,
-  "reversion": -0.01
+  "egalitarian_utopia": 0.02,
+  "protector_god": -0.05,
+  "gatekeeper": -0.03,
+  "enslaved_god": -0.05,
+  "conquerors": -0.05,
+  "descendants": -0.06,
+  "zookeeper": -0.05,
+  "orwell_1984": 0.02,
+  "reversion": 0.02,
+  "self_destruction": -0.02
  },
  "summary": {
   "headline": "China's open GLM-5.3-Flash and Nvidia's record quarter",
@@ -133,17 +139,17 @@
     "https://huggingface.co/zai-org/GLM-5.3-Flash",
     "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek"
    ],
-   "points": 0.21,
+   "points": 0.17,
    "contribution": {
-    "libertarian_utopia": 0.13,
-    "benevolent_dictator": -0.1,
-    "egalitarian_utopia": 0.08,
-    "enslaved_god": -0.13,
-    "zookeeper": -0.08,
-    "orwell_1984": -0.08
+    "libertarian_utopia": 0.1,
+    "benevolent_dictator": -0.08,
+    "egalitarian_utopia": 0.07,
+    "enslaved_god": -0.1,
+    "zookeeper": -0.07,
+    "orwell_1984": -0.07
    },
    "factor_effect": {
-    "F5": -0.21
+    "F5": -0.17
    }
   },
   {
@@ -168,19 +174,19 @@
    "sources": [
     "https://www.grandlinux.com/en/blogs/ai-august-2569-roundup.html"
    ],
-   "points": 0.15,
+   "points": 0.12,
    "contribution": {
     "protector_god": 0.05,
     "gatekeeper": 0.04,
-    "enslaved_god": 0.06,
+    "enslaved_god": 0.07,
     "conquerors": 0.05,
-    "descendants": 0.06,
+    "descendants": 0.07,
     "zookeeper": 0.05,
     "orwell_1984": -0.03,
-    "reversion": -0.06
+    "reversion": -0.07
    },
    "factor_effect": {
-    "F1": 0.1
+    "F1": 0.11
    }
   },
   {
@@ -205,7 +211,7 @@
    "sources": [
     "https://time.com/article/2026/08/26/openai-sam-altman-interview/"
    ],
-   "points": 0.05,
+   "points": 0.04,
    "contribution": {
     "protector_god": 0.02,
     "gatekeeper": 0.01,
@@ -217,7 +223,7 @@
     "reversion": -0.02
    },
    "factor_effect": {
-    "F1": 0.03
+    "F1": 0.04
    }
   },
   {
@@ -242,12 +248,12 @@
    "sources": [
     "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/"
    ],
-   "points": 0.09,
+   "points": 0.07,
    "contribution": {
-    "egalitarian_utopia": 0.06
+    "egalitarian_utopia": 0.05
    },
    "factor_effect": {
-    "F7": 0.09
+    "F7": 0.07
    }
   },
   {
@@ -273,14 +279,14 @@
     "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
     "https://aiweekly.co/ai-news-today/edition/2026-08-26"
    ],
-   "points": 0.24,
+   "points": 0.19,
    "contribution": {
-    "benevolent_dictator": 0.1,
-    "protector_god": -0.07,
-    "orwell_1984": 0.22
+    "benevolent_dictator": 0.08,
+    "protector_god": -0.06,
+    "orwell_1984": 0.17
    },
    "factor_effect": {
-    "F6": 0.24
+    "F6": 0.19
    }
   }
  ]

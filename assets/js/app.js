@@ -930,7 +930,7 @@
           <div class="card pad"><h4 style="margin-bottom:10px">Novelty and scope</h4><table><tbody>
             <tr><td>New event</td><td class="n">×${ER.novelty.new}</td></tr><tr><td>Follow-up on a known story</td><td class="n">×${ER.novelty.development}</td></tr><tr><td>Rehash</td><td class="n">×${ER.novelty.rehash}</td></tr>
             <tr><td>Global (frontier labs, US, China, EU, UN)</td><td class="n">×${ER.scope.global}</td></tr><tr><td>National</td><td class="n">×${ER.scope.national}</td></tr><tr><td>Local / niche</td><td class="n">×${ER.scope.local}</td></tr></tbody></table></div>
-          <div class="card pad"><h4 style="margin-bottom:10px">Two tracks</h4><p class="muted"><b style="color:var(--ink)">Structural</b> things actually happened: a law enacted, a model released, an incident confirmed. Their effect is permanent until reversed.</p><p class="muted" style="margin-top:10px"><b style="color:var(--ink)">Signal</b> words and intentions: announcements, proposals, speeches. Their effect fades, halving every ${D.signal_half_life_days} days.</p><p class="small dim" style="margin-top:10px">One main factor, plus an optional second factor that counts half. A deliberately skeptical second pass re-checks every T3 and T4 rating.</p></div>
+          <div class="card pad"><h4 style="margin-bottom:10px">Two tracks</h4><p class="muted"><b style="color:var(--ink)">Structural</b> things actually happened: a law enacted, a model released, an incident confirmed. Their effect is long-lasting, halving every ${D.structural_half_life_days} days.</p><p class="muted" style="margin-top:10px"><b style="color:var(--ink)">Signal</b> words and intentions: announcements, proposals, speeches. Their effect fades, halving every ${D.signal_half_life_days} days.</p><p class="small dim" style="margin-top:10px">One main factor, plus an optional second factor that counts half. A deliberately skeptical second pass re-checks every T3 and T4 rating.</p></div>
         </div>
         <p class="golden" style="max-width:none">Event points = tier × credibility × novelty × scope × direction</p>
       </section>
@@ -938,9 +938,9 @@
       <section class="section">
         <div class="section-head"><div><h2 class="h2" style="margin-top:8px">The maths, in six steps</h2></div></div>
         <div class="card pad table-wrap"><table><thead><tr><th>Step</th><th>What happens</th><th>Why</th></tr></thead><tbody>
-          <tr><td>1. Daily pressure</td><td>Each factor's event points are summed; a smoothing curve caps the day near ±${D.daily_saturation_S}.</td><td>Ten minor stories can't add up to a landmark.</td></tr>
+          <tr><td>1. Daily pressure</td><td>Each factor's event points are summed (a day with more than ${D.volume_reference_events} events counts as ${D.volume_reference_events}); a smoothing curve caps the day near ±${D.daily_saturation_S}.</td><td>Ten minor stories can't add up to a landmark.</td></tr>
           <tr><td>2. Edge softening</td><td>Within ${D.edge_softening_zone} points of 0 or 100, moves toward the edge shrink.</td><td>Factors approach extremes without slamming into them.</td></tr>
-          <tr><td>3. Memory</td><td>Structural effects stay; signal effects halve every ${D.signal_half_life_days} days.</td><td>Actions outweigh words.</td></tr>
+          <tr><td>3. Memory</td><td>Signal effects halve every ${D.signal_half_life_days} days; structural effects every ${D.structural_half_life_days} days; Capability Velocity (a pace) every ${D.rate_factor_half_life_days} days.</td><td>Actions outweigh words.</td></tr>
           <tr><td>4. Ending target</td><td>Starting level + ${D.amplifier_k} × change in the ending's factor recipe since ${fmtDate(R.effective_from)}.</td><td>Each ending follows its forces.</td></tr>
           <tr><td>5. Speed limit</td><td>The shown score moves at most ±${D.scenario_daily_cap} a day toward its target.</td><td>Shocks play out over days; nothing is lost.</td></tr>
           <tr><td>6. Bounds</td><td>Scores stay within ${D.scenario_bounds[0]}–${D.scenario_bounds[1]}; moves under ${D.no_change_threshold} show as no change.</td><td>No false certainty, no noise.</td></tr>

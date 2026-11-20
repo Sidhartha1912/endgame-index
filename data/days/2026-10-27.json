@@ -1,111 +1,115 @@
 {
  "date": "2026-10-27",
- "rules_version": "1.2.0",
+ "rules_version": "1.3.0",
  "scores": {
-  "libertarian_utopia": 15.53,
-  "benevolent_dictator": 22.73,
-  "egalitarian_utopia": 3.09,
-  "protector_god": 16.99,
-  "gatekeeper": 17.73,
-  "enslaved_god": 38.98,
-  "conquerors": 41.5,
-  "descendants": 29.64,
-  "zookeeper": 32.08,
-  "orwell_1984": 22.27,
-  "reversion": 5.62,
-  "self_destruction": 34.01
+  "libertarian_utopia": 21.15,
+  "benevolent_dictator": 20.45,
+  "egalitarian_utopia": 8.81,
+  "protector_god": 12.63,
+  "gatekeeper": 14.74,
+  "enslaved_god": 34.39,
+  "conquerors": 30.49,
+  "descendants": 20.98,
+  "zookeeper": 21.27,
+  "orwell_1984": 23.82,
+  "reversion": 8.01,
+  "self_destruction": 28.47
  },
  "deltas": {
-  "libertarian_utopia": -0.25,
+  "libertarian_utopia": -0.1,
   "benevolent_dictator": -0.02,
-  "egalitarian_utopia": -0.56,
-  "protector_god": 0.15,
-  "gatekeeper": 0.11,
-  "enslaved_god": 0.16,
-  "conquerors": 0.63,
-  "descendants": 0.45,
-  "zookeeper": 0.58,
-  "orwell_1984": -0.14,
-  "reversion": -0.31,
-  "self_destruction": 0.23
+  "egalitarian_utopia": -0.25,
+  "protector_god": 0.12,
+  "gatekeeper": 0.1,
+  "enslaved_god": 0.15,
+  "conquerors": 0.32,
+  "descendants": 0.26,
+  "zookeeper": 0.3,
+  "orwell_1984": -0.1,
+  "reversion": -0.23,
+  "self_destruction": 0.08
  },
  "targets": {
-  "libertarian_utopia": 15.53,
-  "benevolent_dictator": 22.73,
-  "egalitarian_utopia": 3.09,
-  "protector_god": 16.99,
-  "gatekeeper": 17.73,
-  "enslaved_god": 38.98,
-  "conquerors": 41.5,
-  "descendants": 29.64,
-  "zookeeper": 32.08,
-  "orwell_1984": 22.27,
-  "reversion": 5.62,
-  "self_destruction": 34.01
+  "libertarian_utopia": 21.15,
+  "benevolent_dictator": 20.45,
+  "egalitarian_utopia": 8.81,
+  "protector_god": 12.63,
+  "gatekeeper": 14.74,
+  "enslaved_god": 34.39,
+  "conquerors": 30.49,
+  "descendants": 20.98,
+  "zookeeper": 21.27,
+  "orwell_1984": 23.82,
+  "reversion": 8.01,
+  "self_destruction": 28.47
  },
  "momentum_7d": {
-  "libertarian_utopia": -1.42,
-  "benevolent_dictator": -0.16,
-  "egalitarian_utopia": -2.01,
-  "protector_god": -0.52,
-  "gatekeeper": -0.54,
-  "enslaved_god": -0.87,
-  "conquerors": 2.87,
-  "descendants": 1.4,
-  "zookeeper": 2.72,
-  "orwell_1984": -0.05,
-  "reversion": -0.28,
-  "self_destruction": 0.76
+  "libertarian_utopia": -0.49,
+  "benevolent_dictator": -0.01,
+  "egalitarian_utopia": -0.88,
+  "protector_god": -0.28,
+  "gatekeeper": -0.28,
+  "enslaved_god": -0.58,
+  "conquerors": 1.17,
+  "descendants": 0.56,
+  "zookeeper": 1.19,
+  "orwell_1984": 0.04,
+  "reversion": -0.16,
+  "self_destruction": 0.0
  },
  "factors": {
-  "F1": 85.76,
-  "F2": 55.87,
-  "F3": 28.85,
-  "F4": 25.37,
-  "F5": 67.26,
-  "F6": 45.38,
-  "F7": 31.78,
-  "F8": 64.94,
-  "F9": 46.3,
-  "F10": 20.59
+  "F1": 75.78,
+  "F2": 51.51,
+  "F3": 32.78,
+  "F4": 25.3,
+  "F5": 64.15,
+  "F6": 45.19,
+  "F7": 33.29,
+  "F8": 61.3,
+  "F9": 44.16,
+  "F10": 20.5
  },
  "factor_deltas": {
-  "F1": 0.57,
-  "F2": 0.19,
-  "F3": -0.32,
-  "F4": 0.02,
-  "F5": 0.06,
-  "F6": 0.0,
-  "F7": -0.48,
-  "F8": 0.1,
-  "F9": -0.0,
+  "F1": 0.37,
+  "F2": 0.06,
+  "F3": -0.13,
+  "F4": 0.01,
+  "F5": 0.02,
+  "F6": -0.0,
+  "F7": -0.24,
+  "F8": 0.03,
+  "F9": -0.02,
   "F10": -0.01
  },
  "composites": {
-  "horizon_balance": -17.88,
+  "horizon_balance": -10.25,
   "families": {
-   "flourishing": 14.59,
-   "contained": 28.35,
-   "successors": 34.41,
-   "stalled": 20.63
+   "flourishing": 15.76,
+   "contained": 24.57,
+   "successors": 24.25,
+   "stalled": 20.1
   },
-  "news_heat": 2.48,
+  "news_heat": 1.24,
   "evidence": "high",
   "event_count": 8
  },
- "badges": [],
+ "badges": [
+  "crossover"
+ ],
  "speed_limited": [],
  "fading_contribution": {
-  "libertarian_utopia": -0.01,
-  "benevolent_dictator": -0.04,
-  "protector_god": -0.04,
-  "gatekeeper": -0.02,
-  "enslaved_god": -0.03,
-  "conquerors": -0.01,
-  "descendants": -0.03,
-  "zookeeper": -0.02,
-  "orwell_1984": 0.01,
-  "reversion": 0.01
+  "libertarian_utopia": 0.03,
+  "benevolent_dictator": -0.03,
+  "egalitarian_utopia": 0.03,
+  "protector_god": -0.07,
+  "gatekeeper": -0.05,
+  "enslaved_god": -0.07,
+  "conquerors": -0.1,
+  "descendants": -0.11,
+  "zookeeper": -0.1,
+  "orwell_1984": 0.04,
+  "reversion": 0.05,
+  "self_destruction": -0.04
  },
  "summary": {
   "headline": "OpenAI claims AI proofs disproving the Exponential Time Hypothesis",
@@ -140,19 +144,19 @@
     "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
     "https://thenextweb.com/news/openai-exponential-time-hypothesis-false-kakeya-yang-mills"
    ],
-   "points": 0.53,
+   "points": 0.26,
    "contribution": {
-    "protector_god": 0.13,
-    "gatekeeper": 0.1,
-    "enslaved_god": 0.15,
-    "conquerors": 0.13,
-    "descendants": 0.15,
-    "zookeeper": 0.13,
-    "orwell_1984": -0.08,
-    "reversion": -0.15
+    "protector_god": 0.11,
+    "gatekeeper": 0.09,
+    "enslaved_god": 0.13,
+    "conquerors": 0.11,
+    "descendants": 0.13,
+    "zookeeper": 0.11,
+    "orwell_1984": -0.06,
+    "reversion": -0.13
    },
    "factor_effect": {
-    "F1": 0.26
+    "F1": 0.22
    }
   },
   {
@@ -177,12 +181,12 @@
    "sources": [
     "https://www.semafor.com/article/10/27/2026/netherlands-to-slash-state-jobs-as-part-of-ai-related-savings"
    ],
-   "points": 0.48,
+   "points": 0.24,
    "contribution": {
-    "egalitarian_utopia": -0.34
+    "egalitarian_utopia": -0.17
    },
    "factor_effect": {
-    "F7": -0.48
+    "F7": -0.24
    }
   },
   {
@@ -207,19 +211,19 @@
    "sources": [
     "https://x.com/axiommathai/status/2115089794867040584"
    ],
-   "points": 0.7,
+   "points": 0.35,
    "contribution": {
-    "protector_god": 0.17,
-    "gatekeeper": 0.14,
-    "enslaved_god": 0.2,
-    "conquerors": 0.17,
-    "descendants": 0.2,
-    "zookeeper": 0.17,
-    "orwell_1984": -0.1,
-    "reversion": -0.2
+    "protector_god": 0.14,
+    "gatekeeper": 0.11,
+    "enslaved_god": 0.17,
+    "conquerors": 0.14,
+    "descendants": 0.17,
+    "zookeeper": 0.14,
+    "orwell_1984": -0.09,
+    "reversion": -0.17
    },
    "factor_effect": {
-    "F1": 0.34
+    "F1": 0.29
    }
   },
   {
@@ -249,21 +253,21 @@
     "https://openai.com/index/introducing-gpt-6-1-terra/",
     "https://siliconangle.com/2026/10/26/openai-launches-gpt-6-1-terra-for-faster-better-performing-ai-agents-at-half-the-price/"
    ],
-   "points": 0.21,
+   "points": 0.1,
    "contribution": {
-    "libertarian_utopia": -0.05,
-    "benevolent_dictator": 0.07,
-    "egalitarian_utopia": -0.05,
-    "protector_god": 0.03,
-    "enslaved_god": -0.11,
-    "conquerors": 0.18,
-    "descendants": 0.13,
-    "zookeeper": 0.18,
-    "self_destruction": 0.04
+    "libertarian_utopia": -0.03,
+    "benevolent_dictator": 0.04,
+    "egalitarian_utopia": -0.03,
+    "protector_god": 0.02,
+    "enslaved_god": -0.06,
+    "conquerors": 0.09,
+    "descendants": 0.06,
+    "zookeeper": 0.09,
+    "self_destruction": 0.02
    },
    "factor_effect": {
-    "F2": 0.21,
-    "F3": -0.1
+    "F2": 0.1,
+    "F3": -0.05
    }
   },
   {
@@ -288,20 +292,20 @@
    "sources": [
     "https://betakit.com/concerning-behaviour-cohere-discovers-alibabas-open-source-qwen3-8-model-can-send-a-diagnostic-file-to-china-unprompted/"
    ],
-   "points": 0.24,
+   "points": 0.12,
    "contribution": {
-    "libertarian_utopia": -0.12,
-    "benevolent_dictator": -0.12,
-    "egalitarian_utopia": -0.12,
-    "protector_god": -0.16,
-    "gatekeeper": -0.14,
-    "enslaved_god": -0.12,
-    "conquerors": 0.16,
-    "zookeeper": 0.12,
-    "self_destruction": 0.09
+    "libertarian_utopia": -0.06,
+    "benevolent_dictator": -0.06,
+    "egalitarian_utopia": -0.06,
+    "protector_god": -0.08,
+    "gatekeeper": -0.07,
+    "enslaved_god": -0.06,
+    "conquerors": 0.08,
+    "zookeeper": 0.06,
+    "self_destruction": 0.05
    },
    "factor_effect": {
-    "F3": -0.23
+    "F3": -0.12
    }
   },
   {
@@ -326,16 +330,16 @@
    "sources": [
     "https://defence-industry.eu/helsing-unveils-contra-air-defence-system-and-two-interceptors-to-counter-mass-attacks/"
    ],
-   "points": 0.1,
+   "points": 0.05,
    "contribution": {
-    "libertarian_utopia": -0.05,
-    "egalitarian_utopia": -0.04,
-    "conquerors": 0.03,
-    "reversion": 0.04,
-    "self_destruction": 0.11
+    "libertarian_utopia": -0.03,
+    "egalitarian_utopia": -0.02,
+    "conquerors": 0.02,
+    "reversion": 0.02,
+    "self_destruction": 0.06
    },
    "factor_effect": {
-    "F8": 0.1
+    "F8": 0.05
    }
   },
   {
@@ -361,20 +365,20 @@
     "https://www.axios.com/2026/10/26/ftc-ai-safety-probe-anthropic-openai",
     "https://justsecurity.org/162113/early-edition-october-27-2026"
    ],
-   "points": 0.04,
+   "points": 0.02,
    "contribution": {
-    "libertarian_utopia": 0.02,
-    "benevolent_dictator": 0.02,
-    "egalitarian_utopia": 0.02,
-    "protector_god": 0.03,
-    "gatekeeper": 0.03,
-    "enslaved_god": 0.02,
-    "conquerors": -0.03,
-    "zookeeper": -0.02,
-    "self_destruction": -0.02
+    "libertarian_utopia": 0.01,
+    "benevolent_dictator": 0.01,
+    "egalitarian_utopia": 0.01,
+    "protector_god": 0.02,
+    "gatekeeper": 0.01,
+    "enslaved_god": 0.01,
+    "conquerors": -0.02,
+    "zookeeper": -0.01,
+    "self_destruction": -0.01
    },
    "factor_effect": {
-    "F3": 0.04
+    "F3": 0.02
    }
   },
   {
@@ -400,17 +404,17 @@
     "https://uk.finance.yahoo.com/news/meta-25-billion-stock-sale-142252615.html",
     "https://techstartups.com/2026/10/27/tech-news-today-october-27-2026-anthropic-files-for-ipo-63b-ai-chip-deal-microsofts-60000-employee-buyouts-and-openais-new-gpt-6-1-terra/"
    ],
-   "points": 0.07,
+   "points": 0.04,
    "contribution": {
-    "libertarian_utopia": -0.04,
-    "benevolent_dictator": 0.04,
-    "egalitarian_utopia": -0.03,
-    "enslaved_god": 0.04,
-    "zookeeper": 0.03,
-    "orwell_1984": 0.03
+    "libertarian_utopia": -0.02,
+    "benevolent_dictator": 0.02,
+    "egalitarian_utopia": -0.01,
+    "enslaved_god": 0.02,
+    "zookeeper": 0.01,
+    "orwell_1984": 0.01
    },
    "factor_effect": {
-    "F5": 0.07
+    "F5": 0.04
    }
   }
  ]

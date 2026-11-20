@@ -1,5 +1,5 @@
 {
-  "version": "1.2.0",
+  "version": "1.3.0",
   "effective_from": "2026-04-14",
   "day_window": {
     "timezone": "Asia/Kolkata",
@@ -309,7 +309,12 @@
   "dynamics": {
     "daily_saturation_S": 6.0,
     "signal_half_life_days": 21,
-    "structural_half_life_days": null,
+    "structural_half_life_days": 180,
+    "rate_factors": [
+      "F1"
+    ],
+    "rate_factor_half_life_days": 45,
+    "volume_reference_events": 4,
     "edge_softening_zone": 30,
     "amplifier_k": 2.0,
     "scenario_daily_cap": 3.0,
@@ -342,7 +347,7 @@
   "sources": {
     "A": [
       "Government and regulator sites (e.g. whitehouse.gov, europa.eu, pib.gov.in, gov.uk, gov.cn)",
-      "UN, OECD, G7/G20 communiqu\u00e9s",
+      "UN, OECD, G7/G20 communiqués",
       "Court filings and rulings",
       "Peer-reviewed journals (Nature, Science)",
       "Official lab publications, model cards and system cards (self-claim multiplier applies)"

@@ -1,95 +1,95 @@
 {
  "date": "2026-08-10",
- "rules_version": "1.2.0",
+ "rules_version": "1.3.0",
  "scores": {
-  "libertarian_utopia": 25.47,
-  "benevolent_dictator": 25.23,
-  "egalitarian_utopia": 12.78,
-  "protector_god": 19.79,
-  "gatekeeper": 20.5,
-  "enslaved_god": 41.55,
-  "conquerors": 25.57,
-  "descendants": 22.59,
-  "zookeeper": 19.31,
-  "orwell_1984": 23.48,
-  "reversion": 3.98,
-  "self_destruction": 22.7
+  "libertarian_utopia": 26.87,
+  "benevolent_dictator": 23.34,
+  "egalitarian_utopia": 14.3,
+  "protector_god": 16.04,
+  "gatekeeper": 18.23,
+  "enslaved_god": 37.55,
+  "conquerors": 21.37,
+  "descendants": 17.91,
+  "zookeeper": 14.63,
+  "orwell_1984": 24.77,
+  "reversion": 6.56,
+  "self_destruction": 21.19
  },
  "deltas": {
-  "libertarian_utopia": 0.32,
-  "benevolent_dictator": -0.23,
-  "egalitarian_utopia": 0.22,
-  "protector_god": 0.24,
-  "gatekeeper": 0.24,
-  "enslaved_god": -0.11,
-  "conquerors": 0.26,
-  "descendants": 0.3,
-  "zookeeper": 0.05,
-  "orwell_1984": -0.31,
-  "reversion": -0.26,
+  "libertarian_utopia": 0.27,
+  "benevolent_dictator": -0.2,
+  "egalitarian_utopia": 0.19,
+  "protector_god": 0.2,
+  "gatekeeper": 0.2,
+  "enslaved_god": -0.08,
+  "conquerors": 0.2,
+  "descendants": 0.24,
+  "zookeeper": 0.03,
+  "orwell_1984": -0.26,
+  "reversion": -0.24,
   "self_destruction": -0.04
  },
  "targets": {
-  "libertarian_utopia": 25.47,
-  "benevolent_dictator": 25.23,
-  "egalitarian_utopia": 12.78,
-  "protector_god": 19.79,
-  "gatekeeper": 20.5,
-  "enslaved_god": 41.55,
-  "conquerors": 25.57,
-  "descendants": 22.59,
-  "zookeeper": 19.31,
-  "orwell_1984": 23.48,
-  "reversion": 3.98,
-  "self_destruction": 22.7
+  "libertarian_utopia": 26.87,
+  "benevolent_dictator": 23.34,
+  "egalitarian_utopia": 14.3,
+  "protector_god": 16.04,
+  "gatekeeper": 18.23,
+  "enslaved_god": 37.55,
+  "conquerors": 21.37,
+  "descendants": 17.91,
+  "zookeeper": 14.63,
+  "orwell_1984": 24.77,
+  "reversion": 6.56,
+  "self_destruction": 21.19
  },
  "momentum_7d": {
-  "libertarian_utopia": -0.22,
-  "benevolent_dictator": 0.09,
-  "egalitarian_utopia": -0.46,
-  "protector_god": 0.88,
-  "gatekeeper": 0.68,
-  "enslaved_god": 0.58,
-  "conquerors": 1.0,
-  "descendants": 0.96,
-  "zookeeper": 0.67,
-  "orwell_1984": -0.51,
-  "reversion": -0.32,
-  "self_destruction": 0.93
+  "libertarian_utopia": -0.1,
+  "benevolent_dictator": 0.02,
+  "egalitarian_utopia": -0.27,
+  "protector_god": 0.6,
+  "gatekeeper": 0.46,
+  "enslaved_god": 0.39,
+  "conquerors": 0.6,
+  "descendants": 0.6,
+  "zookeeper": 0.35,
+  "orwell_1984": -0.38,
+  "reversion": -0.24,
+  "self_destruction": 0.66
  },
  "factors": {
-  "F1": 79.23,
-  "F2": 51.17,
-  "F3": 40.95,
-  "F4": 24.7,
-  "F5": 65.66,
-  "F6": 45.56,
-  "F7": 32.53,
-  "F8": 58.76,
-  "F9": 43.21,
-  "F10": 20.18
+  "F1": 73.18,
+  "F2": 49.46,
+  "F3": 40.99,
+  "F4": 25.61,
+  "F5": 64.14,
+  "F6": 45.25,
+  "F7": 33.27,
+  "F8": 57.81,
+  "F9": 42.54,
+  "F10": 20.16
  },
  "factor_deltas": {
-  "F1": 0.41,
-  "F2": 0.09,
+  "F1": 0.35,
+  "F2": 0.05,
   "F3": -0.01,
-  "F4": 0.08,
-  "F5": -0.55,
-  "F6": 0.0,
-  "F7": 0.0,
-  "F8": -0.01,
-  "F9": -0.01,
+  "F4": 0.06,
+  "F5": -0.45,
+  "F6": -0.0,
+  "F7": 0.01,
+  "F8": -0.02,
+  "F9": -0.02,
   "F10": -0.0
  },
  "composites": {
-  "horizon_balance": -1.95,
+  "horizon_balance": -0.36,
   "families": {
-   "flourishing": 20.82,
-   "contained": 31.03,
-   "successors": 22.49,
-   "stalled": 16.72
+   "flourishing": 20.14,
+   "contained": 27.89,
+   "successors": 17.97,
+   "stalled": 17.51
   },
-  "news_heat": 1.82,
+  "news_heat": 1.46,
   "evidence": "medium",
   "event_count": 5
  },
@@ -98,13 +98,18 @@
  ],
  "speed_limited": [],
  "fading_contribution": {
-  "benevolent_dictator": -0.01,
-  "protector_god": -0.01,
-  "gatekeeper": -0.02,
-  "enslaved_god": -0.01,
-  "conquerors": 0.01,
-  "zookeeper": 0.01,
-  "reversion": -0.01
+  "libertarian_utopia": 0.01,
+  "benevolent_dictator": -0.02,
+  "egalitarian_utopia": 0.01,
+  "protector_god": -0.05,
+  "gatekeeper": -0.05,
+  "enslaved_god": -0.05,
+  "conquerors": -0.05,
+  "descendants": -0.06,
+  "zookeeper": -0.05,
+  "orwell_1984": 0.01,
+  "reversion": 0.02,
+  "self_destruction": -0.01
  },
  "summary": {
   "headline": "Meta opens its models as Wall Street lines up $500B",
@@ -136,17 +141,17 @@
     "https://www.reuters.com/world/china/meta-launches-new-ai-model-zuckerberg-champions-open-weight-push-2026-08-10/",
     "https://www.cnbc.com/2026/08/10/meta-muse-glimmer-open-weight-ai.html"
    ],
-   "points": 0.8,
+   "points": 0.64,
    "contribution": {
-    "libertarian_utopia": 0.48,
-    "benevolent_dictator": -0.4,
-    "egalitarian_utopia": 0.32,
-    "enslaved_god": -0.48,
-    "zookeeper": -0.32,
-    "orwell_1984": -0.32
+    "libertarian_utopia": 0.38,
+    "benevolent_dictator": -0.32,
+    "egalitarian_utopia": 0.26,
+    "enslaved_god": -0.38,
+    "zookeeper": -0.26,
+    "orwell_1984": -0.26
    },
    "factor_effect": {
-    "F5": -0.8
+    "F5": -0.64
    }
   },
   {
@@ -175,23 +180,23 @@
    "sources": [
     "https://siliconangle.com/2026/08/10/nvidia-taps-wall-street-half-trillion-dollars-fuel-global-ai-infrastructure-buildout/"
    ],
-   "points": 0.5,
+   "points": 0.4,
    "contribution": {
-    "libertarian_utopia": -0.15,
-    "benevolent_dictator": 0.12,
-    "egalitarian_utopia": -0.1,
+    "libertarian_utopia": -0.12,
+    "benevolent_dictator": 0.1,
+    "egalitarian_utopia": -0.08,
     "protector_god": 0.18,
-    "gatekeeper": 0.14,
-    "enslaved_god": 0.36,
+    "gatekeeper": 0.15,
+    "enslaved_god": 0.34,
     "conquerors": 0.18,
-    "descendants": 0.21,
-    "zookeeper": 0.28,
-    "orwell_1984": -0.01,
-    "reversion": -0.21
+    "descendants": 0.22,
+    "zookeeper": 0.26,
+    "orwell_1984": -0.03,
+    "reversion": -0.22
    },
    "factor_effect": {
-    "F1": 0.35,
-    "F5": 0.25
+    "F1": 0.36,
+    "F5": 0.2
    }
   },
   {
@@ -216,14 +221,14 @@
    "sources": [
     "https://techstartups.com/2026/08/10/top-tech-news-today-august-10-2026-apple-google-meta-openai-unitree-more/"
    ],
-   "points": 0.09,
+   "points": 0.07,
    "contribution": {
-    "gatekeeper": 0.06,
-    "orwell_1984": 0.04,
+    "gatekeeper": 0.05,
+    "orwell_1984": 0.03,
     "self_destruction": -0.04
    },
    "factor_effect": {
-    "F4": 0.09
+    "F4": 0.07
    }
   },
   {
@@ -248,18 +253,18 @@
    "sources": [
     "https://techstartups.com/2026/08/10/top-tech-news-today-august-10-2026-apple-google-meta-openai-unitree-more/"
    ],
-   "points": 0.09,
+   "points": 0.07,
    "contribution": {
-    "benevolent_dictator": 0.05,
+    "benevolent_dictator": 0.04,
     "protector_god": 0.04,
-    "gatekeeper": 0.03,
-    "enslaved_god": -0.03,
+    "gatekeeper": 0.02,
+    "enslaved_god": -0.02,
     "conquerors": 0.04,
-    "descendants": 0.05,
-    "zookeeper": 0.05
+    "descendants": 0.04,
+    "zookeeper": 0.04
    },
    "factor_effect": {
-    "F2": 0.09
+    "F2": 0.07
    }
   },
   {
@@ -284,7 +289,7 @@
    "sources": [
     "https://techstartups.com/2026/08/10/top-tech-news-today-august-10-2026-apple-google-meta-openai-unitree-more/"
    ],
-   "points": 0.09,
+   "points": 0.07,
    "contribution": {
     "protector_god": 0.03,
     "gatekeeper": 0.03,
@@ -296,7 +301,7 @@
     "reversion": -0.04
    },
    "factor_effect": {
-    "F1": 0.06
+    "F1": 0.07
    }
   }
  ]

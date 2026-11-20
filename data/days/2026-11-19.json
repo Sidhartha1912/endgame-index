@@ -1,111 +1,113 @@
 {
  "date": "2026-11-19",
- "rules_version": "1.2.0",
+ "rules_version": "1.3.0",
  "scores": {
-  "libertarian_utopia": 12.25,
-  "benevolent_dictator": 23.48,
-  "egalitarian_utopia": 1.0,
-  "protector_god": 17.87,
-  "gatekeeper": 19.16,
-  "enslaved_god": 39.47,
-  "conquerors": 46.57,
-  "descendants": 32.67,
-  "zookeeper": 35.53,
-  "orwell_1984": 22.87,
-  "reversion": 8.34,
-  "self_destruction": 39.65
+  "libertarian_utopia": 19.96,
+  "benevolent_dictator": 20.8,
+  "egalitarian_utopia": 7.9,
+  "protector_god": 12.97,
+  "gatekeeper": 15.6,
+  "enslaved_god": 34.55,
+  "conquerors": 32.16,
+  "descendants": 21.96,
+  "zookeeper": 22.16,
+  "orwell_1984": 24.32,
+  "reversion": 9.29,
+  "self_destruction": 30.81
  },
  "deltas": {
-  "libertarian_utopia": -0.42,
-  "benevolent_dictator": 0.13,
-  "egalitarian_utopia": 0.0,
-  "protector_god": -0.53,
-  "gatekeeper": -0.33,
-  "enslaved_god": -0.11,
-  "conquerors": 0.63,
-  "descendants": 0.2,
-  "zookeeper": 0.58,
-  "orwell_1984": 0.67,
-  "reversion": 0.45,
-  "self_destruction": 0.29
+  "libertarian_utopia": -0.16,
+  "benevolent_dictator": 0.04,
+  "egalitarian_utopia": -0.15,
+  "protector_god": -0.24,
+  "gatekeeper": -0.16,
+  "enslaved_god": -0.04,
+  "conquerors": 0.25,
+  "descendants": 0.07,
+  "zookeeper": 0.23,
+  "orwell_1984": 0.29,
+  "reversion": 0.17,
+  "self_destruction": 0.09
  },
  "targets": {
-  "libertarian_utopia": 12.25,
-  "benevolent_dictator": 23.48,
-  "egalitarian_utopia": 1.0,
-  "protector_god": 17.87,
-  "gatekeeper": 19.16,
-  "enslaved_god": 39.47,
-  "conquerors": 46.57,
-  "descendants": 32.67,
-  "zookeeper": 35.53,
-  "orwell_1984": 22.87,
-  "reversion": 8.34,
-  "self_destruction": 39.65
+  "libertarian_utopia": 19.96,
+  "benevolent_dictator": 20.8,
+  "egalitarian_utopia": 7.9,
+  "protector_god": 12.97,
+  "gatekeeper": 15.6,
+  "enslaved_god": 34.55,
+  "conquerors": 32.16,
+  "descendants": 21.96,
+  "zookeeper": 22.16,
+  "orwell_1984": 24.32,
+  "reversion": 9.29,
+  "self_destruction": 30.81
  },
  "momentum_7d": {
-  "libertarian_utopia": -1.98,
-  "benevolent_dictator": 0.78,
-  "egalitarian_utopia": -1.05,
-  "protector_god": 0.07,
-  "gatekeeper": -0.05,
-  "enslaved_god": -0.04,
-  "conquerors": 3.13,
-  "descendants": 1.78,
-  "zookeeper": 2.61,
-  "orwell_1984": 0.62,
-  "reversion": 0.85,
-  "self_destruction": 2.73
+  "libertarian_utopia": -0.83,
+  "benevolent_dictator": 0.36,
+  "egalitarian_utopia": -0.66,
+  "protector_god": 0.19,
+  "gatekeeper": 0.18,
+  "enslaved_god": 0.14,
+  "conquerors": 1.47,
+  "descendants": 0.92,
+  "zookeeper": 1.24,
+  "orwell_1984": 0.25,
+  "reversion": 0.11,
+  "self_destruction": 1.13
  },
  "factors": {
-  "F1": 88.81,
-  "F2": 57.64,
-  "F3": 27.18,
-  "F4": 26.33,
-  "F5": 67.31,
-  "F6": 46.62,
-  "F7": 32.0,
-  "F8": 69.9,
-  "F9": 48.87,
-  "F10": 20.74
+  "F1": 76.72,
+  "F2": 52.06,
+  "F3": 32.47,
+  "F4": 26.02,
+  "F5": 64.0,
+  "F6": 45.81,
+  "F7": 33.46,
+  "F8": 63.64,
+  "F9": 45.06,
+  "F10": 20.62
  },
  "factor_deltas": {
-  "F1": 0.25,
-  "F2": 0.09,
-  "F3": -0.66,
-  "F4": -0.09,
-  "F5": 0.17,
-  "F6": 0.8,
+  "F1": 0.11,
+  "F2": 0.01,
+  "F3": -0.28,
+  "F4": -0.05,
+  "F5": 0.07,
+  "F6": 0.35,
   "F7": 0.01,
-  "F8": -0.01,
-  "F9": 0.61,
+  "F8": -0.04,
+  "F9": 0.25,
   "F10": -0.0
  },
  "composites": {
-  "horizon_balance": -22.51,
+  "horizon_balance": -11.96,
   "families": {
-   "flourishing": 13.65,
-   "contained": 29.31,
-   "successors": 38.26,
-   "stalled": 23.62
+   "flourishing": 15.41,
+   "contained": 25.07,
+   "successors": 25.43,
+   "stalled": 21.47
   },
-  "news_heat": 3.44,
+  "news_heat": 1.53,
   "evidence": "high",
   "event_count": 9
  },
- "badges": [
-  "crossover"
- ],
+ "badges": [],
  "speed_limited": [],
  "fading_contribution": {
-  "libertarian_utopia": -0.01,
-  "benevolent_dictator": -0.03,
-  "protector_god": -0.04,
-  "gatekeeper": -0.05,
-  "enslaved_god": -0.04,
-  "descendants": -0.03,
-  "zookeeper": -0.01,
-  "self_destruction": 0.01
+  "libertarian_utopia": 0.03,
+  "benevolent_dictator": -0.02,
+  "egalitarian_utopia": 0.04,
+  "protector_god": -0.08,
+  "gatekeeper": -0.07,
+  "enslaved_god": -0.08,
+  "conquerors": -0.12,
+  "descendants": -0.11,
+  "zookeeper": -0.11,
+  "orwell_1984": 0.03,
+  "reversion": 0.05,
+  "self_destruction": -0.04
  },
  "summary": {
   "headline": "Arizona opens criminal probe of OpenAI; Meta's Muse read Signal messages",
@@ -144,22 +146,22 @@
     "https://www.reuters.com/legal/transactional/arizona-says-it-is-investigating-openai-other-firms-over-possible-rogue-agents-2026-11-19/",
     "https://www.investing.com/news/economy-news/arizona-investigating-openai-others-over-rogue-agents-reuters-reports-5037658"
    ],
-   "points": 0.48,
+   "points": 0.21,
    "contribution": {
-    "libertarian_utopia": -0.11,
-    "benevolent_dictator": -0.11,
-    "egalitarian_utopia": -0.11,
-    "protector_god": -0.16,
-    "gatekeeper": -0.13,
-    "enslaved_god": -0.11,
-    "conquerors": 0.16,
-    "zookeeper": 0.11,
-    "reversion": 0.48,
-    "self_destruction": 0.09
+    "libertarian_utopia": -0.05,
+    "benevolent_dictator": -0.05,
+    "egalitarian_utopia": -0.05,
+    "protector_god": -0.07,
+    "gatekeeper": -0.06,
+    "enslaved_god": -0.05,
+    "conquerors": 0.07,
+    "zookeeper": 0.05,
+    "reversion": 0.21,
+    "self_destruction": 0.04
    },
    "factor_effect": {
-    "F3": -0.22,
-    "F9": 0.48
+    "F3": -0.11,
+    "F9": 0.21
    }
   },
   {
@@ -188,22 +190,22 @@
    "sources": [
     "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show"
    ],
-   "points": 0.8,
+   "points": 0.36,
    "contribution": {
-    "libertarian_utopia": -0.18,
-    "benevolent_dictator": 0.13,
-    "egalitarian_utopia": -0.18,
-    "protector_god": -0.5,
-    "gatekeeper": -0.22,
-    "enslaved_god": -0.18,
-    "conquerors": 0.26,
-    "zookeeper": 0.18,
-    "orwell_1984": 0.72,
-    "self_destruction": 0.15
+    "libertarian_utopia": -0.09,
+    "benevolent_dictator": 0.05,
+    "egalitarian_utopia": -0.09,
+    "protector_god": -0.23,
+    "gatekeeper": -0.11,
+    "enslaved_god": -0.09,
+    "conquerors": 0.12,
+    "zookeeper": 0.09,
+    "orwell_1984": 0.32,
+    "self_destruction": 0.07
    },
    "factor_effect": {
-    "F3": -0.37,
-    "F6": 0.8
+    "F3": -0.18,
+    "F6": 0.36
    }
   },
   {
@@ -232,23 +234,23 @@
    "sources": [
     "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
    ],
-   "points": 0.3,
+   "points": 0.13,
    "contribution": {
-    "libertarian_utopia": -0.18,
-    "benevolent_dictator": 0.15,
-    "egalitarian_utopia": -0.12,
+    "libertarian_utopia": -0.08,
+    "benevolent_dictator": 0.07,
+    "egalitarian_utopia": -0.05,
     "protector_god": 0.03,
     "gatekeeper": 0.02,
-    "enslaved_god": 0.21,
+    "enslaved_god": 0.11,
     "conquerors": 0.03,
     "descendants": 0.03,
-    "zookeeper": 0.15,
-    "orwell_1984": 0.1,
+    "zookeeper": 0.08,
+    "orwell_1984": 0.04,
     "reversion": -0.03
    },
    "factor_effect": {
-    "F1": 0.06,
-    "F5": 0.3
+    "F1": 0.05,
+    "F5": 0.13
    }
   },
   {
@@ -277,22 +279,22 @@
    "sources": [
     "https://www.euronews.com/2026/11/19/us-president-trump-rejects-global-ai-regulation-as-chinas-xi-calls-for-cooperation-on-safe"
    ],
-   "points": 0.07,
+   "points": 0.03,
    "contribution": {
-    "libertarian_utopia": -0.02,
-    "benevolent_dictator": -0.02,
-    "egalitarian_utopia": -0.02,
-    "protector_god": -0.02,
-    "gatekeeper": -0.06,
-    "enslaved_god": -0.02,
-    "conquerors": 0.02,
-    "zookeeper": 0.02,
-    "orwell_1984": -0.03,
-    "self_destruction": 0.04
+    "libertarian_utopia": -0.01,
+    "benevolent_dictator": -0.01,
+    "egalitarian_utopia": -0.01,
+    "protector_god": -0.01,
+    "gatekeeper": -0.03,
+    "enslaved_god": -0.01,
+    "conquerors": 0.01,
+    "zookeeper": 0.01,
+    "orwell_1984": -0.01,
+    "self_destruction": 0.02
    },
    "factor_effect": {
-    "F3": -0.03,
-    "F4": -0.06
+    "F3": -0.02,
+    "F4": -0.03
    }
   },
   {
@@ -318,19 +320,19 @@
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
     "https://www.digitaltrends.com/computing/google-says-gemini-4-neon-can-hang-with-claude-opus-5-5-and-gpt-6-2-sol-for-less/"
    ],
-   "points": 0.21,
+   "points": 0.09,
    "contribution": {
     "protector_god": 0.04,
     "gatekeeper": 0.03,
-    "enslaved_god": 0.05,
+    "enslaved_god": 0.04,
     "conquerors": 0.04,
-    "descendants": 0.05,
+    "descendants": 0.04,
     "zookeeper": 0.04,
     "orwell_1984": -0.02,
-    "reversion": -0.05
+    "reversion": -0.04
    },
    "factor_effect": {
-    "F1": 0.08
+    "F1": 0.07
    }
   },
   {
@@ -359,21 +361,21 @@
    "sources": [
     "https://openai.com/index/advancing-chip-design-with-our-models/"
    ],
-   "points": 0.21,
+   "points": 0.09,
    "contribution": {
-    "benevolent_dictator": 0.06,
-    "protector_god": 0.09,
-    "gatekeeper": 0.06,
-    "enslaved_god": 0.02,
-    "conquerors": 0.09,
-    "descendants": 0.11,
-    "zookeeper": 0.1,
+    "benevolent_dictator": 0.03,
+    "protector_god": 0.06,
+    "gatekeeper": 0.04,
+    "enslaved_god": 0.03,
+    "conquerors": 0.06,
+    "descendants": 0.07,
+    "zookeeper": 0.06,
     "orwell_1984": -0.02,
-    "reversion": -0.05
+    "reversion": -0.04
    },
    "factor_effect": {
-    "F1": 0.08,
-    "F2": 0.1
+    "F1": 0.07,
+    "F2": 0.05
    }
   },
   {
@@ -398,12 +400,12 @@
    "sources": [
     "https://www.wired.com/story/a-muslim-author-is-suing-xai-after-people-used-grok-to-strip-her-hijab"
    ],
-   "points": 0.14,
+   "points": 0.06,
    "contribution": {
-    "reversion": 0.14
+    "reversion": 0.06
    },
    "factor_effect": {
-    "F9": 0.14
+    "F9": 0.06
    }
   },
   {
@@ -428,17 +430,17 @@
    "sources": [
     "https://blog.cloudflare.com/open-clairic/"
    ],
-   "points": 0.13,
+   "points": 0.06,
    "contribution": {
-    "libertarian_utopia": 0.08,
-    "benevolent_dictator": -0.06,
-    "egalitarian_utopia": 0.05,
-    "enslaved_god": -0.08,
-    "zookeeper": -0.05,
-    "orwell_1984": -0.05
+    "libertarian_utopia": 0.03,
+    "benevolent_dictator": -0.03,
+    "egalitarian_utopia": 0.02,
+    "enslaved_god": -0.03,
+    "zookeeper": -0.02,
+    "orwell_1984": -0.02
    },
    "factor_effect": {
-    "F5": -0.13
+    "F5": -0.06
    }
   },
   {
@@ -463,10 +465,10 @@
    "sources": [
     "https://thenextweb.com/news/google-genie-4-project-genie-ai-ultra-world-model"
    ],
-   "points": 0.17,
+   "points": 0.07,
    "contribution": {
     "protector_god": 0.03,
-    "gatekeeper": 0.03,
+    "gatekeeper": 0.02,
     "enslaved_god": 0.04,
     "conquerors": 0.03,
     "descendants": 0.04,

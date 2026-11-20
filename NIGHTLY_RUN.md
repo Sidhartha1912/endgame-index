@@ -44,6 +44,8 @@ Rating rules:
 - **Be conservative.** T4 happens a few times a year. T3 happens a handful of times a month. Most events are T1 or T2.
 - **Skeptic pass.** Re-rate every T3 or T4 event as a skeptical reviewer. If the second rating is more than one tier lower, use the lower tier.
 - **Follow-ups.** If an event was already scored on an earlier day, use `"novelty": "development"`.
+- **No echo scoring.** When an incident was already scored, its follow-ups (lawsuits, probes, hearings about it) push only Tech Backlash (F9) or Global Coordination (F4). Do not lower Alignment & Control (F3) or raise Catastrophic Risk (F8) again for the same incident.
+- **Money is not capability.** Earnings, revenue, IPO filings, funding rounds and spending commitments do not move Capability Velocity (F1). F1 moves only for new capability actually shown: model releases, independent benchmark results, or compute that has actually come online. Money-only news goes to Power Concentration (F5), or is left out.
 - **Unclear direction.** If you can't tell which way an event pushes, leave it out and mention it in the summary as "on watch".
 
 ## 4. Compute

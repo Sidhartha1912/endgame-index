@@ -1,109 +1,113 @@
 {
  "date": "2026-10-07",
- "rules_version": "1.2.0",
+ "rules_version": "1.3.0",
  "scores": {
-  "libertarian_utopia": 18.24,
-  "benevolent_dictator": 22.79,
-  "egalitarian_utopia": 6.14,
-  "protector_god": 17.32,
-  "gatekeeper": 18.67,
-  "enslaved_god": 40.77,
-  "conquerors": 35.68,
-  "descendants": 26.44,
-  "zookeeper": 27.02,
-  "orwell_1984": 22.92,
-  "reversion": 5.51,
-  "self_destruction": 30.99
+  "libertarian_utopia": 22.48,
+  "benevolent_dictator": 20.44,
+  "egalitarian_utopia": 10.29,
+  "protector_god": 13.24,
+  "gatekeeper": 15.92,
+  "enslaved_god": 36.2,
+  "conquerors": 27.68,
+  "descendants": 19.64,
+  "zookeeper": 18.9,
+  "orwell_1984": 24.09,
+  "reversion": 7.5,
+  "self_destruction": 26.7
  },
  "deltas": {
-  "libertarian_utopia": -0.01,
+  "libertarian_utopia": 0.02,
   "benevolent_dictator": -0.01,
-  "egalitarian_utopia": 0.0,
-  "protector_god": 0.55,
-  "gatekeeper": 0.45,
-  "enslaved_god": 0.66,
-  "conquerors": 0.58,
-  "descendants": 0.67,
-  "zookeeper": 0.57,
-  "orwell_1984": -0.33,
-  "reversion": -0.11,
-  "self_destruction": -0.0
+  "egalitarian_utopia": 0.03,
+  "protector_god": 0.81,
+  "gatekeeper": 0.66,
+  "enslaved_god": 0.98,
+  "conquerors": 0.78,
+  "descendants": 0.95,
+  "zookeeper": 0.78,
+  "orwell_1984": -0.48,
+  "reversion": -0.43,
+  "self_destruction": -0.04
  },
  "targets": {
-  "libertarian_utopia": 18.24,
-  "benevolent_dictator": 22.79,
-  "egalitarian_utopia": 6.14,
-  "protector_god": 17.32,
-  "gatekeeper": 18.67,
-  "enslaved_god": 40.77,
-  "conquerors": 35.68,
-  "descendants": 26.44,
-  "zookeeper": 27.02,
-  "orwell_1984": 22.92,
-  "reversion": 5.51,
-  "self_destruction": 30.99
+  "libertarian_utopia": 22.48,
+  "benevolent_dictator": 20.44,
+  "egalitarian_utopia": 10.29,
+  "protector_god": 13.24,
+  "gatekeeper": 15.92,
+  "enslaved_god": 36.2,
+  "conquerors": 27.68,
+  "descendants": 19.64,
+  "zookeeper": 18.9,
+  "orwell_1984": 24.09,
+  "reversion": 7.5,
+  "self_destruction": 26.7
  },
  "momentum_7d": {
-  "libertarian_utopia": 0.07,
-  "benevolent_dictator": -0.79,
-  "egalitarian_utopia": -0.47,
-  "protector_god": 0.8,
-  "gatekeeper": 0.26,
-  "enslaved_god": -0.14,
-  "conquerors": 1.76,
-  "descendants": 1.42,
-  "zookeeper": 0.72,
-  "orwell_1984": -1.41,
-  "reversion": 0.08,
-  "self_destruction": 1.87
+  "libertarian_utopia": 0.2,
+  "benevolent_dictator": -0.7,
+  "egalitarian_utopia": -0.26,
+  "protector_god": 1.02,
+  "gatekeeper": 0.41,
+  "enslaved_god": 0.21,
+  "conquerors": 1.6,
+  "descendants": 1.49,
+  "zookeeper": 0.67,
+  "orwell_1984": -1.47,
+  "reversion": -0.2,
+  "self_destruction": 1.64
  },
  "factors": {
-  "F1": 83.86,
-  "F2": 52.63,
-  "F3": 33.01,
-  "F4": 25.61,
-  "F5": 67.05,
-  "F6": 45.46,
-  "F7": 32.41,
-  "F8": 63.82,
-  "F9": 45.5,
-  "F10": 20.43
+  "F1": 75.76,
+  "F2": 49.48,
+  "F3": 35.11,
+  "F4": 25.86,
+  "F5": 64.22,
+  "F6": 45.21,
+  "F7": 33.49,
+  "F8": 60.8,
+  "F9": 43.84,
+  "F10": 20.37
  },
  "factor_deltas": {
-  "F1": 1.13,
-  "F2": -0.0,
-  "F3": -0.02,
-  "F4": 0.02,
+  "F1": 1.61,
+  "F2": -0.02,
+  "F3": 0.02,
+  "F4": 0.01,
   "F5": -0.01,
-  "F6": 0.0,
+  "F6": -0.0,
   "F7": 0.01,
-  "F8": -0.0,
-  "F9": 0.56,
+  "F8": -0.02,
+  "F9": 0.55,
   "F10": -0.01
  },
  "composites": {
-  "horizon_balance": -13.03,
+  "horizon_balance": -7.73,
   "families": {
-   "flourishing": 16.12,
-   "contained": 29.72,
-   "successors": 29.72,
-   "stalled": 19.81
+   "flourishing": 16.61,
+   "contained": 26.06,
+   "successors": 22.07,
+   "stalled": 19.43
   },
   "news_heat": 3.11,
   "evidence": "medium",
   "event_count": 4
  },
- "badges": [
-  "crossover"
- ],
+ "badges": [],
  "speed_limited": [],
  "fading_contribution": {
-  "libertarian_utopia": -0.01,
+  "libertarian_utopia": 0.02,
   "benevolent_dictator": -0.01,
-  "protector_god": -0.02,
-  "enslaved_god": -0.02,
-  "descendants": -0.02,
-  "orwell_1984": 0.01
+  "egalitarian_utopia": 0.03,
+  "protector_god": -0.05,
+  "gatekeeper": -0.03,
+  "enslaved_god": -0.05,
+  "conquerors": -0.08,
+  "descendants": -0.08,
+  "zookeeper": -0.08,
+  "orwell_1984": 0.03,
+  "reversion": 0.04,
+  "self_destruction": -0.04
  },
  "summary": {
   "headline": "OpenAI releases 700+ AI math results, including Unique Games proof",
@@ -138,17 +142,17 @@
    ],
    "points": 2.0,
    "contribution": {
-    "protector_god": 0.55,
-    "gatekeeper": 0.44,
-    "enslaved_god": 0.67,
-    "conquerors": 0.55,
-    "descendants": 0.67,
-    "zookeeper": 0.55,
-    "orwell_1984": -0.33,
-    "reversion": -0.67
+    "protector_god": 0.83,
+    "gatekeeper": 0.67,
+    "enslaved_god": 1.0,
+    "conquerors": 0.83,
+    "descendants": 1.0,
+    "zookeeper": 0.83,
+    "orwell_1984": -0.5,
+    "reversion": -1.0
    },
    "factor_effect": {
-    "F1": 1.11
+    "F1": 1.67
    }
   },
   {
@@ -176,17 +180,17 @@
    ],
    "points": 0.3,
    "contribution": {
-    "protector_god": 0.08,
-    "gatekeeper": 0.07,
-    "enslaved_god": 0.1,
-    "conquerors": 0.08,
-    "descendants": 0.1,
-    "zookeeper": 0.08,
-    "orwell_1984": -0.05,
-    "reversion": -0.1
+    "protector_god": 0.12,
+    "gatekeeper": 0.1,
+    "enslaved_god": 0.15,
+    "conquerors": 0.12,
+    "descendants": 0.15,
+    "zookeeper": 0.12,
+    "orwell_1984": -0.07,
+    "reversion": -0.15
    },
    "factor_effect": {
-    "F1": 0.17
+    "F1": 0.25
    }
   },
   {
@@ -218,17 +222,17 @@
    ],
    "points": 0.48,
    "contribution": {
-    "protector_god": -0.07,
-    "gatekeeper": -0.05,
-    "enslaved_god": -0.08,
-    "conquerors": -0.07,
-    "descendants": -0.08,
-    "zookeeper": -0.07,
-    "orwell_1984": 0.04,
-    "reversion": 0.56
+    "protector_god": -0.1,
+    "gatekeeper": -0.08,
+    "enslaved_god": -0.12,
+    "conquerors": -0.1,
+    "descendants": -0.12,
+    "zookeeper": -0.1,
+    "orwell_1984": 0.06,
+    "reversion": 0.6
    },
    "factor_effect": {
-    "F1": -0.13,
+    "F1": -0.2,
     "F9": 0.48
    }
   },

@@ -1,109 +1,112 @@
 {
  "date": "2026-06-01",
- "rules_version": "1.2.0",
+ "rules_version": "1.3.0",
  "scores": {
-  "libertarian_utopia": 27.31,
-  "benevolent_dictator": 23.81,
-  "egalitarian_utopia": 14.52,
-  "protector_god": 16.66,
-  "gatekeeper": 17.83,
-  "enslaved_god": 39.76,
-  "conquerors": 20.72,
-  "descendants": 18.36,
-  "zookeeper": 14.79,
-  "orwell_1984": 24.52,
-  "reversion": 4.44,
-  "self_destruction": 20.43
+  "libertarian_utopia": 27.69,
+  "benevolent_dictator": 23.1,
+  "egalitarian_utopia": 14.97,
+  "protector_god": 15.23,
+  "gatekeeper": 16.81,
+  "enslaved_god": 38.33,
+  "conquerors": 19.21,
+  "descendants": 16.58,
+  "zookeeper": 13.07,
+  "orwell_1984": 24.92,
+  "reversion": 5.5,
+  "self_destruction": 20.14
  },
  "deltas": {
-  "libertarian_utopia": -0.25,
-  "benevolent_dictator": 0.44,
-  "egalitarian_utopia": -0.12,
-  "protector_god": 0.18,
-  "gatekeeper": 0.15,
-  "enslaved_god": 0.49,
+  "libertarian_utopia": -0.19,
+  "benevolent_dictator": 0.34,
+  "egalitarian_utopia": -0.08,
+  "protector_god": 0.1,
+  "gatekeeper": 0.09,
+  "enslaved_god": 0.35,
   "conquerors": -0.18,
-  "descendants": -0.01,
-  "zookeeper": 0.12,
-  "orwell_1984": 0.25,
-  "reversion": 0.48,
-  "self_destruction": -0.1
+  "descendants": -0.06,
+  "zookeeper": 0.05,
+  "orwell_1984": 0.21,
+  "reversion": 0.42,
+  "self_destruction": -0.09
  },
  "targets": {
-  "libertarian_utopia": 27.31,
-  "benevolent_dictator": 23.81,
-  "egalitarian_utopia": 14.52,
-  "protector_god": 16.66,
-  "gatekeeper": 17.83,
-  "enslaved_god": 39.76,
-  "conquerors": 20.72,
-  "descendants": 18.36,
-  "zookeeper": 14.79,
-  "orwell_1984": 24.52,
-  "reversion": 4.44,
-  "self_destruction": 20.43
+  "libertarian_utopia": 27.69,
+  "benevolent_dictator": 23.1,
+  "egalitarian_utopia": 14.97,
+  "protector_god": 15.23,
+  "gatekeeper": 16.81,
+  "enslaved_god": 38.33,
+  "conquerors": 19.21,
+  "descendants": 16.58,
+  "zookeeper": 13.07,
+  "orwell_1984": 24.92,
+  "reversion": 5.5,
+  "self_destruction": 20.14
  },
  "momentum_7d": {
-  "libertarian_utopia": -0.37,
-  "benevolent_dictator": 0.59,
-  "egalitarian_utopia": -0.19,
-  "protector_god": 0.32,
-  "gatekeeper": 0.42,
-  "enslaved_god": 0.91,
-  "conquerors": -0.02,
-  "descendants": 0.34,
-  "zookeeper": 0.43,
+  "libertarian_utopia": -0.2,
+  "benevolent_dictator": 0.4,
+  "egalitarian_utopia": -0.07,
+  "protector_god": 0.05,
+  "gatekeeper": 0.2,
+  "enslaved_god": 0.45,
+  "conquerors": -0.23,
+  "descendants": 0.05,
+  "zookeeper": 0.1,
   "orwell_1984": 0.38,
-  "reversion": 0.08,
-  "self_destruction": -0.25
+  "reversion": 0.23,
+  "self_destruction": -0.27
  },
  "factors": {
-  "F1": 74.7,
-  "F2": 48.43,
-  "F3": 41.76,
-  "F4": 23.95,
-  "F5": 65.15,
-  "F6": 45.76,
-  "F7": 32.94,
-  "F8": 56.64,
-  "F9": 41.8,
-  "F10": 20.36
+  "F1": 72.47,
+  "F2": 47.74,
+  "F3": 41.74,
+  "F4": 24.07,
+  "F5": 64.66,
+  "F6": 45.63,
+  "F7": 33.19,
+  "F8": 56.43,
+  "F9": 41.61,
+  "F10": 20.32
  },
  "factor_deltas": {
-  "F1": -0.01,
-  "F2": 0.0,
-  "F3": 0.25,
-  "F4": -0.0,
-  "F5": 0.61,
-  "F6": 0.0,
-  "F7": 0.0,
-  "F8": 0.0,
-  "F9": 0.48,
+  "F1": -0.07,
+  "F2": -0.01,
+  "F3": 0.2,
+  "F4": 0.0,
+  "F5": 0.48,
+  "F6": -0.0,
+  "F7": 0.01,
+  "F8": -0.01,
+  "F9": 0.37,
   "F10": -0.01
  },
  "composites": {
-  "horizon_balance": 0.46,
+  "horizon_balance": 0.91,
   "families": {
-   "flourishing": 20.58,
-   "contained": 28.79,
-   "successors": 17.96,
-   "stalled": 16.46
+   "flourishing": 20.25,
+   "contained": 27.57,
+   "successors": 16.29,
+   "stalled": 16.85
   },
-  "news_heat": 2.13,
+  "news_heat": 1.7,
   "evidence": "medium",
   "event_count": 5
  },
  "badges": [],
  "speed_limited": [],
  "fading_contribution": {
-  "benevolent_dictator": 0.01,
-  "egalitarian_utopia": 0.01,
-  "protector_god": 0.01,
-  "gatekeeper": 0.01,
-  "conquerors": -0.01,
-  "descendants": -0.01,
-  "zookeeper": -0.01,
-  "reversion": -0.02
+  "libertarian_utopia": 0.01,
+  "egalitarian_utopia": 0.02,
+  "protector_god": -0.03,
+  "gatekeeper": -0.02,
+  "enslaved_god": -0.04,
+  "conquerors": -0.05,
+  "descendants": -0.06,
+  "zookeeper": -0.05,
+  "orwell_1984": 0.02,
+  "reversion": 0.01,
+  "self_destruction": -0.01
  },
  "summary": {
   "headline": "Anthropic files for IPO as Florida sues OpenAI",
@@ -139,22 +142,22 @@
     "https://www.npr.org/2026/06/01/nx-s1-5843132/openai-florida-lawsuit-safety-chatgpt",
     "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/"
    ],
-   "points": 0.48,
+   "points": 0.38,
    "contribution": {
-    "libertarian_utopia": 0.12,
-    "benevolent_dictator": 0.12,
-    "egalitarian_utopia": 0.12,
-    "protector_god": 0.17,
-    "gatekeeper": 0.14,
-    "enslaved_god": 0.12,
-    "conquerors": -0.17,
-    "zookeeper": -0.12,
-    "reversion": 0.48,
-    "self_destruction": -0.1
+    "libertarian_utopia": 0.1,
+    "benevolent_dictator": 0.1,
+    "egalitarian_utopia": 0.1,
+    "protector_god": 0.13,
+    "gatekeeper": 0.12,
+    "enslaved_god": 0.1,
+    "conquerors": -0.13,
+    "zookeeper": -0.1,
+    "reversion": 0.38,
+    "self_destruction": -0.08
    },
    "factor_effect": {
-    "F3": 0.24,
-    "F9": 0.48
+    "F3": 0.19,
+    "F9": 0.38
    }
   },
   {
@@ -180,17 +183,17 @@
     "https://www.anthropic.com/news/confidential-draft-s1-sec",
     "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/"
    ],
-   "points": 1.0,
+   "points": 0.8,
    "contribution": {
-    "libertarian_utopia": -0.6,
-    "benevolent_dictator": 0.5,
-    "egalitarian_utopia": -0.4,
-    "enslaved_god": 0.6,
-    "zookeeper": 0.4,
-    "orwell_1984": 0.4
+    "libertarian_utopia": -0.48,
+    "benevolent_dictator": 0.4,
+    "egalitarian_utopia": -0.32,
+    "enslaved_god": 0.48,
+    "zookeeper": 0.32,
+    "orwell_1984": 0.32
    },
    "factor_effect": {
-    "F5": 1.0
+    "F5": 0.8
    }
   },
   {
@@ -216,17 +219,17 @@
     "https://www.cnbc.com/2026/06/02/nvidias-new-pc-chips-are-ceos-bid-to-own-every-part-of-ai-stack.html",
     "https://www.reuters.com/world/asia-pacific/what-are-ai-pcs-that-nvidias-jensen-huang-is-betting-2026-06-01/"
    ],
-   "points": 0.24,
+   "points": 0.19,
    "contribution": {
-    "libertarian_utopia": 0.14,
-    "benevolent_dictator": -0.12,
-    "egalitarian_utopia": 0.1,
-    "enslaved_god": -0.14,
-    "zookeeper": -0.1,
-    "orwell_1984": -0.1
+    "libertarian_utopia": 0.11,
+    "benevolent_dictator": -0.1,
+    "egalitarian_utopia": 0.08,
+    "enslaved_god": -0.11,
+    "zookeeper": -0.08,
+    "orwell_1984": -0.08
    },
    "factor_effect": {
-    "F5": -0.24
+    "F5": -0.19
    }
   },
   {
@@ -251,17 +254,17 @@
    "sources": [
     "https://apnews.com/article/canada-carney-artificial-intelligence-d8dfba818b84ccf5947f941731829254"
    ],
-   "points": 0.14,
+   "points": 0.12,
    "contribution": {
-    "libertarian_utopia": 0.09,
-    "benevolent_dictator": -0.07,
-    "egalitarian_utopia": 0.06,
-    "enslaved_god": -0.09,
-    "zookeeper": -0.06,
-    "orwell_1984": -0.06
+    "libertarian_utopia": 0.07,
+    "benevolent_dictator": -0.06,
+    "egalitarian_utopia": 0.05,
+    "enslaved_god": -0.07,
+    "zookeeper": -0.05,
+    "orwell_1984": -0.05
    },
    "factor_effect": {
-    "F5": -0.14
+    "F5": -0.11
    }
   },
   {
