@@ -1,9 +1,9 @@
 {
-  "headline": "OpenAI hires ex-Army Secretary as AI security warnings mount",
-  "body": "Security stories dominated. OpenAI hired former US Army Secretary Dan Driscoll for a national security role, the day's largest single push to Catastrophic Risk. The UK's NCSC said an AI-powered ransomware attack on UK critical infrastructure is 'highly likely' by 2028, and Binance said its $6.3 billion theft began with a fake job interview and hijacked internal AI tools. Together Catastrophic Risk rose 0.62. On the other side, Ibero-American countries formed an AI Alliance in Madrid, lifting Global Coordination, and a Brazilian court barred Meta from training AI on news content without permission, easing Power Concentration. Self-Destruction was the biggest mover; Libertarian Utopia fell. Horizon Balance fell to -18.32 from -17.93.",
-  "movers_note": "Self-Destruction +0.63, led by OpenAI's Driscoll hire (+0.33), the NCSC warning (+0.20) and the Binance theft (+0.16). Libertarian Utopia -0.27, mainly from the Driscoll hire (-0.15). Conquerors +0.25, spread across the Driscoll hire (+0.09) and the NCSC warning (+0.05).",
-  "coming_up": [
-    "Ibero-American Summit, 4-5 Nov",
-    "UNESCO AI Climate Institute launch, 16 Nov"
-  ]
+ "headline": "OpenAI hires ex-Army Secretary as AI security warnings mount",
+ "body": "Security stories dominated. OpenAI hired former US Army Secretary Dan Driscoll for a national security role, the day's largest single push to Catastrophic Risk. The UK's NCSC said an AI-powered ransomware attack on UK critical infrastructure is 'highly likely' by 2028, and Binance said its $6.3 billion theft began with a fake job interview and hijacked internal AI tools. Together Catastrophic Risk rose 0.33. On the other side, Ibero-American countries formed an AI Alliance in Madrid, lifting Global Coordination, and a Brazilian court barred Meta from training AI on news content without permission, easing Power Concentration. Self-Destruction was the biggest mover; Libertarian Utopia fell. Horizon Balance fell to -10.24 from -10.07.",
+ "movers_note": "Self-Destruction +0.3, mostly from OpenAI's Driscoll hire (+0.19) and the NCSC ransomware warning (+0.11), partly offset by the Ibero-American AI Alliance (-0.05) and smaller items (-0.04). Reversion +0.2, mostly from OpenAI's Driscoll hire (+0.07) and fading earlier news (+0.05). Libertarian Utopia -0.1, mostly from OpenAI's Driscoll hire (-0.09) and the NCSC ransomware warning (-0.05), partly offset by the Brazil Meta ruling (+0.05) and smaller items (+0.03).",
+ "coming_up": [
+  "Ibero-American Summit, 4-5 Nov",
+  "UNESCO AI Climate Institute launch, 16 Nov"
+ ]
 }

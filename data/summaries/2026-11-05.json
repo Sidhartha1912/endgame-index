@@ -1,10 +1,10 @@
 {
-  "headline": "Chinese open-weight releases and a cyber-jailbreak framework brighten the day",
-  "body": "A slightly better day. Moonshot released Kimi K3.1 Pro, a 2.8-trillion-parameter open-weight model, and Baidu open-sourced ERNIE 5.5 Flash Base, together pulling Power Concentration down 0.37. The Frontier Model Forum published a framework for rating jailbreaks against cyber threats, lifting Alignment & Control by 0.27. Against that, Microsoft said attackers are using an agentic AI tool to harvest GitHub secrets and breach cloud tenants, raising Catastrophic Risk. The US Justice Department launched a Super Intelligence Task Force, and about 600,000 Nvidia H200s were reported stuck in Hong Kong awaiting Beijing's approval, trimming Capability Velocity. Libertarian Utopia and Egalitarian Utopia rose while Zookeeper fell. Horizon Balance improved to -18.27 from -18.58.",
-  "movers_note": "Libertarian Utopia +0.30, led by the Frontier Model Forum framework (+0.15) and Kimi K3.1 Pro (+0.13), partly offset by the GitHub-secrets attacks (-0.15). Zookeeper -0.30, mainly from the Forum framework (-0.15). Egalitarian Utopia +0.25, led by the Forum framework (+0.15).",
-  "coming_up": [
-    "EU AI Gigafactories call closes 12 Nov",
-    "China's draft AI export-control consultation closes 15 Nov",
-    "Frontier Model Forum framework comments due 21 Dec"
-  ]
+ "headline": "Chinese open-weight releases and a cyber-jailbreak framework brighten the day",
+ "body": "A slightly better day. Moonshot released Kimi K3.1 Pro, a 2.8-trillion-parameter open-weight model, and Baidu open-sourced ERNIE 5.5 Flash Base, together pulling Power Concentration down 0.22. The Frontier Model Forum published a framework for rating jailbreaks against cyber threats, lifting Alignment & Control by 0.19. Against that, Microsoft said attackers are using an agentic AI tool to harvest GitHub secrets and breach cloud tenants, raising Catastrophic Risk. The US Justice Department launched a Super Intelligence Task Force, and about 600,000 Nvidia H200s were reported stuck in Hong Kong awaiting Beijing's approval, trimming Capability Velocity. Libertarian Utopia and Egalitarian Utopia rose while Zookeeper fell. Horizon Balance improved to -10.11 from -10.34.",
+ "movers_note": "Zookeeper -0.3, mostly from fading earlier news (-0.10) and the Frontier Model Forum framework (-0.09), partly offset by Google's Wyoming data center (+0.03). Conquerors -0.2, mostly from the Frontier Model Forum framework (-0.12) and fading earlier news (-0.11), partly offset by the GitHub-secrets attacks (+0.05) and smaller items (+0.05). Libertarian Utopia +0.2, mostly from the Frontier Model Forum framework (+0.09) and Kimi K3.1 Pro (+0.07), partly offset by the GitHub-secrets attacks (-0.09).",
+ "coming_up": [
+  "EU AI Gigafactories call closes 12 Nov",
+  "China's draft AI export-control consultation closes 15 Nov",
+  "Frontier Model Forum framework comments due 21 Dec"
+ ]
 }
